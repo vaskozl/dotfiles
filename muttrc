@@ -41,11 +41,11 @@ set editor = "vim"
 # Basic config, you can leave this as is
 #set hostname = gmail.com
 set mail_check = 5
-set timeout = 5
+set timeout = 15
 unset imap_passive
-set header_cache=~/.mutt/cache/headers
-set message_cachedir=~/.mutt/cache/bodies
-set certificate_file=~/.mutt/certificates
+set header_cache=~/.muttlocal/cache/headers
+set message_cachedir=~/.muttlocal/cache/bodies
+set certificate_file=~/.muttlocal/certificates
 set move = no
 set include
 set sort = 'threads'
@@ -90,5 +90,9 @@ macro pager \cb 'urlview' 'Follow links with urlview'
 
 bind index gg       first-entry
 bind index G        last-entry
-
 bind index R        group-reply
+
+# Status Bar 
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
