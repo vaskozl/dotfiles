@@ -1,0 +1,104 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.94.237 with SMTP id df13csp157701oab;
+        Mon, 21 Oct 2013 09:23:14 -0700 (PDT)
+X-Received: by 10.68.204.5 with SMTP id ku5mr18498804pbc.88.1382372590666;
+        Mon, 21 Oct 2013 09:23:10 -0700 (PDT)
+Return-Path: <no-reply@dropbox.com>
+Received: from sjd-rc1-5d.sjc.dropbox.com (sjd-rc1-5d.sjc.dropbox.com. [108.160.165.152])
+        by mx.google.com with ESMTPS id zl9si9017883pbc.204.2013.10.21.09.23.10
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1.1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 21 Oct 2013 09:23:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply@dropbox.com designates 108.160.165.152 as permitted sender) client-ip=108.160.165.152;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of no-reply@dropbox.com designates 108.160.165.152 as permitted sender) smtp.mail=no-reply@dropbox.com;
+       dkim=pass (test mode) header.i=@dropbox.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=dropbox.com
+Received: from snt-re2-2d.sjc.dropbox.com (snt-re2-2d.sjc.dropbox.com [108.160.163.20])
+	by sjd-rc1-5d.sjc.dropbox.com (Postfix) with ESMTP id 0ADBE402113A9
+	for <vasil.zlatanov@gmail.com>; Mon, 21 Oct 2013 16:23:10 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=dropbox.com; s=m1;
+	t=1382372590; bh=9sCgkB+Ekaxz05I3CtmikiF4F7MIFq2HYR7jrEzBSys=;
+	h=From:To:Subject:Date;
+	b=eHCiTj5Ajk2uznx76EO6Vf5Ubd+ICUWtDOZKVKWovpS8l7tkzCHXQYmN9tgki6GXL
+	 yMga60WVYJO+UuPvZSv8kEZySAvhI3hAXXfBp2zINY6kbxyiOe5GwUJr2qb4b2KLsP
+	 m80Xw6vW/KG0HDvnhT1eERBcYXx1WZ4DgoJ8Kge0=
+Received: from snt-re2-2d.sjc.dropbox.com (localhost [127.0.0.1])
+	by snt-re2-2d.sjc.dropbox.com (Postfix) with ESMTP id 032574024D48B
+	for <vasil.zlatanov@gmail.com>; Mon, 21 Oct 2013 16:23:10 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="===============0717646444437065942=="
+MIME-Version: 1.0
+From: Dropbox <no-reply@dropbox.com>
+To: vasil.zlatanov@gmail.com
+Subject: =?utf-8?q?You=27ve_linked_a_new_computer_to_Dropbox?=
+Date: Mon, 21 Oct 2013 16:23:10 +0000
+Message-Id: <20131021162310.032574024D48B@snt-re2-2d.sjc.dropbox.com>
+
+--===============0717646444437065942==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Hi Vasil,
+
+We see that you've linked a new computer, 'Admins-MacBook', to your Dropbox=
+.  Awesome!
+
+You can check on this and any other computers you've linked by visiting you=
+r account page:
+https://www.dropbox.com/l/lMvRmQxlTqdufJNKun8itE1/account/manage?text=3D1
+
+Happy Dropboxing!
+- The Dropbox Team
+
+P.S. If you didn't make this change, let us know
+https://www.dropbox.com/l/nFSKGlI57ftIzfIoea6eGw1/support?text=3D1
+--===============0717646444437065942==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><head><meta content=3D"text/ht=
+ml; charset=3Dutf-8" http-equiv=3D"Content-Type"></head><body style=3D"widt=
+h: 100% !important; margin: 0; padding: 0; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%;" marginheight=3D"0" marginwidth=3D"0"><center><=
+table cellpadding=3D"8" cellspacing=3D"0" style=3D"background-color: #fffff=
+f; background: #ffffff; width: 100% !important; margin: 0; padding: 0; *wid=
+th:528px;" border=3D"0"><tr><td valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D"0"><t=
+r><td bgcolor=3D"#b9e1fb" align=3D"center" style=3D"font-size: 0px;" height=
+=3D"1"><img src=3D"https://www.dropbox.com/static/images/emails/email_heade=
+r.jpg" alt=3D"" style=3D"width:100%; max-height:129px; *width:528px; *heigh=
+t:129px;"></td></tr><tr><td><table cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"border-left: 1px #b9e1fb solid; border-right: 1px #b9e1fb solid; borde=
+r-bottom: 1px #b9e1fb solid; -webkit-border-radius: 0px 0px 4px 4px; border=
+-radius: 0px 0px 4px 4px; -moz-border-radius-bottomright: 4px; -moz-border-=
+radius-bottomleft: 4px;" border=3D"0" align=3D"center"><tr><td colspan=3D"3=
+" height=3D"36"></td></tr><tr><td width=3D"36"></td>
+<td width=3D"454" style=3D"font-size: 14px; color: #444444; font-family: 'O=
+pen Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicod=
+e', Tahoma, 'Sans Serif'; border-collapse: collapse;" align=3D"left" valign=
+=3D"top">   Hi Vasil,<br><br>    We see that you've linked a new computer, =
+'Admins-MacBook', to your Dropbox. Awesome!<br><br>    You can check on thi=
+s and any other computers you've linked by visiting your <a href=3D"https:/=
+/www.dropbox.com/l/eCKX2Xgznmh0scH64lF5zH1/account/manage">account page</a>=
+.<br><br>    Happy Dropboxing!<br>  - The Dropbox Team<br><br>    P.S. If y=
+ou didn't make this change, <a href=3D"https://www.dropbox.com/l/sCOXrHOatU=
+keMIBKN7D1Mz1/support">let us know</a>. </td>
+<td width=3D"36"></td>
+</tr><tr><td colspan=3D"3" height=3D"36"></td></tr></table></td></tr></tabl=
+e><table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D"0">=
+<tr><td height=3D"10"></td></tr><tr><td style=3D"padding: 0; border-collaps=
+e: collapse;"><table cellpadding=3D"0" cellspacing=3D"0" align=3D"center" b=
+order=3D"0"><tr style=3D"font-size: 11px; color: #a8b9c6; font-family: 'Ope=
+n Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode'=
+, Tahoma, 'Sans Serif';" valign=3D"top"><td width=3D"400" align=3D"left"></=
+td>
+<td width=3D"128" align=3D"right">&#169; 2013 Dropbox</td>
+</tr></table></td></tr></table></td></tr></table></center></body></html><im=
+g width=3D"1" src=3D"https://www.dropbox.com/l/Pc5cso4tK2bHkOrhVlMr6U" heig=
+ht=3D"1" />
+--===============0717646444437065942==--

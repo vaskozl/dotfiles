@@ -1,0 +1,145 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp216961oai;
+        Tue, 27 Aug 2013 10:17:31 -0700 (PDT)
+X-Received: by 10.204.103.199 with SMTP id l7mr15910404bko.11.1377623850704;
+        Tue, 27 Aug 2013 10:17:30 -0700 (PDT)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-la0-x22e.google.com (mail-la0-x22e.google.com [2a00:1450:4010:c03::22e])
+        by mx.google.com with ESMTPS id qx5si1847881bkb.307.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 27 Aug 2013 10:17:30 -0700 (PDT)
+Received-SPF: neutral (google.com: 2a00:1450:4010:c03::22e is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=2a00:1450:4010:c03::22e;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2a00:1450:4010:c03::22e is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+Received: by mail-la0-x22e.google.com with SMTP id eh20so3745932lab.5
+        for <vasil.zlatanov@gmail.com>; Tue, 27 Aug 2013 10:17:29 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=mqEFQCH2/gZOmJ6CMQGzM14VtQvNL07jYq6sbeum2bE=;
+        b=OyEGE96xh8oXP1IVi33rEiO5zS4rJZwTGnQQtGvPHQRzUgdJB3vG17fCN9yzKgzPZl
+         GCqteq5ovboWRQkecOyNNZGSzm0NU40GERnH++7UtkRWOooR1NBarMOURxWrSzAwUDCV
+         lbJWnAvyDn2xQ6r5V5v5GKgDdpJ0ID2nZr/yz4mftCtHzi4Tpgsm34a6srnr2l9VFep8
+         ywBuKOMns42IOwin+dpVn6vx8DlBHVTGHc28upS0hVOIfUHNh0P+uFL76QNBdVFQblNY
+         JI6FwOuS1yp15VgKy1tr3qNhvqkLA/73aVluk+KoxCvBTI+kDwZmXbHiageVH3vhiR3Q
+         ZVFg==
+X-Gm-Message-State: ALoCoQm37bTpEJjvUVM3B11QuLGdXwuPpJl995IoLEP+hBGgR+ftsNuFGvoHXmj8oGXYgspfnvfZ
+MIME-Version: 1.0
+X-Received: by 10.152.120.228 with SMTP id lf4mr1730002lab.44.1377623849684;
+ Tue, 27 Aug 2013 10:17:29 -0700 (PDT)
+Received: by 10.114.82.130 with HTTP; Tue, 27 Aug 2013 10:17:29 -0700 (PDT)
+In-Reply-To: <CAHJ-ZFq4wnPciXqHNaWkGQicoiHqjgf2rA6tvNz92sB-TtZKPA@mail.gmail.com>
+References: <20130827163423.GA2182@gmail.com>
+	<CAHJ-ZFq4wnPciXqHNaWkGQicoiHqjgf2rA6tvNz92sB-TtZKPA@mail.gmail.com>
+Date: Tue, 27 Aug 2013 19:17:29 +0200
+Message-ID: <CAHJ-ZFrJGsXuwoRhc+7CFvx7JJjXEkw9QLypWufg7wWpXkFzjg@mail.gmail.com>
+Subject: Fwd: Locker & Email
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=089e0117691531df6204e4f10c58
+
+--089e0117691531df6204e4f10c58
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi Vasco,
+sent another mail to the caretaker - let you know as soon as I hear from
+him. RE e-mail address - should be getting your log-in details Thurs/Fri
+with your computer (I am correct in thinking that you were not in PreDP
+last year????). Let me know if this is/not the case.
+Regards, Leslie
+
+
+2013/8/27 Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+
+> Hi Vincent in need of a locker for Vasil Zlatanov PreDP. When can he
+> expect to receive one?
+> *Regards, Leslie
+> *
+>
+> ---------- Forwarded message ----------
+> From: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+> Date: 2013/8/27
+> Subject: Locker & Email
+> To: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+>
+>
+> Is there any update on the lockers? Some of the other kids have gotten
+> theirs already :)
+>
+> By the way, people seem to be sending emails to
+> vasil.zlatanov1@malmoborgarskola.se, and are surprised when I haven't
+> read their messages. Furthermore, the only google-site I can access is
+> yours, for this same reason. Therefore checking homework proves to be a bit
+> difficult.
+>
+> I have been told the Gmail browser client also autocompletes to the
+> mentioned above email, making everything that much more difficult for
+> everyone.
+>
+> I hope you are not annoyed to death by things like these, as I am,
+> considering how much teachers demand the use of technology.
+>
+> Help me :)
+>
+> Cordially, Vasco
+>
+>
+>
+
+--089e0117691531df6204e4f10c58
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Vasco,<div>sent another mail to the caretaker - let you=
+ know as soon as I hear from him. RE e-mail address - should be getting you=
+r log-in details Thurs/Fri with your computer (I am correct in thinking tha=
+t you were not in PreDP last year????). Let me know if this is/not the case=
+.</div>
+<div>Regards, Leslie</div></div><div class=3D"gmail_extra"><br><br><div cla=
+ss=3D"gmail_quote">2013/8/27 Leslie Fleetwood <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:leslie.fleetwood@malmoborgar.se" target=3D"_blank">leslie.fleetw=
+ood@malmoborgar.se</a>&gt;</span><br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr">Hi Vincent in need of a loc=
+ker for=A0<span style=3D"border-collapse:collapse;font-family:arial,sans-se=
+rif;font-size:13px;font-weight:bold;white-space:nowrap">Vasil Zlatanov PreD=
+P. When can he expect to receive one?</span><div>
+
+<font face=3D"arial, sans-serif"><span style=3D"border-collapse:collapse;wh=
+ite-space:nowrap"><b>Regards, Leslie<br></b></span></font><div><div class=
+=3D"h5"><br><div class=3D"gmail_quote">---------- Forwarded message -------=
+---<br>
+
+From: <b class=3D"gmail_sendername">Vasil Zlatanov</b> <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:vasil.zlatanov@gmail.com" target=3D"_blank">vasil.zlata=
+nov@gmail.com</a>&gt;</span><br>Date: 2013/8/27<br>Subject: Locker &amp; Em=
+ail<br>
+To: Leslie Fleetwood &lt;<a href=3D"mailto:leslie.fleetwood@malmoborgar.se"=
+ target=3D"_blank">leslie.fleetwood@malmoborgar.se</a>&gt;<br>
+<br><br>Is there any update on the lockers? Some of the other kids have got=
+ten theirs already :)<br>
+<br>
+By the way, people seem to be sending emails to <a href=3D"mailto:vasil.zla=
+tanov1@malmoborgarskola.se" target=3D"_blank">vasil.zlatanov1@malmoborgarsk=
+ola.se</a>, and are surprised when I haven&#39;t read their messages. Furth=
+ermore, the only google-site I can access is yours, for this same reason. T=
+herefore checking homework proves to be a bit difficult.<br>
+
+
+<br>
+I have been told the Gmail browser client also autocompletes to the mention=
+ed above email, making everything that much more difficult for everyone.<br=
+>
+<br>
+I hope you are not annoyed to death by things like these, as I am, consider=
+ing how much teachers demand the use of technology.<br>
+<br>
+Help me :)<br>
+<br>
+Cordially, Vasco<br>
+<br>
+</div><br></div></div></div></div>
+</blockquote></div><br></div>
+
+--089e0117691531df6204e4f10c58--

@@ -1,0 +1,82 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp186304wed;
+        Tue, 24 Sep 2013 12:13:08 -0700 (PDT)
+X-Received: by 10.182.106.4 with SMTP id gq4mr26903408obb.4.1380049988247;
+        Tue, 24 Sep 2013 12:13:08 -0700 (PDT)
+Return-Path: <patrik.liedbeck1@malmoborgar.se>
+Received: from mail-ob0-f174.google.com (mail-ob0-f174.google.com [209.85.214.174])
+        by mx.google.com with ESMTPS id sy1si15986513obc.38.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 24 Sep 2013 12:13:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.214.174 is neither permitted nor denied by best guess record for domain of patrik.liedbeck1@malmoborgar.se) client-ip=209.85.214.174;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.214.174 is neither permitted nor denied by best guess record for domain of patrik.liedbeck1@malmoborgar.se) smtp.mail=patrik.liedbeck1@malmoborgar.se
+Received: by mail-ob0-f174.google.com with SMTP id uz6so5417235obc.19
+        for <vasil.zlatanov@gmail.com>; Tue, 24 Sep 2013 12:13:07 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=9usE9Q6P4xjAXQIbi6ihXdd5V+G2jAMHsXJPAMvhR3s=;
+        b=FqRbX49SZCBGHRSiCo9uydkHz12YD1g/wBOKHSGkMSZDD/xON7j3E9lPrTHAoISJ02
+         oxaC7GK2LqPBZNXrq4u1TbSz+gKlfEL3evwWjlh+4Z2kYcA9n4ddqqlLpiuHbuSHav03
+         MZTSqVLs6lsWyUzgZ8JDPUFSTH10agPGLNfISech7J+c6MgEUGuXb7+0MpE7r4ffQkJF
+         KAjq+JLGOzNXg1GCPjTGtybz4BMS3BrCf0k3bwKxfONL/v7nnq3/MxZRvA8HqYw4Qji4
+         gyUgFjWLwO1UXbRHMRVW/Z5KQUScYaSSWtu5XALzjQJcRZQFeygwsPQJGz+9L71NhW0g
+         CwXg==
+X-Gm-Message-State: ALoCoQljSwta5IclQEoO+U5BSv45dQxC6c3Ba+MmhEoWDv8epd3B1beRnrHJ9ZqmW9VBexwcPfoS
+MIME-Version: 1.0
+X-Received: by 10.182.98.162 with SMTP id ej2mr2675007obb.61.1380049987760;
+ Tue, 24 Sep 2013 12:13:07 -0700 (PDT)
+Received: by 10.182.45.100 with HTTP; Tue, 24 Sep 2013 12:13:07 -0700 (PDT)
+In-Reply-To: <20130924190537.GD2337@gmail.com>
+References: <CAOBrKWPw+Zfy=_8sekkqG5qkjn1PO3RQOXZF57Zf6GDM+R5Ssg@mail.gmail.com>
+	<20130924190537.GD2337@gmail.com>
+Date: Tue, 24 Sep 2013 21:13:07 +0200
+Message-ID: <CAOBrKWO3NOK6o7JRF6xEBz81ixesMDp9=jhoW1UFX5Ap1ai3MQ@mail.gmail.com>
+Subject: Re: your mail
+From: Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b2e46f04b080304e725ed34
+
+--047d7b2e46f04b080304e725ed34
+Content-Type: text/plain; charset=ISO-8859-1
+
+nice! btw can u help me find something for theme? cant seem to find any
+
+
+2013/9/24 Vasil Zlatanov <vasil.zlatanov@gmail.com>
+
+> Don't worry, you can do anything you like.
+>
+>
+> On Tue, Sep 24, 2013 at 09:01:18PM +0200, Patrik Liedbeck wrote:
+> > Hey vasco how do u wanna do the presentation?  i can take the parts down
+> to
+> > the monkey tricks? and u can take the rest? we can also du so that we can
+> > but in and help each other out in the different parts as well :)
+>
+
+--047d7b2e46f04b080304e725ed34
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">nice! btw can u help me find something for theme? cant see=
+m to find any=A0</div><div class=3D"gmail_extra"><br><br><div class=3D"gmai=
+l_quote">2013/9/24 Vasil Zlatanov <span dir=3D"ltr">&lt;<a href=3D"mailto:v=
+asil.zlatanov@gmail.com" target=3D"_blank">vasil.zlatanov@gmail.com</a>&gt;=
+</span><br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Don&#39;t worry, you can do anything you lik=
+e.<br>
+<br>
+<br>
+On Tue, Sep 24, 2013 at 09:01:18PM +0200, Patrik Liedbeck wrote:<br>
+&gt; Hey vasco how do u wanna do the presentation? =A0i can take the parts =
+down to<br>
+&gt; the monkey tricks? and u can take the rest? we can also du so that we =
+can<br>
+&gt; but in and help each other out in the different parts as well :)<br>
+</blockquote></div><br></div>
+
+--047d7b2e46f04b080304e725ed34--

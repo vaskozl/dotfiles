@@ -1,0 +1,55 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp58810oai;
+        Fri, 9 Aug 2013 00:15:05 -0700 (PDT)
+X-Received: by 10.60.121.103 with SMTP id lj7mr7397656oeb.25.1376032505057;
+        Fri, 09 Aug 2013 00:15:05 -0700 (PDT)
+Return-Path: <vasil.zlatanov@live.com>
+Received: from blu0-omc1-s4.blu0.hotmail.com (blu0-omc1-s4.blu0.hotmail.com. [65.55.116.15])
+        by mx.google.com with ESMTP id cr2si8589942oeb.99.2013.08.09.00.15.04
+        for <vasil.zlatanov@gmail.com>;
+        Fri, 09 Aug 2013 00:15:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.116.15 as permitted sender) client-ip=65.55.116.15;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.116.15 as permitted sender) smtp.mail=vasil.zlatanov@live.com
+Received: from BAY0-MC2-F22.Bay0.hotmail.com ([65.55.116.8]) by blu0-omc1-s4.blu0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Fri, 9 Aug 2013 00:14:55 -0700
+Resent-Message-ID: <BAY0-MC2-F22DC49DED358B5D75BDBE9F9580@phx.gbl>
+Resent-To: vasil.zlatanov@gmail.com
+Resent-Date: Fri, 9 Aug 2013 00:14:55 -0700
+Resent-From: vasil.zlatanov@live.com
+X-HM-Routing-Path:P+3YCWa5Y8OLbdOS9DKALUr5hLbPfs/Fpx4bd41FD26Sor7m2pZpd5fe0e58j6iocUp1q6xuKmG7BqxpF3MbZVjiH13SiR/ka7FAe1jB9rKMPqfDFfdl5yjrFS9cG6kGZ5K4QH4w5Sd/sYghpsiz2Fi6OEPlznrduBxFYqaJUlc=
+Received: from host.holeinthewallhosting.org ([72.52.202.216]) by BAY0-MC2-F22.Bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Fri, 9 Aug 2013 00:14:53 -0700
+Received: from shai by host.holeinthewallhosting.org with local (Exim 4.80)
+	(envelope-from <shai@host.holeinthewallhosting.org>)
+	id 1V7guR-0006mW-C2
+	for vasil.zlatanov@live.com; Fri, 09 Aug 2013 02:14:51 -0500
+To: vasil.zlatanov@live.com
+Subject: =?UTF-8?B?UmVwbHkgdG8gdG9waWM6ICdQYXVzZS9CcmVhayB0byBMZWZ0IFN1cGVyIEtleSB1c2luZyBTY2FuY29kZSBNYXAn?=
+From: =?UTF-8?B?Q29sZW1hayBmb3J1bSBNYWlsZXI=?= <forum@colemak.com>
+Date: Fri, 09 Aug 2013 07:14:51 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 8bit
+Content-type: text/plain; charset=utf-8
+X-Mailer: FluxBB Mailer
+Message-Id: <E1V7guR-0006mW-C2@host.holeinthewallhosting.org>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.holeinthewallhosting.org
+X-AntiAbuse: Original Domain - live.com
+X-AntiAbuse: Originator/Caller UID/GID - [32934 32002] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.holeinthewallhosting.org
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home2/shai/public_html/forum/post.php 
+X-Source-Dir: colemak.com:/public_html/forum
+Return-Path: shai@host.holeinthewallhosting.org
+X-OriginalArrivalTime: 09 Aug 2013 07:14:53.0579 (UTC) FILETIME=[25092DB0:01CE94D0]
+
+DreymaR has replied to the topic 'Pause/Break to Left Super Key using Scancode Map' to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+
+The post is located at http://forum.colemak.com/viewtopic.php?pid=12799#p12799
+
+You can unsubscribe by going to http://forum.colemak.com/misc.php?action=unsubscribe&tid=1722
+
+--
+Colemak forum Mailer
+(Do not reply to this message)

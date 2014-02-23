@@ -1,0 +1,103 @@
+#!/usr/bin/env bash
+#
+# Clipboard menu
+#
+# usage:
+#   clipboard init        - clear all buffers
+#   clipboard menu_paste  - pop up a menu to select which buffer to paste
+#   clipboard menu_set    - pop up a menu to select which buffer to save
+#                           the current X selection to
+#   clipboard paste N     - N is buffer 1-9
+#   clipboard set N       - N is buffer 1-9
+#   clipboard push        - stack/queue push (push to buffer 1)
+#   clipboard pop         - stack pop (last in first out - pop from buffer 1)
+#   clipboard pop_queue   - queue pop (first in first out - pop from top of stack)
+#
+# Current stack depth is held in slot 10, and slot 0 is used as temp space for 
+# stack rotation.
+#
+command=$1
+option=$2
+
+function entries() {
+    # title entry
+    if [ $command = menu_paste ]; then
+        echo -n "\"Paste from slot:\" /bin/true "
+    else
+        echo -n "\"Yank from slot:\" /bin/true "
+    fi
+
+    for i in $(seq 1 9); do
+        repr=$(xcb -p $i | tr '\n$*?"'\''' ' ' | cut --bytes 0-59)
+        if [ $command = menu_paste ]; then
+            cmd_item="$0 paste $i"
+        else
+            cmd_item="$0 set $i"
+        fi
+        #printf '%q %q ' $i "$repr" "$cmd_item"
+        echo -n "\"$i $repr\" \"$cmd_item\" "
+    done
+}
+
+function menu() {
+    echo ratmenu -label "\"clipboard $command\"" \
+        -style dreary -fg \'#657b83\' -bg \'#eee8d5\' -io 2 $(entries) | sh
+}
+
+function get_stack_depth() {
+    stack_depth=$(xcb -p 10)
+    echo "stack_depth=$stack_depth" >/dev/stderr
+}
+
+function set_stack_depth() {
+    echo "setting stack_depth=$1" >/dev/stderr
+    echo $1 | xcb -n 11 -s 10
+}
+
+function increment_stack_depth() {
+    get_stack_depth
+    set_stack_depth $[ $stack_depth + 1 ]
+}
+
+function decrement_stack_depth() {
+    get_stack_depth
+    set_stack_depth $[ $stack_depth - 1 ]
+}
+
+if [ $command = init ]; then
+    # Clear all buffers
+    xcb -n 10 -s 0-9 </dev/null
+    set_stack_depth 0
+elif [ $command = menu_paste -o $command = menu_set ]; then
+    menu
+elif [ $command = paste ]; then
+    xcb -p $option | xclip
+    ratpoison -c "meta S-Insert"
+elif [ $command = set ]; then
+    xcb -n 10 -S $option
+elif [ $command = push ]; then
+    get_stack_depth
+    if [ $stack_depth -lt 9 ]; then
+        xcb -n 10 -r 1
+        $0 set 1
+        increment_stack_depth
+    fi
+elif [ $command = pop ]; then
+    get_stack_depth
+    if [ $stack_depth -gt 0 ]; then
+        $0 paste 1
+        # Clear buffer 0 so that rotation won't put its contents into spot 9
+        xcb -n 10 -s 0 < /dev/null
+        xcb -n 10 -r -1
+        decrement_stack_depth
+    fi
+elif [ $command = pop_queue ]; then
+    get_stack_depth
+    if [ $stack_depth -gt 0 ]; then
+        $0 paste $stack_depth
+        # Clear buffer at top of stack
+        xcb -n 10 -s $stack_depth < /dev/null
+        decrement_stack_depth
+    fi
+fi
+

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#
+# Connect to a named screen session if it exists, otherwise create it
+# If creating a new screen session, use the file screenrc.$session
+# in the .ratpoison directory.
+#
+screen_dir=$HOME/.ratpoison
+session=$1
+function die() {
+    echo "$0 error: $*"
+    exit 1
+}
+[ $# -ne 1 ] && die "$0 requires 1 argument (screen session name)"
+if screen -ls | grep $session; then
+    # This session exists, connect to it
+    screen -r $session
+else
+    session_config=$screen_dir/screenrc.$session
+    [ -f $session_config ] || die "config ($session_config) not found for $session"
+    screen -c $screen_dir/screenrc.$session -S $session
+fi

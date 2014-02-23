@@ -1,0 +1,112 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp85515wed;
+        Mon, 9 Sep 2013 07:17:04 -0700 (PDT)
+X-Received: by 10.52.177.163 with SMTP id cr3mr27790vdc.49.1378736223394;
+        Mon, 09 Sep 2013 07:17:03 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f172.google.com (mail-vc0-f172.google.com [209.85.220.172])
+        by mx.google.com with ESMTPS id u7si3195546vcn.112.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 09 Sep 2013 07:17:03 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.172 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.172;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.172 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f172.google.com with SMTP id m17so4094920vca.3
+        for <vasil.zlatanov@gmail.com>; Mon, 09 Sep 2013 07:17:02 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=BqfegCsKuX/65KfYP4A7CpIGcZu41f5QpjmdFSgnS+M=;
+        b=ljU3kjt2TANFf4MhN47UM0ZXMG8quot33WplFWaxwSUHAGv6bDbT0qHJwjTOO/ea3C
+         aOZ16mF11bCfMij+Ad4UFSaA/JfdEF1v0V32q5ZHA2mRYLXwCLqp0V2pQWbsflL6TuU+
+         9YNA3nVQ1xP243OQF002bIbaksn7VwhaVL+9VwOKppiDlXdqO8bPL2bqXhkxgToceMtp
+         8muxyyk0layAkBSRbtsNa7MQOv5u9ecmePg/iyouadweDiMaPwk5FvfyviMHg/5ialpN
+         YfgKCX72YpoyfwXA0IOf05UCPH+3s4oHMw++oH0BSTnnu+3oL9YRJP+LN1VEyzGt9a8s
+         /AOg==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.215.48 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) smtp.mail=sam.edgecombe@malmoborgar.se
+X-Gm-Message-State: ALoCoQmRtgljzG6TkYhYZ32PxnMji4AXH7JutJ13/2IivrOEhRzlm9yOJCNmW9GiLsC671V/nBWW
+X-Received: by 10.220.1.203 with SMTP id 11mr17714081vcg.15.1378736222262;
+        Mon, 09 Sep 2013 07:17:02 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp81152vcv;
+        Mon, 9 Sep 2013 07:17:01 -0700 (PDT)
+X-Received: by 10.152.45.106 with SMTP id l10mr16954328lam.12.1378736221088;
+        Mon, 09 Sep 2013 07:17:01 -0700 (PDT)
+Return-Path: <sam.edgecombe@malmoborgar.se>
+Received: from mail-la0-f48.google.com (mail-la0-f48.google.com [209.85.215.48])
+        by mx.google.com with ESMTPS id uf8si5696089lbc.45.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 09 Sep 2013 07:17:00 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.215.48 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) client-ip=209.85.215.48;
+Received: by mail-la0-f48.google.com with SMTP id er20so4893136lab.7
+        for <vasil.zlatanov1@malmoborgar.se>; Mon, 09 Sep 2013 07:16:59 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.45.106 with SMTP id l10mr16954225lam.12.1378736219407;
+ Mon, 09 Sep 2013 07:16:59 -0700 (PDT)
+Received: by 10.112.39.40 with HTTP; Mon, 9 Sep 2013 07:16:59 -0700 (PDT)
+Date: Mon, 9 Sep 2013 16:16:59 +0200
+Message-ID: <CAKMnQyxHii2r7NHd_6zzvFaEP=E3m-U_-A0iJEopFyjT6tUO7w@mail.gmail.com>
+Subject: IPYT course - Freezing Droplets
+From: Sam Edgecombe <sam.edgecombe@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, Alex McIvor <alex.mcivor1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=001a11c29b4498d6d804e5f40aa2
+
+--001a11c29b4498d6d804e5f40aa2
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I will be your supervisor for this course and for the freezing droplets
+problem.
+
+There wasn't a great time that fitted in with my timetable, but since I
+know that you only have ToK in the afternoons when we have "Common
+platform" sessions, then I suggest that we have our meeting time on Fridays
+at 12:50 - 13:50 except when we have Common platform.
+
+Let's start by meeting this Friday at 12:50.
+
+Start by reading up on your problem using this reference kit
+http://ilyam.org/FDD_2014_IYPT_Reference_kit.pdf
+
+Yours
+
+Sam
+
+--=20
+Sam Edgecombe
+
+l=E4rare i matematik och fysik / Teacher in mathematics and physics
+Malm=F6 Borgarskola
+Sweden
+www.malmoborgarskola.se
+
+--001a11c29b4498d6d804e5f40aa2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi,<div><br></div><div>I will be your supervisor for this =
+course and for the freezing droplets problem.</div><div><br></div><div>Ther=
+e wasn&#39;t a great time that fitted in with my timetable, but since I kno=
+w that you only have ToK in the afternoons when we have &quot;Common platfo=
+rm&quot; sessions, then I suggest that we have our meeting time on Fridays =
+at 12:50 - 13:50 except when we have Common platform.</div>
+<div><br></div><div>Let&#39;s start by meeting this Friday at 12:50.</div><=
+div><br></div><div>Start by reading up on your problem using this reference=
+ kit=A0</div><div><a href=3D"http://ilyam.org/FDD_2014_IYPT_Reference_kit.p=
+df">http://ilyam.org/FDD_2014_IYPT_Reference_kit.pdf</a></div>
+<div><br></div><div>Yours</div><div><br></div><div>Sam<br><div><div><br></d=
+iv>-- <br>Sam Edgecombe<div><br></div><div>l=E4rare i matematik och fysik /=
+ Teacher in mathematics and physics</div><div>Malm=F6 Borgarskola</div><div=
+>
+Sweden</div><div><a href=3D"http://www.malmoborgarskola.se" target=3D"_blan=
+k">www.malmoborgarskola.se</a></div>
+
+</div></div></div>
+
+--001a11c29b4498d6d804e5f40aa2--

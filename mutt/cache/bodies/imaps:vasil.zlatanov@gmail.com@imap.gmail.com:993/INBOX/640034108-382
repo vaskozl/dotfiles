@@ -1,0 +1,68 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp8272wed;
+        Tue, 1 Oct 2013 03:54:36 -0700 (PDT)
+X-Received: by 10.58.117.71 with SMTP id kc7mr6882152veb.16.1380624875659;
+        Tue, 01 Oct 2013 03:54:35 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vb0-f44.google.com (mail-vb0-f44.google.com [209.85.212.44])
+        by mx.google.com with ESMTPS id o5si1174429vdw.102.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 01 Oct 2013 03:54:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.212.44 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.212.44;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.44 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vb0-f44.google.com with SMTP id e13so4626752vbg.17
+        for <vasil.zlatanov@gmail.com>; Tue, 01 Oct 2013 03:54:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=6o9UnqRL0FnWJiHsPSuRnRbrF1mBnts1//UwrMbrFl8=;
+        b=G6Jr9LBmM50qE/0pvN11cyAevTjHIwvl7/UVZyKCNq+CuQaK+Kka+lXf7pDELDidTp
+         FiMgx+ZVXwSPlMff6g9+eG+HStRzcLhFdPm2CrqASBas3C5p/po5vNmJ9cbqtEmW2RbS
+         ZTLSBl+yN1/17JwCxAt3GRY3VPJ7D5qhzIRvZHXbNrXdgRYG2w5b7gtacdnn8ZLaRCxx
+         BEBCVr8hMc/9Kw5nkvZ9BAHtjt+5KMlK3jfvMppcJpauabOFTW6+bNlyZJ8iAKjCMUNl
+         eCBnFESHh/k5LVTgGNJYhiiJuM0P7n9bAyPq7g75rIDGhwtd02YghA16tJJMR8SfKFvH
+         6uNw==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.217.181 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+X-Gm-Message-State: ALoCoQkGp9qMraAhoqbVKd2VQ7knrRk26734APXu2sFv0p6qtlq37v+E9Nef+r4F3sZ+YqwZA6l6
+X-Received: by 10.52.65.136 with SMTP id x8mr9977709vds.23.1380624874937;
+        Tue, 01 Oct 2013 03:54:34 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp7097vcv;
+        Tue, 1 Oct 2013 03:54:34 -0700 (PDT)
+X-Received: by 10.112.155.39 with SMTP id vt7mr10852416lbb.29.1380624873378;
+        Tue, 01 Oct 2013 03:54:33 -0700 (PDT)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-lb0-f181.google.com (mail-lb0-f181.google.com [209.85.217.181])
+        by mx.google.com with ESMTPS id ul10si2664473lbc.63.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 01 Oct 2013 03:54:33 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.181 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.217.181;
+Received: by mail-lb0-f181.google.com with SMTP id u14so5613392lbd.40
+        for <vasil.zlatanov1@malmoborgar.se>; Tue, 01 Oct 2013 03:54:32 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.115.242 with SMTP id jr18mr1014107lab.40.1380624872354;
+ Tue, 01 Oct 2013 03:54:32 -0700 (PDT)
+Received: by 10.114.82.130 with HTTP; Tue, 1 Oct 2013 03:54:32 -0700 (PDT)
+Date: Tue, 1 Oct 2013 12:54:32 +0200
+Message-ID: <CAHJ-ZFrhvQciCmChAkmC=qmNx_UBBRbvSw56q56UnNAUw-6K+A@mail.gmail.com>
+Subject: HOD pres please
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	John Lauran <john.lauran1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=001a11c3327a15c0a404e7abc78a
+
+--001a11c3327a15c0a404e7abc78a
+Content-Type: text/plain; charset=ISO-8859-1
+
+Regards, Leslie
+
+--001a11c3327a15c0a404e7abc78a
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr">Regards, Leslie</div>
+
+--001a11c3327a15c0a404e7abc78a--

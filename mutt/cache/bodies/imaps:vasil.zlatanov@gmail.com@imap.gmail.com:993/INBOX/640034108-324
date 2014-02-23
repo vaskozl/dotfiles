@@ -1,0 +1,75 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp212536oai;
+        Wed, 21 Aug 2013 12:43:29 -0700 (PDT)
+X-Received: by 10.152.88.20 with SMTP id bc20mr2688757lab.37.1377114209175;
+        Wed, 21 Aug 2013 12:43:29 -0700 (PDT)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-lb0-f180.google.com (mail-lb0-f180.google.com [209.85.217.180])
+        by mx.google.com with ESMTPS id i8si4311474lam.117.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 21 Aug 2013 12:43:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.180 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.217.180;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.217.180 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+Received: by mail-lb0-f180.google.com with SMTP id a16so934870lbj.25
+        for <vasil.zlatanov@gmail.com>; Wed, 21 Aug 2013 12:43:28 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=ouhalZy026SVt37zI1lyEmnOvH2mybTB476431FEsaM=;
+        b=hHyce+qbq1123tg8PnWHd2UVM4YnnFelqPlN/OoCT5ksfMHnFrmQJb/Kj8RqDd+Yhw
+         SStGV7dy62djxoM7Uo4hX7+VmGDihnxk1DE0mNPCfzw7phLHMiFG2qBisFq1XNxX/kCW
+         RhqpBqw1zK+mzc2EMVSud6vVwN6FdRKmkqvucCmU2KCkooGY3V6JM6jWxO6SAcCfI1TV
+         aV1ySraWukXLC+lDikANrcnJo4pwOnA6opcr8sRQi9TrA/XEHu2ukWJpuauhh+Pvsv1K
+         Ve4Jq5sP2LB81755zVqn5mF31NT6hoSnnfNMUNoXuj32Ni8XZD+IaXlq3+9deuYSTmGJ
+         kuGA==
+X-Gm-Message-State: ALoCoQkZW8iC7mOolrZihhy0vBM5plWZxN7bJY7AE8z8aACg+uz0ItcOD4QbamAOz9r/fGiTYL1N
+MIME-Version: 1.0
+X-Received: by 10.152.116.7 with SMTP id js7mr7299620lab.11.1377114208461;
+ Wed, 21 Aug 2013 12:43:28 -0700 (PDT)
+Received: by 10.114.82.130 with HTTP; Wed, 21 Aug 2013 12:43:28 -0700 (PDT)
+In-Reply-To: <2C0DC968-4FD2-4174-A5F8-3871F4615A3C@gmail.com>
+References: <2C0DC968-4FD2-4174-A5F8-3871F4615A3C@gmail.com>
+Date: Wed, 21 Aug 2013 21:43:28 +0200
+Message-ID: <CAHJ-ZFp65PWCk-YNap+QuBKEmy3N3p4bf8YrKsgyqrs=mCP1wQ@mail.gmail.com>
+Subject: =?ISO-8859-1?Q?Fwd=3A_Elev_sk=E5p?=
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c2672a35f53c04e47a6350
+
+--001a11c2672a35f53c04e47a6350
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: vincent Quinn <vincent.quinn@gmail.com>
+Date: 2013/8/21
+Subject: Elev sk=E5p
+To: "leslie.fleetwood@malmoborgar.se" <leslie.fleetwood@malmoborgar.se>
+
+
+
+Hello Leslie we are still  waiting for the new data bass for the lockers
+from Anders Jepson, ill let you know asp vince
+Sent from my iPhone
+
+--001a11c2672a35f53c04e47a6350
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote">---------- Forwarded me=
+ssage ----------<br>From: <b class=3D"gmail_sendername">vincent Quinn</b> <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:vincent.quinn@gmail.com">vincent.qui=
+nn@gmail.com</a>&gt;</span><br>
+Date: 2013/8/21<br>Subject: Elev sk=E5p <br>To: &quot;<a href=3D"mailto:les=
+lie.fleetwood@malmoborgar.se">leslie.fleetwood@malmoborgar.se</a>&quot; &lt=
+;<a href=3D"mailto:leslie.fleetwood@malmoborgar.se">leslie.fleetwood@malmob=
+orgar.se</a>&gt;<br>
+<br><br><br>
+Hello Leslie we are still =A0waiting for the new data bass for the lockers =
+from Anders Jepson, ill let you know asp vince<br>
+Sent from my iPhone</div><br></div>
+
+--001a11c2672a35f53c04e47a6350--

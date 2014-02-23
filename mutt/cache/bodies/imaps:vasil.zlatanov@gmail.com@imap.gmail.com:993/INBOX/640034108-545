@@ -1,0 +1,98 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp110414oac;
+        Wed, 29 Jan 2014 08:08:36 -0800 (PST)
+X-Received: by 10.194.179.69 with SMTP id de5mr5672873wjc.4.1391011715884;
+        Wed, 29 Jan 2014 08:08:35 -0800 (PST)
+Return-Path: <linda.persson@malmoborgar.se>
+Received: from mail-wg0-f41.google.com (mail-wg0-f41.google.com [74.125.82.41])
+        by mx.google.com with ESMTPS id fi6si11058799wib.39.2014.01.29.08.08.35
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 29 Jan 2014 08:08:35 -0800 (PST)
+Received-SPF: neutral (google.com: 74.125.82.41 is neither permitted nor denied by best guess record for domain of linda.persson@malmoborgar.se) client-ip=74.125.82.41;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.41 is neither permitted nor denied by best guess record for domain of linda.persson@malmoborgar.se) smtp.mail=linda.persson@malmoborgar.se
+Received: by mail-wg0-f41.google.com with SMTP id n12so8446220wgh.2
+        for <vasil.zlatanov@gmail.com>; Wed, 29 Jan 2014 08:08:35 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=4uxDzDIp+p89d1kUPlP0Hmc03asBV69jxrb55LXNoUY=;
+        b=clFoE1hSI33eRMvtQUaiT0LB7pRKud08ne8J68wrgEJWnOpUZi/WEXjdmAa2/H8Caa
+         vuS3ouMI0ewsjUFmxQ4Jg3FbIeBPXqjMSTXxuTvo7HnANfS1E/JSdBvbRx2n9rgPE/WG
+         P6eF7D35YWIaPAnVm6gYcIdSpzJIdq9o+C2TzfJRC8Vnd26mgxQmY9qa3vJcI8R9WdHh
+         UoQIuFrdF8FNlwHfxn7yUch7HagkyEHxklXLjamJukxicoNVd+M3g8NbabmPJNbRQx7+
+         LD2qLgEq+KEh3cpbQSsWtB5NyT32qvdETxZw4ZlAbor036xP2sjZdK37Ct+KoeFJolpN
+         kjww==
+X-Gm-Message-State: ALoCoQlKEuZqZW4uh9bqc279oLlrtVjoB9R1Hq8iU+BJuShI1cP/N+NxHjDwLL4of+omwfwBXuPw
+MIME-Version: 1.0
+X-Received: by 10.194.175.66 with SMTP id by2mr1638108wjc.59.1391011715214;
+ Wed, 29 Jan 2014 08:08:35 -0800 (PST)
+Received: by 10.194.1.227 with HTTP; Wed, 29 Jan 2014 08:08:35 -0800 (PST)
+Date: Wed, 29 Jan 2014 17:08:35 +0100
+Message-ID: <CAGpuA4P85LQJwQDqcyG9u6Lp0WQdcbAofSvXLBnrASN_TyXkhA@mail.gmail.com>
+Subject: =?ISO-8859-1?Q?N=E4r_jag_=E4r_borta?=
+From: Linda Persson <linda.persson@malmoborgar.se>
+To: Walter Okuku <walter.okuku1@malmoborgar.se>, John Lauran <john.lauran1@malmoborgar.se>, 
+	Sigurd Sturm Kristiansen <sigurd.sturm-kristiansen1@malmoborgar.se>, 
+	Oskar Sturm Kristiansen <oskar.sturm-kristiansen1@malmoborgar.se>, 
+	Ruairi Paul Gerald Wharton <ruairi-paul-gerald.wharton1@malmoborgar.se>, 
+	Eric Runevad <eric.runevad1@malmoborgar.se>, 
+	Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, Vasil Zlatanov <vasil.zlatanov@gmail.com>, 
+	Hanna Andersson <hanna.andersson1@malmoborgar.se>, Elise Mols <elise.mols1@malmoborgar.se>, 
+	Sarah Van Lam <sarah.van-lam1@malmoborgar.se>, 
+	Durre Shewar Malik <durre-shewar.malik1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, 
+	Alexandar Mitrovic <alexandar.mitrovic1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Alexander_=C5kesson?= <alexander.akesson1@malmoborgar.se>, 
+	Alexander Salmi <alexander.salmi1@malmoborgar.se>, 
+	Samer Daknache <samer.daknache1@malmoborgar.se>, 
+	Saga Blomberg <saga.blomberg1@malmoborgar.se>, Dorna Mu <dorna.mu1@malmoborgar.se>, 
+	Isabelle Rasic Bondzic <isabelle.rasic-bondzic1@malmoborgar.se>, 
+	Ali Alkhafadji <ali.alkhafadji1@malmoborgar.se>, Alez Zubeir <alez.zubeir1@malmoborgar.se>, 
+	Kevin Strandberg <kevin.strandberg1@malmoborgar.se>, 
+	Kiana Entezarjo <kiana.entezarjo1@malmoborgar.se>, 
+	Joel Costa-Correa <joel.costa-correa1@malmoborgar.se>, 
+	Zachary Nord <zachary.nord1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Bj=F8rg_Kaal=F8_Johansen?= <bjorg.kaalo-johansen1@malmoborgar.se>, 
+	Louise Lindberg <louise.lindberg1@malmoborgar.se>, Alex McIvor <alex.mcivor1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=089e013d19f82a15e504f11e2737
+
+--089e013d19f82a15e504f11e2737
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hej! Jag =E4r tillbaka den 12 februari. Under denna tid har ni vikarie.
+
+HL:
+
+Ni har vikarie p=E5 m=E5ndagarna. Ni =E4r allts=E5 fria denna fredagen (31/=
+1). P=E5
+m=E5ndag (3/2) har ni lektion och f=E5r d=E5 en uppgift som ni ska g=F6ra u=
+nder
+veckan fram tills n=E4sta m=E5ndag igen (10/2). Fredagen 7/2 =E4r ni allts=
+=E5 ocks=E5
+lediga fr=E5n lektion men ni ska arbeta med de uppgifter vikarien ger er.
+
+SL:
+
+Ni har vikarie alla lektioner.
+
+Ha det bra!
+
+--089e013d19f82a15e504f11e2737
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hej! Jag =E4r tillbaka den 12 februari. Under denna tid ha=
+r ni vikarie.<div><br></div><div>HL:</div><div><br></div><div>Ni har vikari=
+e p=E5 m=E5ndagarna. Ni =E4r allts=E5 fria denna fredagen (31/1). P=E5 m=E5=
+ndag (3/2) har ni lektion och f=E5r d=E5 en uppgift som ni ska g=F6ra under=
+ veckan fram tills n=E4sta m=E5ndag igen (10/2). Fredagen 7/2 =E4r ni allts=
+=E5 ocks=E5 lediga fr=E5n lektion men ni ska arbeta med de uppgifter vikari=
+en ger er.=A0</div>
+<div><br></div><div>SL:</div><div><br></div><div>Ni har vikarie alla lektio=
+ner.=A0</div><div><br></div><div>Ha det bra!=A0</div></div>
+
+--089e013d19f82a15e504f11e2737--

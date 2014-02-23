@@ -1,0 +1,564 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp7607oac;
+        Thu, 28 Nov 2013 00:59:13 -0800 (PST)
+X-Received: by 10.60.93.67 with SMTP id cs3mr37666872oeb.12.1385629153559;
+        Thu, 28 Nov 2013 00:59:13 -0800 (PST)
+Return-Path: <bounces+658144-d23d-vasil.zlatanov=gmail.com@mta.nitrocloud.com>
+Received: from o2.mta.nitrocloud.com (o2.mta.nitrocloud.com. [198.37.148.193])
+        by mx.google.com with SMTP id u2si36528656oem.153.2013.11.28.00.59.12
+        for <vasil.zlatanov@gmail.com>;
+        Thu, 28 Nov 2013 00:59:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+658144-d23d-vasil.zlatanov=gmail.com@mta.nitrocloud.com designates 198.37.148.193 as permitted sender) client-ip=198.37.148.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounces+658144-d23d-vasil.zlatanov=gmail.com@mta.nitrocloud.com designates 198.37.148.193 as permitted sender) smtp.mail=bounces+658144-d23d-vasil.zlatanov=gmail.com@mta.nitrocloud.com;
+       dkim=pass header.i=@mta.nitrocloud.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=mta.nitrocloud.com; 
+	h=from:reply-to:to:subject:mime-version:content-type; s=smtpapi; 
+	bh=4Huc8HZmmIbtiYtGx1giJkEs5/I=; b=Z0BeKS1KVq9Q1h60LhCutDANSZicb
+	zpFS35AZh+pt2CziGoolZ0qoMsQGL0hltGaey3dwk3TSV74OoXcia6EYpVlA6aBG
+	5Xf/1s+PqeOVzqk5enpW2MB50HIQNxEN3/e4PpTgHOM9ltINTh7kPA3jWsEjNcXa
+	hGI8/+EdgbshEY=
+Received: by mf43.sendgrid.net with SMTP id mf43.5676.529705DF8
+        Thu, 28 Nov 2013 08:59:11 +0000 (GMT)
+Received: from 92134f65-044d-4445-ad46-732c923ffd0c.prvt.dyno.rt.heroku.com (ec2-23-23-0-127.compute-1.amazonaws.com [23.23.0.127])
+	by mi59 (SG) with ESMTP id 1429deef27b.4d67.382cd0
+	for <vasil.zlatanov@gmail.com>; Thu, 28 Nov 2013 02:59:11 -0600 (CST)
+Date: Thu, 28 Nov 2013 08:59:11 +0000 (UTC)
+From: Nitro Cloud <noreply@nitrocloud.com>
+Reply-To: "noreply@nitrocloud.com" <noreply@nitrocloud.com>
+To: "vasil.zlatanov@gmail.com" <vasil.zlatanov@gmail.com>
+Message-ID: <772772927.8621.1385629151312.JavaMail.u57528@92134f65-044d-4445-ad46-732c923ffd0c.prvt.dyno.rt.heroku.com>
+Subject: [Nitro Cloud] Want to convert more PDF documents?
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_8619_476262945.1385629151312"
+X-SG-EID: 7Khs/zxR/W46sGNTm1edVbTepgI3tupeWeGQIbRHkZZlhpVVtGNoqJQRdCSFJ8dtH2zcMi+jPdB8wX+r+KCM9E9iJHVQ5FDQiwHjCap3dsSbvNzbFvMc4ElW+OS7cGbR5ASMHSxXPOVven4DRgW2Ro7hK4LXMvocOh5e+BVIzqs=
+
+------=_Part_8619_476262945.1385629151312
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8620_879764246.1385629151312"
+
+------=_Part_8620_879764246.1385629151312
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To continue converting documents and gain access to additional powerful document collaboration features, 
+please take a few seconds to create a free Nitro Cloud account. You will receive 5 free additional conversions immediately and then 5 more every month.
+
+Please click on the following link to create your free Nitro Cloud account:
+https://www.nitrocloud.com/verify?s=gherwA-ytSIrDJ3Q011Mab6UnW41M3H8SQ7iNmPY
+If you would like to stop receiving these emails please click here:https://www.nitrocloud.com/unsubscribe/Nb2E0Gt96WR-Te34406de-90c2-48cc-9ed6-1c0c7216afccMTAxBfn4Jfn91mHP1/33554432
+
+Thanks,
+Nitro Cloud team
+
+------=_Part_8620_879764246.1385629151312
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">=20
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0"/>
+  <title>
+Nitro Cloud
+</title>
+  <link rel=3D"icon" type=3D"image/x-icon" href=3D"http://www.nitropdf.com/=
+public/images/favicon.ico">
+  <link rel=3D"shortcut icon" type=3D"image/x-icon" href=3D"http://www.nitr=
+opdf.com/public/images/favicon.ico">
+  <style type=3D"text/css">
+    /* Based on The MailChimp Reset INLINE: Yes. */=20=20
+    /* Client-specific Styles */
+    #outlook a {padding:0;} /* Force Outlook to provide a "view in browser"=
+ menu link. */
+    body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; margin:0; padding:0;}=20
+    /* Prevent Webkit and Windows Mobile platforms from changing default fo=
+nt sizes.*/=20
+    .ExternalClass {width:100%;} /* Force Hotmail to display emails at full=
+ width */=20=20
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+    /* Forces Hotmail to display normal line spacing.  More on that: http:/=
+/www.emailonacid.com/forum/viewthread/43/ */=20
+    #backgroundTable {margin:0; padding:0; width:100% !important; line-heig=
+ht: 100% !important;}
+    /* End reset */
+
+    /* Some sensible defaults for images
+    Bring inline: Yes. */
+    img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubi=
+c;}=20
+    a img {border:none;}=20
+    .image_fix {display:block;}
+
+    /* Yahoo paragraph fix
+    Bring inline: Yes. */
+    p {margin: 0 0 1em 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 21px;
+      color: #39393a;
+    }
+    /* Hotmail header color reset
+    Bring inline: Yes. */
+    h1, h2, h3, h4, h5, h6 {color: #39393a;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      line-height: 24px;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+    img { border: none !important; }
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+    h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:=
+active {
+    color: red !important; /* Preferably not the same color as the normal h=
+eader link color.  There is limited support for psuedo classes in email cli=
+ents, this was added just for good measure. */
+    }
+
+    h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, =
+h6 a:visited {
+    color: purple !important; /* Preferably not the same color as the norma=
+l header link color. There is limited support for psuedo classes in email c=
+lients, this was added just for good measure. */
+    }
+
+    /* Outlook 07, 10 Padding issue fix
+    Bring inline: No.*/
+    table td {border-collapse: collapse;}
+
+    /* Remove spacing around Outlook 07, 10 tables
+    Bring inline: Yes */
+    table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; }
+
+    /* Styling your links has become much simpler with the new Yahoo.  In f=
+act, it falls in line with the main credo of styling in email and make sure=
+ to bring your styles inline.  Your link colors will be uniform across clie=
+nts when brought inline.
+    Bring inline: Yes. */
+    a {color: #169acd; text-decoration: none;}
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Yahoo fix for yshortcuts span in footer */
+
+ =C2=A0 =C2=A0#footer span.yshortcuts, #footer .yshortcuts span {=20
+ =C2=A0 =C2=A0 =C2=A0color: rgb(51, 51, 51);font-size:11px;
+ =C2=A0 =C2=A0}
+
+    /***************************************************
+    ****************************************************
+    MOBILE TARGETING
+    ****************************************************
+    ***************************************************/
+    @media only screen and (max-device-width: 480px) {
+      /* Part one of controlling phone number linking for mobile. */
+      a[href^=3D"tel"], a[href^=3D"sms"] {
+            text-decoration: none;
+            color: blue; /* or whatever your want */
+            pointer-events: none;
+            cursor: default;
+          }
+
+      .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+            text-decoration: default;
+            color: orange !important;
+            pointer-events: auto;
+            cursor: default;
+          }
+
+    }
+
+    /* More Specific Targeting */
+
+    @media only screen and (min-device-width: 768px) and (max-device-width:=
+ 1024px) {
+    /* You guessed it, ipad (tablets, smaller screens, etc) */
+      /* repeating for the ipad */
+      a[href^=3D"tel"], a[href^=3D"sms"] {
+            text-decoration: none;
+            color: blue; /* or whatever your want */
+            pointer-events: none;
+            cursor: default;
+          }
+
+      .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+            text-decoration: default;
+            color: orange !important;
+            pointer-events: auto;
+            cursor: default;
+          }
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Put your iPhone 4g styles in here */=20
+    }
+
+    /* Android targeting */
+    @media only screen and (-webkit-device-pixel-ratio:.75){
+    /* Put CSS for low density (ldpi) Android layouts in here */
+    }
+    @media only screen and (-webkit-device-pixel-ratio:1){
+    /* Put CSS for medium density (mdpi) Android layouts in here */
+    }
+    @media only screen and (-webkit-device-pixel-ratio:1.5){
+    /* Put CSS for high density (hdpi) Android layouts in here */
+    }
+    /* end Android targeting */
+
+  </style>
+
+  <!-- Targeting Windows Mobile -->
+  <!--[if IEMobile 7]>
+  <style type=3D"text/css">
+=20=20
+  </style>
+  <![endif]-->=20=20=20
+
+  <!-- ***********************************************
+  ****************************************************
+  END MOBILE TARGETING
+  ****************************************************
+  ************************************************ -->
+
+  <!--[if gte mso 9]>
+    <style>
+    /* Target Outlook 2007 and 2010 */
+    </style>
+  <![endif]-->
+</head>
+<body style=3D"background: ;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--subject line-->
+
+
+
+
+
+
+
+
+
+<center>
+<table width=3D"902" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff=
+">
+
+    <tr>
+        <td style=3D"border-bottom: 3px solid #005979;" bgcolor=3D"#169acd">
+            <center>
+                <table width=3D"600" bgcolor=3D"#169acd" cellpadding=3D"10">
+                    <tr>
+                        <td align=3D"left">
+                            <a href=3D"https://www.nitrocloud.com" alt=3D"N=
+itro Cloud" valign=3D"center">
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/nitro-cloud-logo.png" width=3D"107" height=3D"51" s=
+tyle=3D"display:block;" alt=3D"Nitro Cloud"/>
+                            </a>
+                        </td>
+                        <td align=3D"right" valign=3D"center"><a href=3D"ht=
+tps://www.nitrocloud.com/verify?s=3DgherwA-ytSIrDJ3Q011Mab6UnW41M3H8SQ7iNmP=
+Y&cs=3Dtrue" style=3D"text-decoration: underline;"><font face=3D"arial" siz=
+e=3D"2" color=3D"#ffffff">Sign up for Nitro Cloud &gt;</font></a></td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor=3D"#ffffff">
+            <center>
+                <table width=3D"600" bgcolor=3D"#ffffff" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0">
+                        <tr>
+                            <td valign=3D"center" align=3D"left" width=3D"6=
+00">
+                                <br/>
+                                <br/>
+                                <font face=3D"arial" size=3D"6" color=3D"#5=
+d5d5d">Thanks for using Nitro Cloud's free <br/><b>PDF to Word</b> conversi=
+on service.</font><br /><br /><br/>=20
+                            </td>
+                        </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor=3D"#ffffff">
+            <center>
+                <table width=3D"600" bgcolor=3D"#ffffff" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0">
+                        <tr>
+                            <td align=3D"left">
+                                <p style=3D"font-size: 20px; line-height: 2=
+4px;">
+                                    <font face=3D"arial" color=3D"#5d5d5d">=
+To continue converting documents and gain access to additional powerful doc=
+ument collaboration features,=20
+                                    please take a few seconds to <a href=3D=
+"https://www.nitrocloud.com/verify?s=3DgherwA-ytSIrDJ3Q011Mab6UnW41M3H8SQ7i=
+NmPY&cs=3Dtrue" style=3D"text-decoration: underline;"><font color=3D"#169ac=
+d"><b>sign up for a free Nitro Cloud account<b/></a>. </font></font><br/><b=
+r/>
+                                    <font face=3D"arial" color=3D"#5d5d5d">=
+<b>You will receive 5 more free PDF conversions immediately and then 5 more=
+ every month.</b></font><br/><br/>
+                                    <a href=3D"https://www.nitrocloud.com/v=
+erify?s=3DgherwA-ytSIrDJ3Q011Mab6UnW41M3H8SQ7iNmPY&cs=3Dtrue">
+			                            <img src=3D"http://content.nitropdf.com/img/=
+nitropdfcom/conversion/green-cta.png" width=3D"600" height=3D"82" style=3D"=
+display:block;" />
+			                            <br/>
+			                        </a>
+                                </p>
+                                <br/><br/>
+                            </td>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20
+                        </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor=3D"#ffffff">
+            <center>
+                <table width=3D"594" bgcolor=3D"#ffffff" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border: 3px solid #169acd;">
+                    <tr>
+                        <td colspan=3D"2" bgcolor=3D"#169acd">
+                            <center>
+                                <br/>
+                                    <font face=3D"arial" size=3D"4" color=
+=3D"#ffffff">With your free Nitro Cloud, you'll also receive:</font>
+                                <br/>
+                                <br/>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor=3D"#e7f8ff" valign=3D"bottom">
+                            <br/>
+                            <center>
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/graphic-1.png" width=3D"121" height=3D"58" style=3D=
+"display:block;" />
+                            </center>
+                            <br/>
+                        </td>
+                        <td bgcolor=3D"#ffffff" valign=3D"bottom">
+                            <br/>
+                            <center>
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/graphic-2-new.png" width=3D"209" height=3D"52" styl=
+e=3D"display:block;" />
+                            </center>
+                            <br/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td bgcolor=3D"#e7f8ff">
+                            <center>
+                                <font face=3D"arial" size=3D"2" color=3D"#5=
+d5d5d"><b>5 free e-signature workflows</b></font>
+                            </center>
+                            <br/>
+                        </td>
+                        <td bgcolor=3D"#ffffff">
+                            <center>
+                                <font face=3D"arial" size=3D"2" color=3D"#5=
+d5d5d"><b>Dropbox, Google Drive and<br/> SkyDrive integration</b></font>
+                            </center>
+                            <br/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td bgcolor=3D"#ffffff">
+                            <br/>
+                            <center>
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/graphic-3.png" width=3D"101" height=3D"63" style=3D=
+"display:block;" />
+                            </center>
+                            <br/>
+                        </td>
+                        <td bgcolor=3D"#e7f8ff">
+                            <br/>
+                            <center>
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/graphic-4.png" width=3D"123" height=3D"72" style=3D=
+"display:block;" />
+                            </center>
+                            <br/>
+                        </td>
+                    </tr>=20=20=20=20=20=20=20
+
+                    <tr>
+                        <td bgcolor=3D"#ffffff">
+                            <center>
+                                <font face=3D"arial" size=3D"2" color=3D"#5=
+d5d5d"><b>The ability to share documents<br/> with anyone, from anywhere</b=
+></font>
+                            </center>
+                            <br/>
+                        </td>
+                        <td bgcolor=3D"#e7f8ff">
+                            <center>
+                                <font face=3D"arial" size=3D"2" color=3D"#5=
+d5d5d"><b>Document collaboration<br/> tools in your browser</b></font>
+                            </center>
+                            <br/>
+                        </td>
+                    </tr>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor=3D"#ffffff">
+            <center>
+            <table width=3D"600" bgcolor=3D"#ffffff" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0">
+                <tr>
+                    <td align=3D"left">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <p style=3D"font-size: 20px; line-height: 24px;">
+                            <font face=3D"arial" color=3D"#5d5d5d">Sign up =
+for a free Nitro Cloud account today and receive <b>5 more free PDF convers=
+ions immediately and then 5 more every month</b>. Nitro Cloud will store al=
+l your converted documents and you can access them anytime, from anywhere.<=
+/font>
+                        </p>
+                        <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=3D"https://www.nitrocloud.com/verify?s=3Dgh=
+erwA-ytSIrDJ3Q011Mab6UnW41M3H8SQ7iNmPY&cs=3Dtrue">
+                            <img src=3D"http://content.nitropdf.com/img/nit=
+ropdfcom/conversion/green-cta.png" width=3D"600" height=3D"82" style=3D"dis=
+play:block;" />
+                            <br/><br/>
+                        </a>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"border-top: 3px solid #005979;" bgcolor=3D"#169acd">
+            <center>
+                <table width=3D"600" bgcolor=3D"#169acd" cellpadding=3D"0" =
+cellspacing=3D"0">
+                    <tr>
+                        <td>
+                            <br/>
+                            <center>
+                                <img src=3D"http://content.nitropdf.com/img=
+/nitropdfcom/conversion/footer-logo.png" width=3D"78" height=3D"32" style=
+=3D"display:block;" />
+                            </center>
+                            <br/>
+                        </td>
+                    </tr>=20=20=20
+                    <tr>
+                        <td>
+                            <center>
+                                <p><font face=3D"arial" size=3D"3" color=3D=
+"#ffffff"><b>Trusted by millions from desktop to cloud.</b></font></p>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <p><font face=3D"arial" size=3D"2" color=3D=
+"#ffffff">225 Bush Street, Suite 700. San Francisco, California 94104, USA.=
+ <br/>
+                                Copyright: &copy;2013 Nitro Software, Inc.<=
+/font></p>
+                                <p><font face=3D"arial" size=3D"2" color=3D=
+"#ffffff">If you would like to stop receiving these emails please click <a =
+href=3D"https://www.nitrocloud.com/unsubscribe/Nb2E0Gt96WR-Te34406de-90c2-4=
+8cc-9ed6-1c0c7216afccMTAxBfn4Jfn91mHP1/33554432"><font face=3D"arial" size=
+=3D"2" color=3D"#ffffff">unsubscribe</font></a>.</font></p>
+                            </center>
+                        </td>
+                    </tr>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20
+                </table>
+            </center>
+        </td>
+    </tr>
+
+=20=20=20=20
+
+</table>
+</center>
+
+
+
+
+
+<!-- End of wrapper table -->
+</body>
+</html>=
+
+------=_Part_8620_879764246.1385629151312--
+
+------=_Part_8619_476262945.1385629151312--

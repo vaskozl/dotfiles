@@ -1,0 +1,215 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp78470oac;
+        Tue, 11 Feb 2014 23:28:47 -0800 (PST)
+X-Received: by 10.66.150.69 with SMTP id ug5mr37598988pab.55.1392190126817;
+        Tue, 11 Feb 2014 23:28:46 -0800 (PST)
+Return-Path: <support@dolphin-browser.com>
+Received: from mail-pb0-x22d.google.com (mail-pb0-x22d.google.com [2607:f8b0:400e:c01::22d])
+        by mx.google.com with ESMTPS id yg10si21723859pbc.92.2014.02.11.23.28.45
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 11 Feb 2014 23:28:46 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning support@dolphin-browser.com does not designate 2607:f8b0:400e:c01::22d as permitted sender) client-ip=2607:f8b0:400e:c01::22d;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning support@dolphin-browser.com does not designate 2607:f8b0:400e:c01::22d as permitted sender) smtp.mail=support@dolphin-browser.com;
+       dkim=neutral (bad format) header.i=@dolphin-browser.com
+Received: by mail-pb0-x22d.google.com with SMTP id un15so8842482pbc.18
+        for <vasil.zlatanov@gmail.com>; Tue, 11 Feb 2014 23:28:45 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dolphin-browser.com; s=google;
+        h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version
+         :content-type;
+        bh=uZm1qDe1qrssmYZAXtFn+tMUqyHpKfSeuQiM3TBrMFc=;
+        b=HfS3OHA5kV2SWl4OS7Cb1gyydMOGJFuytW4u60vBOQ/iWPc7I83b3WChX4ZuUy7cub
+         mY8wSqkCMW5iuRJHLY4dSUaUoX0eRIHcvm6N+4x+et7qjucIMnTfQmJvDICOM+GlDk2g
+         Q0Tr2dXUCijpJGl0ZdOzc9hVJEhd2LYuD4DzA=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:reply-to:to:message-id:in-reply-to
+         :subject:mime-version:content-type;
+        bh=uZm1qDe1qrssmYZAXtFn+tMUqyHpKfSeuQiM3TBrMFc=;
+        b=YbPfn0u3SLzAYXQxDdQlntUZxoqZwSnLVL3USkrz6AL+8W3P+aAqKnhDXYVDuMJGfo
+         675u8TfxJFXteG50+EITCf7L02zm28zHgzfo9XsHHjaNuih+VOgL0zk9l3dxDasvgZX4
+         jB2wZZFf9pU3WPesl9cyHzDklg9afKtksIddC7IPwjLzOJ+dqMwHFlndlgud8hSCfW5G
+         hukmeeFp80YV/uS3ThvC3Jb2zeGuvg56CMKk6MyWuzniee2vHfokwX+m+vb7FTer99zc
+         nwahHjarAu8d29bBEpEg+yLfL6ME555Gob2t9RQoqQ63/i2jjBoIRCdWdo6QLgIApMVQ
+         swqQ==
+X-Gm-Message-State: ALoCoQkc+V4hhAfGlOf1cw6uYv99RQhY4g70OjIGtGMkgzqRfGVydPopN/JmzucsQnIpQsk18cVA
+X-Received: by 10.68.197.8 with SMTP id iq8mr49312298pbc.124.1392190125650;
+        Tue, 11 Feb 2014 23:28:45 -0800 (PST)
+Return-Path: <support@dolphin-browser.com>
+Received: from backend07.internal.desk.com (ec2-54-241-15-215.us-west-1.compute.amazonaws.com. [54.241.15.215])
+        by mx.google.com with ESMTPSA id om6sm60457047pbc.43.2014.02.11.23.28.40
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1.1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 11 Feb 2014 23:28:42 -0800 (PST)
+Date: Wed, 12 Feb 2014 07:28:40 +0000
+From: Dolphin Support <support@dolphin-browser.com>
+Reply-To: Dolphin Support <support@dolphin-browser.com>
+To: vasil.zlatanov@gmail.com
+Message-Id: <52fb137b151ec_daceeeff8758b1@support.dolphin.com>
+In-Reply-To: <CAFjFiymX=pZ1eWFqnAN6njnMvE3fiHWH9_yNx3zL34ZCFMpF=A@mail.gmail.com>
+Subject: Re: Goodbye to Dolphin. Just want to let you know...
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_52fb22a888d8e_1d935c58001549b
+X-Mailer: Desk.com Support Platform
+
+
+--mimepart_52fb22a888d8e_1d935c58001549b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: Quoted-printable
+
+__________________________________
+Type your response ABOVE THIS LINE to reply
+
+-------------------------------------------------------------------------=
+-----------------------------------
+Customer: support
+Subject: Goodbye to Dolphin. Just want to let you know...
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Allen | FEB 12, 2014 | 11:28PM PST
+
+Hello Vasil,
+
+Thank you for your feedback.
+Could you tell me the version of Dolphin you uninstalled?
+Did you install Dolphin Jetpack?
+
+What kind of keyboard do you use? What is the version?
+Do you have the same issue with stock browser or ant other browsers?
+Can you send us a screenshot to show this issue?
+Cheers,
+Dolphin Support Team
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Vasil | FEB 11, 2014 | 10:24AM PST  | Original message =
+
+
+The keyboard cant be transparent.
+
+
+
+
+-------------------------------------------------------------------------=
+-----------------------------------
+This message was sent to vasil.zlatanov@gmail.com in reference to Case #:=
+ 108571.
+-------------------------------------------------------------------------=
+-----------------------------------
+
+
+
+
+[[7e2390f72d31864ab9af1718e41890101b444f46-201987812]]=
+
+--mimepart_52fb22a888d8e_1d935c58001549b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: Quoted-printable
+
+<div style=3D'color:#ffffff; display: none !important;'>_________________=
+_________________</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+<tr>
+<td align=3D"center" valign=3D"top">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top" style=3D"color:#333; font-family:Arial; font-size:14px=
+; line-height:150%; text-align:left;">
+
+<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top">
+
+<div>
+<span style=3D"font-size:90%; color:#777;">Type your response ABOVE THIS =
+LINE to reply</span>
+
+<hr />
+
+<div style=3D"background-color:#efefef; font-size:100%; padding:5px; marg=
+in:10px 0 0 0;">
+<strong>Vasil Zlatanov</strong><br/>
+<strong>Subject:</strong> Goodbye to Dolphin. Just want to let you know..=
+.
+</div>
+
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 12, 2014 &nbsp;|&nbsp; 11:28PM PST</sp=
+an>
+<br />
+
+<strong>Allen</strong> replied:<br/>
+<div>Hello Vasil,<br/><br/>Thank you for your feedback.<br/>Could you tel=
+l me the version of Dolphin you uninstalled?<br/>Did you install Dolphin =
+Jetpack?<br/><br/>What kind of keyboard do you use? What is the version?<=
+br/>Do you have the same issue with stock browser or ant other browsers?<=
+br/>Can you send us a screenshot to show this issue?</div>
+
+
+<div style=3D"margin-top:10px;"> Cheers,
+<br />
+Dolphin Support Team</div>
+
+
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 11, 2014 &nbsp;|&nbsp; 10:24AM PST
+</span>
+<br />
+
+
+<span style=3D"background-color: #efefef; font-weight:strong;">Original m=
+essage</span><br/>
+
+
+<strong>
+
+  Vasil
+
+</strong>
+
+
+  wrote:<br /><br />
+
+
+The keyboard cant be transparent.<br/><br/>
+<hr />
+
+
+
+
+<div style=3D"background-color:#fafafa; border:0; font-size:80%; padding:=
+2px;"> This message was sent to  vasil.zlatanov@gmail.com in reference to=
+ Case #: 108571. <br />
+
+</div>
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<span style=3D'color:#ffffff'>[[7e2390f72d31864ab9af1718e41890101b444f46-=
+201987812]]</span>=
+
+--mimepart_52fb22a888d8e_1d935c58001549b--

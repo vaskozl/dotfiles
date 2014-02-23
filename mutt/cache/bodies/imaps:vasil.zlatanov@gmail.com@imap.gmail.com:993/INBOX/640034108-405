@@ -1,0 +1,210 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.94.237 with SMTP id df13csp123943oab;
+        Sun, 20 Oct 2013 23:15:41 -0700 (PDT)
+X-Received: by 10.58.143.17 with SMTP id sa17mr9938986veb.14.1382336140992;
+        Sun, 20 Oct 2013 23:15:40 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vb0-x235.google.com (mail-vb0-x235.google.com [2607:f8b0:400c:c02::235])
+        by mx.google.com with ESMTPS id m3si4148569vdw.114.2013.10.20.23.15.40
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 20 Oct 2013 23:15:40 -0700 (PDT)
+Received-SPF: neutral (google.com: 2607:f8b0:400c:c02::235 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=2607:f8b0:400c:c02::235;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2607:f8b0:400c:c02::235 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se;
+       dkim=neutral (bad format) header.i=@lavrod.se
+Received: by mail-vb0-x235.google.com with SMTP id i3so3712386vbh.12
+        for <vasil.zlatanov@gmail.com>; Sun, 20 Oct 2013 23:15:40 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:subject:date
+         :message-id:mime-version:content-type:thread-index:content-language;
+        bh=fsHfgEp7OMyIrK7ZV7/dCgJVUUFFlsPnC/vKbdG8vaQ=;
+        b=RfBBej+yRRnHGU0LN7kS9cFGOPiQ3+BcNrTrhNbnqojd+0/UfB/LiQdN2k1APy4TIV
+         CrLpwKNT2iMxbJ5Lwk5y1beQ9+zCwkEweU4BYP/3ZyrOxDAzMENHqdfKfyvZXRtmxHW3
+         L+NLg5+Y6qKr819agzRW0LGDSVKenpgqIWkRMpriQYNGMS7BK0YbZcB34dOP7uaQqvC3
+         +zcIQK9l8gMgiy4MtwkiwWSZ05SbJsN/GgedagOebM2AQDi5T6KyHTFApsLTKT1STXD1
+         ftg6o6kH+f0eSKCDZqWfOQhlmKca2xQV1+Ed94lgfoxRSaLerO6mNZIgFtEAh/IcneOX
+         gPDw==
+X-Gm-Message-State: ALoCoQn1gGi8mM3hWgyOjr2FK/gT0LIIz/mr6cBJG/kFFJuQbBxsLh/EaMoIgz9ZJo/JLokLlwm3
+X-Received: by 10.220.250.4 with SMTP id mm4mr4988vcb.47.1382336140024;
+        Sun, 20 Oct 2013 23:15:40 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.229.7 with SMTP id jg7csp113410vcb;
+        Sun, 20 Oct 2013 23:15:39 -0700 (PDT)
+X-Received: by 10.204.226.135 with SMTP id iw7mr6380083bkb.4.1382336138704;
+        Sun, 20 Oct 2013 23:15:38 -0700 (PDT)
+Return-Path: <jakob@lavrod.se>
+Received: from mail-lb0-x22d.google.com (mail-lb0-x22d.google.com [2a00:1450:4010:c04::22d])
+        by mx.google.com with ESMTPS id qh3si821772bkb.236.2013.10.20.23.15.37
+        for <Vasil.Zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 20 Oct 2013 23:15:38 -0700 (PDT)
+Received-SPF: neutral (google.com: 2a00:1450:4010:c04::22d is neither permitted nor denied by best guess record for domain of jakob@lavrod.se) client-ip=2a00:1450:4010:c04::22d;
+Received: by mail-lb0-f173.google.com with SMTP id w7so1039035lbi.32
+        for <Vasil.Zlatanov1@malmoborgar.se>; Sun, 20 Oct 2013 23:15:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lavrod.se; s=google;
+        h=from:to:subject:date:message-id:mime-version:content-type
+         :thread-index:content-language;
+        bh=fsHfgEp7OMyIrK7ZV7/dCgJVUUFFlsPnC/vKbdG8vaQ=;
+        b=fEC0GPb39LsHVgh2o24LeMgD3jzymIBOzOpTwbVZFWP3s5vWiu56F03YeDqszcaHoA
+         V+TyvthSLlaE64Af9T6A4XcRaJU29ctvuwRxpzrv6W/S9tmEfRvrClF2dlDJVILXIARQ
+         Q0GAFoxt6lBUN3SMEoZ9Yigdiw5YqLfANROJg=
+X-Received: by 10.112.198.39 with SMTP id iz7mr12053638lbc.24.1382336136471;
+        Sun, 20 Oct 2013 23:15:36 -0700 (PDT)
+Return-Path: <jakob@lavrod.se>
+Received: from SmultronJDator (c-1ce1e655.538-4-64736c12.cust.bredbandsbolaget.se. [85.230.225.28])
+        by mx.google.com with ESMTPSA id u18sm11089851lbp.4.2013.10.20.23.15.33
+        for <multiple recipients>
+        (version=TLSv1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sun, 20 Oct 2013 23:15:35 -0700 (PDT)
+From: =?iso-8859-1?Q?Jakob_Lavr=F6d?= <jakob@lavrod.se>
+To: <Henrik.gustafsson1@malmoborgar.se>,
+	<daniel.nesic1@malmoborgar.se>,
+	=?iso-8859-1?Q?'Lars_=C5str=F6m'?= <lars.astrom1@malmoborgar.se>,
+	"'Malte Larsson'" <malte.larsson1@malmoborgar.se>,
+	<jakob.helman1@malmoborgar.se>,
+	<Ali.hariri1@malmoborgar.se>,
+	<clara.erixon1@malmoborgar.se>,
+	"'Sina Al-Raiss Ali Hussain'" <sina.al-raiss-ali-hussain1@malmoborgar.se>,
+	<Martin.Macek1@malmoborgar.se>,
+	"'Karin.Risberg1@malmoborgar.se'" <Karin.Risberg1@malmoborgar1.se>,
+	<Eric.Runevad1@malmoborgar.se>,
+	<Jeffrey.Clarke1@malmoborgar.se>,
+	=?iso-8859-1?Q?'Alex.=C5kesson1=40malmoborgar.se'?=,
+	<Filip.Olsson1@malmoborgar.se>,
+	<Hassan.Alqabanchi1@malmoborgar.se>,
+	<jacob.roing1@malmoborgar.se>,
+	<jacob.soderstjerna1@malmoborgar.se>,
+	<fabrice.suh@gmail.com>,
+	<Vasil.Zlatanov1@malmoborgar.se>,
+	<Marcus.Begic1@malmoborgar.se>,
+	<alex.mcivor1@malmoborgar.se>,
+	"'An Phan'" <an.phan1@malmoborgar.se>,
+	=?iso-8859-1?Q?'Erik_Gral=E9n'?= <erik.gralen1@malmoborgar.se>,
+	"'Luis Antonio Ordonez Garcia'" <luis-antonio.ordonez-garcia1@malmoborgar.se>,
+	"'Ali Kadhem'" <ali.kadhem1@malmoborgar.se>
+Subject: IYPT status uppdate
+Date: Mon, 21 Oct 2013 08:15:31 +0200
+Message-ID: <000501cece24$f403b030$dc0b1090$@se>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0006_01CECE35.B78C8030"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ac7OJPIPNdIbn1O9Sq+r8hc5QfGcDA==
+Content-Language: sv
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0006_01CECE35.B78C8030
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi all IYPT members!
+
+Some weeks have passed since we from the University group meet most of =
+you
+the last time. Hence we are very interested in what has been going on. =
+Some
+of you we have been in contact with already, but if you do have any data =
+or
+experiments (or something as simple as a photograph of the phenomena or
+something interesting) that you have not discussed with us, it would be
+great if you could send an email and relay the results, since this give =
+us
+some time to discuss your findings before we meet the next time, and we =
+can
+give you some individual feedback on how to interpret and improve your
+results. Same thing apply if you have any questions about the physics or
+experimental techniques, we will do our best to give satisfactory =
+answer.
+
+=20
+
+We wish all of you best of luck in the work with the problems!
+
+=20
+
+Best regards
+
+Jakob, Felicia, Tobias, Damir, Maria, M=E5rten, Fredrik
+
+
+------=_NextPart_000_0006_01CECE35.B78C8030
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><meta name=3DGenerator content=3D"Microsoft Word =
+12 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.E-postmall17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DSV link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal>Hi all =
+IYPT members!<o:p></o:p></p><p class=3DMsoNormal><span lang=3DEN-US>Some =
+weeks have passed since we from the University group meet most of you =
+the last time. Hence we are very interested in what has been going on. =
+Some of you we have been in contact with already, but if you do have any =
+data or experiments (or something as simple as a photograph of the =
+phenomena or something interesting) that you have not discussed with us, =
+it would be great if you could send an email and relay the results, =
+since this give us some time to discuss your findings before we meet the =
+next time, and we can give you some individual feedback on how to =
+interpret and improve your results. Same thing apply if you have any =
+questions about the physics or experimental techniques, we will do our =
+best to give satisfactory answer.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>We wish all of you best of luck in =
+the work with the problems!<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>Best =
+regards<o:p></o:p></span></p><p class=3DMsoNormal>Jakob, Felicia, =
+Tobias, Damir, Maria, M=E5rten, =
+Fredrik<o:p></o:p></p></div></body></html>
+------=_NextPart_000_0006_01CECE35.B78C8030--
+

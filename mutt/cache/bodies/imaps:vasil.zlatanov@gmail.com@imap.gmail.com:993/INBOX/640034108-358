@@ -1,0 +1,187 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp97080wed;
+        Wed, 11 Sep 2013 23:13:24 -0700 (PDT)
+X-Received: by 10.52.113.99 with SMTP id ix3mr394910vdb.22.1378966403577;
+        Wed, 11 Sep 2013 23:13:23 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f175.google.com (mail-vc0-f175.google.com [209.85.220.175])
+        by mx.google.com with ESMTPS id gq10si685322vdc.121.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 11 Sep 2013 23:13:23 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.175;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f175.google.com with SMTP id ia10so6812911vcb.20
+        for <vasil.zlatanov@gmail.com>; Wed, 11 Sep 2013 23:13:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:references:from:content-type:in-reply-to:message-id:date:to
+         :content-transfer-encoding:mime-version;
+        bh=ZgM+JLPms+y8VxTpDftYa7/r/lEt0OM+zW/buQhz+Ww=;
+        b=jASO300POu4+nBzizdcUfH5qcyqg7ITk5x69Hrtf8JuaMomW8EsvsKAc+Fx1jdHL8v
+         HdFcTYo6/x6mnVcaAhoh6cP5zvX2Av+wRWNI0jIZpAmVGDjiCzLAizRblcvdoMR6a+9z
+         wNzCo0VKX41nuKfwXjh0qp4xDXi0EhhU1nDHm4YYns18+F/FzpKdWMK5/1UAMUtTNOCh
+         OmfMUoyo3b2K1458wTlWo4rb4F68vsIWWnQieFFkQ9Aql2+la6sl72L0BdUnqc3nxAMo
+         IBSN4B/n302HYlYcPPXOAo6hgX5pCoBpkOzftGVx3y0ABPKIAIrlbxJmcISCBKD0i5OB
+         XZ6Q==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.215.48 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) smtp.mail=sam.edgecombe@malmoborgar.se
+X-Gm-Message-State: ALoCoQlZTE/gimx+s66+INr0FH5+ztVX2MEa1sVeOO9/H1QwxPDNg0IpFxbFpDczal4UyXaQmeOv
+X-Received: by 10.52.229.73 with SMTP id so9mr2333vdc.27.1378966403150;
+        Wed, 11 Sep 2013 23:13:23 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp2074vcv;
+        Wed, 11 Sep 2013 23:13:22 -0700 (PDT)
+X-Received: by 10.152.7.8 with SMTP id f8mr296711laa.31.1378966401635;
+        Wed, 11 Sep 2013 23:13:21 -0700 (PDT)
+Return-Path: <sam.edgecombe@malmoborgar.se>
+Received: from mail-la0-f48.google.com (mail-la0-f48.google.com [209.85.215.48])
+        by mx.google.com with ESMTPS id mk7si2620146lbc.124.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 11 Sep 2013 23:13:21 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.215.48 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) client-ip=209.85.215.48;
+Received: by mail-la0-f48.google.com with SMTP id er20so8112086lab.21
+        for <vasil.zlatanov1@malmoborgar.se>; Wed, 11 Sep 2013 23:13:20 -0700 (PDT)
+X-Received: by 10.112.198.39 with SMTP id iz7mr5947597lbc.24.1378966400764;
+        Wed, 11 Sep 2013 23:13:20 -0700 (PDT)
+Return-Path: <sam.edgecombe@malmoborgar.se>
+Received: from [10.141.5.100] (host-95-199-197-100.mobileonline.telia.com. [95.199.197.100])
+        by mx.google.com with ESMTPSA id b1sm804612lah.6.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 11 Sep 2013 23:13:20 -0700 (PDT)
+Subject: Re: IPYT course - Freezing Droplets
+References: <CAKMnQyxHii2r7NHd_6zzvFaEP=E3m-U_-A0iJEopFyjT6tUO7w@mail.gmail.com> <CAKMnQyy=cweywiVZ-9p_AGTOFoNd7pXMA0EPXNx9nKM4d-qtSg@mail.gmail.com>
+From: Samuel Edgecombe <sam.edgecombe@malmoborgar.se>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-C2B692B0-AE29-4769-86F5-189F60E80E2D
+X-Mailer: iPhone Mail (10B329)
+In-Reply-To: <CAKMnQyy=cweywiVZ-9p_AGTOFoNd7pXMA0EPXNx9nKM4d-qtSg@mail.gmail.com>
+Message-Id: <9805A677-63D7-4857-8138-3DA5E82EBB3D@malmoborgar.se>
+Date: Thu, 12 Sep 2013 08:13:18 +0200
+To: Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>,
+ Marcus Begic <marcus.begic1@malmoborgar.se>,
+ Alex McIvor <alex.mcivor1@malmoborgar.se>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+
+--Apple-Mail-C2B692B0-AE29-4769-86F5-189F60E80E2D
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Let's meet Friday at 8. Knock on my office door (physics office).
+
+Sam
+
+On 10 sep 2013, at 06:25, Sam Edgecombe <sam.edgecombe@malmoborgar.se> wrote=
+:
+
+> Hi,
+>=20
+> I propose to change the time we meet from Fridays to Thursdays at between 9=
+:00 - 10:00 since I might have other commitments on Friday afternoons. Is th=
+at okay with you?
+>=20
+> Is so then so you this Thursday at 9:00. Come to my office (physics depart=
+ment) and we'll find a suitable room to meet in.
+>=20
+> Yours
+>=20
+> Sam
+>=20
+>=20
+> On 9 September 2013 16:16, Sam Edgecombe <sam.edgecombe@malmoborgar.se> wr=
+ote:
+>> Hi,
+>>=20
+>> I will be your supervisor for this course and for the freezing droplets p=
+roblem.
+>>=20
+>> There wasn't a great time that fitted in with my timetable, but since I k=
+now that you only have ToK in the afternoons when we have "Common platform" s=
+essions, then I suggest that we have our meeting time on Fridays at 12:50 - 1=
+3:50 except when we have Common platform.
+>>=20
+>> Let's start by meeting this Friday at 12:50.
+>>=20
+>> Start by reading up on your problem using this reference kit=20
+>> http://ilyam.org/FDD_2014_IYPT_Reference_kit.pdf
+>>=20
+>> Yours
+>>=20
+>> Sam
+>>=20
+>> --=20
+>> Sam Edgecombe
+>>=20
+>> l=C3=A4rare i matematik och fysik / Teacher in mathematics and physics
+>> Malm=C3=B6 Borgarskola
+>> Sweden
+>> www.malmoborgarskola.se
+>=20
+>=20
+>=20
+> --=20
+> Sam Edgecombe
+>=20
+> l=C3=A4rare i matematik och fysik / Teacher in mathematics and physics
+> Malm=C3=B6 Borgarskola
+> Sweden
+> www.malmoborgarskola.se
+
+--Apple-Mail-C2B692B0-AE29-4769-86F5-189F60E80E2D
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>Let's meet Friday at 8. Knock on my of=
+fice door (physics office).<br><br>Sam</div><div><br>On 10 sep 2013, at 06:2=
+5, Sam Edgecombe &lt;<a href=3D"mailto:sam.edgecombe@malmoborgar.se">sam.edg=
+ecombe@malmoborgar.se</a>&gt; wrote:<br><br></div><blockquote type=3D"cite">=
+<div><div dir=3D"ltr">Hi,<div><br></div><div>I propose to change the time we=
+ meet from Fridays to Thursdays at between 9:00 - 10:00 since I might have o=
+ther commitments on Friday afternoons. Is that okay with you?</div><div><br>=
+</div>
+<div>Is so then so you this Thursday at 9:00. Come to my office (physics dep=
+artment) and we'll find a suitable room to meet in.</div><div><br></div><div=
+>Yours</div><div><br>Sam</div></div><div class=3D"gmail_extra"><br>
+<br><div class=3D"gmail_quote">On 9 September 2013 16:16, Sam Edgecombe <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:sam.edgecombe@malmoborgar.se" target=3D"=
+_blank">sam.edgecombe@malmoborgar.se</a>&gt;</span> wrote:<br><blockquote cl=
+ass=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex">
+<div dir=3D"ltr">Hi,<div><br></div><div>I will be your supervisor for this c=
+ourse and for the freezing droplets problem.</div><div><br></div><div>There w=
+asn't a great time that fitted in with my timetable, but since I know that y=
+ou only have ToK in the afternoons when we have "Common platform" sessions, t=
+hen I suggest that we have our meeting time on Fridays at 12:50 - 13:50 exce=
+pt when we have Common platform.</div>
+
+<div><br></div><div>Let's start by meeting this Friday at 12:50.</div><div><=
+br></div><div>Start by reading up on your problem using this reference kit&n=
+bsp;</div><div><a href=3D"http://ilyam.org/FDD_2014_IYPT_Reference_kit.pdf" t=
+arget=3D"_blank">http://ilyam.org/FDD_2014_IYPT_Reference_kit.pdf</a></div>
+
+<div><br></div><div>Yours</div><span class=3D"HOEnZb"><font color=3D"#888888=
+"><div><br></div><div>Sam<br><div><div><br></div>-- <br>Sam Edgecombe<div><b=
+r></div><div>l=C3=A4rare i matematik och fysik / Teacher in mathematics and p=
+hysics</div>
+<div>Malm=C3=B6 Borgarskola</div><div>
+Sweden</div><div><a href=3D"http://www.malmoborgarskola.se" target=3D"_blank=
+">www.malmoborgarskola.se</a></div>
+
+</div></div></font></span></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>Sam Edgecombe=
+<div><br></div><div>l=C3=A4rare i matematik och fysik / Teacher in mathemati=
+cs and physics</div><div>Malm=C3=B6 Borgarskola</div><div>Sweden</div><div><=
+a href=3D"http://www.malmoborgarskola.se" target=3D"_blank">www.malmoborgars=
+kola.se</a></div>
+
+</div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-C2B692B0-AE29-4769-86F5-189F60E80E2D--

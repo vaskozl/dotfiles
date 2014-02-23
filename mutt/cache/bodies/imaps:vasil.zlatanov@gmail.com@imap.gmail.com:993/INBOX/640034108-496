@@ -1,0 +1,50 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp704911oac;
+        Mon, 30 Dec 2013 14:02:46 -0800 (PST)
+X-Received: by 10.224.136.136 with SMTP id r8mr112496576qat.0.1388440965699;
+        Mon, 30 Dec 2013 14:02:45 -0800 (PST)
+Return-Path: <www-data@savannah.gnu.org>
+Received: from frontend.savannah.gnu.org (savannah.gnu.org. [140.186.70.70])
+        by mx.google.com with ESMTPS id w4si3747416qaj.22.2013.12.30.14.02.45
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 30 Dec 2013 14:02:45 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of www-data@savannah.gnu.org designates 140.186.70.70 as permitted sender) client-ip=140.186.70.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of www-data@savannah.gnu.org designates 140.186.70.70 as permitted sender) smtp.mail=www-data@savannah.gnu.org
+Received: from www-data by frontend.savannah.gnu.org with local (Exim 4.72)
+	(envelope-from <www-data@savannah.gnu.org>)
+	id 1Vxkv6-0001vZ-NE
+	for vasil.zlatanov@gmail.com; Mon, 30 Dec 2013 22:02:44 +0000
+Date: Mon, 30 Dec 2013 22:02:44 +0000
+To: vasil.zlatanov@gmail.com
+Subject: Savannah Account Registration
+X-PHP-Originating-Script: 0:sendmail.php
+From: INVALID.NOREPLY@gnu.org
+X-Savane-Server: savannah.nongnu.org:443 [140.186.70.71]
+MIME-Version: 1.0
+Content-Type: text/plain;charset=UTF-8
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0
+X-Apparently-From: 46.195.138.73
+Message-Id: <20131230-220244.sv0.66488@savannah.nongnu.org>
+
+Thank you for registering on the Savannah web site.
+(Your login is not mentioned in this mail to prevent account creation by
+robots.)
+
+In order to complete your registration, visit the following URL:
+
+https://savannah.nongnu.org/account/verify.php?confirm_hash=a2c7420fd891622f
+
+Enjoy the site.
+
+-- the Savannah team.
+P.S. Your password is now stored in encrypted form
+in the Savannah database.  For better security we advise you
+to change your Savannah password as soon as possible.
+
+
+_______________________________________________
+  Message sent via/by Savannah
+  http://savannah.nongnu.org/
+

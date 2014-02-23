@@ -1,0 +1,270 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp98726oai;
+        Mon, 19 Aug 2013 11:01:42 -0700 (PDT)
+X-Received: by 10.52.165.111 with SMTP id yx15mr1314844vdb.33.1376935302599;
+        Mon, 19 Aug 2013 11:01:42 -0700 (PDT)
+Return-Path: <Newsletter@email.blizzard.com>
+Received: from email.blizzard.com (email.blizzard.com. [12.129.200.219])
+        by mx.google.com with ESMTP id xe6si2622452vdb.74.1969.12.31.16.00.00;
+        Mon, 19 Aug 2013 11:01:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of Newsletter@email.blizzard.com designates 12.129.200.219 as permitted sender) client-ip=12.129.200.219;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of Newsletter@email.blizzard.com designates 12.129.200.219 as permitted sender) smtp.mail=Newsletter@email.blizzard.com;
+       dkim=pass header.i=@email.blizzard.com;
+       dmarc=pass (p=REJECT dis=NONE) d=email.blizzard.com
+DKIM-Signature: v=1; a=rsa-sha256; d=email.blizzard.com; s=em; c=relaxed/relaxed; l=10406; i=@*.email.blizzard.com; t=1376935299; x=1408471299; q=dns/txt; h=Date:From:To:Message-ID:Subject; bh=kX8QBZOzMrJUpLMe7u2B+lVAHM79gMPxghYzydeF6Nc=; b=LkLmjiE5+2wFsaY3G3sLyPIwE7yyjlUu+utBkozc04JQIi108kPRQrD9vqc9t/QDn21Sy6Y5zR8mFqkl9aHWn8TVoZEyYFHfM/GrBeEISLtqHGLW2aiJvkuMmXXfT6We61I/w6sYa418CPUlvJe1G0TqH+p4bHGB1kgNMfp5iJ4=
+Date: Mon, 19 Aug 2013 19:01:39 +0100 (BST)
+From: "Blizzard Entertainment" <Newsletter@email.blizzard.com>
+To: vasil.zlatanov@gmail.com
+Message-ID: <em.6d0d0a82.20130819175811.1.1.204829.1160701@email.blizzard.com>
+Subject: =?UTF-8?Q?Vasil_=E2=80=93_Don=E2=80=99t_miss_the_StarCraft_II_Wor?=
+ =?UTF-8?Q?ld_Championship_Series_Season_2_Finals!?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailer:  7.2.2.3.25; blizzard
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=20
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml">
+<head> =20
+    <title>Don=E2=80=99t miss the StarCraft II World Championship Season 2 =
+Finals! - Blizzard Entertainment</title>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+>
+   =20
+=09<style type=3D"text/css">
+        p { nmargin: 0 0 0 0 !important;}
+        a {color:#77a6d7;}
+    </style>
+</head>
+
+<body bgcolor=3D"#000000" link=3D"#cc700c" vlink=3D"#cc700c" alink=3D"#dd70=
+0c" style=3D"margin: 0; padding: 0; -webkit-text-size-adjust:none;">
+=09<div style=3D"width:613px;">
+        <map name=3D"blizzard-logo" id=3D"blizzard-logo">
+            <area shape=3D"rect" coords=3D"238,40,382,126" href=3D"http://e=
+u.blizzard.com" target=3D"_blank" alt=3D"Blizzard Entertainment" />
+        </map>
+   =20
+        <table width=3D"613" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0">
+            <tr>
+                <td colSpan=3D4>
+                    <div align=3D"center"><font face=3D"Arial, Helvetica, s=
+ans-serif" color=3D#999999 size=3D1>Having trouble viewing this email?</fon=
+t>
+                       =20
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/de=
+-de/index_de-de.html" style=3D"color: #DD700C">DE</a></font>               =
+        =20
+=09=09=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#9999=
+99 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/en=
+-gb/index_en-gb.html" style=3D"color: #DD700C">EN</a></font>               =
+        =20
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/es=
+-es/index_es-es.html" style=3D"color: #DD700C">ES</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/fr=
+-fr/index_fr-fr.html" style=3D"color: #DD700C">FR</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/it=
+-it/index_it-it.html" style=3D"color: #DD700C">IT</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/pl=
+-pl/index_pl-pl.html" style=3D"color: #DD700C">PL</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/ru=
+-ru/index_ru-ru.html" style=3D"color: #DD700C">RU</a></font>
+                         <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1>
+                        <br>                       =20
+                        To ensure you receive emails from Blizzard, add <st=
+rong style=3D"color: #DD700C">Newsletter@email.blizzard.com</strong> to you=
+r address book.
+                        <br />
+    Change the <font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=
+=3D"https://eu.battle.net/account/management/settings/change-communication.=
+html" style=3D"color: #DD700C">preferred language</a></font> you receive e-=
+mails in. </font>
+                    </div>
+                </td>
+            </tr>
+        </table>
+   =20
+        <br>
+   =20
+        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"613" border=3D"=
+0">
+            <tr>
+                <td height=3D"323">
+                    <a href=3D'http://email.blizzard.com/Key-1160701.C.Cbv8=
+.C.C.k72Gg'  target=3D"_blank">
+=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2013/sc2/sc2_g=
+amescom_wcs/_images/header-en-en.jpg" alt=3D"StarCraft II WCS - Season 2Fin=
+als" width=3D"613" height=3D"323" style=3D"display: block; border: 0 none;"=
+ border=3D"0">
+=09=09=09=09=09</a>
+                </td>
+            </tr>
+            <tr>
+                <td height=3D"517" width=3D"613" valign=3D"top" background=
+=3D"http://media.wow-europe.com/email/2013/sc2/sc2_gamescom_wcs/_images/con=
+tent.jpg">
+                    <!--[if gte mso 9]>
+                    <v:rect style=3D"width:613px;height:517px;" strokecolor=
+=3D"none">
+                        <v:fill type=3D"tile" src=3D"http://media.wow-europ=
+e.com/email/2013/sc2/sc2_gamescom_wcs/_images/content.jpg" /></v:fill>
+                    </v:rect>
+                    <v:shape id=3D"Header" style=3D"position:absolute;width=
+:613px;height:517px;">
+                    <![endif]-->
+   =20
+                    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"613">
+                         <tr>
+                            <td height=3D"517" width=3D"72" rowspan=3D"5"><=
+img border=3D"0" src=3D"http://media.wow-europe.com/email/mop/pre-purchase/=
+spacer.gif" height=3D"1" width=3D"62" style=3D"display: block; border: 0 no=
+ne" /></td>
+                            <td height=3D"517" width=3D"446" align=3D"left"=
+ valign=3D"top">
+                                <font color=3D"#ffffff" face=3D"Arial" styl=
+e=3D"line-height:14px; font-size:15px;">
+                                    <span style=3D"font-size: 15px; font-fa=
+mily: Arial; line-height: 18px; "><br>Vasil,<br><br>
+=09=09=09=09=09=09=09=09=09Over the past two months, Premier League players=
+ from around the world have competed for a seat at the cross-region 2013 WC=
+S Season 2 Finals, where a Season 2 champion will be crowned. The Season 2 =
+Finals will be presented live by the <strong>Electronic Sports League</stro=
+ng> in Hall 8 from <strong>August 23 - 25 at gamescom in Cologne, Germany</=
+strong>.<br><br>
+
+                                    As a brief reminder, the Season Finals =
+will feature the top five Premier League players from each region, as well =
+as one additional player from the host region, WCS Europe. You can tune in =
+on the <strong><a href=3D'http://email.blizzard.com/Key-1160701.C.Cbv8.C.C.=
+k72Gg'>WCS Portal</a></strong> or the official ESL stream to catch every bi=
+t of the action as the players compete for WCS Points, a share in the $150,=
+000 prize pool, and the title of WCS Season 2 champion.<br><br>
+
+                                    Those of you who wish to attend in-pers=
+on will need to purchase a ticket to gamescom 2013, and you can head <a hre=
+f=3D'http://email.blizzard.com/Key-1160701.C.Cbv8.G.C.k73b8'><strong>here</=
+strong></a> to do just that.  And if you do come to gamescom, be sure to vi=
+sit Blizzard Entertainment=E2=80=99s huge booth in Hall 7. We=E2=80=99ll ha=
+ve our latest games available for you to play, and exciting entertainment o=
+n our stage. <strong><a href=3D'http://email.blizzard.com/Key-1160701.C.Cbv=
+8.H.C.k74Bm'>Check out our site for details</a></strong>.
+                                    </span>
+=09=09=09=09=09=09=09=09</font>
+                           </td>
+                            <td height=3D"517" width=3D"95" rowspan=3D"5"><=
+img border=3D"0" src=3D"http://media.wow-europe.com/email/mop/pre-purchase/=
+spacer.gif" height=3D"1" width=3D"55" style=3D"display: block; border: 0 no=
+ne" /></td>
+                         </tr>
+                    </table>
+                    <!--[if gte mso 9]>
+                    </v:shape>
+                    <![endif]-->
+                </td>
+            </tr>
+
+=09=09=09
+         =20
+            <tr>
+                <td height=3D"150" width=3D"613" valign=3D"top">
+                    <img src=3D"http://media.wow-europe.com/email/2013/sc2/=
+sc2_gamescom_wcs/_images/footer.jpg" width=3D"613" height=3D"150" border=3D=
+"0" usemap=3D"#blizzard-logo" style=3D"display: block; border: 0 none;" alt=
+=3D"Blizzard Entertainment">
+                </td>
+            </tr>
+        </table>
+   =20
+        <table width=3D"613" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+20" bgcolor=3D"#000000">
+            <tr>
+                <td style=3D"padding: 0 1em 0 0;" valign=3D"top">
+                    <p style=3D"margin-bottom: 12px;">
+                        <font color=3D"#999999" face=3D"Arial">
+                            <span style=3D"font-size: 10px; font-family: Ar=
+ial;">=09=09=09=09=09=09=09If you no longer wish to receive Blizzard newsle=
+tters, or information relating to Blizzard products, please reply to this e=
+mail using the subject line "Unsubscribe".
+=09=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09=09To read our privacy policy visit:</span>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<a href=3D"http://eu.blizzard.com/en-gb/company/about/=
+privacy.html" style=3D"color: #DD700C">
+=09=09=09=09=09=09=09<span style=3D"font-size: 10px; font-family: Arial;">h=
+ttp://eu.blizzard.com/en-gb/company/about/privacy.html</span></a>
+=09=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09=09=09<!-- PEGI LOGO -->
+=09=09=09=09=09=09=09<a href=3D"http://www.pegi.info/en/index/"><img src=3D=
+"http://media.wow-europe.com/ratings/pegi_16_med.jpg" width=3D"60" height=
+=3D"79" style=3D"display: block; color: #DD700C" align=3D"left" border=3D"0=
+" hspace=3D"5"></a><span style=3D"font-size: 10px; font-family: Arial;">
+=09=09=09=09=09=09=09=C2=A9 2013 Blizzard Entertainment, Inc. All rights re=
+served.
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09Blizzard Entertainment, StarCraft, Wings of Liberty, H=
+eart of the Swarm and Battle.net are trademarks or registered trademarks in=
+ the U.S. and/or other countries. All other trademarks are the property of =
+their respective owners.
+=09=09=09=09=09=09=09</span>
+=09=09=09=09=09=09</font>
+                    </p>
+                </td>
+                <td style=3D"padding: 0 0 0 0;" valign=3D"top">
+                    <p style=3D"margin-bottom: 12px;">
+                        <font color=3D"#999999" face=3D"Arial"><span style=
+=3D"font-size: 10px; font-family: Arial;">
+                            Technical Support:
+                            <br>
+                            <a href=3D"http://eu.battle.net/support/en/" st=
+yle=3D"color: #DD700C">http://eu.battle.net/support/en/</a>
+                            <br>
+                            <br>
+                            Visit Blizzard on the world wide web at: <a hre=
+f=3D"http://eu.blizzard.com/en-gb/" style=3D"color: #DD700C">eu.blizzard.co=
+m/en/</a>
+                        </span></font>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <map name=3D"Map" id=3D"Map">
+  <area shape=3D"rect" coords=3D"292,6,578,189" href=3D'http://email.blizza=
+rd.com/Key-1160701.C.Cbv8.J.C.k74lQ' target=3D"_blank" alt=3D"Digital Delux=
+e Edition" />
+  <area shape=3D"rect" coords=3D"35,9,288,188" href=3D'http://email.blizzar=
+d.com/Key-1160701.C.Cbv8.F.C.k73QX' target=3D"_blank" alt=3D"Pre-Purchase b=
+y clicking here" />
+  <area shape=3D"rect" coords=3D"34,189,576,271" href=3D'http://email.blizz=
+ard.com/Key-1160701.C.Cbv8.F.C.k73QX' target=3D"_blank" alt=3D"Pre-Purchase=
+ by clicking here" />
+</map>
+<BR>.<BR><BR><img src=3D"http://email.blizzard.com/blankpixel.gif/Key-11607=
+01.C.Cbv8.z.C.nJGLslY"/><BR><BR>Message-Id: &lt;em.6d0d0a82.20130819175811.=
+1.1.204829.1160701@email.blizzard.com&gt;<BR></body>
+</html>

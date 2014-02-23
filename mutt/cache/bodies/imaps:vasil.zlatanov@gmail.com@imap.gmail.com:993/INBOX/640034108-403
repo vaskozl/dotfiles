@@ -1,0 +1,80 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.94.237 with SMTP id df13csp45252oab;
+        Sat, 19 Oct 2013 09:52:06 -0700 (PDT)
+X-Received: by 10.15.75.73 with SMTP id k49mr11586169eey.36.1382201525379;
+        Sat, 19 Oct 2013 09:52:05 -0700 (PDT)
+Return-Path: <toni_sfr+prvs=10057730d9@mail.bg>
+Received: from mx3.mail.bg (mx3.mail.bg. [2001:67c:16b8:1::2:19])
+        by mx.google.com with ESMTP id h46si5839420eex.223.2013.10.19.09.52.04
+        for <vasil.zlatanov@gmail.com>;
+        Sat, 19 Oct 2013 09:52:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of toni_sfr+prvs=10057730d9@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) client-ip=2001:67c:16b8:1::2:19;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of toni_sfr+prvs=10057730d9@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) smtp.mail=toni_sfr+prvs=10057730d9@mail.bg;
+       dkim=pass header.i=@mail.bg
+Received: from mail.bg (unknown [10.0.0.24])
+	by mx3.mail.bg (Postfix) with ESMTPA id 3E79B202A7FC
+	for <vasil.zlatanov@gmail.com>; Sat, 19 Oct 2013 19:52:04 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1382201524; bh=1eE4oszOrfZhyhtTa7uHRPVn39by/f9ukMVwrJpq++0=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=ddo0WabarG9tzYqny7uIeOrg8fr9UKqMbhgL12ltepy96qvtESOakKV4DDDHqmfwQ
+	 0hMtOo47xpn4XkADwsT7PIuDoL2yGcUW+C5wK1bIt62xey0Z776IwJbPSE5ZEK7q3g
+	 EZS9SGC6kjnP57w+ctCdmdumv251T89oj2kn1vPY=
+Message-ID: <7987b6c22140b14c9c61e155a125ffeb.mailbg@mail.bg>
+Date: Sat, 19 Oct 2013 16:52:04 -0000
+Subject: 
+From: toni_sfr@mail.bg
+To: vasil.zlatanov@gmail.com
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20131019165203_72892"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2013-10-19T16:52:03+00:00
+X-Originating-IP: [79.100.11.149]
+X-Checking: 2013-10-19T16:52:03+00:00
+X-Checked: 2013-10-19T16:52:04+00:00
+
+------=_20131019165203_72892
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0AZdravei Vasko.Mina edin pochiven den-yabalkite sigurno veche sa uz=
+reli i=0Aste gi obrali.I dvora sigurno e mnogo krasiv s vasha pomosht.nalag=
+a se da=0Agovorya s mama.Kaji i da mi se obadi.Pozdravi=0A=0A=0A-----------=
+--------------------------=0AMail.BG: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=
+=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=
+=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=
+=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=
+=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=
+=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =
+=D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=
+=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=
+=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =
+=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=
+=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8. ht=
+tp://mail.bg
+------=_20131019165203_72892
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"line-height: 16px; font-size: 13px; font-family: Tahoma,sans-se=
+rif; margin: 16px 0px;" valid=3D"true">Zdravei Vasko.Mina edin pochiven den=
+-yabalkite sigurno veche sa uzreli i ste gi obrali.I dvora sigurno e mnogo =
+krasiv s vasha pomosht.nalaga se da govorya s mama.Kaji i da mi se obadi.Po=
+zdravi<br></p><br /><br />-------------------------------------<br /><a hre=
+f=3D"http://mail.bg">Mail.BG</a>: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=
+=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=B9-=
+=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=
+=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=
+=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=B7=
+=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =D0=
+=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=D0=
+=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=D0=
+=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =D0=
+=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=
+=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8.
+------=_20131019165203_72892--
+
+

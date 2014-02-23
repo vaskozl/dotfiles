@@ -1,0 +1,1836 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp13459oac;
+        Thu, 21 Nov 2013 04:24:56 -0800 (PST)
+X-Received: by 10.220.86.69 with SMTP id r5mr5675507vcl.9.1385036696301;
+        Thu, 21 Nov 2013 04:24:56 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f178.google.com (mail-ve0-f178.google.com [209.85.128.178])
+        by mx.google.com with ESMTPS id de6si10915668vcb.34.2013.11.21.04.24.55
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 21 Nov 2013 04:24:56 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.128.178 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.178;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.178 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f178.google.com with SMTP id c14so1445109vea.9
+        for <vasil.zlatanov@gmail.com>; Thu, 21 Nov 2013 04:24:55 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:mime-version:message-id:date
+         :subject:from:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe:content-type;
+        bh=B3OwFnazNmbN9GYJzWtc3tJL5RWGv61ZUV5kzCBE/nU=;
+        b=L3PB+aENI8qGnkkLB0nGYr/zLxBcieEqyburqIoyj5bm7yWf1sVRVnHsv5pXePLVzC
+         lki5UZv/DBek+3QxdWvJ+mkHiJc+WuotqKecqSsHliZUbbsC/4apFRGnAWaECdUwmcVk
+         8wCb0hTtn1Ku5yowN8PXjEci7otVsKVPo2M8cVq4rvhfeCntlEcLZ2p6D8p9kr2zmoiM
+         qjtscqvhn66j1WQ27Xdfd8LxsZRS576nwQSSofvgxcDBlCUn27KCRVqh9LQhheGUNVHw
+         qpKon0ZgM7/Ws/R3pyM+mrje34EEg2+EmIdzq0vWzZy3M5ZUyMKieia4WrMcVNelT4eb
+         kUvQ==
+X-Gm-Message-State: ALoCoQnkbOtES1wHfeLbxt7muBz0ohcbbDllP+7tnktP5ex0/yjvCwz7NEox5O7mW964Q4vbjm3w
+X-Received: by 10.58.254.200 with SMTP id ak8mr5767283ved.12.1385036695627;
+        Thu, 21 Nov 2013 04:24:55 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.113.81 with SMTP id z17csp401847vcp;
+        Thu, 21 Nov 2013 04:24:54 -0800 (PST)
+X-Received: by 10.68.6.66 with SMTP id y2mr6024919pby.60.1385036694199;
+        Thu, 21 Nov 2013 04:24:54 -0800 (PST)
+Return-Path: <elev+bncBDEMHMGJ3INBBFHXW6KAKGQEXNOZYVI@malmoborgar.se>
+Received: from mail-pd0-f200.google.com (mail-pd0-f200.google.com [209.85.192.200])
+        by mx.google.com with ESMTPS id n5si16836519pav.243.2013.11.21.04.24.53
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 21 Nov 2013 04:24:54 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.197 is neither permitted nor denied by best guess record for domain of elev+bncBDEMHMGJ3INBBFHXW6KAKGQEXNOZYVI@malmoborgar.se) client-ip=209.85.220.197;
+Received: by mail-pd0-f200.google.com with SMTP id p10sf5670869pdj.11
+        for <vasil.zlatanov1@malmoborgar.se>; Thu, 21 Nov 2013 04:24:53 -0800 (PST)
+X-Received: by 10.66.144.133 with SMTP id sm5mr1973150pab.5.1385036693746;
+        Thu, 21 Nov 2013 04:24:53 -0800 (PST)
+X-BeenThere: elev@malmoborgar.se
+Received: by 10.49.96.136 with SMTP id ds8ls496059qeb.44.gmail; Thu, 21 Nov
+ 2013 04:24:52 -0800 (PST)
+X-Received: by 10.52.160.130 with SMTP id xk2mr4780477vdb.24.1385036691967;
+        Thu, 21 Nov 2013 04:24:51 -0800 (PST)
+Received: from mail-vc0-f197.google.com (mail-vc0-f197.google.com [209.85.220.197])
+        by mx.google.com with ESMTPS id pv1si10891620veb.132.2013.11.21.04.24.51
+        for <elev@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 21 Nov 2013 04:24:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3k_uNUg0OBFwPF47CGCL.CFC6G4FGI5ILA4L.M88F8PG4FGI5ILA4L.M8@trix.bounces.google.com designates 209.85.220.197 as permitted sender) client-ip=209.85.220.197;
+Received: by mail-vc0-f197.google.com with SMTP id id10so8853781vcb.4
+        for <elev@malmoborgar.se>; Thu, 21 Nov 2013 04:24:51 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.236.92.202 with SMTP id j50mt4175024yhf.26.1385036691722;
+ Thu, 21 Nov 2013 04:24:51 -0800 (PST)
+Message-ID: <20cf3011dbc302f05804ebaefcea@google.com>
+Date: Thu, 21 Nov 2013 12:24:51 +0000
+Subject: =?ISO-8859-1?Q?Enk=E4tunders=F6kning_om_MOTIVATION?=
+From: vladimir.ilic@malmoborgar.se
+To: elev@malmoborgar.se
+X-Original-Sender: vladimir.ilic@malmoborgar.se
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of 3k_uNUg0OBFwPF47CGCL.CFC6G4FGI5ILA4L.M88F8PG4FGI5ILA4L.M8@trix.bounces.google.com
+ designates 209.85.220.197 as permitted sender) smtp.mail=3k_uNUg0OBFwPF47CGCL.CFC6G4FGI5ILA4L.M88F8PG4FGI5ILA4L.M8@trix.bounces.google.com
+Precedence: list
+Mailing-list: list elev@malmoborgar.se; contact elev+owners@malmoborgar.se
+List-ID: <elev.malmoborgar.se>
+X-Google-Group-Id: 60984336562
+List-Post: <http://groups.google.com/a/malmoborgar.se/group/elev/post>, <mailto:elev@malmoborgar.se>
+List-Help: <http://support.google.com/a/malmoborgar.se/bin/topic.py?topic=25838>,
+ <mailto:elev+help@malmoborgar.se>
+List-Archive: <http://groups.google.com/a/malmoborgar.se/group/elev/>
+List-Unsubscribe: <http://groups.google.com/a/malmoborgar.se/group/elev/subscribe>,
+ <mailto:googlegroups-manage+60984336562+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=20cf3011dbc3031be504ebaefcf8
+
+--20cf3011dbc3031be504ebaefcf8
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SGVqIGVsZXZlciwNCkjkciBrb21tZXIgZW4gZW5r5HQgb20gZXIgc3R1ZGllbW90aXZhdGlvbi4g
+SmFnIHNrdWxsZSB2YXJhIHRhY2tzYW0gb20NCm5pIHZpbGwgdGEgZXIgdGlkIGF0dCBiZXN2YXJh
+IGZy5Wdvcm5hLg0KVGFjayBw5SBm9nJoYW5kIQ0KVuRubGlnZW4sDQpWbGFkDQoNCg0KDQoNCg0K
+TmVkYW4gZmlubnMgbuVncmEgcOVzdOVlbmRlbiBhbmflZW5kZSBkaW4gbW90aXZhdGlvbiBhdHQg
+cGx1Z2dhLiBHZW5vbQ0KYXR0IGFuduRuZGEgc2thbGFuIHVuZGVyIHZhcmplIHDlc3TlZW5kZSwg
+dXR25HJkZXJhciBkdSBodXIgduRsIGRldA0Kc3TkbW1lciBpbiBw5SBkaWcuDQoNCkphZyBoYXIg
+Ymp1ZGl0IGluIGRpZyBz5SBhdHQgZHUga2FuIGZ5bGxhIGkgZm9ybXVs5HJldA0KRW5r5HR1bmRl
+cnP2a25pbmcgb20gTU9USVZBVElPTi4gT20gZHUgdmlsbCBmeWxsYSBpIGRldCBrYW4gZHUgZ+Ug
+aGl0Og0KaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vYS9tYWxtb2Jvcmdhci5zZS9mb3Jtcy9kLzFD
+dmxKUEpfUVhuS1VCM3JxY19jTTZMYW9BZ3loQlprVDV0WVIxb2pMUW53L3ZpZXdmb3JtDQo=
+--20cf3011dbc3031be504ebaefcf8
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div class=3D"ss-email-body" style=3D"width:576px;"><p>Hej elev=
+er,<p>H=E4r kommer en enk=E4t om er studiemotivation. Jag skulle vara tacks=
+am om ni vill ta er tid att besvara fr=E5gorna. <p>Tack p=E5 f=F6rhand!<p>V=
+=E4nligen,<br>Vlad</p></p></p></p>
+Om du inte kan visa eller skicka formul=E4ret kan du fylla i det online:
+<br>
+<a href=3D"https://docs.google.com/a/malmoborgar.se/forms/d/1CvlJPJ_QXnKUB3=
+rqc_cM6LaoAgyhBZkT5tYR1ojLQnw/viewform" style=3D"">https://docs.google.com/=
+a/malmoborgar.se/forms/d/1CvlJPJ_QXnKUB3rqc_cM6LaoAgyhBZkT5tYR1ojLQnw/viewf=
+orm</a>
+<p></p>
+<div dir=3D"ltr" style=3D""><div class=3D"form-body" style=3D""><h1 class=
+=3D"ss-form-title" dir=3D"ltr" style=3D"">Enk=E4tunders=F6kning om MOTIVATI=
+ON</h1></div>
+<div style=3D"white-space: pre-wrap; display: inline"><div class=3D"ss-form=
+-desc ss-no-ignore-whitespace" style=3D"font:inherit;width:99%;margin:0 0 1=
+em;white-space:pre-wrap;word-wrap:break-word;">Nedan finns n=E5gra p=E5st=
+=E5enden ang=E5ende din motivation att plugga. Genom att anv=E4nda skalan u=
+nder varje p=E5st=E5ende, utv=E4rderar du hur v=E4l det st=E4mmer in p=E5 d=
+ig.   </div>
+</div>
+<div class=3D"form-body" style=3D""><div class=3D"ss-form" style=3D""><form=
+ action=3D"https://docs.google.com/a/malmoborgar.se/forms/d/1CvlJPJ_QXnKUB3=
+rqc_cM6LaoAgyhBZkT5tYR1ojLQnw/formResponse" method=3D"POST" id=3D"ss-form" =
+target=3D"_self" onsubmit=3D"" style=3D""><ol style=3D"padding-left: 0">
+<div class=3D"ss-form-question errorbox-good" style=3D"">
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1574200959" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag finner materialet intressan=
+t och praktiskt</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag finner materialet intressant och praktiskt " style=3D"list-sty=
+le:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D=
+"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-=
+choice-item-control goog-inline-block" style=3D"position:relative;display:i=
+nline-block;"><input type=3D"radio" name=3D"entry.44869664" value=3D"Inst=
+=E4mmer inte alls" id=3D"group_44869664_1" role=3D"radio" class=3D"ss-q-rad=
+io" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.44869664" value=3D"Inst=E4mmer delvis=A0" id=3D"g=
+roup_44869664_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4m=
+mer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.44869664" value=3D"Inst=E4mmer=A0" id=3D"group_44=
+869664_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=A0"=
+ style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.44869664" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_44869664_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Ins=
+t=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.44869664" value=3D"Inst=E4mmer helt" id=3D"group_=
+44869664_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer h=
+elt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1979283562" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag tycker om l=E4raren</div></=
+label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag tycker om l=E4raren " style=3D"list-style:none;margin:.5em 0 0=
+ 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;line-height:1=
+.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goo=
+g-inline-block" style=3D"position:relative;display:inline-block;"><input ty=
+pe=3D"radio" name=3D"entry.1836508266" value=3D"Inst=E4mmer inte alls" id=
+=3D"group_1836508266_1" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"I=
+nst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1836508266" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1836508266_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1836508266" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1836508266_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1836508266" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1836508266_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1836508266" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1836508266_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1155979946" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag tycker att kursen =E4r sv=
+=E5r</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag tycker att kursen =E4r sv=E5r " style=3D"list-style:none;margi=
+n:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;lin=
+e-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-c=
+ontrol goog-inline-block" style=3D"position:relative;display:inline-block;"=
+><input type=3D"radio" name=3D"entry.1425583701" value=3D"Inst=E4mmer inte =
+alls" id=3D"group_1425583701_1" role=3D"radio" class=3D"ss-q-radio" aria-la=
+bel=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1425583701" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1425583701_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1425583701" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1425583701_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1425583701" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1425583701_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1425583701" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1425583701_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1900940034" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag =E4r r=E4dd att bli underk=
+=E4nd</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag =E4r r=E4dd att bli underk=E4nd " style=3D"list-style:none;mar=
+gin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;l=
+ine-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item=
+-control goog-inline-block" style=3D"position:relative;display:inline-block=
+;"><input type=3D"radio" name=3D"entry.2062241600" value=3D"Inst=E4mmer int=
+e alls" id=3D"group_2062241600_1" role=3D"radio" class=3D"ss-q-radio" aria-=
+label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.2062241600" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_2062241600_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.2062241600" value=3D"Inst=E4mmer=A0" id=3D"group_=
+2062241600_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.2062241600" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_2062241600_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.2062241600" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_2062241600_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1502307989" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag tycker att kursen =E4r enke=
+l</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag tycker att kursen =E4r enkel " style=3D"list-style:none;margin=
+:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;line=
+-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-co=
+ntrol goog-inline-block" style=3D"position:relative;display:inline-block;">=
+<input type=3D"radio" name=3D"entry.288794969" value=3D"Inst=E4mmer inte al=
+ls" id=3D"group_288794969_1" role=3D"radio" class=3D"ss-q-radio" aria-label=
+=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.288794969" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_288794969_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.288794969" value=3D"Inst=E4mmer=A0" id=3D"group_2=
+88794969_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.288794969" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_288794969_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.288794969" value=3D"Inst=E4mmer helt" id=3D"group=
+_288794969_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1423056369" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag tycker att det =E4r l=E4tt =
+att uppn=E5 h=F6gsta betyg</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r jag tycker att det =E4r l=E4tt att uppn=E5 h=F6gsta betyg " style=
+=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-it=
+em" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span =
+class=3D"ss-choice-item-control goog-inline-block" style=3D"position:relati=
+ve;display:inline-block;"><input type=3D"radio" name=3D"entry.648527913" va=
+lue=3D"Inst=E4mmer inte alls" id=3D"group_648527913_1" role=3D"radio" class=
+=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.648527913" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_648527913_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.648527913" value=3D"Inst=E4mmer=A0" id=3D"group_6=
+48527913_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.648527913" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_648527913_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.648527913" value=3D"Inst=E4mmer helt" id=3D"group=
+_648527913_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_298151833" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r medelniv=E5n i min klass =E4r h=
+=F6g</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r medelniv=E5n i min klass =E4r h=F6g " style=3D"list-style:none;mar=
+gin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;l=
+ine-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item=
+-control goog-inline-block" style=3D"position:relative;display:inline-block=
+;"><input type=3D"radio" name=3D"entry.81897345" value=3D"Inst=E4mmer inte =
+alls" id=3D"group_81897345_1" role=3D"radio" class=3D"ss-q-radio" aria-labe=
+l=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.81897345" value=3D"Inst=E4mmer delvis=A0" id=3D"g=
+roup_81897345_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4m=
+mer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.81897345" value=3D"Inst=E4mmer=A0" id=3D"group_81=
+897345_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=A0"=
+ style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.81897345" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_81897345_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Ins=
+t=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.81897345" value=3D"Inst=E4mmer helt" id=3D"group_=
+81897345_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer h=
+elt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1054247693" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r medelniv=E5n i min klass =E4r l=
+=E5g </div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r medelniv=E5n i min klass =E4r l=E5g  " style=3D"list-style:none;ma=
+rgin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;=
+line-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-ite=
+m-control goog-inline-block" style=3D"position:relative;display:inline-bloc=
+k;"><input type=3D"radio" name=3D"entry.119936480" value=3D"Inst=E4mmer int=
+e alls" id=3D"group_119936480_1" role=3D"radio" class=3D"ss-q-radio" aria-l=
+abel=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.119936480" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_119936480_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.119936480" value=3D"Inst=E4mmer=A0" id=3D"group_1=
+19936480_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.119936480" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_119936480_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.119936480" value=3D"Inst=E4mmer helt" id=3D"group=
+_119936480_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_722392443" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG PLUGGAR MER...
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r nationella proven n=E4rmar sig =
+</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG PLUGGAR MER.=
+.. N=E4r nationella proven n=E4rmar sig  " style=3D"list-style:none;margin:=
+.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;line-=
+height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-con=
+trol goog-inline-block" style=3D"position:relative;display:inline-block;"><=
+input type=3D"radio" name=3D"entry.9880028" value=3D"Inst=E4mmer inte alls"=
+ id=3D"group_9880028_1" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"I=
+nst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.9880028" value=3D"Inst=E4mmer delvis=A0" id=3D"gr=
+oup_9880028_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mme=
+r delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.9880028" value=3D"Inst=E4mmer=A0" id=3D"group_988=
+0028_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=A0" s=
+tyle=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.9880028" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_9880028_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.9880028" value=3D"Inst=E4mmer helt" id=3D"group_9=
+880028_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer hel=
+t" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_924763921" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag m=E5r bra av att l=E4ra=
+ mig</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag m=E5r bra av att l=E4ra mig " style=
+=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-it=
+em" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span =
+class=3D"ss-choice-item-control goog-inline-block" style=3D"position:relati=
+ve;display:inline-block;"><input type=3D"radio" name=3D"entry.773214763" va=
+lue=3D"Inst=E4mmer inte alls" id=3D"group_773214763_1" role=3D"radio" class=
+=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.773214763" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_773214763_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.773214763" value=3D"Inst=E4mmer=A0" id=3D"group_7=
+73214763_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.773214763" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_773214763_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.773214763" value=3D"Inst=E4mmer helt" id=3D"group=
+_773214763_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_147465922" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag vill uppn=E5 bra result=
+at</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag vill uppn=E5 bra resultat " style=3D=
+"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item"=
+ style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span cla=
+ss=3D"ss-choice-item-control goog-inline-block" style=3D"position:relative;=
+display:inline-block;"><input type=3D"radio" name=3D"entry.75006659" value=
+=3D"Inst=E4mmer inte alls" id=3D"group_75006659_1" role=3D"radio" class=3D"=
+ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.75006659" value=3D"Inst=E4mmer delvis=A0" id=3D"g=
+roup_75006659_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4m=
+mer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.75006659" value=3D"Inst=E4mmer=A0" id=3D"group_75=
+006659_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=A0"=
+ style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.75006659" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_75006659_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Ins=
+t=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.75006659" value=3D"Inst=E4mmer helt" id=3D"group_=
+75006659_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer h=
+elt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_2142981585" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag verkligen vill f=F6rst=E5 m=
+aterialet</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 N=E4r jag verkligen vill f=F6rst=E5 materialet " s=
+tyle=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choic=
+e-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><s=
+pan class=3D"ss-choice-item-control goog-inline-block" style=3D"position:re=
+lative;display:inline-block;"><input type=3D"radio" name=3D"entry.196147585=
+" value=3D"Inst=E4mmer inte alls" id=3D"group_196147585_1" role=3D"radio" c=
+lass=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.196147585" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_196147585_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.196147585" value=3D"Inst=E4mmer=A0" id=3D"group_1=
+96147585_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.196147585" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_196147585_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.196147585" value=3D"Inst=E4mmer helt" id=3D"group=
+_196147585_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_542778971" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">N=E4r jag k=E4nner att materialet =E4=
+r anv=E4ndbart/applicerbart i mitt framtida yrke</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 N=E4r jag k=E4nner att materialet =E4r anv=E4ndbar=
+t/applicerbart i mitt framtida yrke " style=3D"list-style:none;margin:.5em =
+0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"margin:0;line-heigh=
+t:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control =
+goog-inline-block" style=3D"position:relative;display:inline-block;"><input=
+ type=3D"radio" name=3D"entry.576064606" value=3D"Inst=E4mmer inte alls" id=
+=3D"group_576064606_1" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.576064606" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_576064606_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.576064606" value=3D"Inst=E4mmer=A0" id=3D"group_5=
+76064606_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.576064606" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_576064606_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.576064606" value=3D"Inst=E4mmer helt" id=3D"group=
+_576064606_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1553783258" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag inte vill g=F6ra min fa=
+milj besviken</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag inte vill g=F6ra min familj besviken=
+ " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-c=
+hoice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><labe=
+l><span class=3D"ss-choice-item-control goog-inline-block" style=3D"positio=
+n:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.18524=
+432" value=3D"Inst=E4mmer inte alls" id=3D"group_18524432_1" role=3D"radio"=
+ class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></spa=
+n>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.18524432" value=3D"Inst=E4mmer delvis=A0" id=3D"g=
+roup_18524432_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4m=
+mer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.18524432" value=3D"Inst=E4mmer=A0" id=3D"group_18=
+524432_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=A0"=
+ style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.18524432" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_18524432_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Ins=
+t=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.18524432" value=3D"Inst=E4mmer helt" id=3D"group_=
+18524432_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer h=
+elt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_74579083" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">J=
+AG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag inte vill f=F6rlora min=
+a studiemedel (CSN)</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag inte vill f=F6rlora mina studiemedel=
+ (CSN) " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=
+=3D"ss-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em=
+;"><label><span class=3D"ss-choice-item-control goog-inline-block" style=3D=
+"position:relative;display:inline-block;"><input type=3D"radio" name=3D"ent=
+ry.699694501" value=3D"Inst=E4mmer inte alls" id=3D"group_699694501_1" role=
+=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=
+=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.699694501" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_699694501_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.699694501" value=3D"Inst=E4mmer=A0" id=3D"group_6=
+99694501_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.699694501" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_699694501_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.699694501" value=3D"Inst=E4mmer helt" id=3D"group=
+_699694501_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_2076247116" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag vill bevisa n=E5got f=
+=F6r mig sj=E4lv</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag vill bevisa n=E5got f=F6r mig sj=E4l=
+v " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-=
+choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><lab=
+el><span class=3D"ss-choice-item-control goog-inline-block" style=3D"positi=
+on:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.3145=
+52126" value=3D"Inst=E4mmer inte alls" id=3D"group_314552126_1" role=3D"rad=
+io" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></=
+span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.314552126" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_314552126_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.314552126" value=3D"Inst=E4mmer=A0" id=3D"group_3=
+14552126_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.314552126" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_314552126_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.314552126" value=3D"Inst=E4mmer helt" id=3D"group=
+_314552126_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1028853739" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+JAG K=C4NNER MIG MOTIVERAD ATT PLUGGA=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">F=F6r att jag vill =F6vertr=E4ffa min=
+a klasskamrater</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"JAG K=C4NNER MIG=
+ MOTIVERAD ATT PLUGGA=85 F=F6r att jag vill =F6vertr=E4ffa mina klasskamrat=
+er " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss=
+-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><la=
+bel><span class=3D"ss-choice-item-control goog-inline-block" style=3D"posit=
+ion:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.137=
+4892763" value=3D"Inst=E4mmer inte alls" id=3D"group_1374892763_1" role=3D"=
+radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""=
+></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1374892763" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1374892763_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1374892763" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1374892763_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1374892763" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1374892763_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1374892763" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1374892763_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1117926791" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag inte hinner p=E5 grund av arb=
+etsskyldigheter</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag inte hinner p=E5 grund av arbetsskyldighe=
+ter " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"s=
+s-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><l=
+abel><span class=3D"ss-choice-item-control goog-inline-block" style=3D"posi=
+tion:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.23=
+6241605" value=3D"Inst=E4mmer inte alls" id=3D"group_236241605_1" role=3D"r=
+adio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D"">=
+</span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.236241605" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_236241605_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.236241605" value=3D"Inst=E4mmer=A0" id=3D"group_2=
+36241605_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.236241605" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_236241605_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.236241605" value=3D"Inst=E4mmer helt" id=3D"group=
+_236241605_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1269847946" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag inte hinner p=E5 grund av fam=
+iljeskyldigheter</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag inte hinner p=E5 grund av familjeskyldigh=
+eter " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"=
+ss-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><=
+label><span class=3D"ss-choice-item-control goog-inline-block" style=3D"pos=
+ition:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.5=
+16289469" value=3D"Inst=E4mmer inte alls" id=3D"group_516289469_1" role=3D"=
+radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""=
+></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.516289469" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_516289469_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.516289469" value=3D"Inst=E4mmer=A0" id=3D"group_5=
+16289469_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.516289469" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_516289469_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.516289469" value=3D"Inst=E4mmer helt" id=3D"group=
+_516289469_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1495103920" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag inte hinner p=E5 grund av fri=
+tidsaktiviteter</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag inte hinner p=E5 grund av fritidsaktivite=
+ter " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"s=
+s-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><l=
+abel><span class=3D"ss-choice-item-control goog-inline-block" style=3D"posi=
+tion:relative;display:inline-block;"><input type=3D"radio" name=3D"entry.14=
+10800315" value=3D"Inst=E4mmer inte alls" id=3D"group_1410800315_1" role=3D=
+"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D"=
+"></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1410800315" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1410800315_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1410800315" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1410800315_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1410800315" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1410800315_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1410800315" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1410800315_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_726743806" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">H=
+UVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag hellre umg=E5s med mina v=E4n=
+ner</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag hellre umg=E5s med mina v=E4nner " style=
+=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-it=
+em" style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span =
+class=3D"ss-choice-item-control goog-inline-block" style=3D"position:relati=
+ve;display:inline-block;"><input type=3D"radio" name=3D"entry.1144490053" v=
+alue=3D"Inst=E4mmer inte alls" id=3D"group_1144490053_1" role=3D"radio" cla=
+ss=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1144490053" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1144490053_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1144490053" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1144490053_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1144490053" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1144490053_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1144490053" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1144490053_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1099044368" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att det alltid =E4r f=F6r h=F6gljutt =
+i min studentkorridor</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att det alltid =E4r f=F6r h=F6gljutt i min studen=
+tkorridor " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li clas=
+s=3D"ss-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:.5e=
+m;"><label><span class=3D"ss-choice-item-control goog-inline-block" style=
+=3D"position:relative;display:inline-block;"><input type=3D"radio" name=3D"=
+entry.1709533720" value=3D"Inst=E4mmer inte alls" id=3D"group_1709533720_1"=
+ role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" s=
+tyle=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1709533720" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1709533720_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1709533720" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1709533720_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1709533720" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1709533720_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1709533720" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1709533720_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_838415431" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">H=
+UVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Jag klarar mig utan att plugga</div><=
+/label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Jag klarar mig utan att plugga " style=3D"list-st=
+yle:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=
+=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D"=
+ss-choice-item-control goog-inline-block" style=3D"position:relative;displa=
+y:inline-block;"><input type=3D"radio" name=3D"entry.717281611" value=3D"In=
+st=E4mmer inte alls" id=3D"group_717281611_1" role=3D"radio" class=3D"ss-q-=
+radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.717281611" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_717281611_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.717281611" value=3D"Inst=E4mmer=A0" id=3D"group_7=
+17281611_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.717281611" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_717281611_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.717281611" value=3D"Inst=E4mmer helt" id=3D"group=
+_717281611_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1700669657" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Jag skulle inte klara kursen =E4nd=E5=
+ </div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Jag skulle inte klara kursen =E4nd=E5  " style=3D=
+"list-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item"=
+ style=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span cla=
+ss=3D"ss-choice-item-control goog-inline-block" style=3D"position:relative;=
+display:inline-block;"><input type=3D"radio" name=3D"entry.522862834" value=
+=3D"Inst=E4mmer inte alls" id=3D"group_522862834_1" role=3D"radio" class=3D=
+"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.522862834" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_522862834_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.522862834" value=3D"Inst=E4mmer=A0" id=3D"group_5=
+22862834_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.522862834" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_522862834_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.522862834" value=3D"Inst=E4mmer helt" id=3D"group=
+_522862834_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_748163175" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">H=
+UVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag inte kommer anv=E4nda inneh=
+=E5llet till n=E5got i framtiden</div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag inte kommer anv=E4nda inneh=E5llet till n=
+=E5got i framtiden " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"=
+><li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.3em;padding-b=
+ottom:.5em;"><label><span class=3D"ss-choice-item-control goog-inline-block=
+" style=3D"position:relative;display:inline-block;"><input type=3D"radio" n=
+ame=3D"entry.711681568" value=3D"Inst=E4mmer inte alls" id=3D"group_7116815=
+68_1" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte al=
+ls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.711681568" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_711681568_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.711681568" value=3D"Inst=E4mmer=A0" id=3D"group_7=
+11681568_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.711681568" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_711681568_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.711681568" value=3D"Inst=E4mmer helt" id=3D"group=
+_711681568_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1862836378" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Jag ogillar kursen eller =E4mnet </di=
+v></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Jag ogillar kursen eller =E4mnet  " style=3D"list=
+-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" styl=
+e=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D=
+"ss-choice-item-control goog-inline-block" style=3D"position:relative;displ=
+ay:inline-block;"><input type=3D"radio" name=3D"entry.1494715826" value=3D"=
+Inst=E4mmer inte alls" id=3D"group_1494715826_1" role=3D"radio" class=3D"ss=
+-q-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1494715826" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1494715826_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1494715826" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1494715826_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1494715826" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1494715826_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1494715826" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1494715826_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1950178342" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Min l=E4rare =E4r schysst</div></labe=
+l>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Min l=E4rare =E4r schysst " style=3D"list-style:n=
+one;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"mar=
+gin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choi=
+ce-item-control goog-inline-block" style=3D"position:relative;display:inlin=
+e-block;"><input type=3D"radio" name=3D"entry.1660572795" value=3D"Inst=E4m=
+mer inte alls" id=3D"group_1660572795_1" role=3D"radio" class=3D"ss-q-radio=
+" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1660572795" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1660572795_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1660572795" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1660572795_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1660572795" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1660572795_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1660572795" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1660572795_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_2122054423" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att plugga =E4r tr=E5kigt</div></labe=
+l>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att plugga =E4r tr=E5kigt " style=3D"list-style:n=
+one;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" style=3D"mar=
+gin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D"ss-choi=
+ce-item-control goog-inline-block" style=3D"position:relative;display:inlin=
+e-block;"><input type=3D"radio" name=3D"entry.1645938699" value=3D"Inst=E4m=
+mer inte alls" id=3D"group_1645938699_1" role=3D"radio" class=3D"ss-q-radio=
+" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1645938699" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1645938699_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1645938699" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1645938699_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1645938699" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1645938699_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1645938699" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1645938699_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_1830476409" styl=
+e=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">=
+HUVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att plugga =E4r sl=F6seri med tid</di=
+v></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att plugga =E4r sl=F6seri med tid " style=3D"list=
+-style:none;margin:.5em 0 0 0;padding:0;"><li class=3D"ss-choice-item" styl=
+e=3D"margin:0;line-height:1.3em;padding-bottom:.5em;"><label><span class=3D=
+"ss-choice-item-control goog-inline-block" style=3D"position:relative;displ=
+ay:inline-block;"><input type=3D"radio" name=3D"entry.705538118" value=3D"I=
+nst=E4mmer inte alls" id=3D"group_705538118_1" role=3D"radio" class=3D"ss-q=
+-radio" aria-label=3D"Inst=E4mmer inte alls" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.705538118" value=3D"Inst=E4mmer delvis=A0" id=3D"=
+group_705538118_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.705538118" value=3D"Inst=E4mmer=A0" id=3D"group_7=
+05538118_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.705538118" value=3D"Inst=E4mmer till stor del" id=
+=3D"group_705538118_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"In=
+st=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.705538118" value=3D"Inst=E4mmer helt" id=3D"group=
+_705538118_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+ helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div> <div class=3D"ss-form-question errorbox-good" style=3D""=
+>
+<div dir=3D"ltr" class=3D"ss-item ss-item-required ss-radio" style=3D"margi=
+n:12px 0;"><div class=3D"ss-form-entry" style=3D"max-width:100%;"><label ar=
+ia-hidden class=3D"ss-q-item-label aria-todo" for=3D"entry_901119169" style=
+=3D""><div class=3D"ss-q-title" style=3D"display:block;font-weight:bold;">H=
+UVUDORSAKEN TILL ATT INTE PLUGGA =C4R=85
+<label for=3D"itemView.getDomIdToLabel()" aria-label=3D"(Obligatoriskt f=E4=
+lt)" style=3D""></label>
+<span class=3D"ss-required-asterisk" style=3D"color:#c43b1d;">*</span></div=
+>
+<div class=3D"ss-q-help ss-secondary-text" dir=3D"ltr" style=3D"display:blo=
+ck;margin:.1em 0 .25em 0;color:#666;">Att jag aldrig f=F6r ber=F6m n=E4r ja=
+g g=F6r bra ifr=E5n mig </div></label>
+
+<ul class=3D"ss-choices" role=3D"radiogroup" aria-label=3D"HUVUDORSAKEN TIL=
+L ATT INTE PLUGGA =C4R=85 Att jag aldrig f=F6r ber=F6m n=E4r jag g=F6r bra =
+ifr=E5n mig  " style=3D"list-style:none;margin:.5em 0 0 0;padding:0;"><li c=
+lass=3D"ss-choice-item" style=3D"margin:0;line-height:1.3em;padding-bottom:=
+.5em;"><label><span class=3D"ss-choice-item-control goog-inline-block" styl=
+e=3D"position:relative;display:inline-block;"><input type=3D"radio" name=3D=
+"entry.1703135327" value=3D"Inst=E4mmer inte alls" id=3D"group_1703135327_1=
+" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer inte alls" =
+style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer inte alls</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1703135327" value=3D"Inst=E4mmer delvis=A0" id=3D=
+"group_1703135327_2" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=
+=E4mmer delvis=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer delvis=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1703135327" value=3D"Inst=E4mmer=A0" id=3D"group_=
+1703135327_3" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mmer=
+=A0" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer=A0</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1703135327" value=3D"Inst=E4mmer till stor del" i=
+d=3D"group_1703135327_4" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"=
+Inst=E4mmer till stor del" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer till stor del</span>
+</label></li> <li class=3D"ss-choice-item" style=3D"margin:0;line-height:1.=
+3em;padding-bottom:.5em;"><label><span class=3D"ss-choice-item-control goog=
+-inline-block" style=3D"position:relative;display:inline-block;"><input typ=
+e=3D"radio" name=3D"entry.1703135327" value=3D"Inst=E4mmer helt" id=3D"grou=
+p_1703135327_5" role=3D"radio" class=3D"ss-q-radio" aria-label=3D"Inst=E4mm=
+er helt" style=3D""></span>
+<span class=3D"ss-choice-label" style=3D"">Inst=E4mmer helt</span>
+</label></li></ul>
+
+
+</div></div></div>
+<input type=3D"hidden" name=3D"draftResponse" value=3D"[]
+" style=3D"">
+<input type=3D"hidden" name=3D"pageHistory" value=3D"0" style=3D"">
+
+
+<div class=3D"ss-item ss-navigate" style=3D"margin:12px 0;"><table id=3D"na=
+vigation-table" style=3D""><tbody><tr><td class=3D"ss-form-entry goog-inlin=
+e-block" id=3D"navigation-buttons" dir=3D"ltr" style=3D"max-width:100%;posi=
+tion:relative;display:inline-block;">
+<input type=3D"submit" name=3D"submit" value=3D"Skicka" id=3D"ss-submit" st=
+yle=3D"">
+<div class=3D"ss-secondary-text" style=3D"color:#666;">Skicka aldrig l=F6se=
+nord med Google Formul=E4r</div></td>
+</tr></tbody></table></div></ol></form></div>
+<div class=3D"ss-footer" style=3D""><div class=3D"ss-attribution" style=3D"=
+"></div>
+<div class=3D"ss-legal" style=3D""><div class=3D"disclaimer-separator" styl=
+e=3D""></div>
+<div class=3D"disclaimer" dir=3D"ltr" style=3D""><div class=3D"powered-by-l=
+ogo" style=3D"margin-top:2em;"><span class=3D"powered-by-text" style=3D"">T=
+illhandah=E5lls av</span>
+<a class=3D"ss-logo-link" href=3D"http://drive.google.com" style=3D"display=
+:inline-block;text-decoration:none;vertical-align:middle;"><img class=3D"ss=
+-logo" src=3D"https://ssl.gstatic.com/docs/forms/drive_logo_small.png" alt=
+=3D"Google Drive" style=3D"border:none;height:23px;width:105px;"></a></div>
+<div class=3D"ss-terms" style=3D"color:#777;font-size:11px;margin-top:1.5em=
+;"><span class=3D"disclaimer-msg" style=3D"">Formul=E4ret skapades inuti Ma=
+lm=F6 Borgarskola .</span>
+<br>
+<a href=3D"https://docs.google.com/forms/d/1CvlJPJ_QXnKUB3rqc_cM6LaoAgyhBZk=
+T5tYR1ojLQnw/reportabuse?source=3Dhttps://docs.google.com/a/malmoborgar.se/=
+forms/d/1CvlJPJ_QXnKUB3rqc_cM6LaoAgyhBZkT5tYR1ojLQnw/viewform?sid%3D16797d7=
+40edaac%26token%3DV3igekIBAAA.ocC7vT-FF8LjNrUfDNzZig.k4upzUCe1Cn_pRXnUw2MtA=
+" style=3D"">Anm=E4l otill=E5ten anv=E4ndning</a>
+-
+<a href=3D"http://www.google.com/accounts/TOS" style=3D"">Anv=E4ndarvillkor=
+</a>
+-
+<a href=3D"http://www.google.com/google-d-s/terms.html" style=3D"">Ytterlig=
+are villkor</a></div></div></div></div>
+</div></div>
+<br>
+<style type=3D"text/css" media=3D"screen" style=3D""></style></div></body><=
+/html>
+--20cf3011dbc3031be504ebaefcf8--

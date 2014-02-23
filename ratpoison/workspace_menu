@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Lets you switch between all workspaces in a way that minimizes keystrokes.
+# The current workspace is selected.
+
+# Yes, bash is really necessary, because it's version of printf makes this
+# script possible.  Regular bourne shell printf does NOT.
+
+workspace_command="/usr/bin/rpws"
+
+( printf "ratmenu -style dreary -fg '#657b83' -bg '#eee8d5' -io $[ $($workspace_command current) + 1 ]";
+  ratpoison -c "groups" | while read s; do
+    n=$(echo $s | sed 's/\([0-9]\+\).*/\1/');
+    w=$(echo $s | sed 's/[0-9]\+.\(.*\)/\1/');
+    a=$(printf "%3q %q" $n $w); b="$workspace_command $n";
+    printf " %q %q"  "$a" "$b";
+  done; echo \;) | sh
+

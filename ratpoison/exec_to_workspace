@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# Wrapper to executute a shell command in the background followed by a change to a
+# workspace
+#
+# $1 - workspace to change to
+# $2+ - shell command
+
+wg=$1; shift
+cmd="$@"
+eval $cmd &
+rpws $wg
+

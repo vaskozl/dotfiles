@@ -1,0 +1,107 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp41485oac;
+        Thu, 21 Nov 2013 11:28:32 -0800 (PST)
+X-Received: by 10.180.189.80 with SMTP id gg16mr31331154wic.32.1385062112445;
+        Thu, 21 Nov 2013 11:28:32 -0800 (PST)
+Return-Path: <ankhmorporkian@redditanalytics.com>
+Received: from mail-wi0-f180.google.com (mail-wi0-f180.google.com [209.85.212.180])
+        by mx.google.com with ESMTPS id dd1si11774731wjc.24.2013.11.21.11.28.31
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 21 Nov 2013 11:28:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of ankhmorporkian@redditanalytics.com designates 209.85.212.180 as permitted sender) client-ip=209.85.212.180;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of ankhmorporkian@redditanalytics.com designates 209.85.212.180 as permitted sender) smtp.mail=ankhmorporkian@redditanalytics.com
+Received: by mail-wi0-f180.google.com with SMTP id hm4so1581129wib.7
+        for <vasil.zlatanov@gmail.com>; Thu, 21 Nov 2013 11:28:31 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:in-reply-to:references
+         :date:message-id:subject:from:to:content-type;
+        bh=tpYJSbdxzizZ3nk4CeuzDPGBAMh9VBgXiKp4ZSLNOMs=;
+        b=mP/GoX56KdQeZsaadUW3SJsG8gMjCVvdqusgeEkbuKEuVZTM9avso8WPAnIUH+gewy
+         wvQOIzhz46sl0YiiSH0wCB9fkqynieCJw/SjOQhQpSqnS4HQ1IcA93H6u/6zBN6nlthn
+         1OeA89jyjhioOEa9AEOd8i/LwWljbl7TCleEu55bh/Wydu8he2i6QrgsMc2SJsVWVLwy
+         m5iFKKEeOa27KC3ydjvdUGMVf53c6tBPns0R4AJVAMy4x+RkEqO3GTp9sI6xDSSLbruW
+         QiA1K4/tovUfhMl+LXlJHTXE5EH1H7XTfNVsbC1VR9KUi32X9XAdfxi82WCOSC4fv5tZ
+         PprQ==
+X-Gm-Message-State: ALoCoQkEncmmYZXV66AId55pGdWu3bChbrRraYLkZqODnO7RLWqV5wnNrM2ZZZwAUexvqLAQrUMo
+MIME-Version: 1.0
+X-Received: by 10.180.211.212 with SMTP id ne20mr31686577wic.31.1385062111935;
+ Thu, 21 Nov 2013 11:28:31 -0800 (PST)
+Received: by 10.227.221.15 with HTTP; Thu, 21 Nov 2013 11:28:31 -0800 (PST)
+X-Originating-IP: [173.87.144.201]
+Reply-To: logger@redditanalytics.com
+In-Reply-To: <CAF3h_xFPWdjcr3b7EuEUhSHKYBzow2AOgjcpELoF5t_VuvDOoQ@mail.gmail.com>
+References: <20131121192017.GA28388@gmail.com>
+	<CAF3h_xFPWdjcr3b7EuEUhSHKYBzow2AOgjcpELoF5t_VuvDOoQ@mail.gmail.com>
+Date: Thu, 21 Nov 2013 13:28:31 -0600
+Message-ID: <CAF3h_xFj3Y9BvG5iegiUs5oHxygg-eOJ=oxJcp9EjVXKAYaN8w@mail.gmail.com>
+Subject: Re: Math 3 (vaskozl)
+From: Pat Shanahan <ankhmorporkian@redditanalytics.com>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c38a882c930d04ebb4e73d
+
+--001a11c38a882c930d04ebb4e73d
+Content-Type: text/plain; charset=ISO-8859-1
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+hQEMAxM9CjdCURroAQf/azZEM5FwAXQRCKnG1su/VxgAnmiwJJw6xMkTkvOxUYBS
+7QIzKCcWx993vMoFeK4yf8MaOMpq6KtdJO0MdW+DK9dX8CWfn9xqgP/1DtpYfrJv
+dOWF76Mzc5sIxskVviwKaSiH3Pyk2ldLdJP2Tb+wYMTPb5uZFcWk7llP+eeM1J+q
+j+VS+PZvks4fI1w8XXRNpOuGue6/TrjblhnL7ktIDjCnw+sVi9Oe09Nfp6GAVLhB
+MWjHkU+EBFh4wHTsiyRPiUZL9fbR/KTxj+9S74+vDzDsp783WL/dM0ptbZHLrPgT
+d0emgtHopJNXB0Gd0QjW3wqIH9UAKUiehHOpaivBWtJJAUz5yYVBuiNtr9VbmNhg
+DrYGCvx4dbGz5A97uux9UfESEk7i5vBwfENmYGQqK7bFq+3TF/lDVTixFpx3J2Bd
+ijeioofGvqKDhA==
+=E/bz
+-----END PGP MESSAGE-----
+
+
+
+On Thu, Nov 21, 2013 at 1:26 PM, Pat Shanahan <
+ankhmorporkian@redditanalytics.com> wrote:
+
+>
+>
+>
+> 2013/11/21 Vasil Zlatanov <vasil.zlatanov@gmail.com>
+>
+>>
+>
+
+--001a11c38a882c930d04ebb4e73d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><pre>                          =20
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+hQEMAxM9CjdCURroAQf/azZEM5FwAXQRCKnG1su/VxgAnmiwJJw6xMkTkvOxUYBS
+7QIzKCcWx993vMoFeK4yf8MaOMpq6KtdJO0MdW+DK9dX8CWfn9xqgP/1DtpYfrJv
+dOWF76Mzc5sIxskVviwKaSiH3Pyk2ldLdJP2Tb+wYMTPb5uZFcWk7llP+eeM1J+q
+j+VS+PZvks4fI1w8XXRNpOuGue6/TrjblhnL7ktIDjCnw+sVi9Oe09Nfp6GAVLhB
+MWjHkU+EBFh4wHTsiyRPiUZL9fbR/KTxj+9S74+vDzDsp783WL/dM0ptbZHLrPgT
+d0emgtHopJNXB0Gd0QjW3wqIH9UAKUiehHOpaivBWtJJAUz5yYVBuiNtr9VbmNhg
+DrYGCvx4dbGz5A97uux9UfESEk7i5vBwfENmYGQqK7bFq+3TF/lDVTixFpx3J2Bd
+ijeioofGvqKDhA=3D=3D
+=3DE/bz
+-----END PGP MESSAGE-----
+</pre></div><div class=3D"gmail_extra"><br><br><div class=3D"gmail_quote">O=
+n Thu, Nov 21, 2013 at 1:26 PM, Pat Shanahan <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:ankhmorporkian@redditanalytics.com" target=3D"_blank">ankhmorpor=
+kian@redditanalytics.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr"><br></div><div class=3D"gma=
+il_extra"><br><br><div class=3D"gmail_quote">2013/11/21 Vasil Zlatanov <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:vasil.zlatanov@gmail.com" target=3D"_bl=
+ank">vasil.zlatanov@gmail.com</a>&gt;</span><br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"></blockquote></div><br></div>
+</blockquote></div><br></div>
+
+--001a11c38a882c930d04ebb4e73d--

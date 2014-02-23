@@ -1,0 +1,1172 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp164853oac;
+        Mon, 13 Jan 2014 14:26:03 -0800 (PST)
+X-Received: by 10.66.217.166 with SMTP id oz6mr32679303pac.22.1389651963190;
+        Mon, 13 Jan 2014 14:26:03 -0800 (PST)
+Return-Path: <welcomewagon5-17590264@no-ip.com>
+Received: from www.no-ip.com (www.no-ip.com. [8.23.224.110])
+        by mx.google.com with ESMTP id qv10si6101095pbb.232.2014.01.13.14.26.02
+        for <vasil.zlatanov@gmail.com>;
+        Mon, 13 Jan 2014 14:26:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of welcomewagon5-17590264@no-ip.com designates 8.23.224.110 as permitted sender) client-ip=8.23.224.110;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of welcomewagon5-17590264@no-ip.com designates 8.23.224.110 as permitted sender) smtp.mail=welcomewagon5-17590264@no-ip.com;
+       dkim=pass header.i=@no-ip.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=no-ip.com
+Received: from websmtp01.no-ip.com (websmtp01.no-ip.com [127.0.0.1])
+	by www.no-ip.com (Postfix) with ESMTP id 81E5353DC3D
+	for <vasil.zlatanov@gmail.com>; Mon, 13 Jan 2014 14:26:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=no-ip.com; s=default;
+	t=1389651962; bh=A7nhFZs/O9LtDkqY1aFg/P26l1/HxfiTiZhx1f5+A60=;
+	h=To:From:Reply-To:Subject:List-Unsubscribe:MIME-Version:
+	 Content-Type:Message-Id:Date;
+	b=VsMTCwqoSTnzr+N+ExwhHm1LIeJ/oBoBFNLsgAxei6XL9xVXCbRrFXVM3q+iCsnY5
+	 zA+xxDg6IMXksdT/P0k+Nivqp1AxjA0y/WifGOTP0qzBnNwQgDqBTRck2Ep/mNfk7C
+	 QgFDDzEQRFtqkVH0bLp1hGVzvsmTXKevaJD8Zy+U=
+To: <vasil.zlatanov@gmail.com>
+From: "No-IP Customer Service" <welcomewagon5-17590264@no-ip.com>
+Reply-To: welcomewagon5-17590264@no-ip.com
+Subject: Getting Started with No-IP
+List-Unsubscribe: <http://www.noip.com/opt-out.php?email=vasil.zlatanov%40gmail.com&a=PXr%2Fmmqwn7cpc>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_ff7de2f52fcdb4d3c5c99b0758bb6161"
+Message-Id: <20140113222602.81E5353DC3D@www.no-ip.com>
+Date: Mon, 13 Jan 2014 14:26:02 -0800 (PST)
+
+
+--=_ff7de2f52fcdb4d3c5c99b0758bb6161
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="ISO-8859-1"
+
+Thanks for signing up for a No-IP account! Welcome to No-IP, the world's
+largest free dynamic DNS provider with over 15.5 million users worldwide!
+
+This email serves as an overview of our No-IP Dynamic DNS service and provides
+some useful information for getting your account configured correctly! We hope
+you have a good experience and enjoy our rock solid services that we've been
+offering since 1999 to over 15.5 million users worldwide.
+
+Getting Started
+---------------
+You can check out our very helpful Getting Started Guide
+[ http://www.noip.com/support/knowledgebase/getting-started-with-no-ip-com/ if
+you haven't
+already. Also, if you have not
+downloaded our Dynamic Update Client, head here now to download it
+[ http://www.noip.com/downloads.php ]. This client keeps track of your
+changing IP address
+and is necessary for the No-IP service and dynamic DNS to work properly. If
+you have a static IP address, then the client is not necessary.
+
+To Setup Dynamic DNS:
+
+1. Login to your No-IP account.
+
+2. Add a hostname to your account (ie. yourname.no-ip.org)
+
+3. Install the dynamic update client (DUC). Once installed, configure it to
+update the host added in step 2.
+
+4. If using a router or firewall be sure to open and forward the proper ports
+for the services you wish to run. (ie. port 80 for a webserver)
+
+Quick Tip: Many ISPS block port 80 (http) and 25 (smtp). You'll need No-IP
+Enhanced to get around blocked port 80 and No-IP Reflector to get around Port
+25
+
+How to Get Help
+---------------
+Our Support Knowledge Base [ http://www.noip.com/support/ ] will help you get
+No-IP up and running. 
+
+We also have tools for you to use to troubleshoot your network. Our open port
+check tool [ http://www.portchecktool.com ] will help test port forwarding or
+if
+your ISP is blocking certain
+ports. 
+
+If you need technical assistance in setting up your account, please contact us
+using our support ticket system. Keep in mind we cannot assist in the setup of
+third party server software.
+--=_ff7de2f52fcdb4d3c5c99b0758bb6161
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="ISO-8859-1"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+=09
+	<head>
+=09
+		<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+=09
+	</head>
+=09
+	<body style=3D"background-color: #f1f1f1; margin:0; padding:0; line-height=
+:1.2em; font-family:Trebuchet MS, sans-serif">
+=09
+	<style type=3D"text/css">
+		a:link {color: #43474e; text-decoration:none; outline:none}
+		a:visited {color: #909090; text-decoration:none; outline:none}
+		.a1 a:link {color:#43474e; text-decoration:none; outline:none}
+		.a1 a:visited {color:#43474e; text-decoration:none; outline:none}
+		.a2 a:link {color:#7c7c7c; text-decoration:none; outline:none}
+		.a2 a:visited {color:#7c7c7c; text-decoration:none; outline:none}
+	=09
+		<!-- li a:link {color: #777777; text-decoration:none; outline:none}
+		li a:visited {color: #777777; text-decoration:none; outline:none} -->
+	</style>
+=09
+	<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" =
+border=3D"0">
+=09
+		<tr>
+	=09
+			<td width=3D"650" height=3D"10"></td>
+	=09
+		</tr>
+=09
+		<tr>
+	=09
+			<td align=3D"right" valign=3D"center" width=3D"630">
+		=09
+				<a href=3D"https://noipcdn.s3.amazonaws.com/media/welcome.html?utm_sour=
+ce=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_email" style=
+=3D"font: 11px Helvetica Neue, Arial, Helvetica, Geneva, sans-serif; color:=
+ #979797;">Can't view this email?</a>
+		=09
+			</td>
+	=09
+		</tr>
+	=09
+	</table>
+=09
+	<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" =
+border=3D"0">
+=09
+		<tr>
+=09
+			<td valign=3D"top">
+		=09
+				<!-- BEGIN HEADER -->
+=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"cente=
+r" border=3D"0" style=3D"font-size:11px; color: #43474e">
+			=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>
+			=09
+					<tr>
+			=09
+						<td width=3D"133" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/logo.png" width=3D"1=
+33" height=3D"46" />
+					=09
+						</td>
+					=09
+						<td id=3D"spacer" width=3D"327" height=3D"46"></td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"19" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/icn-home.jpg" width=
+=3D"19" height=3D"13" />
+					=09
+						</td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"86" height=3D"46">
+					=09
+							<a href=3D"http://www.noip.com/?utm_source=3Demail&utm_medium=3Dwelc=
+ome&utm_campaign=3Dgetting_started_email">noip.com</a>
+					=09
+						</td>
+					=09
+						<td width=3D"10"></td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"18" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/icn-support.jpg" wid=
+th=3D"18" height=3D"13" />
+					=09
+						</td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"57" height=3D"46">
+					=09
+							<a href=3D"http://support.no-ip.com/?utm_source=3Demail&utm_medium=
+=3Dwelcome&utm_campaign=3Dgetting_started_email">Support</a>
+					=09
+						</td>
+		=09
+					</tr>
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>
+		=09
+				</table>
+			=09
+				<!-- <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" align=3D"center" style=3D"background-color:#ffffff">
+					<tr>
+						<td height=3D"30">
+						</td>
+					</tr>
+					<tr>
+						<td width=3D"25">
+						</td>
+						<td>
+							<a href=3D"#" target=3D"_blank"><img src=3D"logo.png" border=3D"0" w=
+idth=3D"110" height=3D"40" alt=3D"" style=3D"display: block" /></a>
+						</td>
+						<td align=3D"right" width=3D"385" style=3D"padding-right:20px; font-s=
+ize:18px; color: #43474e; line-height:1.3em">
+							No-IP Monthly Mashup Newsletter!<br />
+							<span style=3D"font-size:12px; color: #7c7c7c">Catchy Tagline Here! =
+21.06.2012</span>
+						</td>
+						<td align=3D"center" width=3D"56" style=3D"background-color:#2A9AC9; =
+font-size:14px; color: #ffffff; line-height:1.2em; padding-top:10px; paddin=
+g-bottom:10px">
+							ISSUE<br /><span style=3D"font-size:20px">#07</span>
+						</td>
+						<td width=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td height=3D"30">
+						</td>
+					</tr>
+				</table> -->
+			=09
+				<!--<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"background-color:#ffffff; margin-bottom:20px">
+					<tr>
+						<td>
+							<a href=3D"http://www.noip.com/services/managed_dns/plus_dynamic_dns=
+.html?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_starte=
+d_email"> <img src=3D"https://noipcdn.s3.amazonaws.com/media/header.jpg" bo=
+rder=3D"0" width=3D"650" height=3D"250" alt=3D"No-IP Managed DNS" style=3D"=
+display: block" /></a>
+						</td>
+					</tr>
+					<tr>
+						<td height=3D"2" style=3D"background-color:#e5e5e5">
+						</td>
+					</tr>
+				</table>
+			=09
+				<!-- END HEADER -->
+			=09
+				<!-- BEGIN SINGLE COLUMN TEXT -->
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				 style=3D"background-color:#ffffff; font-size:13px; line-height:25px; c=
+olor: #43474e; margin-bottom:20px">
+					<tr>
+						<td height=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"610" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+								=09
+										=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:0px">This email serves =
+as an overview of our No-IP Dynamic DNS service and provides some useful in=
+formation for getting your account configured correctly. We hope you enjoy =
+our rock solid services that we've been offering since 1999 to over 15.5 mi=
+llion users worldwide.</td>
+											</tr>
+                                           =20
+                                            <tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; paddin=
+g-top: 20px; color: #43474e; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"color:#2A9AC9">Getting Started</span>
+												</td>
+											</tr>
+										=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">You can check out=
+ our very helpful <a href=3D"http://www.noip.com/support/knowledgebase/gett=
+ing-started-with-no-ip-com/?utm_source=3Demail&utm_medium=3Dwelcome&utm_cam=
+paign=3Dgetting_started_email" style=3D"color:#2A9AC9">Getting Started Guid=
+e</a> if you haven't already. Also, if you have not downloaded our Dynamic =
+Update Client and your router or device does not have No-IP as an integrate=
+d Dynamic DNS (DDNS) provider, head here now to <a href=3D"http://www.noip.=
+com/downloads.php?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dge=
+tting_started_email" style=3D"color:#2A9AC9">download</a> it. This client k=
+eeps track of your changing IP address and is necessary for the No-IP servi=
+ce and dynamic DNS to work properly. If you have a static IP address, then =
+the client is not necessary.</td>
+											</tr>
+                                             =09
+								=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:0px; padding-bottom:0px=
+">
+												=09
+											  </td>
+											</tr>
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>						=09
+					</tr>
+					<tr>
+						<td height=3D"20">
+												</td>
+					</tr>
+				</table>=20
+			=09
+				<!-- END SINGLE COLUMN TEXT -->
+			=09
+				<!-- BEGIN SINGLE COLUMN TEXT -->
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				 style=3D"background-color:#ffffff; font-size:13px; line-height:25px; c=
+olor: #43474e; margin-bottom:20px">
+					<tr>
+						<td height=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"610" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #43474e; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"color:#2A9AC9">To Setup Dynamic DNS</span>
+												</td>
+											</tr>
+										=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+                                               =20
+                                                <ul style=3D"list-style-typ=
+e: decimal; margin-left:20px; padding:0 0 20px 0;">
+                                                <li><a href=3D"https://www.=
+noip.com/login/?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgett=
+ing_started_email" style=3D"color:#2A9AC9"> Login</a> to your No-IP account=
+.</li>
+                                                <li><a href=3D"https://www.=
+noip.com/members/dns/host.php?utm_source=3Demail&utm_medium=3Dwelcome&utm_c=
+ampaign=3Dgetting_started_email" style=3D"color:#2A9AC9"> Check the hostnam=
+e you added to your account during signup (ie. yourname.no-ip.org)</a> You =
+can also add additional hostnames at this page and make any configuration c=
+hanges.</li>
+                                                <li><a href=3D"http://www.n=
+oip.com/downloads.php?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=
+=3Dgetting_started_email" style=3D"color:#2A9AC9"> Download and Install the=
+ Dynamic Update Client (DUC).</a> This device is only needed if your router=
+ or device does not have No-IP as an integrated Dynamic DNS provider. After=
+ installation, configure it to update the host added in step 2.
+                                                <li>If you are behind a rou=
+ter or firewall, you will have to open and forward the proper ports for the=
+ services you wish to run. (i.e. port 80 for a webserver)<br />
+                                                  <br />
+                                                  <strong>Quick Tip:</stron=
+g> In order for No-IP to know when your IP address changes you will need to=
+ actively run our <a href=3D"https://www.noip.com/login/?utm_source=3Demail=
+&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_email" style=3D"color:=
+#2A9AC9"> Dynamic Update Client</a> on a device at your network. (If your d=
+evice or router has No-IP as an integrated Dynamic DNS provider you will no=
+t need to use our client, simply configure your router or device with your =
+No-IP information.)</li>
+                                                </ul></td>
+											</tr>
+                                             =09
+								=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:0px; padding-bottom:0px=
+">
+												=09
+											  </td>
+											</tr>
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>						=09
+					</tr>
+					<tr>
+						<td height=3D"20">
+												</td>
+					</tr>
+				</table>=20
+			=09
+				<!-- END SINGLE COLUMN TEXT -->
+			=09
+				<!-- BEGIN SINGLE COLUMN TEXT --><!--
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				 style=3D"background-color:#ffffff; font-size:13px; color: #43474e; mar=
+gin-bottom:20px">
+					<tr>
+						<td height=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+                       =20
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+                           =20
+								<tr>
+							=09
+									<td valign=3D"top">
+										<table width=3D"610" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td colspan=3D"2" class=3D"a1" valign=3D"top" style=3D"font-siz=
+e:18px; color: #2A9AC9; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"background-color:#ffffff; padding-right:10px; p=
+adding-left:20px;">What you can do with No-IP</span>
+												</td>
+											</tr>
+                                           =20
+											<tr>
+												<td colspan=3D"2" valign=3D"top" style=3D"padding-top:15px; pad=
+ding-left:20px;">
+													<strong>Run your own blog or website!</strong> Software soluti=
+ons are endless, run server software such as a webserver and run your own w=
+ebsite from home. Never worry about disk and bandwidth usage quotas!
+												</td>
+											</tr>
+                                           =20
+                                           =20
+                                            <tr>
+						<td valign=3D"top">
+							<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top">
+										<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td width=3D"20">
+												</td>
+                                                <td valign=3D"top" style=3D=
+"padding:15px">
+										<img src=3D"remote-access.jpg" border=3D"0" width=3D"41" height=
+=3D"41" alt=3D"" style=3D"display: block" />
+									</td>
+												<td valign=3D"top">
+													<table width=3D"250" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0">
+														<tr>
+															<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; col=
+or: #43474e; background-image:url(../images/px.gif);
+															background-repeat:repeat-x; background-position:0 10px">
+																<span style=3D"background-color:#ffffff; padding-right:10px=
+">Remote Access</span>
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px; color:#43474e;=
+">
+																Remotely access your computer. Install software such as VNC=
+ or Microsoft Remote Desktop and your desktop will be just a click away.
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=3D"20">
+												</td>=09
+											</tr>
+										</table>
+									</td>	=09
+								</tr>
+							</table>
+						</td>
+						<td valign=3D"top">
+							<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+							=09
+								<tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top">
+										<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td width=3D"20">
+												</td>
+                                                <td valign=3D"top" style=3D=
+"padding:15px">
+										<img src=3D"file-share.jpg" border=3D"0" width=3D"41" height=3D"4=
+1" alt=3D"" style=3D"display: block" />
+									</td>
+												<td valign=3D"top">
+													<table width=3D"250" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0">
+														<tr>
+															<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; col=
+or: #43474e; background-image:url(../images/px.gif);
+															background-repeat:repeat-x; background-position:0 10px">
+																<span style=3D"background-color:#ffffff; padding-right:10px=
+">Share Files</span>
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px; color:#43474e;=
+">
+																Access your files anytime, anywhere. Share them with your f=
+riends, legally of course! You don't want to hear from our abuse department=
+.
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=3D"20">
+												</td>=09
+											</tr>
+										</table>
+									</td>	=09
+								</tr>
+							</table>
+						</td>
+					</tr>
+                   =20
+                    <tr>
+						<td valign=3D"top">
+							<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top">
+										<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td width=3D"20">
+												</td>
+                                               =20
+                                                <td valign=3D"top" style=3D=
+"padding:15px">
+										<img src=3D"vid-access.jpg" border=3D"0" width=3D"41" height=3D"4=
+1" alt=3D"" style=3D"display: block" />
+									</td>
+												<td valign=3D"top">
+													<table width=3D"250" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0">
+														<tr>
+															<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; col=
+or: #43474e; background-image:url(../images/px.gif);
+															background-repeat:repeat-x; background-position:0 10px">
+																<span style=3D"background-color:#ffffff; padding-right:10px=
+">Access your video camera or DVR</span>
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px; color:#43474e;=
+">
+																Keep tabs on your home while at work or on vacation. Connec=
+t your IP enabled and access it from anywhere.=20
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=3D"20">
+												</td>=09
+											</tr>
+										</table>
+									</td>	=09
+								</tr>
+                                <tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td valign=3D"top">
+							<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+							=09
+								<tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top">
+										<table width=3D"325" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td width=3D"20">
+												</td>
+                                                <td valign=3D"top" style=3D=
+"padding:15px">
+										<img src=3D"game-server.jpg" border=3D"0" width=3D"41" height=3D"=
+41" alt=3D"" style=3D"display: block" />
+									</td>
+												<td valign=3D"top">
+													<table width=3D"250" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0">
+														<tr>
+															<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; col=
+or: #43474e; background-image:url(../images/px.gif);
+															background-repeat:repeat-x; background-position:0 10px">
+																<span style=3D"background-color:#ffffff; padding-right:10px=
+">Run a Game Server</span>
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px; color:#43474e;=
+">
+																Host your own game server and play with a group of friends.=
+ Just give them your easy to remember No-IP hostname.
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=3D"20">
+												</td>=09
+											</tr>
+										</table>
+									</td>	=09
+								</tr>
+                                <tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan=3D"2" height=3D"2" style=3D"background-color:#e5e5e5">
+						</td>
+					</tr>
+                                           =20
+                                           =20
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>						=09
+					</tr>
+				</table>=20
+			=09
+				<!-- END SINGLE COLUMN TEXT -->
+			=09
+				<!-- BEGIN SINGLE COLUMN TEXT -->
+			=09
+				<!--<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center"=20
+				 style=3D"background-color:#ffffff; font-size:13px; color: #43474e; mar=
+gin-bottom:20px">
+					<tr>
+						<td height=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"610" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #43474e; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"color:#2A9AC9; padding-left:20px;">Looking for =
+More Advanced Features?</span>
+												</td>
+											</tr>
+										=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px; padding-left:20px=
+;">This email serves as an overview of our No-IP Dynamic DNS service and pr=
+ovides some useful information for getting up and running! We hope you have=
+ a good experience and enjoy our rock solid services that we've been offeri=
+ng since 1999 to over 10 million customers.</td>
+											</tr>
+                                            <tr>
+					=09
+					</tr>
+                                           =20
+				<!-- 	<tr>
+						<td valign=3D"top">
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" align=3D"center">
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"190" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"center">
+                                       =20
+                                        	<tr>
+                                            	<td style=3D"padding-bottom:20=
+px;"><img src=3D"enhanced-dns.jpg" width=3D"190" height=3D"70" border=3D"0"=
+ alt=3D"Enhanced DNS" style=3D"display: block" /></td>
+                                            </tr>
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #43474e; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"background-color:#ffffff; padding-right:10px"><=
+a href=3D"http://www.noip.com/services/managed_dns/enhanced_dynamic_dns.htm=
+l?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_em=
+ail">No-IP Enhanced DNS</a></span>
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+													 All the features of Free DNS without host limitations. Also, =
+twice as many domains are available to select from...
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:13px; padding-bottom:20=
+px">
+													<a href=3D"http://www.noip.com/services/managed_dns/enhanced_d=
+ynamic_dns.html?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgett=
+ing_started_email" style=3D"float:left"><img src=3D"http://cdn.noip.com/ima=
+ges/eblasts/btn-more.jpg" border=3D"0" width=3D"76" height=3D"30" alt=3D"Re=
+ad More" style=3D"display: block" /></a>
+												</td>
+											</tr>										=09
+										</table>	=09
+									</td>		=09
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"400" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"center">
+                                        <tr>
+                                            	<td style=3D"padding-bottom:20=
+px;"><img src=3D"managed-dns.jpg" width=3D"400" height=3D"70" border=3D"0" =
+alt=3D"Managed DNS" style=3D"display: block" /></td>
+                                            </tr>
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #43474e; background-image:url(../images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"background-color:#ffffff; padding-right:10px"><=
+a href=3D"http://www.noip.com/services/managed_dns/plus_dynamic_dns.html?ut=
+m_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_email"=
+>No-IP Plus Managed DNS</a></span>
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+													 With a superb domain name management interface and the conven=
+ience of dynamic updates for your domain name, No-IP makes it easy for you =
+to create up to 50 hosts, and make use of our wide variety of host types.
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:13px; padding-bottom:20=
+px">
+													<a href=3D"http://www.noip.com/services/managed_dns/plus_dynam=
+ic_dns.html?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_=
+started_email" style=3D"float:left"><img src=3D"http://cdn.noip.com/images/=
+eblasts/btn-more.jpg" border=3D"0" width=3D"76" height=3D"30" alt=3D"Read M=
+ore" style=3D"display: block" /></a>
+												</td>
+											</tr>										=09
+										</table>	=09
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr> -->
+                                             =09
+								=09
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:0px; padding-bottom:0px=
+">
+												=09
+											  </td>
+											</tr>
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>						=09
+					</tr>
+					<tr>
+						<td height=3D"2" style=3D"background-color:#e5e5e5">
+						</td>
+					</tr>
+				</table>=20
+			=09
+				<!-- END SINGLE COLUMN TEXT -->
+               =20
+               =20
+			=09
+				<!-- BEGIN MIDDLE IMG CALLOUT -->
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				style=3D"background-color:#ffffff; font-size:12px; color:#43474e; margi=
+n-bottom:20px">
+					<tr>
+						<td valign=3D"top">
+							<table width=3D"230" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td height=3D"15">
+									</td>
+								</tr>							=09
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"190" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #43474e; background-image:url(images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"color:#2A9AC9">Enhanced DNS</span>
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:10px">Hostnames don't e=
+xpire every 30 days & more domain choices!</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:13px; padding-bottom:15=
+px">
+													<a href=3D"http://www.noip.com/enhanced/?utm_source=3Demail&ut=
+m_medium=3Dwelcome&utm_campaign=3Dgetting_started_email" style=3D"float:lef=
+t"><img src=3D"http://cdn.no-ip.com/images/eblasts/btn-more.jpg" border=3D"=
+0" width=3D"76" height=3D"30" alt=3D"Read More" style=3D"display: block" />=
+</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>=09
+								</tr>
+							</table>
+						</td>
+						<td valign=3D"top" width=3D"210" height=3D"145">
+							<img src=3D"https://noipcdn.s3.amazonaws.com/media/enhanced-dns.jpg"=
+ border=3D"0" width=3D"210" height=3D"145" alt=3D"" style=3D"display: block=
+" />
+						</td>
+						<td width=3D"210" height=3D"145" align=3D"center" style=3D"background=
+-color:#2A9AC9; color:#ffffff">
+							<span style=3D"font-size:70px; line-height:1em">14</span><span style=
+=3D"font-size:20px">.95</span><br />
+							 per year=20
+						</td>
+					</tr>
+					<tr>
+						<td height=3D"2" colspan=3D"3" style=3D"background-color:#e5e5e5">
+						</td>
+					</tr>
+				</table>
+			=09
+				<!-- END MIDDLE IMG CALLOUT -->
+			=09
+				<!-- RIGHT IMG COLUMN RIGHT  -->
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"font-size:12px; line-height:25px; color:#43474e">
+					<tr>
+						<!-- BEGIN FIRST COLUMN -->
+						<td valign=3D"top" style=3D"background-color:#ffffff">
+							<table width=3D"420" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" align=3D"left">
+								<tr>
+									<td height=3D"20">
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top">
+										<table width=3D"420" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td width=3D"20">
+												</td>
+												<td valign=3D"top">
+													<table width=3D"380" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0">
+														<tr>
+															<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; col=
+or: #43474e; background-image:url(../images/px.gif);
+															background-repeat:repeat-x; background-position:0 10px">
+																<span style=3D"background-color:#ffffff; padding-right:10px=
+">How to get help?</span>
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px">
+																=09
+Our <a href=3D"http://www.noip.com/support/?utm_source=3Demail&utm_medium=
+=3Dwelcome&utm_campaign=3Dgetting_started_email" style=3D"color:#2A9AC9;">S=
+upport</a> Knowledge Base will help you get No-IP up and running.
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px">
+																=09
+We also have tools for you to use to troubleshoot your network. Our <a href=
+=3D"http://www.portchecktool.com?utm_source=3Dwelcome_wagon&utm_medium=3Dem=
+ail&utm_campaign=3Donboard" style=3D"color:#2A9AC9;">open port check</a> to=
+ol will help test port forwarding. It will also let you know if your ISP is=
+ blocking certain ports.=20
+															</td>
+														</tr>
+														<tr>
+															<td valign=3D"top" style=3D"padding-top:15px">
+																=09
+If you need technical assistance, please contact us using our <a href=3D"ht=
+tp://www.noip.com/ticket/?utm_source=3Demail&utm_medium=3Dwelcome&utm_campa=
+ign=3Dgetting_started_email" style=3D"color:#2A9AC9;">support ticket system=
+</a>. Keep in mind we cannot assist in the setup of third party server soft=
+ware.
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=3D"20">
+												</td>
+											</tr>
+										</table>
+									</td>						=09
+								</tr>
+                                <tr>
+                               =20
+												<td height=3D"20">
+												</td>
+                                                </tr>
+							</table>
+						</td>
+						<!-- END FIRST COLUMN -->
+						<td width=3D"20">
+						</td>
+						<!-- BEGIN SECOND COLUMN -->
+						<td valign=3D"top" style=3D"background-color:#ffffff">
+							<table width=3D"210" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" align=3D"center">
+								<tr>
+									<td>
+										<img src=3D"https://noipcdn.s3.amazonaws.com/media/support.jpg" b=
+order=3D"0" width=3D"210" height=3D"145" alt=3D"" style=3D"display: block" =
+/>
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top" style=3D"font-size:14px; padding-top:15px; padd=
+ing-left:20px; padding-right:20px; color: #43474e">
+										Awesome No-IP Support</td>
+								</tr>
+								<tr>
+									<td valign=3D"top" style=3D"line-height:1.1em; padding-top:10px; p=
+adding-left:20px; padding-right:20px; padding-bottom:25px"><p><strong>1.775=
+.853.1883</strong></p>
+										<p>M-F 6:30 am PST - 5:00 pm PST<br />
+								    </p></td>
+								</tr>
+							</table>
+						</td>
+						<!-- END SECOND COLUMN -->
+					</tr>
+				</table>
+
+				<!-- END IMG COLUMN RIGHT -->
+			=09
+				<!-- BEGIN FOOTER -->
+			=09
+		  <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				 style=3D"font-size:11px; color: #7c7c7c;">
+			=09
+					<tr>
+			=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"230">
+			=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">DNS is Your Websites F=
+oundation</h1>
+						=09
+							<p>Make sure your website is served on a rock solid foundation with =
+No-IP Managed DNS. Reliability and Redundancy included.</p>
+			=09
+						</td>
+					=09
+						<td width=3D"40"></td>
+					=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"210">
+					=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">Useful Links</h1>
+						=09
+							<table width=3D"230" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" align=3D"left"=20
+							style=3D"font-size:11px; color: #7c7c7c;">
+						=09
+								<tr>
+							=09
+									<td>
+								=09
+										<p><a href=3D"http://www.noip.com/plusdns/?utm_source=3Demail&utm=
+_medium=3Dwelcome&utm_campaign=3Dgetting_started_email" style=3D"text-decor=
+ation: underline;">Plus DNS</a><br /><a href=3D"http://www.noip.com/enhance=
+d/?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_e=
+mail" style=3D"text-decoration: underline;">Enhanced DNS</a><br /><a href=
+=3D"http://www.noip.com/free/?utm_source=3Demail&utm_medium=3Dwelcome&utm_c=
+ampaign=3Dgetting_started_email" style=3D"text-decoration: underline;">No-I=
+P Free</a></p>
+									=09
+									</td>
+								=09
+									<td>
+								=09
+										<p><a href=3D"http://www.noip.com/services/domains/domain_registr=
+ation.html?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_s=
+tarted_email" style=3D"text-decoration: underline;">Domain Registration</a>=
+<br /><a href=3D"http://www.noip.com/services/ssl/?utm_source=3Demail&utm_m=
+edium=3Dwelcome&utm_campaign=3Dgetting_started_email" style=3D"text-decorat=
+ion: underline;">SSL Certificates</a><br /><a href=3D"http://www.noip.com/s=
+ervices/managed_mail/pop3_mail.html?utm_source=3Demail&utm_medium=3Dwelcome=
+&utm_campaign=3Dgetting_started_email" style=3D"text-decoration: underline;=
+">POP3 / IMAP Email</a></p>
+									=09
+									</td>
+							=09
+								</tr>
+						=09
+							</table>
+			=09
+						</td>
+					=09
+						<td width=3D"30"></td>
+							=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"130">
+					=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">Connect with Us</h1>
+						=09
+							<p>
+						=09
+								<a href=3D"https://www.facebook.com/noipdns/?utm_source=3Demail&utm=
+_medium=3Dwelcome&utm_campaign=3Dgetting_started_email"><img src=3D"http://=
+cdn.no-ip.com/images/eblasts/fb.jpg" style=3D"padding-right: 3px;" /></a>
+							=09
+								<a href=3D"https://twitter.com/NoIPcom/?utm_source=3Demail&utm_medi=
+um=3Dwelcome&utm_campaign=3Dgetting_started_email"><img src=3D"http://cdn.n=
+o-ip.com/images/eblasts/tw.jpg" style=3D"padding-right: 3px;" /></a>
+							=09
+								<a href=3D"http://feeds.feedburner.com/No-ip-TheDnsServiceProvider/=
+?utm_source=3Demail&utm_medium=3Dwelcome&utm_campaign=3Dgetting_started_ema=
+il"><img src=3D"http://cdn.no-ip.com/images/eblasts/rss.jpg" alt=3D"RSS Fee=
+d Icon" style=3D"padding-right: 3px;" /></a>
+						=09
+							</p>
+			=09
+						</td>
+			=09
+					</tr>
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>=09
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"" style=3D"border-bottom: 1px solid #cbcb=
+cb;" colspan=3D"5"></td>
+				=09
+					</tr>	=09
+			=09
+				</table>
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"font-size:11px; color: #7c7c7c; margin-bottom:20px=
+">
+				=20
+				    <tr>
+				=20
+				 	   <td width=3D"650" height=3D"" style=3D"border-bottom: 1px solid #f=
+ff;"></td>
+				=20
+				    </tr>
+				   =20
+			=09
+					<tr>
+			=09
+						<td class=3D"a2" align=3D"left">
+						=09
+							<p> Management reserves all rights. If you do not wish to receive th=
+is type of email from No-IP in the future, please <strong><a href=3D"http:/=
+/www.noip.com/opt-out.php?email=3Dvasil.zlatanov%40gmail.com&a=3DPXr%2Fmmqw=
+n7cpc">UNSUBSCRIBE</a></strong></p>
+			=09
+						</td>
+			=09
+					</tr>	=09
+			=09
+				</table>
+			=09
+				<!-- END FOOTER -->
+
+			</td>
+
+		</tr>
+
+	</table>
+
+	</body>
+
+</html>
+--=_ff7de2f52fcdb4d3c5c99b0758bb6161--
+

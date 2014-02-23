@@ -1,0 +1,30 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp107370oac;
+        Wed, 12 Feb 2014 08:01:49 -0800 (PST)
+X-Received: by 10.140.42.54 with SMTP id b51mr56265104qga.87.1392220909249;
+        Wed, 12 Feb 2014 08:01:49 -0800 (PST)
+Return-Path: <noreply@github.com>
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext8.iad.github.net. [192.30.252.199])
+        by mx.google.com with ESMTPS id w9si15568232qgw.73.2014.02.12.08.01.49
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Feb 2014 08:01:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) client-ip=192.30.252.199;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) smtp.mail=noreply@github.com
+Date: Wed, 12 Feb 2014 08:01:48 -0800
+From: GitHub <noreply@github.com>
+To: Vaskozl <vasil.zlatanov@gmail.com>
+Message-ID: <52fb9aeccb955_7e653f8ddd1cd2c071743@github-fe122-cp1-prd.iad.github.net.mail>
+Subject: [GitHub] Please verify your email 'vasil.zlatanov@gmail.com'
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+
+Hey, we want to verify that you are indeed "Vaskozl".  Verifying this address will let you receive notifications and password resets from GitHub.  If you wish to continue, please follow the link below:
+
+https://github.com/users/Vaskozl/emails/7581734/confirm_verification/a227af91a0ac88becb5f91f1cdb134862ad04d61
+
+If you're not Vaskozl or didn't request verification, you can ignore this email.

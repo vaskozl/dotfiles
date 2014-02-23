@@ -1,0 +1,57 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp164073oac;
+        Sat, 7 Dec 2013 01:27:28 -0800 (PST)
+X-Received: by 10.60.93.67 with SMTP id cs3mr5850850oeb.12.1386408448720;
+        Sat, 07 Dec 2013 01:27:28 -0800 (PST)
+Return-Path: <bounces+794683-b288-vasil.zlatanov=gmail.com@email.writelatex.com>
+Received: from o1.email.writelatex.com (o1.email.writelatex.com. [192.254.116.202])
+        by mx.google.com with SMTP id jb8si935695obb.92.2013.12.07.01.27.27
+        for <vasil.zlatanov@gmail.com>;
+        Sat, 07 Dec 2013 01:27:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+794683-b288-vasil.zlatanov=gmail.com@email.writelatex.com designates 192.254.116.202 as permitted sender) client-ip=192.254.116.202;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounces+794683-b288-vasil.zlatanov=gmail.com@email.writelatex.com designates 192.254.116.202 as permitted sender) smtp.mail=bounces+794683-b288-vasil.zlatanov=gmail.com@email.writelatex.com;
+       dkim=pass header.i=@sendgrid.info
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding:x-feedback-id; 
+	s=smtpapi; bh=gXeYoZHHyQTVaKXUOq3zmqeNgGw=; b=pti5cweTRHF2BU9r69
+	EXmhRUGQzvLVICThRpuFZE9ic+m5wE+vXxFXvd5NGxMXNTr26LLPWM5Dp1onow0J
+	o/iNesclEUS2Kc/iHxIs56AZdWRo6zVwH7yePKX7eWz5bkGhgXCjl8gZy0KSLAwI
+	7x/zw9k2KUGPSSymBuGVO02lU=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=email.writelatex.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=smtpapi; bh=gXeYoZHHyQTVaKXUOq3zmqeNgGw=; b=wthPUB0m9rg7LjV8+3
+	XD0+HaCgLzIMrCkJTkw9z9p1L/rDwxwA4RhtZim5S40T52gst9N8v5gMitkJkm7t
+	1grXKPu6ccz9gyA7CDHuxc4LYT41Ug0vfmHw6FNjTWO4MRbJwAfkdD+20Iqi514Q
+	mVz6Xs5gSf/Dk/cHr4+FVVi9E=
+Received: by mf124.sendgrid.net with SMTP id mf124.10128.52A2E9FE3
+        Sat, 07 Dec 2013 09:27:26 +0000 (GMT)
+Received: from writelatex.com (ec2-50-16-45-84.compute-1.amazonaws.com [50.16.45.84])
+	by mi70 (SG) with ESMTP id 142cc620a9c.33ab.a590a
+	for <vasil.zlatanov@gmail.com>; Sat, 07 Dec 2013 03:27:26 -0600 (CST)
+Date: Sat, 07 Dec 2013 09:27:25 +0000
+From: welcome@writelatex.com
+Reply-To: welcome@writelatex.com
+To: vasil.zlatanov@gmail.com
+Message-ID: <52a2e9fdb9b04_5d836b429414@09516c42-1589-40ea-80d3-463e67dbc8cc.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: 7Khs/zxR/W46sGNTm1edVbTepgI3tupeWeGQIbRHkZbAm4ATt3vj9ocPAoM7EQge3b52NP5cunMARGYB2HcD4yVtNn27M3E6PpV8L7Qj5gBodQykIVQV74h+g7xCL5CstUqXAcEYHKs/snz/BbLI3N9l/MiqSOkx/6pvwx6LIdM=
+X-Feedback-ID: 794683:H7Zq0guNNwaK3hXKc765vmkk7GbBRLoG0mD4MHYcM8g=:H7Zq0guNNwaK3hXKc765vmkk7GbBRLoG0mD4MHYcM8g=:SG
+
+<p>Thanks for signing up for writeLaTeX!</p>
+
+<p>Please <a href="http://email.writelatex.com/wf/click?upn=cHuZQBbI2Hc65cfokOiKJQbKdXrr0Im7EPobxYfn73fQeYtK62lShfczNc7pfKUKjoO-2BraGM-2FWyzw4T7uWdrty4qm-2BTe3P4r7MHT6JsrKeHNgqlh75RCFl1v3uwll6II_v6s3-2Bc5Xc-2BRmsp9vK8-2BHgjsy8-2F4OBl2pcqN9OXBqXahMvyrLNb6MI3jqUrXBVBzT795OW9858Jd3agII7rjcZRHwcLzJgZem-2BCqL7KYM9Os9Wjv6aiyDF-2BoLdTZIfvkGjPzPJ1jqa5S2K3VShRmdGY1iWKCjswa-2FnpdCqfyVBMd66nGjC7xdEUKcNqSLKe65UrHk0AV-2Bf-2BZDGacTKUKmjQ-3D-3D">click here to confirm your e-mail address</a> or copy and paste the following address into your browser:
+</p>
+
+<p>https://www.writelatex.com/users/confirmation?confirmation_token=Gfn7rxyFSqWqCsRffdBf</p>
+
+<p>If you have comments or questions, we'd love to hear from you. Just reply to this e-mail or <a href="mailto:john@writelatex.com">john@writelatex.com</a>. Or find us on twitter @writelatex. 
+</p> 
+
+<p>Happy TeXing!</p>
+
+<img src="http://email.writelatex.com/wf/open?upn=v6s3-2Bc5Xc-2BRmsp9vK8-2BHgjsy8-2F4OBl2pcqN9OXBqXahMvyrLNb6MI3jqUrXBVBzT795OW9858Jd3agII7rjcZa23fUzDWh4hZ616GssnBug33cbecdt6NuhZRmPPjKJVIS4Awvs2c6aE6rka-2BcDdqdpJo86tAMtNigeNG2u-2FH4YluLVqz8qm4t9CMFhxLdnhKFY8UmqnDw-2FFREJIVSFPaA-3D-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>

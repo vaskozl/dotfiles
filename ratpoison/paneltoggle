@@ -1,0 +1,10 @@
+#!/bin/sh
+TOGGLE=$HOME/.toggle
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    ratpoison -c hidepanel
+else
+    rm $TOGGLE
+    ratpoison -c showpanel
+fi

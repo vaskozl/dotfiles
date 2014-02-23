@@ -1,0 +1,46 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp6367oac;
+        Fri, 24 Jan 2014 02:29:59 -0800 (PST)
+X-Received: by 10.15.26.8 with SMTP id m8mr155596eeu.25.1390559399190;
+        Fri, 24 Jan 2014 02:29:59 -0800 (PST)
+Return-Path: <noreply@battle.net>
+Received: from ext-smtp11.eu.battle.net (ext-smtp11.eu.battle.net. [80.239.186.47])
+        by mx.google.com with ESMTP id f43si1148466eeo.7.2014.01.24.02.29.58
+        for <vasil.zlatanov@gmail.com>;
+        Fri, 24 Jan 2014 02:29:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@battle.net designates 80.239.186.47 as permitted sender) client-ip=80.239.186.47;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@battle.net designates 80.239.186.47 as permitted sender) smtp.mail=noreply@battle.net;
+       dkim=pass header.i=@battle.net;
+       dmarc=pass (p=REJECT dis=NONE) header.from=battle.net
+Date: Fri, 24 Jan 2014 02:29:59 -0800 (PST)
+Received: from ew2-web-02-blade08.wowadmin.net (ew2-web-02-blade08.wowadmin.net [10.51.53.28])
+	by ext-smtp11.eu.battle.net (Postfix) with ESMTP id 8549A19D4171
+	for <vasil.zlatanov@gmail.com>; Fri, 24 Jan 2014 10:29:58 +0000 (UTC)
+X-DKIM: Sendmail DKIM Filter v2.8.3 ext-smtp11.eu.battle.net 8549A19D4171
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=battle.net; s=mail;
+	t=1390559398; bh=kI31qs6TaA5ak/W5esYgcZLyido=;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:
+	 Content-Transfer-Encoding;
+	b=vEYf48h4QpeSIo5ZE6Jih8p+rTT0oXZDUo6D6j3Y9iJPQda/Zr5nk7d0DkkjwMykJ
+	 2yf3b+cLi6lQ1T6aWBpU87ig8nQ75odnAmDd+CPmyQFFyGt4NVqLhnD1UTA92WzfWN
+	 QgNaHsj7RUQ3dqn/wDvGgy+ElfZ9OrRoSwyvzkgU=
+From: Blizzard Entertainment <noreply@battle.net>
+To: "vasil.zlatanov@gmail.com" <vasil.zlatanov@gmail.com>
+Message-ID: <120611058.11483.1390559398537.JavaMail.tomcat@ew2-admin-smtp-vip.wowadmin.net>
+Subject: Battle.net Account - Password Change Notice
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFThis is an automated notification regarding the recent change(s) m=
+ade to your Battle.net account: vasil.zlatanov@gmail.com.<br /><br />
+
+Your password has recently been modified through the Account Management web=
+site.
+
+If you made this password change, please disregard this notification.
+
+If you did not change your password, please visit <a href=3D"https://www.ba=
+ttle.net/account/support/account-recovery.html">the account recovery page</=
+a> to ensure your account is secure.<br /><br />

@@ -1,0 +1,84 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp201983oai;
+        Wed, 21 Aug 2013 08:53:32 -0700 (PDT)
+X-Received: by 10.49.63.3 with SMTP id c3mr9777124qes.2.1377100412312;
+        Wed, 21 Aug 2013 08:53:32 -0700 (PDT)
+Return-Path: <3fOIUUg4ODisHUaVU.ULPQILYiTHSTVIVYNHY.ZLcHZPS.gSHaHUVcNTHPS.JVT@doclist.bounces.google.com>
+Received: from mail-qc0-x248.google.com (mail-qc0-x248.google.com [2607:f8b0:400d:c01::248])
+        by mx.google.com with ESMTPS id k5si1899627qcp.4.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 21 Aug 2013 08:53:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3fOIUUg4ODisHUaVU.ULPQILYiTHSTVIVYNHY.ZLcHZPS.gSHaHUVcNTHPS.JVT@doclist.bounces.google.com designates 2607:f8b0:400d:c01::248 as permitted sender) client-ip=2607:f8b0:400d:c01::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 3fOIUUg4ODisHUaVU.ULPQILYiTHSTVIVYNHY.ZLcHZPS.gSHaHUVcNTHPS.JVT@doclist.bounces.google.com designates 2607:f8b0:400d:c01::248 as permitted sender) smtp.mail=3fOIUUg4ODisHUaVU.ULPQILYiTHSTVIVYNHY.ZLcHZPS.gSHaHUVcNTHPS.JVT@doclist.bounces.google.com
+Received: by mail-qc0-x248.google.com with SMTP id k8so552658qcq.3
+        for <vasil.zlatanov@gmail.com>; Wed, 21 Aug 2013 08:53:32 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-gm-message-state:mime-version:message-id:date:subject:from:to
+         :content-type;
+        bh=JuguuO4DG3McvSLPQr0Jw+1Tu5Q/p9U2jQjSOEAt2lo=;
+        b=QzqWTyZPFt5eA772X9tOMbg0dyn3nNvPBd1LQ3t9wB4us3q914cwsgX/fFU0NBE7Rc
+         XVPtaku7NfYCqmZ4CDJW9XFBKuNxa1VEDTayJF5O2xUnKepRzh2xJhzy0JHHPGbI+bZ4
+         4vrY/VDfUWUN42d4pslFBCclEzfZzT2cO9IOYlc0CnKBewV+wMjok9tRXusYZnrRoHky
+         7ytNlaM7RGMpzqVS3u3NlkBuBIQUQPGJNULnC5/qmlL6czLJnIDsNsEIIplZ623glRNW
+         7DMhx2VHRJ1pIPnHSRIjw9mpGrkMjxho/r5hwel1QJVKcaKV1RJxTrduhd4i3zTliBeF
+         TZgQ==
+X-Gm-Message-State: ALoCoQnfb8sHVeVHesgyg6+NHjt+oe2P23Qo0m4hfoFH7PIvXYQcAEKqMuSt2QOfY0+EmB+O6IQO
+MIME-Version: 1.0
+X-Received: by 10.224.74.72 with SMTP id t8mr9916542qaj.4.1377100412027; Wed,
+ 21 Aug 2013 08:53:32 -0700 (PDT)
+X-Originating-IP: 46.236.104.177
+Message-ID: <001a11c3bec0e1208004e4772c5c@google.com>
+Date: Wed, 21 Aug 2013 15:53:32 +0000
+Subject: Enduring love (vasil.zlatanov@gmail.com)
+From: "Anton Neijber (Google Drive)" <anton.neijber1@malmoborgar.se>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=001a11c3bec0e1207304e4772c59
+
+--001a11c3bec0e1207304e4772c59
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SmFnIGhhciBkZWxhdCBldHQgb2JqZWt0IG1lZCBkaWc6DQoNCkVuZHVyaW5nIGxvdmUNCmh0dHBz
+Oi8vZG9jcy5nb29nbGUuY29tL2RvY3VtZW50L2QvMVhCQUM3WjNZdzEwVGlSYXIxb0tEVjNnYmZq
+OGF2SDYxMm9SN1RmQVJjRjgvZWRpdD91c3A9c2hhcmluZw0KDQpEZXQg5HIgaW50ZSBlbiBiaWxh
+Z2EgLSBkZW4g5HIgbGFncmFkIG9ubGluZS4g1nBwbmEgZGV0dGEgb2JqZWt0IGdlbm9tIGF0dCAg
+DQprbGlja2EgcOUgbORua2VuIG92YW4uDQoNCg==
+--001a11c3bec0e1207304e4772c59
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">Jag h=
+ar delat ett objekt med dig.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/document-2.png" alt=3D"Dokument" style=3D"vertical-=
+align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"Enduring love">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://docs.google.com/document/d/1XBAC7Z3Yw10TiRar1oKDV3gbf=
+j8avH612oR7TfARcF8/edit?usp=3Dsharing" style=3D"vertical-align:middle; text=
+-decoration:none; color:#1154cc;" itemprop=3D"url">Enduring love</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: skapa, dela och ha alla dina grejer p=E5 ett st=E4lle.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logotyp f=F6r =
+Google Drive"></a></td></tr></tbody></table></div></div></body></html>
+--001a11c3bec0e1207304e4772c59--

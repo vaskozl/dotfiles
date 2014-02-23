@@ -1,0 +1,192 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp138726oac;
+        Fri, 10 Jan 2014 14:58:58 -0800 (PST)
+Return-Path: <3MXvQUgwKDgYsgor-tuxkvr4muumrk.ius1gyor.5rgzgtu1msgor.ius@scoutcamp.bounces.google.com>
+Received-SPF: pass (google.com: domain of 3MXvQUgwKDgYsgor-tuxkvr4muumrk.ius1gyor.5rgzgtu1msgor.ius@scoutcamp.bounces.google.com designates 10.66.129.133 as permitted sender) client-ip=10.66.129.133
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of 3MXvQUgwKDgYsgor-tuxkvr4muumrk.ius1gyor.5rgzgtu1msgor.ius@scoutcamp.bounces.google.com designates 10.66.129.133 as permitted sender) smtp.mail=3MXvQUgwKDgYsgor-tuxkvr4muumrk.ius1gyor.5rgzgtu1msgor.ius@scoutcamp.bounces.google.com;
+       dkim=pass header.i=@google.com
+X-Received: from mr.google.com ([10.66.129.133])
+        by 10.66.129.133 with SMTP id nw5mr16444605pab.98.1389394738221 (num_hops = 1);
+        Fri, 10 Jan 2014 14:58:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:message-id:date:subject:from:to:content-type;
+        bh=XnAxUICoN1dpxuUgp1CgCZG8yYG2/X2xvXbSK3S9hfo=;
+        b=H7rYn9RCzV+emzp/+eeQ4rq4u3VzyIfbzX6aHOH8LRy6SRQB4BlFwNpXot26CvbPKJ
+         52i6nhyUJAgzmw1WXAOHCIyX/OCHUK0PEmf0euCg4Eu/0gnbHBdBLhBvO3naQeEiqxXR
+         Ju+AS2qWmLheH3Gp8K0KxJK26MciFVs6P46kFcjksD+6kvifI/pwQSTpHG6gWwR6emx/
+         nWha8jHVOj/B3ANY5b1cNyTjk8MdXPqQybBkBQrnvplAIRqeNRfdM04/2UPtjpPksztZ
+         4ZyUv+iujyFve/QZMqWLOPnnu4XYjPF99yxQxGpvs3iyvFoxXZx5MtpQEuieCf3Z36Ji
+         CzDw==
+MIME-Version: 1.0
+X-Received: by 10.66.129.133 with SMTP id nw5mr14499300pab.98.1389394737731;
+ Fri, 10 Jan 2014 14:58:57 -0800 (PST)
+Reply-To: mail-noreply@google.com
+X-Google-Id: 2482025
+Message-ID: <c73de09221bfd0b0.1389394737068.277406.227000.en-US.d20dfe58f14fd196@google.com>
+Date: Fri, 10 Jan 2014 22:58:57 +0000
+Subject: Gmail update: Reach more people you know
+From: Gmail Team <mail-noreply@google.com>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=001a11364e98cb972704efa5ab57
+
+--001a11364e98cb972704efa5ab57
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RXZlciB3YW50ZWQgdG8gZW1haWwgc29tZW9uZSB5b3Uga25vdywgYnV0IGhhdmVuJ3QgeWV0IGV4
+Y2hhbmdlZCBlbWFpbCAgDQphZGRyZXNzZXM/IFN0YXJ0aW5nIHRoaXMgd2Vlaywgd2hlbiB5b3Un
+cmUgY29tcG9zaW5nIGEgbmV3IGVtYWlsLCBHbWFpbCAgDQp3aWxsIHN1Z2dlc3QgeW91ciBHb29n
+bGUrIGNvbm5lY3Rpb25zIGFzIHJlY2lwaWVudHMsIGV2ZW4gaWYgeW91IGhhdmVuJ3QgIA0KZXhj
+aGFuZ2VkIGVtYWlsIGFkZHJlc3NlcyB5ZXQuDQoNCkhvdyBpdCB3b3JrcyB3aXRoIGVtYWlsIGFk
+ZHJlc3Nlcw0KRW1haWxpbmcgR29vZ2xlKyBjb25uZWN0aW9ucyB3b3JrcyBhIGJpdCBkaWZmZXJl
+bnRseSB0byBwcm90ZWN0IHRoZSBwcml2YWN5ICANCm9mIGVtYWlsIGFkZHJlc3Nlcy4gWW91ciBl
+bWFpbCBhZGRyZXNzIGlzbid0IHZpc2libGUgdG8geW91ciBHb29nbGUrICANCmNvbm5lY3Rpb25z
+IHVudGlsIHlvdSBzZW5kIHRoZW0gYW4gZW1haWwsIGFuZCB0aGVpciBlbWFpbCBhZGRyZXNzZXMg
+YXJlIG5vdCAgDQp2aXNpYmxlIHRvIHlvdSB1bnRpbCB0aGV5IHJlc3BvbmQuDQoNClJlY2Vpdmlu
+ZyBlbWFpbCBmcm9tIHBlb3BsZSBvdXRzaWRlIHlvdXIgY2lyY2xlcyBbbGluazogIA0KaHR0cHM6
+Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGx1cy9hbnN3ZXIvMTA0NzgwNT9obD1lbl9VU10NCklmIHlv
+dSByZWNlaXZlIGFuIGVtYWlsIGZyb20gc29tZW9uZSBvdXRzaWRlIHlvdXIgY2lyY2xlcywgaXQg
+d2lsbCBiZSAgDQpmaWx0ZXJlZCBpbnRvIHRoZSBTb2NpYWwgY2F0ZWdvcnkgb2YgdGhlIGluYm94
+IFtsaW5rOiAgDQpodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9tYWlsL2Fuc3dlci8zMDk0NTk2
+P2hsPWVuX1VTXShpZiBlbmFibGVkKSBhbmQgIA0Kb25seSBhZnRlciB5b3UgcmVzcG9uZCBvciBh
+ZGQgdGhlbSB0byB5b3VyIGNpcmNsZXMsIGNhbiB0aGV5IHN0YXJ0IGFub3RoZXIgIA0KY29udmVy
+c2F0aW9uIHdpdGggeW91Lg0KDQpIb3cgdG8gY29udHJvbCB3aG8gY2FuIGNvbnRhY3QgeW91DQpZ
+b3UncmUgaW4gY29udHJvbCBvZiB3aGV0aGVyIHBlb3BsZSBjYW4gcmVhY2ggeW91IHdpdGggYSBu
+ZXcgc2V0dGluZyBpbiAgDQpHbWFpbCBbbGluazogaHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFp
+bC8jc2V0dGluZ3MvZ2VuZXJhbF0gb24gdGhlICANCmRlc2t0b3AuIFRvIGxlYXJuIG1vcmUsIGNo
+ZWNrIG91dCB0aGUgSGVscCBDZW50ZXIgW2xpbms6ICANCmh0dHBzOi8vc3VwcG9ydC5nb29nbGUu
+Y29tL21haWwvP3A9cHJvZmlsZXMmaGw9ZW5fVVNdLg0KDQpUaGUgR21haWwgVGVhbQ0KDQqpIDIw
+MTMgR29vZ2xlIEluYy4gMTYwMCBBbXBoaXRoZWF0cmUgUGFya3dheSwgTW91bnRhaW4gVmlldywg
+Q0EgOTQwNDMNCg0KWW91IGhhdmUgcmVjZWl2ZWQgdGhpcyBtYW5kYXRvcnkgZW1haWwgc2Vydmlj
+ZSBhbm5vdW5jZW1lbnQgdG8gdXBkYXRlIHlvdSAgDQphYm91dCBpbXBvcnRhbnQgY2hhbmdlcyB0
+byB5b3VyIEdtYWlsIHByb2R1Y3Qgb3IgYWNjb3VudC4NCg==
+--001a11364e98cb972704efa5ab57
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html public "- / /w3c / /dtd xhtml 1.0 transitional / /en" "http:=
+ / /www.w3.org /tr /xhtml1 /dtd /xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html;charset=3DUTF-8"=
+>
+    <title>Gmail update: Reach more people you know</title>
+  </head>
+  <body text=3D"#444444" link=3D"#1155CC" style=3D"background-color: #e5e5e=
+5; text-align: center; margin: 20px 0;">
+    <br>
+    <div style=3D"margin: 2%;">
+      <div style=3D"background-color: white; border-radius: 1em; padding: 1=
+em; box-shadow: 1px -5px 8px 2px #bbb; max-width: 600px;	margin:2% auto 0 a=
+uto;	text-align:left;">
+        <table width=3D"100%">
+          <tr>
+            <td width=3D"20%"></td>
+            <td align=3D"center" width=3D"110">
+              <div style=3D"width:107px; background-image:url(&#39;https://=
+services.google.com/fh/files/emails/google_logo_flat_90_color.png&#39;); ba=
+ckground-repeat: no-repeat; height: 50px; background-position: center cente=
+r;"></div>
+            </td>
+            <td width=3D"20%"></td>
+          </tr>
+        </table>
+        <div style=3D"width: 90%; padding-left: 4%;">
+          <p><span style=3D"font-family:Open Sans, Arial, sans-serif; font-=
+size: 24px; font-weight: normal; line-height: 1.4em; color: #444444">Gmail =
+update: Reach more people you know</span></p>
+          <p><span style=3D"font-family:Open Sans, Arial, sans-serif; font-=
+size: 13px; font-weight: normal; line-height: 1.4em; color: #444444;">Ever =
+wanted to email someone you know, but haven&#39;t yet exchanged email addre=
+sses? Starting this week, when you&#39;re composing a new email, Gmail will=
+ suggest your Google+ connections as recipients, even if you haven&#39;t ex=
+changed email addresses yet.</span></p>
+        </div>
+        <div style=3D"float: left;  margin:5% 0; width: 100%; max-width: 31=
+5px; padding: 0 4%; clear: both;">
+          <p>
+            <span style=3D"font-family:Open Sans, Arial, sans-serif; font-s=
+ize: 13px; font-weight: bold; line-height: 1.4em; color: #444444;">How it w=
+orks with email addresses</span><br>
+            <span style=3D"font-family:Open Sans, Arial, sans-serif; font-s=
+ize: 13px; font-weight: normal; line-height: 1.4em; color: #444444;">Emaili=
+ng Google+ connections works a bit differently to protect the privacy of em=
+ail addresses. Your email address isn&#39;t visible to your Google+ connect=
+ions until you send them an email, and their email addresses are not visibl=
+e to you until they respond.</span>
+          </p>
+        </div>
+        <div style=3D"float: left; padding-left:2%;">
+          <img alt=3D"" src=3D"https://www.google.com/images/emails/msa/ema=
+iling_profiles_1_en_us.png" style=3D"display:block; width: 180px; padding-t=
+op:12px;">
+        </div>
+        <div style=3D"float: left;  margin:5% 0; width: 100%; max-width: 31=
+5px; padding: 0 4%; clear: both;">
+          <p><span style=3D"font-family:Open Sans, Arial, sans-serif; font-=
+size: 13px; font-weight: bold; line-height: 1.4em; color: #444444;">Receivi=
+ng email from people outside <a href=3D"http://www.google.com/appserve/mkt/=
+p/GjQYig-OUi34UytlHQH7RnDaIcpJPbcAIGPhmgNjCcbqt0UC6qaw1qEc7H19sJ8oOJ5BbDsx5=
+V8gN4rf84yPyxEUpTvUtCI=3D" style=3D"text-decoration:none;">your circles</a>=
+</span><br>
+          <span style=3D"font-family:Open Sans, Arial, sans-serif; font-siz=
+e: 13px; font-weight: normal; line-height: 1.4em; color: #444444;">If you r=
+eceive an email from someone outside your circles, it will be filtered into=
+ the <a href=3D"http://www.google.com/appserve/mkt/p/Yj1zS2kYjvMLazfT03kOpB=
+sOr_0WWbI2ZNGE6L9U5g0mMZNEycOlDlR6sC1h8d5-9fXMp8Y6Yjvge15PFzdbAWbQD1OXMjEdu=
+ep1OI7sVw=3D=3D" style=3D"text-decoration:none;">Social category of the inb=
+ox</a> (if enabled) and only after you respond or add them to your circles,=
+ can they start another conversation with you.</span>
+          </p>
+        </div>
+        <div style=3D"float: left; padding-left:2%; ">
+          <img alt=3D"" src=3D"https://www.google.com/images/emails/msa/ema=
+iling_profiles_2_en_us.png" style=3D"display:block; width: 180px; padding-t=
+op:12px;">
+        </div>
+        <div style=3D"float: left;  margin:5% 0; width: 100%; max-width: 31=
+5px; padding: 0 4%; clear: both;">
+          <p><span style=3D"font-family:Open Sans, Arial, sans-serif; font-=
+size: 13px; font-weight: bold; line-height: 1.4em; color: #444444;">How to =
+control who can contact you</span><br>
+          <span style=3D"font-family:Open Sans, Arial, sans-serif; font-siz=
+e: 13px; font-weight: normal; line-height: 1.4em; color: #444444;">You&#39;=
+re in control of whether people can reach you with a <a href=3D"http://www.=
+google.com/appserve/mkt/p/Zc9ltYRdIAKo3gBTia-r09iPu2rRPKFDq8Ny0N8NW3tTPh-50=
+9u8K7VlsupH5U9LOrWaZsiNWWb02DW-GPgn">new setting in Gmail</a> on the deskto=
+p. To learn more, check out the <a href=3D"http://www.google.com/appserve/m=
+kt/p/tiGmZmCQGx-IX-TT8XAdymc6ScSfEV9dmw-QOxkBPE_st8oI3beUdY5dUR9MXOURhgdnrr=
+a31hMwAH1YpqrC72UfVjs=3D">Help Center</a>.
+          </span>
+          </p>
+        </div>
+        <div style=3D"float: left; padding-left:2%; ">
+          <img alt=3D"" src=3D"https://www.google.com/images/emails/msa/ema=
+iling_profiles_3_en_us.png" style=3D"display:block; width: 180px; padding-t=
+op:12px;">
+        </div>
+        <div style=3D" clear: both;padding: 0 4%; height: 50px;">
+          <img alt=3D"" src=3D"http://ssl.gstatic.com/accounts/services/mai=
+l/msa/gmail_icon_large.png" style=3D"float: left;">
+          <p style=3D"float: left; margin: 7px 3px;"><span style=3D"font-fa=
+mily:Open Sans, Arial, sans-serif; font-size: 18px; font-weight: normal; li=
+ne-height: 1.4em; color: #444444">The Gmail Team</span></p>
+        </div>
+        <br>
+      </div>
+      <div style=3D"color: #777; font-size: 10px;  border-radius: 1em;  pad=
+ding: 1em;  max-width: 600px;	margin:0 auto 4% auto;	font-family:Arial, Hel=
+vetica, sans-serif; text-align:left;">
+      =A9 2013 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 940=
+43
+      <br><br>
+      You have received this mandatory email service announcement to update=
+ you about important changes to your Gmail product or account.
+      </div>
+    </div>
+  <img height=3D"1" width=3D"3" src=3D"http://www.google.com/appserve/mkt/i=
+mg/IUgR5mh6Hz1EoA-C3YPtA6_Kf5o=3D.gif"></body>
+</html>
+--001a11364e98cb972704efa5ab57--

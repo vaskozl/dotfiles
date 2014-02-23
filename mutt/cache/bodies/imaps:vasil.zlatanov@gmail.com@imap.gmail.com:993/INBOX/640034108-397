@@ -1,0 +1,162 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.94.237 with SMTP id df13csp15158oab;
+        Thu, 17 Oct 2013 02:38:08 -0700 (PDT)
+X-Received: by 10.58.146.71 with SMTP id ta7mr347874veb.23.1382002688417;
+        Thu, 17 Oct 2013 02:38:08 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f173.google.com (mail-vc0-f173.google.com [209.85.220.173])
+        by mx.google.com with ESMTPS id fx4si25964344vdc.39.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 17 Oct 2013 02:38:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.173;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f173.google.com with SMTP id if17so1042018vcb.32
+        for <vasil.zlatanov@gmail.com>; Thu, 17 Oct 2013 02:38:08 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:from:to:message-id:subject:mime-version:content-type;
+        bh=7/6w/CKaJ4LJK6B/grf0T3qfYT+YvkVWu21z20jQQQ0=;
+        b=GtJ5foKwjF6j139wiYxgy3wGz+NvHQZ9abNpYQ5Gig18rdbqcQizObVhvYqCfIifsn
+         BfTZq575zC4aSp6mPR5uEJBUHJtSQAIm2XOJbr7CdI3SVkghOgVBEuXsGXsLdtDyRuq1
+         yvkRioO3rTfGTrgtqn762GxW+MlnX2B969Yt9aoz0m3zJc6LFKaXo0tJBRqip01IYC/G
+         QXz2jspXF+T6J3pgIcJxnLXmWTrN9GxWny2efAiJnry2wctb6nzeOsmgAJnJ2z4oMAtI
+         C5rLcheyYaGyB1rOdV5qzSGcMW/cGyMfJDxhF+/VzPFoixd1KHU1UQBhykO06zdwzsyo
+         ZHrw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of registration+vasil.zlatanov1=malmoborgar.se@chesscube.com designates 67.223.242.8 as permitted sender) smtp.mail=registration+vasil.zlatanov1=malmoborgar.se@chesscube.com
+X-Gm-Message-State: ALoCoQm2FdZg5WnqGscZoxAi6SyQPQwoIjeCgBq8rgKGqgB3/xoo2wWqIOFxlhrdXkl1qZGlqx49
+X-Received: by 10.52.69.204 with SMTP id g12mr439103vdu.26.1382002687926;
+        Thu, 17 Oct 2013 02:38:07 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.229.7 with SMTP id jg7csp96486vcb;
+        Thu, 17 Oct 2013 02:38:07 -0700 (PDT)
+X-Received: by 10.49.70.129 with SMTP id m1mr2411180qeu.69.1382002687154;
+        Thu, 17 Oct 2013 02:38:07 -0700 (PDT)
+Return-Path: <registration+vasil.zlatanov1=malmoborgar.se@chesscube.com>
+Received: from mailgate.chesscube.com (mailgate.chesscube.com. [67.223.242.8])
+        by mx.google.com with ESMTP id q5si31801232qaq.68.1969.12.31.16.00.00;
+        Thu, 17 Oct 2013 02:38:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of registration+vasil.zlatanov1=malmoborgar.se@chesscube.com designates 67.223.242.8 as permitted sender) client-ip=67.223.242.8;
+Received: from apresence.localdomain (ec2-54-243-62-107.compute-1.amazonaws.com [54.243.62.107])
+	by mailgate.chesscube.com (Postfix) with ESMTP id D7A1D92C158
+	for <vasil.zlatanov1@malmoborgar.se>; Thu, 17 Oct 2013 04:59:35 -0400 (EDT)
+Received: from apresence (localhost [127.0.0.1])
+	by apresence.localdomain (Postfix) with ESMTP id 0562522662
+	for <vasil.zlatanov1@malmoborgar.se>; Thu, 17 Oct 2013 09:38:06 +0000 (UTC)
+Date: Thu, 17 Oct 2013 09:38:05 +0000 (UTC)
+From: ChessCube <registration@chesscube.com>
+To: vasil.zlatanov1@malmoborgar.se
+Message-ID: <1042341024.242355.1382002685977.JavaMail.root@apresence>
+Subject: Validate your e-mail address on ChessCube
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_242353_1221184663.1382002685976"
+
+------=_Part_242353_1221184663.1382002685976
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_242354_949416662.1382002685976"
+
+------=_Part_242354_949416662.1382002685976
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear vaskozl,
+Welcome to ChessCube - we hope you enjoy your stay.
+Before you can become a fully-fledged member of our community you will need to validate your e-mail address - by either clicking on the link below, or copying and pasting it into your browser's address bar:
+http://www.chesscube.com/email-validation?username=vaskozl&validationKey=hB7kYew8pnt6ffRe
+
+Validating your e-mail address will allow you to chat in our chat rooms and in games. It will also ensure that you receive our newsletters informing you of exciting new developments on ChessCube.
+
+Happy playing,
+The ChessCube Team
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You were sent this email because you registered on ChessCube.
+ChessCube will never rent or sell your email address. 
+View our Privacy Policy by clicking on the following link or copy-paste it into your web browser's address bar
+http://www.chesscube.com/privacy
+
+ChessCube.com | PO Box 1696 Milnerton 7441 South Africa
+------=_Part_242354_949416662.1382002685976
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<div align="center">
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td colspan="3"><img src="http://subscribers.chesscube.com/img/03.jpg"></td></tr>
+<tr>
+<td></td>
+<td>
+<table bgcolor="#444444" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td valign="bottom"><a href="http://www.chesscube.com/" target="_blank"><img src="http://subscribers.chesscube.com/img/chesscube.jpg" style="margin: 0pt 0pt 5px 10px;" border="0"></a></td>
+<td valign="bottom"><a href="http://www.chesscube.com/" target="_blank"><img src="http://subscribers.chesscube.com/img/play-top.jpg" style="padding: 0pt 5px 5px 0px;" align="right" border="0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="8"></td>
+</tr>
+<tr>
+<td width="5"></td>
+<td style="font-size: 11px; font-family: Verdana,Arial,Helvetica,sans-serif;" align="center" bgcolor="#444444">
+<table style="margin: 0 0 5px;" cellpadding="0" cellspacing="0" width="610">
+<tbody>
+<tr>
+<td align="left" >
+<table width="100%" border="0" cellspacing="0" cellpadding="15" bgcolor="#ffffff" style="font-size: 12px; font-family:'Trebuchet MS', Helvetica, sans-serif;">
+<tr>
+<td>
+<p style="font-size: 14px; color: #bc8b0e;"><b>
+Dear vaskozl,</b></p>
+<p>Welcome to ChessCube - we hope you enjoy your stay.</p>
+<p>Before you can become a fully-fledged member of our community you will need to validate your e-mail address by clicking <a href="http://www.chesscube.com/email-validation?username=vaskozl&validationKey=hB7kYew8pnt6ffRe"/>here</a>
+</p>
+<p>Validating your e-mail address will allow you to chat in our chat rooms and in games. It will also ensure that you receive our newsletters informing you of exciting new developments on ChessCube.</p>
+<p>
+Happy playing,<br/>
+The ChessCube Team
+</p>
+<p>
+<p style="color : grey; font-size: 12px;">
+You were sent this email because you registered on ChessCube.
+ChessCube will never rent or sell your email address. View our <a href="http://www.chesscube.com/privacy">Privacy Policy</a> <p style="color : grey; font-size: 12px;">
+ChessCube.com | PO Box 1696 Milnerton 7441 South Africa </p>
+</p>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td><img src="http://subscribers.chesscube.com/img/bottom_wide.jpg"></td></tr>
+<tr>
+<td>
+<p style="height: 70px;" align="center">
+<a href="http://www.chesscube.com" target="_blank">
+<img src="http://subscribers.chesscube.com/img/login.jpg" style="margin: 15px 0pt 0pt;" border="0"></a><br></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="8"></td>
+</tr>
+<tr><td colspan="3"><img src="http://subscribers.chesscube.com/img/16.jpg"></td></tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
+------=_Part_242354_949416662.1382002685976--
+
+------=_Part_242353_1221184663.1382002685976--

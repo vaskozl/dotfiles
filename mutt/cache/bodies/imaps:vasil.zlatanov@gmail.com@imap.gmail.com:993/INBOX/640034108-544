@@ -1,0 +1,84 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp53708oac;
+        Tue, 28 Jan 2014 12:37:02 -0800 (PST)
+X-Received: by 10.220.109.1 with SMTP id h1mr2742738vcp.20.1390941422143;
+        Tue, 28 Jan 2014 12:37:02 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f182.google.com (mail-vc0-f182.google.com [209.85.220.182])
+        by mx.google.com with ESMTPS id tj7si988304vdc.85.2014.01.28.12.37.01
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 28 Jan 2014 12:37:01 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.182 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.182;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.182 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f182.google.com with SMTP id id10so571482vcb.27
+        for <vasil.zlatanov@gmail.com>; Tue, 28 Jan 2014 12:37:01 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=7PZyfRtz9O27FX34/j0i2QIyYFGxI7lXyJ0xpDG9grU=;
+        b=Rfv7ylbsVVyyMYfEGHjYnPUVWKQLV+Tzf9Hd57HqReG/jk0WMSaRw4hQs1cixo3TCF
+         c1HkADVP5IF4r1oe1u0f+z2MTU9bER8qCzKb0PKzkdEBG+SmwHeAagWf7qdM/4e5NfMZ
+         E5ZVe8DayZcPwLcNDlpsF2dHK2JJdTyH6kWlxuS2Qu4g49MxWvQbcv0DM4SwexuMsJoS
+         qBj7x9p4nMqoFm/ii1H1oUzBwIDEjqfoMwjbsQTcF+agA9fB+gN5qj1If5pHMhDLh7qR
+         PQJy0xsG7tXjxr7AqlNu6vByIq1v89GJQ9c/1yGHdSYvaBHFN976bKMEZigEhK2BpGux
+         aiog==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.215.50 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+X-Gm-Message-State: ALoCoQkexwSxzNDeSO+j8C7ja1OmP0NRuQFG/xQyin4I/X1SHYwIuGPGHs4UlPkFx/qghDuqS8wD
+X-Received: by 10.52.111.38 with SMTP id if6mr2299752vdb.12.1390941421417;
+        Tue, 28 Jan 2014 12:37:01 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.151.75 with SMTP id b11csp52228vcw;
+        Tue, 28 Jan 2014 12:37:00 -0800 (PST)
+X-Received: by 10.152.43.47 with SMTP id t15mr2290807lal.38.1390941420289;
+        Tue, 28 Jan 2014 12:37:00 -0800 (PST)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-la0-f50.google.com (mail-la0-f50.google.com [209.85.215.50])
+        by mx.google.com with ESMTPS id pc5si7692519lbb.165.2014.01.28.12.36.59
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 28 Jan 2014 12:37:00 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.215.50 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.215.50;
+Received: by mail-la0-f50.google.com with SMTP id ec20so802663lab.23
+        for <vasil.zlatanov1@malmoborgar.se>; Tue, 28 Jan 2014 12:36:59 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.112.131.100 with SMTP id ol4mr2181229lbb.38.1390941419113;
+ Tue, 28 Jan 2014 12:36:59 -0800 (PST)
+Received: by 10.114.66.17 with HTTP; Tue, 28 Jan 2014 12:36:59 -0800 (PST)
+Date: Tue, 28 Jan 2014 21:36:59 +0100
+Message-ID: <CAHJ-ZFo6gvp2ZVqSqa+jR8nDuG2z5uSWFdaNtntjjebzzL-wxQ@mail.gmail.com>
+Subject: tomorrow
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Alexander Salmi <alexander.salmi1@malmoborgar.se>, 
+	Ali Alkhafadji <ali.alkhafadji1@malmoborgar.se>, 
+	Anton Neijber <anton.neijber1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Bj=F8rg_Kaal=F8_Johansen?= <bjorg.kaalo-johansen1@malmoborgar.se>, 
+	John Lauran <john.lauran1@malmoborgar.se>, 
+	Kevin Strandberg <kevin.strandberg1@malmoborgar.se>, 
+	Louise Lindberg <louise.lindberg1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, 
+	Oskar Sturm Kristiansen <oskar.sturm-kristiansen1@malmoborgar.se>, 
+	Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>, 
+	Sarah Van Lam <sarah.van-lam1@malmoborgar.se>, 
+	Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Walter Okuku <walter.okuku1@malmoborgar.se>, Zachary Nord <zachary.nord1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=047d7b3441b430a16404f10dc9cf
+
+--047d7b3441b430a16404f10dc9cf
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi there,
+we'll start 10 minutes later 8.20 to make allowance for the wintry roads.
+Spread the word.
+Regards, Leslie
+
+--047d7b3441b430a16404f10dc9cf
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr">Hi there,<div>we&#39;ll start 10 minutes later 8.20 to make allowance for the wintry roads. Spread the word.</div><div>Regards, Leslie</div></div>
+
+--047d7b3441b430a16404f10dc9cf--

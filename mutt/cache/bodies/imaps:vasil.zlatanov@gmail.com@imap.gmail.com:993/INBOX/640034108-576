@@ -1,0 +1,325 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp3272oac;
+        Wed, 12 Feb 2014 23:49:14 -0800 (PST)
+X-Received: by 10.68.125.164 with SMTP id mr4mr46406pbb.27.1392277754229;
+        Wed, 12 Feb 2014 23:49:14 -0800 (PST)
+Return-Path: <support@dolphin-browser.com>
+Received: from mail-pd0-x234.google.com (mail-pd0-x234.google.com [2607:f8b0:400e:c02::234])
+        by mx.google.com with ESMTPS id w4si1140321pbk.54.2014.02.12.23.49.13
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 12 Feb 2014 23:49:13 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning support@dolphin-browser.com does not designate 2607:f8b0:400e:c02::234 as permitted sender) client-ip=2607:f8b0:400e:c02::234;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning support@dolphin-browser.com does not designate 2607:f8b0:400e:c02::234 as permitted sender) smtp.mail=support@dolphin-browser.com;
+       dkim=neutral (bad format) header.i=@dolphin-browser.com
+Received: by mail-pd0-x234.google.com with SMTP id x10so10100710pdj.25
+        for <vasil.zlatanov@gmail.com>; Wed, 12 Feb 2014 23:49:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dolphin-browser.com; s=google;
+        h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version
+         :content-type;
+        bh=Xac2PAm1DQIl1KCU8tm21X/V/qkzdoezQjdW8SOpsFk=;
+        b=REJbFW3gCl+Wi241c6qSIvNTtcgHpIImXrIYoKh6ExYRiPpJaGhLUVI5fJk8Z03uy9
+         v1guyeIoiem0ZC38KXbc6H5yXEUJLZQQDzUL2cxBSiOuN9ixvbdRXYs3V1+Glg04GWaZ
+         ww1h6kbu8VHCT0l50pU+5ZoOauBOU5NO/EcBs=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:reply-to:to:message-id:in-reply-to
+         :subject:mime-version:content-type;
+        bh=Xac2PAm1DQIl1KCU8tm21X/V/qkzdoezQjdW8SOpsFk=;
+        b=aPquuwmRKxYJtJW5J95DzKgo6K3THeAAijv8aDmPV8pgF2EvnrStLAiJtbOeylmV/t
+         +KxuP81jrIoKxX80V/7RrM9BCqPDEyxL/yWxReIO4WTdKvAoOSjNaGFFOYsez5HCB638
+         0oqth7iNTmHZ2wda3py1fQidWHwxIE89QL2sMLQ4FhyWGQEn7pzlIQej5QTScm9rBq+t
+         Tb1g0w906Hq8VzcJvhiLtOx/fT/Zu3r54fcsu50AzkeWqnSbtYtNTQNJ/M7DVCgo8gxO
+         F1D7OMqe0AXCM6hgzLTOgihSwpVW/KoMTfqVO3coKy9HI0eCsHKqyKQZsdsDWx5J9kfb
+         4Bkg==
+X-Gm-Message-State: ALoCoQl4vaKzRSA0h5813AJvapS4UPBM8Ov6WcI3TVYCfISLIZtwoRWINXT2UJDOpORwdnj+EYIR
+X-Received: by 10.66.122.36 with SMTP id lp4mr139569pab.82.1392277753023;
+        Wed, 12 Feb 2014 23:49:13 -0800 (PST)
+Return-Path: <support@dolphin-browser.com>
+Received: from backend04.internal.desk.com (ec2-184-72-46-253.us-west-1.compute.amazonaws.com. [184.72.46.253])
+        by mx.google.com with ESMTPSA id db3sm3584161pbb.10.2014.02.12.23.49.06
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1.1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 12 Feb 2014 23:49:07 -0800 (PST)
+Date: Thu, 13 Feb 2014 07:49:06 +0000
+From: Dolphin Support <support@dolphin-browser.com>
+Reply-To: Dolphin Support <support@dolphin-browser.com>
+To: vasil.zlatanov@gmail.com
+Message-Id: <52fc319b8fc52_5d8fddaff4112b1@support.dolphin.com>
+In-Reply-To: <CAFjFiykwxDL5hTDOjBJFDrR1djS6Z4+DFMeqnV-_B9CfksLakg@mail.gmail.com>
+Subject: Re: Goodbye to Dolphin. Just want to let you know...
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_52fc78f23c563_50c010807f42134a
+X-Mailer: Desk.com Support Platform
+
+
+--mimepart_52fc78f23c563_50c010807f42134a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: Quoted-printable
+
+__________________________________
+Type your response ABOVE THIS LINE to reply
+
+-------------------------------------------------------------------------=
+-----------------------------------
+Customer: support
+Subject: Goodbye to Dolphin. Just want to let you know...
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Allen | FEB 13, 2014 | 11:48PM PST
+
+Hello Vasil,
+
+Thank you for your reply.I have enough information now.
+I will forward this issue to our Dev.
+
+Cheers,
+Dolphin Support Team
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Vasil | FEB 12, 2014 | 03:27AM PST =
+
+
+Ok installed the latest version of jetpack. Here are screenshots.
+
+The first one is chrome transparent and the second one is Dolphin.
+
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Vasil | FEB 12, 2014 | 03:11AM PST =
+
+
+Wow I'm impressed you are so interested to reply! I was using the
+MessageEase keyboard which among other things supports transparency (you
+can see content trough the keyboard.) The only browser that properly
+supports the transparency is Chrome. Firefox and Default have the same
+issue of showing a solid colour behind the transparent keyboard.
+
+I was using the latest version from the app store, I'm not sure how to
+check.
+
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Allen | FEB 12, 2014 | 11:28PM PST
+
+Hello Vasil,
+
+Thank you for your feedback.
+Could you tell me the version of Dolphin you uninstalled?
+Did you install Dolphin Jetpack?
+
+What kind of keyboard do you use? What is the version?
+Do you have the same issue with stock browser or ant other browsers?
+Can you send us a screenshot to show this issue?
+Cheers,
+Dolphin Support Team
+-------------------------------------------------------------------------=
+-----------------------------------
+
+Vasil | FEB 11, 2014 | 10:24AM PST  | Original message =
+
+
+The keyboard cant be transparent.
+
+
+
+
+-------------------------------------------------------------------------=
+-----------------------------------
+This message was sent to vasil.zlatanov@gmail.com in reference to Case #:=
+ 108571.
+-------------------------------------------------------------------------=
+-----------------------------------
+
+
+
+
+[[7e2390f72d31864ab9af1718e41890101b444f46-201987812]]=
+
+--mimepart_52fc78f23c563_50c010807f42134a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: Quoted-printable
+
+<div style=3D'color:#ffffff; display: none !important;'>_________________=
+_________________</div><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+<tr>
+<td align=3D"center" valign=3D"top">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top" style=3D"color:#333; font-family:Arial; font-size:14px=
+; line-height:150%; text-align:left;">
+
+<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top">
+
+<div>
+<span style=3D"font-size:90%; color:#777;">Type your response ABOVE THIS =
+LINE to reply</span>
+
+<hr />
+
+<div style=3D"background-color:#efefef; font-size:100%; padding:5px; marg=
+in:10px 0 0 0;">
+<strong>Vasil Zlatanov</strong><br/>
+<strong>Subject:</strong> Goodbye to Dolphin. Just want to let you know..=
+.
+</div>
+
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 13, 2014 &nbsp;|&nbsp; 11:48PM PST</sp=
+an>
+<br />
+
+<strong>Allen</strong> replied:<br/>
+<div>Hello Vasil,<br/><br/>Thank you for your reply.I have enough informa=
+tion now.<br/>I will forward this issue to our Dev.<br/></div>
+
+
+<div style=3D"margin-top:10px;"> Cheers,
+<br />
+Dolphin Support Team</div>
+
+
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 12, 2014 &nbsp;|&nbsp; 03:27AM PST
+</span>
+<br />
+
+
+
+<strong>
+
+  Vasil
+
+</strong>
+
+
+  replied:<br />
+
+
+Ok installed the latest version of jetpack. Here are screenshots.<br/><br=
+/>The first one is chrome transparent and the second one is Dolphin.
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 12, 2014 &nbsp;|&nbsp; 03:11AM PST
+</span>
+<br />
+
+
+
+<strong>
+
+  Vasil
+
+</strong>
+
+
+  replied:<br />
+
+
+Wow I'm impressed you are so interested to reply! I was using the<br/>Mes=
+sageEase keyboard which among other things supports transparency (you<br/=
+>can see content trough the keyboard.) The only browser that properly<br/=
+>supports the transparency is Chrome. Firefox and Default have the same<b=
+r/>issue of showing a solid colour behind the transparent keyboard.<br/><=
+br/>I was using the latest version from the app store, I'm not sure how t=
+o<br/>check.
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 12, 2014 &nbsp;|&nbsp; 11:28PM PST</sp=
+an>
+<br />
+
+<strong>Allen</strong> replied:<br/>
+<div>Hello Vasil,<br/><br/>Thank you for your feedback.<br/>Could you tel=
+l me the version of Dolphin you uninstalled?<br/>Did you install Dolphin =
+Jetpack?<br/><br/>What kind of keyboard do you use? What is the version?<=
+br/>Do you have the same issue with stock browser or ant other browsers?<=
+br/>Can you send us a screenshot to show this issue?</div>
+
+
+<div style=3D"margin-top:10px;"> Cheers,
+<br />
+Dolphin Support Team</div>
+
+
+<hr />
+
+
+
+
+
+<span style=3D"font-size:80%;">FEB 11, 2014 &nbsp;|&nbsp; 10:24AM PST
+</span>
+<br />
+
+
+<span style=3D"background-color: #efefef; font-weight:strong;">Original m=
+essage</span><br/>
+
+
+<strong>
+
+  Vasil
+
+</strong>
+
+
+  wrote:<br /><br />
+
+
+The keyboard cant be transparent.<br/><br/>
+<hr />
+
+
+
+
+<div style=3D"background-color:#fafafa; border:0; font-size:80%; padding:=
+2px;"> This message was sent to  vasil.zlatanov@gmail.com in reference to=
+ Case #: 108571. <br />
+
+</div>
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<span style=3D'color:#ffffff'>[[7e2390f72d31864ab9af1718e41890101b444f46-=
+201987812]]</span>=
+
+--mimepart_52fc78f23c563_50c010807f42134a--

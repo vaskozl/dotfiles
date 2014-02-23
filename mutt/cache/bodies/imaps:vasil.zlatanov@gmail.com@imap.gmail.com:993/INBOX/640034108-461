@@ -1,0 +1,117 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp24456oac;
+        Sat, 7 Dec 2013 23:54:32 -0800 (PST)
+X-Received: by 10.67.1.101 with SMTP id bf5mr14156837pad.50.1386489271674;
+        Sat, 07 Dec 2013 23:54:31 -0800 (PST)
+Return-Path: <vasil.zlatanov@live.com>
+Received: from col0-omc2-s5.col0.hotmail.com (col0-omc2-s5.col0.hotmail.com. [65.55.34.79])
+        by mx.google.com with ESMTP id ky7si3572567pbc.147.2013.12.07.23.54.29
+        for <vasil.zlatanov@gmail.com>;
+        Sat, 07 Dec 2013 23:54:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.34.79 as permitted sender) client-ip=65.55.34.79;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.34.79 as permitted sender) smtp.mail=vasil.zlatanov@live.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=plus.google.com
+Received: from COL0-MC4-F52.Col0.hotmail.com ([65.55.34.73]) by col0-omc2-s5.col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Sat, 7 Dec 2013 23:54:18 -0800
+Resent-Message-ID: <COL0-MC4-F52CE16B2AFEBE17E7F6505F9D00@phx.gbl>
+Resent-To: vasil.zlatanov@gmail.com
+Resent-Date: Sat, 7 Dec 2013 23:54:18 -0800
+Resent-From: vasil.zlatanov@live.com
+X-HM-Routing-Path:GCGJalikJAZr4dVieAJjcchfuMBxKt6fFWowEAj7w0uaEALroXiz4mnrRyRPIPJlYRYCGGFMc3XQfy18OWOAAKRc5WnNoQJCehBE2j1V8quDjPX7XNjdyb59Myp/7D85RjXTVi3koHIhe/GZ+xfWDtrF/BNUzTlnCWKXdvZIoug=
+Received: from mail-wi0-f199.google.com ([209.85.212.199]) by COL0-MC4-F52.Col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sat, 7 Dec 2013 23:54:16 -0800
+Received: by mail-wi0-f199.google.com with SMTP id hj8so3713244wib.10
+        for <vasil.zlatanov@live.com>; Sat, 07 Dec 2013 23:54:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=LSeLEmG1AVDVY+oO2PPAk/vT6c4wn8Wxe345JZobbOI=;
+        b=Ky2RQi835dV4WnMsTcduBfP9UZimdiEgbmkZl75F3VZpU/KeD7x2AuDqBWYxHuFWS4
+         UsG80QeRXIdDNTyFLt/0xm5XPqdtSo1NRVudJW6st8Ie6g9yUMMTaMYWxY4M8VsAX0D2
+         r2pwSAdq6Utgj3EkbZYrQ1aAohDZ+19hHU8RAuoW6rFDDuBpGRETsbW9CAtWUOjBba87
+         xWvqUSZwS+ho0fSeuPLaGwyLbqRSrov7i0PFrsYwKm7R9+jv1lC/uRZ7Q8oLGNOyylhC
+         smSkDo+4zaNZIbczMAg9eiX8mezuIH85kyTRIOhWhRbPFGAIp2d4jXZe6dOFlmneXoGx
+         NBqA==
+MIME-Version: 1.0
+X-Received: by 10.14.114.67 with SMTP id b43mr5319661eeh.0.1386489255824; Sat,
+ 07 Dec 2013 23:54:15 -0800 (PST)
+X-Notifications: XEAAAAKF5xdeF0QOlcyFOJ2M4Azg
+X-Notification-ID: z13gebb5wzq4vruaf04cgl5xhxehghrpow40k
+X-Sender-ID: 116668372361953472640
+X-Notification-Category: ENGAGE
+X-Notification-Type: ENGAGE_PROFILE_PHOTO
+X-All-Senders-In-Circles: 1
+Reply-To: "Google+" <noreply-7a646ef4@plus.google.com>
+X-UB: 37
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=09291676604755336687&emid=CLCF0PySoLsCFUkD3godRS0AAA&path=%2Fsettings%2Fplus&dt=1386489255823&ub=37>
+Precedence: bulk
+Date: Sat, 07 Dec 2013 23:54:15 -0800 (PST)
+Message-ID: <z13gebb5wzq4vruaf04cgl5xhxehghrpow40k@plus.google.com>
+Subject: Add a profile photo
+From: "Google+" <noreply-7a646ef4@plus.google.com>
+To: vasil.zlatanov@live.com
+Content-Type: multipart/alternative; boundary=001a113404a6940f4e04ed012fc9
+Return-Path: noreply-7a646ef4@plus.google.com
+X-OriginalArrivalTime: 08 Dec 2013 07:54:16.0992 (UTC) FILETIME=[B1B92200:01CEF3EA]
+
+--001a113404a6940f4e04ed012fc9
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Add a profile photo
+
+Make a great first impression by adding a profile photo that shows off your  
+personality.Add your photo  
+https://plus.google.com/_/notifications/emlink?emr=09291676604755336687&emid=CLCF0PySoLsCFUkD3godRS0AAA&path=%2F116668372361953472640%2Fabout&dt=1386489255823&ub=37
+
+------------------------
+
+Change what email Google+ sends you:  
+https://plus.google.com/_/notifications/emlink?emr=09291676604755336687&emid=CLCF0PySoLsCFUkD3godRS0AAA&path=%2Fsettings%2Fplus&dt=1386489255823&ub=37
+Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA
+
+
+
+--001a113404a6940f4e04ed012fc9
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"display:block;font-family:Arial;max-width:600px;"><!--=
+ X-Notifications: 1:19ce6d5a94000000 --><div style=3D"padding:10px 0;"><tab=
+le style=3D"width:100%" cellpadding=3D"0" cellspacing=3D"0"><tr><td><a href=
+=3D"https://plus.google.com/_/notifications/emlink?emr=3D092916766047553366=
+87&emid=3DCLCF0PySoLsCFUkD3godRS0AAA&path=3D%2Fstream&dt=3D1386489255823&ub=
+=3D37"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/=
+googleplus-greyscale-100x30-ccedb0dca792635de7635ab648f3336b.png" style=3D"=
+border:0" /></a></td></tr></table></div><div style=3D"background-color:#428=
+5f4;color:white;font:20px arial, normal;padding:23px 20px">Add a profile ph=
+oto</div><div style=3D"background-color: #e5e5e5;margin-bottom: 15px;paddin=
+g: 20px 30px 20px 30px"><div style=3D"max-width:520px;"><div style=3D"backg=
+round-color:white;border:1px solid #dadada;border-bottom-width:2px;border-t=
+op:none;-moz-border-radius:3px;-webkit-border-radius:3px;"><div style=3D"ba=
+ckground-color:#444444;color:white;font-size:18px;padding:20px 0 0;text-ali=
+gn:center;">Here is how you look today on Google+:</div><div style=3D"backg=
+round-color:#444444;max-height:70px;padding:10px 0 0;text-align:center;"><d=
+iv style=3D"background:#82AEDF url(https://ssl.gstatic.com/s2/profiles/imag=
+es/silhouette96.png) no-repeat;border-radius:60px;-moz-border-radius:52px;-=
+webkit-border-radius:60px;height:94px;margin:20px auto 0;width:94px;"></div=
+></div><div style=3D"margin:55px auto 0;text-align:center;"><a href=3D"http=
+s://plus.google.com/_/notifications/emlink?emr=3D09291676604755336687&emid=
+=3DCLCF0PySoLsCFUkD3godRS0AAA&path=3D%2F116668372361953472640%2Fabout&dt=3D=
+1386489255823&ub=3D37" style=3D"background-color:#d44b38;border-radius:3px;=
+color:#fff;display:inline-block;font-family: Arial;font-size:13px;height:30=
+px;line-height:30px;min-width:54px;padding:1px 20px;text-align:center;text-=
+decoration:none;white-space:nowrap;">Add your photo</a></div><div style=3D"=
+font-size:13px;padding:30px 50px 20px;text-align:center;">Make a great firs=
+t impression by adding a profile photo that shows off your personality.</di=
+v></div></div></div><div style=3D"font-size: 10px;color: gray;margin-bottom=
+: 10px"><div>This notification was sent to vasil.zlatanov@live.com. Don't w=
+ant occasional updates about Google+ activity and friend suggestions? <a st=
+yle=3D"color:#3366CC;text-decoration:none" href=3D"https://plus.google.com/=
+_/notifications/emlink?emr=3D09291676604755336687&emid=3DCLCF0PySoLsCFUkD3g=
+odRS0AAA&path=3D%2Fsettings%2Fplus%3Fpromo%3Dre&dt=3D1386489255823&ub=3D37"=
+>Change</a> what email Google+ sends you.</div><div>Google Inc., 1600 Amphi=
+theatre Pkwy, Mountain View, CA 94043 USA</div></div></body></html>
+--001a113404a6940f4e04ed012fc9--

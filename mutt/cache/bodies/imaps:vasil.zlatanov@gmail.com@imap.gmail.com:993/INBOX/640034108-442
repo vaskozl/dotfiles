@@ -1,0 +1,77 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp41376oac;
+        Thu, 21 Nov 2013 11:26:11 -0800 (PST)
+X-Received: by 10.180.210.134 with SMTP id mu6mr31270457wic.37.1385061971208;
+        Thu, 21 Nov 2013 11:26:11 -0800 (PST)
+Return-Path: <ankhmorporkian@redditanalytics.com>
+Received: from mail-wg0-f48.google.com (mail-wg0-f48.google.com [74.125.82.48])
+        by mx.google.com with ESMTPS id q8si1326413wie.48.2013.11.21.11.26.10
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 21 Nov 2013 11:26:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of ankhmorporkian@redditanalytics.com designates 74.125.82.48 as permitted sender) client-ip=74.125.82.48;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of ankhmorporkian@redditanalytics.com designates 74.125.82.48 as permitted sender) smtp.mail=ankhmorporkian@redditanalytics.com
+Received: by mail-wg0-f48.google.com with SMTP id z12so198461wgg.27
+        for <vasil.zlatanov@gmail.com>; Thu, 21 Nov 2013 11:26:10 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:in-reply-to:references
+         :date:message-id:subject:from:to:content-type;
+        bh=UyADWWAagGS8SwmsIccWi6ePJxpMIm0Tka0GTPQ/4yY=;
+        b=EysHp8Tz5sh9xXmaT5qdAteniU5rj9wnB363R/fz7JU54/+4ufXuIxuUl5PFFpvGxh
+         vgnA7ZfamSDomDlKpXqwypJrxYSFZ5+L40gNvPqk1Fuyxeoy1tX+/VU/OUUfZrSYW3cX
+         Ej++ckam364KJO9CZ60Wd7/+3rsMVweWpsNl6YcX5SvGVLI7S8/jBuXgp/SrYiASeeUi
+         2mUjmyhaRbYufTvK1U0G/1YwCEDkQeEzRWwGiFFSgUYqj2RO7NpKjSVNMpoDHLA+IDCH
+         m7Ad0/IkbTOto/M98rMJ7gSCwkTp46rrECotD08Gr3uKmhPeQE1stNoyg6S8pgQF4Gir
+         BXfA==
+X-Gm-Message-State: ALoCoQkczgYooERkiKGV/fMxup4k/iDVQGY65bjN/k9V9/7X8FYV3hrRCG8K+7ITzjQ9uNiaFuWh
+MIME-Version: 1.0
+X-Received: by 10.194.104.42 with SMTP id gb10mr7001764wjb.16.1385061970690;
+ Thu, 21 Nov 2013 11:26:10 -0800 (PST)
+Received: by 10.227.221.15 with HTTP; Thu, 21 Nov 2013 11:26:10 -0800 (PST)
+X-Originating-IP: [173.87.144.201]
+Reply-To: logger@redditanalytics.com
+In-Reply-To: <20131121192017.GA28388@gmail.com>
+References: <20131121192017.GA28388@gmail.com>
+Date: Thu, 21 Nov 2013 13:26:10 -0600
+Message-ID: <CAF3h_xFPWdjcr3b7EuEUhSHKYBzow2AOgjcpELoF5t_VuvDOoQ@mail.gmail.com>
+Subject: Re: Math 3 (vaskozl)
+From: Pat Shanahan <ankhmorporkian@redditanalytics.com>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/mixed; boundary=047d7bf19852c17eb504ebb4de5e
+
+--047d7bf19852c17eb504ebb4de5e
+Content-Type: multipart/alternative; boundary=047d7bf19852c17eb004ebb4de5c
+
+--047d7bf19852c17eb004ebb4de5c
+Content-Type: text/plain; charset=ISO-8859-1
+
+2013/11/21 Vasil Zlatanov <vasil.zlatanov@gmail.com>
+
+>
+
+--047d7bf19852c17eb004ebb4de5c
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr"><br></div><div class="gmail_extra"><br><br><div class="gmail_quote">2013/11/21 Vasil Zlatanov <span dir="ltr">&lt;<a href="mailto:vasil.zlatanov@gmail.com" target="_blank">vasil.zlatanov@gmail.com</a>&gt;</span><br>
+<blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"></blockquote></div><br></div>
+
+--047d7bf19852c17eb004ebb4de5c--
+--047d7bf19852c17eb504ebb4de5e
+Content-Type: text/plain; charset=US-ASCII; name="answer.asc"
+Content-Disposition: attachment; filename="answer.asc"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_hoae4rmc0
+
+LS0tLS1CRUdJTiBQR1AgTUVTU0FHRS0tLS0tClZlcnNpb246IEdudVBHIHYxLjQuMTQgKEdOVS9M
+aW51eCkKCmhRRU1BeE05Q2pkQ1VScm9BUWYvYXpaRU01RndBWFFSQ0tuRzFzdS9WeGdBbm1pd0pK
+dzZ4TWtUa3ZPeFVZQlMKN1FJektDY1d4OTkzdk1vRmVLNHlmOE1hT01wcTZLdGRKTzBNZFcrREs5
+ZFg4Q1dmbjl4cWdQLzFEdHBZZnJKdgpkT1dGNzZNemM1c0l4c2tWdml3S2FTaUgzUHlrMmxkTGRK
+UDJUYit3WU1UUGI1dVpGY1drN2xsUCtlZU0xSitxCmorVlMrUFp2a3M0ZkkxdzhYWFJOcE91R3Vl
+Ni9UcmpibGhuTDdrdElEakNudytzVmk5T2UwOU5mcDZHQVZMaEIKTVdqSGtVK0VCRmg0d0hUc2l5
+UlBpVVpMOWZiUi9LVHhqKzlTNzQrdkR6RHNwNzgzV0wvZE0wcHRiWkhMclBnVApkMGVtZ3RIb3BK
+TlhCMEdkMFFqVzN3cUlIOVVBS1VpZWhIT3BhaXZCV3RKSkFVejV5WVZCdWlOdHI5VmJtTmhnCkRy
+WUdDdng0ZGJHejVBOTd1dXg5VWZFU0VrN2k1dkJ3ZkVObVlHUXFLN2JGcSszVEYvbERWVGl4RnB4
+M0oyQmQKaWplaW9vZkd2cUtEaEE9PQo9RS9iegotLS0tLUVORCBQR1AgTUVTU0FHRS0tLS0tCg==
+--047d7bf19852c17eb504ebb4de5e--

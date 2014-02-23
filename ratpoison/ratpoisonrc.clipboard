@@ -1,0 +1,57 @@
+# Use xcb to build a better cut and paste clipboard.
+#
+# C-t y #   - paste selection buffer # (and sets the current X PRIMARY selection to it)
+# C-t p #   - set selection buffer # using current X PRIMARY selection
+
+# C-t y a   - pop selection (treat buffers as a stack with 1 being the bottom)
+# C-t y q   - pop selection (queue pop)
+# C-t p a   - push selection (treat buffers as a stack with 1 being the bottom)
+
+# C-t y y   - paste selection menu
+# C-t p p   - set selection menu
+
+# C-t p C   - clear all buffers
+
+# change directory to $HOME
+chdir
+
+newkmap clipboard_paste
+newkmap clipboard_set
+exec .ratpoison/clipboard init
+
+bind p readkey clipboard_paste
+bind y readkey clipboard_set
+
+# Menu version of paste and set
+definekey clipboard_paste p exec .ratpoison/clipboard menu_paste
+definekey clipboard_set y exec .ratpoison/clipboard menu_set
+
+# Clear buffers
+definekey clipboard_set C exec .ratpoison/clipboard init
+
+# Push/pop
+definekey clipboard_paste a exec .ratpoison/clipboard pop
+definekey clipboard_set a exec .ratpoison/clipboard push
+# pop queue
+definekey clipboard_paste q exec .ratpoison/clipboard pop_queue
+
+definekey clipboard_paste 1 exec .ratpoison/clipboard paste 1
+definekey clipboard_paste 2 exec .ratpoison/clipboard paste 2
+definekey clipboard_paste 3 exec .ratpoison/clipboard paste 3
+definekey clipboard_paste 4 exec .ratpoison/clipboard paste 4
+definekey clipboard_paste 5 exec .ratpoison/clipboard paste 5
+definekey clipboard_paste 6 exec .ratpoison/clipboard paste 6
+definekey clipboard_paste 7 exec .ratpoison/clipboard paste 7
+definekey clipboard_paste 8 exec .ratpoison/clipboard paste 8
+definekey clipboard_paste 9 exec .ratpoison/clipboard paste 9
+
+definekey clipboard_set 1 exec .ratpoison/clipboard set 1
+definekey clipboard_set 2 exec .ratpoison/clipboard set 2
+definekey clipboard_set 3 exec .ratpoison/clipboard set 3
+definekey clipboard_set 4 exec .ratpoison/clipboard set 4
+definekey clipboard_set 5 exec .ratpoison/clipboard set 5
+definekey clipboard_set 6 exec .ratpoison/clipboard set 6
+definekey clipboard_set 7 exec .ratpoison/clipboard set 7
+definekey clipboard_set 8 exec .ratpoison/clipboard set 8
+definekey clipboard_set 9 exec .ratpoison/clipboard set 9
+

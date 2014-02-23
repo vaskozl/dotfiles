@@ -1,0 +1,94 @@
+# Load passwords
+#source "gpg2 -dq $HOME/.mutt/pass.gpg |"
+
+# Source 
+source ~/.mutt/sol.muttrc
+source ~/.mutt/crypto.rc
+
+#Load aliases
+set alias_file=$HOME/.mutt/aliases.txt
+source $alias_file
+
+
+#Offline Imap config
+set mbox_type   = Maildir
+set sendmail    = /usr/bin/msmtp
+
+set folder      = ~/.mail/
+set spoolfile   = "+Gmail/INBOX"
+set mbox        = "+Gmail/archive"
+set postponed   = "+Gmail/drafts"
+unset record
+
+mailboxes +INBOX
+
+macro index D \
+    "<save-message>+Gmail/trash<enter>" \
+    "move message to the trash"
+
+macro index S \
+    "<save-message>+Gmail/spam<enter>" \
+    "mark message as spam"
+
+
+# Gmail conf
+set from = "vasil.zlatanov@gmail.com"
+set realname = "Vasil Zlatanov"
+
+# Change the following line to a different editor you prefer.
+set editor = "vim"
+
+# Basic config, you can leave this as is
+#set hostname = gmail.com
+set mail_check = 5
+set timeout = 5
+unset imap_passive
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set move = no
+set include
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
+set auto_tag = yes
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+hdr_order Date From To Cc
+alternative_order text/plain text/html *
+auto_view text/html
+
+# Gmail-style keyboard shortcuts
+macro index,pager gi "<change-folder>=Gmail/INBOX<enter>" "Go to inbox"
+macro index,pager ga "<change-folder>=Gmail/archive<tab><enter>" "Go to all mail"
+macro index,pager gs "<change-folder>=Gmail/sent<tab><enter>" "Go to sent mail"
+macro index,pager gr "<change-folder>=Gmail/flagged<enter>" "Go to starred messages"
+macro index,pager gj "<change-folder>=Gmail/spam<enter>" "Go to spam"
+macro index,pager gt "<change-folder>=Gmail/trash<enter>" "Go to trash"
+macro index,pager gd "<change-folder>=Gmail/drafts<enter>" "Go to drafts"
+
+# Other config
+set delete 
+#set edit_headers
+set fast_reply
+set help
+set pager_stop
+
+# Bindings 
+bind index,pager "n" next-unread
+
+
+# Write in Aliases when opening email
+set display_filter='$HOME/.mutt/alias.sh'
+
+# Mutt LED notification 
+set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
+
+#click link
+macro pager \cb 'urlview' 'Follow links with urlview'
+
+
+bind index gg       first-entry
+bind index G        last-entry
+
+bind index R        group-reply

@@ -1,0 +1,86 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp234778oac;
+        Wed, 11 Dec 2013 00:06:23 -0800 (PST)
+X-Received: by 10.68.252.161 with SMTP id zt1mr146127pbc.130.1386749183471;
+        Wed, 11 Dec 2013 00:06:23 -0800 (PST)
+Return-Path: <3_xyoUg4ODnQSflgf.fWabTWjteSdegTgjYSj.kWnSkad.rdSlSfgnYeSad.Uge@doclist.bounces.google.com>
+Received: from mail-pd0-f199.google.com (mail-pd0-f199.google.com [209.85.192.199])
+        by mx.google.com with ESMTPS id ty3si12808669pbc.197.2013.12.11.00.06.23
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 11 Dec 2013 00:06:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3_xyoUg4ODnQSflgf.fWabTWjteSdegTgjYSj.kWnSkad.rdSlSfgnYeSad.Uge@doclist.bounces.google.com designates 209.85.192.199 as permitted sender) client-ip=209.85.192.199;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 3_xyoUg4ODnQSflgf.fWabTWjteSdegTgjYSj.kWnSkad.rdSlSfgnYeSad.Uge@doclist.bounces.google.com designates 209.85.192.199 as permitted sender) smtp.mail=3_xyoUg4ODnQSflgf.fWabTWjteSdegTgjYSj.kWnSkad.rdSlSfgnYeSad.Uge@doclist.bounces.google.com
+Received: by mail-pd0-f199.google.com with SMTP id r10so27532138pdi.6
+        for <vasil.zlatanov@gmail.com>; Wed, 11 Dec 2013 00:06:23 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:message-id:date:subject:from:to
+         :content-type;
+        bh=7Qr8VKA8PBL/mXdyd7egv9yYWz8kEoqSkB8trYwVUUY=;
+        b=jZ8iAJ2h1R6ui/lgKv2gqzf+XoiCgSRMp//HXP1tCylLbu9nVoHA5QRYNFyoweYQR+
+         vIkl1iG3+CKSt7iINQXOQyLtJ5aboJoUH82Y2aKCEZr9ymVPdzHJDr2vLJWRGRSG45sB
+         wkWEzUhibfKLO0ryy3VfRL/Q9rQprxl/rxeYa2XCUS/VDNsKWOsJh4NUiwfT3fBaLCB6
+         zxYxUb2oDKhSrbl69U1f533+GFwkLEiLrURjQqpBmf+KYg7heJBwyfR+kebd5i47Qlnn
+         oLPB3xjQxtvdgEPL9ffY3GUaDgEaQity5OPqMcaaRD/ZJjkJuhl0oUiMEFI0FSay7d7u
+         tGoA==
+X-Gm-Message-State: ALoCoQkmCAdIYosDvkQzwASrRorU/Pe7mWEMwEcxTXZka+04qjRlSluI0UVDR0qRWUWYsZJ4PFwI
+MIME-Version: 1.0
+X-Received: by 10.66.189.163 with SMTP id gj3mr79547pac.32.1386749183116; Wed,
+ 11 Dec 2013 00:06:23 -0800 (PST)
+X-Originating-IP: 161.52.14.39
+X-No-Auto-Attachment: 1
+Message-ID: <047d7bdc9ef273f6a104ed3db41c@google.com>
+Date: Wed, 11 Dec 2013 08:06:23 +0000
+Subject: Texts 25 years ago (vasil.zlatanov@gmail.com)
+From: "Anton Neijber (Google Drive)" <anton.neijber1@malmoborgar.se>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=047d7bdc9ef273f68c04ed3db419
+
+--047d7bdc9ef273f68c04ed3db419
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SmFnIGhhciBkZWxhdCBldHQgb2JqZWt0IG1lZCBkaWc6DQoNClRleHRzIDI1IHllYXJzIGFnbw0K
+aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xdkhqM21fdjVuQXo1UkpNTElRYUs4
+RmhQWDR5U1dqdTgxQjJ5eDhnbnR4NC9lZGl0P3VzcD1zaGFyaW5nDQoNCkRldCDkciBpbnRlIGVu
+IGJpbGFnYSAtIGRlbiDkciBsYWdyYWQgb25saW5lLiDWcHBuYSBkZXR0YSBvYmpla3QgZ2Vub20g
+YXR0ICANCmtsaWNrYSBw5SBs5G5rZW4gb3Zhbi4NCg0K
+--047d7bdc9ef273f68c04ed3db419
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">Jag h=
+ar delat ett objekt med dig.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/document-2.png" alt=3D"Dokument" style=3D"vertical-=
+align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"Texts 25 years ago">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://docs.google.com/document/d/1vHj3m_v5nAz5RJMLIQaK8FhPX=
+4ySWju81B2yx8gntx4/edit?usp=3Dsharing" style=3D"vertical-align:middle; text=
+-decoration:none; color:#1154cc;" itemprop=3D"url">Texts 25 years ago</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: skapa, dela och ha alla dina grejer p=E5 ett st=E4lle.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logotyp f=F6r =
+Google Drive"></a></td></tr></tbody></table></div></div></body></html>
+--047d7bdc9ef273f68c04ed3db419--

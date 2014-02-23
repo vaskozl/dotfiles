@@ -1,0 +1,11 @@
+# change to home directory and source screenrc from ratpoison directory
+chdir
+source .ratpoison/screenrc
+
+screen -t Projects1 0 
+screen -t Projects1 1 
+screen -t Projects2 2
+screen -t Projects3 3
+screen -t Projects4 4
+
+select 1

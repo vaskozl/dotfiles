@@ -1,0 +1,81 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp243207oac;
+        Tue, 26 Nov 2013 22:11:13 -0800 (PST)
+X-Received: by 10.58.178.239 with SMTP id db15mr33847033vec.9.1385532673089;
+        Tue, 26 Nov 2013 22:11:13 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f175.google.com (mail-ve0-f175.google.com [209.85.128.175])
+        by mx.google.com with ESMTPS id fe2si20604346vcb.16.2013.11.26.22.11.11
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 26 Nov 2013 22:11:12 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.128.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.175;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f175.google.com with SMTP id jx11so4673675veb.6
+        for <vasil.zlatanov@gmail.com>; Tue, 26 Nov 2013 22:11:11 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=DC4CnTFtv4qfJvFPBp9V80/emFb4o/KmqSlZh4k68w8=;
+        b=QuLpLk5HCLCAxJWftws46Oww6dtRQI1eZE7xJBKNhQLRRYHTd/xbxZR1TBVDQnOeLD
+         5AJbFQB0+yXvEnVdQIwqoNEyvCdDIMNIFGf31XjtsaS5jB9yHobyzqw7eJhhMGBY8vb+
+         04/c3LA1NABfPzH6Oup1pIBxfusmYmWP5qm+OJXD0jZCYZkfGy7N+SWcRJ0hNsmiyMPy
+         aBrL/rc33kULglTqxHM+s5kdGGAoXFYepFpQ3zq+VS5HwxPKAdX4A7YriNSGEl7RiM8f
+         L9sBLc8FGKTF7mFepu50bhw6NhfJnsa/X9A3ji/GKmNMc18jmP0FBk3ObYIG8i1T2cHM
+         XVJA==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.217.173 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+X-Gm-Message-State: ALoCoQmT539pbWI51kN4E85uNDmNRDOU1J+lF7p6CiWxtLMvbDFTw89Ee8x2z5jvJA+3u2sLYta2
+X-Received: by 10.58.207.76 with SMTP id lu12mr684405vec.30.1385532671786;
+        Tue, 26 Nov 2013 22:11:11 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.113.81 with SMTP id z17csp253110vcp;
+        Tue, 26 Nov 2013 22:11:11 -0800 (PST)
+X-Received: by 10.152.238.9 with SMTP id vg9mr12574lac.55.1385532670498;
+        Tue, 26 Nov 2013 22:11:10 -0800 (PST)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-lb0-f173.google.com (mail-lb0-f173.google.com [209.85.217.173])
+        by mx.google.com with ESMTPS id 9si18580325las.114.2013.11.26.22.11.09
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 26 Nov 2013 22:11:10 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.217.173 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.217.173;
+Received: by mail-lb0-f173.google.com with SMTP id u14so5225030lbd.32
+        for <vasil.zlatanov1@malmoborgar.se>; Tue, 26 Nov 2013 22:11:09 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.112.132.73 with SMTP id os9mr426040lbb.3.1385532669434; Tue,
+ 26 Nov 2013 22:11:09 -0800 (PST)
+Received: by 10.114.241.75 with HTTP; Tue, 26 Nov 2013 22:11:09 -0800 (PST)
+Date: Wed, 27 Nov 2013 07:11:09 +0100
+Message-ID: <CAHJ-ZFrUVmYiqnpXO0EHixcSJEh_Ou66F60G8Bfrn=LuLV_Dcw@mail.gmail.com>
+Subject: few (10?) minutes late this morning /Leslie
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Alexander Salmi <alexander.salmi1@malmoborgar.se>, 
+	Ali Alkhafadji <ali.alkhafadji1@malmoborgar.se>, 
+	Anton Neijber <anton.neijber1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Bj=F8rg_Kaal=F8_Johansen?= <bjorg.kaalo-johansen1@malmoborgar.se>, 
+	John Lauran <john.lauran1@malmoborgar.se>, 
+	Kevin Strandberg <kevin.strandberg1@malmoborgar.se>, 
+	Louise Lindberg <louise.lindberg1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, 
+	Oskar Sturm Kristiansen <oskar.sturm-kristiansen1@malmoborgar.se>, 
+	Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>, 
+	Sarah Van Lam <sarah.van-lam1@malmoborgar.se>, 
+	Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Walter Okuku <walter.okuku1@malmoborgar.se>, Zachary Nord <zachary.nord1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=047d7b34405a962d0d04ec227675
+
+--047d7b34405a962d0d04ec227675
+Content-Type: text/plain; charset=ISO-8859-1
+
+
+
+--047d7b34405a962d0d04ec227675
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr"><br></div>
+
+--047d7b34405a962d0d04ec227675--

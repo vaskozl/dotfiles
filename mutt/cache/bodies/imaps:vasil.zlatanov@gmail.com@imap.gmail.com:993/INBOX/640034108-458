@@ -1,0 +1,95 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp145140oac;
+        Mon, 2 Dec 2013 08:13:54 -0800 (PST)
+X-Received: by 10.204.197.136 with SMTP id ek8mr35489bkb.155.1386000833604;
+        Mon, 02 Dec 2013 08:13:53 -0800 (PST)
+Return-Path: <toni_sfr+prvs=10499c24bd@mail.bg>
+Received: from mx3.mail.bg (mx3.mail.bg. [2001:67c:16b8:1::2:19])
+        by mx.google.com with ESMTP id xv9si16612048bkb.175.2013.12.02.08.13.52
+        for <vasil.zlatanov@gmail.com>;
+        Mon, 02 Dec 2013 08:13:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of toni_sfr+prvs=10499c24bd@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) client-ip=2001:67c:16b8:1::2:19;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of toni_sfr+prvs=10499c24bd@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) smtp.mail=toni_sfr+prvs=10499c24bd@mail.bg;
+       dkim=pass header.i=@mail.bg
+Received: from mail.bg (unknown [10.0.0.28])
+	by mx3.mail.bg (Postfix) with ESMTPA id 49B9D202A267
+	for <vasil.zlatanov@gmail.com>; Mon,  2 Dec 2013 18:13:52 +0200 (EET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1386000832; bh=/dM+/Y29K+gEMGtnUsfQLjxsPeyImAWm/gnAW7tkyh8=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=3EXW7fabpSsfBjaLGb/cvk3HJZsNBv6/t9yOQMDEzVsH/O/Zs+fgGRHF87ZuMO6X8
+	 NJ6pQ0XYycVdnxQIuDe7jdrm/OzjW6v/qpU0LEKICbTtEs6JYZkAlTHjtsBKkm/3cA
+	 NBUWVBdG4R6Ocwi71fpffuhKFLlgi24ZTAupz+yg=
+Message-ID: <17a788fb5eba76053963f83e43f420dc.mailbg@mail.bg>
+Date: Mon, 2 Dec 2013 16:13:52 -0000
+Subject: misli
+From: toni_sfr@mail.bg
+To: vasil.zlatanov@gmail.com
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20131202161351_82878"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2013-12-02T16:13:51+00:00
+X-Originating-IP: [130.204.214.160]
+X-Checking: 2013-12-02T16:13:51+00:00
+X-Checked: 2013-12-02T16:13:52+00:00
+
+------=_20131202161351_82878
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0AZdravei Vasko.Vchera ostanax mnogo vpechatlena ot razgovora,svarza=
+n s uroka=0Apo ximiya.Takava magiya e taza ximiya-edno parche jelyazo,da se=
+ raztvori v=0Asyarna kiselina,da obrazuva jelezen sulfit/Fe-2+/ i sled tova=
+ da izpolzvash=0Avazmojnostta da go prevarnesh v Fe 3+ posredstvom KMnO4 i =
+toya valsheben Mn=0Aot 7+ da stane Mn4+ i posle da imash vazmojnostta da iz=
+chislyavash%=0Asadarjanie na Fe v parcheto proba-az s takova netarpenie sam=
+ otivala na=0Arabota,zashtoto cyal den rabotata mi beshe edno valshebstvo-i=
+ vinagi se=0Achustvax edna prashinka ot tazi golyama ximiya i ot tova ,koet=
+o sa sazdali=0Axorata,zanimavali se s tazi nauka.I sega mi e tolkova priyat=
+no,che ti=0Amojesh da se dokosnesh do tova valshebstvo.jelaya ti nastroenie=
+ i pozdravi=0Ana vsichki.=0A=0A=0A-------------------------------------=0AM=
+ail.BG: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=
+=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=
+=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=
+=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=
+=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=
+=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, =
+1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=
+=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=
+=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=
+=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5=
+ =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8. http://mail.bg
+------=_20131202161351_82878
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"line-height: 16px; font-size: 13px; font-family: Tahoma,sans-se=
+rif; margin: 16px 0px;" valid=3D"true">Zdravei Vasko.Vchera ostanax mnogo v=
+pechatlena ot razgovora,svarzan s uroka po ximiya.Takava magiya e taza ximi=
+ya-edno parche jelyazo,da se raztvori v syarna kiselina,da obrazuva jelezen=
+ sulfit/Fe-2+/ i sled tova da izpolzvash vazmojnostta da go prevarnesh v Fe=
+ 3+ posredstvom KMnO4 i toya valsheben Mn ot 7+ da stane Mn4+ i posle da im=
+ash vazmojnostta da izchislyavash% sadarjanie na Fe v parcheto proba-az s t=
+akova netarpenie sam otivala na rabota,zashtoto cyal den rabotata mi beshe =
+edno valshebstvo-i vinagi se chustvax edna prashinka ot tazi golyama ximiya=
+ i ot tova ,koeto sa sazdali xorata,zanimavali se s tazi nauka.I sega mi e =
+tolkova priyatno,che ti mojesh da se dokosnesh do tova valshebstvo.jelaya t=
+i nastroenie i pozdravi na vsichki.<br></p><br /><br />--------------------=
+-----------------<br /><a href=3D"http://mail.bg">Mail.BG</a>: =D0=91=D0=B5=
+=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=
+=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=
+=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=
+=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=
+=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=
+=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=
+=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=
+=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=
+=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=
+=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=
+=80=D1=83=D0=B3=D0=B8.
+------=_20131202161351_82878--
+
+

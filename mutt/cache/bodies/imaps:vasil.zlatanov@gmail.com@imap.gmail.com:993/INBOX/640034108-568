@@ -1,0 +1,139 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp269892oac;
+        Mon, 10 Feb 2014 05:20:03 -0800 (PST)
+X-Received: by 10.52.227.193 with SMTP id sc1mr19719559vdc.1.1392038403202;
+        Mon, 10 Feb 2014 05:20:03 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f175.google.com (mail-vc0-f175.google.com [209.85.220.175])
+        by mx.google.com with ESMTPS id eb8si4740605vdb.99.2014.02.10.05.20.02
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 10 Feb 2014 05:20:03 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.175;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.175 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f175.google.com with SMTP id ij19so4740976vcb.34
+        for <vasil.zlatanov@gmail.com>; Mon, 10 Feb 2014 05:20:02 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:mime-version:date:message-id
+         :subject:from:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe:content-type;
+        bh=OinpFtbMWhI7kdI6MjUOc3zerZSNveWFOZeaT5pCJnc=;
+        b=jx9HiFACFW7nluiBJCSuuNu12jfXBWGLLjbQntUYeo0pLBHjsqXskgDKzvcFdR/W9c
+         NteZMU+W5z2X2IX92F/GvEkNjRaYsRBYf321Jtm9bners7IESYIlz5gSysm6cf7+jOj5
+         IbjCbzEjWm1kmqZRM/yO2MqlryGGCbaKrAbf2oaWCzeqtZPShZgMQSS4S1tLLCrRhrgZ
+         /FxdtClUJ+ZAOlHUPwobIXJxYiuf5+A/z6HMDMdi9MHGL2h96xhJu+llQdas1uNJwvqK
+         bt3aV3TvRQc1V45Z5l7Vh5rvr0cavQSsBOwml2lUnoi9dD8+6RSd88ISpQBJb2ivfLOf
+         27dA==
+X-Gm-Message-State: ALoCoQlI1oOqzAc7rWSoJdqg9bMuTBkSoSYq2sALZS/fLVvib2DTLQRK0N5uUqn/YI2UfAOHJyBN
+X-Received: by 10.220.139.136 with SMTP id e8mr66515vcu.34.1392038402632;
+        Mon, 10 Feb 2014 05:20:02 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.151.75 with SMTP id b11csp144139vcw;
+        Mon, 10 Feb 2014 05:20:02 -0800 (PST)
+X-Received: by 10.236.127.39 with SMTP id c27mr403803yhi.120.1392038401641;
+        Mon, 10 Feb 2014 05:20:01 -0800 (PST)
+Return-Path: <elev+bncBD543VXLJIIP5I7DS4CRUBBJIUZ3W@malmoborgar.se>
+Received: from mail-yk0-f199.google.com (mail-yk0-f199.google.com [209.85.160.199])
+        by mx.google.com with ESMTPS id n38si10426436yhp.23.2014.02.10.05.20.01
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 10 Feb 2014 05:20:01 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.216.41 is neither permitted nor denied by best guess record for domain of elev+bncBD543VXLJIIP5I7DS4CRUBBJIUZ3W@malmoborgar.se) client-ip=209.85.216.41;
+Received: by mail-yk0-f199.google.com with SMTP id 10sf15948469ykt.2
+        for <vasil.zlatanov1@malmoborgar.se>; Mon, 10 Feb 2014 05:20:01 -0800 (PST)
+X-Received: by 10.58.171.135 with SMTP id au7mr12704301vec.22.1392038400004;
+        Mon, 10 Feb 2014 05:20:00 -0800 (PST)
+X-BeenThere: elev@malmoborgar.se
+Received: by 10.140.92.240 with SMTP id b103ls2017697qge.57.gmail; Mon, 10 Feb
+ 2014 05:19:58 -0800 (PST)
+X-Received: by 10.224.104.8 with SMTP id m8mr47630622qao.87.1392038398832;
+        Mon, 10 Feb 2014 05:19:58 -0800 (PST)
+Received: from mail-qa0-f41.google.com (mail-qa0-f41.google.com [209.85.216.41])
+        by mx.google.com with ESMTPS id v8si10007696qab.1.2014.02.10.05.19.58
+        for <elev@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 10 Feb 2014 05:19:58 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.216.41 is neither permitted nor denied by best guess record for domain of magda.wandlen@malmoborgar.se) client-ip=209.85.216.41;
+Received: by mail-qa0-f41.google.com with SMTP id w8so9521579qac.28
+        for <elev@malmoborgar.se>; Mon, 10 Feb 2014 05:19:58 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.224.97.67 with SMTP id k3mr47974793qan.17.1392038398571;
+ Mon, 10 Feb 2014 05:19:58 -0800 (PST)
+Received: by 10.229.114.133 with HTTP; Mon, 10 Feb 2014 05:19:58 -0800 (PST)
+Date: Mon, 10 Feb 2014 14:19:58 +0100
+Message-ID: <CANeQdFXMFQY1Gc+hei7yhqyqm9HVPUt0T+8SBEbSR+8V=Wfw5Q@mail.gmail.com>
+Subject: =?ISO-8859-1?Q?violinist_s=F6kes?=
+From: =?ISO-8859-1?Q?Magda_Wandl=E9n?= <magda.wandlen@malmoborgar.se>
+To: elev@malmoborgar.se
+X-Original-Sender: magda.wandlen@malmoborgar.se
+X-Original-Authentication-Results: mx.google.com;       spf=neutral
+ (google.com: 209.85.216.41 is neither permitted nor denied by best guess
+ record for domain of magda.wandlen@malmoborgar.se) smtp.mail=magda.wandlen@malmoborgar.se
+Precedence: list
+Mailing-list: list elev@malmoborgar.se; contact elev+owners@malmoborgar.se
+List-ID: <elev.malmoborgar.se>
+X-Google-Group-Id: 60984336562
+List-Post: <http://groups.google.com/a/malmoborgar.se/group/elev/post>, <mailto:elev@malmoborgar.se>
+List-Help: <http://support.google.com/a/malmoborgar.se/bin/topic.py?topic=25838>,
+ <mailto:elev+help@malmoborgar.se>
+List-Archive: <http://groups.google.com/a/malmoborgar.se/group/elev/>
+List-Unsubscribe: <http://groups.google.com/a/malmoborgar.se/group/elev/subscribe>,
+ <mailto:googlegroups-manage+60984336562+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=001a11c3f2b442c7ec04f20d32dd
+
+--001a11c3f2b442c7ec04f20d32dd
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Carlos s=F6ker en violinist (elev p=E5 Malm=F6 Borgarskola) f=F6r ett framt=
+r=E4dande
+p=E5 skolan under skoltid, n=E5gon g=E5ng i februari. Kontakta Carlos omg=
+=E5ende.
+Biobiljetter utlovas
+
+
+--=20
+B=E4sta H=E4lsningar
+
+Magda Wandl=E9n
+
+Informationssekreterare
+
+Malm=F6 Borgarskola
+
+Tel: 040-34 67 04
+
+--001a11c3f2b442c7ec04f20d32dd
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Carlos s=F6ker en violinist (elev p=E5 Malm=F6 Borgarskola=
+) f=F6r ett framtr=E4dande p=E5 skolan under skoltid, n=E5gon g=E5ng i febr=
+uari. Kontakta Carlos omg=E5ende.=A0<div>Biobiljetter utlovas=A0<br clear=
+=3D"all"><div><br></div><div>
+<br></div>-- <br><div dir=3D"ltr"><div>B=E4sta H=E4lsningar</div><br><div><=
+p style=3D"margin:0px;color:rgb(34,34,34);font-family:arial,sans-serif;font=
+-size:12.727272033691406px;background-color:rgb(255,255,255)"><span style=
+=3D"font-family:&#39;Arial Black&#39;,sans-serif">Magda Wandl=E9n</span></p=
+>
+<div style=3D"font-family:arial,sans-serif;font-size:12.727272033691406px;b=
+ackground-color:rgb(255,255,255)"><p style=3D"margin:0px"><span style=3D"fo=
+nt-size:10pt;font-family:Arial,sans-serif"><font color=3D"#000000">Informat=
+ionssekreterare</font></span></p>
+<p style=3D"margin:0px"><font color=3D"#000000"><span style=3D"font-size:10=
+pt;font-family:&#39;Arial Black&#39;,sans-serif">Malm=F6 Borgarskola</span>=
+<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><u></u><u></u>=
+</span></font></p>
+<p style=3D"margin:0px"><span style=3D"font-size:10pt;font-family:Arial,san=
+s-serif"><font color=3D"#000000">Tel:=A0</font></span><span style=3D"font-s=
+ize:10pt;font-family:Arial,sans-serif"><font color=3D"#000000">040-34 67 04=
+</font><font color=3D"#000066"><u></u><u></u></font></span></p>
+<p style=3D"margin:0px"><br></p></div></div></div>
+</div></div>
+
+--001a11c3f2b442c7ec04f20d32dd--

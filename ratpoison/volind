@@ -1,0 +1,32 @@
+#!/bin/bash
+volm=`amixer get Master|awk '/Mono:/ {print $4}'| awk '{print substr($0, 2, length() - 3)}'`
+bottom=`echo $volm | awk '{print int($1 * 0.2 + 0.5)}'`
+top=$((20-$bottom))
+
+if [[ "$volm" -eq "100" ]]; then
+	let volm=99
+fi
+
+
+echo G$volm
+echo -n -e "\xE2\x94\x8C"
+echo -n -e "\xE2\x94\x80"
+echo -e "\xE2\x94\x90"
+
+while [ $top -gt 0 ]; do
+	echo -n -e "\xE2\x94\x82"
+	echo -n \ 
+	echo -e "\xE2\x94\x82"
+	let top=$(($top-1))
+done
+
+while [ $bottom -gt 0 ]; do
+	echo -n -e "\xE2\x94\x82"
+	echo -n -e "\xE2\x96\x88"
+	echo -e "\xE2\x94\x82"
+
+	let bottom=$(($bottom-1))
+done
+echo -n -e "\xE2\x94\x94"
+echo -n -e "\xE2\x94\x80"
+echo -e "\xE2\x94\x98"

@@ -1,0 +1,54 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.113.69 with SMTP id iw5csp34506oab;
+        Thu, 18 Jul 2013 14:57:12 -0700 (PDT)
+X-Received: by 10.152.3.74 with SMTP id a10mr6148316laa.74.1374184631748;
+        Thu, 18 Jul 2013 14:57:11 -0700 (PDT)
+Return-Path: <martin.roth@malmoborgar.se>
+Received: from mail-lb0-x235.google.com (mail-lb0-x235.google.com [2a00:1450:4010:c04::235])
+        by mx.google.com with ESMTPS id m8si6154253lbs.105.2013.07.18.14.57.11
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 18 Jul 2013 14:57:11 -0700 (PDT)
+Received-SPF: neutral (google.com: 2a00:1450:4010:c04::235 is neither permitted nor denied by best guess record for domain of martin.roth@malmoborgar.se) client-ip=2a00:1450:4010:c04::235;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2a00:1450:4010:c04::235 is neither permitted nor denied by best guess record for domain of martin.roth@malmoborgar.se) smtp.mail=martin.roth@malmoborgar.se
+Received: by mail-lb0-x235.google.com with SMTP id w10so2913248lbi.26
+        for <vasil.zlatanov@gmail.com>; Thu, 18 Jul 2013 14:57:11 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=date:from:to:message-id:subject:mime-version:content-type
+         :content-transfer-encoding:content-disposition:precedence
+         :x-autoreply:auto-submitted:x-gm-message-state;
+        bh=ElJ/V9RgwxQjdGLPJpzpkzpVRSSdpVEIOe/iDg3K93E=;
+        b=Fuhdo2g2MF5+gtU913lzL3W7dMKKv3HVnFUEpnQg7Wb1EeRbI+/ViszK74+VgRUBr/
+         eiCU/AOYH3HXZI0l0y9LA/hrZSIxgSJLaWgKhP0O32dTy54O3A0AAsVfFBvJCcri/I6I
+         Gw5DtkVbHyyFIkwohe1tf+gVuDg4AyBUhixI2O/UluCrNqGoA/O/2ghsMQVqB0R3Mmgl
+         X1pd/b6qCK9jph6QX7GFeHJNkZ/XxFv2f6J07z+l2Lno5FFdjhbTZHmGblvhQriE4ZSm
+         GsZdxpU8hCPxpRncnc4DJLBYpGAroM+tuXxpAAu9zhT3N6PCml6VbqanE8c8ZmGiG1Bc
+         8F6Q==
+X-Received: by 10.152.27.40 with SMTP id q8mr6069878lag.75.1374184631038;
+        Thu, 18 Jul 2013 14:57:11 -0700 (PDT)
+Date: Thu, 18 Jul 2013 14:57:10 -0700
+From: "Martin Roth" <martin.roth@malmoborgar.se>
+To: vasil.zlatanov@gmail.com
+Message-ID: <CAFnJb+FqVs1n=KHW5ouY-pUqabLnKg9k+yYm+W5Z-5xOpL64XQ@mail.gmail.com>
+Subject: Autoreply Re: FYI! Information regarding school fees/tuition
+MIME-Version: 1.0
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+Precedence: bulk
+X-Autoreply: yes
+Auto-Submitted: auto-replied
+X-Gm-Message-State: ALoCoQnG4nIIaBrUbgjd0hwUR6WU+35tZu/XwUvokITuJwdYc82K6RZJwvP1uucxQKMkIeOgxo7f
+
+<div dir=3D"ltr"><div style=3D""><div>Thank you for your email<br></div></d=
+iv><div>I=92m on vacation in Sm=E5land. I=92ve traded my suit for swim trun=
+ks.</div><div><br></div><div>IB2, I'm available at the school for enquiry u=
+pon results on July 11.<br></div><div><br></div><div>&nbsp;I=92ll be back i=
+n the office on Tuesday, August 6. I'll try to read my e-mail once a week.&=
+nbsp;<br></div><div><br></div><div>Greetings from the east coast lakes and =
+the Baltic Sea!</div></div><br/><br/>-- <br/><div>Martin Roth</div>
+<div>Rektor / IB Coordinator</div>
+<div>Malm=F6 Borgarskola (000740)</div>
+<div>+46 (0)40-30 66 56</div><br/>

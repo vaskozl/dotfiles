@@ -1,0 +1,820 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp402233oac;
+        Fri, 13 Dec 2013 03:17:01 -0800 (PST)
+X-Received: by 10.224.120.10 with SMTP id b10mr3548477qar.64.1386933421190;
+        Fri, 13 Dec 2013 03:17:01 -0800 (PST)
+Return-Path: <2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@bounces.amazon.de>
+Received: from mm-notify-out-127-213.amazon.com (mm-notify-out-127-213.amazon.com. [176.32.127.213])
+        by mx.google.com with ESMTP id s1si1810104qed.110.2013.12.13.03.16.59
+        for <vasil.zlatanov@gmail.com>;
+        Fri, 13 Dec 2013 03:17:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of 2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@bounces.amazon.de designates 176.32.127.213 as permitted sender) client-ip=176.32.127.213;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@bounces.amazon.de designates 176.32.127.213 as permitted sender) smtp.mail=2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@bounces.amazon.de;
+       dkim=pass header.i=versandbestaetigung@amazon.de;
+       dmarc=pass (p=NONE dis=NONE) header.from=amazon.de
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=amazon.de; i=versandbestaetigung@amazon.de; q=dns/txt;
+  s=amazon201209; t=1386933420; x=1418469420;
+  h=date:from:reply-to:to:message-id:subject:mime-version;
+  bh=2wWlcY5ux/X7/1YqeEu+OR6le+A/C3ZhUB8jakIiWfE=;
+  b=cEAdf1dqWb8/ztLIJ2lqGE/SkkFhCaqM+ngUjj8gEIl2t6OnVjcJJxiG
+   kOkD0V8QSYy5XM47bOk3SAkssAFFUtyFPBaRCld7CcvOyib7dvoZvXY8Z
+   xIZsTHNMajfqtA18oyGkdmP2Cy6/EQVjkEToMKYI74kmxowHPlJG2Uemp
+   w=;
+Date: Fri, 13 Dec 2013 11:16:51 +0000
+From: "Amazon.de" <versandbestaetigung@amazon.de>
+Reply-To: "versandbestaetigung@amazon.de" <versandbestaetigung@amazon.de>
+To: Zlatan Zlatanov <vasil.zlatanov@gmail.com>
+Message-ID: <urn.correios.msg.2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@1386933411331.rte-svc-eu-1bbig-i-006ec04a.eu-west-1.amazon.com>
+Subject: Ihre Amazon.de Bestellung von "Cherry G80-3000 Tastatur..." wurde
+ versandt!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1544191_1540219871.1386933411327"
+Bounces-to: 2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@bounces.amazon.de
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+X-Original-MessageID: <urn.correios.msg.2013121311164935681d49c0aa45c1b2bb9784cf5f0c5b@1386933411331.rte-svc-eu-1bbig-i-006ec04a.eu-west-1.amazon.com>
+
+------=_Part_1544191_1540219871.1386933411327
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1544192_707490959.1386933411327"
+
+------=_Part_1544192_707490959.1386933411327
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Amazon.de Versandbest=C3=A4tigung
+Bestellnummer: #303-4047812-1540308=20
+https://www.amazon.de/ref=3DTE_tex_g
+
+___________________________________________________________________________
+
+Guten Tag,=20
+
+wir m=C3=B6chten Ihnen hiermit mitteilen, dass wir Ihre Bestellung versandt=
+ haben.
+
+Ihre Sendung befindet sich nun auf dem Versandweg; eine =C3=84nderung durch=
+ Sie oder unseren Kundenservice ist nicht mehr m=C3=B6glich.
+
+Lieferung voraussichtlich:
+ Montag, 23. Dezember 2013
+
+Verfolgen Sie Ihre Lieferung:
+https://www.amazon.de/gp/css/shiptrack/view.html/ref=3DTE_tex_typ?ie=3DUTF8=
+&addressID=3Dpljprrppmn&trackingNumber=3D00357059830043021950&latestArrival=
+Date=3D1387825200&shipMethod=3DPOST_NORD&orderID=3D303-4047812-1540308&ship=
+mentDate=3D1386933338
+
+Die Sendung geht an:
+
+   Zlatan Zlatanov
+   M=C3=A5rten P=C3=A5ls v=C3=A4g 10
+   Staffanstorp,=20
+   245 31
+   Schweden
+
+Die Sendung wurde mit POST_NORD versandt. Wenn Sie diese Sendung verfolgen =
+m=C3=B6chten, benutzen Sie bitte diese Paketverfolgungsnummer: 003570598300=
+43021950.=09
+
+Abh=C3=A4ngig von der gew=C3=A4hlten Versandoption kann es sein, dass die P=
+aketverfolgungsdaten zum Zeitpunkt des Erhalts dieser E-Mail noch nicht den=
+ neuesten Stand wiedergeben.=20
+
+Bitte besuchen Sie unsere Hilfe-Seite, wenn Sie die Kontaktdaten unseres Lo=
+gistikpartners ben=C3=B6tigen sollten:
+http://www.amazon.de/kontaktdaten?ref=3DTE_tex_tr
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Einzelheiten Ihrer Lieferung:=20
+
+1 x Cherry G80-3000 Tastatur USB mit PS/2 Kombi deutsch
+Verkauft von: Amazon EU S.a.r.L.=09=09=09=09
+EUR 44,11
+___________________________________________________________________________
+
+   Zwischensumme: EUR 44,11
+   Verpackung und Versand: EUR 4,79
+  =20
+   Zwischensumme ohne USt.: EUR 48,90
+   Umsatzsteuer: EUR 12,23
+
+   Endbetrag inkl. USt.: EUR 61,13 (SEK 573,64*)
+   Zahlung =C3=BCber Mastercard: EUR 61,13 (SEK 573,64)*
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+M=C3=B6chten Sie einen Artikel aus Ihrer Bestellung zur=C3=BCckgeben oder a=
+ndere Bestellungen ansehen oder ver=C3=A4ndern, k=C3=B6nnen Sie dies einfac=
+h =C3=BCber =1AMeine Bestellungen=1A auf unserer Website Amazon.de tun:
+https://www.amazon.de/meine-bestellungen?ref=3DTE_tex_mcs
+
+R=C3=BCckgaben sind einfach. Besuchen Sie unser Online-R=C3=BCcksendezentru=
+m:
+www.amazon.de/ruecksendezentrum?ref=3DTE_tex_or =20
+
+Falls Sie weitere Fragen zu Ihrer Bestellung haben sollten, kontaktieren Si=
+e bitte unseren Kundenservice:
+https://www.amazon.de/kundenservice?ref=3DTE_tex_cs=20
+
+Wir freuen uns auf Ihren n=C3=A4chsten Besuch!
+Amazon.de
+
+___________________________________________________________________________
+
+Widerrufsbelehrung
+
+Widerrufsrecht:
+
+Sie k=C3=B6nnen Ihre Vertragserkl=C3=A4rung innerhalb von 14 Tagen ohne Ang=
+abe von Gr=C3=BCnden in beliebiger Form (z.B. per Brief, Fax, E-Mail) oder =
+- wenn Ihnen die Sache vor Fristablauf =C3=BCberlassen wird - auch durch R=
+=C3=BCcksendung der Sache widerrufen.
+
+Die Frist beginnt nach Erhalt dieser Belehrung in Textform, jedoch nicht vo=
+r Eingang der Ware beim Empf=C3=A4nger (bei der wiederkehrenden Lieferung g=
+leichartiger Waren nicht vor Eingang der ersten Teillieferung) und auch nic=
+ht vor Erf=C3=BCllung unserer Informationspflichten gem=C3=A4=C3=9F Artikel=
+ 246 =C2=A7 2 in Verbindung mit =C2=A7 1 Abs. 1 und 2 EGBGB sowie unserer P=
+flichten gem=C3=A4=C3=9F =C2=A7 312g Abs. 1 Satz 1 BGB in Verbindung mit Ar=
+tikel 246 =C2=A7 3 EGBGB. Zur Wahrung der Widerrufsfrist gen=C3=BCgt die re=
+chtzeitige Absendung des Widerrufs oder der Sache.
+
+Der Widerruf durch R=C3=BCcksendung der Ware ist zu richten an:=20
+
+Amazon R=C3=BCcksendezentrum
+Amazonstra=C3=9Fe 1
+36251 Bad Hersfeld
+
+Der Widerruf kann online erfolgen durch Nutzung unseres R=C3=BCcksendezentr=
+ums oder per Brief an:
+
+oder per Brief an:
+Amazon EU S.=C3=A0.r.l.
+5, Rue Plaetis
+L-2338 Luxemburg=20
+
+Widerrufsfolgen:
+
+Im Falle eines wirksamen Widerrufs sind die beiderseits empfangenen Leistun=
+gen zur=C3=BCckzugew=C3=A4hren und ggf. gezogene Nutzungen (z.B. Zinsen) he=
+rauszugeben. K=C3=B6nnen Sie uns die empfangene Leistung sowie Nutzungen (z=
+.B. Gebrauchsvorteile) nicht oder teilweise nicht oder nur in verschlechter=
+tem Zustand zur=C3=BCckgew=C3=A4hren beziehungsweise herausgeben, m=C3=BCss=
+en Sie uns insoweit Wertersatz leisten. Dies kann dazu f=C3=BChren, dass Si=
+e die vertraglichen Zahlungsverpflichtungen f=C3=BCr den Zeitraum bis zum W=
+iderruf gleichwohl erf=C3=BCllen m=C3=BCssen. F=C3=BCr die Verschlechterung=
+ der Sache und f=C3=BCr gezogene Nutzungen m=C3=BCssen Sie Wertersatz nur l=
+eisten, soweit die Nutzungen oder die Verschlechterung auf einen Umgang mit=
+ der Sache zur=C3=BCckzuf=C3=BChren ist, der =C3=BCber die Pr=C3=BCfung der=
+ Eigenschaften und der Funktionsweise hinausgeht. Unter "Pr=C3=BCfung der E=
+igenschaften und der Funktionsweise" versteht man das Testen und Ausprobier=
+en der jeweiligen Ware, wie es etwa im Ladengesch=C3=A4ft m=C3=B6glich und =
+=C3=BCblich ist.
+
+Paketversandf=C3=A4hige Sachen sind auf unsere Gefahr zur=C3=BCckzusenden. =
+Sie haben die regelm=C3=A4=C3=9Figen Kosten der R=C3=BCcksendung zu tragen,=
+ wenn die gelieferte Ware der bestellten entspricht und wenn der Preis der =
+zur=C3=BCckzusendenden Sache einen Betrag von 40 Euro nicht =C3=BCbersteigt=
+ oder wenn Sie bei einem h=C3=B6heren Preis der Sache zum Zeitpunkt des Wid=
+errufs noch nicht die Gegenleistung oder eine vertraglich vereinbarte Teilz=
+ahlung erbracht haben. Andernfalls ist die R=C3=BCcksendung f=C3=BCr Sie ko=
+stenfrei. Nicht paketversandf=C3=A4hige Sachen werden bei Ihnen abgeholt. V=
+erpflichtungen zur Erstattung von Zahlungen m=C3=BCssen innerhalb von 30 Ta=
+gen erf=C3=BCllt werden. Die Frist beginnt f=C3=BCr Sie mit der Absendung I=
+hrer Widerrufserkl=C3=A4rung oder der Sache, f=C3=BCr uns mit deren Empfang=
+.
+
+Besondere Hinweise:
+Bei einer Dienstleistung erlischt Ihr Widerrufsrecht vorzeitig, wenn der Ve=
+rtrag von Ihnen und Amazon auf Ihren ausdr=C3=BCcklichen Wunsch vollst=C3=
+=A4ndig erf=C3=BCllt ist, bevor Sie Ihr Widerrufsrecht ausge=C3=BCbt haben.
+
+Ende der Widerrufsbelehrung
+
+Ausschluss des Widerrufs:
+
+Das Widerrufsrecht besteht nicht bei Fernabsatzvertr=C3=A4gen
+
+zur Lieferung von Waren, die nach Kundenspezifikation angefertigt werden od=
+er eindeutig auf die pers=C3=B6nlichen Bed=C3=BCrfnisse zugeschnitten sind =
+oder die auf Grund ihrer Beschaffenheit nicht f=C3=BCr eine R=C3=BCcksendun=
+g geeignet sind oder schnell verderben k=C3=B6nnen oder deren Verfalldatum =
+=C3=BCberschritten w=C3=BCrde, zur Lieferung von Audio- oder Videoaufzeichn=
+ungen oder von Software, sofern die gelieferten Datentr=C3=A4ger vom Verbra=
+ucher entsiegelt worden sind oder zur Lieferung von Zeitungen, Zeitschrifte=
+n und Illustrierten.
+______________________________________________________________
+
+Unsere freiwillige R=C3=BCckgabegarantie:
+
+Unabh=C3=A4ngig von dem vorgenannten Widerrufsrecht, k=C3=B6nnen Sie s=C3=
+=A4mtliche bei uns gekauften Produkte innerhalb von 30 Tagen ab Erhalt der =
+Ware an Amazon.de zur=C3=BCcksenden, sofern die Ware vollst=C3=A4ndig ist u=
+nd sich in ungebrauchtem und unbesch=C3=A4digtem Zustand befindet. F=C3=BCr=
+ eingeschwei=C3=9Fte und/oder versiegelte Datentr=C3=A4ger (zum Beispiel CD=
+s, Audiokassetten, VHS-Videos, DVDs, PC- und Videospiele sowie Software) be=
+deutet dies, dass wir die Ware nur in der unge=C3=B6ffneten Einschwei=C3=9F=
+folie bzw. mit unbesch=C3=A4digtem Siegel zur=C3=BCcknehmen. Nach Ablauf de=
+r R=C3=BCckgabefrist beachten Sie bei M=C3=A4ngeln an Ihrem Ger=C3=A4t bitt=
+e die Hinweise zur Gew=C3=A4hrleistung.
+
+Informationen rund um das Bestellen bei Amazon.de einschlie=C3=9Flich unser=
+er freiwilligen R=C3=BCckgabegarantie finden Sie hier:
+
+http://www.amazon.de/hilfe?ref=3DTE_tex_help_hilfe
+
+Unsere Allgemeinen Gesch=C3=A4ftsbedingungen finden Sie hier:
+
+http://www.amazon.de/agb?ref=3DTE_tex_help_agb
+
+(Dies ist eine automatisch versendete Nachricht. Bitte antworten Sie nicht =
+auf dieses Schreiben, da die Adresse nur zur Versendung von E-Mails eingeri=
+chtet ist.)
+
+
+* Amazon Currency Converter ist ein Service der Amazon Services Europe SARL=
+. Die Verwendung des Amazon Currency Converters unterliegt den folgenden Nu=
+tzungsbedingungen des Amazon Currency Converters:
+http://www.amazon.de/acc/agb?ref=3DTE_tex_help_tfx
+=20
+
+------=_Part_1544192_707490959.1386933411327
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/> =20
+  <title></title>=20
+ </head>=20
+ <body style=3D"margin: 0; font: 13px/ 18px Arial, sans-serif">=20
+  <table id=3D"container" cellpadding=3D"0" style=3D"width: 655px; color: r=
+gb(51, 51, 51); margin: 0 auto; border-collapse: collapse">=20
+   <tbody>
+    <tr>=20
+     <td class=3D"frame" style=3D"padding: 0 20px 20px 20px; vertical-align=
+: top; font: 13px/ 18px Arial, sans-serif">=20
+      <table id=3D"main" cellpadding=3D"0" style=3D"width: 100%; border-col=
+lapse: collapse">=20
+       <tbody>
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"header" cellpadding=3D"0" style=3D"width: 100%; marg=
+in: 0 0 15px 0; border-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td rowspan=3D"2" class=3D"logo" style=3D"width: 115px; paddin=
+g: 18px 0 0 0; vertical-align: top; font: 13px/ 18px Arial, sans-serif"><a =
+href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&=
+H=3DFUI4CMR7CZX03CL4NAFIAYXGZBQA&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fre=
+f%3Dpe_386171_37038021_TE_M3T1_g_i" title=3D"Visit www.amazon.de" style=3D"=
+text-decoration: none; color: rgb(0, 102, 153); font: 13px/ 18px Arial, san=
+s-serif"><img alt=3D"Amazon.de" src=3D"http://g-ec2.images-amazon.com/image=
+s/G/01/abis-ui/merchants/amazon.de" style=3D"border: 0" /></a></td>=20
+             <td class=3D"navigation" style=3D"text-align: right; padding: =
+5px 0; border-bottom: 1px solid rgb(204, 204, 204); white-space: nowrap; ve=
+rtical-align: top; font: 13px/ 18px Arial, sans-serif">=20
+              <table align=3D"right" style=3D"border-collapse: collapse">=
+=20
+               <tbody>=20
+                <tr>=20
+                 <td style=3D"padding: 0px; vertical-align: bottom; font: 1=
+3px/ 18px Arial, sans-serif">=20
+                  <div class=3D"unified_widget rcmBody">
+                   <a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH=
+3VQ&C=3D1VSYRMGW3HNG0&H=3DZPFDVNPX728FUV1RFASQMWD4HCOA&T=3DC&U=3Dhttp%3A%2F=
+%2Fwww.amazon.de%3A80%2Fgp%2Fredirect.html%2Fref%3Dpe_386171_37038021_pe_21=
+7221_31005211_M1T1_SWM_KIND%2F280-6864705-8325504%3F_encoding%3DUTF8%26loca=
+tion%3Dhttp%253A%252F%252Fwww.amazon.de%252Fb%253Fnode%253D530484031%26toke=
+n%3DEBC7637E551C69E801C6B030EF8B5ED613A56E92%26pf_rd_m%3DA3JWKAKR8XB7XF%26p=
+f_rd_s%3Demail-center-1%26pf_rd_r%3D01QWDK92M0VG498WVA3P%26pf_rd_t%3D401%26=
+pf_rd_p%3D415052007%26pf_rd_i%3Dcontentsymphonyslot" style=3D"border-right:=
+ 0px solid rgb(204, 204, 204); margin-right: 0px; padding-right: 0px; text-=
+decoration: none; color: rgb(0, 102, 153); font: 13px/ 18px Arial, sans-ser=
+if">Kindle-Shop</a>
+                   <div class=3D"h_rule"></div>
+                  </div> </td>=20
+                 <td style=3D"padding: 0px; vertical-align: bottom; font: 1=
+3px/ 18px Arial, sans-serif"> <span style=3D"text-decoration: none; color: =
+rgb(204, 204, 204); font: 15px Arial, san-serif">&nbsp;&nbsp;|&nbsp;&nbsp;<=
+/span> </td>=20
+                 <td style=3D"padding: 0px; vertical-align: bottom; font: 1=
+3px/ 18px Arial, sans-serif"> <a href=3D"http://www.amazon.de/gp/r.html?R=
+=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DYRNAHSUIL3E0ZDGXNAVB3VGGDWGA&T=3DC&U=
+=3Dhttps%3A%2F%2Fwww.amazon.de%2Fgp%2Fcss%2Fyour-orders-access%2Fref%3Dpe_3=
+86171_37038021_TE_M3T1_oh_tn" style=3D"border-right: 0px solid rgb(204, 204=
+, 204); margin-right: 0px; padding-right: 0px; text-decoration: none; color=
+: rgb(0, 102, 153); font: 13px/ 18px Arial, sans-serif">Meine Bestellungen<=
+/a> </td>=20
+                 <td style=3D"padding: 0px; vertical-align: bottom; font: 1=
+3px/ 18px Arial, sans-serif"> <span style=3D"text-decoration: none; color: =
+rgb(204, 204, 204); font: 15px Arial, san-serif">&nbsp;&nbsp;|&nbsp;&nbsp;<=
+/span> </td>=20
+                 <td style=3D"padding: 0px; vertical-align: bottom; font: 1=
+3px/ 18px Arial, sans-serif"> <a class=3D"last" href=3D"http://www.amazon.d=
+e/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DXJAKMAOQDV7VYUBTO6OVZFW=
+CWEEA&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fref%3Dpe_386171_37038021_TE_M=
+3T1_g_tn" style=3D"border: 0; margin: 0; padding: 0; border-right: 0px soli=
+d rgb(204, 204, 204); margin-right: 0px; padding-right: 0px; text-decoratio=
+n: none; color: rgb(0, 102, 153); font: 13px/ 18px Arial, sans-serif">Amazo=
+n.de</a> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table> </td>=20
+            </tr>=20
+            <tr>=20
+             <td class=3D"title" style=3D"text-align: right; padding: 7px 0=
+ 5px 0; vertical-align: top; font: 13px/ 18px Arial, sans-serif"> <h2 style=
+=3D"font-size: 20px; line-height: 24px; margin: 0; padding: 0; font-weight:=
+ normal; color: rgb(0, 0, 0) !important">Versandbest&auml;tigung</h2> Beste=
+llnummer: #<a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D=
+1VSYRMGW3HNG0&H=3DYIBJXDKKCUXI3UMMARQBPTZUZBCA&T=3DC&U=3Dhttps%3A%2F%2Fwww.=
+amazon.de%2Fgp%2Fcss%2Fsummary%2Fedit.html%2Fref%3Dpe_386171_37038021_TE_M3=
+T1_od_tn%3Fie%3DUTF8%26orderID%3D303-4047812-1540308" style=3D"text-decorat=
+ion: none; color: rgb(0, 102, 153); font: 13px/ 18px Arial, sans-serif">303=
+-4047812-1540308</a> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"summary" cellpadding=3D"0" style=3D"width: 100%; bor=
+der-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"><span class=3D"heading" style=3D"font-size: 18px; color: rgb(204, 1=
+02, 0); margin: 15px 0 0 0; font-weight: normal">Guten Tag,</span> <p style=
+=3D"margin: 4px 0 18px 0; font: 13px/ 18px Arial, sans-serif"> wir m&ouml;c=
+hten Ihnen hiermit mitteilen, dass wir Ihre Bestellung versandt haben. <br =
+/><br />Ihre Sendung befindet sich nun auf dem Versandweg; eine &Auml;nderu=
+ng durch Sie oder unseren Kundenservice ist nicht mehr m&ouml;glich. M&ouml=
+;chten Sie einen Artikel aus Ihrer Bestellung zur&uuml;ckgeben oder andere =
+Bestellungen ansehen oder ver&auml;ndern, k&ouml;nnen Sie dies einfach &uum=
+l;ber <a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYR=
+MGW3HNG0&H=3DPAOPREVZO7BQUQEAZPZYKEIEN4IA&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazo=
+n.de%2Fgp%2Fcss%2Fyour-orders-access%2Fref%3Dpe_386171_37038021_TE_M3T1_" s=
+tyle=3D"text-decoration: underline; color: rgb(0, 102, 153); font: 13px/ 18=
+px Arial, sans-serif">Meine Bestellungen</a> auf unserer Website Amazon.de =
+tun. </p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td colspan=3D"2" style=3D"vertical-align: top; font: 13px/ 18px A=
+rial, sans-serif">=20
+          <table id=3D"criticalInfo" cellpadding=3D"0" style=3D"border-top:=
+ 3px solid rgb(45, 55, 65); width: 640px; margin: 0 0 20px 0; border-collap=
+se: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"font-size: 14px; padding: 11px 18px 18px 18px; ba=
+ckground-color: rgb(239, 239, 239); width: 280px; vertical-align: top; font=
+: 13px/ 18px Arial, sans-serif"> <p style=3D"color: rgb(0, 0, 0); margin: 2=
+px 0 9px 0; font: 13px/ 18px Arial, sans-serif"> <span class=3D"uniqueSpan"=
+ style=3D"font-size: 14px; color: rgb(102, 102, 102)"> Lieferung voraussich=
+tlich: </span> <br /> <strong> Montag, 23. Dezember 2013 </strong> </p> <a =
+href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&=
+H=3DFNH06OKXKZTOLH6APFUJE171MXWA&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fgp=
+%2Fcss%2Fshiptrack%2Fview.html%2Fref%3Dpe_386171_37038021_TE_M3T1_typ%3Fie%=
+3DUTF8%26addressID%3Dpljprrppmn%26trackingNumber%3D00357059830043021950%26l=
+atestArrivalDate%3D1387825200%26shipMethod%3DPOST_NORD%26orderID%3D303-4047=
+812-1540308%26shipmentDate%3D1386933338%26orderingShipmentId%3D105653913590=
+5%26packageId%3D1" style=3D"font-size: 11px; color: rgb(102, 102, 102); tex=
+t-decoration: underline; font: 13px/ 18px Arial, sans-serif"> <img alt=3D"L=
+ieferung verfolgen" id=3D"trackButton" src=3D"http://g-ec2.images-amazon.co=
+m/images/G/03/te/Lieferung-verfolgen._V402491352_.png" style=3D"border: 0" =
+/> </a> </td>=20
+             <td style=3D"font-size: 14px; padding: 11px 18px 18px 18px; ba=
+ckground-color: rgb(239, 239, 239); width: 280px; vertical-align: top; font=
+: 13px/ 18px Arial, sans-serif"> <span style=3D"color: rgb(102, 102, 102)">=
+Die Sendung geht an:</span><br /> <p style=3D"color: rgb(0, 0, 0); margin: =
+2px 0 9px 0; font: 13px/ 18px Arial, sans-serif"> <strong> Zlatan Zlatanov =
+<br /> M&aring;rten P&aring;ls v&auml;g 10 <br />=20
+                <nowrap>
+                  Staffanstorp, 245 31=20
+                </nowrap> <br /> Schweden </strong> </p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td colspan=3D"2" style=3D"vertical-align: top; font: 13px/ 18px A=
+rial, sans-serif">=20
+          <table id=3D"trackingText" style=3D"border-collapse: collapse">=
+=20
+           <tbody>
+            <tr>=20
+             <td style=3D"font-size: 10px; color: rgb(102, 102, 102); paddi=
+ng: 0 10px 20px 10px; line-height: 16px; width: 640px; vertical-align: top;=
+ font: 13px/ 18px Arial, sans-serif"> <p style=3D"margin: 10px 0 0 0; font:=
+ 11px/ 16px Arial, sans-serif; color: rgb(51, 51, 51)"> Die Sendung wurde m=
+it POST_NORD versandt. Wenn Sie diese Sendung verfolgen m&ouml;chten, benut=
+zen Sie bitte diese Paketverfolgungsnummer: 00357059830043021950. Abh&auml;=
+ngig von der gew&auml;hlten Versandoption kann es sein, dass die Paketverfo=
+lgungsdaten zum Zeitpunkt des Erhalts dieser E-Mail noch nicht den neuesten=
+ Stand wiedergeben. <br /><br /> Wenn Sie ein mobiles Ger&auml;t verwenden,=
+ k&ouml;nnen Sie mit der kostenlosen <a href=3D"http://www.amazon.de/gp/r.h=
+tml?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DDEJASOYABXJNKK3S30WRLWCA4AEA&T=
+=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%2Fmobilbenachrichtigungen%3Fref_%3Dpe_3=
+86171_37038021_TE_M3T1_MoAl" style=3D"text-decoration: underline; font: 11p=
+x/ 16px Arial, sans-serif; color: rgb(102, 102, 102)">Amazon App</a> Liefer=
+benachrichtigungen empfangen und den Verlauf Ihrer Sendung auch unterwegs v=
+erfolgen. <br /><br /> Bitte besuchen Sie unsere <a href=3D"http://www.amaz=
+on.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DA3BNSBMA2A2YN8UAJ2A=
+07J2BZ1MA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%2Fgp%2Fhelp%2Fcustomer%2Fdis=
+play.html%3FnodeId%3D13742621%26ref%3DTE_M3T1_tr%26ref_%3Dpe_386171_3703802=
+1" style=3D"text-decoration: underline; font: 11px/ 16px Arial, sans-serif;=
+ color: rgb(102, 102, 102)">Hilfe-Seite</a>, wenn Sie die Kontaktdaten unse=
+res Logistikpartners ben&ouml;tigen sollten. </p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"orderDetails" cellpadding=3D"0" style=3D"width: 100%=
+; border-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"> <span class=3D"heading" style=3D"width: 640px; border-bottom: 0px =
+solid rgb(204, 204, 204); margin: 0 0 3px 0; padding: 0 0 3px 0; font-size:=
+ 18px; color: rgb(204, 102, 0); font-weight: normal">Einzelheiten Ihrer Lie=
+ferung</span>=20
+              <table id=3D"headingBottom" style=3D"margin: 3px 0 0 0; borde=
+r-top: 1px solid rgb(204, 204, 204); width: 100%; border-collapse: collapse=
+">
+               <tbody>
+                <tr>
+                 <td style=3D"vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif"></td>
+                </tr>
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+            <tr>=20
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif">&nbsp;</td>=20
+            </tr>=20
+            <tr>=20
+             <td class=3D"frame" style=3D"padding: 0 20px 20px 20px; vertic=
+al-align: top; font: 13px/ 18px Arial, sans-serif">=20
+              <table id=3D"itemDetails" cellpadding=3D"0" style=3D"width: 1=
+00%; border-collapse: collapse">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"photo" style=3D"width: 150px; text-align: cen=
+ter; padding: 0 0 30px 0; vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"> <a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1V=
+SYRMGW3HNG0&H=3DWTETUA84QYRNPRMWCPMXAWPUH0OA&T=3DC&U=3Dhttp%3A%2F%2Fwww.ama=
+zon.de%2Fdp%2FB000N78CMI%2Fref%3Dpe_386171_37038021_TE_M3T1_dp_i1" title=3D=
+"B000N78CMI" style=3D"text-decoration: none; color: rgb(0, 102, 153); font:=
+ 13px/ 18px Arial, sans-serif"><img height=3D"115" src=3D"http://ecx.images=
+-amazon.com/images/I/41Ha2uU05bL._SCLZZZZZZZ__SY115_SX115_.jpg" style=3D"bo=
+rder: 0" /></a> </td>=20
+                 <td class=3D"name" style=3D"vertical-align: top; color: rg=
+b(102, 102, 102); padding: 10px 10px 30px 10px; font: 13px/ 18px Arial, san=
+s-serif"> <p style=3D"margin: 0; font-size: 12px; line-height: 14px; font: =
+13px/ 18px Arial, sans-serif"> </p>
+                  <ul style=3D"margin: 0; padding: 0">=20
+                   <li style=3D"list-style-type: none; line-height: 14px; p=
+adding: 0 0 4px 0"> <a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LN=
+H3VQ&C=3D1VSYRMGW3HNG0&H=3DMAGE4LSHWPQW4IVBT1MHM1GM3WCA&T=3DC&U=3Dhttp%3A%2=
+F%2Fwww.amazon.de%2Fdp%2FB000N78CMI%2Fref%3Dpe_386171_37038021_TE_M3T1_dp_1=
+" style=3D"font-size: 14px; line-height: 14px; text-decoration: none; color=
+: rgb(0, 102, 153); font: 13px/ 18px Arial, sans-serif"> Cherry G80-3000 Ta=
+statur USB mit PS/2 Kombi deutsch </a> <br />Verkauft von: Amazon EU S.a.r.=
+L. </li>=20
+                  </ul> <p style=3D"margin: 0; font-size: 12px; line-height=
+: 14px; font: 13px/ 18px Arial, sans-serif"></p> </td>=20
+                 <td class=3D"price" style=3D"text-align: right; font-size:=
+ 14px; padding: 10px 0 30px 0; vertical-align: top; font: 13px/ 18px Arial,=
+ sans-serif"> <strong>EUR 44,11</strong> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td colspan=3D"3" class=3D"divider" style=3D"border-top: 1=
+px solid rgb(234, 234, 234); padding: 0 0 16px 0; vertical-align: top; font=
+: 13px/ 18px Arial, sans-serif"></td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table id=3D"costBreakdown" style=3D"width: 100%; border-coll=
+apse: collapse">=20
+               <tbody>
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">Zwischensumme:</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">EUR 44,11</td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">Verpackung und Versand:</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">EUR 4,79</td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">Zwischensumme ohne USt.:</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">EUR 48,90</td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">Umsatzsteuer:</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">EUR 12,23</td>=20
+                </tr>=20
+                <tr>=20
+                 <td class=3D"total" style=3D"font-size: 14px; font-weight:=
+ bold; width: 100%; text-align: right; line-height: 18px; padding: 0 0 10px=
+ 10px; vertical-align: top; font: 13px/ 18px Arial, sans-serif"><strong>End=
+betrag inkl. USt.: </strong></td>=20
+                 <td class=3D"total" style=3D"font-size: 14px; font-weight:=
+ bold; width: 100%; text-align: right; line-height: 18px; padding: 0 0 10px=
+ 10px; vertical-align: top; font: 13px/ 18px Arial, sans-serif"><strong>EUR=
+ 61,13</strong></td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">&nbsp;</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif"> <strong>(SEK 573,64*)</st=
+rong> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif"> Zahlung &uuml;ber Mastercard: </td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">EUR 61,13</td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"width: 100%; text-align: right; line-height: =
+18px; padding: 0 0 10px 10px; vertical-align: top; font: 13px/ 18px Arial, =
+sans-serif">&nbsp;</td>=20
+                 <td class=3D"price" style=3D"white-space: nowrap; width: 1=
+00%; text-align: right; line-height: 18px; padding: 0 0 10px 10px; vertical=
+-align: top; font: 13px/ 18px Arial, sans-serif">(SEK 573,64*)</td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"orderDetails" cellpadding=3D"0" style=3D"width: 100%=
+; border-collapse: collapse">=20
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"division" style=3D"margin: 0 0 0 0; border-top: 1px =
+solid rgb(234, 234, 234); width: 100%; border-collapse: collapse">
+           <tbody>
+            <tr>
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"></td>
+            </tr>
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"closing" cellpadding=3D"0" style=3D"width: 100%; bor=
+der-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"> <br />R&uuml;ckgaben sind einfach. Besuchen Sie unser <a href=3D"h=
+ttp://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DWK7EZ=
+ZQVFPKCNUP74A374FCSSAGA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%2Fgp%2Fcss%2Fr=
+eturns%2Fhomepage.html%2Fref%3Dpe_386171_37038021_TE_M3T1_r" style=3D"text-=
+decoration: underline; color: rgb(0, 102, 153); font: 13px/ 18px Arial, san=
+s-serif">Online-R&uuml;cksendezentrum</a>.<br /> <br /> Falls Sie weitere F=
+ragen zu Ihrer Bestellung haben sollten, kontaktieren Sie bitte unseren <a =
+href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&=
+H=3DM6MKED35LJAQ9YLAPNS1GCEAGDOA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%2Fgp%=
+2Fhelp%2Fcustomer%2Fdisplay%3FnodeId%3D200586230%26ref%3DTE_M3T1_cs%26ref_%=
+3Dpe_386171_37038021" style=3D"text-decoration: underline; color: rgb(0, 10=
+2, 153); font: 13px/ 18px Arial, sans-serif">Kundenservice</a>. <p style=3D=
+"padding: 0 0 20px 0; border-bottom: 1px solid rgb(234, 234, 234); margin: =
+0; font: 13px/ 18px Arial, sans-serif"> <br />Wir freuen uns auf Ihren n&au=
+ml;chsten Besuch!<br /> <span style=3D"padding-top: 10px; font-size: 16px; =
+line-height: 24px; font-weight: bold" class=3D"signature"><strong>Amazon.de=
+</strong></span></p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"marketingContent" style=3D"width: 100%; border-botto=
+m: 1px solid rgb(234, 234, 234); border-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"padding: 20px 0; vertical-align: top; font: 13px/=
+ 18px Arial, sans-serif">=20
+              <div style=3D"display:none;"></div>
+              <table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"border-collapse: collapse">
+               <tbody>
+                <tr>
+                 <td align=3D"center" style=3D"padding: 0px; vertical-align=
+: top; font: 13px/ 18px Arial, sans-serif"><map name=3D"Kindlefirehdx"><are=
+a shape=3D"rect" coords=3D"0,0,300,75" alt=3D"Kindle Fire HDX" href=3D"http=
+://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DWWG64OFX=
+IAXHAQLOE340VTYTLC0A&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%3A80%2Fgp%2Fredir=
+ect.html%2Fref%3Dpe_386171_37038021_pe_217221_31005211_M3T1_LM_KFHDX%2F279-=
+7936186-9495539%3Flocation%3Dhttp%3A%2F%2Fwww.amazon.de%2Fdp%2FB00D2J4D4U%2=
+6token%3DEBC7637E551C69E801C6B030EF8B5ED613A56E92%26pf_rd_m%3DA3JWKAKR8XB7X=
+F%26pf_rd_s%3Demail-center-1%26pf_rd_r%3D1TBJZASE3ERQ39GJABY4%26pf_rd_t%3D4=
+01%26pf_rd_p%3D440514167%26pf_rd_i%3Dcontentsymphonyslot"></area> </map><im=
+g src=3D"https://images-na.ssl-images-amazon.com/images/G/03/kindle/merch/2=
+013/campaign/kf/mail/kf-sh_roto-d-de-300x75._V355233282_.jpg" width=3D"300"=
+ align=3D"center" usemap=3D"#Kindlefirehdx" alt=3D"Kindle Fire HDX" height=
+=3D"75" border=3D"0" /></td>
+                </tr>
+               </tbody>
+              </table> </td>=20
+             <td style=3D"padding: 20px 0; vertical-align: top; font: 13px/=
+ 18px Arial, sans-serif">=20
+              <div style=3D"display:none;"></div>
+              <table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"border-collapse: collapse">
+               <tbody>
+                <tr>
+                 <td align=3D"center" style=3D"padding: 0px; vertical-align=
+: top; font: 13px/ 18px Arial, sans-serif"><map name=3D"mappedapppromo"><ar=
+ea shape=3D"rect" coords=3D"0,0,300,75" alt=3D"Gratis Amazon Shopping-App" =
+href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&=
+H=3DPJLWA8NZEWO83XCPSM5FV2KPN1IA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%3A80%=
+2Fgp%2Fredirect.html%2Fref%3Dpe_386171_37038021_pe_217221_31005211_M1T1_RM_=
+APP%2F277-8781240-5718227%3Flocation%3Dhttp%3A%2F%2Fwww.amazon.de%2Fshoppin=
+gapp-email%26token%3DEBC7637E551C69E801C6B030EF8B5ED613A56E92%26pf_rd_m%3DA=
+3JWKAKR8XB7XF%26pf_rd_s%3Demail-center-1%26pf_rd_r%3D0PFS8RCDN67GJS1JPK2J%2=
+6pf_rd_t%3D401%26pf_rd_p%3D415052047%26pf_rd_i%3Dcontentsymphonyslot"></are=
+a> </map><img src=3D"https://images-na.ssl-images-amazon.com/images/G/03/mo=
+bile/DE_Mobile_26-06-13_AppEMail_300x75_v1_02._V379808532_.png" align=3D"ce=
+nter" usemap=3D"#mappedapppromo" alt=3D"Gratis Amazon Shopping-App" border=
+=3D"0" /></td>
+                </tr>
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans-ser=
+if">=20
+          <table id=3D"legalCopy" style=3D"width: 100%; margin: 20px 0 0 0;=
+ border-collapse: collapse">=20
+           <tbody>
+            <tr>=20
+             <td style=3D"vertical-align: top; font: 13px/ 18px Arial, sans=
+-serif"> <span style=3D"font-size: 11px; color: rgb(102, 102, 102); line-he=
+ight: 16px; margin: 0 0 10px 0"> <br /> <strong>Widerrufsbelehrung</strong>=
+<br /> <br /> <strong>Widerrufsrecht:</strong><br /> <br /> Sie k&ouml;nnen=
+ Ihre Vertragserkl&auml;rung innerhalb von 14 Tagen ohne Angabe von Gr&uuml=
+;nden in beliebiger Form (z.B. per Brief, Fax, E-Mail) oder - wenn Ihnen di=
+e Sache vor Fristablauf &uuml;berlassen wird - auch durch R&uuml;cksendung =
+der Sache widerrufen.<br /> <br /> Die Frist beginnt nach Erhalt dieser Bel=
+ehrung in Textform, jedoch nicht vor Eingang der Ware beim Empf&auml;nger (=
+bei der wiederkehrenden Lieferung gleichartiger Waren nicht vor Eingang der=
+ ersten Teillieferung) und auch nicht vor Erf&uuml;llung unserer Informatio=
+nspflichten gem&auml;&szlig; Artikel 246 &sect; 2 in Verbindung mit &sect; =
+1 Abs. 1 und 2 EGBGB sowie unserer Pflichten gem&auml;&szlig; &sect; 312g A=
+bs. 1 Satz 1 BGB in Verbindung mit Artikel 246 &sect; 3 EGBGB. Zur Wahrung =
+der Widerrufsfrist gen&uuml;gt die rechtzeitige Absendung des Widerrufs ode=
+r der Sache.<br /> <br /> Der Widerruf durch R&uuml;cksendung der Ware ist =
+zu richten an:<br /> <br /> Amazon R&uuml;cksendezentrum<br /> Amazonstra&s=
+zlig;e 1<br /> 36251 Bad Hersfeld<br /> <br /> Der Widerruf kann online erf=
+olgen durch Nutzung unseres R&uuml;cksendezentrums oder per Brief an:<br />=
+ <br /> oder per Brief an:<br /> Amazon EU S.&agrave;.r.l.<br /> 5, Rue Pla=
+etis<br /> L-2338 Luxemburg <br /> <br /> <strong>Widerrufsfolgen:</strong>=
+<br /> <br /> Im Falle eines wirksamen Widerrufs sind die beiderseits empfa=
+ngenen Leistungen zur&uuml;ckzugew&auml;hren und ggf. gezogene Nutzungen (z=
+.B. Zinsen) herauszugeben. K&ouml;nnen Sie uns die empfangene Leistung sowi=
+e Nutzungen (z.B. Gebrauchsvorteile) nicht oder teilweise nicht oder nur in=
+ verschlechtertem Zustand zur&uuml;ckgew&auml;hren beziehungsweise herausge=
+ben, m&uuml;ssen Sie uns insoweit Wertersatz leisten. Dies kann dazu f&uuml=
+;hren, dass Sie die vertraglichen Zahlungsverpflichtungen f&uuml;r den Zeit=
+raum bis zum Widerruf gleichwohl erf&uuml;llen m&uuml;ssen. F&uuml;r die Ve=
+rschlechterung der Sache und f&uuml;r gezogene Nutzungen m&uuml;ssen Sie We=
+rtersatz nur leisten, soweit die Nutzungen oder die Verschlechterung auf ei=
+nen Umgang mit der Sache zur&uuml;ckzuf&uuml;hren ist, der &uuml;ber die Pr=
+&uuml;fung der Eigenschaften und der Funktionsweise hinausgeht. Unter &quot=
+;Pr&uuml;fung der Eigenschaften und der Funktionsweise&quot; versteht man d=
+as Testen und Ausprobieren der jeweiligen Ware, wie es etwa im Ladengesch&a=
+uml;ft m&ouml;glich und &uuml;blich ist.<br /> <br /> Paketversandf&auml;hi=
+ge Sachen sind auf unsere Gefahr zur&uuml;ckzusenden. Sie haben die regelm&=
+auml;&szlig;igen Kosten der R&uuml;cksendung zu tragen, wenn die gelieferte=
+ Ware der bestellten entspricht und wenn der Preis der zur&uuml;ckzusendend=
+en Sache einen Betrag von 40 Euro nicht &uuml;bersteigt oder wenn Sie bei e=
+inem h&ouml;heren Preis der Sache zum Zeitpunkt des Widerrufs noch nicht di=
+e Gegenleistung oder eine vertraglich vereinbarte Teilzahlung erbracht habe=
+n. Andernfalls ist die R&uuml;cksendung f&uuml;r Sie kostenfrei. Nicht pake=
+tversandf&auml;hige Sachen werden bei Ihnen abgeholt. Verpflichtungen zur E=
+rstattung von Zahlungen m&uuml;ssen innerhalb von 30 Tagen erf&uuml;llt wer=
+den. Die Frist beginnt f&uuml;r Sie mit der Absendung Ihrer Widerrufserkl&a=
+uml;rung oder der Sache, f&uuml;r uns mit deren Empfang.<br /> <br /> Beson=
+dere Hinweise:<br /> Bei einer Dienstleistung erlischt Ihr Widerrufsrecht v=
+orzeitig, wenn der Vertrag von Ihnen und Amazon auf Ihren ausdr&uuml;cklich=
+en Wunsch vollst&auml;ndig erf&uuml;llt ist, bevor Sie Ihr Widerrufsrecht a=
+usge&uuml;bt haben.<br /> <br /> <strong>Ende der Widerrufsbelehrung</stron=
+g><br /> <br /> <strong>Ausschluss des Widerrufs:</strong><br /> <br /> Das=
+ Widerrufsrecht besteht nicht bei Fernabsatzvertr&auml;gen<br /> <br /> zur=
+ Lieferung von Waren, die nach Kundenspezifikation angefertigt werden oder =
+eindeutig auf die pers&ouml;nlichen Bed&uuml;rfnisse zugeschnitten sind ode=
+r die auf Grund ihrer Beschaffenheit nicht f&uuml;r eine R&uuml;cksendung g=
+eeignet sind oder schnell verderben k&ouml;nnen oder deren Verfalldatum &uu=
+ml;berschritten w&uuml;rde, zur Lieferung von Audio- oder Videoaufzeichnung=
+en oder von Software, sofern die gelieferten Datentr&auml;ger vom Verbrauch=
+er entsiegelt worden sind oder zur Lieferung von Zeitungen, Zeitschriften u=
+nd Illustrierten.<br /> <br /> ____________________________________________=
+__________________<br /> <br /> <strong>Unsere freiwillige R&uuml;ckgabegar=
+antie:</strong><br /> <br /> Unabh&auml;ngig von dem vorgenannten Widerrufs=
+recht, k&ouml;nnen Sie s&auml;mtliche bei uns gekauften Produkte innerhalb =
+von 30 Tagen ab Erhalt der Ware an Amazon.de zur&uuml;cksenden, sofern die =
+Ware vollst&auml;ndig ist und sich in ungebrauchtem und unbesch&auml;digtem=
+ Zustand befindet. F&uuml;r eingeschwei&szlig;te und/oder versiegelte Daten=
+tr&auml;ger (zum Beispiel CDs, Audiokassetten, VHS-Videos, DVDs, PC- und Vi=
+deospiele sowie Software) bedeutet dies, dass wir die Ware nur in der unge&=
+ouml;ffneten Einschwei&szlig;folie bzw. mit unbesch&auml;digtem Siegel zur&=
+uuml;cknehmen. Nach Ablauf der R&uuml;ckgabefrist beachten Sie bei M&auml;n=
+geln an Ihrem Ger&auml;t bitte die Hinweise zur Gew&auml;hrleistung.<br /> =
+<br /> <br /> Informationen rund um das Bestellen bei Amazon.de einschlie&s=
+zlig;lich unserer freiwilligen R&uuml;ckgabegarantie finden Sie hier:<br />=
+ <br /> <a href=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VS=
+YRMGW3HNG0&H=3D2H2HAZXJRE6YNWVRTINASVI7QQOA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amaz=
+on.de%2Fhilfe%3Fref%3DTE_M3T1_help_hilfe%26ref_%3Dpe_386171_37038021" style=
+=3D"text-decoration: underline; color: rgb(0, 102, 153); font: 11px/ 16px A=
+rial, sans-serif">http://www.amazon.de/hilfe</a><br /> <br /> Unsere Allgem=
+einen Gesch&auml;ftsbedingungen finden Sie hier:<br /> <br /> <a href=3D"ht=
+tp://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3D3INEIO=
+MXDV9O923LFZUPJVVY1JKA&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.de%2Fagb%3Fref%3DT=
+E_M3T1_help_agb%26ref_%3Dpe_386171_37038021" style=3D"text-decoration: unde=
+rline; color: rgb(0, 102, 153); font: 11px/ 16px Arial, sans-serif">http://=
+www.amazon.de/agb</a><br /> <br /> (Dies ist eine automatisch versendete Na=
+chricht. Bitte antworten Sie nicht auf dieses Schreiben, da die Adresse nur=
+ zur Versendung von E-Mails eingerichtet ist.)<br /> <br /> * Amazon Curren=
+cy Converter ist ein Service der Amazon Services Europe SARL. Die Verwendun=
+g des Amazon Currency Converters unterliegt den <a href=3D"http://www.amazo=
+n.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3HNG0&H=3DM5S6YCEETWSCIB2EOG5P=
+RNDGTJ8A&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fgp%2Ftfx%2Ft-and-c.html%3F=
+ie%3DUTF8%26*Version*%3D1%26*entries*%3D0%26ref%3DTE_M3T1_help_tfx%26ref_%3=
+Dpe_386171_37038021" style=3D"text-decoration: underline; color: rgb(0, 102=
+, 153); font: 11px/ 16px Arial, sans-serif">Nutzungsbedingungen</a> des Ama=
+zon Currency Converters. </span> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+       </tbody>
+      </table> </td>=20
+    </tr>=20
+   </tbody>
+  </table> =20
+ <img src=3D"http://www.amazon.de/gp/r.html?R=3D23N71Z7LNH3VQ&C=3D1VSYRMGW3=
+HNG0&H=3DAIYDZRIIGSU9FG5TKCIUPEDEEAKA&T=3DE&U=3Dhttp%3A%2F%2Fimages-eu.amaz=
+on.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif" /></body>
+</html>=20
+
+------=_Part_1544192_707490959.1386933411327--
+
+------=_Part_1544191_1540219871.1386933411327--

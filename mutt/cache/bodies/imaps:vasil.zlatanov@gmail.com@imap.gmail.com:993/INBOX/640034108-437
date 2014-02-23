@@ -1,0 +1,410 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp312382oac;
+        Wed, 20 Nov 2013 02:06:04 -0800 (PST)
+X-Received: by 10.220.194.133 with SMTP id dy5mr25907769vcb.3.1384941963450;
+        Wed, 20 Nov 2013 02:06:03 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f173.google.com (mail-ve0-f173.google.com [209.85.128.173])
+        by mx.google.com with ESMTPS id t2si9259219vem.104.2013.11.20.02.06.02
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 20 Nov 2013 02:06:03 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.128.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.173;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f173.google.com with SMTP id oz11so1323499veb.18
+        for <vasil.zlatanov@gmail.com>; Wed, 20 Nov 2013 02:06:02 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:from:to:message-id:subject:mime-version:content-type;
+        bh=mTFd0oXVZF3dIkxsSvFe4WrbnUlYVG0gVudCkQ3Hz7Q=;
+        b=GQfdPlSPklO7o7xIGlxDAlYwkYB99t2NqYQk0lbgVWYEb0r8t7xfwMlad/pWyplsiq
+         IiqqoVniMytVeAuaN0C2SW0mOiIe3EkeeOTQMMPXuVN96OBop5vYudU49/GEx+4mOfHG
+         6iarMjVtF34q+4p+TFvUFPBrW+0hrxncFboY8rDJ3FYGIV2w5I07yGOCVP7/Zq6Fjbxc
+         fvILvuxsQba0uonbl4KVkCWCTvnw9Utpo2eekeG2Yohd1+xJ0YcufH7FNfyTNxqDW7DO
+         EwiU+RfnYPEk1xQWFZNzlhkti8p71kPmduBWQ9OqXJ6NsEjKXZSL+ziWfWxltJ3Fer6y
+         kBIA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of newsletters+vasil.zlatanov1=malmoborgar.se@chesscube.com designates 67.223.242.8 as permitted sender) smtp.mail=newsletters+vasil.zlatanov1=malmoborgar.se@chesscube.com
+X-Gm-Message-State: ALoCoQkNCVGoIBiuUh1oCjmDE/NVDE7gP170vGLirBehs2JUV846Fn/2ijT3t6Wlp17Y7RbZXyop
+X-Received: by 10.221.39.195 with SMTP id tn3mr25687299vcb.2.1384941962542;
+        Wed, 20 Nov 2013 02:06:02 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.113.81 with SMTP id z17csp321436vcp;
+        Wed, 20 Nov 2013 02:06:02 -0800 (PST)
+X-Received: by 10.49.109.97 with SMTP id hr1mr11215607qeb.59.1384941961941;
+        Wed, 20 Nov 2013 02:06:01 -0800 (PST)
+Return-Path: <newsletters+vasil.zlatanov1=malmoborgar.se@chesscube.com>
+Received: from mailgate.chesscube.com (mailgate.chesscube.com. [67.223.242.8])
+        by mx.google.com with ESMTP id hy9si7033662qcb.0.2013.11.20.02.06.00
+        for <vasil.zlatanov1@malmoborgar.se>;
+        Wed, 20 Nov 2013 02:06:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of newsletters+vasil.zlatanov1=malmoborgar.se@chesscube.com designates 67.223.242.8 as permitted sender) client-ip=67.223.242.8;
+Received: from aservices.localdomain (ec2-54-243-176-163.compute-1.amazonaws.com [54.243.176.163])
+	by mailgate.chesscube.com (Postfix) with ESMTP id AC05C1EDB93
+	for <vasil.zlatanov1@malmoborgar.se>; Wed, 20 Nov 2013 05:04:53 -0500 (EST)
+X-DKIM: Sendmail DKIM Filter v2.8.3 mailgate.chesscube.com AC05C1EDB93
+Received: from aservices (localhost [127.0.0.1])
+	by aservices.localdomain (Postfix) with ESMTP id 3EC3F22B71
+	for <vasil.zlatanov1@malmoborgar.se>; Wed, 20 Nov 2013 10:06:00 +0000 (UTC)
+Date: Wed, 20 Nov 2013 10:06:00 +0000 (UTC)
+From: ChessCube Newsletter <newsletters@chesscube.com>
+To: vasil.zlatanov1@malmoborgar.se
+Message-ID: <1671043063.231384.1384941960255.JavaMail.root@aservices>
+Subject: Service restored -- thank you bonuses announced
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_231382_1200325283.1384941960255"
+
+------=_Part_231382_1200325283.1384941960255
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+---------------------------------
+ChessCube Newsletter 2013-11-20
+---------------------------------
+Read newsletter in browser here:
+<http://files.chesscube.com.s3.amazonaws.com/newsletter/news/2013-11-20/News-2013-11-20.html>
+---------------------------------
+
+Hi vaskozl,
+
+As the guy in charge of ChessCube, I want to personally explain what's
+been happening over the past week. Our servers were overloaded with a
+sharp increase in traffic, which might have been caused by a deliberate
+distributed-denial-of-service attack or possibly just a poorly coded web
+crawler gone awry. The ChessCube team has been working hard to put new
+safeguards and procedures in place to block or mitigate the effects of
+this or any similar future event, and I'm proud of their efforts.
+
+Except for a lingering problem with mobile payments, service on
+ChessCube now seems to be fully restored. In fact you may find it even
+more responsive than before, but please let us know if you encounter any
+unusual problems that we may have missed.
+
+We regret the inconvenience this has caused and know that many of you
+have lost valuable play time. To help you make up for lost games, we're
+doubling the daily Cubit bonuses, including Club Cubits 250, from now
+through the end of November. If you need even more Cubits, we'll double
+all purchases as well. See below.
+
+Thank you for your continued support, helping to keep ChessCube the
+friendly place to play.
+
+Joel Berez 	
+	
+*We're making it up to you!*
+
+* Double Bonus Cubits on login!
+* Double Cubits on all purchases
+
+Read the rest of the newsletter for more information.
+
+Once again, we apologize for the inconvenience caused by these problems,
+and thank you for understanding.
+
+**
+*We're saying "Thank you" to you all.. here's how:*
+
+1 - Daily Login Bonus - Double Cubits each day!
+You will receive twice the normal amount of Cubits as a Daily Login
+Bonus -- up to 200! Make sure that you log in each day to claim them all. :)
+
+Club Cubits 250 Members -- your bonuses will be doubled, too! :)
+
+2 - Double Cubits on all Cubit Bundles!
+Get twice as many Cubits on all bundles bought -- increase your Cubits
+balance today!
+
+The offers and deals  listed above are valid from today through
+Saturday, November 30 at 23:59 GMT/UTC.
+Double Cubits purchase special valid for Paypal and Credit Card
+purchases only.
+
+See you online!
+- The ChessCube Team 
+
+Follow us on Twitter
+<http://twitter.com/ChessCube?utm_source=News-2013-11-20&utm_medium=email&utm_campaign=on_twitter>|
+Catch up with us on Facebook
+<http://facebook.com/chesscube?utm_source=News-2013-11-20&utm_medium=email&utm_campaign=on_facebook>|
+Connect with us on LinkedIn
+<http://www.linkedin.com/company/chesscube?utm_source=News-2013-11-20&utm_medium=email&utm_campaign=on_linkedin>
+
+You were sent this email because you're subscribed to receive ChessCube Newsletters. 
+ChessCube will never rent or sell your email address. 
+View our Privacy Policy by clicking on the following 
+link or copy-paste it into your web browser's address bar
+http://www.chesscube.com/privacy
+
+
+To control what e-mail you get from ChessCube, you can change your email preferences by clicking on the following link or copy-paste it into your web browser's address bar
+http://www.chesscube.com/emailPreferences?username=vaskozl&key=90P%2F4rEObNejggcs%2Bic6qQ%3D%3D
+
+ChessCube.com | PO Box 1696 Milnerton 7441 South Africa
+------=_Part_231382_1200325283.1384941960255
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+=09=09
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"608">
+=09<tbody>
+<tr>
+<td align=3D"center" colspan=3D"2" style=3D"font-family:arial,sans-serif; f=
+ont-size: 11px; color: #999999;">
+Did your inbox jumble this mail? <a href=3D"http://files.chesscube.com.s3.a=
+mazonaws.com/newsletter/news/2013-11-20/News-2013-11-20.html?utm_source=3DN=
+ews-2013-11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Dview_online" style=
+=3D"font-size: 11px; color: #0c7ad2;">View it online</a> in your browser.
+</td>
+</tr>
+<tr>
+<td>
+=09<br><br>
+</td>
+</tr>
+
+
+=09=09=09=09<tr>
+=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; background-color: rg=
+b(255, 255, 255);" colspan=3D"1" align=3D"left" valign=3D"top" width=3D"308=
+">
+=09=09=09=09=09=09<img style=3D"display: block; text-align: center; font-fa=
+mily: arial,sans-serif; font-size: 20px; font-weight: normal; background-co=
+lor: rgb(255, 255, 255); color: rgb(39, 44, 89);" alt=3D"ChessCube News" sr=
+c=3D"http://files.chesscube.com.s3.amazonaws.com/newsletter/news/2013-11-20=
+/logo_news_chesscube.gif" border=3D"0" height=3D"104" width=3D"272">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; background-color: rg=
+b(255, 255, 255);" colspan=3D"1" align=3D"right" valign=3D"top" width=3D"30=
+0">
+=09=09=09=09=09=09<p style=3D"margin: 29px 0px 0px; padding: 0px; font-fami=
+ly: arial,sans-serif; font-size: 14px; font-weight: normal; color: rgb(0, 0=
+, 0);">
+=09=09=09=09=09=09=09<a style=3D"color: rgb(74, 186, 234); font-family: ari=
+al,sans-serif; font-size: 14px;" href=3D"http://www.chesscube.com/play/app?=
+utm_source=3DNews-2013-11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Dplay=
+_chess">play chess</a> <span style=3D"color: rgb(0, 0, 0); font-weight: nor=
+mal;">|</span> <a style=3D"color: rgb(74, 186, 234); font-family: arial,san=
+s-serif; font-size: 14px;" href=3D"http://www.chesscube.com/register/reset-=
+password?utm_source=3DNews-2013-11-20&amp;utm_medium=3Demail&amp;utm_campai=
+gn=3Dlost_password">lost password?</a> <span style=3D"color: rgb(136, 131, =
+131);">|</span> <span style=3D"font-family: arial,sans-serif; font-size: 14=
+px; font-weight: bold; color: rgb(0, 0, 0);">2013-11-20</span>
+=09=09=09=09=09=09</p>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td colspan=3D"2">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"" width=3D"">
+<tbody>
+<tr>
+<td valign=3D"top" width=3D"390">
+<p style=3D"padding: 0px; font-family: arial,sans-serif; font-size: 14px; f=
+ont-weight: normal; color: rgb(0, 0, 0); margin-top: 29px; margin-right: 0p=
+x; margin-bottom: 21px;">
+Hi vaskozl,<br>
+<!-- start news main body -->
+<br>
+<span style=3D"font-weight: bold;"></span>As the guy in charge of ChessCube=
+, I want to personally explain what's been happening over the past week.  O=
+ur servers were overloaded with a sharp increase in traffic, which might ha=
+ve been caused by a deliberate distributed-denial-of-service attack or poss=
+ibly just a poorly coded web crawler gone awry.  The ChessCube team has bee=
+n working hard to put new safeguards and procedures in place to block or mi=
+tigate the effects of this or any similar future event, and I'm proud of th=
+eir efforts.<br><br>Except for a lingering problem with mobile payments, se=
+rvice on ChessCube now seems to be fully restored.  In fact you may find it=
+ even more responsive than before, but please let us know if you encounter =
+any unusual problems that we may have missed.<br><br>We regret the inconven=
+ience this has caused and know that many of you have lost valuable play tim=
+e.  To help you make up for lost games, we're doubling the daily Cubit bonu=
+ses, including Club Cubits 250, from now through the end of November.  If y=
+ou  need even more Cubits, we'll double all purchases as well.  See below.<=
+br><br>
+Thank you for your continued support, helping to keep ChessCube the friendl=
+y place to play.<br><br>
+Joel Berez</span></span></td>
+<td align=3D"left" width=3D"18"> <br>
+</td>
+
+<td valign=3D"top" width=3D"200"><table style=3D"width: 209px; height: 240p=
+x;" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"1" rowspan=3D"1" width=3D"149"><b><span style=3D"font-size: =
+10.5pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color: red;"=
+>We're making it up to you!</span></b><br>
+<p style=3D"font-size: 12px; font-family: arial,sans-serif;"><span style=3D=
+"font-size: 9pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"></=
+span><span style=3D"font-size: 9pt; font-family: &quot;Arial&quot;,&quot;sa=
+ns-serif&quot;;">* Double Bonus Cubits on login!<br>* Double Cubits on all =
+purchases<br><br>Read the rest of the newsletter for more information.<br><=
+br>Once again, we apologize for the inconvenience caused by these problems,=
+ and thank you for understanding.</span></p><span style=3D"font-family: &qu=
+ot;Arial&quot;,&quot;sans-serif&quot;;"><span style=3D"text-decoration: und=
+erline;"></span></span><span style=3D"font-family: arial,sans-serif;"></spa=
+n></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<table style=3D"width: 608px; height: 156px;" align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr style=3D"font-weight: bold; color: red;">
+<td colspan=3D"1" rowspan=3D"1">
+<div style=3D"text-align: center;">
+<p style=3D"margin-top: 10px; margin-bottom: 10px;"><img alt=3D"" src=3D"ht=
+tps://s3.amazonaws.com/files.chesscube.com/newsletter/news/2013-11-20/hr.gi=
+f" style=3D"border: 0px solid ; background-color: rgb(226, 226, 226); displ=
+ay: block; width: 608px; height: 4px;"> </p>
+<b><span style=3D"font-size: 13.5pt;"><span style=3D"color: red;"></span></=
+span></b></div>
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" rowspan=3D"1" valign=3D"top" width=3D"407"><div style=3D"=
+text-align: center;">
+<b style=3D"color: rgb(20, 154, 204);"><span style=3D"font-size: 13.5pt;">W=
+e're saying "Thank you" to you all.. here's how:</span></b><br><br></div>
+<span style=3D""></span><span style=3D"font-size: 10pt; font-family: &quot;=
+Arial&quot;,&quot;sans-serif&quot;; color: rgb(51, 51, 51);"><span style=3D=
+"font-weight: bold;"></span>
+</span><small><span style=3D"font-family: Arial;"></span></small>
+</td>
+</tr><tr><td><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"" width=3D"608"><tbody><tr><td colspan=3D"1" rowspan=
+=3D"1"><div style=3D"text-align: center;">
+</div><div style=3D"text-align: center;"><div style=3D"text-align: left;"><=
+span style=3D"font-size: 9pt; font-family: &quot;Arial&quot;,&quot;sans-ser=
+if&quot;; color: black;"><span style=3D"font-weight: bold;">1 - Daily Login=
+ Bonus - Double Cubits each day!</span><br><span style=3D"font-weight: bold=
+;"><span style=3D"font-weight: bold;"><span style=3D"font-weight: bold;"></=
+span></span></span>You
+will receive twice the normal amount of Cubits as a Daily Login Bonus -- up=
+ to 200!
+Make sure that you log in each day to claim them all. :)<br><br><a href=3D"=
+http://www.chesscube.com/shop/products/details/more/bundle-club-cubits-250-=
+one-year-membership?back=3D%2Fproducts%2Fbundles%2Fpage%2F1?utm_source=3DNe=
+ws-2013-11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Dclub250">Club Cubit=
+s 250</a>
+Members -- your bonuses will be doubled, too! :)<br><br><span style=3D"font=
+-weight: bold;"></span><span style=3D"font-weight: bold;">2 - Double Cubits=
+ on all Cubit Bundles!</span><br>Get twice as many Cubits on all bundles bo=
+ught -- increase your Cubits balance today!<br><br></span><span style=3D"fo=
+nt-size: 9pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color:=
+ black;">The offers and deals&nbsp; listed above are valid from today throu=
+gh Saturday, November 30 at 23:59 GMT/UTC. <br>Double Cubits purchase speci=
+al valid for Paypal and Credit Card purchases only.<br><br>See you online!<=
+br>- The ChessCube Team</span>&nbsp;<br><span style=3D"font-size: 9pt; font=
+-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color: black;"></span></=
+div></div><span style=3D"font-size: 9pt; font-family: &quot;Arial&quot;,&qu=
+ot;sans-serif&quot;; color: black;"><i><br></i></span>
+</td><td><span style=3D"font-size: 10pt; font-family: &quot;Arial&quot;,&qu=
+ot;sans-serif&quot;; color: rgb(51, 51, 51);"><br></span></td></tr></tbody>=
+</table></td></tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<p style=3D"margin-top: 10px; margin-bottom: 10px;"> <img alt=3D"" src=3D"h=
+ttps://s3.amazonaws.com/files.chesscube.com/newsletter/news/2013-11-20/hr.g=
+if" style=3D"border: 0px solid ; background-color: rgb(226, 226, 226); disp=
+lay: block; width: 608px; height: 4px;"> </p>
+</td>
+</tr>
+<!-- end news main body -->
+<tr>
+<td colspan=3D"2">
+<p style=3D"margin-top: 10px; margin-bottom: 10px;"> <img alt=3D"" src=3D"h=
+ttp://files.chesscube.com.s3.amazonaws.com/newsletter/news/2013-11-20/news_=
+files/hr.gif" style=3D"background-color: rgb(226, 226, 226); display: block=
+;" border=3D"0" height=3D"4" width=3D"608"> </p>
+</td>
+</tr>
+=09=09=09=09</tr>
+=09=09=09=09        <tr>
+=09=09=09=09            <td colspan=3D"2" style=3D"padding-top: 20px;"><img=
+ src=3D"http://files.chesscube.com.s3.amazonaws.com/newsletter/news/2013-11=
+-20/sn_twitter.gif" alt=3D"" style=3D"" height=3D"10" width=3D"10" border=
+=3D"0"> <span style=3D"font-family: arial, sans-serif; color: rgb(0, 0, 0);=
+ font-size: 12px">Follow
+=09=09=09=09                    us on </span>
+=09=09=09=09<a href=3D"http://twitter.com/ChessCube?utm_source=3DNews-2013-=
+11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Don_twitter" style=3D"font-f=
+amily: arial, sans-serif; font-size: 12px; font-weight: bold; color: rgb(68=
+, 157, 229); margin-right: 2px;">Twitter</a><span style=3D"color: rgb(0, 0,=
+ 0);">|</span>
+=09=09=09=09<img src=3D"http://files.chesscube.com.s3.amazonaws.com/newslet=
+ter/news/2013-11-20/sn_facebook.gif" alt=3D"" style=3D"" height=3D"10" widt=
+h=3D"10" border=3D"0"> <span style=3D"font-family: arial, sans-serif; color=
+: rgb(0, 0, 0); font-size: 12px">Catch
+=09=09=09=09                    up with us on</span>
+=09=09=09=09<a href=3D"http://facebook.com/chesscube?utm_source=3DNews-2013=
+-11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Don_facebook" style=3D"font=
+-family: arial, sans-serif; font-style: normal; font-size: 12px; font-weigh=
+t: bold; color: rgb(68, 157, 229);">Facebook</a>
+=09=09=09=09<span style=3D"color: rgb(0, 0, 0);">|</span>
+=09=09=09=09<img src=3D"http://files.chesscube.com.s3.amazonaws.com/newslet=
+ter/news/2013-11-20/sn_linkedin.gif" alt=3D"" style=3D"" height=3D"10" widt=
+h=3D"10" border=3D"0"> <span style=3D"font-family: arial, sans-serif; color=
+: rgb(0, 0, 0); font-size: 12px">Connect
+=09=09=09=09                    with us on</span>
+=09=09=09=09<a href=3D"http://www.linkedin.com/company/chesscube?utm_source=
+=3DNews-2013-11-20&amp;utm_medium=3Demail&amp;utm_campaign=3Don_linkedin" s=
+tyle=3D"font-family: arial, sans-serif; font-style: normal; font-size: 12px=
+; font-weight: bold; color: rgb(68, 157, 229);">LinkedIn</a>
+=09=09=09=09            </td>
+=09=09=09=09        </tr>
+=09=09=09=09    </tbody>
+=09=09=09=09</table>
+
+=09=09
+=09<p style=3D"font-family:arial, sans-serif; font-size:12px; font-family:a=
+rial, sans-serif; font-size: 10px; line-height: 18px; color: #666666; text-=
+align: center;">
+=09  You were sent this email because you're subscribed to receive ChessCub=
+e Newsletters.=20
+=09=09ChessCube will never rent or sell your email address. View our <a hre=
+f=3D"http://www.chesscube.com/privacy" style=3D"font-weight: bold; color: #=
+3c9ce9;">Privacy Policy</a>
+<br /> <br />
+<a href=3D"http://www.chesscube.com/emailPreferences?username=3Dvaskozl&amp=
+;key=3D90P%2F4rEObNejggcs%2Bic6qQ%3D%3D" style=3D"font-weight: bold; color:=
+ #3c9ce9;">Change E-mail Preferences</a> to control what e-mail you get fro=
+m ChessCube.
+=09 |=20
+=09=09<a href=3D"http://www.chesscube.com/unsubscribe?email=3Dvasil.zlatano=
+v1%40malmoborgar.se&amp;key=3DfXg%2FPe%2F58vUTg%2F76EIS9pA%3D%3D" style=3D"=
+font-weight: bold; color: #3c9ce9;"> Unsubscribe</a> from all ChessCube ema=
+ils.
+=09<br /><br />=20
+=09<a href=3D"http://www.chesscube.com/" style=3D"font-weight: bold; color:=
+ #3c9ce9;">ChessCube.com</a> | PO Box 1696 Milnerton 7441 South Africa
+<br /> </p>
+
+    <img src=3D"http://www.chesscube.com/register/umg.gif?username=3Dvaskoz=
+l&amp;utm_source=3DNews-2013-11-20"/>
+
+</td>=20
+</tr>
+</tbody>
+</table>
+
+------=_Part_231382_1200325283.1384941960255--

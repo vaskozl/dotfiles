@@ -1,0 +1,113 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp84169wed;
+        Mon, 30 Sep 2013 08:13:33 -0700 (PDT)
+X-Received: by 10.52.233.2 with SMTP id ts2mr133399vdc.44.1380554012137;
+        Mon, 30 Sep 2013 08:13:32 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f179.google.com (mail-ve0-f179.google.com [209.85.128.179])
+        by mx.google.com with ESMTPS id fb5si177901vcb.15.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 30 Sep 2013 08:13:32 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.128.179 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.179;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.179 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f179.google.com with SMTP id c14so4075307vea.38
+        for <vasil.zlatanov@gmail.com>; Mon, 30 Sep 2013 08:13:31 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:cc:content-type;
+        bh=Imu6xolSHrRpzLSJYujzfvxXxzZZ3bKoYQSbGyrV8hA=;
+        b=YXJ58vv2wHL5rd5FhsGC4zcaFCAMTqs6B85MlZJlSLtYZeYpFXzlhp+qf5Wb+dNUrc
+         EQexdMwnx4L3BObvZlzdBCOy/5i9bPs1Zofl9kPAPgovi8pFZ46O70rWJMj9q6U9rR1k
+         9nLv5zCxYlm3Cp2/Z1s9wlCW7sDtPAZHDkKjPB0GqUIIGMHOgwW+fAUuaquxSs5M+zNo
+         bU09LVzpG0ZAQq966HwPS8zLf23TKr4v+GjZkf54o9TntOQoWvK7pD/li/PpfHgVD1c+
+         5pM0QkcztD32BOf5gKLBuRhrH6p4c3d4QNTK5CihUUYqBgWwFKExhX+RltKPxGcGLM9U
+         TfuA==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.214.175 is neither permitted nor denied by best guess record for domain of kim.freimann@malmoborgar.se) smtp.mail=kim.freimann@malmoborgar.se
+X-Gm-Message-State: ALoCoQkKb69N8J4Pw4PhP0cukl3VgL/PSdYrUC+XNJxtVgocPEsZ53Y/dRYNv1A1iQCcl7fVrgIJ
+X-Received: by 10.52.119.139 with SMTP id ku11mr241650vdb.42.1380554011383;
+        Mon, 30 Sep 2013 08:13:31 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp97621vcv;
+        Mon, 30 Sep 2013 08:13:30 -0700 (PDT)
+X-Received: by 10.182.18.102 with SMTP id v6mr635568obd.71.1380554010637;
+        Mon, 30 Sep 2013 08:13:30 -0700 (PDT)
+Return-Path: <kim.freimann@malmoborgar.se>
+Received: from mail-ob0-f175.google.com (mail-ob0-f175.google.com [209.85.214.175])
+        by mx.google.com with ESMTPS id s9si520910oem.120.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 30 Sep 2013 08:13:30 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.214.175 is neither permitted nor denied by best guess record for domain of kim.freimann@malmoborgar.se) client-ip=209.85.214.175;
+Received: by mail-ob0-f175.google.com with SMTP id uz6so4947265obc.6
+        for <vasil.zlatanov1@malmoborgar.se>; Mon, 30 Sep 2013 08:13:29 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.65.37 with SMTP id u5mr446118oes.72.1380554009213; Mon,
+ 30 Sep 2013 08:13:29 -0700 (PDT)
+Received: by 10.76.124.241 with HTTP; Mon, 30 Sep 2013 08:13:29 -0700 (PDT)
+Date: Mon, 30 Sep 2013 17:13:29 +0200
+Message-ID: <CAFeKAPATYhwOZKA4=x9LvO+J4Rtp4SF7nTwiB=ts7pX2pvMf4g@mail.gmail.com>
+Subject: IYPT help this wednesday, 13-15
+From: Kim Freimann <kim.freimann@malmoborgar.se>
+To: Henrik Gustafsson <henrik.gustafsson1@malmoborgar.se>, 
+	Daniel Nesic <daniel.nesic1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Lars_=C5str=F6m?= <lars.astrom1@malmoborgar.se>, 
+	Malte Larsson <malte.larsson1@malmoborgar.se>, Jakob Helman <jakob.helman1@malmoborgar.se>, 
+	Ali Hassan Hariri <ali-hassan.hariri1@malmoborgar.se>, 
+	Clara Erixon <clara.erixon1@malmoborgar.se>, 
+	Sina Al-Raiss Ali Hussain <sina.al-raiss-ali-hussain1@malmoborgar.se>, 
+	Martin Macek <martin.macek1@malmoborgar.se>, 
+	Karin Risberg <karin.risberg1@malmoborgar.se>, Eric Runevad <eric.runevad1@malmoborgar.se>, 
+	Jeffrey Clark <jeffrey.clark1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Alexander_=C5kesson?= <alexander.akesson1@malmoborgar.se>, 
+	Filip Olsson <filip.olsson1@malmoborgar.se>, 
+	Hassan Alqabanchi <hassan.alqabanchi1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Jacob_R=F6ing?= <jacob.roing1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Jacob_S=F6derstjerna?= <jacob.soderstjerna1@malmoborgar.se>, 
+	Fabrice Suh <fabrice.suh@gmail.com>, Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, Alex McIvor <alex.mcivor1@malmoborgar.se>, 
+	An Phan <an.phan1@malmoborgar.se>, =?ISO-8859-1?Q?Erik_Gral=E9n?= <erik.gralen1@malmoborgar.se>, 
+	Luis Antonio Ordonez Garcia <luis-antonio.ordonez-garcia1@malmoborgar.se>, 
+	Ali Kadhem <ali.kadhem1@malmoborgar.se>
+Cc: =?ISO-8859-1?Q?Jakob_Lavr=F6d?= <jakob@lavrod.se>, 
+	Lars Gislen <larsg@vasterstad.se>, Sam Edgecombe <sam.edgecombe@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=001a11c1ce685027ae04e79b4727
+
+--001a11c1ce685027ae04e79b4727
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi all!
+
+This wednesday, our Physics experts from Lund University are visiting us.
+We'll meet down in the iypt lab room or the room opposite. Bring all your
+results, pictures, graphs, etc. We all want to see your experiments as
+well, if you can show them to us!
+
+See you wednesday!
+Kim and Sam.
+
+13.00 Freezing droplet
+13.20 Oil stars
+13.40 Hologram
+14.00 Rotating saddle
+14.20 Rubber motor
+14.40 Loaded hoop
+
+--001a11c1ce685027ae04e79b4727
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi all!<div><br></div><div>This wednesday, our Physics exp=
+erts from Lund University are visiting us. We&#39;ll meet down in the iypt =
+lab room or the room opposite. Bring all your results, pictures, graphs, et=
+c. We all want to see your experiments as well, if you can show them to us!=
+</div>
+<div><br></div><div>See you wednesday!</div><div>Kim and Sam.</div><div><br=
+></div><div>13.00 Freezing droplet</div><div>13.20 Oil stars</div><div>13.4=
+0 Hologram</div><div>14.00 Rotating saddle</div><div>14.20 Rubber motor</di=
+v>
+<div>14.40 Loaded hoop</div></div>
+
+--001a11c1ce685027ae04e79b4727--

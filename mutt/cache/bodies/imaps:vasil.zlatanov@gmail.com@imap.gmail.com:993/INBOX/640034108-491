@@ -1,0 +1,184 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp351998oac;
+        Tue, 24 Dec 2013 09:53:39 -0800 (PST)
+X-Received: by 10.49.63.164 with SMTP id h4mr55913461qes.62.1387907619188;
+        Tue, 24 Dec 2013 09:53:39 -0800 (PST)
+Return-Path: <noreply-9e3bead4@plus.google.com>
+Received: from mail-vb0-x246.google.com (mail-vb0-x246.google.com [2607:f8b0:400c:c02::246])
+        by mx.google.com with ESMTPS id t7si18462183qar.27.2013.12.24.09.53.38
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 24 Dec 2013 09:53:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply-9e3bead4@plus.google.com designates 2607:f8b0:400c:c02::246 as permitted sender) client-ip=2607:f8b0:400c:c02::246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-9e3bead4@plus.google.com designates 2607:f8b0:400c:c02::246 as permitted sender) smtp.mail=noreply-9e3bead4@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=plus.google.com
+Received: by mail-vb0-x246.google.com with SMTP id w5so7455793vbf.1
+        for <vasil.zlatanov@gmail.com>; Tue, 24 Dec 2013 09:53:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=jfL7632w8WDj3i0erYoZXA66xuSB5JwGZIEf8yMBYh4=;
+        b=jxeE3g5hbxC3MvrgeM27MiI5cAqwqew8TJbHHL6QK//YIuWnApQ5nKayt6YTDJbTw7
+         ZIqwCyoL9QCxgUBjVzC9GgKxDV0avR1bOGDTJaHeJdxlHSJiqlS+VpeMpl+AdQelaA6G
+         Id91fxmv1Dx+EwvVrwcu3B6NYeGWX/HGnI+cl92xuCZCFaOpr/sa1euzQBSuBF3aOkkW
+         YOPvcc9jhS+h2BlV/vda5gOQJa1DNf3E1lHwiKFmJwZMAmbRtwJrZD+YYPUZZ6iemfW2
+         gSiEOZNx+bh7N6eu7BBGSpZlso214vJWAXxSRBnLEfJagRCPF+qSLf3LOzDu8VDY1cqk
+         ct3Q==
+MIME-Version: 1.0
+X-Received: by 10.224.160.208 with SMTP id o16mr13034354qax.8.1387907618620;
+ Tue, 24 Dec 2013 09:53:38 -0800 (PST)
+X-Notifications: XEAAAACYdgkAW5mgy8Agf6ArOpqM
+X-Notification-ID: z13zst5hkzrqwvzln22ewd250tb5crldc
+X-Sender-ID: 115872216224775566143
+X-Notification-Category: CIRCLE
+X-Notification-Type: CIRCLE_PERSONAL_ADD
+X-All-Senders-In-Circles: 1
+Reply-To: "Google+" <noreply-9e3bead4@plus.google.com>
+X-UB: 1
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2F115872216224775566143%2Fop%2Fmute&dt=1387907618578&ub=1>
+Precedence: bulk
+Date: Tue, 24 Dec 2013 09:53:38 -0800 (PST)
+Message-ID: <z13zst5hkzrqwvzln22ewd250tb5crldc@plus.google.com>
+Subject: Marcus Engvall added you on Google+
+From: "Google+" <noreply-9e3bead4@plus.google.com>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=089e0141a65a96c59e04ee4b6ca2
+
+--089e0141a65a96c59e04ee4b6ca2
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Follow and share with Marcus by adding him to a circle.
+
+Don't know some of these people? You don't have to add them back (they'll  
+only see what's shared with them). Learn more:  
+http://www.google.com/support/+/bin/answer.py?answer=1047805
+
+Add to circles:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2F115872216224775566143&dt=1387907618578&ub=1
+
+Be careful about sharing information with strangers. If you don't know this  
+person, we recommend that you don't add them to your circles. You can also  
+block them to prevent further contact from this person:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2F115872216224775566143%2Fop%2Fblock&dt=1387907618578&ub=1
+
+------------------------
+Change what email Google+ sends you:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2Fsettings%2Fplus&dt=1387907618578&ub=1
+View Marcus's profile:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2F115872216224775566143&dt=1387907618578&ub=1
+Block Marcus completely:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CPD_zOS2ybsCFSu7Qgod01wAAA&path=%2F115872216224775566143%2Fop%2Fblock&dt=1387907618578&ub=1
+Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA
+
+
+
+--089e0141a65a96c59e04ee4b6ca2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><!-- X-Notifications: 2:d752e07e84000000,3b44297cd4000000 --><d=
+iv style=3D"border:solid 1px #dfdfdf;color:#686868;font:13px Arial"><div st=
+yle=3D"background-color:#fff;padding:20px;"><table cellpadding=3D0 cellspac=
+ing=3D0><tr><td style=3D"padding-right:15px;vertical-align:top"><a href=3D"=
+https://plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&e=
+mid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F115872216224775566143&dt=3D13879=
+07618578&ub=3D1"><img width=3D"75" height=3D"75" style=3D"border:solid 1px =
+#cccccc;" src=3D"https://lh3.googleusercontent.com/-CBWwu3Gdsus/AAAAAAAAAAI=
+/AAAAAAAAEKQ/BQ4HOD2XhYg/s75-c-k-a/photo.jpg" /></a></td><td style=3D"width=
+:578px;color:#333;font:13px Arial;vertical-align:top;color:#686868;font:16p=
+x Arial">Follow and share with <a href=3D"https://plus.google.com/_/notific=
+ations/emlink?emr=3D16653725519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&=
+path=3D%2F115872216224775566143&dt=3D1387907618578&ub=3D1" style=3D"color:#=
+3366CC;text-decoration:none">Marcus</a> by adding him to a circle.<div styl=
+e=3D"width:578px;color:#333;font:13px Arial;vertical-align:top;padding-top:=
+10px">Don't know this person? You don't have to add them back (they'll only=
+ see what's shared with them). <a href=3D"http://www.google.com/support/+/b=
+in/answer.py?answer=3D1047805" style=3D"color:#3366CC;text-decoration:none"=
+>Learn more</a>.</div><div style=3D"margin-top:10px"><a href=3D"https://plu=
+s.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCPD_z=
+OS2ybsCFSu7Qgod01wAAA&path=3D%2F115872216224775566143&dt=3D1387907618578&ub=
+=3D1" style=3D"background-color:#d44b38;border:solid 1px #dfdfdf;border-rad=
+ius:3px;color:#fff;display:inline-block;font-family: Arial;font-size:13px;h=
+eight:30px;line-height:30px;min-width:54px;padding:1px 20px;text-align:cent=
+er;text-decoration:none;white-space:nowrap;"rel=3D"acb115872216224775566143=
+">Add to circles</a></div></td></tr></table><div style=3D"width:578px;color=
+:#333;font:13px Arial;vertical-align:top;color:#686868;font:16px Arial;font=
+:14px Arial; margin-top:10px;background-color:#fcf6e1;padding:5px"><b>Be ca=
+reful about sharing information with strangers.</b> If you don't know this =
+person, we recommend that you don't add them to your circles. You can also =
+<a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D16653725519=
+842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F115872216224775566143=
+%2Fop%2Fblock&dt=3D1387907618578&ub=3D1" style=3D"color:#3366CC;text-decora=
+tion:none">block them</a> to prevent further contact from this person.</div=
+><div style=3D"border-top:solid 1px #ddd;margin-top:20px"><div style=3D"pad=
+ding-top:20px">People you might know in Marcus Engvall's circles. <a href=
+=3D"https://plus.google.com/_/notifications/emlink?emr=3D166537255198421512=
+72&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F115872216224775566143&dt=3D1=
+387907618578&src=3D1&ub=3D1" style=3D"color:#3366CC;text-decoration:none">V=
+iew all &raquo;</a></div><table cellpadding=3D0 cellspacing=3D0 style=3D"fo=
+nt:13px Arial"><tr><td style=3D"padding-top:20px;"><img width=3D"60" height=
+=3D"60" style=3D"border:solid 1px #cccccc;" src=3D"https://lh5.googleuserco=
+ntent.com/-osQXMEjspTk/AAAAAAAAAAI/AAAAAAAAALQ/HpGfQcwmCPw/s75-c-k-a/photo.=
+jpg" /></td><td style=3D"padding:20px 20px 0 10px;vertical-align:top;line-h=
+eight:150%;width:95px;"><div style=3D"margin-bottom:8px;white-space:nowrap;=
+"><div style=3D"overflow:hidden;text-overflow:ellipsis;"><a href=3D"https:/=
+/plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DC=
+PD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F118327717583181684092&dt=3D138790761857=
+8&src=3D1&ub=3D1" style=3D"$ij.linkStyle">Juliette W</a></div><div style=3D=
+"overflow:hidden;text-overflow:ellipsis;color:#666;">Ystad, Sweden</div></d=
+iv><a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D16653725=
+519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F118327717583181684=
+092&dt=3D1387907618578&src=3D1&ub=3D1" rel=3D"acs118327717583181684092" sty=
+le=3D"border:solid 1px #dfdfdf;padding:2px 8px;color:#333; font:11px Arial;=
+background-color:#f5f5f5;text-decoration:none;">Add to circles</a></td><td =
+style=3D"padding-top:20px;"><img width=3D"60" height=3D"60" style=3D"border=
+:solid 1px #cccccc;" src=3D"https://lh6.googleusercontent.com/-dbOn2ey7Usw/=
+AAAAAAAAAAI/AAAAAAAAAGY/LDEc0Hcu6DI/s75-c-k-a/photo.jpg" /></td><td style=
+=3D"padding:20px 20px 0 10px;vertical-align:top;line-height:150%;width:95px=
+;"><div style=3D"margin-bottom:8px;white-space:nowrap;"><div style=3D"overf=
+low:hidden;text-overflow:ellipsis;"><a href=3D"https://plus.google.com/_/no=
+tifications/emlink?emr=3D16653725519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01=
+wAAA&path=3D%2F108833575570215659031&dt=3D1387907618578&src=3D1&ub=3D1" sty=
+le=3D"$ij.linkStyle">Adam Wallander</a></div><div style=3D"overflow:hidden;=
+text-overflow:ellipsis;color:#666;">Awesome-Gaming</div></div><a href=3D"ht=
+tps://plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&emi=
+d=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F108833575570215659031&dt=3D1387907=
+618578&src=3D1&ub=3D1" rel=3D"acs108833575570215659031" style=3D"border:sol=
+id 1px #dfdfdf;padding:2px 8px;color:#333; font:11px Arial;background-color=
+:#f5f5f5;text-decoration:none;">Add to circles</a></td><td style=3D"padding=
+-top:20px;"><img width=3D"60" height=3D"60" style=3D"border:solid 1px #cccc=
+cc;" src=3D"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAA=
+AAAAAAA/4252rscbv5M/s75/photo.jpg" /></td><td style=3D"padding:20px 20px 0 =
+10px;vertical-align:top;line-height:150%;width:95px;"><div style=3D"margin-=
+bottom:8px;white-space:nowrap;"><div style=3D"overflow:hidden;text-overflow=
+:ellipsis;"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D16653725519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F1094389=
+59462676282757&dt=3D1387907618578&src=3D1&ub=3D1" style=3D"$ij.linkStyle">L=
+ars Engvall</a></div><div style=3D"overflow:hidden;text-overflow:ellipsis;c=
+olor:#666;"></div></div><a href=3D"https://plus.google.com/_/notifications/=
+emlink?emr=3D16653725519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D=
+%2F109438959462676282757&dt=3D1387907618578&src=3D1&ub=3D1" rel=3D"acs10943=
+8959462676282757" style=3D"border:solid 1px #dfdfdf;padding:2px 8px;color:#=
+333; font:11px Arial;background-color:#f5f5f5;text-decoration:none;">Add to=
+ circles</a></td></tr></table></div></div><div style=3D"border-top:solid 1p=
+x #dfdfdf;padding:0 20px; background-color:#f5f5f5"><table cellpadding=3D0 =
+cellspacing=3D0 style=3D"height:50px"><tbody><tr><td style=3D"vertical-alig=
+n:middle;width:100%; color:#636363;font:11px Arial; line-height:120%"><a hr=
+ef=3D"https://plus.google.com/_/notifications/emlink?emr=3D1665372551984215=
+1272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&path=3D%2Fsettings%2Fplus&dt=3D13879=
+07618578&ub=3D1" style=3D"color:#3366CC;text-decoration:none">Change</a> wh=
+at email Google+ sends you. <a href=3D"https://plus.google.com/_/notificati=
+ons/emlink?emr=3D16653725519842151272&emid=3DCPD_zOS2ybsCFSu7Qgod01wAAA&pat=
+h=3D%2F115872216224775566143&dt=3D1387907618578&ub=3D1" style=3D"color:#336=
+6CC;text-decoration:none">View</a> Marcus's profile or <a href=3D"https://p=
+lus.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCPD=
+_zOS2ybsCFSu7Qgod01wAAA&path=3D%2F115872216224775566143%2Fop%2Fblock&dt=3D1=
+387907618578&ub=3D1" style=3D"color:#3366CC;text-decoration:none">block</a>=
+ Marcus completely.<br>Google Inc., 1600 Amphitheatre Pkwy, Mountain View, =
+CA 94043 USA<br></td><td><img src=3D"https://ssl.gstatic.com/s2/oz/images/n=
+otifications/logo/google-plus-6617a72bb36cc548861652780c9e6ff1.png" /></td>=
+</tr></tbody></table></div></div></body></html>
+--089e0141a65a96c59e04ee4b6ca2--

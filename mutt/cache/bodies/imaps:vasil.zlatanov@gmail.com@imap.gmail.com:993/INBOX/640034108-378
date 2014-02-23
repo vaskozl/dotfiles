@@ -1,0 +1,406 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp294165wed;
+        Thu, 26 Sep 2013 10:57:00 -0700 (PDT)
+X-Received: by 10.68.255.229 with SMTP id at5mr2651167pbd.130.1380218220130;
+        Thu, 26 Sep 2013 10:57:00 -0700 (PDT)
+Return-Path: <vasil.zlatanov@live.com>
+Received: from col0-omc2-s2.col0.hotmail.com (col0-omc2-s2.col0.hotmail.com. [65.55.34.76])
+        by mx.google.com with ESMTP id mo9si2406846pbc.246.1969.12.31.16.00.00;
+        Thu, 26 Sep 2013 10:57:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.34.76 as permitted sender) client-ip=65.55.34.76;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of vasil.zlatanov@live.com designates 65.55.34.76 as permitted sender) smtp.mail=vasil.zlatanov@live.com;
+       dkim=pass header.i=@email.blizzard.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=email.blizzard.com
+Received: from COL0-MC3-F32.Col0.hotmail.com ([65.55.34.72]) by col0-omc2-s2.col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Thu, 26 Sep 2013 10:56:47 -0700
+Resent-Message-ID: <COL0-MC3-F32E90534E539F504E663EBF9280@phx.gbl>
+Resent-To: vasil.zlatanov@gmail.com
+Resent-Date: Thu, 26 Sep 2013 10:56:48 -0700
+Resent-From: vasil.zlatanov@live.com
+X-HM-Routing-Path:VWMmT4cWE070XQ9LcnIhwcKrWTvaB9wA8oJcjedwipC7VCBdqPMzuhsxGLvBWVh/Y8Ewl4JJJk5m8Xn4Kr3a4e8i9EFT8N7ZuPKs6/92McfPngyygzgc0FsbaFqBqMZMHOO1nwuKsKiP3VTRfZoAWVhsrSNCGkdT
+Received: from email.blizzard.com ([12.129.200.219]) by COL0-MC3-F32.Col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Thu, 26 Sep 2013 10:56:46 -0700
+DKIM-Signature: v=1; a=rsa-sha256; d=email.blizzard.com; s=em; c=relaxed/relaxed; l=15467; i=@*.email.blizzard.com; t=1380218199; x=1411754199; q=dns/txt; h=Date:From:To:Message-ID:Subject; bh=VWzRvjOItG/iNEtZjjUZTjLbH1W/nqk9b9SIJBdlAKM=; b=ofggsMhkoK7cxLQQxX15NjzhyNv+tzkjCnnoataO0GLW8eAMICJHKWS6KfJdGigPX5iTJQqLNr5otgKz8KpfZlOc2P9sIFfRFj6hmDvID+C/2BHSoGJGCrNfr9ji6DCNK1Y6I8B201Jwf31CeVay8yEstC0JLVyeYuFJRL4DqyM=
+Date: Thu, 26 Sep 2013 18:56:39 +0100 (BST)
+From: "Blizzard Entertainment" <Newsletter@email.blizzard.com>
+To: vasil.zlatanov@live.com
+Message-ID: <em.79d9e3d1.20130926181241.1.1.1590837.1196301@email.blizzard.com>
+Subject: =?UTF-8?Q?Vasil_=E2=80=93_Get_back_to_school_wi?=
+ =?UTF-8?Q?th_up_to_50%_off_StarCraft_II?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailer:  7.2.2.3.25; blizzard
+Return-Path: Newsletter@email.blizzard.com
+X-OriginalArrivalTime: 26 Sep 2013 17:56:46.0410 (UTC) FILETIME=[C44CD2A0:01CEBAE1]
+
+<html>
+<head>
+=09<title>Get back to school with up to 50% OFF - Starcraft II</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style type=3D"text/css">
+body {
+=09margin-left: 0px;
+=09margin-top: 0px;
+=09margin-right: 0px;
+=09margin-bottom: 0px;
+}
+</style>
+</head>=09
+<body bgcolor=3D"#000000" link=3D"#4db3d4" vlink=3D"#4db3d4" alink=3D"#4db3=
+d4">
+  <!-- lang select start -->  =20
+  <table width=3D"613" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+            <tr>
+                <td colSpan=3D4>
+                    <div align=3D"center"><font face=3D"Arial, Helvetica, s=
+ans-serif" color=3D#999999 size=3D1>Having trouble viewing this email?</fon=
+t>
+                       =20
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/de/ind=
+ex_de-de.html" style=3D"color: #DD700C">DE</a></font>                      =
+ =20
+=09=09=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#9999=
+99 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/en/ind=
+ex_en-gb.html" style=3D"color: #DD700C">EN</a></font>                      =
+ =20
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/es/ind=
+ex_es-es.html" style=3D"color: #DD700C">ES</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/fr/ind=
+ex_fr-fr.html" style=3D"color: #DD700C">FR</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/it/ind=
+ex_it-it.html" style=3D"color: #DD700C">IT</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/pl/ind=
+ex_pl-pl.html" style=3D"color: #DD700C">PL</a></font>
+                        <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1> &ndash; </font>
+                        <font face=3D"Arial, Helvetica, sans-serif" size=3D=
+1><a href=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/ru/ind=
+ex_ru-ru.html" style=3D"color: #DD700C">RU</a></font>
+                         <font face=3D"Arial, Helvetica, sans-serif" color=
+=3D#999999 size=3D1>
+                        <br>                       =20
+                        To ensure you receive emails from Blizzard, add <st=
+rong style=3D"color: #DD700C">Newsletter@email.blizzard.com</strong> to you=
+r address book.
+                        <br />
+    Change the <font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=
+=3D"https://eu.battle.net/account/management/settings/change-communication.=
+html" style=3D"color: #DD700C">preferred language</a></font> you receive e-=
+mails in. </font>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- lang select end -->
+  <tr>
+    <td width=3D"613" bgcolor=3D"#000000"><table cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" width=3D"613">
+      <tr>
+        <td colspan=3D"1" width=3D"613"  height=3D"422" valign=3D"top"><a h=
+ref=3D"http://email.blizzard.com/Key-1196301.C.QhVj.C.C.nFhXDQ"><img style=
+=3D"display:block;" src=3D"http://media.wow-europe.com/email/2013/sc2/backt=
+oschool/_images/header-en.jpg" width=3D"613" height=3D"422" border=3D"0"></=
+a></td>
+      </tr>
+       <tr height=3D"100%">
+        <td width=3D"613" valign=3D"top"><table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+          <tr>
+            <td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgc=
+olor=3D"#141d1d">
+           =20
+<!-- text1 start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 0 30 0 40px;"><p style=
+=3D"color:#4db3d4; font-weight: bold; margin: 0; padding: 0; font-size: 18p=
+x; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-serif; ">Vasi=
+l,</p><br/><p style=3D"color:#a3b7b9; font-weight: normal; margin: 0; paddi=
+ng: 0; line-height: 20px; font-size: 14px; font-family: Calibri, Trebuchet =
+MS, arial, helvetica, sans-serif; ">Get back to school with massive savings=
+ and cool perks for StarCraft=C2=AE II. Now until October&nbsp;2nd, we're o=
+ffering the following:
+</p></td>
+              </tr>
+<!-- text1 end -->
+<!-- text1 start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 10 30 0 60px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; padding: 0; line-height=
+: 20px; font-size: 14px; font-family: Calibri, Trebuchet MS, arial, helveti=
+ca, sans-serif; "><span style=3D"color: #4db3d4;">=E2=80=A2</span>  50% Off=
+ <i>StarCraft=C2=AE II: Wings of Liberty=C2=AE</i> and 25% off <i>Heart of =
+the Swarm=E2=84=A2</i><br/><span style=3D"color: #4db3d4;">=E2=80=A2</span>=
+  A new Feat of Strength achievement, earned by winning games, that unlocks=
+ three exclusive character portraits<br/>
+<span style=3D"color: #4db3d4;">=E2=80=A2</span>  100% XP bonus for all gam=
+es played*<br/>
+<span style=3D"color: #4db3d4;">=E2=80=A2</span>  Access to all three races=
+ for StarCraft II: Starter Edition players
+
+</p></td>
+              </tr>
+<!-- text1 end -->
+<!-- main image -->
+      <tr>
+        <td width=3D"613"  height=3D"360" valign=3D"top"><a href=3D"http://=
+email.blizzard.com/Key-1196301.C.QhVj.C.C.nFhXDQ"><img style=3D"display:blo=
+ck;" src=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/_images=
+/product-en.jpg" width=3D"613" height=3D"360" border=3D"0"></a></td>
+      </tr>
+<!-- main image end-->
+<!-- divider start -->
+              <tr>
+                <td align=3D"center"  bgcolor=3D"#141d1d" valign=3D"top" st=
+yle=3D"padding: 10 0 10 0px;"><img width=3D"546" height=3D"2" border=3D"0" =
+src=3D"http://us.media.blizzard.com/emails/sc2-back-to-school/divider03.jpg=
+">
+                </td>
+              </tr>
+<!-- divider end -->
+<!-- text1 title start -->
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 30 0 40px;">
+                <p style=3D"color:#4db3d4; font-weight: bold; margin: 0; pa=
+dding: 0; font-size: 18px; font-family: Calibri, Trebuchet MS, arial, helve=
+tica, sans-serif; ">School Your Friends with the StarCraft II: Starter Edit=
+ion
+</p></td>
+              </tr>
+<!-- text1 title end -->
+<!-- text1 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 10 30 0 40px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; ">Try the game for free, using <a href=3D"https://eu.battle.net/account=
+/sc2/starter-edition/?utm_content=3DTry_it_free&utm_medium=3DMain_Banner_2&=
+utm_campaign=3DShop_Buy&utm_source=3DInternal-SC2">StarCraft II: Starter Ed=
+ition</a>. Until October 2nd, Starter Edition players will enjoy access to =
+all three races. If you already own StarCraft II, share the full experience=
+ with your Starter Edition friends using our recently implemented <a href=
+=3D"http://eu.battle.net/sc2/en/buy-now/spawning?utm_campaign=3DShop_Buy&ut=
+m_source=3DInternal-SC2&utm_medium=3DMain_Banner_1&utm_content=3DShare_with=
+_friends">Spawning feature</a>.</p></td>
+              </tr>
+<!-- text1 body end -->
+<!-- button start -->
+              <tr>
+                <td align=3D"center"  bgcolor=3D"#141d1d" valign=3D"top" st=
+yle=3D"padding: 0 20 0 20px;"><a href=3D"http://email.blizzard.com/Key-1196=
+301.C.QhVj.D.C.nFhWdC"><img width=3D"269" height=3D"106" border=3D"0" src=
+=3D"http://media.wow-europe.com/email/2013/sc2/backtoschool/_images/button-=
+en.jpg"></a>
+                </td>
+              </tr>
+<!-- button end -->
+<!-- divider start -->
+              <tr>
+                <td align=3D"center"  bgcolor=3D"#141d1d" valign=3D"top" st=
+yle=3D"padding: 10 0 10 0px;"><img width=3D"546" height=3D"2" border=3D"0" =
+src=3D"http://us.media.blizzard.com/emails/sc2-back-to-school/divider03.jpg=
+">
+                </td>
+              </tr>
+<!-- divider end -->
+<!-- text2 title start -->
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 40 0 40px;">
+                <p style=3D"color:#4db3d4; font-weight: bold; margin: 0; fo=
+nt-size: 18px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-s=
+erif; ">Study Up on StarCraft II Strategies with Brilliant Community Conten=
+t!
+</p></td>
+              </tr>
+<!-- text2 title end -->
+<!-- text2 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 40 0 40px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; ">Get a foundational StarCraft II education from Shaun "Apollo" Clark a=
+nd his <a href=3D"http://www.youtube.com/playlist?list=3DPLPW1oxf-pY2z_TlIp=
+qbP5QU_R940oevX9">1v1 tutorials on YouTube</a>, or dig in to Apollo's more =
+personalized lessons on his <a href=3D"http://www.youtube.com/playlist?list=
+=3DPLPW1oxf-pY2xn1EaRakhffqmjI7qyDrhE">Improve with Apollo series</a>.
+</p></td>
+              </tr>
+<!-- text2 body end -->
+<!-- text2 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 40 0 40px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; ">
+Once you've taken notes on the basics, research new strategies and tactics =
+with Sean "Day[9]" Plott and his pro replay analysis on the <a href=3D"http=
+://www.youtube.com/playlist?list=3DPLgmCLtUkEutKWTmbYO9o3NfSlUFudJB-A">Day[=
+9] Daily</a>. You can also tune in to <a href=3D"http://day9.tv/">www.day9.=
+tv</a> to catch his live show Mondays through Thursdays at 7:00 p.m. PDT.
+
+</p></td>
+              </tr>
+<!-- text2 body end -->
+<!-- text2 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 40 0 40px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; ">
+Advanced students can explore higher education with professional StarCraft =
+II team Evil Geniuses and their <a href=3D"http://www.youtube.com/watch?v=
+=3DXb5Ip6hqvk4&list=3DPLLgTDrhubXrzj03AG8_NC1FcyRVC43h9o">Pro Tip Collectio=
+n</a> replay review series.
+</p></td>
+              </tr>
+<!-- text2 body end -->
+<!-- text2 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 40 0 40px;"><p styl=
+e=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; ">
+If you'd rather hone your creative side, the <a href=3D"http://www.sc2mapst=
+er.com/wiki/galaxy/tutorials/">Galaxy Editor Tutorial</a> Archive at SC2Map=
+ster.com will sharpen your skills on developing StarCraft II Arcade and Cus=
+tom Games.
+</p></td>
+              </tr>
+<!-- text2 body end -->
+<!-- divider start -->
+              <tr>
+                <td align=3D"center"  bgcolor=3D"#141d1d" valign=3D"top" st=
+yle=3D"padding: 30 0 10 0px;"><img width=3D"546" height=3D"2" border=3D"0" =
+src=3D"http://us.media.blizzard.com/emails/sc2-back-to-school/divider03.jpg=
+">
+                </td>
+              </tr>
+<!-- divider end -->
+<!-- text3 title start -->
+              <tr>
+                <td valign=3D"top" style=3D"padding: 20 30 0 40px;">
+                <p style=3D"color:#4db3d4; font-weight: bold; margin: 0; fo=
+nt-size: 18px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-s=
+erif; ">Train Your Brain!
+</p></td>
+              </tr>
+<!-- text3 title end -->
+<!-- text3 body start -->             =20
+              <tr>
+                <td valign=3D"top" style=3D"padding: 16 30 20 40px;"><p sty=
+le=3D"color:#a3b7b9; font-weight: normal; margin: 0; line-height: 18px; fon=
+t-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-se=
+rif; ">A <a href=3D"http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fj=
+ournal.pone.0070350">recent study</a> indicates that playing StarCraft II c=
+an help you sharpen your cognitive flexibility, which is all the more reaso=
+n to pencil a few ladder games in to your homework schedule. If you're scur=
+rying off to class, this <a href=3D"https://www.youtube.com/watch?v=3D39KWN=
+MkbX1A">video summary</a> of the study's results will give you all of the d=
+etails while you're on the go.<br/><br/>Thank you to Jon Burton from Carbot=
+ Animations for the Back to School artwork.  You can watch more of his Star=
+Crafts animations on his <a href=3D"http://www.youtube.com/user/CarbotAnima=
+tions">YouTube channel</a>.<br/><br/>- The <i>StarCraft II</i> Team</p></td=
+>
+              </tr>
+<!-- text3 body end -->
+            </table></td>
+          </tr>
+         </table></td>
+      </tr>
+
+<!--blizzard logo start -->
+      <tr>
+        <td valign=3D"top" bgcolor=3D"#141d1d" width=3D"613" height=3D"102"=
+ ><img style=3D"display:block;" src=3D"http://us.media.blizzard.com/emails/=
+sc2-back-to-school/footer.jpg" border=3D"0" height=3D"102" width=3D"613"></=
+td>
+      </tr>
+<!--blizzard logo end -->
+     =20
+     =20
+   </table></td>
+  </tr>
+  <tr>
+
+
+<!-- footer text -->
+<td width=3D"613" bgcolor=3D"#141d1d"><table border=3D"0" cellspacing=3D"20=
+" cellpadding=3D"0" width=3D"613" bgcolor=3D"#141d1d">
+            <tr>
+                <td style=3D"padding: 0 1em 0 0;" valign=3D"top">
+                    <p style=3D"margin-bottom: 12px;">
+                        <font color=3D"#999999" face=3D"Arial">
+                            <span style=3D"font-size: 10px; font-family: Ar=
+ial;">=09Terms and Conditions:<br/>Offer ends October 2nd, 2013
+=09=09=09=09=09=09=09<br><br>
+                            *XP bonus ends October 1st, 2013
+                            <br><br>
+=09=09=09=09=09=09=09If you no longer wish to receive Blizzard newsletters,=
+ or information relating to Blizzard products, please reply to this email u=
+sing the subject line "Unsubscribe".
+=09=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09=09To read our privacy policy visit:</span>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<a href=3D"http://eu.blizzard.com/en-gb/company/about/=
+privacy.html">
+=09=09=09=09=09=09=09<span style=3D"font-size: 10px; font-family: Arial;">h=
+ttp://eu.blizzard.com/en-gb/company/about/privacy.html</span></a>
+=09=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09=09=09<!-- PEGI LOGO -->
+=09=09=09=09=09=09=09<a href=3D"http://www.pegi.info/en/index/"><img src=3D=
+"http://media.wow-europe.com/ratings/pegi_16_med.jpg" width=3D"60" height=
+=3D"79" style=3D"display: block; color: #DD700C" align=3D"left" border=3D"0=
+" hspace=3D"5"></a><span style=3D"font-size: 10px; font-family: Arial;">
+=09=09=09=09=09=09=09=C2=A9 2013 Blizzard Entertainment, Inc. All rights re=
+served.
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09Blizzard Entertainment, StarCraft, Wings of Liberty, H=
+eart of the Swarm and Battle.net are trademarks or registered trademarks in=
+ the U.S. and/or other countries. All other trademarks are the property of =
+their respective owners.
+=09=09=09=09=09=09=09</span>
+=09=09=09=09=09=09</font>
+                    </p>
+                </td>
+                <td style=3D"padding: 0 0 0 0;" valign=3D"top">
+                    <p style=3D"margin-bottom: 12px;">
+                        <font color=3D"#999999" face=3D"Arial"><span style=
+=3D"font-size: 10px; font-family: Arial;">
+                            Technical Support:
+                            <br>
+                            <a href=3D"http://eu.battle.net/support/en/">ht=
+tp://eu.battle.net/support/en/</a>
+                            <br>
+                            <br>
+                            Visit Blizzard on the world wide web at: <a hre=
+f=3D"http://eu.blizzard.com/en-gb/">eu.blizzard.com/en/</a>
+                        </span></font>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+    </td>
+<!-- logos -->
+</table>
+<BR>.<BR><BR><img src=3D"http://email.blizzard.com/blankpixel.gif/Key-11963=
+01.C.QhVj.z.C.JmhBy9"/><BR><BR>Message-Id: &lt;em.79d9e3d1.20130926181241.1=
+.1.1590837.1196301@email.blizzard.com&gt;<BR></body>
+</html>

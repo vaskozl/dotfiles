@@ -1,0 +1,4 @@
+#!/bin/sh
+ratpoison -c 'ratwarp 1332 568'
+ratpoison -c 'ratclick 1'
+ratpoison -c banish

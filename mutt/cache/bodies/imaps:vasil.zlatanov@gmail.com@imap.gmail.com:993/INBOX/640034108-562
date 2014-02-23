@@ -1,0 +1,111 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp215255oac;
+        Sun, 9 Feb 2014 06:05:07 -0800 (PST)
+X-Received: by 10.220.164.80 with SMTP id d16mr19012538vcy.15.1391954707230;
+        Sun, 09 Feb 2014 06:05:07 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f173.google.com (mail-vc0-f173.google.com [209.85.220.173])
+        by mx.google.com with ESMTPS id wg4si3651797vcb.113.2014.02.09.06.05.06
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 09 Feb 2014 06:05:07 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.173;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f173.google.com with SMTP id ld13so3963411vcb.4
+        for <vasil.zlatanov@gmail.com>; Sun, 09 Feb 2014 06:05:06 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:message-id:date:subject:from:to:cc:content-type;
+        bh=deNnCcrNeMTYf6JAWPo9vasrfLGsHIKeQRwUmAT4Hqg=;
+        b=Xwz/Hwx9DiM/5eKEUrNUw1DQ8HWxX/MA9jbmSlE7mHxDT4tdSLQX2R1Y9euudaTcsA
+         TL5z0zxFsIBvlPmwW4PQvBHKaVeEbeZDdysP2KBGp092t5e6ERcyeYkn02TAgNX3TAys
+         gkvGIhwZlrTcEOTSyeeHJu6VQGhkciEHAtoW57o6hGTanWayCh4TLddiF1k7BjWuhFWB
+         7TZeVupBVZS+zDBJDOHnLHyvrF6kniK1fzlcU4p0cN5ZoPf184DC8aOEHeAxQw4YhJ2y
+         5kkMZNuDqPmIAMQGMgK01yNTRMZUI/oMyuGcVo3WRcyVCq1gNSFoF2TR/r7aN+rfblar
+         Gw3w==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of 3EYv3UhgOAKIQUMCT.UVWTO-MTKUVKCPUGPdOCNOQDQTICT.UG@doclist.bounces.google.com designates 209.85.216.197 as permitted sender) smtp.mail=3EYv3UhgOAKIQUMCT.UVWTO-MTKUVKCPUGPdOCNOQDQTICT.UG@doclist.bounces.google.com
+X-Gm-Message-State: ALoCoQkHvCqmq6ApVIXqaaDz36ajBEIvRaQ7sxl6Kz+5hYh9azy0HwNKlUz3Q0ADffscYwRX65ZA
+X-Received: by 10.52.188.41 with SMTP id fx9mr16088800vdc.19.1391954706666;
+        Sun, 09 Feb 2014 06:05:06 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.151.75 with SMTP id b11csp84696vcw;
+        Sun, 9 Feb 2014 06:05:06 -0800 (PST)
+X-Received: by 10.140.86.202 with SMTP id p68mr36752504qgd.81.1391954706077;
+        Sun, 09 Feb 2014 06:05:06 -0800 (PST)
+Return-Path: <3EYv3UhgOAKIQUMCT.UVWTO-MTKUVKCPUGPdOCNOQDQTICT.UG@doclist.bounces.google.com>
+Received: from mail-qc0-f197.google.com (mail-qc0-f197.google.com [209.85.216.197])
+        by mx.google.com with ESMTPS id q2si7949358qaq.67.2014.02.09.06.05.05
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 09 Feb 2014 06:05:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3EYv3UhgOAKIQUMCT.UVWTO-MTKUVKCPUGPdOCNOQDQTICT.UG@doclist.bounces.google.com designates 209.85.216.197 as permitted sender) client-ip=209.85.216.197;
+Received: by mail-qc0-f197.google.com with SMTP id e16so11860804qcx.0
+        for <vasil.zlatanov1@malmoborgar.se>; Sun, 09 Feb 2014 06:05:05 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.236.19.36 with SMTP id m24mr8280784yhm.14.1391954705485;
+ Sun, 09 Feb 2014 06:05:05 -0800 (PST)
+X-Originating-IP: 161.52.14.71
+X-No-Auto-Attachment: 1
+Message-ID: <089e01635270c3ad9f04f1f9b5ab@google.com>
+Date: Sun, 09 Feb 2014 14:05:05 +0000
+Subject: Annotated poems by Wilfred Owen (vasil.zlatanov1@malmoborgar.se)
+From: "Oskar Sturm Kristiansen (Google Drive)" <oskar.sturm-kristiansen1@malmoborgar.se>
+To: vasil.zlatanov1@malmoborgar.se
+Cc: patrik.liedbeck1@malmoborgar.se
+Content-Type: multipart/alternative; boundary=089e01635270c3ad9704f1f9b5a8
+
+--089e01635270c3ad9704f1f9b5a8
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+I've shared an item with you:
+
+Annotated poems by Wilfred Owen
+https://drive.google.com/a/malmoborgar.se/folderview?id=0B5viZpNo9NVoTHZUU3l1S29SVFE&usp=sharing
+
+It's not an attachment -- it's stored online. To open this item, just click  
+the link above.
+
+
+--089e01635270c3ad9704f1f9b5a8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">I've =
+shared an item with you.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/folder-1.png" alt=3D"Collection" style=3D"vertical-=
+align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"Annotated poems by Wilfr=
+ed Owen">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://drive.google.com/a/malmoborgar.se/folderview?id=3D0B5=
+viZpNo9NVoTHZUU3l1S29SVFE&amp;usp=3Dsharing" style=3D"vertical-align:middle=
+; text-decoration:none; color:#1154cc;" itemprop=3D"url">Annotated poems by=
+ Wilfred Owen</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: create, share, and keep all your stuff in one place.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logo for Googl=
+e Drive"></a></td></tr></tbody></table></div></div></body></html>
+--089e01635270c3ad9704f1f9b5a8--

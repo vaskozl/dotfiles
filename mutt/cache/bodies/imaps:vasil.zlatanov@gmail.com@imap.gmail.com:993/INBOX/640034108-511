@@ -1,0 +1,116 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp17617oac;
+        Thu, 9 Jan 2014 03:55:48 -0800 (PST)
+X-Received: by 10.194.142.174 with SMTP id rx14mr2442774wjb.45.1389268547809;
+        Thu, 09 Jan 2014 03:55:47 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-we0-f171.google.com (mail-we0-f171.google.com [74.125.82.171])
+        by mx.google.com with ESMTPS id ce5si1178800wjc.98.2014.01.09.03.55.47
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 09 Jan 2014 03:55:47 -0800 (PST)
+Received-SPF: neutral (google.com: 74.125.82.171 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=74.125.82.171;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.171 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-we0-f171.google.com with SMTP id q58so2690450wes.30
+        for <vasil.zlatanov@gmail.com>; Thu, 09 Jan 2014 03:55:47 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:mime-version:date:message-id
+         :subject:from:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe:content-type;
+        bh=pTy2uZ45bh/D1XRxP5oMIWE1n0UZbooEyuyPBdFOxu0=;
+        b=B+SkrJ1FfNRi5W7MmRVreSc5zPqoFVJeF7jySjFd0/vNaiOITAOPIG6tQr5LEKeL+V
+         AVfFcWnQcRnXB+sJi1fGjGQxbHPdj4oKRTDQXWLv8qwqz180r9dzZ+1g8rDLsJcOVU3N
+         q04kz5dcNAP5N/6vhGKBJ8m6/9ZCMCH5ROCu5T9PdhNgvH4VRhq2QfRPCJlgO9QNXm1s
+         fSgk5N/LTOtU/JhDIckUv/uNM/6PC0pqUW8Md8cCqXO+u6WRepMQ9nEA3MyVdJaHZvoE
+         XPTB4OmF2/Hmifhqwc6LXD962hnnttFdz2bFuZRKx1l1CRaIQIeuYCRkcM7f7GoWsD1T
+         wgwg==
+X-Gm-Message-State: ALoCoQnztcalZMgdrq6+zK5cx43C6BroI3iX8B6wdkjU7W9yu4pkyOW+UJ3XpuOO/h0Z+OOa+xr4
+X-Received: by 10.194.78.210 with SMTP id d18mr2529361wjx.27.1389268547147;
+        Thu, 09 Jan 2014 03:55:47 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.227.234.139 with SMTP id kc11csp10869wbb;
+        Thu, 9 Jan 2014 03:55:46 -0800 (PST)
+X-Received: by 10.52.179.105 with SMTP id df9mr468192vdc.83.1389268546180;
+        Thu, 09 Jan 2014 03:55:46 -0800 (PST)
+Return-Path: <elev+bncBD647G6GVEGBBPU4XKLAKGQEBTG6CGQ@malmoborgar.se>
+Received: from mail-ve0-f200.google.com (mail-ve0-f200.google.com [209.85.128.200])
+        by mx.google.com with ESMTPS id tj7si2692197vdc.150.2014.01.09.03.55.45
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 09 Jan 2014 03:55:46 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.214.175 is neither permitted nor denied by best guess record for domain of elev+bncBD647G6GVEGBBPU4XKLAKGQEBTG6CGQ@malmoborgar.se) client-ip=209.85.214.175;
+Received: by mail-ve0-f200.google.com with SMTP id jw12sf4908730veb.3
+        for <vasil.zlatanov1@malmoborgar.se>; Thu, 09 Jan 2014 03:55:45 -0800 (PST)
+X-Received: by 10.236.147.241 with SMTP id t77mr777383yhj.51.1389268543718;
+        Thu, 09 Jan 2014 03:55:43 -0800 (PST)
+X-BeenThere: elev@malmoborgar.se
+Received: by 10.182.87.167 with SMTP id az7ls342205obb.94.gmail; Thu, 09 Jan
+ 2014 03:55:42 -0800 (PST)
+X-Received: by 10.182.183.1 with SMTP id ei1mr1936660obc.48.1389268542524;
+        Thu, 09 Jan 2014 03:55:42 -0800 (PST)
+Received: from mail-ob0-f175.google.com (mail-ob0-f175.google.com [209.85.214.175])
+        by mx.google.com with ESMTPS id pp9si3742359obc.50.2014.01.09.03.55.42
+        for <elev@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 09 Jan 2014 03:55:42 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.214.175 is neither permitted nor denied by best guess record for domain of ulf.jungstrand@malmoborgar.se) client-ip=209.85.214.175;
+Received: by mail-ob0-f175.google.com with SMTP id uz6so3112559obc.20
+        for <elev@malmoborgar.se>; Thu, 09 Jan 2014 03:55:42 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.60.136.196 with SMTP id qc4mr1901429oeb.41.1389268542354;
+ Thu, 09 Jan 2014 03:55:42 -0800 (PST)
+Received: by 10.182.87.201 with HTTP; Thu, 9 Jan 2014 03:55:42 -0800 (PST)
+Date: Thu, 9 Jan 2014 12:55:42 +0100
+Message-ID: <CADFkn6xq521C4qBES2q5skMYTEmpULBJ62_k2RJkL48d-AFGNw@mail.gmail.com>
+Subject: Schema!
+From: Ulf Jungstrand <ulf.jungstrand@malmoborgar.se>
+To: Personal <personal@malmoborgar.se>, elev@malmoborgar.se
+X-Original-Sender: ulf.jungstrand@malmoborgar.se
+X-Original-Authentication-Results: mx.google.com;       spf=neutral
+ (google.com: 209.85.214.175 is neither permitted nor denied by best guess
+ record for domain of ulf.jungstrand@malmoborgar.se) smtp.mail=ulf.jungstrand@malmoborgar.se
+Precedence: list
+Mailing-list: list elev@malmoborgar.se; contact elev+owners@malmoborgar.se
+List-ID: <elev.malmoborgar.se>
+X-Google-Group-Id: 60984336562
+List-Post: <http://groups.google.com/a/malmoborgar.se/group/elev/post>, <mailto:elev@malmoborgar.se>
+List-Help: <http://support.google.com/a/malmoborgar.se/bin/topic.py?topic=25838>,
+ <mailto:elev+help@malmoborgar.se>
+List-Archive: <http://groups.google.com/a/malmoborgar.se/group/elev/>
+List-Unsubscribe: <http://groups.google.com/a/malmoborgar.se/group/elev/subscribe>,
+ <mailto:googlegroups-manage+60984336562+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=047d7b33962ff70a3104ef884961
+
+--047d7b33962ff70a3104ef884961
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+OBS! Fr.o.m. nu =E4r det vt-schemat (som ju startar n=E4sta vecka, V3) som
+ligger p=E5 app och hemsida.
+/Ulf
+
+--=20
+Ulf Jungstrand
+Malm=F6 Borgarskola
+L=E4rare i Ma o Phy
+Matematik- och provansvarig
+070-2322071, 040-346855
+
+--047d7b33962ff70a3104ef884961
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">OBS! Fr.o.m. nu =E4r det vt-schemat (som ju startar n=E4st=
+a vecka, V3) som ligger p=E5 app och hemsida.<div>/Ulf<br clear=3D"all"><di=
+v><br></div>-- <br>Ulf Jungstrand<div>Malm=F6 Borgarskola</div><div>L=E4rar=
+e i Ma o Phy</div>
+<div>Matematik- och provansvarig</div><div>070-2322071,=A0040-346855</div><=
+div><br></div>
+</div></div>
+
+--047d7b33962ff70a3104ef884961--

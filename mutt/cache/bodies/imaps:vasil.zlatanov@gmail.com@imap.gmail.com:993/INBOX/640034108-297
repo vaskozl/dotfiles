@@ -1,0 +1,65 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp45597oai;
+        Fri, 16 Aug 2013 13:41:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20120113;
+        h=mime-version:from:to:subject:message-id:date:content-type;
+        bh=8Rrh2iAoc/X+O9fRno4sXBL39tt2pUCgIzCYnfW3lj4=;
+        b=NBNLudmMxiAvEYjYL2SYu0CSsCApeVqkrg84uz0Q6H9UDmh0tXMwaPjRwuw6HNsRFs
+         hZbPgtehlC4CC1CjJnw7oTciPDNJLTlNTsLLq/dqh5OQJQeaLs7zqEjOkPMQZeAqD5xN
+         vojmlQK9mngu/v8J+pfMPnns1yfcnCJ3iqVsC9d5JRdvyQhwna4iCXypn6talFTXo80v
+         ojQJ8QayVTZttz9znJt41udi2jOm1h6DBtLMCYV2kRAmvjin4pO4Ksoc5qX4t54+wnyV
+         RIiYmDYU35L7WNouCxADj/HfAYwEhwkZPoj8wnPLSHLabwSaq7LUULd0xFSILe0Pp0b4
+         e8/g==
+X-Received: by 10.152.44.164 with SMTP id f4mr55332lam.38.1376685701303;
+        Fri, 16 Aug 2013 13:41:41 -0700 (PDT)
+MIME-Version: 1.0
+Return-Path: <>
+Received: by 10.152.44.164 with SMTP id f4mr56413lam.38; Fri, 16 Aug 2013
+ 13:41:41 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: vasil.zlatanov@gmail.com
+X-Failed-Recipients: v@askot.k
+Subject: Delivery Status Notification (Failure)
+Message-ID: <089e0160b572318e0504e4169ecc@google.com>
+Date: Fri, 16 Aug 2013 20:41:41 +0000
+Content-Type: text/plain; charset=ISO-8859-1
+
+Delivery to the following recipient failed permanently:
+
+     v@askot.k
+
+Technical details of permanent failure: 
+DNS Error: Domain name not found
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=date:from:to:subject:message-id:mime-version:content-type
+         :content-disposition:user-agent;
+        bh=pfgM1nN/CypIREE9xNL4Z/Z9c/M/aDTsFfZvsN+pz/M=;
+        b=MF41m5nWQXRD0IE0YJO9yVKhX5l4Eueq5iPMLatuvmUDIu2gpc239qG0aWpascjzds
+         z1V/Y8D07W+ivOQsfrJfIdXVPn7QuYY7CqekITxJ17N3kpjrFlkLIh84QjVT0k8oe7Jh
+         qeDwsFQDOWX0FsnfFN1v4qMMPTv7hANmSyhNdKKw5uKpRU4A1heCywRsqk6uQekOKDAq
+         dbLmBpN+/O6mrw6muWltcUPAhZmtCz23yxOZ16NkX0RMcrSeTwL7jFVXj/h6ns3mia8r
+         H7Q8WX1WqbPz6D/ODdXnkkkPpgBGfupIc3n1SkHBD1oyzGPxKPaXppXnJ2ROlGgWzHZg
+         0uFQ==
+X-Received: by 10.152.44.164 with SMTP id f4mr55306lam.38.1376685700871;
+        Fri, 16 Aug 2013 13:41:40 -0700 (PDT)
+Return-Path: <vasil.zlatanov@gmail.com>
+Received: from gmail.com (c-2ec33694-74736162.cust.telenor.se. [46.195.54.148])
+        by mx.google.com with ESMTPSA id i3sm1415414laf.4.1969.12.31.16.00.00
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 16 Aug 2013 13:41:40 -0700 (PDT)
+Date: Fri, 16 Aug 2013 22:41:36 +0200
+From: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+To: v@askot.k
+Subject: GPG test
+Message-ID: <20130816204136.GA5538@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.21 (2010-09-15)
+
+Does it show anything?

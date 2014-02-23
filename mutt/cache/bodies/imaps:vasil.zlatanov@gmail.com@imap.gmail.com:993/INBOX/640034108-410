@@ -1,0 +1,96 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.75.161 with SMTP id d1csp26144oaw;
+        Wed, 23 Oct 2013 04:57:56 -0700 (PDT)
+X-Received: by 10.66.136.131 with SMTP id qa3mr2814849pab.77.1382529476348;
+        Wed, 23 Oct 2013 04:57:56 -0700 (PDT)
+Return-Path: <3w7lnUhAOAG4XQeXUQ.RXQQfiaaPYMXYaNadSMd.eQ@doclist.bounces.google.com>
+Received: from mail-pd0-f198.google.com (mail-pd0-f198.google.com [209.85.192.198])
+        by mx.google.com with ESMTPS id sg3si1842155pbb.73.2013.10.23.04.57.55
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 23 Oct 2013 04:57:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3w7lnUhAOAG4XQeXUQ.RXQQfiaaPYMXYaNadSMd.eQ@doclist.bounces.google.com designates 209.85.192.198 as permitted sender) client-ip=209.85.192.198;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 3w7lnUhAOAG4XQeXUQ.RXQQfiaaPYMXYaNadSMd.eQ@doclist.bounces.google.com designates 209.85.192.198 as permitted sender) smtp.mail=3w7lnUhAOAG4XQeXUQ.RXQQfiaaPYMXYaNadSMd.eQ@doclist.bounces.google.com
+Received: by mail-pd0-f198.google.com with SMTP id v10so1219208pde.1
+        for <vasil.zlatanov@gmail.com>; Wed, 23 Oct 2013 04:57:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:message-id:date:subject:from:to:cc
+         :content-type;
+        bh=nnWp9j7w5FaItEhj+Ba8/S3gthGUEDJVdojdRYWU9xI=;
+        b=fxjEcCzQYycoZGEwGVh8Ov+Zc1CWG+9JpgOBxGXUWeJ3uB5XMVphlmNDDNSMTp3Lra
+         jJ/6pTw0q6xVv9OxOZYyOmI2dGgE6ot0PhQ2kfTOwnA0Cos2Pr/Bog3R3uGyTr037UR0
+         4PNJJdzX1lsxS/hH09VzCGDMoi2dbefXTEYBv+FNACsHo6Jv4TSSDCQG/qx+NWF1DbOS
+         ufcd60XrB3mnHYlCqAQOQWVuEKi3s1y+LjnMsbGaOdb7NNukxkFPNbaqHe9LiwRCCMcs
+         DsuquW9QwUl54T5IEx+kOwrZaM1I+6C2VXSHhiH3/PXrNQACJxzp0sWV8Ex+n1obPIpN
+         ucAQ==
+X-Gm-Message-State: ALoCoQl0O9bL7+LEkURf70qnp35CuMfHJQMB89iBdn2r42DIX27vsqg2rkWvkQL64SRrZAAe3kss
+MIME-Version: 1.0
+X-Received: by 10.66.161.40 with SMTP id xp8mr1081476pab.39.1382529475850;
+ Wed, 23 Oct 2013 04:57:55 -0700 (PDT)
+X-Originating-IP: 161.52.14.39
+X-No-Auto-Attachment: 1
+Message-ID: <047d7b86f3464cca3d04e9673a5b@google.com>
+Date: Wed, 23 Oct 2013 11:57:55 +0000
+Subject: Progress talks 14th November (vasil.zlatanov@gmail.com)
+From: "Leslie Fleetwood (Google Drive)" <leslie.fleetwood@malmoborgar.se>
+To: vasil.zlatanov@gmail.com
+Cc: Vjeko.Begic@tetrapak.com, zachary.nord1@malmoborgar.se, 
+	bjorg.kaalo-johansen1@malmoborgar.se, marcus.begic1@malmoborgar.se, 
+	oskar.sturm-kristiansen1@malmoborgar.se, neijber-@hotmail.com, 
+	vinhvan97@gmail.com, louise.lindberg1@malmoborgar.se, 
+	susannekaaloe@hotmail.com, kevin.strandberg1@malmoborgar.se, 
+	sarah.van-lam1@malmoborgar.se, patrik.liedbeck1@malmoborgar.se, 
+	walter.okuku1@malmoborgar.se, Brigitte@salmi.eu, 
+	anton.neijber1@malmoborgar.se, alexander.salmi1@malmoborgar.se
+Content-Type: multipart/alternative; boundary=047d7b86f3464cca3104e9673a58
+
+--047d7b86f3464cca3104e9673a58
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SSd2ZSBzaGFyZWQgYW4gaXRlbSB3aXRoIHlvdToNCg0KUHJvZ3Jlc3MgdGFsa3MgMTR0aCBOb3Zl
+bWJlcg0KaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xWG9nUmtGb2VJV2I4aFlM
+M0w4dVdOc2E1T2pfYnViYXBHUlNpVVJZLXl2TS9lZGl0P3VzcD1zaGFyaW5nDQoNCkl0J3Mgbm90
+IGFuIGF0dGFjaG1lbnQgliBpdCdzIHN0b3JlZCBvbmxpbmUuIFRvIG9wZW4gdGhpcyBpdGVtLCBq
+dXN0IGNsaWNrICANCnRoZSBsaW5rIGFib3ZlLg0KDQo=
+--047d7b86f3464cca3104e9673a58
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">I've =
+shared an item with you.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/document-2.png" alt=3D"Document" style=3D"vertical-=
+align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"Progress talks 14th Nove=
+mber">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://docs.google.com/document/d/1XogRkFoeIWb8hYL3L8uWNsa5O=
+j_bubapGRSiURY-yvM/edit?usp=3Dsharing" style=3D"vertical-align:middle; text=
+-decoration:none; color:#1154cc;" itemprop=3D"url">Progress talks 14th Nove=
+mber</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: create, share and keep all of your stuff in one place.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logo for Googl=
+e Drive"></a></td></tr></tbody></table></div></div></body></html>
+--047d7b86f3464cca3104e9673a58--

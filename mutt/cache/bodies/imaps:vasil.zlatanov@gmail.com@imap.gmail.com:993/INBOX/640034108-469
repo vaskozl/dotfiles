@@ -1,0 +1,72 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp317531oac;
+        Thu, 12 Dec 2013 01:45:55 -0800 (PST)
+X-Received: by 10.180.96.106 with SMTP id dr10mr6691782wib.27.1386841555248;
+        Thu, 12 Dec 2013 01:45:55 -0800 (PST)
+Return-Path: <linda.persson@malmoborgar.se>
+Received: from mail-wg0-f50.google.com (mail-wg0-f50.google.com [74.125.82.50])
+        by mx.google.com with ESMTPS id wj1si9986966wjb.46.2013.12.12.01.45.53
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Dec 2013 01:45:55 -0800 (PST)
+Received-SPF: neutral (google.com: 74.125.82.50 is neither permitted nor denied by best guess record for domain of linda.persson@malmoborgar.se) client-ip=74.125.82.50;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.50 is neither permitted nor denied by best guess record for domain of linda.persson@malmoborgar.se) smtp.mail=linda.persson@malmoborgar.se
+Received: by mail-wg0-f50.google.com with SMTP id a1so155987wgh.17
+        for <vasil.zlatanov@gmail.com>; Thu, 12 Dec 2013 01:45:53 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=z9NQyYGjyux5acxyse4K1uRBUk2fkCbGN0EwH/TOrNA=;
+        b=gWleQe+aosCcOkV69ICUhfDvg2FTfvG+L2KEMnbxUgTzi99z8cedV0mWsVE87eKw+6
+         VAPTC1JYk3j3DdhJiPRGQJ3zB976mtBjn7siIx/hGG6pnf0/hTotazqEgca4lLCANUk0
+         GwQeVY0ozdDWFH2GJSJgvFHMEAlCleOYrIxVG+SS/7w3ruDCsN7w/NkR/RP91sSwzO5z
+         HmDZnZFknqTo2FGZrtfQgnL1kBHT7VwSR0l/TKwGXCJrfROONGhe9tZF9A8oLICi3KDu
+         H5/os4ew2jre+Ftiu8KxON5l8n14AE3BpKq2ZEYW3H62SdwnH+J1qgvZfgEyTC8qr5rR
+         sYeQ==
+X-Gm-Message-State: ALoCoQmkO9plr2sHkuZ5gH/erL/QY21OHRrVT8A53nxli1S74Z3z+HwLbOyksjX/D+1bEXsfLO4X
+MIME-Version: 1.0
+X-Received: by 10.180.7.136 with SMTP id j8mr28705580wia.17.1386841553406;
+ Thu, 12 Dec 2013 01:45:53 -0800 (PST)
+Received: by 10.194.204.195 with HTTP; Thu, 12 Dec 2013 01:45:53 -0800 (PST)
+In-Reply-To: <20131211210434.GA9821@gmail.com>
+References: <20131211210434.GA9821@gmail.com>
+Date: Thu, 12 Dec 2013 10:45:53 +0100
+Message-ID: <CAGpuA4OsEjCRaT=OU8R1xPO=uN0vdQ49S0d3QHiwdWG9FCkvmQ@mail.gmail.com>
+Subject: Re: Extension
+From: Linda Persson <linda.persson@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=14dae9cdc8ff269d1404ed533645
+
+--14dae9cdc8ff269d1404ed533645
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hej! Dessv=E4rre g=E4ller samma regler f=F6r alla. G=F6r ditt b=E4sta och l=
+=E4mna in
+efter dagen lektion.
+
+
+Den 11 december 2013 22:04 skrev Vasil Zlatanov <vasil.zlatanov@gmail.com>:
+
+> Hej! Jag tror inte att jag kommer att kunna avsluta med text i morgon.
+> Kan jag v=E4nligen f=E5 en f=F6rl=E4ngning?
+>
+
+--14dae9cdc8ff269d1404ed533645
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hej! Dessv=E4rre g=E4ller samma regler f=F6r alla. G=F6r d=
+itt b=E4sta och l=E4mna in efter dagen lektion.=A0</div><div class=3D"gmail=
+_extra"><br><br><div class=3D"gmail_quote">Den 11 december 2013 22:04 skrev=
+ Vasil Zlatanov <span dir=3D"ltr">&lt;<a href=3D"mailto:vasil.zlatanov@gmai=
+l.com" target=3D"_blank">vasil.zlatanov@gmail.com</a>&gt;</span>:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Hej! Jag tror inte att jag kommer att kunna =
+avsluta med text i morgon.<br>
+Kan jag v=E4nligen f=E5 en f=F6rl=E4ngning?<br>
+</blockquote></div><br></div>
+
+--14dae9cdc8ff269d1404ed533645--

@@ -1,0 +1,72 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp48171wed;
+        Thu, 12 Sep 2013 23:54:38 -0700 (PDT)
+X-Received: by 10.52.110.98 with SMTP id hz2mr7989498vdb.1.1379055277818;
+        Thu, 12 Sep 2013 23:54:37 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f180.google.com (mail-ve0-f180.google.com [209.85.128.180])
+        by mx.google.com with ESMTPS id dp7si2704701ved.35.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Sep 2013 23:54:37 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.128.180 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.180;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.180 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f180.google.com with SMTP id jz11so645764veb.25
+        for <vasil.zlatanov@gmail.com>; Thu, 12 Sep 2013 23:54:37 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=1ZNDqjUbZ/HRpr7wYGrgofz20lbEEuwwYMixCSMhvkE=;
+        b=Y38HoSj3ugf4R2Hjzmp7MebQeVQ27acXMNa64ZNW0B+I37DYoXN4l3ObuF3Zeo7dec
+         Q4zIBbk9mar1TUjleI5UTrIdzmjio0J9bDEX3TYWRLMq7RGXrJR1HRSrA4AWHv5yjfGS
+         Eb7XTLfAoBdc+/ZyEeZcPCbMm1JSQ1k6WPNWQTuCRqfQnGtpn6Rx/vrgsyMXoUuCbfFM
+         zkQOAfx49jyHXGnTPuWebXReizR+croGZxSeKFFK2A78EF3Y5764cXF6Rav/9RIxRKdK
+         EON0rhraLsA6iaV3wcvQAM9fDd5e9NDvglJMGHGkvGH/wqqhVQbjk/8NkALclj7gcVF0
+         UixQ==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.217.174 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) smtp.mail=sam.edgecombe@malmoborgar.se
+X-Gm-Message-State: ALoCoQlUE+LTBFD3iG8bfRUVYNWSMQV6AHm+FmQ7dZnka6dtK/hTBHvmkKgODFIwHmLb5Cb+Rkam
+X-Received: by 10.221.27.73 with SMTP id rp9mr66767vcb.29.1379055277128;
+        Thu, 12 Sep 2013 23:54:37 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp59151vcv;
+        Thu, 12 Sep 2013 23:54:36 -0700 (PDT)
+X-Received: by 10.112.154.70 with SMTP id vm6mr10503856lbb.1.1379055275984;
+        Thu, 12 Sep 2013 23:54:35 -0700 (PDT)
+Return-Path: <sam.edgecombe@malmoborgar.se>
+Received: from mail-lb0-f174.google.com (mail-lb0-f174.google.com [209.85.217.174])
+        by mx.google.com with ESMTPS id nb3si5011428lbb.159.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Sep 2013 23:54:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.174 is neither permitted nor denied by best guess record for domain of sam.edgecombe@malmoborgar.se) client-ip=209.85.217.174;
+Received: by mail-lb0-f174.google.com with SMTP id w6so1721002lbh.5
+        for <vasil.zlatanov1@malmoborgar.se>; Thu, 12 Sep 2013 23:54:35 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.115.176 with SMTP id jp16mr9619822lab.17.1379055275013;
+ Thu, 12 Sep 2013 23:54:35 -0700 (PDT)
+Received: by 10.112.205.102 with HTTP; Thu, 12 Sep 2013 23:54:34 -0700 (PDT)
+In-Reply-To: <CAKMnQyxHii2r7NHd_6zzvFaEP=E3m-U_-A0iJEopFyjT6tUO7w@mail.gmail.com>
+References: <CAKMnQyxHii2r7NHd_6zzvFaEP=E3m-U_-A0iJEopFyjT6tUO7w@mail.gmail.com>
+Date: Fri, 13 Sep 2013 08:54:34 +0200
+Message-ID: <CAKMnQyz6r3iAQfD2YG7hfZE1-v2ZcxXCKvD_=HQ1EciD17Ygmw@mail.gmail.com>
+Subject: Re: IPYT course - Freezing Droplets
+From: Sam Edgecombe <sam.edgecombe@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, Alex McIvor <alex.mcivor1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=001a11c35096cb07ac04e63e536f
+
+--001a11c35096cb07ac04e63e536f
+Content-Type: text/plain; charset=ISO-8859-1
+
+http://stilton.tnw.utwente.nl/people/snoeijer/Papers/2012/SnoeijerAJP12.pdf
+
+--001a11c35096cb07ac04e63e536f
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr"><a href="http://stilton.tnw.utwente.nl/people/snoeijer/Papers/2012/SnoeijerAJP12.pdf">http://stilton.tnw.utwente.nl/people/snoeijer/Papers/2012/SnoeijerAJP12.pdf</a><br><div class="gmail_extra">
+</div></div>
+
+--001a11c35096cb07ac04e63e536f--

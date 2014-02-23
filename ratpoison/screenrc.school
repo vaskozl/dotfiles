@@ -1,0 +1,19 @@
+# change to home directory and source screenrc from ratpoison directory
+chdir
+source .ratpoison/screenrc
+
+screen -t Calculator 0
+exec qalc
+screen -t Math 1 
+exec vim $HOME/Dropbox/Notes/math.txt
+screen -t English 2
+exec vim $HOME/Dropbox/Notes/english.txt
+screen -t Physics 3
+exec vim $HOME/Dropbox/Notes/physics.txt
+screen -t Chemistry 4
+exec vim $HOME/Dropbox/Notes/chemistry.txt
+screen -t Biology 4
+exec vim $HOME/Dropbox/Notes/biology.txt
+screen -t Arbitrary 5
+exec vim $HOME/Dropbox/Notes/random.txt
+select 0

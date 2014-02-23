@@ -1,0 +1,422 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp109691oac;
+        Sun, 12 Jan 2014 21:26:56 -0800 (PST)
+X-Received: by 10.49.41.104 with SMTP id e8mr35718010qel.1.1389590816374;
+        Sun, 12 Jan 2014 21:26:56 -0800 (PST)
+Return-Path: <noreply-66621d13@plus.google.com>
+Received: from mail-ve0-x248.google.com (mail-ve0-x248.google.com [2607:f8b0:400c:c01::248])
+        by mx.google.com with ESMTPS id kb1si21694012qeb.75.2014.01.12.21.26.55
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 12 Jan 2014 21:26:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply-66621d13@plus.google.com designates 2607:f8b0:400c:c01::248 as permitted sender) client-ip=2607:f8b0:400c:c01::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-66621d13@plus.google.com designates 2607:f8b0:400c:c01::248 as permitted sender) smtp.mail=noreply-66621d13@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=plus.google.com
+Received: by mail-ve0-x248.google.com with SMTP id jw12so13824581veb.7
+        for <vasil.zlatanov@gmail.com>; Sun, 12 Jan 2014 21:26:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=XH4ySpJ/LGIiZ9gmVTKg17i07eoeqUtAGVx8Vbh1TSI=;
+        b=RfoN3LHhTWzdj3dLYvv03rMeiqcgbKuUYl6MZb8i0DIeauQCXHu82E6skE2SMeEVKM
+         UF4CO1uirULQ+TWagYkWx7IPPS8PAwHpMip4e4fRD3o1w6GfUHL/KcT6I4s5QCiHkN7Y
+         ZmozFQbudqArnUQIi3BZittmlYkjMkHpQn/9NnWthIAhbZJJ/fol7/aEd+5YkX5YWhRV
+         B8HJ3IoR4I82alTGJ7czH/WudmrAn6Hm/kyFsn6jLtYSdVTNCQ895MR2DuLI76mSKDfn
+         5JG5CT9LLrWqOI9Rf7RhkD6z3awV0IJfWl+urykc5EcpM2qz6AdHHRbx1NpXKTzgwils
+         xKpw==
+MIME-Version: 1.0
+X-Received: by 10.58.107.198 with SMTP id he6mr8433808veb.2.1389590815838;
+ Sun, 12 Jan 2014 21:26:55 -0800 (PST)
+X-Notifications: XEAAAAKXS2SxXQkHrq6_IV_EDJQI
+X-Notification-Category: ENGAGE
+X-Notification-Type: ENGAGE_WHATS_HOT
+X-All-Senders-In-Circles: 1
+Reply-To: "Google+" <noreply-66621d13@plus.google.com>
+X-UB: 37
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CJiPtpe1-rsCFeXpQgodV2AAAA&path=%2Fsettings%2Fplus&dt=1389590815790&ub=37>
+Precedence: bulk
+Date: Sun, 12 Jan 2014 21:26:55 -0800 (PST)
+Message-ID: <DwhapklWCcfML2taNJQo8w@notifications.google.com>
+Subject: Top posts this week on Google+
+From: "Google+" <noreply-66621d13@plus.google.com>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=089e013c631cf611e504efd35254
+
+--089e013c631cf611e504efd35254
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Top posts this week on Google+
+
+View What's Hot  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CJiPtpe1-rsCFeXpQgodV2AAAA&path=%2Fexplore&dt=1389590815790&ub=37
+
+This notification was sent to vasil.zlatanov@gmail.com; Don't want  
+occasional updates about Google+ activity and friend suggestions? Change  
+what email Google+ sends you here:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CJiPtpe1-rsCFeXpQgodV2AAAA&path=%2Fsettings%2Fplus%3Fpromo%3Dre&dt=1389590815790&ub=37
+
+
+--089e013c631cf611e504efd35254
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"display:block;font-family:Arial;max-width:600px;"><!--=
+ X-Notifications: 1:51aa95f274000000 --><div style=3D"padding:10px 0;"><tab=
+le style=3D"width:100%" cellpadding=3D"0" cellspacing=3D"0"><tr><td><a href=
+=3D"https://plus.google.com/_/notifications/emlink?emr=3D166537255198421512=
+72&emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&path=3D%2Fstream&dt=3D1389590815790&ub=
+=3D37"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/=
+googleplus-greyscale-100x30-ccedb0dca792635de7635ab648f3336b.png" style=3D"=
+border:0" /></a></td><td style=3D"text-align:right"><a href=3D"https://plus=
+.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtp=
+e1-rsCFeXpQgodV2AAAA&path=3D%2Fexplore&dt=3D1389590815790&ub=3D37" style=3D=
+"background-color:#d44b38;border-radius:3px;color:#fff;display:inline-block=
+;font-family: Arial;font-size:13px;height:30px;line-height:30px;min-width:5=
+4px;padding:1px 20px;text-align:center;text-decoration:none;white-space:now=
+rap;">View What's Hot</a></td></tr></table></div><div style=3D"background-c=
+olor:#4285f4;color:white;font:20px arial, normal;padding:23px 20px">Top pos=
+ts this week on Google+</div><div style=3D"background-color: #f5f5f5;margin=
+-bottom: 15px;padding: 20px 30px 20px 30px"><div style=3D"max-width:520px;"=
+><div style=3D"background-color:white;border:1px solid #dadada;border-botto=
+m-width:2px;border-top:none;-moz-border-radius:3px;-webkit-border-radius:3p=
+x;"><div style=3D"padding:0px 12px;border-bottom:1px solid #F1F1F1"><table =
+style=3D"width:100%;height:50px" cellpadding=3D"0" cellspacing=3D"0"><tr><t=
+d style=3D"font-size:13px"><img style=3D"padding-right:10px;vertical-align:=
+middle" src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/icon_what=
+s_hot_color_24-1b2b5abe0acf23f90494ff35df104607.png" />Hot on Google+</td><=
+td style=3D"text-align:right"><a href=3D"https://plus.google.com/_/notifica=
+tions/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AA=
+AA&amp;path=3D%2F117665455135783210691%2Fposts%2F8FoXFTaYQyq&amp;dt=3D13895=
+90815790&amp;ub=3D37" style=3D"background-color:#f5f5f5;border:solid 1px #d=
+fdfdf;border-radius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;=
+color:#444;display:inline-block;font-family:Arial;font-size:13px;font-weigh=
+t:bold;height:34px;line-height:34px;min-width:54px;padding:0 20px;text-alig=
+n:center;text-decoration:none;white-space:nowrap;">View</a></td></tr></tabl=
+e></div><div style=3D"padding:14px"><table style=3D"width:100%" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td style=3D"width:46px"><a href=3D"https://pl=
+us.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiP=
+tpe1-rsCFeXpQgodV2AAAA&path=3D%2F117665455135783210691&dt=3D1389590815790&u=
+b=3D37"><img width=3D"46" height=3D"46" style=3D"border:0;border-radius:50%=
+;-webkit-border-radius:50%;-moz-border-radius:50%;" src=3D"https://lh4.goog=
+leusercontent.com/-fWEClJn0nI0/AAAAAAAAAAI/AAAAAAAA2Jw/F0A3MWq6kcY/s75-c-k-=
+a/photo.jpg" /></a></td><td style=3D"padding-left:14px"><div style=3D"font:=
+14px arial;font-weight:bold;color:#262626"><a href=3D"https://plus.google.c=
+om/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeX=
+pQgodV2AAAA&path=3D%2F117665455135783210691&dt=3D1389590815790&ub=3D37" sty=
+le=3D"color: #262626;font: 16px arial, normal;text-decoration: none;">The S=
+ecret Funny Laughter</a></div><div style=3D"font:11px arial, normal;color:#=
+999999;margin-top:3px">Shared publicly</div></td></tr></table></div><div st=
+yle=3D"font-size:13px; color:#404040;margin:0 14px">Goat love.</div><div st=
+yle=3D"max-height:400px;overflow:hidden;margin-top:14px;background:#eee"><a=
+ href=3D"https://plus.google.com/_/notifications/emlink?emr=3D1665372551984=
+2151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=3D%2F117665455135783=
+210691%2Fposts%2F8FoXFTaYQyq&amp;dt=3D1389590815790&amp;ub=3D37"><img src=
+=3D"https://lh6.googleusercontent.com/-lSzS5g5OTFo/UtKj3xtwwmI/AAAAAAABbm0/=
+lFidBCw1J9I/w506-h750/goats-attacking-girl-funny-animated-gif-pictures.gif"=
+ style=3D"max-width:100%;margin-left:auto;margin-right:auto;display:block;b=
+order:0;" alt=3D"image not displayed" width=3D"506"></a></div><br/><div sty=
+le=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td><div style=3D"padding-right:20px;display:inline-block;font=
+-size:16px"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=3D%2=
+F117665455135783210691%2Fposts%2F8FoXFTaYQyq&amp;dt=3D1389590815790&amp;ub=
+=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"vertical-=
+align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://ssl.gstati=
+c.com/s2/oz/images/notifications/button_plusone_16-8bef4d86953abb940e4edfad=
+b763ffbc.png" />992</a></div><div style=3D"padding-right:20px;display:inlin=
+e-block;font-size:16px"><a href=3D"https://plus.google.com/_/notifications/=
+emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp=
+;path=3D%2F117665455135783210691%2Fposts%2F8FoXFTaYQyq&amp;dt=3D13895908157=
+90&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"=
+vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://s=
+sl.gstatic.com/s2/oz/images/notifications/button_reshare_16-c93b981a0b2a0ba=
+6f69bc5d351d4f233.png" />233</a></div><div style=3D"padding-right:20px;disp=
+lay:inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/notif=
+ications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV=
+2AAAA&amp;path=3D%2F117665455135783210691%2Fposts%2F8FoXFTaYQyq&amp;dt=3D13=
+89590815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img =
+style=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"=
+https://ssl.gstatic.com/s2/oz/images/notifications/button_comment_16-5dc1a6=
+a009d5d04c130288c0e390a19a.png" />197</a></div></td></tr></table></div></di=
+v><div style=3D"height: 10px;background-color: #f5f5f5;"></div><div style=
+=3D"background-color:white;border:1px solid #dadada;border-bottom-width:2px=
+;border-top:none;-moz-border-radius:3px;-webkit-border-radius:3px;"><div st=
+yle=3D"padding:0px 12px;border-bottom:1px solid #F1F1F1"><table style=3D"wi=
+dth:100%;height:50px" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"=
+font-size:13px"><img style=3D"padding-right:10px;vertical-align:middle" src=
+=3D"https://ssl.gstatic.com/s2/oz/images/notifications/icon_whats_hot_color=
+_24-1b2b5abe0acf23f90494ff35df104607.png" />Hot on Google+</td><td style=3D=
+"text-align:right"><a href=3D"https://plus.google.com/_/notifications/emlin=
+k?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=
+=3D%2F114319833297824920418%2Fposts%2FDtjTxdFDYUd&amp;dt=3D1389590815790&am=
+p;ub=3D37" style=3D"background-color:#f5f5f5;border:solid 1px #dfdfdf;borde=
+r-radius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;color:#444;=
+display:inline-block;font-family:Arial;font-size:13px;font-weight:bold;heig=
+ht:34px;line-height:34px;min-width:54px;padding:0 20px;text-align:center;te=
+xt-decoration:none;white-space:nowrap;">View</a></td></tr></table></div><di=
+v style=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" cell=
+spacing=3D"0"><tr><td style=3D"width:46px"><a href=3D"https://plus.google.c=
+om/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeX=
+pQgodV2AAAA&path=3D%2F114319833297824920418&dt=3D1389590815790&ub=3D37"><im=
+g width=3D"46" height=3D"46" style=3D"border:0;border-radius:50%;-webkit-bo=
+rder-radius:50%;-moz-border-radius:50%;" src=3D"https://lh5.googleuserconte=
+nt.com/-D9uF4ghGvE0/AAAAAAAAAAI/AAAAAAAAMfE/2nJS2iM1nBw/s75-c-k-a/photo.jpg=
+" /></a></td><td style=3D"padding-left:14px"><div style=3D"font:14px arial;=
+font-weight:bold;color:#262626"><a href=3D"https://plus.google.com/_/notifi=
+cations/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA=
+&path=3D%2F114319833297824920418&dt=3D1389590815790&ub=3D37" style=3D"color=
+: #262626;font: 16px arial, normal;text-decoration: none;">Brenda Angel Pin=
+eda</a></div><div style=3D"font:11px arial, normal;color:#999999;margin-top=
+:3px">Shared publicly</div></td></tr></table></div><div style=3D"font-size:=
+13px; color:#404040;margin:0 14px">My life is so empty, nothing to live for=
+.
+My mind is all confusion, &#39;cos I defied the law.
+When you weren&#39;t there to help me,&#8230;<a href=3D"https://plus.google=
+.com/_/notifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-=
+rsCFeXpQgodV2AAAA&amp;path=3D%2F114319833297824920418%2Fposts%2FDtjTxdFDYUd=
+&amp;dt=3D1389590815790&amp;ub=3D37" style=3D"text-decoration:none;text-col=
+or:blue">read more</a></div><a href=3D"https://plus.google.com/_/notificati=
+ons/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA=
+&amp;path=3D%2F114319833297824920418%2Fposts%2FDtjTxdFDYUd&amp;dt=3D1389590=
+815790&amp;ub=3D37"><div style=3D"max-width:100%;max-height:390px;margin-to=
+p:14px;overflow:hidden;"><div style=3D"display:block; height:379px; backgro=
+und:#eee url('https://lh4.googleusercontent.com/proxy/m7_Jfon9jOongBUvOk4el=
+khL8h4pMSSe7LcgkuANyndz7_sTsbZPc4Pu8ePQ0J6X4-5yPz5QPxyjdAKLE67D8w=3Dw506-h3=
+79') no-repeat center; margin:0 auto;text-align:center;background-size:cont=
+ain;min-width:100%"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifi=
+cations/play-6a93a9db8d9ff74b9a694c60498a43f4.png" width=3D"50px" height=3D=
+"50px" style=3D"padding-top:164.5px;border:0"></div></div></a><br/><div sty=
+le=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td><div style=3D"padding-right:20px;display:inline-block;font=
+-size:16px"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=3D%2=
+F114319833297824920418%2Fposts%2FDtjTxdFDYUd&amp;dt=3D1389590815790&amp;ub=
+=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"vertical-=
+align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://ssl.gstati=
+c.com/s2/oz/images/notifications/button_plusone_16-8bef4d86953abb940e4edfad=
+b763ffbc.png" />60</a></div><div style=3D"padding-right:20px;display:inline=
+-block;font-size:16px"><a href=3D"https://plus.google.com/_/notifications/e=
+mlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;=
+path=3D%2F114319833297824920418%2Fposts%2FDtjTxdFDYUd&amp;dt=3D138959081579=
+0&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"v=
+ertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://ss=
+l.gstatic.com/s2/oz/images/notifications/button_reshare_16-c93b981a0b2a0ba6=
+f69bc5d351d4f233.png" />3</a></div><div style=3D"padding-right:20px;display=
+:inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/notifica=
+tions/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AA=
+AA&amp;path=3D%2F114319833297824920418%2Fposts%2FDtjTxdFDYUd&amp;dt=3D13895=
+90815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img sty=
+le=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"htt=
+ps://ssl.gstatic.com/s2/oz/images/notifications/button_comment_16-5dc1a6a00=
+9d5d04c130288c0e390a19a.png" />2</a></div></td></tr></table></div></div><di=
+v style=3D"height: 10px;background-color: #f5f5f5;"></div><div style=3D"bac=
+kground-color:white;border:1px solid #dadada;border-bottom-width:2px;border=
+-top:none;-moz-border-radius:3px;-webkit-border-radius:3px;"><div style=3D"=
+padding:0px 12px;border-bottom:1px solid #F1F1F1"><table style=3D"width:100=
+%;height:50px" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"font-si=
+ze:13px"><img style=3D"padding-right:10px;vertical-align:middle" src=3D"htt=
+ps://ssl.gstatic.com/s2/oz/images/notifications/icon_whats_hot_color_24-1b2=
+b5abe0acf23f90494ff35df104607.png" />Hot on Google+</td><td style=3D"text-a=
+lign:right"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=3D%2=
+F104217979099198975741%2Fposts%2FXmVaFBzwv2r&amp;dt=3D1389590815790&amp;ub=
+=3D37" style=3D"background-color:#f5f5f5;border:solid 1px #dfdfdf;border-ra=
+dius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;color:#444;disp=
+lay:inline-block;font-family:Arial;font-size:13px;font-weight:bold;height:3=
+4px;line-height:34px;min-width:54px;padding:0 20px;text-align:center;text-d=
+ecoration:none;white-space:nowrap;">View</a></td></tr></table></div><div st=
+yle=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" cellspac=
+ing=3D"0"><tr><td style=3D"width:46px"><a href=3D"https://plus.google.com/_=
+/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeXpQgo=
+dV2AAAA&path=3D%2F104217979099198975741&dt=3D1389590815790&ub=3D37"><img wi=
+dth=3D"46" height=3D"46" style=3D"border:0;border-radius:50%;-webkit-border=
+-radius:50%;-moz-border-radius:50%;" src=3D"https://lh5.googleusercontent.c=
+om/-DGbT9KE10f8/AAAAAAAAAAI/AAAAAAAAC-g/_hAVI6PKpWQ/s75-c-k-a/photo.jpg" />=
+</a></td><td style=3D"padding-left:14px"><div style=3D"font:14px arial;font=
+-weight:bold;color:#262626"><a href=3D"https://plus.google.com/_/notificati=
+ons/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&pat=
+h=3D%2F104217979099198975741&dt=3D1389590815790&ub=3D37" style=3D"color: #2=
+62626;font: 16px arial, normal;text-decoration: none;">Lucia Lopez</a></div=
+><div style=3D"font:11px arial, normal;color:#999999;margin-top:3px">Shared=
+ publicly</div></td></tr></table></div><div style=3D"font-size:13px; color:=
+#404040;margin:0 14px">yes</div><div style=3D"max-height:400px;overflow:hid=
+den;margin-top:14px;background:#eee"><a href=3D"https://plus.google.com/_/n=
+otifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQ=
+godV2AAAA&amp;path=3D%2F104217979099198975741%2Fposts%2FXmVaFBzwv2r&amp;dt=
+=3D1389590815790&amp;ub=3D37"><img src=3D"https://lh3.googleusercontent.com=
+/-uOWF4VVw0Ps/UtMdjh19MMI/AAAAAAAADeg/XeYAya0axtA/w506-h750/13%2B-%2B18E8SP=
+3QH.jpg" style=3D"max-width:100%;margin-left:auto;margin-right:auto;display=
+:block;border:0;" alt=3D"image not displayed" width=3D"506"></a></div><br/>=
+<div style=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" c=
+ellspacing=3D"0"><tr><td><div style=3D"padding-right:20px;display:inline-bl=
+ock;font-size:16px"><a href=3D"https://plus.google.com/_/notifications/emli=
+nk?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;pat=
+h=3D%2F104217979099198975741%2Fposts%2FXmVaFBzwv2r&amp;dt=3D1389590815790&a=
+mp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"vert=
+ical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://ssl.g=
+static.com/s2/oz/images/notifications/button_plusone_16-8bef4d86953abb940e4=
+edfadb763ffbc.png" />710</a></div><div style=3D"padding-right:20px;display:=
+inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/notificat=
+ions/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAA=
+A&amp;path=3D%2F104217979099198975741%2Fposts%2FXmVaFBzwv2r&amp;dt=3D138959=
+0815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img styl=
+e=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"http=
+s://ssl.gstatic.com/s2/oz/images/notifications/button_reshare_16-c93b981a0b=
+2a0ba6f69bc5d351d4f233.png" />151</a></div><div style=3D"padding-right:20px=
+;display:inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/=
+notifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXp=
+QgodV2AAAA&amp;path=3D%2F104217979099198975741%2Fposts%2FXmVaFBzwv2r&amp;dt=
+=3D1389590815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none">=
+<img style=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" sr=
+c=3D"https://ssl.gstatic.com/s2/oz/images/notifications/button_comment_16-5=
+dc1a6a009d5d04c130288c0e390a19a.png" />15</a></div></td></tr></table></div>=
+</div><div style=3D"height: 10px;background-color: #f5f5f5;"></div><div sty=
+le=3D"background-color:white;border:1px solid #dadada;border-bottom-width:2=
+px;border-top:none;-moz-border-radius:3px;-webkit-border-radius:3px;"><div =
+style=3D"padding:0px 12px;border-bottom:1px solid #F1F1F1"><table style=3D"=
+width:100%;height:50px" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=
+=3D"font-size:13px"><img style=3D"padding-right:10px;vertical-align:middle"=
+ src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/icon_whats_hot_c=
+olor_24-1b2b5abe0acf23f90494ff35df104607.png" />Hot on Google+</td><td styl=
+e=3D"text-align:right"><a href=3D"https://plus.google.com/_/notifications/e=
+mlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;=
+path=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=3D138959081579=
+0&amp;ub=3D37" style=3D"background-color:#f5f5f5;border:solid 1px #dfdfdf;b=
+order-radius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;color:#=
+444;display:inline-block;font-family:Arial;font-size:13px;font-weight:bold;=
+height:34px;line-height:34px;min-width:54px;padding:0 20px;text-align:cente=
+r;text-decoration:none;white-space:nowrap;">View</a></td></tr></table></div=
+><div style=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td style=3D"width:46px"><a href=3D"https://plus.goog=
+le.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rs=
+CFeXpQgodV2AAAA&path=3D%2F110164145777572483746&dt=3D1389590815790&ub=3D37"=
+><img width=3D"46" height=3D"46" style=3D"border:0;border-radius:50%;-webki=
+t-border-radius:50%;-moz-border-radius:50%;" src=3D"https://lh5.googleuserc=
+ontent.com/-RwOdD4oZxJw/AAAAAAAAAAI/AAAAAAABgis/_82ijr1TYk4/s75-c-k-a/photo=
+.jpg" /></a></td><td style=3D"padding-left:14px"><div style=3D"font:14px ar=
+ial;font-weight:bold;color:#262626"><a href=3D"https://plus.google.com/_/no=
+tifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeXpQgodV2=
+AAAA&path=3D%2F110164145777572483746&dt=3D1389590815790&ub=3D37" style=3D"c=
+olor: #262626;font: 16px arial, normal;text-decoration: none;">Amusing Worl=
+d</a></div><div style=3D"font:11px arial, normal;color:#999999;margin-top:3=
+px">Shared publicly</div></td></tr></table></div><div style=3D"font-size:13=
+px; color:#404040;margin:0 14px">Here is a photo of a turtle being tickled =
+with a tooth brush. The cutest thing you&#39;ll see today!
+
+Please add +Amusing World&#8230;<a href=3D"https://plus.google.com/_/notifi=
+cations/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2=
+AAAA&amp;path=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=3D138=
+9590815790&amp;ub=3D37" style=3D"text-decoration:none;text-color:blue">read=
+ more</a></div><div style=3D"max-height:400px;overflow:hidden;margin-top:14=
+px;background:#eee"><a href=3D"https://plus.google.com/_/notifications/emli=
+nk?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;pat=
+h=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=3D1389590815790&a=
+mp;ub=3D37"><img src=3D"https://lh6.googleusercontent.com/-GUCLxuQrGGE/UtKU=
+bH_HjVI/AAAAAAABnHA/X0US3N_B6_4/w506-h750/1424450_296014713886698_504594392=
+_n.jpg" style=3D"max-width:100%;margin-left:auto;margin-right:auto;display:=
+block;border:0;" alt=3D"image not displayed" width=3D"506"></a></div><br/><=
+div style=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" ce=
+llspacing=3D"0"><tr><td><div style=3D"padding-right:20px;display:inline-blo=
+ck;font-size:16px"><a href=3D"https://plus.google.com/_/notifications/emlin=
+k?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=
+=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=3D1389590815790&am=
+p;ub=3D37" style=3D"color:inherit;text-decoration:none"><img style=3D"verti=
+cal-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"https://ssl.gs=
+tatic.com/s2/oz/images/notifications/button_plusone_16-8bef4d86953abb940e4e=
+dfadb763ffbc.png" />3659</a></div><div style=3D"padding-right:20px;display:=
+inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/notificat=
+ions/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAA=
+A&amp;path=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=3D138959=
+0815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><img styl=
+e=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=3D"http=
+s://ssl.gstatic.com/s2/oz/images/notifications/button_reshare_16-c93b981a0b=
+2a0ba6f69bc5d351d4f233.png" />689</a></div><div style=3D"padding-right:20px=
+;display:inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/=
+notifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXp=
+QgodV2AAAA&amp;path=3D%2F110164145777572483746%2Fposts%2F7dQaM7DaFi6&amp;dt=
+=3D1389590815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none">=
+<img style=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" sr=
+c=3D"https://ssl.gstatic.com/s2/oz/images/notifications/button_comment_16-5=
+dc1a6a009d5d04c130288c0e390a19a.png" />392</a></div></td></tr></table></div=
+></div><div style=3D"height: 10px;background-color: #f5f5f5;"></div><div st=
+yle=3D"background-color:white;border:1px solid #dadada;border-bottom-width:=
+2px;border-top:none;-moz-border-radius:3px;-webkit-border-radius:3px;"><div=
+ style=3D"padding:0px 12px;border-bottom:1px solid #F1F1F1"><table style=3D=
+"width:100%;height:50px" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=
+=3D"font-size:13px"><img style=3D"padding-right:10px;vertical-align:middle"=
+ src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/icon_whats_hot_c=
+olor_24-1b2b5abe0acf23f90494ff35df104607.png" />Hot on Google+</td><td styl=
+e=3D"text-align:right"><a href=3D"https://plus.google.com/_/notifications/e=
+mlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;=
+path=3D%2F100630863988765251189%2Fposts%2FNHEBzesYJtd&amp;dt=3D138959081579=
+0&amp;ub=3D37" style=3D"background-color:#f5f5f5;border:solid 1px #dfdfdf;b=
+order-radius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;color:#=
+444;display:inline-block;font-family:Arial;font-size:13px;font-weight:bold;=
+height:34px;line-height:34px;min-width:54px;padding:0 20px;text-align:cente=
+r;text-decoration:none;white-space:nowrap;">View</a></td></tr></table></div=
+><div style=3D"padding:14px"><table style=3D"width:100%" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td style=3D"width:46px"><a href=3D"https://plus.goog=
+le.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rs=
+CFeXpQgodV2AAAA&path=3D%2F100630863988765251189&dt=3D1389590815790&ub=3D37"=
+><img width=3D"46" height=3D"46" style=3D"border:0;border-radius:50%;-webki=
+t-border-radius:50%;-moz-border-radius:50%;" src=3D"https://lh6.googleuserc=
+ontent.com/-r2Ufr3Gq2a4/AAAAAAAAAAI/AAAAAAAAAD4/qCPAjKBipoc/s75-c-k-a/photo=
+.jpg" /></a></td><td style=3D"padding-left:14px"><div style=3D"font:14px ar=
+ial;font-weight:bold;color:#262626"><a href=3D"https://plus.google.com/_/no=
+tifications/emlink?emr=3D16653725519842151272&emid=3DCJiPtpe1-rsCFeXpQgodV2=
+AAAA&path=3D%2F100630863988765251189&dt=3D1389590815790&ub=3D37" style=3D"c=
+olor: #262626;font: 16px arial, normal;text-decoration: none;">Vegetarian</=
+a></div><div style=3D"font:11px arial, normal;color:#999999;margin-top:3px"=
+>Shared publicly</div></td></tr></table></div><div style=3D"font-size:13px;=
+ color:#404040;margin:0 14px">Blessed are they who see beautiful things in =
+humble places where other people see nothing.
+
+Join www.vegfriend.com to connect&#8230;<a href=3D"https://plus.google.com/=
+_/notifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFe=
+XpQgodV2AAAA&amp;path=3D%2F100630863988765251189%2Fposts%2FNHEBzesYJtd&amp;=
+dt=3D1389590815790&amp;ub=3D37" style=3D"text-decoration:none;text-color:bl=
+ue">read more</a></div><div style=3D"max-height:400px;overflow:hidden;margi=
+n-top:14px;background:#eee"><a href=3D"https://plus.google.com/_/notificati=
+ons/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgodV2AAAA=
+&amp;path=3D%2F100630863988765251189%2Fposts%2FNHEBzesYJtd&amp;dt=3D1389590=
+815790&amp;ub=3D37"><img src=3D"https://lh6.googleusercontent.com/-zSserE3y=
+qJ0/UtIvOeim9qI/AAAAAAAACdc/1JPywesdnRg/w506-h750/Blessed%2Bare%2Bthey%2Bwh=
+o%2Bsee%2Bbeautiful%2Bthings%2Bin%2Bhumble%2Bplaces%2Bwhere%2Bother%2Bpeopl=
+e%2Bsee%2Bnothing..jpg" style=3D"max-width:100%;margin-left:auto;margin-rig=
+ht:auto;display:block;border:0;" alt=3D"image not displayed" width=3D"506">=
+</a></div><br/><div style=3D"padding:14px"><table style=3D"width:100%" cell=
+padding=3D"0" cellspacing=3D"0"><tr><td><div style=3D"padding-right:20px;di=
+splay:inline-block;font-size:16px"><a href=3D"https://plus.google.com/_/not=
+ifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe1-rsCFeXpQgo=
+dV2AAAA&amp;path=3D%2F100630863988765251189%2Fposts%2FNHEBzesYJtd&amp;dt=3D=
+1389590815790&amp;ub=3D37" style=3D"color:inherit;text-decoration:none"><im=
+g style=3D"vertical-align:top;opacity:0.7;border:0;padding-right:4px" src=
+=3D"https://ssl.gstatic.com/s2/oz/images/notifications/button_plusone_16-8b=
+ef4d86953abb940e4edfadb763ffbc.png" />4647</a></div><div style=3D"padding-r=
+ight:20px;display:inline-block;font-size:16px"><a href=3D"https://plus.goog=
+le.com/_/notifications/emlink?emr=3D16653725519842151272&amp;emid=3DCJiPtpe=
+1-rsCFeXpQgodV2AAAA&amp;path=3D%2F100630863988765251189%2Fposts%2FNHEBzesYJ=
+td&amp;dt=3D1389590815790&amp;ub=3D37" style=3D"color:inherit;text-decorati=
+on:none"><img style=3D"vertical-align:top;opacity:0.7;border:0;padding-righ=
+t:4px" src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/button_res=
+hare_16-c93b981a0b2a0ba6f69bc5d351d4f233.png" />966</a></div><div style=3D"=
+padding-right:20px;display:inline-block;font-size:16px"><a href=3D"https://=
+plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&amp;emid=
+=3DCJiPtpe1-rsCFeXpQgodV2AAAA&amp;path=3D%2F100630863988765251189%2Fposts%2=
+FNHEBzesYJtd&amp;dt=3D1389590815790&amp;ub=3D37" style=3D"color:inherit;tex=
+t-decoration:none"><img style=3D"vertical-align:top;opacity:0.7;border:0;pa=
+dding-right:4px" src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/=
+button_comment_16-5dc1a6a009d5d04c130288c0e390a19a.png" />500</a></div></td=
+></tr></table></div></div></div></div><div style=3D"font-size: 10px;color: =
+gray;margin-bottom: 10px"><div>This notification was sent to vasil.zlatanov=
+@gmail.com; Don't want occasional updates about Google+ activity and friend=
+ suggestions? <a style=3D"color:#3366CC;text-decoration:none" href=3D"https=
+://plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=
+=3DCJiPtpe1-rsCFeXpQgodV2AAAA&path=3D%2Fsettings%2Fplus%3Fpromo%3Dre&dt=3D1=
+389590815790&ub=3D37">Change</a> what email Google+ sends you.</div><div>Go=
+ogle Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA</div></div><=
+/body></html>
+--089e013c631cf611e504efd35254--

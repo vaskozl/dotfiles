@@ -1,0 +1,110 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp26490oac;
+        Thu, 7 Nov 2013 06:01:39 -0800 (PST)
+X-Received: by 10.220.97.145 with SMTP id l17mr667946vcn.35.1383832899146;
+        Thu, 07 Nov 2013 06:01:39 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f172.google.com (mail-vc0-f172.google.com [209.85.220.172])
+        by mx.google.com with ESMTPS id bb4si1674406vcb.75.2013.11.07.06.01.38
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 07 Nov 2013 06:01:39 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.172 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.172;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.172 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f172.google.com with SMTP id ks9so383067vcb.3
+        for <vasil.zlatanov@gmail.com>; Thu, 07 Nov 2013 06:01:38 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:message-id:date:subject:from:to:cc:content-type;
+        bh=3rA635IBDZQkwkUDqB1VC3YL9UjT+veoryy97K4eukw=;
+        b=U0CrB3zV3rE46J2BxuJSKtkhQP4WbEeyRRurePVtPct7m+rtzOMvyde05APe/rn5en
+         u0wwA9+q1alG+35fTjd1WM060n/06aLBNlHdtnAs73URAbf401xsJmA8vaJA+PIs3yH1
+         xkoPqJ8NbrA8xusWLosBf8H1w+VHsLoewtYsflGYMHOk3gDm6znD3Pt5G3wkJE3Tr6ry
+         G1oM4pEGj5drHWy1lATKg5CuMHLaLDuvKy3KCoLjJ6GZf3vOQEsvzogiceNPVSobZOnw
+         ahJX2Z+UqHdzUuKcGN+rkCtmEkxhzgvTrZejBQU9DTH4Y/yeAUx1qcIuGDiyPsSufbRS
+         cU0w==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of 3Qp17UhgOAAUtxpfw.xyzwr-pwnxynfsxjs6rfqrtgtwlfw.xj@doclist.bounces.google.com designates 209.85.220.198 as permitted sender) smtp.mail=3Qp17UhgOAAUtxpfw.xyzwr-pwnxynfsxjs6rfqrtgtwlfw.xj@doclist.bounces.google.com
+X-Gm-Message-State: ALoCoQlx05ySC6C52YtOQLxhrvdvM+yOByximM0FYtCdn67dgzEjwEHvNQ4XmAxgM0r3pFEAlA5r
+X-Received: by 10.58.133.77 with SMTP id pa13mr6844213veb.21.1383832898508;
+        Thu, 07 Nov 2013 06:01:38 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.229.7 with SMTP id jg7csp21482vcb;
+        Thu, 7 Nov 2013 06:01:38 -0800 (PST)
+X-Received: by 10.220.58.1 with SMTP id e1mr6936241vch.0.1383832898193;
+        Thu, 07 Nov 2013 06:01:38 -0800 (PST)
+Return-Path: <3Qp17UhgOAAUtxpfw.xyzwr-pwnxynfsxjs6rfqrtgtwlfw.xj@doclist.bounces.google.com>
+Received: from mail-vc0-f198.google.com (mail-vc0-f198.google.com [209.85.220.198])
+        by mx.google.com with ESMTPS id l1si1669007vcl.139.2013.11.07.06.01.38
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 07 Nov 2013 06:01:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3Qp17UhgOAAUtxpfw.xyzwr-pwnxynfsxjs6rfqrtgtwlfw.xj@doclist.bounces.google.com designates 209.85.220.198 as permitted sender) client-ip=209.85.220.198;
+Received: by mail-vc0-f198.google.com with SMTP id hu19so800055vcb.1
+        for <vasil.zlatanov1@malmoborgar.se>; Thu, 07 Nov 2013 06:01:38 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.58.76.129 with SMTP id k1mr2985615vew.19.1383832898059; Thu,
+ 07 Nov 2013 06:01:38 -0800 (PST)
+X-Originating-IP: 161.52.14.72
+X-No-Auto-Attachment: 1
+Message-ID: <047d7b2e455c515ef704ea96b4a3@google.com>
+Date: Thu, 07 Nov 2013 14:01:38 +0000
+Subject: Swedish Presentation (vasil.zlatanov1@malmoborgar.se)
+From: "Oskar Sturm Kristiansen (Google Drive)" <oskar.sturm-kristiansen1@malmoborgar.se>
+To: vasil.zlatanov1@malmoborgar.se
+Cc: eric.runevad1@malmoborgar.se
+Content-Type: multipart/alternative; boundary=047d7b2e455c515ee904ea96b4a0
+
+--047d7b2e455c515ee904ea96b4a0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+I've shared an item with you:
+
+Swedish Presentation
+https://docs.google.com/a/malmoborgar.se/presentation/d/1aE0aXQSoFiAlWh2TYTvWsQYTV0YTgLUYyv8DbB20lYg/edit?usp=sharing
+
+It's not an attachment -- it's stored online. To open this item, just click  
+the link above.
+
+
+--047d7b2e455c515ee904ea96b4a0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">I've =
+shared an item with you.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/presentation-2.png" alt=3D"Presentation" style=3D"v=
+ertical-align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"Swedish Presentation">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://docs.google.com/a/malmoborgar.se/presentation/d/1aE0a=
+XQSoFiAlWh2TYTvWsQYTV0YTgLUYyv8DbB20lYg/edit?usp=3Dsharing" style=3D"vertic=
+al-align:middle; text-decoration:none; color:#1154cc;" itemprop=3D"url">Swe=
+dish Presentation</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: create, share, and keep all your stuff in one place.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logo for Googl=
+e Drive"></a></td></tr></tbody></table></div></div></body></html>
+--047d7b2e455c515ee904ea96b4a0--

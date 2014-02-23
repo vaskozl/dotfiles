@@ -1,0 +1,179 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp216710oac;
+        Tue, 4 Feb 2014 10:05:12 -0800 (PST)
+X-Received: by 10.236.113.198 with SMTP id a46mr2316604yhh.115.1391537111978;
+        Tue, 04 Feb 2014 10:05:11 -0800 (PST)
+Return-Path: <noreply-66621d13@plus.google.com>
+Received: from mail-yk0-x248.google.com (mail-yk0-x248.google.com [2607:f8b0:4002:c07::248])
+        by mx.google.com with ESMTPS id n38si20979403yhp.73.2014.02.04.10.05.11
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 04 Feb 2014 10:05:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply-66621d13@plus.google.com designates 2607:f8b0:4002:c07::248 as permitted sender) client-ip=2607:f8b0:4002:c07::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-66621d13@plus.google.com designates 2607:f8b0:4002:c07::248 as permitted sender) smtp.mail=noreply-66621d13@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=plus.google.com
+Received: by mail-yk0-x248.google.com with SMTP id q9so27425952ykb.3
+        for <vasil.zlatanov@gmail.com>; Tue, 04 Feb 2014 10:05:11 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=4QQT8+FQQ59lflL2m57flItehH/l7DJqO+FKxpYv+pA=;
+        b=vJgDDWYrXW4kAL3n16V+m5LombKHgYQCW2u7rGZdJDLobxiS6VgdgoqXvhJMMIDviO
+         k4hKGw/YTp9/kHkbzpdhWLCiF/QRIlsaQ4GD0hMXuNTRz1E0vijI4sbFOmCQ5lz4j72d
+         DB6uT23EBUbwpBeB7ywM5Gi96NOx9m5xYGLTGRfMTXZSzuM9MjWi2Wj48NbPU300aV0s
+         eZODhAYRrtwVATcmKtlQTL8reXlsxWs8QMbVVnFo7g70/HTvAuj0I8YpI5Wx/O7LBM9f
+         gjktKBpbC53hIq1U6jouqvaKnbJW49raxNCHKolN0kZ2M9VLpi+WRVZSSvHga/Ox4+TL
+         eVCQ==
+MIME-Version: 1.0
+X-Received: by 10.224.75.9 with SMTP id w9mr16440965qaj.2.1391537111782; Tue,
+ 04 Feb 2014 10:05:11 -0800 (PST)
+X-Notifications: XEAAAALQUE-0auG9tZqP23eiInws
+X-Notification-Category: ENGAGE
+X-Notification-Type: ENGAGE_FRIEND_SUGGESTIONS
+X-All-Senders-In-Circles: 1
+Reply-To: "Google+" <noreply-66621d13@plus.google.com>
+X-UB: 37
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CNi18tmHs7wCFQJWRAoduz0AAA&path=%2Fsettings%2Fplus&dt=1391537111737&ub=37>
+Precedence: bulk
+Date: Tue, 04 Feb 2014 10:05:11 -0800 (PST)
+Message-ID: <rSrV-hYbxSRg6jSmgC7xqw@notifications.google.com>
+Subject: Vasil, do you know Marcus Engvall, Vasil Zlatanov or Pat Shanahan?
+From: "Google+" <noreply-66621d13@plus.google.com>
+To: vasil.zlatanov@gmail.com
+Content-Type: multipart/alternative; boundary=001a11c303e23d542504f1987b1c
+
+--001a11c303e23d542504f1987b1c
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+People you may know on Google+
+
+Marcus Engvall
+"An optimist who sometimes goes over the top."
+Add them:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CNi18tmHs7wCFQJWRAoduz0AAA&path=%2F115872216224775566143&dt=1391537111737&ub=37
+
+Vasil Zlatanov
+
+Add them:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CNi18tmHs7wCFQJWRAoduz0AAA&path=%2F116668372361953472640&dt=1391537111737&ub=37
+
+Pat Shanahan
+
+Add them:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CNi18tmHs7wCFQJWRAoduz0AAA&path=%2F106927968727805473571&dt=1391537111737&ub=37
+
+This notification was sent to vasil.zlatanov@gmail.com; Don't want  
+occasional updates about Google+ activity and friend suggestions? Change  
+what email Google+ sends you here:  
+https://plus.google.com/_/notifications/emlink?emr=16653725519842151272&emid=CNi18tmHs7wCFQJWRAoduz0AAA&path=%2Fsettings%2Fplus%3Fpromo%3Dre&dt=1391537111737&ub=37
+
+
+--001a11c303e23d542504f1987b1c
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><body style=3D"display:block;font-family:Arial;max-width:=
+600px;"><!-- X-Notifications: 1:d79619d30c000000 --><div style=3D"padding:1=
+0px 0;"><table style=3D"width:100%" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td><a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D166537=
+25519842151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2Fstream&dt=3D1391=
+537111737&ub=3D37"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notific=
+ations/logo/googleplus-greyscale-100x30-ccedb0dca792635de7635ab648f3336b.pn=
+g" style=3D"border:0" /></a></td><td style=3D"text-align:right"><a href=3D"=
+https://plus.google.com/_/notifications/emlink?emr=3D16653725519842151272&e=
+mid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2Fcircles%2Ffind&dt=3D139153711173=
+7&src=3D1&ub=3D37" style=3D"background-color:#d44b38;border-radius:3px;colo=
+r:#fff;display:inline-block;font-family: Arial;font-size:13px;height:30px;l=
+ine-height:30px;min-width:54px;padding:1px 20px;text-align:center;text-deco=
+ration:none;white-space:nowrap;">See more suggestions</a></td></tr></table>=
+</div><div style=3D"background-color:#4285f4;color:white;font:20px arial, n=
+ormal;padding:23px 20px">People you may know on Google+</div><div style=3D"=
+background-color: #f5f5f5;margin-bottom: 15px;padding: 20px 30px 20px 30px"=
+><div style=3D"max-width:520px;"><div style=3D"background-color:white;borde=
+r:1px solid #dadada;border-bottom-width:2px;border-top:none;-moz-border-rad=
+ius:3px;-webkit-border-radius:3px;"><div style=3D"padding:6px 0;width:100%"=
+><table style=3D"max-width:450px;margin:0 auto" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"border-bottom:1px solid #F1F1F1;height:80px;paddi=
+ng:14px;text-align:right;vertical-align:top;"><a href=3D"https://plus.googl=
+e.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCNi18tmHs7wC=
+FQJWRAoduz0AAA&path=3D%2F115872216224775566143&dt=3D1391537111737&src=3D1&u=
+b=3D37"><img width=3D"80" height=3D"80" style=3D"border:0;" src=3D"https://=
+lh3.googleusercontent.com/-CBWwu3Gdsus/AAAAAAAAAAI/AAAAAAAAEvE/sQKK9n2t5qk/=
+s75-c-k-a-no/photo.jpg" /></a></td><td style=3D"border-bottom:1px solid #F1=
+F1F1;padding:14px 12px;vertical-align:top;"><div style=3D"display:inline-bl=
+ock;max-width:200px;min-width:200px;padding-right:12px;vertical-align:middl=
+e;"><div style=3D"margin-top:5px;overflow:hidden;text-overflow:ellipsis;"><=
+a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D166537255198=
+42151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2F115872216224775566143&=
+dt=3D1391537111737&ub=3D37" style=3D"color: #262626;font: 16px arial, norma=
+l;text-decoration: none;">Marcus Engvall</a></div><div style=3D"color:#7272=
+72;font:12px arial, normal;margin:7px 0 5px;overflow:hidden;text-overflow: =
+ellipsis;">"An optimist who sometimes goes over the top."</div></div><div s=
+tyle=3D"display:inline-block;padding-top: 14px;vertical-align: middle;"><a =
+href=3D"https://plus.google.com/_/notifications/emlink?emr=3D16653725519842=
+151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2Fcircles%2Ffind&dt=3D1391=
+537111737&src=3D1&ub=3D37" style=3D"background-color:#f5f5f5;border:solid 1=
+px #dfdfdf;border-radius:3px;-moz-border-radius: 3px;-webkit-border-radius:=
+ 3px;color:#444;display:inline-block;font-family:Arial;font-size:13px;font-=
+weight:bold;height:34px;line-height:34px;min-width:54px;padding:0 20px;text=
+-align:center;text-decoration:none;white-space:nowrap;"rel=3D"acb1158722162=
+24775566143">Add</a></div></td></tr><tr><td style=3D"border-bottom:1px soli=
+d #F1F1F1;height:80px;padding:14px;text-align:right;vertical-align:top;"><a=
+ href=3D"https://plus.google.com/_/notifications/emlink?emr=3D1665372551984=
+2151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2F116668372361953472640&d=
+t=3D1391537111737&src=3D1&ub=3D37"><img width=3D"80" height=3D"80" style=3D=
+"border:0;" src=3D"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAA=
+AI/AAAAAAAAAAA/4252rscbv5M/s75/photo.jpg" /></a></td><td style=3D"border-bo=
+ttom:1px solid #F1F1F1;padding:14px 12px;vertical-align:top;"><div style=3D=
+"display:inline-block;max-width:200px;min-width:200px;padding-right:12px;ve=
+rtical-align:middle;"><div style=3D"margin-top:5px;overflow:hidden;text-ove=
+rflow:ellipsis;"><a href=3D"https://plus.google.com/_/notifications/emlink?=
+emr=3D16653725519842151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2F1166=
+68372361953472640&dt=3D1391537111737&ub=3D37" style=3D"color: #262626;font:=
+ 16px arial, normal;text-decoration: none;">Vasil Zlatanov</a></div><div st=
+yle=3D"color:#727272;font:12px arial, normal;margin:7px 0 5px;overflow:hidd=
+en;text-overflow: ellipsis;"></div></div><div style=3D"display:inline-block=
+;padding-top: 14px;vertical-align: middle;"><a href=3D"https://plus.google.=
+com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCNi18tmHs7wCFQ=
+JWRAoduz0AAA&path=3D%2Fcircles%2Ffind&dt=3D1391537111737&src=3D1&ub=3D37" s=
+tyle=3D"background-color:#f5f5f5;border:solid 1px #dfdfdf;border-radius:3px=
+;-moz-border-radius: 3px;-webkit-border-radius: 3px;color:#444;display:inli=
+ne-block;font-family:Arial;font-size:13px;font-weight:bold;height:34px;line=
+-height:34px;min-width:54px;padding:0 20px;text-align:center;text-decoratio=
+n:none;white-space:nowrap;"rel=3D"acb116668372361953472640">Add</a></div></=
+td></tr><tr><td style=3D"height:80px;padding:14px;text-align:right;vertical=
+-align:top;"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D16653725519842151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2F1069279=
+68727805473571&dt=3D1391537111737&src=3D1&ub=3D37"><img width=3D"80" height=
+=3D"80" style=3D"border:0;" src=3D"https://lh3.googleusercontent.com/-t-bSz=
+nncKsk/AAAAAAAAAAI/AAAAAAAAABk/g2JIIBNZIvw/s75-c-k-a-no/photo.jpg" /></a></=
+td><td style=3D"padding:14px 12px;vertical-align:top;"><div style=3D"displa=
+y:inline-block;max-width:200px;min-width:200px;padding-right:12px;vertical-=
+align:middle;"><div style=3D"margin-top:5px;overflow:hidden;text-overflow:e=
+llipsis;"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D1=
+6653725519842151272&emid=3DCNi18tmHs7wCFQJWRAoduz0AAA&path=3D%2F10692796872=
+7805473571&dt=3D1391537111737&ub=3D37" style=3D"color: #262626;font: 16px a=
+rial, normal;text-decoration: none;">Pat Shanahan</a></div><div style=3D"co=
+lor:#727272;font:12px arial, normal;margin:7px 0 5px;overflow:hidden;text-o=
+verflow: ellipsis;"></div></div><div style=3D"display:inline-block;padding-=
+top: 14px;vertical-align: middle;"><a href=3D"https://plus.google.com/_/not=
+ifications/emlink?emr=3D16653725519842151272&emid=3DCNi18tmHs7wCFQJWRAoduz0=
+AAA&path=3D%2Fcircles%2Ffind&dt=3D1391537111737&src=3D1&ub=3D37" style=3D"b=
+ackground-color:#f5f5f5;border:solid 1px #dfdfdf;border-radius:3px;-moz-bor=
+der-radius: 3px;-webkit-border-radius: 3px;color:#444;display:inline-block;=
+font-family:Arial;font-size:13px;font-weight:bold;height:34px;line-height:3=
+4px;min-width:54px;padding:0 20px;text-align:center;text-decoration:none;wh=
+ite-space:nowrap;"rel=3D"acb106927968727805473571">Add</a></div></td></tr><=
+/table></div></div></div></div><div style=3D"font-size: 10px;color: gray;ma=
+rgin-bottom: 10px"><div>This notification was sent to vasil.zlatanov@gmail.=
+com; Don't want occasional updates about Google+ activity and friend sugges=
+tions? <a style=3D"color:#3366CC;text-decoration:none" href=3D"https://plus=
+.google.com/_/notifications/emlink?emr=3D16653725519842151272&emid=3DCNi18t=
+mHs7wCFQJWRAoduz0AAA&path=3D%2Fsettings%2Fplus%3Fpromo%3Dre&dt=3D1391537111=
+737&ub=3D37">Change</a> what email Google+ sends you.</div><div>Google Inc.=
+, 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA</div></div></body></h=
+tml>
+--001a11c303e23d542504f1987b1c--

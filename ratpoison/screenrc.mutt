@@ -1,0 +1,6 @@
+# change to home directory and source screenrc from ratpoison directory
+chdir
+source .ratpoison/screenrcnobar
+
+screen -t Mail 0
+exec mutt

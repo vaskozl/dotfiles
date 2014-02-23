@@ -1,0 +1,38 @@
+alias spasoevich-anita <spaanita3@hotmail.com>
+alias hansson-matthew <matthewhansson@yahoo.com>
+alias marcus-begic <marcus.begic1@malmoborgar.se>
+alias fleetwood-leslie Leslie Fleetwood  <leslie.fleetwood@malmoborgar.se>
+alias antoaneta-sofronieva toni_sfr@mail.bg
+alias entertainment-blizzard Blizzard Entertainment <Newsletter@email.blizzard.com>
+alias neijber-anton Anton Neijber <anton.neijber1@malmoborgar.se>
+alias fleetwood-leslie Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+alias quinn-vincent vincent Quinn <vincent.quinn@gmail.com>
+alias toni_sfr@mail.bg toni_sfr@mail.bg
+alias spasoevic-anita Anita Spasoevic <spaanita3@hotmail.com>
+alias Vasil Zlatanov
+alias zlatanov-vasil Vasil Zlatanov <vasil.zlatanov@gmail.com>
+alias freimann-kim <kim.freimann@malmoborgar.se> 
+alias vasil.zlatanov@mail.bg vasil.zlatanov@mail.bg
+alias wandlen-magda Magda Wandlen <magda.wandlen@malmoborgar.se>
+alias edgecombe-sam Sam Edgecombe <sam.edgecombe@malmoborgar.se>
+alias andersson-hanna Hanna Andersson <hanna.andersson1@malmoborgar.se>
+alias edgecombe-samuel Samuel Edgecombe <sam.edgecombe@malmoborgar.se>
+alias ibtgovernance_assist <ibtgovernance_assist@ETS.ORG>
+alias burge-josefin Josefin Burge <josefin@burgec.se>
+alias mailer-colemak Colemak forum Mailer <forum@colemak.com>
+alias account-microsoft Microsoft account <connect@windowslivemail.com>
+alias zlatanov-kristian Kristian Zlatanov <kristian.zlatanov@live.com>
+alias roth-martin Martin Roth <martin.roth@malmoborgar.se>
+alias siljeström-monica Monica Siljeström <monica.siljestrom@malmoborgar.se>
+alias bakoush-nagimaldin Nagimaldin Bakoush <noreply@invite.quoramail.com>
+alias wandlén-magda Magda Wandlén <magda.wandlen@malmoborgar.se>
+alias liedbeck-patrik Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>
+alias support-steam Steam Support <noreply@steampowered.com>
+alias freimann-kim Kim Freimann <kim.freimann@malmoborgar.se>
+alias persson-linda Linda Persson <linda.persson@malmoborgar.se>
+alias fourie-christelle Christelle Fourie <christelle.fourie@malmoborgar.se>
+alias begic-marcus Marcus Begic <marcus.begic@gmail.com>
+alias Facebook <update+AdmFzaWwuemxhdGFub3ZAZ21haWwuY29t@facebookmail.com>
+alias martin-sarah Sarah Martin <smartin@box.com>
+alias alkhafadji-ali Ali Alkhafadji <ali.alkhafadji1@malmoborgar.se>
+alias lavröd-jakob Jakob Lavröd <jakob@lavrod.se>

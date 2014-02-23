@@ -1,0 +1,91 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.75.161 with SMTP id d1csp300767oaw;
+        Thu, 31 Oct 2013 03:00:38 -0700 (PDT)
+X-Received: by 10.205.41.9 with SMTP id ts9mr755734bkb.58.1383213637644;
+        Thu, 31 Oct 2013 03:00:37 -0700 (PDT)
+Return-Path: <toni_sfr+prvs=10170e9207@mail.bg>
+Received: from mx3.mail.bg (mx3.mail.bg. [2001:67c:16b8:1::2:19])
+        by mx.google.com with ESMTP id ce3si323842bkc.78.2013.10.31.03.00.37
+        for <vasil.zlatanov@gmail.com>;
+        Thu, 31 Oct 2013 03:00:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of toni_sfr+prvs=10170e9207@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) client-ip=2001:67c:16b8:1::2:19;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of toni_sfr+prvs=10170e9207@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) smtp.mail=toni_sfr+prvs=10170e9207@mail.bg;
+       dkim=pass header.i=@mail.bg
+Received: from mail.bg (unknown [10.0.0.17])
+	by mx3.mail.bg (Postfix) with ESMTPA id ADE6E202C824
+	for <vasil.zlatanov@gmail.com>; Thu, 31 Oct 2013 12:00:36 +0200 (EET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1383213636; bh=FYi+Z/cHrelVkgm4A1fpERJOBFAZZa9uksSje6uTFJw=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=yCn3qXbszMS25qrZYT8S3/90KbbatamLWkJXyjBovnKquQXZNtA7OzDIv6wXN8txZ
+	 IYnFZ0/Qtbmfeek1bVrN8kR91Wdv0611SEPRBtQJbcZw1Kb1eK7z4OQMhArJordkmD
+	 BzKwBO4sSqanO1kuUdyMzqI9IiF6+UEm/ZLZ3MBg=
+Message-ID: <99d8942e996aa2140ecfb7e2168689b5.mailbg@mail.bg>
+Date: Thu, 31 Oct 2013 10:00:36 -0000
+Subject: razyasneniya
+From: toni_sfr@mail.bg
+To: vasil.zlatanov@gmail.com
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20131031100033_64150"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2013-10-31T10:00:33+00:00
+X-Originating-IP: [130.204.214.160]
+X-Checking: 2013-10-31T10:00:33+00:00
+X-Checked: 2013-10-31T10:00:36+00:00
+
+------=_20131031100033_64150
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0AZdravei Vasko.Dnes si vav vakanciya i moje bi ne si tolkova natova=
+ren.Mnogo=0Asajalyavam,che nyamashe vreme za poslednite uroci po otnoshenie=
+ na=0Alaptopa.Primerno mi izprashtat programi ot edna firma ELFI TURS i pis=
+hat=0Arazpechatai programata TUK.Kato natisna TUK otiva na edna programa de=
+to=0Apishe filmii t.n. i mi iska da sloja disk.Neshto v nachaloto sam obark=
+ala=0Apri nasochvaneto na razpechatkata i sega ne moga da izlyaza ot omagyo=
+saniya=0Akrag.Ako imaxme malko poveche vreme....Nadyavam se,che si pochivat=
+e dobre,a=0Ai sportuvate.Uraganat "Yda" navredi li vi po nyakakav nachin?Po=
+zdravi.=0A=0A=0A-------------------------------------=0AMail.BG: =D0=91=D0=
+=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=
+=B5=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =
+=D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=
+=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=
+=B8=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=
+=D0=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=
+=D0=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=
+=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=
+=D0=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=
+=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=
+=D1=80=D1=83=D0=B3=D0=B8. http://mail.bg
+------=_20131031100033_64150
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"line-height: 16px; font-size: 13px; font-family: Tahoma,sans-se=
+rif; margin: 16px 0px;" valid=3D"true">Zdravei Vasko.Dnes&nbsp; si vav vaka=
+nciya i moje bi ne si tolkova natovaren.Mnogo sajalyavam,che nyamashe vreme=
+ za poslednite uroci po otnoshenie na laptopa.Primerno mi izprashtat progra=
+mi ot edna firma ELFI TURS i pishat razpechatai programata&nbsp; TUK.Kato n=
+atisna TUK otiva na edna programa deto pishe filmii t.n. i mi iska da sloja=
+ disk.Neshto v nachaloto sam obarkala pri nasochvaneto na razpechatkata i s=
+ega ne moga da izlyaza ot omagyosaniya krag.Ako imaxme malko poveche vreme.=
+...Nadyavam se,che si pochivate dobre,a i sportuvate.Uraganat "Yda" navredi=
+ li vi po nyakakav nachin?Pozdravi.<br></p><br /><br />--------------------=
+-----------------<br /><a href=3D"http://mail.bg">Mail.BG</a>: =D0=91=D0=B5=
+=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=
+=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=
+=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=
+=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=
+=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=
+=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=
+=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=
+=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=
+=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=
+=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=
+=80=D1=83=D0=B3=D0=B8.
+------=_20131031100033_64150--
+
+

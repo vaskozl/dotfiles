@@ -1,0 +1,106 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp11305wed;
+        Fri, 4 Oct 2013 00:44:36 -0700 (PDT)
+X-Received: by 10.221.40.10 with SMTP id to10mr59450vcb.22.1380872675791;
+        Fri, 04 Oct 2013 00:44:35 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-f177.google.com (mail-ve0-f177.google.com [209.85.128.177])
+        by mx.google.com with ESMTPS id zw7si2918556vec.74.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 04 Oct 2013 00:44:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.128.177 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.128.177;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.128.177 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-f177.google.com with SMTP id db12so2255052veb.36
+        for <vasil.zlatanov@gmail.com>; Fri, 04 Oct 2013 00:44:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:message-id:date:subject:from:to:cc:content-type;
+        bh=bZ5ViAphklv0y5ge4P+PsnlvQJ4XSrymDph2g+zFINg=;
+        b=VGmTuYxZE/gh91i7OOWXX+fsHsDtzLmvwDxfr/DN86jtuDPjm3F9W+FxeQzCnqznkV
+         7B53n89ltgDd+ZU8ZhDL8mm4lNl3pCEzkvRwWsC9ZJVutIOvJH9PFx0Q/sy5iU+EsGEj
+         DkGpKc3OMvfFIwdwXbjlS6YmahdnIEJnBusqviohQeEWoLej6p799fsL+yJDUtLwTq2O
+         Jb7kOCzVW05M08a/xcQu5ITmsPmAwFXcyuGQCGCDOJiMIgb5YcQFuPGPsGrwTFWzlzpC
+         faw16re6+JvoozFvAmv05hI8mKN4i4c9Xef76d1UzGX26MFLYiN7sSvaYAiJqQ9idQrQ
+         vokA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of 34XFOUg4OAJYH414220.E7B8DRC0BCE1EH60H.I4@doclist.bounces.google.com designates 209.85.223.198 as permitted sender) smtp.mail=34XFOUg4OAJYH414220.E7B8DRC0BCE1EH60H.I4@doclist.bounces.google.com
+X-Gm-Message-State: ALoCoQmF+AuZL2Ez+dIsolINiSbMlAkFCcW3jIW/PFB/nMt25wqx0TpIhsdUfMv/U6Dk0xt1H4Ie
+X-Received: by 10.220.69.212 with SMTP id a20mr1510051vcj.10.1380872674777;
+        Fri, 04 Oct 2013 00:44:34 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp68703vcv;
+        Fri, 4 Oct 2013 00:44:34 -0700 (PDT)
+X-Received: by 10.50.103.6 with SMTP id fs6mr5436947igb.16.1380872674125;
+        Fri, 04 Oct 2013 00:44:34 -0700 (PDT)
+Return-Path: <34XFOUg4OAJYH414220.E7B8DRC0BCE1EH60H.I4@doclist.bounces.google.com>
+Received: from mail-ie0-f198.google.com (mail-ie0-f198.google.com [209.85.223.198])
+        by mx.google.com with ESMTPS id r18si2151964igw.4.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 04 Oct 2013 00:44:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 34XFOUg4OAJYH414220.E7B8DRC0BCE1EH60H.I4@doclist.bounces.google.com designates 209.85.223.198 as permitted sender) client-ip=209.85.223.198;
+Received: by mail-ie0-f198.google.com with SMTP id qd12so12256849ieb.1
+        for <vasil.zlatanov1@malmoborgar.se>; Fri, 04 Oct 2013 00:44:33 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.93.207 with SMTP id y15mr6647967icm.20.1380872673723;
+ Fri, 04 Oct 2013 00:44:33 -0700 (PDT)
+X-Originating-IP: 161.52.14.72
+X-Shared-Document: 1
+Message-ID: <90e6ba5bbb0f32a2fd04e7e579d1@google.com>
+Date: Fri, 04 Oct 2013 07:44:33 +0000
+Subject: TOK space  (vasil.zlatanov1@malmoborgar.se)
+From: =?ISO-8859-1?Q?Rebecca_=D6hlin_=28Google_Drive=29?= <rebecca.ohlin1@malmoborgar.se>
+To: vasil.zlatanov1@malmoborgar.se
+Cc: jonathan.vaknine1@malmoborgar.se, 
+	ruairi-paul-gerald.wharton1@malmoborgar.se
+Content-Type: multipart/alternative; boundary=90e6ba5bbb0f32a2f204e7e579ce
+
+--90e6ba5bbb0f32a2f204e7e579ce
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SmFnIGhhciBkZWxhdCBldHQgb2JqZWt0IG1lZCBkaWc6DQoNClRPSyBzcGFjZQ0KaHR0cHM6Ly9k
+b2NzLmdvb2dsZS5jb20vYS9tYWxtb2Jvcmdhci5zZS9kb2N1bWVudC9kLzFLcnVMY1ZJNW4zQW9V
+ZVFtRmdLVkE5anpTd1p1dC1YUjRBOGNyNGhrOW5nL2VkaXQ/dXNwPXNoYXJpbmcNCg0KRGV0IORy
+IGludGUgZW4gYmlsYWdhIC0gZGVuIORyIGxhZ3JhZCBvbmxpbmUuINZwcG5hIGRldHRhIG9iamVr
+dCBnZW5vbSBhdHQgIA0Ka2xpY2thIHDlIGzkbmtlbiBvdmFuLg0KDQo=
+--90e6ba5bbb0f32a2f204e7e579ce
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">Jag h=
+ar delat ett objekt med dig.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/document-2.png" alt=3D"Dokument" style=3D"vertical-=
+align: middle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"TOK space ">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://docs.google.com/a/malmoborgar.se/document/d/1KruLcVI5=
+n3AoUeQmFgKVA9jzSwZut-XR4A8cr4hk9ng/edit?usp=3Dsharing" style=3D"vertical-a=
+lign:middle; text-decoration:none; color:#1154cc;" itemprop=3D"url">TOK spa=
+ce </a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Drive=
+: skapa, dela och ha alla dina grejer p=E5 ett st=E4lle.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://drive.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logotyp f=F6r =
+Google Drive"></a></td></tr></tbody></table></div></div></body></html>
+--90e6ba5bbb0f32a2f204e7e579ce--

@@ -1,0 +1,14 @@
+Release HOWTO
+=============
+
+To make a release, edit "version" in setup.py and run:
+
+  python setup.py egg_info -RDb "" sdist
+
+To upload the generated source distribution to PyPI, run:
+
+  python setup.py egg_info -RDb "" sdist register upload
+
+Note that if you ignore the ``egg_info -RDb ""`` part, Distribute will generate
+a development release tarball with ``.dev``.
+

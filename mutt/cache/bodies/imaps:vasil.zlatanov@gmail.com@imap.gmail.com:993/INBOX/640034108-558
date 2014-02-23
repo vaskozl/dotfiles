@@ -1,0 +1,141 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp99288oac;
+        Fri, 7 Feb 2014 04:54:50 -0800 (PST)
+X-Received: by 10.52.116.71 with SMTP id ju7mr5073868vdb.31.1391777690368;
+        Fri, 07 Feb 2014 04:54:50 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vb0-f42.google.com (mail-vb0-f42.google.com [209.85.212.42])
+        by mx.google.com with ESMTPS id x7si1289742vel.76.2014.02.07.04.54.50
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 07 Feb 2014 04:54:50 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.212.42 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.212.42;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.42 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vb0-f42.google.com with SMTP id o7so353132vbn.15
+        for <vasil.zlatanov@gmail.com>; Fri, 07 Feb 2014 04:54:50 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:mime-version:message-id:date
+         :subject:from:to:cc:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:list-unsubscribe:content-type;
+        bh=8wjyrGr8ZJzsG0X6ixynHn6ski6GijgVC2VASBcN73I=;
+        b=fpGdf+Ev6bA/ZcazJEdXupHr/i0gPwolLCdO493oGc0rmKCxZjulXDtYYacTPediB6
+         ZTVP3uYs6Zn4F8/bjK24mYE7hE6/eIiy0FEGyLZ5TU0SyNtuzINuAz4W6X0X9i/Gr6Sr
+         QrHJ8BsdZ7+BMUOnucf3l12NfWZ/V8PWx23llf4CE4Q6uOFOtkr72od2XK/CE8n4GIDu
+         NPifgyp99Us9KcI/gacETAf46xc09Ndv9L/t6sfmYDQvERfpdUEyqTMYDh9M8oBEqAvT
+         iZDODdEqyioE4qyW2Xmk/+lSE4F7EmuZ3QB8jUek6Vuv7BWnHxGCwjnsXYB1mOeRz47S
+         Q8FQ==
+X-Gm-Message-State: ALoCoQlvwCXUvJx790NB0AzVWPMHIqsxqi2qMZ7SlhuInCtdm3eu25yaxmiSsi85K/+12gPbK1vQ
+X-Received: by 10.52.110.201 with SMTP id ic9mr8620592vdb.22.1391777690108;
+        Fri, 07 Feb 2014 04:54:50 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.151.75 with SMTP id b11csp95693vcw;
+        Fri, 7 Feb 2014 04:54:49 -0800 (PST)
+X-Received: by 10.58.229.164 with SMTP id sr4mr10318340vec.18.1391777689401;
+        Fri, 07 Feb 2014 04:54:49 -0800 (PST)
+Return-Path: <ib12-13tok-5+bncBDYNDEXN7YDRBGFP2OLQKGQEXLYLN5A@malmoborgar.se>
+Received: from mail-vc0-f199.google.com (mail-vc0-f199.google.com [209.85.220.199])
+        by mx.google.com with ESMTPS id kl10si1284544vdb.116.2014.02.07.04.54.48
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 07 Feb 2014 04:54:49 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.216.199 is neither permitted nor denied by best guess record for domain of ib12-13tok-5+bncBDYNDEXN7YDRBGFP2OLQKGQEXLYLN5A@malmoborgar.se) client-ip=209.85.216.199;
+Received: by mail-vc0-f199.google.com with SMTP id hu8sf7470144vcb.2
+        for <vasil.zlatanov1@malmoborgar.se>; Fri, 07 Feb 2014 04:54:48 -0800 (PST)
+X-Received: by 10.58.179.101 with SMTP id df5mr6056168vec.38.1391777688884;
+        Fri, 07 Feb 2014 04:54:48 -0800 (PST)
+X-BeenThere: ib12-13tok-5@malmoborgar.se
+Received: by 10.140.26.40 with SMTP id 37ls1049344qgu.46.gmail; Fri, 07 Feb
+ 2014 04:54:48 -0800 (PST)
+X-Received: by 10.140.102.167 with SMTP id w36mr20061984qge.109.1391777688719;
+        Fri, 07 Feb 2014 04:54:48 -0800 (PST)
+Received: from mail-qc0-f199.google.com (mail-qc0-f199.google.com [209.85.216.199])
+        by mx.google.com with ESMTPS id z6si3411336qan.31.2014.02.07.04.54.48
+        for <ib12-13tok-5@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 07 Feb 2014 04:54:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3l9f0Ug0OALYoWi.aZcaYkiXaiWhikXkncWn.oa@doclist.bounces.google.com designates 209.85.216.199 as permitted sender) client-ip=209.85.216.199;
+Received: by mail-qc0-f199.google.com with SMTP id m20so7106169qcx.10
+        for <ib12-13tok-5@malmoborgar.se>; Fri, 07 Feb 2014 04:54:47 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.236.221.168 with SMTP id r38mr5435378yhp.54.1391777687896;
+ Fri, 07 Feb 2014 04:54:47 -0800 (PST)
+X-Originating-IP: 161.52.14.39
+X-No-Auto-Attachment: 1
+Message-ID: <001a11c2cb7eb1a07f04f1d07ee1@google.com>
+Date: Fri, 07 Feb 2014 12:54:47 +0000
+Subject: tok-at (ib12-13tok-5@malmoborgar.se)
+From: "Sam Edgecombe (Google Sites)" <sam.edgecombe@malmoborgar.se>
+To: ib12-13tok-5@malmoborgar.se
+Cc: ib12-13tok-7@malmoborgar.se, ib12-13tok-6@malmoborgar.se, 
+	ib12-13tok-3@malmoborgar.se, ib12-13tok-4@malmoborgar.se
+X-Original-Sender: sam.edgecombe@malmoborgar.se
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of 3l9f0Ug0OALYoWi.aZcaYkiXaiWhikXkncWn.oa@doclist.bounces.google.com
+ designates 209.85.216.199 as permitted sender) smtp.mail=3l9f0Ug0OALYoWi.aZcaYkiXaiWhikXkncWn.oa@doclist.bounces.google.com
+Precedence: list
+Mailing-list: list ib12-13tok-5@malmoborgar.se; contact ib12-13tok-5+owners@malmoborgar.se
+List-ID: <ib12-13tok-5.malmoborgar.se>
+X-Google-Group-Id: 112800980083
+List-Post: <http://groups.google.com/a/malmoborgar.se/group/ib12-13tok-5/post>,
+ <mailto:ib12-13tok-5@malmoborgar.se>
+List-Help: <http://support.google.com/a/malmoborgar.se/bin/topic.py?topic=25838>,
+ <mailto:ib12-13tok-5+help@malmoborgar.se>
+List-Archive: <http://groups.google.com/a/malmoborgar.se/group/ib12-13tok-5/>
+List-Unsubscribe: <http://groups.google.com/a/malmoborgar.se/group/ib12-13tok-5/subscribe>,
+ <mailto:googlegroups-manage+112800980083+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=001a11c2cb7eb1a06e04f1d07ede
+
+--001a11c2cb7eb1a06e04f1d07ede
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+I've shared an item with you:
+
+tok-at
+https://sites.google.com/a/malmoborgar.se/tok-at/
+
+It's not an attachment -- it's stored online. To open this item, just click  
+the link above.
+
+
+--001a11c2cb7eb1a06e04f1d07ede
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">I've =
+shared an item with you.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/site-2.png" alt=3D"Site" style=3D"vertical-align: m=
+iddle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"tok-at">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://sites.google.com/a/malmoborgar.se/tok-at/" style=3D"v=
+ertical-align:middle; text-decoration:none; color:#1154cc;" itemprop=3D"url=
+">tok-at</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Sites=
+ makes creating and sharing a group website easy.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://sites.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logo for Googl=
+e Sites"></a></td></tr></tbody></table></div></div></body></html>
+--001a11c2cb7eb1a06e04f1d07ede--

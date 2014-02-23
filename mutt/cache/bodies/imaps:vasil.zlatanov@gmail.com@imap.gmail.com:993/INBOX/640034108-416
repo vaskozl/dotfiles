@@ -1,0 +1,118 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.75.161 with SMTP id d1csp98227oaw;
+        Mon, 4 Nov 2013 00:07:49 -0800 (PST)
+X-Received: by 10.52.98.194 with SMTP id ek2mr8853284vdb.11.1383552468960;
+        Mon, 04 Nov 2013 00:07:48 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vb0-f45.google.com (mail-vb0-f45.google.com [209.85.212.45])
+        by mx.google.com with ESMTPS id bq2si4869330vcb.40.2013.11.04.00.07.48
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 04 Nov 2013 00:07:48 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.212.45 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.212.45;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.45 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vb0-f45.google.com with SMTP id p6so1183218vbe.32
+        for <vasil.zlatanov@gmail.com>; Mon, 04 Nov 2013 00:07:48 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:mime-version:date:message-id
+         :subject:from:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe:content-type;
+        bh=Um0w6W1tyPBlYwReVlIBZdkSGc7fgxgsW0OMcBC7Ots=;
+        b=DnJfiSCRVL/fPez6I0Wp9mcZgJTlI+tNgfio57F/h78iKUQ3UkKIIMfzBrKlF6H/SC
+         3J8NyMfK1/5Cw9uiIhkxWip3AH2AywQCbkKjjJLz60B6xTe5Ri712fEhzXXr3vXTpkZY
+         jLhwT80pCOO95kEFemSmsqikBBGTDfQadPcLXuiKr2FfNfX/ESS/+oo+7c+TiSFB6ZbA
+         TsKAfnAbnTpVfR71GqguFFvvE2FNGQ+iY23oNDXQsm0X29HXcWOCyLLJkI92eKPQsj39
+         xX+P0XUSGb97b9e1Eqpn7xRxR33XmhJhhGduTRwDCmA/EIc0D6fLKQKqYyw++Hgq3hlA
+         G7xg==
+X-Gm-Message-State: ALoCoQmExCa/bhsat8Bsh9qXznzZs1Kg9gr8HP8ZiyD+Kjl7WbPZ/xvL5T4G9nsnRePc3O0JNDks
+X-Received: by 10.220.182.69 with SMTP id cb5mr4327vcb.41.1383552468547;
+        Mon, 04 Nov 2013 00:07:48 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.229.7 with SMTP id jg7csp103103vcb;
+        Mon, 4 Nov 2013 00:07:48 -0800 (PST)
+X-Received: by 10.194.216.225 with SMTP id ot1mr9265wjc.80.1383552467554;
+        Mon, 04 Nov 2013 00:07:47 -0800 (PST)
+Return-Path: <elev+bncBDAO5NMLWYMBBUFL3WJQKGQEQE2ANQQ@malmoborgar.se>
+Received: from mail-we0-f199.google.com (mail-we0-f199.google.com [74.125.82.199])
+        by mx.google.com with ESMTPS id ic3si5794380wjb.72.2013.11.04.00.07.46
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 04 Nov 2013 00:07:47 -0800 (PST)
+Received-SPF: neutral (google.com: 74.125.82.172 is neither permitted nor denied by best guess record for domain of elev+bncBDAO5NMLWYMBBUFL3WJQKGQEQE2ANQQ@malmoborgar.se) client-ip=74.125.82.172;
+Received: by mail-we0-f199.google.com with SMTP id q58sf2992097wes.10
+        for <vasil.zlatanov1@malmoborgar.se>; Mon, 04 Nov 2013 00:07:46 -0800 (PST)
+X-Received: by 10.112.150.161 with SMTP id uj1mr2805951lbb.0.1383552466222;
+        Mon, 04 Nov 2013 00:07:46 -0800 (PST)
+X-BeenThere: elev@malmoborgar.se
+Received: by 10.180.228.11 with SMTP id se11ls438365wic.49.gmail; Mon, 04 Nov
+ 2013 00:07:44 -0800 (PST)
+X-Received: by 10.180.93.8 with SMTP id cq8mr11144835wib.38.1383552464182;
+        Mon, 04 Nov 2013 00:07:44 -0800 (PST)
+Received: from mail-we0-f172.google.com (mail-we0-f172.google.com [74.125.82.172])
+        by mx.google.com with ESMTPS id j6si185560wiz.27.2013.11.04.00.07.44
+        for <elev@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 04 Nov 2013 00:07:44 -0800 (PST)
+Received-SPF: neutral (google.com: 74.125.82.172 is neither permitted nor denied by best guess record for domain of michael.arvidsson@malmoborgar.se) client-ip=74.125.82.172;
+Received: by mail-we0-f172.google.com with SMTP id q58so1756426wes.3
+        for <elev@malmoborgar.se>; Mon, 04 Nov 2013 00:07:44 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.180.79.230 with SMTP id m6mr11266033wix.19.1383552464028;
+ Mon, 04 Nov 2013 00:07:44 -0800 (PST)
+Received: by 10.216.218.8 with HTTP; Mon, 4 Nov 2013 00:07:43 -0800 (PST)
+Date: Mon, 4 Nov 2013 09:07:43 +0100
+Message-ID: <CAFOLr0Mr5RnBMZjs8op+5O2Uwjsr1e_TWu769rvrDPXpyqv-mQ@mail.gmail.com>
+Subject: =?ISO-8859-1?Q?Hur_man_kommer_=E5t_sites_ifr=E5n_sin_mail_numera=2E?=
+From: Michael Arvidsson <michael.arvidsson@malmoborgar.se>
+To: Claudia <claudia.kraling@malmoborgar.se>
+Bcc: elev@malmoborgar.se
+X-Original-Sender: michael.arvidsson@malmoborgar.se
+X-Original-Authentication-Results: mx.google.com;       spf=neutral
+ (google.com: 74.125.82.172 is neither permitted nor denied by best guess
+ record for domain of michael.arvidsson@malmoborgar.se) smtp.mail=michael.arvidsson@malmoborgar.se
+Precedence: list
+Mailing-list: list elev@malmoborgar.se; contact elev+owners@malmoborgar.se
+List-ID: <elev.malmoborgar.se>
+X-Google-Group-Id: 60984336562
+List-Post: <http://groups.google.com/a/malmoborgar.se/group/elev/post>, <mailto:elev@malmoborgar.se>
+List-Help: <http://support.google.com/a/malmoborgar.se/bin/topic.py?topic=25838>,
+ <mailto:elev+help@malmoborgar.se>
+List-Archive: <http://groups.google.com/a/malmoborgar.se/group/elev/>
+List-Unsubscribe: <http://groups.google.com/a/malmoborgar.se/group/elev/subscribe>,
+ <mailto:googlegroups-manage+60984336562+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=f46d04440378259f8204ea55695a
+
+--f46d04440378259f8204ea55695a
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hej p=E5 er alla
+
+Som en del redan har m=E4rkt s=E5 finns inte l=E4ngre menyn h=F6gst upp i d=
+in
+mailbox f=F6r att komma =E5t sites, drive och s=E5 vidare. I st=E4llet m=E5=
+ste man
+numera klicka p=E5 den lilla fyrkant med prickar som =E4r uppe till h=F6ger=
+ i
+bilden, alldeles till v=E4nster om ditt namn.
+
+M.v.H Michael / IT Administrationen
+
+--f46d04440378259f8204ea55695a
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hej p=E5 er alla<div><br></div><div>Som en del redan har m=
+=E4rkt s=E5 finns inte l=E4ngre menyn h=F6gst upp i din mailbox f=F6r att k=
+omma =E5t sites, drive och s=E5 vidare. I st=E4llet m=E5ste man numera klic=
+ka p=E5 den lilla fyrkant med prickar som =E4r uppe till h=F6ger i bilden, =
+alldeles till v=E4nster om ditt namn.</div>
+<div><br></div><div>M.v.H Michael / IT Administrationen</div><div><br></div=
+><div><br></div></div>
+
+--f46d04440378259f8204ea55695a--

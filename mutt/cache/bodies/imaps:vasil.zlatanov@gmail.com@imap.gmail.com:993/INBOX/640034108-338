@@ -1,0 +1,95 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.33.162 with SMTP id s2csp220069oai;
+        Tue, 27 Aug 2013 11:22:32 -0700 (PDT)
+X-Received: by 10.152.9.37 with SMTP id w5mr13119713laa.23.1377627751375;
+        Tue, 27 Aug 2013 11:22:31 -0700 (PDT)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-lb0-f181.google.com (mail-lb0-f181.google.com [209.85.217.181])
+        by mx.google.com with ESMTPS id ze5si4889695lbb.118.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 27 Aug 2013 11:22:31 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.181 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.217.181;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.217.181 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+Received: by mail-lb0-f181.google.com with SMTP id u14so2879290lbd.40
+        for <vasil.zlatanov@gmail.com>; Tue, 27 Aug 2013 11:22:30 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=zzI9/UkaIWDEi/sPadkZGPgieWJwgCZ67C2s4xviiS8=;
+        b=B5CLPF22ntS5aOYLgUY2rduBNvAfgjpCdfkNiXfZuUJAmRiXjEg73FDjvWjufd+k+q
+         +DfTuN2scnWRO8VnvOGKq21Mo7TgAj7d8InCfuNIqVe7M687gHz9JY6cxuyU3mSl8Fi1
+         063P+fJeDbQubJ/wFBG7FAQevbG5CgXFGGAVj3ne5j9cSxa+F3mafhWKiI5GVv8NEngi
+         bO5lMVuYm5r1O4THqzwR5SDIPWcwjl3bh/H3DZLdgGf2wT1G8ub6CkY+maLhMDUP2kBO
+         FtKLvySdC21ZgnoKMYIhaRttuz6FyuGkbUeS3UbPXkT3ZIy6h/qTz5C14hELViyUjChY
+         zTeg==
+X-Gm-Message-State: ALoCoQm5lnk+es2hZL8FWafLL00CIxYfuvb7fyFDC+yk8X9eW1NIdtcWYTTEjwUXZ3kt/NCxyS3p
+MIME-Version: 1.0
+X-Received: by 10.112.29.17 with SMTP id f17mr2189768lbh.45.1377627750682;
+ Tue, 27 Aug 2013 11:22:30 -0700 (PDT)
+Received: by 10.114.82.130 with HTTP; Tue, 27 Aug 2013 11:22:30 -0700 (PDT)
+In-Reply-To: <CAHJ-ZFrmJuZ9o0WjUF_R0aD_3JupaTvdhA0r6VVUndtFp0ne5A@mail.gmail.com>
+References: <CAHJ-ZFrmJuZ9o0WjUF_R0aD_3JupaTvdhA0r6VVUndtFp0ne5A@mail.gmail.com>
+Date: Tue, 27 Aug 2013 20:22:30 +0200
+Message-ID: <CAHJ-ZFrbRgx9uvNUVzVc=C8hk2zDN=p_3PHbUbtU98avDCybRw@mail.gmail.com>
+Subject: Fwd: new student in DP 1
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1133c690b65da204e4f1f4dc
+
+--001a1133c690b65da204e4f1f4dc
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+Date: 2013/8/27
+Subject: new student in DP 1
+To: Michael Arvidsson_admin <administrator@malmoborgar.se>, Claudia Kr=E4li=
+ng
+<claudia.kraling@malmoborgar.se>
+
+
+Hi,
+ Vasil Zlatanov needs a computer + google address activated so that he can
+start using it. When should he collect his computer/get info about mail
+address/activate it?
+
+Regards, Leslie
+
+--001a1133c690b65da204e4f1f4dc
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote">---------- Forwarded me=
+ssage ----------<br>From: <b class=3D"gmail_sendername">Leslie Fleetwood</b=
+> <span dir=3D"ltr">&lt;<a href=3D"mailto:leslie.fleetwood@malmoborgar.se">=
+leslie.fleetwood@malmoborgar.se</a>&gt;</span><br>
+Date: 2013/8/27<br>Subject: new student in DP 1<br>To: Michael Arvidsson_ad=
+min &lt;<a href=3D"mailto:administrator@malmoborgar.se">administrator@malmo=
+borgar.se</a>&gt;, Claudia Kr=E4ling &lt;<a href=3D"mailto:claudia.kraling@=
+malmoborgar.se">claudia.kraling@malmoborgar.se</a>&gt;<br>
+<br><br><div dir=3D"ltr">Hi,<div><span style=3D"border-collapse:collapse;co=
+lor:rgb(119,119,119);font-family:arial,sans-serif;font-size:13px"><table ce=
+llpadding=3D"0" style=3D"border-collapse:collapse;margin-top:0px;width:auto=
+">
+<tbody><tr><td style=3D"font-family:arial,sans-serif;margin-top:0px;margin-=
+right:0px;margin-bottom:0px;margin-left:0px;text-align:left;white-space:now=
+rap;padding-right:8px;vertical-align:top;width:auto;padding-top:0px">
+<span name=3D"Vasil Zlatanov" style=3D"font-size:13px;font-weight:bold;whit=
+e-space:nowrap;display:inline;vertical-align:top;color:rgb(34,34,34)">Vasil=
+ Zlatanov needs a computer + google address</span></td></tr></tbody></table=
+>
+
+activated so that he can start using it. When should he collect his compute=
+r/get info about mail address/activate it?</span></div><div><span style=3D"=
+border-collapse:collapse;color:rgb(119,119,119);font-family:arial,sans-seri=
+f;font-size:13px"><br>
+
+</span></div><div><span style=3D"border-collapse:collapse;color:rgb(119,119=
+,119);font-family:arial,sans-serif;font-size:13px">Regards, Leslie=A0</span=
+></div></div>
+</div><br></div>
+
+--001a1133c690b65da204e4f1f4dc--

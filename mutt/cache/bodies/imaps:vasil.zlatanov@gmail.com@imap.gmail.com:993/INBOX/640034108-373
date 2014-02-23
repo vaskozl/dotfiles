@@ -1,0 +1,73 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp185767wed;
+        Tue, 24 Sep 2013 12:01:21 -0700 (PDT)
+X-Received: by 10.58.75.131 with SMTP id c3mr29268695vew.12.1380049280940;
+        Tue, 24 Sep 2013 12:01:20 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-ve0-x22e.google.com (mail-ve0-x22e.google.com [2607:f8b0:400c:c01::22e])
+        by mx.google.com with ESMTPS id sc5si8774492vdc.87.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 24 Sep 2013 12:01:20 -0700 (PDT)
+Received-SPF: neutral (google.com: 2607:f8b0:400c:c01::22e is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=2607:f8b0:400c:c01::22e;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2607:f8b0:400c:c01::22e is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-ve0-x22e.google.com with SMTP id jy13so3786229veb.5
+        for <vasil.zlatanov@gmail.com>; Tue, 24 Sep 2013 12:01:20 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=vBn3Y1TCIwlI0Qvxi+D56x8sFctAdPZ7GVBFnLlQTvQ=;
+        b=kvbPUZjuG8BL4yp5dM3iejhjqMuqlzkdwWWSzl6J00ZWbokPH5AfcqfF/K/sGON6Yu
+         DhQCjchHLQ+vB1Tm/Kq8ApIlqk3BeA4KOxoiIrnv/uTd+qVJCOacdDzbq79aFIfcFLIH
+         aMOjqJ1OeZBAM2rBBb+9QJrRcY4+hUwLqcv/ht7T0ETH5GzgGEgKSKyOHyF21sKdN2qb
+         RTz5l1f2CnOrgZt8r9XEa+7cva7pGHyxZBC8fBhiUQcrNf0/ddorz3Ir9moa9CptVl88
+         3/6VyHMKI0wSxFBhfxwNq5IwdrTWCKNl5Y5O9AFuBPUg/I1VYSRX2J63KCZta0SadK84
+         7k/w==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.219.46 is neither permitted nor denied by best guess record for domain of patrik.liedbeck1@malmoborgar.se) smtp.mail=patrik.liedbeck1@malmoborgar.se
+X-Gm-Message-State: ALoCoQkfE2kV8tVxsgMKf09/pSUnM7isk297ju35dFQfitp92owfZmCbpwHG0znWouEn3/t99WOD
+X-Received: by 10.52.37.69 with SMTP id w5mr5962866vdj.32.1380049280413;
+        Tue, 24 Sep 2013 12:01:20 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp242015vcv;
+        Tue, 24 Sep 2013 12:01:20 -0700 (PDT)
+X-Received: by 10.60.58.10 with SMTP id m10mr2596004oeq.61.1380049279528;
+        Tue, 24 Sep 2013 12:01:19 -0700 (PDT)
+Return-Path: <patrik.liedbeck1@malmoborgar.se>
+Received: from mail-oa0-f46.google.com (mail-oa0-f46.google.com [209.85.219.46])
+        by mx.google.com with ESMTPS id c5si15934071oed.141.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 24 Sep 2013 12:01:19 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.219.46 is neither permitted nor denied by best guess record for domain of patrik.liedbeck1@malmoborgar.se) client-ip=209.85.219.46;
+Received: by mail-oa0-f46.google.com with SMTP id k14so2658338oag.5
+        for <vasil.zlatanov1@malmoborgar.se>; Tue, 24 Sep 2013 12:01:18 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.173.145 with SMTP id bk17mr2650703oec.64.1380049278516;
+ Tue, 24 Sep 2013 12:01:18 -0700 (PDT)
+Received: by 10.182.45.100 with HTTP; Tue, 24 Sep 2013 12:01:18 -0700 (PDT)
+Date: Tue, 24 Sep 2013 21:01:18 +0200
+Message-ID: <CAOBrKWPw+Zfy=_8sekkqG5qkjn1PO3RQOXZF57Zf6GDM+R5Ssg@mail.gmail.com>
+Subject: 
+From: Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>
+To: "vasil.zlatanov1" <vasil.zlatanov1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=089e012298e404d56a04e725c3c2
+
+--089e012298e404d56a04e725c3c2
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hey vasco how do u wanna do the presentation?  i can take the parts down to
+the monkey tricks? and u can take the rest? we can also du so that we can
+but in and help each other out in the different parts as well :)
+
+--089e012298e404d56a04e725c3c2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hey vasco how do u wanna do the presentation? =A0i can tak=
+e the parts down to the monkey tricks? and u can take the rest? we can also=
+ du so that we can but in and help each other out in the different parts as=
+ well :)=A0</div>
+
+--089e012298e404d56a04e725c3c2--

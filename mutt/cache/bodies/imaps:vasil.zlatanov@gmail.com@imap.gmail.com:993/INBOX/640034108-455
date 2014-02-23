@@ -1,0 +1,125 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp31921oac;
+        Sat, 30 Nov 2013 12:21:14 -0800 (PST)
+X-Received: by 10.204.80.78 with SMTP id s14mr24458249bkk.6.1385842873551;
+        Sat, 30 Nov 2013 12:21:13 -0800 (PST)
+Return-Path: <toni_sfr+prvs=1047b75c18@mail.bg>
+Received: from mx2.mail.bg (mx2.mail.bg. [2001:67c:16b8:1::2:18])
+        by mx.google.com with ESMTP id oe5si17133527bkb.83.2013.11.30.12.21.13
+        for <vasil.zlatanov@gmail.com>;
+        Sat, 30 Nov 2013 12:21:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of toni_sfr+prvs=1047b75c18@mail.bg designates 2001:67c:16b8:1::2:18 as permitted sender) client-ip=2001:67c:16b8:1::2:18;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of toni_sfr+prvs=1047b75c18@mail.bg designates 2001:67c:16b8:1::2:18 as permitted sender) smtp.mail=toni_sfr+prvs=1047b75c18@mail.bg;
+       dkim=pass header.i=@mail.bg
+Received: from mail.bg (unknown [10.0.0.31])
+	by mx2.mail.bg (Postfix) with ESMTPA id B2F416000287
+	for <vasil.zlatanov@gmail.com>; Sat, 30 Nov 2013 22:21:12 +0200 (EET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1385842872; bh=+RhTviboydOseIZaVoYATKSwohYTTuAPWdvmg+FWVN0=;
+	h=Message-ID:In-Reply-To:References:Date:Subject:From:To:
+	 MIME-Version:Content-Type;
+	b=zi5U7zSCzq0DtZFPzXv9OP1rzBZhqCXVcNlM+YBTMatBVyYMwwondMa3Lumo6VPGc
+	 K+ikgCr2Da/k3T6Do3G3N1r7LkTPuRvyznoMgAEfRfjf9SXaDftbwFway3Zv72DKLJ
+	 AmkV5qy5QgK3xNiGm28YjHK3YSLNm/tMvz/fAyAk=
+Message-ID: <eaae8ee6700260defb64d4eb470ccbb0.mailbg@mail.bg>
+In-Reply-To: <20131130201012.GB14640@gmail.com>
+References: <20131130201012.GB14640@gmail.com>
+Date: Sat, 30 Nov 2013 20:21:12 -0000
+Subject: Re: pomosht
+From: toni_sfr@mail.bg
+To: Vasil Zlatanov <vasil.zlatanov@gmail.com>
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20131130202112_48174"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2013-11-30T20:21:12+00:00
+X-Originating-IP: [130.204.214.160]
+X-Checking: 2013-11-30T20:21:12+00:00
+X-Checked: 2013-11-30T20:21:12+00:00
+
+------=_20131130202112_48174
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0ANe,kato natisna "tuk =C3=B6tiva v XLS fail633KB i mi iska disk.Ne =
+se yadosvai s=0Amen ,drugoto lyato shte napredna oshte malko.Celuvki=0A=0A=
+=0A----- =D0=A6=D0=B8=D1=82=D0=B0=D1=82 =D0=BE=D1=82 Vasil Zlatanov (vasil.=
+zlatanov@gmail.com), =D0=BD=D0=B0=0A30.11.2013 =D0=B2 22:10 -----  Otvarq l=
+i se?=0A=0A=0AOn Sat, Nov 30, 2013 at 07:43:52PM -0000, toni_sfr@mail.bg wr=
+ote:=0A=0A=0AZdravei Vasko.Izpratix ti edno pismo,koeto az ne moga da otvor=
+ya ,a=0Aspeshno=0Ami tryabva.Ako mojesh pomogni,ako ne pishi.Pozdravi=0A=0A=
+=0A-------------------------------------=0AMail.BG: =D0=91=D0=B5=D0=B7=D0=
+=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =
+=D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5=0A=D1=85=D0=
+=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8=
+ =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =
+=D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB=0A=D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=
+=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=
+=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB,=0A=D0=B1=D0=B5=
+=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=
+=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS=0A=D0=B8=D0=B7=
+=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=
+=D1=83=D0=B3=D0=B8. http://mail.bg=0A=0A=0A=0A=0A--------------------------=
+-----------=0AMail.BG: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=
+=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=
+=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=
+=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=
+=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 -=
+ 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=
+=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =
+=D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=
+=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=
+=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=
+=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8. http://mail.bg
+------=_20131130202112_48174
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"line-height: 16px; font-size: 13px; font-family: Tahoma,sans-se=
+rif; margin: 16px 0px;" valid=3D"true">Ne,kato natisna "tuk =C3=B6tiva v XL=
+S fail633KB i mi iska disk.Ne se yadosvai s men ,drugoto lyato shte napredn=
+a oshte malko.Celuvki</p><p style=3D"line-height: 16px; font-size: 13px; fo=
+nt-family: Tahoma,sans-serif; margin: 16px 0px;" valid=3D"true"><br></p><p =
+style=3D"font-family:Tahoma, sans-serif; font-size:13px;"></p>=0A<p style=
+=3D"font-family:Tahoma, sans-serif; font-size:13px;"><span style=3D"color:#=
+999999;">----- =D0=A6=D0=B8=D1=82=D0=B0=D1=82 =D0=BE=D1=82 Vasil Zlatanov (=
+vasil.zlatanov@gmail.com), =D0=BD=D0=B0 30.11.2013 =D0=B2 22:10 -----</span=
+></p>=0A<blockquote type=3D"cite" style=3D"border:none; padding:0; margin:0=
+; background-color:#1010ff;"><div style=3D"margin-left:2px; background-colo=
+r:white;"><div style=3D"margin-left:13px;">=0AOtvarq li se?<br><br><br>On S=
+at, Nov 30, 2013 at 07:43:52PM -0000, toni_sfr@mail.bg wrote:<br><blockquot=
+e type=3D"cite" style=3D"border:none; padding:0; margin:0; background-color=
+:#1010ff;"><div style=3D"margin-left:2px; background-color:white;"><div sty=
+le=3D"margin-left:13px;"><br><br><br>Zdravei Vasko.Izpratix ti edno pismo,k=
+oeto az ne moga da otvorya ,a speshno<br>mi tryabva.Ako mojesh pomogni,ako =
+ne pishi.Pozdravi<br><br><br>-------------------------------------<br>Mail.=
+BG: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=
+=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=
+=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=
+=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=
+=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=
+=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =
+=D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=
+=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=
+=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, =
+SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=
+=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8. http://mail.bg<br></div></div></blockqu=
+ote></div></div></blockquote>=0A<p style=3D"font-family:Tahoma, sans-serif;=
+ font-size:13px;"></p>=0A<br /><br />-------------------------------------<=
+br /><a href=3D"http://mail.bg">Mail.BG</a>: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=
+=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=
+=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=
+=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=
+=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=
+=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=
+=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=
+=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=
+=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=
+=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=
+=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=
+=B8.
+------=_20131130202112_48174--
+
+

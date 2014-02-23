@@ -1,0 +1,153 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp245702oac;
+        Tue, 7 Jan 2014 22:12:19 -0800 (PST)
+X-Received: by 10.68.244.103 with SMTP id xf7mr93882876pbc.50.1389161539189;
+        Tue, 07 Jan 2014 22:12:19 -0800 (PST)
+Return-Path: <noreply@blizzard.com>
+Received: from mx10.blizzard.com (mx10.blizzard.com. [12.130.201.12])
+        by mx.google.com with ESMTP id qx4si60422476pbc.165.2014.01.07.22.12.18
+        for <VASIL.ZLATANOV@gmail.com>;
+        Tue, 07 Jan 2014 22:12:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@blizzard.com designates 12.130.201.12 as permitted sender) client-ip=12.130.201.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@blizzard.com designates 12.130.201.12 as permitted sender) smtp.mail=noreply@blizzard.com;
+       dkim=pass header.i=noreply@blizzard.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=blizzard.com
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=blizzard.com; i=noreply@blizzard.com; q=dns/txt;
+  s=mail; t=1389161538; x=1420697538;
+  h=reply-to:message-id:from:to:subject:date:mime-version;
+  bh=g8VeVDVrftoqk25dDad2QnwEzGtnRF9u/iM8lq+EzYo=;
+  b=J6h5yz2AVBCXs8AHfqKizasHWh+XIxZD5PHTC3xrAUwF6mPb/VEAJMsK
+   0fOaAwjNTwaeiXXfcA+0LT86cK4dFDdFW9+FcdhI7bC6gI7XEnEozZkpu
+   uSaNBFhe7dTdF16OV7XEFL8Oa6FeddLQW6+Ilrczn/VpSgixR6xPo5EXQ
+   4=;
+Received: from irvex205.corp.blizzard.net ([10.130.14.26])
+  by mx10.blizzard.com with ESMTP; 07 Jan 2014 22:12:14 -0800
+Received: from IRVEX018.corp.blizzard.net (10.130.2.73) by
+ IRVEX205.corp.blizzard.net (10.130.14.26) with Microsoft SMTP Server (TLS) id
+ 14.1.289.1; Tue, 7 Jan 2014 22:12:13 -0800
+Received: from IRVAP377 (10.130.2.102) by Smtp.blizzard.com (10.130.2.181)
+ with Microsoft SMTP Server id 14.1.355.2; Tue, 7 Jan 2014 22:12:13 -0800
+Organization: Blizzard Entertainment
+Reply-To: <noreply@blizzard.com>
+Message-ID: <31dd67f55efb0665e228599700115c77@blizzard.com>
+From: Blizzard Entertainment <noreply@blizzard.com>
+To: <VASIL.ZLATANOV@GMAIL.COM>
+Subject: Blizzard Entertainment - Parental Control Changes
+Date: Tue, 7 Jan 2014 22:11:30 -0800
+MIME-Version: 1.0
+Content-Type: text/html; charset="windows-1252"
+Return-Path: noreply@blizzard.com
+
+<html>
+	<head></head>
+	<body>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font 
+face=Calibri>Greetings,<?xml:namespace prefix = o ns = 
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font face=Calibri>On January 7, 
+2014 or shortly afterwards, we’re making a change to Battle.net<sup>®</sup> 
+Parental Controls: a new default setting will prevent in-game purchases for 
+accounts that have Parental Controls turned on. The account will not be able 
+to:<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l0 level1 lfo1" 
+class=MsoListParagraphCxSpFirst><span 
+style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span 
+style="mso-list: Ignore">·<span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Make purchases in the World of 
+Warcraft<sup>®</sup> in-game Shop<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l0 level1 lfo1" 
+class=MsoListParagraphCxSpMiddle><span 
+style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span 
+style="mso-list: Ignore">·<span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Make real-money purchases in 
+Hearthstone<sup>™</sup>: Heroes of Warcraft<sup>™</sup><o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 10pt 0.5in; mso-list: l0 level1 lfo1" 
+class=MsoListParagraphCxSpLast><span 
+style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span 
+style="mso-list: Ignore">·<span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Make purchases in the Diablo<sup>®</sup> 
+III real-money auction house (note: the auction house will be permanently closed 
+on March 18, 2014)<o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font face=Calibri>We’re making 
+this change to ensure that Parental Controls users will have more control over 
+real-money purchases in Blizzard games. No action is needed to keep this default 
+setting and prevent in-game purchases.<o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font face=Calibri>To enable 
+in-game purchases for this account:<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpFirst><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>1.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Log in to </font><a 
+href="http://battle.net/"><font color=#0000ff 
+face=Calibri>Battle.net</font></a><font face=Calibri> and visit the </font><a 
+href="https://battle.net/account/parental-controls/retrieve.html"><font 
+color=#0000ff face=Calibri>Retrieve Parental Controls page</font></a><font 
+face=Calibri>.<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpMiddle><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>2.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Enter your Parental Controls email 
+address. <o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpMiddle><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>3.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Click the <b 
+style="mso-bidi-font-weight: normal">Send Parental Controls Email 
+</b>button.<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpMiddle><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>4.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Check your Parental Controls email for a 
+message from Blizzard Entertainment.<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpMiddle><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>5.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Click the link under the account user’s 
+name. This will take you to the Parental Controls setup page. 
+<o:p></o:p></font></p>
+<p 
+style="TEXT-INDENT: -0.25in; MARGIN: 0in 0in 10pt 0.5in; mso-list: l1 level1 lfo2" 
+class=MsoListParagraphCxSpLast><span 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><span 
+style="mso-list: Ignore"><font face=Calibri>6.</font><span 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></span></span><font face=Calibri>Under the Purchase Settings section, 
+check <b style="mso-bidi-font-weight: normal">Allow in-game purchases</b>, and 
+click the<b style="mso-bidi-font-weight: normal"> Save Settings 
+</b>button.<o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font face=Calibri>If you’d like 
+to remove Parental Controls from this Battle.net account, visit our </font><a 
+href="https://battle.net/support/article/300680"><font color=#0000ff 
+face=Calibri>Adding and Removing Battle.net Parental Controls</font></a><font 
+face=Calibri> support article for detailed instructions.<o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font 
+face=Calibri>Regards,<o:p></o:p></font></p>
+<p style="MARGIN: 0in 0in 10pt" class=MsoNormal><font face=Calibri>Blizzard 
+Entertainment<o:p></o:p></font></p>
+<p></p>
+	</body>
+</html>
+

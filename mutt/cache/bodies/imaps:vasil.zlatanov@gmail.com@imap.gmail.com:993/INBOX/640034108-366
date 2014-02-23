@@ -1,0 +1,91 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp258423wed;
+        Thu, 19 Sep 2013 08:23:21 -0700 (PDT)
+X-Received: by 10.15.83.2 with SMTP id b2mr2956471eez.28.1379604201754;
+        Thu, 19 Sep 2013 08:23:21 -0700 (PDT)
+Return-Path: <toni_sfr+prvs=197547817d@mail.bg>
+Received: from mx3.mail.bg (mx3.mail.bg. [2001:67c:16b8:1::2:19])
+        by mx.google.com with ESMTP id k49si7240967een.112.1969.12.31.16.00.00;
+        Thu, 19 Sep 2013 08:23:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of toni_sfr+prvs=197547817d@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) client-ip=2001:67c:16b8:1::2:19;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of toni_sfr+prvs=197547817d@mail.bg designates 2001:67c:16b8:1::2:19 as permitted sender) smtp.mail=toni_sfr+prvs=197547817d@mail.bg;
+       dkim=pass header.i=@mail.bg
+Received: from mail.bg (unknown [10.0.0.35])
+	by mx3.mail.bg (Postfix) with ESMTPA id 2DF3D2027CE3
+	for <vasil.zlatanov@gmail.com>; Thu, 19 Sep 2013 18:23:21 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1379604201; bh=GmK2oMr5A8AxhnU9CGkyBGzI8S9mBdh4uwv7fJuy2fc=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=lpQRixY66xewqViTN7PHAzxqA4P1JXeLD1hyuXIxynHUD2CnuyDR4r/yRxXCxmhct
+	 ZhRHDj65CyJyCtdkPEi+Lfoss+eeoaJyFhPkC4PAEsTGJeuTeeFlz7QQUccATv81J7
+	 FDISgZ0yaCtLS0YGQksZUeJ6ynTCaauEENTBbgwM=
+Message-ID: <c4783bee165b3a2c5afe5fde35e79a75.mailbg@mail.bg>
+Date: Thu, 19 Sep 2013 15:18:51 -0000
+Subject: misli
+From: toni_sfr@mail.bg
+To: vasil.zlatanov@gmail.com
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20130919151850_51777"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2013-09-19T15:18:50+00:00
+X-Originating-IP: [79.100.10.223]
+X-Checking: 2013-09-19T15:18:50+00:00
+X-Checked: 2013-09-19T15:18:51+00:00
+
+------=_20130919151850_51777
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0AZdravei Vasko.Vchera zakusvaxme s Anitka i na men mi beshe mnogo=
+=0Apriyatno.Temata na razgovora razbira se beshe okolo vas-che vi e trudno =
+i=0Atya mi kazva-Vasko e umen,babo i shte se spravi,vapreki,che preskochi e=
+dna=0Agodina.Krischo shte napava sas shvedskiya sega i shte mu e po-lesno p=
+osle.I=0AAnitka zapochva usileno po vsichki predmeti.Davaxa edno xumoristic=
+hno=0Apredavane po televziyata ot vremeto predi ti da se rodish-kazvashe se=
+=0AKU-KU-sas Slavi Trifonov ot mladite mu godini-che tam se machexa da=0Ago=
+voryat angliiski na maitp-ama sashtiyat kato moyat sega-zatova se=0Aradvait=
+e ,che ste deca na sveta.Tova e zasega.Badete zdravi i usmixnati.=0A=0A=0A-=
+------------------------------------=0AMail.BG: =D0=91=D0=B5=D0=B7=D0=BF=D0=
+=BB=D0=B0=D1=82=D0=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=
+=D0=B0=D0=B9-=D0=B4=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=
+=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=
+=D0=B0 =D0=B1=D1=8A=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=
+=D0=B0=D0=B7=D0=B0=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=
+=D0=B0 =D0=BA=D1=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=
+=D0=B5=D0=BF=D0=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=
+=D0=BB=D0=B0=D1=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=
+=D0=B0 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=
+=D1=81=D1=82=D1=8F=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=
+=D0=B8. http://mail.bg
+------=_20130919151850_51777
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"line-height: 16px; font-size: 13px; font-family: Tahoma,sans-se=
+rif; margin: 16px 0px;" valid=3D"true">Zdravei Vasko.Vchera zakusvaxme s An=
+itka i na men mi beshe mnogo priyatno.Temata na razgovora razbira se beshe =
+okolo vas-che vi e trudno i tya mi kazva-Vasko e umen,babo i shte se spravi=
+,vapreki,che preskochi edna godina.Krischo shte napava sas shvedskiya sega =
+i shte mu e po-lesno posle.I Anitka zapochva usileno po vsichki predmeti.Da=
+vaxa edno xumoristichno predavane po televziyata ot vremeto predi ti da se =
+rodish-kazvashe se KU-KU-sas Slavi Trifonov ot mladite mu godini-che tam se=
+ machexa da govoryat angliiski na maitp-ama sashtiyat kato moyat sega-zatov=
+a se radvaite ,che ste deca na sveta.Tova e zasega.Badete zdravi i usmixnat=
+i.<br></p><br /><br />-------------------------------------<br /><a href=3D=
+"http://mail.bg">Mail.BG</a>: =D0=91=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=82=D0=
+=B5=D0=BD e-mail =D0=B0=D0=B4=D1=80=D0=B5=D1=81. =D0=9D=D0=B0=D0=B9-=D0=B4=
+=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=
+=D0=B5=D1=80=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B8 =D0=BD=D0=B0 =D0=B1=D1=8A=
+=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D1=8F =D0=BF=D0=B0=D0=B7=D0=B0=
+=D1=80 - 20 GB =D0=BF=D0=BE=D1=89=D0=B5=D0=BD=D1=81=D0=BA=D0=B0 =D0=BA=D1=
+=83=D1=82=D0=B8=D1=8F, 1 GB =D0=BF=D1=80=D0=B8=D0=BA=D1=80=D0=B5=D0=BF=D0=
+=B5=D0=BD =D1=84=D0=B0=D0=B9=D0=BB, =D0=B1=D0=B5=D0=B7=D0=BF=D0=BB=D0=B0=D1=
+=82=D0=B5=D0=BD POP3, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D0=BD=D0=B0 =D0=B2=D0=
+=B5=D1=80=D1=81=D0=B8=D1=8F, SMS =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D1=8F=
+=D0=B2=D0=B0=D0=BD=D0=B5 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8.
+------=_20130919151850_51777--
+
+

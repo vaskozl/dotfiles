@@ -1,0 +1,437 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.132 with SMTP id au4csp95698oac;
+        Fri, 7 Feb 2014 03:58:03 -0800 (PST)
+X-Received: by 10.58.235.129 with SMTP id um1mr10288335vec.17.1391774283080;
+        Fri, 07 Feb 2014 03:58:03 -0800 (PST)
+Return-Path: <Newsletter@email.blizzard.com>
+Received: from email.blizzard.com (email.blizzard.com. [12.129.200.219])
+        by mx.google.com with ESMTP id tj7si1242343vdc.59.2014.02.07.03.58.02
+        for <vasil.zlatanov@gmail.com>;
+        Fri, 07 Feb 2014 03:58:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of Newsletter@email.blizzard.com designates 12.129.200.219 as permitted sender) client-ip=12.129.200.219;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of Newsletter@email.blizzard.com designates 12.129.200.219 as permitted sender) smtp.mail=Newsletter@email.blizzard.com;
+       dkim=pass header.i=@email.blizzard.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=email.blizzard.com
+DKIM-Signature: v=1; a=rsa-sha256; d=email.blizzard.com; s=em; c=relaxed/relaxed; l=19585; i=@*.email.blizzard.com; t=1391774274; x=1423310274; q=dns/txt; h=Date:From:To:Message-ID:Subject; bh=8Oyj6MP/Tr4bYwWSSN48N6aShR4zy5D4S0ssRy1Ik+w=; b=mdLHXSVGZiPcDAd04S3n7BY7OfQTzXbwtIYVpQ+4kA949zieEbqd9+IbfNSklJX0jfKiCdrORYSOyTWIvDjOlfE4LVBEegnK5u/VaZy1DyHdUWTC5dnKGhgkuq896bhoeogb/zl/FYmAvab1xyhmmySkpaoBaXplIwLgEdlQp5o=
+Date: Fri, 07 Feb 2014 11:57:54 +0000 (GMT)
+From: "Blizzard Entertainment" <Newsletter@email.blizzard.com>
+To: vasil.zlatanov@gmail.com
+Message-ID: <em.ea354ad7.20140206194912.1.1.1572196.1261101@email.blizzard.com>
+Subject: Vasil - Try the Hearthstone: Heroes of Warcraft open beta!
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailer:  7.2.2.3.25; blizzard
+
+<html>
+<head>
+=09<title>Welcome to the Hearthstone=E2=84=A2: Heroes of Warcraft=E2=84=A2 =
+Beta Test</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style type=3D"text/css">
+body {
+=09margin-left: 0px;
+=09margin-top: 0px;
+=09margin-right: 0px;
+=09margin-bottom: 0px;
+}
+</style>
+</head>=09
+<body bgcolor=3D"#000000" link=3D"#dd2d05" vlink=3D"#dd2d05" alink=3D"#dd2d=
+05">
+<img width=3D"1" height=3D"1" style=3D"border:0" src=3D"HTTPS://bs.serving-=
+sys.com/BurstingPipe/ActivityServer.bs?cn=3Das&amp;ActivityID=3D381185&amp;=
+ns=3D1"/>
+<table width=3D"613" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09<tr>
+=09=09<td colSpan=3D4>
+=09=09=09<div align=3D"center"><font face=3D"Arial, Helvetica, sans-serif" =
+color=3D#999999 size=3D1>Having trouble viewing this email?</font>
+=09=09=09
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/de=
+-de/index_de-de.html" style=3D"color: #DD700C">DE</a></font>               =
+        =20
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/en=
+-gb/index_en-gb.html" style=3D"color: #DD700C">EN</a></font>               =
+        =20
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/es=
+-es/index_es-es.html" style=3D"color: #DD700C">ES</a></font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/fr=
+-fr/index_fr-fr.html" style=3D"color: #DD700C">FR</a></font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/it=
+-it/index_it-it.html" style=3D"color: #DD700C">IT</a></font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/pl=
+-pl/index_pl-pl.html" style=3D"color: #DD700C">PL</a></font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 siz=
+e=3D1> &ndash; </font>
+=09=09=09=09<font face=3D"Arial, Helvetica, sans-serif" size=3D1><a href=3D=
+"http://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/ru=
+-ru/index_ru-ru.html" style=3D"color: #DD700C">RU</a></font>
+=09=09=09=09 <font face=3D"Arial, Helvetica, sans-serif" color=3D#999999 si=
+ze=3D1>
+=09=09=09=09<br>                       =20
+=09=09=09=09To ensure you receive emails from Blizzard, add <strong style=
+=3D"color: #DD700C">Newsletter@email.blizzard.com</strong> to your address =
+book.
+=09=09=09=09<br />
+=09=09=09=09Change the <font face=3D"Arial, Helvetica, sans-serif" size=3D1=
+><a href=3D"https://eu.battle.net/account/management/settings/change-commun=
+ication.html" style=3D"color: #DD700C">preferred language</a></font> you re=
+ceive e-mails in. </font>
+=09=09=09</div>
+=09=09</td>
+=09</tr>
+    <tr>
+    =09<td colSpan=3D4>&nbsp;</td>
+    </tr>
+</table>
+<table width=3D"613" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+=09<tr>
+=09=09<td width=3D"613" height=3D"200"><img src=3D"http://media.wow-europe.=
+com/email/2014/Hearthstone/beta/openbeta_driver/_images/header.jpg" alt=3D"=
+Hearthstone" width=3D"613" height=3D"200" style=3D"display: block; border: =
+none;" border=3D"0" /></td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"70"><img src=3D"http://media.wow-europe.c=
+om/email/2014/Hearthstone/beta/openbeta_driver/_images/title-en-gb.jpg" alt=
+=3D"Play The Open Beta" width=3D"613" height=3D"70" style=3D"display: block=
+; border: none;" border=3D"0" /></td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"270" background=3D"http://media.wow-europ=
+e.com/email/2014/Hearthstone/beta/openbeta_driver/_images/body-01-en-gb_2.j=
+pg">
+=09=09=09<!--[if gte mso 9]>
+=09=09=09=09<v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theIma=
+ge1" style=3D'behavior: url(#default#VML); display: inline-block; position:=
+ absolute; width: 613px; height: 270px; top: 0; left: 0; border: none; z-in=
+dex: 1; margin: 0; padding: 0;' src=3D"http://media.wow-europe.com/email/20=
+14/Hearthstone/beta/openbeta_driver/_images/body-01-en-gb_2.jpg" />
+=09=09=09=09<v:shape xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theTex=
+t1" style=3D'behavior: url(#default#VML); display: inline-block; position: =
+absolute; width: 613px; height: 270px; top: 0; left: 0; border: none; z-ind=
+ex: 2; margin: 0; padding: 0;'>
+=09=09=09=09<div>
+=09=09=09<![endif]-->
+=09=09=09<table width=3D"613" height=3D"270" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"60" height=3D"270" rowspan=3D"3"><img src=3D"ht=
+tp://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/_imag=
+es/spacer.gif" width=3D"60" height=3D"240" border=3D"0" style=3D"display: b=
+lock; border: none;" /></td>
+=09=09=09=09=09<td width=3D"246" height=3D"190" rowspan=3D"2" style=3D"font=
+-size: 14px; font-family: Calibri, Trebuchet MS, arial, helvetica, sans-ser=
+if; color: #000000;">
+=09=09=09=09=09=09Greetings Vasil,
+=09=09=09=09=09=09<br /><br />
+=09=09=09=09=09=09Sheathe your sword, draw your deck, and get ready for <em=
+><strong>Hearthstone=E2=84=A2: Heroes of Warcraft=E2=84=A2</strong></em> - =
+the fast-paced strategy card game that's easy to learn and massively fun.=
+=20
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"307" height=3D"49" colspan=3D"3"><img src=3D"ht=
+tp://media.wow-europe.com/email/2014/Hearthstone/beta/openbeta_driver/_imag=
+es/spacer.gif" width=3D"307" height=3D"49" border=3D"0" style=3D"display: b=
+lock; border: none;" /></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"28" height=3D"141"><img src=3D"http://media.wow=
+-europe.com/email/2014/Hearthstone/beta/openbeta_driver/_images/spacer.gif"=
+ width=3D"28" height=3D"141" border=3D"0" style=3D"display: block; border: =
+none;" /></td>
+=09=09=09=09=09<td width=3D"217" height=3D"141" valign=3D"top">
+=09=09=09=09=09=09<!--[if gte mso 9]>
+=09=09=09=09=09=09=09<a href=3D"http://eu.battle.net/hearthstone/en/media/"=
+ style=3D"border: none;">
+=09=09=09=09=09=09=09<img class=3D"video-preview" src=3D"http://media.wow-e=
+urope.com/email/2014/Hearthstone/beta/openbeta_driver/_images/spacer.gif" a=
+lt=3D"Trailer" width=3D"217" height=3D"109" style=3D"border: none;" border=
+=3D"0" />
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09<div style=3D"display: none;">
+=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09<a href=3D"http://eu.battle.net/hearthstone/en/media/" st=
+yle=3D"border: none;">
+=09=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hea=
+rthstone/beta/openbeta_driver/_images/video.gif" alt=3D"Trailer" width=3D"2=
+17" height=3D"109" style=3D"display: block; border: none;" border=3D"0" />
+=09=09=09=09=09=09</a>
+=09=09=09=09=09=09<!--[if gte mso 9]>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"62" height=3D"141"><img src=3D"http://media.wow=
+-europe.com/email/2014/Hearthstone/beta/openbeta_driver/_images/spacer.gif"=
+ width=3D"62" height=3D"141" border=3D"0" style=3D"display: block; border: =
+none;" /></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"491" height=3D"80" style=3D"font-size: 14px; fo=
+nt-family: Calibri, Trebuchet MS, arial, helvetica, sans-serif; color: #000=
+000;" valign=3D"top" colspan=3D"3">
+=09=09=09=09=09=09Pull up a chair and join us in the <strong>Hearthstone op=
+en beta</strong>. Just click the button below or head over to the download =
+page at <font style=3D"font-size: 13px; font-family: Arial; color: #5E1C8A;=
+">https://eu.battle.net/account/download/?show=3Dhearthstone&style=3Dhearth=
+stone</font>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"62" height=3D"80"><img src=3D"http://media.wow-=
+europe.com/email/2014/Hearthstone/beta/openbeta_driver/_images/spacer.gif" =
+width=3D"62" height=3D"80" border=3D"0" style=3D"display: block; border: no=
+ne;" /></td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!--[if gte mso 9]>
+            =09</v:shape>
+            <![endif]-->
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"60">
+=09=09=09<a href=3D'http://email.blizzard.com/Key-1261101.C.Q7rv.C.C.DsjF2k=
+'>
+=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearthstone/=
+beta/openbeta_driver/_images/sign-button-en-gb.jpg" alt=3D"Play Free Now" w=
+idth=3D"613" height=3D"60" style=3D"display: block; border: none;" border=
+=3D"0" />
+=09=09=09</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"490" background=3D"http://media.wow-europ=
+e.com/email/2014/Hearthstone/beta/openbeta_driver/_images/body-02-en-gb_2.j=
+pg">
+=09=09=09<!--[if gte mso 9]>
+                <v:rect style=3D"width:613px;height:490px;overflow:hidden; =
+margin:0; padding:0;" strokecolor=3D"none">
+                    <v:fill type=3D"tile" src=3D"http://media.wow-europe.co=
+m/email/2014/Hearthstone/beta/openbeta_driver/_images/body-02-en-gb_2.jpg" =
+/></v:fill>
+                </v:rect>
+                <v:shape id=3D"bg-title" style=3D"position:absolute;width:6=
+13px;height:490px;overflow:hidden;">
+            <![endif]-->
+=09=09=09<table width=3D"613" height=3D"490" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td rowspan=3D"5" width=3D"62" height=3D"490">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"62" height=3D"490" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09=09<td colspan=3D"3" width=3D"518" height=3D"35">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"518" height=3D"35" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09=09<td rowspan=3D"5" width=3D"33" height=3D"490">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"33" height=3D"490" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"240" height=3D"200">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" alt=3D"Powerful Cards to Col=
+lec" width=3D"240" height=3D"200" style=3D"display: block; border: none;" b=
+order=3D"0" />
+=09=09=09=09=09</td>
+=09=09=09=09=09<td height=3D"200" width=3D"20">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"20" height=3D"200" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"258" height=3D"200" style=3D"font-size: 14px; f=
+ont-family: Calibri, Trebuchet MS, arial, helvetica, sans-serif; color: #00=
+0000;" valign=3D"top">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" alt=3D"Powerful Cards to Col=
+lect" width=3D"258" height=3D"10" style=3D"display: block; border: none;" b=
+order=3D"0" /><br />
+=09=09=09=09=09=09<strong style=3D"color: #263c87; font-size: 19px; ">Power=
+ful Cards to Collect</strong>
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09Build your winning deck by collecting, crafting or purcha=
+sing cards. With <a href=3D"http://eu.battle.net/hearthstone/en/game-guide/=
+heroes" style=3D"color: #2e3e81;"><strong>nine classes</strong></a> and hun=
+dreds of cards including golden, epic and rare cards to collect, your colle=
+ction never stops evolving!
+=09=09=09=09  </td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td colspan=3D"3" width=3D"518" height=3D"40">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"518" height=3D"40" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"240" height=3D"180" style=3D"font-size: 14px; f=
+ont-family: Calibri, Trebuchet MS, arial, helvetica, sans-serif; color: #00=
+0000;" valign=3D"top">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" alt=3D"Challenge Other Playe=
+rs" width=3D"240" height=3D"2" style=3D"display: block; border: none;" bord=
+er=3D"0" />
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09<strong style=3D"color: #263c87; font-size: 19px; ">Chall=
+enge Other Players</strong>
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09Battle against your Battle.net friends, climb the EU ladd=
+er in Ranked Play mode or hone your skills in practice matches against some=
+ of Azeroth=E2=80=99s greatest heroes: Thrall, Uther, Gul'dan, and more!
+=09=09=09=09  </td>
+=09=09=09=09  <td height=3D"180" width=3D"20">
+=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearthsto=
+ne/beta/openbeta_driver/_images/spacer.gif" width=3D"20" height=3D"180" bor=
+der=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09  </td>
+=09=09=09=09=09<td width=3D"258" height=3D"180">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" alt=3D"Challenge Other Playe=
+rs" width=3D"258" height=3D"180" style=3D"display: block; border: none;" bo=
+rder=3D"0" />
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td colspan=3D"3" width=3D"518" height=3D"35">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"518" height=3D"35" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!--[if gte mso 9]>
+            =09</v:shape>
+            <![endif]-->
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"160" background=3D"http://media.wow-europ=
+e.com/email/2014/Hearthstone/beta/openbeta_driver/_images/body-03-en-gb.jpg=
+">
+=09=09=09<!--[if gte mso 9]>
+                <v:rect style=3D"width:613px;height:160px;overflow:hidden;"=
+ strokecolor=3D"none">
+                    <v:fill type=3D"tile" src=3D"http://media.wow-europe.co=
+m/email/2014/Hearthstone/beta/openbeta_driver/_images/body-03-en-gb.jpg" />=
+</v:fill>
+                </v:rect>
+                <v:shape id=3D"bg-title" style=3D"position:absolute;width:6=
+13px;height:160px;overflow:hidden;">
+            <![endif]-->
+            <table width=3D"613" height=3D"160" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+            =09<tr>
+=09=09=09=09=09<td height=3D"160" width=3D"60">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"60" height=3D"60" b=
+order=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"226" height=3D"160" style=3D"font-size: 14px; f=
+ont-family: Calibri, Trebuchet MS, arial, helvetica, sans-serif; color: #00=
+0000;" valign=3D"top">
+=09=09=09=09=09=09<img src=3D"http://media.wow-europe.com/email/2014/Hearth=
+stone/beta/openbeta_driver/_images/spacer.gif" width=3D"226" height=3D"25" =
+border=3D"0" style=3D"display: block; border: none;" />
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09For more information read our <a href=3D"http://eu.battle=
+.net/hearthstone/en/faq/" style=3D"color: #2e3e81;">FAQ</a>
+=09=09=09=09=09<br>
+<br>
+- The Hearthstone Team</td>
+=09=09=09=09=09<td height=3D"160" width=3D"327"><img src=3D"http://media.wo=
+w-europe.com/email/2014/Hearthstone/beta/openbeta_driver/_images/spacer.gif=
+" width=3D"327" height=3D"60" border=3D"0" style=3D"display: block; border:=
+ none;" /></td>
+=09=09=09=09</tr>
+            </table>
+=09=09=09<!--[if gte mso 9]>
+            =09</v:shape>
+            <![endif]-->
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"613" height=3D"198"><img src=3D"http://media.wow-europe.=
+com/email/2014/Hearthstone/beta/openbeta_driver/_images/footer.jpg" alt=3D"=
+Blizzard Entertainment" width=3D"613" height=3D"198" style=3D"display: bloc=
+k; border: none;" border=3D"0" /></td>
+=09</tr>
+</table>
+<table border=3D"0" cellspacing=3D"20" cellpadding=3D"0" width=3D"613" bgco=
+lor=3D"#000000">
+=09<tr>
+=09=09<td valign=3D"top" style=3D"padding: 0 1em 0 0;">
+=09=09=09<p style=3D"margin-bottom: 12px;">   =20
+=09=09=09=09<font color=3D"#999999">
+=09=09=09=09=09<span style=3D"font-size: 10px; font-family: Arial;">       =
+                     If you no longer wish to receive Blizzard newsletters,=
+ or information relating to Blizzard products, please reply to this email u=
+sing the subject line "Unsubscribe".
+=09=09=09=09=09=09<br /><br />
+=09=09=09=09=09=09To read our privacy policy visit:</span>
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09<a href=3D"http://eu.blizzard.com/en-gb/company/about/pri=
+vacy.html" style=3D"color: #DD700C"><span style=3D"font-size: 10px; font-fa=
+mily: Arial;">http://eu.blizzard.com/en-gb/company/about/privacy.html</span=
+></a>
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09<!-- PEGI LOGO -->
+=09=09=09=09=09=09<a href=3D"http://www.pegi.info/en/index/"><img src=3D"ht=
+tp://media.wow-europe.com/ratings/PEGI-7_64x79.png" width=3D"64" height=3D"=
+79" style=3D"display: block; color: #DD700C" align=3D"left" border=3D"0" hs=
+pace=3D"5"></a><span style=3D"font-size: 10px; font-family: Arial;">
+=09=09=09=09=09=09=C2=A9 2014 Blizzard Entertainment, Inc. All rights reser=
+ved.
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09<br />
+=09=09=09=09=09=09Blizzard Entertainment, World of Warcraft, Mists of Panda=
+ria, Diablo III, StarCraft II, Hearthstone and Heroes of the Storm are trad=
+emarks or registered trademarks in the U.S. and/or other countries. All oth=
+er trademarks are the property of their respective owners.
+=09=09=09=09=09</span>
+=09=09=09=09</font>
+=09=09=09</p>
+=09=09</td>
+=09=09<td style=3D"padding: 0 0 0 0;" valign=3D"top">
+=09=09=09<p style=3D"margin-bottom: 12px;">
+=09=09=09=09<font color=3D"#999999" face=3D"Arial"><span style=3D"font-size=
+: 10px; font-family: Arial;">
+=09=09=09=09=09Technical Support:
+=09=09=09=09=09<br />
+=09=09=09=09=09<a href=3D"http://eu.battle.net/support/en/" style=3D"color:=
+ #DD700C">http://eu.battle.net/support/en/</a>
+=09=09=09=09=09<br />
+=09=09=09=09=09<br />
+=09=09=09=09=09Visit Blizzard on the world wide web at: <a href=3D"http://e=
+u.blizzard.com/en-gb/" style=3D"color: #DD700C">eu.blizzard.com/en/</a>
+=09=09=09=09</span></font>
+=09=09=09</p>
+=09=09</td>
+=09</tr>
+</table>
+<BR>.<BR><BR><img src=3D"http://email.blizzard.com/blankpixel.gif/Key-12611=
+01.C.Q7rv.z.C.nFxBSZV"/><BR><BR>Message-Id: &lt;em.ea354ad7.20140206194912.=
+1.1.1572196.1261101@email.blizzard.com&gt;<BR></body>
+</html>

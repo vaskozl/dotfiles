@@ -1,0 +1,13 @@
+#!/bin/sh
+#batinfo
+stat=` acpi | tr -s ,   | cut -d  -f4 `
+pct=` acpi | tr -s ,   | cut -d  -f5 `
+
+color="^E{k.}"
+case $stat in
+    discharging) color="^E{kr}" ;;
+    charging) color="^E{kg}" ;;
+    *) color="^E{k.}" ;;
+esac
+
+echo "$color$pct^E{-}($color$stat^E{-})"

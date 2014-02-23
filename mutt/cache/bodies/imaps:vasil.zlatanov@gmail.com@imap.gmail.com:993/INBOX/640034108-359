@@ -1,0 +1,111 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.216.72.132 with SMTP id t4csp7388wed;
+        Thu, 12 Sep 2013 04:37:01 -0700 (PDT)
+X-Received: by 10.58.108.74 with SMTP id hi10mr6336295veb.14.1378985820724;
+        Thu, 12 Sep 2013 04:37:00 -0700 (PDT)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vb0-x231.google.com (mail-vb0-x231.google.com [2607:f8b0:400c:c02::231])
+        by mx.google.com with ESMTPS id zt2si1061549vec.36.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Sep 2013 04:37:00 -0700 (PDT)
+Received-SPF: neutral (google.com: 2607:f8b0:400c:c02::231 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=2607:f8b0:400c:c02::231;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2607:f8b0:400c:c02::231 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vb0-x231.google.com with SMTP id w16so6980832vbb.8
+        for <vasil.zlatanov@gmail.com>; Thu, 12 Sep 2013 04:37:00 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:message-id:date:subject:from:to:cc:content-type;
+        bh=73QHv1JloRtUjbJ74GoIlONPjles2zod+WrJYexg4YM=;
+        b=HtqUykpnSJ8oz2KUGc42oFONjj3H9Pi4blLPse4C/zBRwfgUZUC1UkaefP/5l2qxGF
+         ZgPEXam35u9XSczwqsMXGaqnSrXmHgRvoM7xDz2gQ6Khy4UvTnNk2YP15DsvXXw7MVdn
+         XEJtSUUzHW9kV63GoJa+1Di/0TbwA87PSpNYhO9MiFGcgEVWXgv9aBqufi2YlmqW4TA3
+         Pz1hb9Hs7yjWmpFDoPBzrOhyPN4K7LIp0G6865QDWspza4Jf1CTudVmm/nxd5FTq5JW5
+         +YEemx+8mJdM7BYCUbNvPEVgawLtLVEdIaF7nDxZYOyxstn0IQhghxaKbQ8dmJMiMTlc
+         pyAg==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of 3WacxUhEOAAYinxoyzkrrk.lu0xoksgrsuhuxmgx.yk@doclist.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mail=3WacxUhEOAAYinxoyzkrrk.lu0xoksgrsuhuxmgx.yk@doclist.bounces.google.com
+X-Gm-Message-State: ALoCoQksDl4v0MgGLXkeUENaCf9dekylLHH5LlwVFvFEB7dg1izBn7LHhUbSCz5mx8H0U3IEfK29
+X-Received: by 10.220.164.70 with SMTP id d6mr6136088vcy.19.1378985820200;
+        Thu, 12 Sep 2013 04:37:00 -0700 (PDT)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.148.1 with SMTP id n1csp14817vcv;
+        Thu, 12 Sep 2013 04:36:59 -0700 (PDT)
+X-Received: by 10.68.101.225 with SMTP id fj1mr7172410pbb.8.1378985819073;
+        Thu, 12 Sep 2013 04:36:59 -0700 (PDT)
+Return-Path: <3WacxUhEOAAYinxoyzkrrk.lu0xoksgrsuhuxmgx.yk@doclist.bounces.google.com>
+Received: from mail-pa0-f69.google.com (mail-pa0-f69.google.com [209.85.220.69])
+        by mx.google.com with ESMTPS id fl1si6454251pab.112.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Sep 2013 04:36:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3WacxUhEOAAYinxoyzkrrk.lu0xoksgrsuhuxmgx.yk@doclist.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Received: by mail-pa0-f69.google.com with SMTP id kq13so1398264pab.8
+        for <vasil.zlatanov1@malmoborgar.se>; Thu, 12 Sep 2013 04:36:57 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.67.2.41 with SMTP id bl9mr3299343pad.16.1378985817032; Thu,
+ 12 Sep 2013 04:36:57 -0700 (PDT)
+X-Originating-IP: 161.52.14.72
+X-Shared-Document: 1
+Message-ID: <047d7b15acbdc67cf304e62e2780@google.com>
+Date: Thu, 12 Sep 2013 11:36:57 +0000
+Subject: biosl-ib13 (vasil.zlatanov1@malmoborgar.se)
+From: "Christelle Fourie (Google Sites)" <christelle.fourie@malmoborgar.se>
+To: vasil.zlatanov1@malmoborgar.se
+Cc: saga.blomberg1@malmoborgar.se, melker.karrman1@malmoborgar.se, 
+	alex.mcivor1@malmoborgar.se, alexandra.antgren1@malmoborgar.se, 
+	astrid.pedersen1@malmoborgar.se, alexander.akesson1@malmoborgar.se, 
+	izabela.ladan1@malmoborgar.se, filip.roos1@malmoborgar.se, 
+	karin.risberg1@malmoborgar.se, kevin.katona1@malmoborgar.se, 
+	samer.daknache1@malmoborgar.se, linn.lagerholm1@malmoborgar.se, 
+	emma.sandberg1@malmoborgar.se, hanna.andersson1@malmoborgar.se, 
+	gustav.fritzon1@malmoborgar.se, nea.borgeke-christofferson1@malmoborgar.se, 
+	rasmus.ekelund1@malmoborgar.se, alexander.salmi1@malmoborgar.se
+Content-Type: multipart/alternative; boundary=047d7b15acbdc67ce704e62e277d
+
+--047d7b15acbdc67ce704e62e277d
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SSd2ZSBzaGFyZWQgYW4gaXRlbSB3aXRoIHlvdToNCg0KYmlvc2wtaWIxMw0KaHR0cHM6Ly9zaXRl
+cy5nb29nbGUuY29tL2EvbWFsbW9ib3JnYXIuc2UvYmlvc2wtaWIxMy8NCg0KSXQncyBub3QgYW4g
+YXR0YWNobWVudCCWIGl0J3Mgc3RvcmVkIG9ubGluZS4gVG8gb3BlbiB0aGlzIGl0ZW0sIGp1c3Qg
+Y2xpY2sgIA0KdGhlIGxpbmsgYWJvdmUuDQoNCg==
+--047d7b15acbdc67ce704e62e277d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head>
+<body><div style=3D"border: 1px solid #f0f0f0; max-width: 650px; font-famil=
+y: Arial, sans-serif; color: #000;" itemscope itemtype=3D"http://schema.org=
+/EmailMessage"><div style=3D"padding: 14px 10px 4px 10px; line-height: 21px=
+; margin-bottom: 13px;"><span style=3D"font-size: 20px; color: #333;">I've =
+shared an item with you.</span></div>
+<div style=3D"font-size: 13px; background-color: #FFF; padding: 0px 7px 7px=
+ 10px;">
+<table cellpadding=3D"0" cellspacing=3D"0"><tbody role=3D"list"><tr role=3D=
+"listitem" itemscope itemprop=3D"about" itemtype=3D"http://schema.org/Creat=
+iveWork"><td style=3D"vertical-align: top; padding-bottom: 7px; font-size:1=
+6px; text-align: center;"><img src=3D"https://ssl.gstatic.com/docs/document=
+s/share/images/services/site-2.png" alt=3D"Site" style=3D"vertical-align: m=
+iddle"></td>
+<td style=3D"vertical-align: top; padding-bottom: 7px; font-size:16px; padd=
+ing-left: 5px;"><meta itemprop=3D"name" content=3D"biosl-ib13">
+<span itemscope itemprop=3D"action" itemtype=3D"http://schema.org/ViewActio=
+n"><a href=3D"https://sites.google.com/a/malmoborgar.se/biosl-ib13/" style=
+=3D"vertical-align:middle; text-decoration:none; color:#1154cc;" itemprop=
+=3D"url">biosl-ib13</a>
+</span></td></tr></tbody></table>
+</div>
+
+<div style=3D"background-color:#f5f5f5; padding: 2px 12px;"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%;"><tbody><tr><td valign=3D=
+"middle" style=3D"padding: 0; color: #808080; font-size:11px;">Google Sites=
+ makes creating and sharing a group website easy.</td>
+<td valign=3D"middle" style=3D"text-align: right"><a href=3D"https://sites.=
+google.com"><img style=3D"border: 0;vertical-align: middle;padding-top: 12p=
+x;padding-bottom: 4px;margin-left: 34px;" src=3D"https://ssl.gstatic.com/do=
+cs/documents/share/images/services/google_logo-1.png" alt=3D"Logo for Googl=
+e Sites"></a></td></tr></tbody></table></div></div></body></html>
+--047d7b15acbdc67ce704e62e277d--

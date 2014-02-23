@@ -1,0 +1,498 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp157279oac;
+        Mon, 20 Jan 2014 14:21:04 -0800 (PST)
+X-Received: by 10.69.0.39 with SMTP id av7mr21015095pbd.4.1390256463424;
+        Mon, 20 Jan 2014 14:21:03 -0800 (PST)
+Return-Path: <noreply-17590264@no-ip.com>
+Received: from www.no-ip.com (www.no-ip.com. [8.23.224.110])
+        by mx.google.com with ESMTP id nu5si2767503pbc.28.2014.01.20.14.21.02
+        for <vasil.zlatanov@gmail.com>;
+        Mon, 20 Jan 2014 14:21:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply-17590264@no-ip.com designates 8.23.224.110 as permitted sender) client-ip=8.23.224.110;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-17590264@no-ip.com designates 8.23.224.110 as permitted sender) smtp.mail=noreply-17590264@no-ip.com;
+       dkim=pass header.i=@no-ip.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=no-ip.com
+Received: from websmtp01.no-ip.com (websmtp01.no-ip.com [127.0.0.1])
+	by www.no-ip.com (Postfix) with ESMTP id 96D7953DAD0
+	for <vasil.zlatanov@gmail.com>; Mon, 20 Jan 2014 14:21:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=no-ip.com; s=default;
+	t=1390256462; bh=9EBOjnp8d+vfs2aFVq558SDowTS6OSV8ATV8hS1GAPg=;
+	h=To:From:Reply-To:Subject:List-Unsubscribe:MIME-Version:
+	 Content-Type:Message-Id:Date;
+	b=pXroIzobzwABI5v+tn0uDTUCqAOkFMPvaCPyuPsFw9aOKXp1lLweBWRTVc4euWbww
+	 x9rS/FPhLcgZRCDMRax8+z46aSH15dqTjbt+SIebDGbL9JU9EPpFxNSXEeayCu56gU
+	 HbW9K/pJd6/SbHOs6+Ce5wHvSl2mlDZIZ0YuHvJI=
+To: <vasil.zlatanov@gmail.com>
+From: "No-IP Customer Service" <noreply-17590264@no-ip.com>
+Reply-To: noreply-17590264@no-ip.com
+Subject: Welcome to No-IP- Help Us Serve You Better
+List-Unsubscribe: <http://www.noip.com/opt-out.php?email=vasil.zlatanov%40gmail.com&a=Bqu3Dba6vweK2>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_d33ac457c794280f60e04624e146a822"
+Message-Id: <20140120222102.96D7953DAD0@www.no-ip.com>
+Date: Mon, 20 Jan 2014 14:21:02 -0800 (PST)
+
+
+--=_d33ac457c794280f60e04624e146a822
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="ISO-8859-1"
+
+,
+
+You've been with us for about a week now and we hope you are enjoying our
+service. 
+
+Please take a few minutes to tell us about your experience with No-IP and how
+we can help you make the most of it! 
+
+Click the link below to take the survey. 
+
+https://www.surveymonkey.com/s/RNKYN58?c=17590264
+
+We are committed to constant improvement and your feedback plays a large role
+in our updates and product development. 
+
+Have questions? You can search frequently asked questions and view helpful
+guides in our Support Center. (http://www.no-ip.com/support/) 
+
+Still confused? If you need any additional help please open a Support Ticket,
+(http://www.no-ip.com/ticket/)
+or you can always tweet us at @NoIPcom. (http://www.twitter.com/noipcom)
+
+We are here for you, so, please do not hesitate to contact us at any time! 
+
+Thank you for choosing No-IP! We hope that you enjoy our rock solid services
+that we have been offering since 1999 to millions of users.
+
+Natalie
+
+
+-- 
+Natalie Goguen 
+Online Marketing Manager 
+No-IP 
+www.no-ip.com
+
+If you do not wish to receive this type of emails from No-IP in the future,
+please unsubscribe. 
+http://www.noip.com/opt-out.php?email=vasil.zlatanov%40gmail.com&a=Bqu3Dba6vweK2
+--=_d33ac457c794280f60e04624e146a822
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="ISO-8859-1"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+=09
+	<head>
+=09
+		<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+=09
+	</head>
+=09
+	<body style=3D"background-color: #f1f1f1; margin:0; padding:0; line-height=
+:1.2em; font-family:Trebuchet MS, sans-serif">
+=09
+	<style type=3D"text/css">
+		a:link {color: #43474e; text-decoration:none; outline:none}
+		a:visited {color: #909090; text-decoration:none; outline:none}
+		.a1 a:link {color:#202020; text-decoration:none; outline:none}
+		.a1 a:visited {color:#202020; text-decoration:none; outline:none}
+		.a2 a:link {color:#7c7c7c; text-decoration:none; outline:none}
+		.a2 a:visited {color:#7c7c7c; text-decoration:none; outline:none}
+	=09
+		<!-- li a:link {color: #777777; text-decoration:none; outline:none}
+		li a:visited {color: #777777; text-decoration:none; outline:none} -->
+	</style>
+=09
+	<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" =
+border=3D"0">
+=09
+		<tr>
+	=09
+			<td width=3D"650" height=3D"10"></td>
+	=09
+		</tr>
+=09
+		<tr>
+	=09
+			<td align=3D"right" valign=3D"center" width=3D"630">
+		=09
+				<a href=3D"https://noipcdn.s3.amazonaws.com/media/new_user_survey.html?=
+utm_source=3Demail&utm_medium=3Dsurvey&utm_campaign=3Dnew_user_survey" styl=
+e=3D"font: 11px Helvetica Neue, Arial, Helvetica, Geneva, sans-serif; color=
+: #979797;">Can't view this email?</a>
+<img src=3D"http://www.noip.com/images/em.php?tc=3D%%user_id%%&c=3Dnew_user=
+_survey"/>
+		=09
+			</td>
+	=09
+		</tr>
+	=09
+	</table>
+=09
+	<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" =
+border=3D"0">
+=09
+		<tr>
+=09
+			<td valign=3D"top">
+		=09
+				<!-- BEGIN HEADER -->
+=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" align=3D"cente=
+r" border=3D"0" style=3D"font-size:11px; color: #43474e">
+			=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>
+			=09
+					<tr>
+			=09
+						<td width=3D"133" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/logo.png" width=3D"1=
+33" height=3D"46" />
+					=09
+						</td>
+					=09
+						<td id=3D"spacer" width=3D"327" height=3D"46"></td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"19" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/icn-home.jpg" width=
+=3D"19" height=3D"13" />
+					=09
+						</td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"86" height=3D"46">
+					=09
+							<a href=3D"http://www.noip.com/?utm_source=3Dnewsletter&utm_medium=
+=3Demail&utm_campaign=3Djune_newsletter">No-IP.com</a>
+					=09
+						</td>
+					=09
+						<td width=3D"10"></td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"18" height=3D"46">
+					=09
+							<img src=3D"http://cdn.no-ip.com/images/eblasts/icn-support.jpg" wid=
+th=3D"18" height=3D"13" />
+					=09
+						</td>
+					=09
+						<td valign=3D"center" align=3D"left" width=3D"57" height=3D"46">
+					=09
+							<a href=3D"http://support.no-ip.com/?utm_source=3Dnewsletter&utm_med=
+ium=3Demail&utm_campaign=3Djune_newsletter">Support</a>
+					=09
+						</td>
+		=09
+					</tr>
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>
+		=09
+				</table>
+			=09
+				<!-- <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" align=3D"center" style=3D"background-color:#ffffff">
+					<tr>
+						<td height=3D"30">
+						</td>
+					</tr>
+					<tr>
+						<td width=3D"25">
+						</td>
+						<td>
+							<a href=3D"#" target=3D"_blank"><img src=3D"images/logo.png" border=
+=3D"0" width=3D"110" height=3D"40" alt=3D"" style=3D"display: block" /></a>
+						</td>
+						<td align=3D"right" width=3D"385" style=3D"padding-right:20px; font-s=
+ize:18px; color: #202020; line-height:1.3em">
+							No-IP Monthly Mashup Newsletter!<br />
+							<span style=3D"font-size:12px; color: #7c7c7c">Catchy Tagline Here! =
+21.06.2012</span>
+						</td>
+						<td align=3D"center" width=3D"56" style=3D"background-color:#2A9AC9; =
+font-size:14px; color: #ffffff; line-height:1.2em; padding-top:10px; paddin=
+g-bottom:10px">
+							ISSUE<br /><span style=3D"font-size:20px">#07</span>
+						</td>
+						<td width=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td height=3D"30">
+						</td>
+					</tr>
+				</table> -->
+			=09
+			=09
+			=09
+				<!-- END HEADER -->
+			=09
+				<!-- BEGIN SINGLE COLUMN TEXT -->
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center"=20
+				 style=3D"background-color:#ffffff; font-size:13px; color: #7c7c7c; mar=
+gin-bottom:20px">
+					<tr>
+						<td height=3D"20">
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+							<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+">
+								<tr>
+									<td width=3D"20">
+									</td>
+									<td valign=3D"top">
+										<table width=3D"610" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+											<tr>
+												<td class=3D"a1" valign=3D"top" style=3D"font-size:18px; color:=
+ #202020; background-image:url(images/px.gif);
+												background-repeat:repeat-x; background-position:0 10px">
+													<span style=3D"color:#2A9AC9"></span>
+												</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">You've been with =
+us for about a week now and we hope you are enjoying our service.</td>
+											</tr>
+										=09
+                                            <tr>
+												<td valign=3D"top" style=3D"padding-top:15px">Please take a few=
+ minutes to tell us about your experience with No-IP and how we can help yo=
+u make the most of it.</td>
+											</tr>
+
+
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+												    <span style=3D"color:#2A9AC9"><a style=3D"color:#2A9AC9" hr=
+ef=3D"https://www.surveymonkey.com/s/RNKYN58?c=3D17590264&utm_source=3Demai=
+l&utm_medium=3Dsurvey&utm_campaign=3Dnew_user_survey">Click here to take th=
+e survey.</a></span></td>
+											</tr>
+                                           =20
+                                            <tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+												    We are committed to constant improvement and your feedback =
+plays a large role in our updates and product development.  </td>
+											</tr>
+                                           =20
+                                            <tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+												    Have questions? You can search frequently asked questions a=
+nd view helpful guides in our <a style=3D"color:#2A9AC9" href=3D"http://sup=
+port.no-ip.com/?utm_source=3Demail&utm_medium=3Dsurvey&utm_campaign=3Dnew_u=
+ser_survey">Support Center</a>. </td>
+											</tr>
+                                           =20
+                                             <tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+												    Still confused? If you need any additional help please open=
+ a Support Ticket, or you can always tweet us at <a style=3D"COLOR: #2A9AC9=
+" href=3D"http://www.twitter.com/noipcom/?utm_source=3Demail&utm_medium=3Ds=
+urvey&utm_campaign=3Dnew_user_survey">@NoIPcom</a>. </td>
+											</tr>
+                                           =20
+                                            <tr>
+												<td valign=3D"top" style=3D"padding-top:15px">
+											        Thank you for choosing No-IP! We hope that you enjoy our=
+ rock solid services that we have been offering since 1999 to millions of u=
+sers.</td>
+											</tr>
+                                          =20
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:15px; padding-bottom: 2=
+0px;">
+												    Natalie Goguen
+                                                    <br />
+                                                    Online Marketing Manage=
+r
+                                                    <br />
+                                                    No-IP</td>
+											</tr>
+											<tr>
+												<td valign=3D"top" style=3D"padding-top:13px; padding-bottom:30=
+px">
+												=09
+											  </td>
+											</tr>
+										</table>
+									</td>
+									<td width=3D"20">
+									</td>
+								</tr>
+							</table>
+						</td>						=09
+					</tr>
+					<tr>
+						<td height=3D"2" style=3D"background-color:#e5e5e5">
+						</td>
+					</tr>
+				</table>=20
+			=09
+				<!-- END SINGLE COLUMN TEXT -->
+			=09
+				<!-- BEGIN FOOTER -->
+			=09
+			  <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center"=20
+				 style=3D"font-size:11px; color: #7c7c7c;">
+			=09
+					<tr>
+			=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"230">
+			=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">DNS is Your Websites F=
+oundation</h1>
+						=09
+							<p>Make sure your website is served on a rock solid foundation with =
+No-IP Managed DNS. Reliability and Redundancy included.</p>
+			=09
+						</td>
+					=09
+						<td width=3D"40"></td>
+					=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"210">
+					=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">Useful Links</h1>
+						=09
+							<table width=3D"230" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" align=3D"left"=20
+							style=3D"font-size:11px; color: #7c7c7c;">
+						=09
+								<tr>
+							=09
+									<td>
+								=09
+										<p><a href=3D"http://www.noip.com/plusdns/?utm_source=3Demail&utm=
+_medium=3Dsurvey&utm_campaign=3Dnew_user_survey" style=3D"text-decoration: =
+underline;">Plus DNS</a><br /><a href=3D"http://www.noip.com/enhanced/?utm_=
+source=3Demail&utm_medium=3Dsurvey&utm_campaign=3Dnew_user_survey" style=3D=
+"text-decoration: underline;">Enhanced DNS</a><br /><a href=3D"http://www.n=
+oip.com/free/?utm_source=3Demail&utm_medium=3Dsurvey&utm_campaign=3Dnew_use=
+r_survey" style=3D"text-decoration: underline;">No-IP Free</a></p>
+									=09
+									</td>
+								=09
+									<td>
+								=09
+										<p><a href=3D"http://www.noip.com/services/domains/domain_registr=
+ation.html?utm_source=3Demail&utm_medium=3Dsurvey&utm_campaign=3Dnew_user_s=
+urvey" style=3D"text-decoration: underline;">Domain Registration</a><br /><=
+a href=3D"http://www.noip.com/services/ssl/?utm_source=3Demail&utm_medium=
+=3Dsurvey&utm_campaign=3Dnew_user_survey" style=3D"text-decoration: underli=
+ne;">SSL Certificates</a><br /><a href=3D"http://www.noip.com/services/mana=
+ged_mail/pop3_mail.html?utm_source=3Demail&utm_medium=3Dsurvey&utm_campaign=
+=3Dnew_user_survey" style=3D"text-decoration: underline;">POP3 / IMAP Email=
+</a></p>
+									=09
+									</td>
+							=09
+								</tr>
+						=09
+							</table>
+			=09
+						</td>
+					=09
+						<td width=3D"30"></td>
+							=09
+						<td class=3D"a2" align=3D"left" valign=3D"top" width=3D"130">
+					=09
+							<h1 style=3D"font: bold 14px Helvetica Neue, Arial, Helvetica, Genev=
+a, sans-serif; margin-bottom: 0; padding-bottom: 0;">Connect with Us</h1>
+						=09
+							<p>
+						=09
+								<a href=3D"https://www.facebook.com/noipdns/?utm_source=3Demail&utm=
+_medium=3Dsurvey&utm_campaign=3Dnew_user_survey"><img src=3D"http://cdn.no-=
+ip.com/images/eblasts/fb.jpg" style=3D"padding-right: 3px;" /></a>
+							=09
+								<a href=3D"https://twitter.com/NoIPcom/?utm_source=3Demail&utm_medi=
+um=3Dsurvey&utm_campaign=3Dnew_user_survey"><img src=3D"http://cdn.no-ip.co=
+m/images/eblasts/tw.jpg" style=3D"padding-right: 3px;" /></a>
+							=09
+								<a href=3D"http://feeds.feedburner.com/No-ip-TheDnsServiceProvider/=
+?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dsurvey_a"><img s=
+rc=3D"http://cdn.no-ip.com/images/eblasts/rss.jpg" style=3D"padding-right: =
+3px;" /></a>
+						=09
+							</p>
+			=09
+						</td>
+			=09
+					</tr>
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"20" colspan=3D"5"></td>
+				=09
+					</tr>=09
+				=09
+					<tr>
+				=09
+						<td width=3D"650" height=3D"" style=3D"border-bottom: 1px solid #cbcb=
+cb;" colspan=3D"5"></td>
+				=09
+					</tr>	=09
+			=09
+				</table>
+			=09
+				<table width=3D"650" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"font-size:11px; color: #7c7c7c; margin-bottom:20px=
+">
+				=20
+				    <tr>
+				=20
+				 	   <td width=3D"650" height=3D"" style=3D"border-bottom: 1px solid #f=
+ff;"></td>
+				=20
+				    </tr>
+				   =20
+			=09
+					<tr>
+			=09
+						<td class=3D"a2" align=3D"left">
+						=09
+							<p>If you do not wish to receive this type of email from No-IP in th=
+e future, please <strong><a href=3D"http://www.noip.com/opt-out.php?email=
+=3Dvasil.zlatanov%40gmail.com&a=3DBqu3Dba6vweK2">UNSUBSCRIBE</a></strong></=
+p>
+			=09
+						</td>
+			=09
+					</tr>	=09
+			=09
+				</table>
+			=09
+				<!-- END FOOTER -->
+
+			</td>
+
+		</tr>
+
+	</table>
+
+	</body>
+
+</html>
+--=_d33ac457c794280f60e04624e146a822--
+

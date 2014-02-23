@@ -1,0 +1,172 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp80369oac;
+        Mon, 11 Nov 2013 06:44:29 -0800 (PST)
+X-Received: by 10.220.47.10 with SMTP id l10mr135680vcf.32.1384181069467;
+        Mon, 11 Nov 2013 06:44:29 -0800 (PST)
+Return-Path: <vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se>
+Received: from mail-vc0-f179.google.com (mail-vc0-f179.google.com [209.85.220.179])
+        by mx.google.com with ESMTPS id m4si6124055vcq.148.2013.11.11.06.44.29
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Nov 2013 06:44:29 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.179 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) client-ip=209.85.220.179;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.179 is neither permitted nor denied by best guess record for domain of vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se) smtp.mail=vasil.zlatanov1+caf_=vasil.zlatanov=gmail.com@malmoborgar.se
+Received: by mail-vc0-f179.google.com with SMTP id hz11so3276828vcb.24
+        for <vasil.zlatanov@gmail.com>; Mon, 11 Nov 2013 06:44:29 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :mime-version:date:message-id:subject:from:to:content-type;
+        bh=dgvesGy+q1SPiu+CBFLT1Qj3p4p9uF0LuxLx9TfOefg=;
+        b=gtKOiXU6Z7PCHwj/tELAIUHk9i/3fSE+X1aF+GR0dUdaSbZ2CJ7WC9hiLLVqW9snLh
+         bot5B9PRInxUsEh4OnCEMwXwXdyycqzTDdDjXGP3LLcqKZRGrznQgIG6fbDiW6FZFp1X
+         ZL/pv9Mvo5j15is5AFQ5FlxC/5sVMX0uED1tuQZjo/7G2M2ZwlHywrmllEu+UNffXEvz
+         +omNK+SJLqbnXifQmFLotSj9M6KuUmi271tt8d4/pR76mJYC342jKi1nhLBpuW0/kwUm
+         Q4LAIfTCB4441DYytSs5fk5rSAsk41Ycxui4bxPG7j5LLFCchBGE/Ce4zzjicaprSdNn
+         rMRw==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: 209.85.217.171 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) smtp.mail=leslie.fleetwood@malmoborgar.se
+X-Gm-Message-State: ALoCoQkqXiTCKpti1/UyBs4uzQTwXifx/DpD+hfpI54L2XhiFntQsl/pLMt04sfuT6mEX9DtQF0L
+X-Received: by 10.221.40.10 with SMTP id to10mr3551706vcb.22.1384181069148;
+        Mon, 11 Nov 2013 06:44:29 -0800 (PST)
+X-Forwarded-To: vasil.zlatanov@gmail.com
+X-Forwarded-For: vasil.zlatanov1@malmoborgar.se vasil.zlatanov@gmail.com
+Delivered-To: vasil.zlatanov1@malmoborgar.se
+Received: by 10.220.229.7 with SMTP id jg7csp85732vcb;
+        Mon, 11 Nov 2013 06:44:28 -0800 (PST)
+X-Received: by 10.152.27.227 with SMTP id w3mr11598lag.84.1384181067854;
+        Mon, 11 Nov 2013 06:44:27 -0800 (PST)
+Return-Path: <leslie.fleetwood@malmoborgar.se>
+Received: from mail-lb0-f171.google.com (mail-lb0-f171.google.com [209.85.217.171])
+        by mx.google.com with ESMTPS id i6si9403973lah.140.2013.11.11.06.44.27
+        for <vasil.zlatanov1@malmoborgar.se>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Nov 2013 06:44:27 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.217.171 is neither permitted nor denied by best guess record for domain of leslie.fleetwood@malmoborgar.se) client-ip=209.85.217.171;
+Received: by mail-lb0-f171.google.com with SMTP id x18so3455480lbi.2
+        for <vasil.zlatanov1@malmoborgar.se>; Mon, 11 Nov 2013 06:44:27 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.152.170.133 with SMTP id am5mr23356421lac.9.1384181066902;
+ Mon, 11 Nov 2013 06:44:26 -0800 (PST)
+Received: by 10.114.82.130 with HTTP; Mon, 11 Nov 2013 06:44:26 -0800 (PST)
+Date: Mon, 11 Nov 2013 15:44:26 +0100
+Message-ID: <CAHJ-ZFraGRemCTooHq2iqjjU_vXkKUho4Kv=94fo+_fVKwyjSg@mail.gmail.com>
+Subject: To include in Rationale
+From: Leslie Fleetwood <leslie.fleetwood@malmoborgar.se>
+To: Alexander Salmi <alexander.salmi1@malmoborgar.se>, 
+	Ali Alkhafadji <ali.alkhafadji1@malmoborgar.se>, 
+	Anton Neijber <anton.neijber1@malmoborgar.se>, 
+	=?ISO-8859-1?Q?Bj=F8rg_Kaal=F8_Johansen?= <bjorg.kaalo-johansen1@malmoborgar.se>, 
+	John Lauran <john.lauran1@malmoborgar.se>, 
+	Kevin Strandberg <kevin.strandberg1@malmoborgar.se>, 
+	Louise Lindberg <louise.lindberg1@malmoborgar.se>, 
+	Marcus Begic <marcus.begic1@malmoborgar.se>, 
+	Oskar Sturm Kristiansen <oskar.sturm-kristiansen1@malmoborgar.se>, 
+	Patrik Liedbeck <patrik.liedbeck1@malmoborgar.se>, 
+	Sarah Van Lam <sarah.van-lam1@malmoborgar.se>, 
+	Vasil Zlatanov <vasil.zlatanov1@malmoborgar.se>, 
+	Walter Okuku <walter.okuku1@malmoborgar.se>, Zachary Nord <zachary.nord1@malmoborgar.se>
+Content-Type: multipart/alternative; boundary=089e0117720fcc3b4b04eae7c4bb
+
+--089e0117720fcc3b4b04eae7c4bb
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Rationale
+
+The rationale is not included in the word count (800=961,000 words) for the
+written task and should be 200=96 300 words in length. Text titles or topic=
+s
+recorded on the rationale are expected to match those recorded on the
+coversheet.
+
+In their rationale students must explain:
+
+=95             how the content of the task is linked to a particular part =
+of
+the course
+
+=95             how the task is intended to explore particular aspects of t=
+he
+course
+
+=95             the nature of the task chosen
+
+=95             information about audience, purpose and the varying context=
+s
+in which the task is set.
+
+The rationale should not only include knowledge about the text or topic
+studied, but also about the formal conventions of the text type produced
+and how they relate to the aims of the task.
+
+--089e0117720fcc3b4b04eae7c4bb
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:11pt;font-family:Helvetica;color:rgb(20,20,19)">Rationale=
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">The rati=
+onale is not included in the word count (800=961,000
+words) for the written task and should be 200=96 300 words in length. Text =
+titles
+or topics recorded on the rationale are expected to match those recorded on=
+ the
+coversheet.</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">In their=
+ rationale students must explain:</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">=95<span=
+ style>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>how the
+content of the task is linked to a particular part of the course</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">=95<span=
+ style>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>how the task
+is intended to explore particular aspects of the course</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">=95<span=
+ style>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>the nature of
+the task chosen</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:9.5pt;font-family:Helvetica;color:rgb(20,20,19)">=95<span=
+ style>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>information
+about audience, purpose and the varying contexts in which the task is set.<=
+/span></p>
+
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:9.5pt;font-f=
+amily:Helvetica;color:rgb(20,20,19)">The rationale should not only
+include knowledge about the text or topic studied, but also about the forma=
+l
+conventions of the text type produced and how they relate to the aims of th=
+e
+task.</span><span lang=3D"EN-GB"></span></p>
+
+</div>
+
+--089e0117720fcc3b4b04eae7c4bb--

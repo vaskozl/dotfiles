@@ -1,0 +1,298 @@
+#!/usr/bin/env perl
+#
+# Copyright (c) 2006 Daniel M. Webb
+# Copyright (c) 2005 Mike O'Connor
+# All rights reserved.
+# Author Daniel M. Webb <public@danielwebb.us>
+# Original Author Mike O'Connor <stew@vireo.org>
+#
+# Modified by Shawn Betts.
+#
+# code was adapeted from rpws that comes from ratpoison containing the follwing copyright:
+# Copyright (C) 2003 Shawn Betts
+# Author: Shawn Betts
+#
+use strict;
+use Fcntl qw (:flock);
+use Getopt::Std;
+
+my $ratpoison = $ENV{ "RATPOISON" } || "ratpoison";
+my $tmp=$ENV{ "TMP" } || "/tmp";
+my $lockfile = $ENV{ "WORKSPACE_LOCKFILE" } || "$tmp/workspace.$<.lock";
+
+my $number_of_workspaces = 1;
+my @ws_names;
+my @ws_toggle_memory_trigger;
+$ws_names[0] = "default";  # workspace 0 can't be renamed due to bug
+for( my $i = 1; $i <= 13; $i++ )
+{
+    $ws_names[$i] = "workspace$i";
+    $ws_toggle_memory_trigger[$i] = "true";
+}
+
+# Load configuration now that defaults are set
+require "$ENV{HOME}/.ratpoison/workspace.conf";
+set_workspaces(\$number_of_workspaces, \@ws_names, \@ws_toggle_memory_trigger);
+
+sub help
+{
+    system("pod2usage", $0);
+    print( "for more detailed documentation run \"perldoc $0\"\n" );
+}
+
+sub rp_call
+{
+    my $result = `$ratpoison -c "@_"`;
+    chomp( $result );
+    chomp( $result );
+    return $result;
+}
+
+sub ws_init_ws
+{
+    my $num = shift;
+
+    if ($num > 0)
+    {
+        rp_call( "gnew $ws_names[$num]" );
+    }
+    my $fd = fdump();
+    rp_call( "setenv fspl$num $fd" );
+}
+
+sub fdump
+{
+    return rp_call( "fdump" );
+}
+
+sub ws_init
+{
+    my $num = shift;
+
+    # Backup the frames
+    my $fd = fdump();
+
+    rp_call( "select -" );
+    rp_call( "only" );
+
+    my $i;
+    for( my $i = 0; $i < $number_of_workspaces; $i++ )
+    {
+        ws_init_ws( $i );
+        rp_call( "setenv toggle_memory$i 0" );
+    }
+    # Rename group 0 now that there are other groups
+    # (it can't be deleted if it already exists)
+    #rp_call( "gdelete 0" );
+    #rp_call( "gnew $ws_names[0]" );
+    # NOTE: group 0 apparently can't be deleted even if empty, so can't be renamed.
+
+    # Start in workspace 0.
+    $fd = fdump();
+    rp_call( "gselect default" );
+    rp_call( "setenv fspl0 $fd" );
+    rp_call( "setenv cur_workspace 0" );
+
+    # restore the frames
+    rp_call( "frestore $fd" );
+
+    if( -e "$lockfile" )
+    {
+        unlink ("$lockfile" );
+    }
+}
+
+sub ws_save_frames
+{
+    my $ws = rp_call( "getenv cur_workspace" );
+    my $fd = fdump();
+    rp_call( "setenv fspl$ws $fd" );
+}
+
+sub ws_restore
+{
+    my $new_ws = shift;
+    my $cur_ws = rp_call( "getenv cur_workspace" );
+    # For togglers, give a warning if same ws is chosen.
+    # For non-togglers, selecting same ws toggles back
+    if ($new_ws == $cur_ws and $ws_toggle_memory_trigger[$cur_ws] eq "true")
+    {
+#        rp_call( "echo Already on workspace $new_ws" );
+    }
+    else
+    {
+        if ($new_ws == $cur_ws)
+        {
+            # Special case of choosing non-toggler goes back to previous
+            $new_ws = rp_call( "getenv toggle_memory$cur_ws" );
+        }
+        ws_save_frames();
+        if ($ws_toggle_memory_trigger[$cur_ws] eq "true")
+        {
+            rp_call( "setenv toggle_memory$new_ws $cur_ws" );
+        }
+        `killall xbindkeys`;
+        my $rc_dir = `dirname $0`; chomp($rc_dir);
+        my $rcfilename="$rc_dir/macro/xbindkeysrc/" . "xbindkeysrc.$ws_names[$new_ws]";
+        if (-f $rcfilename) {
+            print "running xbindkeys -f $rcfilename\n";
+            `xbindkeys -f $rcfilename`;
+        }
+        rp_call( "gselect $ws_names[$new_ws]");
+        my $last = rp_call( "getenv fspl$new_ws" );
+        rp_call( "frestore $last" );
+        rp_call( "setenv cur_workspace $new_ws" );
+        # Get window number/name too
+        my $window_info=rp_call("info");
+        my $window_number = $window_info;
+        $window_number =~ s/^\(.*?\) (\d+).*$/$1/;
+        my $window_name = $window_info;
+        $window_name =~ s/^\(.*?\) \d+\((.*)\)$/$1/;
+#        rp_call( "echo Workspace: $ws_names[$new_ws]\nWindow   : $window_number - $window_name" );
+    }
+}
+
+sub ws_toggle
+{
+    my $cur_ws = rp_call( "getenv cur_workspace" );
+    my $new_ws = rp_call( "getenv toggle_memory$cur_ws" );
+    ws_restore($new_ws);
+}
+
+# unfinished:
+sub list_all_windows
+{
+    my $cur_ws = rp_call( "getenv cur_workspace" );
+    print("ratmenu -style dreary -fg '#657b83' -bg '#eee8d5'");
+    # FIXME: 6 should be replaced with actual number of workspaces
+    foreach my $i (0..6) 
+    {
+        rp_call( "gselect $ws_names[$i]");
+        my $result = `$ratpoison -c "windows %n %t"`;
+        foreach my $line (split (/\n/, $result))
+        {
+            my @window = split(/ /, $line);
+            print(" \"$ws_names[$i] : $line\" \"$0 $i; ratpoison -c \\\"select $window[0]\\\" \"");
+        }
+    }
+    ws_restore($cur_ws);
+}
+
+sub add_aliases
+{
+    foreach my $i (0..$number_of_workspaces-1) {
+        rp_call ( "alias workspace$i exec $0 $i" );
+    }
+    rp_call ( "alias workspace_toggle exec $0 toggle" );
+    rp_call ( "alias rpwsn exec $0 next" );
+    rp_call ( "alias rpwsp exec $0 prev" );
+    rp_call ( "alias rpwsmn exec $0 movenext" );
+    rp_call ( "alias rpwsmp exec $0 moveprev" );
+
+}
+
+sub add_keys
+{
+    foreach my $i (0..$number_of_workspaces-1) {
+        rp_call ( "bind C-$i workspace$i" );
+    }
+    rp_call ( "bind C-g workspace_toggle" );
+}
+
+my $arg = shift @ARGV;
+
+if( $arg eq "help" ) {
+    help();
+} elsif( $arg eq "init" ) {
+    my %opts;
+    ws_init();
+    getopts('ka', \%opts);
+    add_aliases() if $opts{'a'} || $opts{'k'};
+    add_keys() if $opts{'k'};
+} else {
+    open LOCK, ">>$lockfile" or die "Cannot open lockfile: $lockfile";
+    flock(LOCK, LOCK_EX);
+    if ( $arg eq "toggle" ) {
+        ws_toggle();
+    } elsif ( $arg eq "list_all" ) {
+        list_all_windows();
+    } elsif ( $arg eq "current" ) {
+        my $cws = rp_call( "getenv cur_workspace" );
+        print "$cws";
+    } elsif ($arg >= 0 and $arg <= 13) {
+        ws_restore( $arg );
+    } else {
+        help();
+    }
+}
+
+__END__
+
+=head1 NAME
+
+workspace - Implements multiple workspaces in ratpoison
+
+=head1 SYNOPSIS
+
+ workspace init [-k] [-a]    - setup workspace with $number_of_workspaces workspaces 
+                               ($number_of_workspaces is set in the workspace.conf file).
+                                -a sets up command aliases;
+                                -k sets up key bindings and aliases.
+ workspace help              - this documentation
+ workspace n                 - switch to this workspace
+ workspace toggle            - switch to previous workspace (other than default)
+ workspace toggle_default    - switch back and forth to between default workspace
+ workspace current           - print the index of the current workspace
+
+
+=head1 DESCRIPTION
+
+ B<workspace> implements multiple workspaces in ratpoison by making calls
+ to fdump, freestore.  It was adapted from rpws which comes with
+ ratpoison in the contrib directory.
+
+=head1 USAGE
+
+Add the following line in ~/.ratpoisonrc
+
+     exec /path/to/workspace init -k
+
+This creates 6 aliases workspace1, workspace2, etc. It also binds the keys C-1,
+C-2, etc to each workspaceN alias.  Workspace names can be configured at the
+top of this script.
+
+The toggle command is analogous to the ratpoison "other" command for windows,
+except it is for workspaces and is implemented in this script instead of within
+ratpoison.
+
+If $ws_toggle_memory_trigger is true for a workspace, that workspace sets
+the toggle memory on return.  If it's false, it will just toggle back to the
+previous workspace but the memory will stay the same.
+
+If there is a file /path/to/workspace/macro/xbindkeysrc/xbindkeysrc.<workspace N name>, 
+then xbindkeys will be run with this file as configuration.
+
+=head1 FILES
+
+ workspace requires use of a lockfile.  It defaults to using
+/tmp/workspace.<UID>.lock but this can be changed by setting the
+environment variable WORKSPACE_LOCKFILE to your desired lockfile.
+
+=head1 AUTHOR
+
+ Mike O'Connor <stew@vireo.org>
+
+=head1 COPYRIGHT
+
+ Copyright (c) 2005 Mike O'Connor
+ All rights reserved.
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.

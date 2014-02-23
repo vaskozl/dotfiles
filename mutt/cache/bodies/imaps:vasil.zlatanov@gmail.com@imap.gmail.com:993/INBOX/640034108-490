@@ -1,0 +1,36 @@
+Delivered-To: vasil.zlatanov@gmail.com
+Received: by 10.76.171.200 with SMTP id aw8csp326475oac;
+        Tue, 24 Dec 2013 02:32:22 -0800 (PST)
+X-Received: by 10.229.65.130 with SMTP id j2mr51135349qci.6.1387881142525;
+        Tue, 24 Dec 2013 02:32:22 -0800 (PST)
+Return-Path: <services@mail.freenode.net>
+Received: from mail.freenode.net (mail.freenode.net. [198.50.184.119])
+        by mx.google.com with ESMTPS id ll3si17542488qeb.121.2013.12.24.02.32.22
+        for <vasil.zlatanov@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Dec 2013 02:32:22 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of services@mail.freenode.net designates 198.50.184.119 as permitted sender) client-ip=198.50.184.119;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of services@mail.freenode.net designates 198.50.184.119 as permitted sender) smtp.mail=services@mail.freenode.net
+Received: by mail.freenode.net (Postfix, from userid 1011)
+	id 52A655C0EB6; Tue, 24 Dec 2013 10:32:21 +0000 (UTC)
+From: "freenode automailer" <noreply.support@freenode.net>
+To: "vaskozl_" <vasil.zlatanov@gmail.com>
+Subject: freenode Nickname Registration
+Date: Tue, 24 Dec 2013 10:32:19 +0000
+Message-Id: <20131224103221.52A655C0EB6@mail.freenode.net>
+
+vaskozl_,
+
+In order to complete your registration, you must send the following
+command on IRC:
+/msg NickServ VERIFY REGISTER vaskozl_ tutbejucqnpk
+
+Thank you for registering your nickname on the freenode IRC network!
+
+Thank you for your interest in the freenode IRC network.
+
+This email was sent due to a command from vaskozl_[~vasko@c-2ec322fa-74736162.cust.telenor.se]
+at Tue, 24 Dec 2013 10:32:19 +0000.
+If this message is spam, please contact support@freenode.net
+with a full copy.

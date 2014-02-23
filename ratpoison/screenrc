@@ -1,0 +1,33 @@
+#escape \\m
+defscrollback 5000
+vbell off
+startup_message off
+altscreen on
+
+
+#multiuser
+multiuser on
+acladd vasko
+
+# look and feel
+#caption always "%{= bb}%{+b w}%n %h %=%t %c"
+caption always "%{= bb}%{+b w}%n %{+b y}%H %=%{+b w}%t %c"
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+activity "Activity in %t(%n)"
+
+# bind keys
+bind 'l' lastmsg
+bind 'q' meta
+bind ' ' screen
+bind 'a' title
+bind 'h' split -h
+bind 'v' split -v
+bind 'x' remove
+bind 'o' only
+bind 'r' resize
+
+# bind buffer
+bind b eval writebuf "exec !!! $HOME/.ratpoison/screenout"
+
+
