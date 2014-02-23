@@ -1,0 +1,44 @@
+[general]
+ui = ttyui
+accounts = Gmail
+# This will suppress anything but errors
+ui = quiet
+
+
+[Account Gmail]
+localrepository = Gmail-Local
+remoterepository = Gmail-Remote
+# Minutes between syncs
+autorefresh = 5
+# Number of quick-syncs between autorefreshes. Quick-syncs do not update if the
+# only changes were to IMAP flags
+quick = 10
+
+[Repository Gmail-Local]
+type = Maildir
+localfolders = ~/.mail/Gmail
+nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
+                            'sent':    '[Gmail]/Sent Mail',
+                            'flagged': '[Gmail]/Starred',
+                            'trash':   '[Gmail]/Trash',
+                            'spam':    '[Gmail]/Spam',
+                            'archive': '[Gmail]/All Mail',
+                            }.get(folder, folder)
+
+
+[Repository Gmail-Remote]
+type = Gmail
+remoteuser = vasil.zlatanov@gmail.com
+remotepass = ****
+realdelete = no
+maxconnections = 1
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
+                            '[Gmail]/Sent Mail': 'sent',
+                            '[Gmail]/Starred':   'flagged',
+                            '[Gmail]/Trash':     'trash',
+                            '[Gmail]/Spam':      'spam',
+                            '[Gmail]/All Mail':  'archive',
+                            }.get(folder, folder)
+
+
