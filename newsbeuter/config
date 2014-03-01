@@ -1,0 +1,11 @@
+confirm-exit yes
+# browser ~/.ratpoison/workspace 3 && firefox -new-tab
+cleanup-on-quit yes
+mark-as-read-on-hover yes
+max-items 50
+show-read-feeds no
+reload-time 15
+auto-reload yes
+
+color listfocus    white  blue   bold
+color info         white  blue   bold

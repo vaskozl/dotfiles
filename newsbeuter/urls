@@ -1,0 +1,17 @@
+http://xkcd.com/rss.xml "xkcd comic"
+http://feeds.bbci.co.uk/news/rss.xml "BBC News"
+http://www.reddit.com/r/linux/.rss "linux reddit"
+http://www.reddit.com/r/technology/.rss "tech reddit"
+http://www.reddit.com/r/askscience/.rss "science reddit"
+#http://www.reddit.com/r/perl/.rss "perl reddit"
+
+#http://rss.slashdot.org/Slashdot/slashdot "linux"
+#http://visual.ly/rss.xml "fun charts"
+#http://feeds.feedburner.com/codinghorror/ "programming blog"
+http://feeds.feedburner.com/LinuxHatersBlog "linux"
+http://www.tuxradar.com/rss "linux"
+http://feeds.cyberciti.biz/Nixcraft-LinuxFreebsdSolarisTipsTricks "linux cli tricks"
+
+http://feeds.feedburner.com/Phoronix "linux floss"
+http://feeds2.feedburner.com/TheLinuxActionShow "podcast linux"
+http://feeds.feedburner.com/thechangelog "podcast linux"
