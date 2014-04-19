@@ -76,7 +76,21 @@ set pager_stop
 
 # Bindings 
 bind index,pager "n" next-unread
+bind index,pager "N" search-next
 
+bind browser d half-down
+bind index d half-down
+bind pager d half-down
+
+bind browser u half-up
+bind index u half-up
+bind pager u half-up
+
+bind index gg       first-entry
+bind pager gg       top
+bind index G        last-entry
+bind pager G        bottom
+bind index R        group-reply
 
 # Write in Aliases when opening email
 set display_filter='$HOME/.mutt/alias.sh'
@@ -88,11 +102,4 @@ set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n
 macro pager \cb 'urlview' 'Follow links with urlview'
 
 
-bind index gg       first-entry
-bind index G        last-entry
-bind index R        group-reply
-
-# Status Bar 
-set status_chars  = " *%A"
-set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
 

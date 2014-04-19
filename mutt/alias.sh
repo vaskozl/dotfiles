@@ -7,7 +7,7 @@ NEWALIAS=$(echo "${MESSAGE}" | grep ^"From: " | sed s/[\,\"\']//g | awk '{$1="";
 if grep -Fxq "$NEWALIAS" $HOME/.mutt/aliases.txt; then
     :
 else
-    if [[ "$NEWALIAS" ==  "*Google*" ]] || [[ "$NEWALIAS" ==  "*no-reply*" ]]; then
+    if [[ "$NEWALIAS" !=  "*Google*" ]] || [[ "$NEWALIAS" !=  "*no-reply*" ]]; then
     echo "$NEWALIAS" >> $HOME/.mutt/aliases.txt;
     fi
 fi

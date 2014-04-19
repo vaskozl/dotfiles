@@ -74,9 +74,19 @@ set nobackup
 au CursorHold,CursorHoldI * checktime
 "au CursorHold,CursorHoldI * silent! wa
 filetype plugin on
-filetype indent on
+filetype indent off
 let g:tex_flavor='latex'
 
 
 "Persisten-undo magic
 set undofile
+
+"Disable Autocomment
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+"Latex PDF magic
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats='pdf, aux'
+
+"Math with qalc
+nnoremap <leader>m :.!qalc<Enter>

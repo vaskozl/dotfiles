@@ -1,6 +1,6 @@
 alias spasoevich-anita <spaanita3@hotmail.com>
 alias hansson-matthew <matthewhansson@yahoo.com>
-alias marcus-begic <marcus.begic1@malmoborgar.se>
+alias begic-marcus <marcus.begic1@malmoborgar.se>
 alias fleetwood-leslie Leslie Fleetwood  <leslie.fleetwood@malmoborgar.se>
 alias antoaneta-sofronieva toni_sfr@mail.bg
 alias entertainment-blizzard Blizzard Entertainment <Newsletter@email.blizzard.com>
