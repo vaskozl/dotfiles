@@ -1,2 +1,0 @@
-gdata>=2.0.7
-simplejson>=2.1.0

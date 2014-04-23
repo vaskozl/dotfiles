@@ -114,6 +114,6 @@ if ! shopt -oq posix; then
 fi
 
 export GPGKEY="895134C5"
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
 export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
         

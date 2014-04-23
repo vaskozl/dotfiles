@@ -1,3 +1,0 @@
-[console_scripts]
-goobook = goobook.goobook:main
-
