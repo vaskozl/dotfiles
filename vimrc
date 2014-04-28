@@ -1,4 +1,3 @@
-
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim (usually just
 " /usr/share/vim/vimcurrent/debian.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
@@ -10,6 +9,7 @@
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
+execute pathogen#infect()
 
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
@@ -72,7 +72,8 @@ set autowriteall
 set noswapfile
 set nobackup
 au CursorHold,CursorHoldI * checktime
-"au CursorHold,CursorHoldI * silent! wa
+au CursorHold,CursorHoldI * silent! wa
+set updatetime=1000
 filetype plugin on
 filetype indent off
 let g:tex_flavor='latex'
@@ -90,3 +91,11 @@ let g:Tex_MultipleCompileFormats='pdf, aux'
 
 "Math with qalc
 nnoremap <leader>m :.!qalc<Enter>
+
+"Tab for escape
+nnoremap <Tab> <Esc>
+vnoremap <Tab> <Esc>gV
+onoremap <Tab> <Esc>
+inoremap <Tab> <Esc>`^
+inoremap <Leader><Tab> <Tab>
+
