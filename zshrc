@@ -7,7 +7,6 @@ unsetopt beep
 bindkey -v
 zstyle ':completion:*' menu select
 zstyle ':completion:*' format '%BCompleting %d%b'
-zstyle ':completion:*' menu select=20
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/vasko/.zshrc'
