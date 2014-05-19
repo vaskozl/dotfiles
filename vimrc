@@ -94,6 +94,7 @@ nnoremap <leader>m :.!qalc<Enter>
 
 "Tab for escape
 nnoremap <Tab> <Esc>
+nnoremap <S-Tab> ZZ 
 vnoremap <Tab> <Esc>gV
 onoremap <Tab> <Esc>
 inoremap <Tab> <Esc>`^
