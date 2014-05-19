@@ -114,6 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 shopt -s autocd
+shopt -s cdspell
 
 export GPGKEY="895134C5"
 export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
