@@ -6,16 +6,18 @@ setopt appendhistory autocd extendedglob
 unsetopt beep
 bindkey -v
 zstyle ':completion:*' menu select
-zstyle ':completion:*' format '%BCompleting %d%b'
+#zstyle ':completion:*' format '%BCompleting %d%b'
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/vasko/.zshrc'
 
 autoload -Uz compinit
 compinit
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
+    'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 # End of lines added by compinstall
 
-source .bash_aliases
+source ~/.bash_aliases
 
 export PS1='%n@%m:%~%% ' 
 
