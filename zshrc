@@ -14,6 +14,8 @@ zstyle :compinstall filename '/home/vasko/.zshrc'
 
 autoload -Uz compinit
 compinit
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
+    'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 # End of lines added by compinstall
 
 source .bash_aliases
