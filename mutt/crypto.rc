@@ -41,3 +41,5 @@ set crypt_replysignencrypted=yes
 # automatically verify the sign of a message when opened
 set crypt_verify_sig=yes
 
+# enable inline / traditional pgp support
+message-hook '!(~g|~G) ~b"^-----BEGIN\ PGP\ (SIGNED\ )?MESSAGE"' "exec check-traditional-pgp"

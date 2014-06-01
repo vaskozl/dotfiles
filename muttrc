@@ -102,4 +102,3 @@ set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n
 macro pager \cb 'urlview' 'Follow links with urlview'
 
 
-
