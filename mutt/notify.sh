@@ -1,6 +1,16 @@
 #!/bin/bash
+# Note to make xset led 1 and 2 work:
 #
-# Turns on Numlock  
+#   /usr/share/X11/xkb/compat/ledcaps
+#   /usr/share/X11/xkb/compat/lednum
+#   and replace:
+#       !allowExplicit;
+#   with:
+#       allowExplicit;
+#
+#####################k
+# Turns on CapsLock  
+#
  
 echo "$1"
 echo "$1" | grep -q "New" > /dev/null 2>&1
