@@ -48,8 +48,8 @@ set message_cachedir=~/.muttlocal/cache/bodies
 set certificate_file=~/.muttlocal/certificates
 set move = no
 set include
-set sort = 'threads'
-set sort_aux = 'reverse-last-date-received'
+set sort = 'reverse-date-received'
+#set sort_aux = 'reverse-last-date-received'
 set auto_tag = yes
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
