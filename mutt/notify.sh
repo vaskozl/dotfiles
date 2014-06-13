@@ -18,8 +18,10 @@ echo "$1" | grep -q "New" > /dev/null 2>&1
 if [ $? -eq 0 ];
 then
 	xset led 1
-	
+	touch ~/.mutt/newmail
 else 
 	xset -led 1
+if [ -e ~/.mutt/newmai ];then 
+	rm ~/.mutt/newmail
 fi
-
+fi
