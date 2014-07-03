@@ -106,4 +106,5 @@ inoremap <Leader><Tab> <Tab>
 set isfname+=32
 
 "save as root
-nnoremap <leader>r :w !sudo tee %<cr>
+nnoremap <leader>r :silent exe “write !sudo tee % >/dev/null” | silent edit!
+
