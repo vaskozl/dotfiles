@@ -90,7 +90,9 @@ let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats='pdf, aux'
 
 "Math with qalc
-nnoremap <leader>m :.!qalc<Enter>
+nnoremap <leader>m :.!~/bin/calc<Enter>
+nnoremap <leader>i :read !latestimage<Enter>
+nnoremap <leader>v :!feh '<cfile>'<CR>
 
 "Tab for escape
 nnoremap <Tab> <Esc>
@@ -100,3 +102,8 @@ onoremap <Tab> <Esc>
 inoremap <Tab> <Esc>`^
 inoremap <Leader><Tab> <Tab>
 
+"read spaces in path's
+set isfname+=32
+
+"save as root
+nnoremap <leader>r :w !sudo tee %<cr>

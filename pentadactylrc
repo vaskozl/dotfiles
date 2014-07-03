@@ -120,7 +120,7 @@ map -count -modes=n,v U -builtin <count>u
 map -count -modes=n,v x -builtin <count>d
 map -count -modes=n,v w <count>o<Space>wikipedia<space>
 set autocomplete=
-set defsearch=startpage-https
+set defsearch=google
 set editor='rxvt -e sh -c "vim +<line> +\"sil! call cursor(0, <column>)\" <file>"'
 
 
