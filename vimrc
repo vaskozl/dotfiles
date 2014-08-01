@@ -73,7 +73,7 @@ set noswapfile
 set nobackup
 au CursorHold,CursorHoldI * checktime
 au CursorHold,CursorHoldI * silent! wa
-set updatetime=1000
+set updatetime=5000
 filetype plugin on
 filetype indent off
 let g:tex_flavor='latex'
@@ -91,6 +91,7 @@ let g:Tex_MultipleCompileFormats='pdf, aux'
 
 "Math with qalc
 nnoremap <leader>m :.!~/bin/calc<Enter>
+inoremap <leader>m <Esc>:.!~/bin/calc<Enter>
 nnoremap <leader>i :read !latestimage<Enter>
 nnoremap <leader>v :!feh '<cfile>'<CR>
 
@@ -107,4 +108,3 @@ set isfname+=32
 
 "save as root
 nnoremap <leader>r :w !sudo tee % >/dev/null <CR>
-

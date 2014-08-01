@@ -120,7 +120,7 @@ map -count -modes=n,v U -builtin <count>u
 map -count -modes=n,v x -builtin <count>d
 map -count -modes=n,v w <count>o<Space>wikipedia<space>
 set autocomplete=
-set defsearch=google
+set defsearch=startpage-https
 set editor='rxvt -e sh -c "vim +<line> +\"sil! call cursor(0, <column>)\" <file>"'
 
 
@@ -133,3 +133,16 @@ au DownloadPost * :silent !~/.ratpoison/ranger_browser.sh <file>
 
 " vim: set ft=pentadactyl:
 
+
+" Toggle images with A-i
+javascript <<EOF
+mappings.addUserMap([modes.NORMAL], ["<A-i>"],
+    "Toggle images display",
+    function () {
+        if (prefs.get('permissions.default.image') == 1)
+            prefs.set("permissions.default.image", 2);
+        else
+            prefs.set("permissions.default.image", 1);
+        tabs.reload(config.browser.mCurrentTab);
+    });
+EOF
