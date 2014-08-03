@@ -39,7 +39,7 @@ set realname = "Vasil Zlatanov"
 set editor = "vim"
 
 # Basic config, you can leave this as is
-set mail_check = 20
+set mail_check = 3
 set timeout = 15
 unset imap_passive
 set header_cache=~/.muttlocal/cache/headers

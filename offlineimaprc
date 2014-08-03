@@ -2,7 +2,7 @@
 ui = ttyui
 accounts = BitMessage
 # This will suppress anything but errors
-#ui = quiet
+ui = quiet
 
 
 [Account Gmail]
@@ -43,7 +43,6 @@ nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
 localrepository = BitMessage-Local
 remoterepository = BitMessage-Remote
 autorefresh = 5
-quick = 20
 
 [Repository BitMessage-Local]
 type = Maildir
@@ -51,6 +50,7 @@ localfolders = ~/.mail/Swiss
 
 [Repository BitMessage-Remote]
 type = IMAP
+idlefolders = ['INBOX']
 remotehost = mail.bitmessage.ch
 remoteuser = BM-2cT677uioXaWcyyGPoLeS1t7fSoYbmFscj@bitmessage.ch
 #remotepass = youwish
