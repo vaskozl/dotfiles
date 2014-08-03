@@ -22,13 +22,13 @@ unset record
 
 mailboxes +INBOX
 
-macro index D \
-    "<save-message>+Gmail/trash<enter>" \
-    "move message to the trash"
-
-macro index S \
-    "<save-message>+Gmail/spam<enter>" \
-    "mark message as spam"
+#macro index D \
+#    "<save-message>+Swiss/INBOX.Trash<enter>" \
+#    "move message to the trash"
+#
+#macro index S \
+#    "<save-message>+Swiss/INBOX.Spam<enter>" \
+#    "mark message as spam"
 
 
 # Gmail conf
@@ -77,6 +77,7 @@ bind index,pager "N" search-next
 bind browser d half-down
 bind index d half-down
 bind pager d half-down
+bind index D delete-message
 
 bind browser u half-up
 bind index u half-up
