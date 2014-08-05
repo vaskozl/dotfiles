@@ -42,7 +42,7 @@ nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
 [Account BitMessage]
 localrepository = BitMessage-Local
 remoterepository = BitMessage-Remote
-autorefresh = 5
+autorefresh = 15
 
 [Repository BitMessage-Local]
 type = Maildir
