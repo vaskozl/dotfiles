@@ -1,3 +1,6 @@
+# Load passwords
+#source "gpg2 -dq $HOME/.mutt/pass.gpg |"
+
 # Source 
 source ~/.mutt/sol.muttrc
 source ~/.mutt/crypto.rc
@@ -36,12 +39,8 @@ set realname = "Vasil Zlatanov"
 set editor = "vim"
 
 # Basic config, you can leave this as is
-set imap_idle
-set imap_check_subscribed
-unset imap_passive
-unset imap_peek
-set mail_check = 600
-set timeout = 300
+set mail_check = 15
+set timeout = 1
 unset imap_passive
 set header_cache=~/.muttlocal/cache/headers
 set message_cachedir=~/.muttlocal/cache/bodies
