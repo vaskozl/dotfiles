@@ -21,7 +21,7 @@ then
 	touch ~/.mutt/newmail
 else 
 	xset -led 1
-if [ -e ~/.mutt/newmai ];then 
+if [ -e ~/.mutt/newmail ];then 
 	rm ~/.mutt/newmail
 fi
 fi
