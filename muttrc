@@ -18,14 +18,15 @@ set folder      = ~/.mail/
 set spoolfile   = "+Swiss/INBOX"
 #set mbox        = "+Swiss/archive"
 set postponed   = "+Swiss/INBOX.Drafts"
-unset record
+set record      = "+Swiss/INBOX.Sent"
+set copy=yes
 
 mailboxes +INBOX
 
-#macro index D \
-#    "<save-message>+Swiss/INBOX.Trash<enter>" \
-#    "move message to the trash"
-#
+macro index D \
+    "<save-message>+Swiss/INBOX.Trash<enter>" \
+    "move message to the trash"
+
 #macro index S \
 #    "<save-message>+Swiss/INBOX.Spam<enter>" \
 #    "mark message as spam"
