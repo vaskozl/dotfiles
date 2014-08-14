@@ -73,7 +73,7 @@ set noswapfile
 set nobackup
 au CursorHold,CursorHoldI * checktime
 au CursorHold,CursorHoldI * silent! wa
-set updatetime=2
+set updatetime=2000
 filetype plugin on
 filetype indent off
 let g:tex_flavor='latex'
