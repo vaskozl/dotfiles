@@ -1,4 +1,4 @@
-"hg6942
+"hg7101
 
 loadplugins '\.(js|penta)$'
 group user
@@ -65,6 +65,7 @@ highlight -link=s_green Object color: maroon;
 highlight -link=s_base1 Preview color: gray;
 highlight -link=s_cyan Question
 highlight s_base0 color: #839496 !important;
+highlight s_base0_back background-color: #839496 !important;
 highlight s_base00 color: #657b83 !important;
 highlight s_base00_back background-color: #657b83 !important;
 highlight s_base01 color: #586e75 !important;
@@ -73,7 +74,6 @@ highlight s_base02 color: #073642 !important;
 highlight s_base02_back background-color: #073642 !important;
 highlight s_base03 color: #002b36 !important;
 highlight s_base03_back background-color: #002b36 !important;
-highlight s_base0_back background-color: #839496 !important;
 highlight s_base1 color: #93a1a1 !important;
 highlight s_base1_back background-color: #93a1a1 !important;
 highlight s_base2 color: #eee8d5 !important;
@@ -94,16 +94,16 @@ highlight s_orange color: #cb4b16 !important;
 highlight s_orange_back background-color: #cb4b16 !important;
 highlight s_red color: #dc322f !important;
 highlight s_red_back background-color: #dc322f !important;
+highlight s_violet color: #6c71c4 !important;
+highlight s_violet_back background-color: #6c71c4 !important;
+highlight s_yellow color: #b58900 !important;
+highlight s_yellow_back background-color: #b58900 !important;
 highlight -link=s_base3,s_orange_back StatusLineBroken
 highlight -link=s_base3,s_violet_back StatusLineExtended
 highlight -link=s_base00,s_base2_back StatusLineNormal
 highlight -link=s_base3,s_blue_back StatusLineSecure
 highlight StatusQuestion color: inherit !important; background: transparent !important; background-color: inherit !important;
 highlight -link=s_base3,s_magenta_back StatusWarningMsg
-highlight s_violet color: #6c71c4 !important;
-highlight s_violet_back background-color: #6c71c4 !important;
-highlight s_yellow color: #b58900 !important;
-highlight s_yellow_back background-color: #b58900 !important;
 highlight -link=s_base3 TabIconNumber cursor: default; width: 16px; margin: 0 2px 0 -18px !important; font-weight: bold; color: white; text-align: center; text-shadow: #002b36 -1px 0 1px, #002b36 0 1px 1px, #002b36 1px 0 1px, #002b36 0 -1px 1px;
 highlight -link=s_blue Tag color: blue;
 highlight -link=s_red Title color: magenta; font-weight: bold;
@@ -113,36 +113,17 @@ highlight UsageItem:nth-of-type(2n) background: rgba(0, 43, 54, .04);
 highlight -link=s_base3,s_yellow_back WarningMsg
 map -count -modes=n,v h <count>gT
 map -count -modes=n,v l <count>gt
-map -count -modes=n,v d -builtin <count><C-d>
-map -count -modes=n,v D -builtin <count>d
-map -count -modes=n,v u -builtin <count><C-u>
-map -count -modes=n,v U -builtin <count>u
+map -count -modes=n,v s -builtin <count><C-d>
+map -count -modes=n,v d -builtin <count>d
+map -count -modes=n,v e -builtin <count><C-u>
+map -count -modes=n,v u -builtin <count>u
 map -count -modes=n,v x -builtin <count>d
-map -count -modes=n,v w <count>owikipedia<space>
+map -count -modes=n,v w <count>owikipedia<Space>
+map -count -modes=n,v ( <count>H
+map -count -modes=n,v ) <count>L
 set autocomplete=
-set defsearch=startpage-https
+set defsearch=duckduckgo
 set editor='rxvt -e sh -c "vim +<line> +\"sil! call cursor(0, <column>)\" <file>"'
-
-
 set strictfocus=*:despotic
-set runtimepath=~/.pentadactyl
-au DownloadPost * :silent !~/.ratpoison/ranger_browser.sh <file>
-
-        
-
 
 " vim: set ft=pentadactyl:
-
-
-" Toggle images with A-i
-javascript <<EOF
-mappings.addUserMap([modes.NORMAL], ["<A-i>"],
-    "Toggle images display",
-    function () {
-        if (prefs.get('permissions.default.image') == 1)
-            prefs.set("permissions.default.image", 2);
-        else
-            prefs.set("permissions.default.image", 1);
-        tabs.reload(config.browser.mCurrentTab);
-    });
-EOF
