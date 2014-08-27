@@ -29,7 +29,7 @@ type = Gmail
 remoteuser = vasil.zlatanov@gmail.com
 #remotepass = youwish
 realdelete = yes
-maxconnections = 4
+maxconnections = 2
 sslcacertfile = ~/.mutt/ca-certificates.crt
 nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
                             '[Gmail]/Sent Mail': 'sent',
