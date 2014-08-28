@@ -1,3 +1,4 @@
+execute pathogen#infect()
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim (usually just
 " /usr/share/vim/vimcurrent/debian.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
@@ -9,7 +10,6 @@
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
-execute pathogen#infect()
 
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
@@ -42,6 +42,9 @@ endif
 " differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
 "set showmatch		" Show matching brackets.
+nnoremap / /\v
+vnoremap / /\v
+set gdefault
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
@@ -59,12 +62,12 @@ set number
 "set spell
 set ruler
 
+
 "Solarized settings
 set background=light
 set t_Co=256
 colorscheme solarized
 "setlocal fo+=aw
-
 
 "Autosave and Autoread
 set autoread
@@ -75,36 +78,44 @@ au CursorHold,CursorHoldI * checktime
 au CursorHold,CursorHoldI * silent! wa
 set updatetime=2000
 filetype plugin on
-filetype indent off
-let g:tex_flavor='latex'
+let g:tex_flavor='latex -interaction=nonstopmode'
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction nonstopmode $*'
+
+"For god sake make line numbers usefull
+set relativenumber
 
 
 "Persisten-undo magic
 set undofile
 
-"Disable Autocomment
+"Disable the super annoying autocomment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-"Latex PDF magic
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_MultipleCompileFormats='pdf, aux'
+"Make j and k not jump when wraping
+nnoremap j gj
+nnoremap k gk
+
+"set leader to comma
+let mapleader = ","
+
 
 "Math with qalc
 nnoremap <leader>m :.!~/bin/calc<Enter>
-inoremap <leader>m <Esc>:.!~/bin/calc<Enter>
 nnoremap <leader>i :read !latestimage<Enter>
-nnoremap <leader>v :!feh '<cfile>'<CR>
+nnoremap <leader>v :!open '<cfile>'<CR>
 
-"Tab for escape
+"read spaces in path's
+set isfname+=32
+
+"Make tab into another escape
 nnoremap <Tab> <Esc>
-nnoremap <S-Tab> ZZ 
 vnoremap <Tab> <Esc>gV
 onoremap <Tab> <Esc>
 inoremap <Tab> <Esc>`^
 inoremap <Leader><Tab> <Tab>
 
-"read spaces in path's
-set isfname+=32
+set enc=utf-8
 
-"save as root
-nnoremap <leader>r :w !sudo tee % >/dev/null <CR>
+"sync paste buffer and vims register
+set clipboard^=unnamed
