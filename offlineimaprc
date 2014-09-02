@@ -24,6 +24,7 @@ nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
 
 [Repository Gmail-Remote]
 type = Gmail
+idlefolders = ['INBOX']
 remoteuser = vasil.zlatanov@gmail.com
 #remotepass = youwish
 realdelete = yes
