@@ -122,7 +122,7 @@ map -count -modes=n,v w <count>owikipedia<Space>
 map -count -modes=n,v ( <count>H
 map -count -modes=n,v ) <count>L
 set autocomplete=
-set defsearch=duckduckgo
+set defsearch=startpage-https
 set editor='rxvt -e sh -c "vim +<line> +\"sil! call cursor(0, <column>)\" <file>"'
 set strictfocus=*:despotic
 

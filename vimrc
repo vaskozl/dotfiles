@@ -42,8 +42,6 @@ endif
 " differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
 "set showmatch		" Show matching brackets.
-nnoremap / /\v
-vnoremap / /\v
 set gdefault
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching

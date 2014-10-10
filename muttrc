@@ -40,8 +40,8 @@ set editor = "vim"
 
 # Basic config, you can leave this as is
 #set hostname = gmail.com
-set mail_check = 5
-set timeout = 15
+set mail_check = 1
+set timeout = 1
 unset imap_passive
 set header_cache=~/.muttlocal/cache/headers
 set message_cachedir=~/.muttlocal/cache/bodies
