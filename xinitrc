@@ -3,7 +3,7 @@
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
 ratpoison=/usr/bin/ratpoison
-xtoolwait="/usr/bin/X11/xtoolwait -timeout 10"
+xtoolwait="timeout --signal=KILL 5 /usr/bin/X11/xtoolwait -timeout 10"
 workspace="/usr/bin/rpws"
 screen_run="$ratpoison_dir/screen_run"
 term="/usr/bin/urxvt -e"
@@ -12,8 +12,8 @@ term="/usr/bin/urxvt -e"
 # $1 = number
 # $2 = title (remember to quote if title has spaces)
 function number_and_title() {
-        $ratpoison -c "number $1"
-        $ratpoison -c "title $2"
+	$ratpoison -c "number $1"
+	$ratpoison -c "title $2"
 }
 
 #######################################################################
@@ -23,28 +23,36 @@ function number_and_title() {
 #
 #######################################################################
 
+#Keyboard Bindings
+xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
+
+#Mount some stuff
+pmount sda1 &
+pmount sda5 &
+pmount sda6 &
+
+# Launch locking program
+xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
+
 # Load xterm colors
 xrdb -merge ~/.Xresources
-# Start Dropbox
+xrdb -merge ~/.Xdefaults
+# Start some programs
 dropbox start
-# Start Offline Imap
-offlineimap &
+~/bin/offline-run
+#~/bin/xflux -z 24531 -l 56 -g 13
+#sudo nm-applet &
 
-# Start calendar sync
-#$HOME/.calendar/run
+#Disable annoying point tap
+synclient VertEdgeScroll=0  RTCornerButton=0  RBCornerButton=0  LTCornerButton=0  LBCornerButton=0  PalmDetect=1  FingerHigh=37  FingerLow=35  FingerPress=100 
+#Natural Scrolling 
+xmodmap -e "pointer = 1 2 3 5 4 7 6 8 9 10 11 12"
 
 # Detect secondary monitor and automatically adjust
 if [ `xrandr| grep -c VGA1` -gt 0 ]; then
      xrandr --output VGA1 --mode `xrandr | awk 'NR==9 {print $1}'` --right-of LVDS1
+     xrandr --output VGA1 --mode 1920x1080 --right-of LVDS1 
 fi
-
-# Fix rodentss
-xinput --set-prop "SynPS/2 Synaptics TouchPad" 296 -106, -106
-synclient PalmDetect=1
-xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 50 50
-xinput --set-prop "Logitech Gaming Mouse G400" "Device Accel Profile" -1
-xinput --set-prop "Logitech Gaming Mouse G400" "Device Accel Velocity Scaling" 1
-xset r rate 200 30
 
 
 if [ $# -lt 1 ]; then
@@ -59,7 +67,7 @@ fi
 
 #
 # Startup the ratpoison window manager first
-#
+
 if [ $run_everything = true ]; then
     $ratpoison 2>&1 &
     wmpid=$!
@@ -102,7 +110,7 @@ fi
 #     window 1: screen (see screenrc.admin for the screen config)
 if [ $run_everything = true -o $run_workspace = 4 ]; then
     $workspace 4
-    $xtoolwait $term $screen_run admin
+#    $xtoolwait $term $screen_run admin
     number_and_title 0 "admin screen"
 fi
 
@@ -111,14 +119,14 @@ fi
 if [ $run_everything = true -o $run_workspace = 5 ]; then
     $workspace 5
     cd $HOME/Dropbox/notes
-    $xtoolwait $term $screen_run school
+#    $xtoolwait $term $screen_run school
     number_and_title 0 "notebook"
 fi
 
 ## workspace 6 : projects workspace
 if [ $run_everything = true -o $run_workspace = 6 ]; then
     $workspace 6
-    $xtoolwait $term $screen_run projects
+#    $xtoolwait $term $screen_run projects
     number_and_title 0 "projects screen"
 fi
 #
@@ -128,6 +136,15 @@ fi
 #    $xtoolwait vncviewer nerd:1
 #    number_and_title 0 "kde"
 #fi
+
+# workspace 7 : skype workspace 
+if [ $run_everything = true -o $run_workspace = 7 ]; then
+    $workspace 7
+#    skype &
+#    number_and_title 0 "skype"
+    sleep 6
+fi
+
 #
 ## workspace 8 : windows workspace (VMware session)
 #if [ $run_everything = true -o $run_workspace = 8 ]; then
@@ -149,7 +166,8 @@ fi
 #     window 1: irc 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 10
-    $xtoolwait $term irssi
+    $xtoolwait $term $screen_run irssi
+#    $xtoolwait $term irssi
     number_and_title 0 "irc"
 fi
 
@@ -180,18 +198,15 @@ if [ $run_everything = true -o $run_workspace = 2 ]; then
 fi
 
 # workspace 2 : Firefox workspace
-#     window 1+: Firefox
+#     window 1+: firefox
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 2
-    firefox 
+    firefox &
     number_and_title 0 "firefox"
 fi
 
 # Default workspace: 1(ranger)
-	$workspace 1
-
-# Launch locking program
-xscreensaver -no-splash
+#	$workspace 1
 
 #######################################################################
 sleep 1
