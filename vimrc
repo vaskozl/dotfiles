@@ -81,7 +81,7 @@ let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction nonstopmode $*'
 
 "For god sake make line numbers usefull
-set relativenumber
+"set relativenumber
 
 
 "Persisten-undo magic
