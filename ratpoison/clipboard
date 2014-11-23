@@ -75,7 +75,7 @@ elif [ $command = paste ]; then
     xcb -p $option | xclip
     ratpoison -c "meta S-Insert"
 elif [ $command = set ]; then
-    xcb -n 10 -S $option
+    xclip -o | xcb -n 10 -s $option
 elif [ $command = push ]; then
     get_stack_depth
     if [ $stack_depth -lt 9 ]; then
