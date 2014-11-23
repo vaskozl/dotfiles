@@ -1,5 +1,4 @@
 # change to home directory and source screenrc from ratpoison directory
-escape ^xX
 chdir
 source .ratpoison/screenrcnobar
 

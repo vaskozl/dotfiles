@@ -4,6 +4,10 @@ vbell off
 startup_message off
 altscreen on
 
+#multiuser
+multiuser on
+acladd vasko
+
 # look and feel
 
 activity "Activity in %t(%n)"

@@ -28,6 +28,7 @@ bind 'o' only
 bind 'r' resize
 
 # bind buffer
+bufferfile
 bind b eval writebuf "exec !!! $HOME/.ratpoison/screenout"
 
 

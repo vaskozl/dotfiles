@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Clipboard menu
 #
@@ -28,14 +28,15 @@ function entries() {
     fi
 
     for i in $(seq 1 9); do
-        repr=$(xcb -p $i | tr '\n$*?"'\''' ' ' | cut --bytes 0-59)
+        repr=$(xcb -p $i | tr '\n$*?"'\''' ' ' | cut --bytes 1-59)
         if [ $command = menu_paste ]; then
             cmd_item="$0 paste $i"
         else
             cmd_item="$0 set $i"
         fi
         #printf '%q %q ' $i "$repr" "$cmd_item"
-        echo -n "\"$i $repr\" \"$cmd_item\" "
+#        echo -n "\"$i: $repr\" \"$cmd_item\" "
+        echo -n "\"$i:$repr \" \"$cmd_item\" "
     done
 }
 

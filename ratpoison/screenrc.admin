@@ -9,12 +9,12 @@ screen -t Admin3 3
 screen -t Admin4 4
 screen -t Root0 5
 select 5
-exec sudo su
+exec su
 screen -t Root1 6
 select 6
-exec sudo su
+exec su
 screen -t Root2 7
 select 7
-exec sudo su
+exec su
 
 select 0

@@ -1,4 +1,5 @@
 #!/bin/sh
 ratpoison -c 'ratwarp 1332 568'
+sleep 0.01
 ratpoison -c 'ratclick 1'
 ratpoison -c banish
