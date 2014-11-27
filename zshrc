@@ -23,6 +23,12 @@ export PS1='%n@%m:%~%% '
 
 export GPGKEY="895134C5"
 export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
+export EDITOR="vim"
 export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
 export LD_LIBRARY_PATH=/usr/local/lib
 
+PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
+RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
+
+
+archey3

@@ -116,3 +116,9 @@ set enc=utf-8
 
 "sync paste buffer and vims register
 set clipboard^=unnamed
+
+" don't clobber up the directory with dot undo file
+set undodir=~/.vim/undodir//
+
+
+

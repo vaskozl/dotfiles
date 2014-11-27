@@ -24,7 +24,7 @@ function entries() {
     if [ $command = menu_paste ]; then
         echo -n "\"Paste from slot:\" /bin/true "
     else
-        echo -n "\"Yank from slot:\" /bin/true "
+        echo -n "\"Yank to slot:\" /bin/true "
     fi
 
     for i in $(seq 1 9); do
