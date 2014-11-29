@@ -3,7 +3,7 @@
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
 ratpoison=/usr/bin/ratpoison
-xtoolwait="timeout --signal=KILL 5 /usr/bin/X11/xtoolwait -timeout 10"
+xtoolwait="timeout --signal=KILL 5 /usr/bin/xtoolwait -timeout 10"
 workspace="/usr/bin/rpws"
 screen_run="$ratpoison_dir/screen_run"
 term="/usr/bin/urxvt -e"
@@ -23,8 +23,15 @@ function number_and_title() {
 #
 #######################################################################
 
+# Background
+nitrogen --restore
+
 #Keyboard Bindings
+setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
+xset r 64
+xset r rate 200 30
+xset m 0 0 
 
 #Mount some stuff
 pmount sda1 &
@@ -38,7 +45,7 @@ xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 # Start some programs
-dropbox start
+#dropbox start
 ~/bin/offline-run
 #~/bin/xflux -z 24531 -l 56 -g 13
 #sudo nm-applet &
@@ -207,6 +214,9 @@ fi
 
 # Default workspace: 1(ranger)
 #	$workspace 1
+
+xfce4-panel --disable-wm-check &
+sleep 2 && rpbar
 
 #######################################################################
 sleep 1
