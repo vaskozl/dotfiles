@@ -1,3 +1,4 @@
+mpd_host                              = "127.0.0.1" # needed because localhost doesn't work for some reason
 mpd_connection_timeout = 30
 colors_enabled                        = "yes"
 song_status_format                    = "$0{$8%t$9} on {$5%b$9} by {$3%a}" 

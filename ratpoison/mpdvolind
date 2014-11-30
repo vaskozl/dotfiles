@@ -1,5 +1,5 @@
 #!/bin/bash
-volm=`mpc volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`
+volm=`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`
 
 if [[ "$volm" -eq "100" ]]; then
         let volm=99
