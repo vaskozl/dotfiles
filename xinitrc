@@ -6,7 +6,7 @@ ratpoison=/usr/bin/ratpoison
 xtoolwait="timeout --signal=KILL 5 /usr/bin/xtoolwait -timeout 10"
 workspace="/usr/bin/rpws"
 screen_run="$ratpoison_dir/screen_run"
-term="termite -e"
+term="/usr/bin/urxvt -e"
 
 # Set the current window's number and title
 # $1 = number
