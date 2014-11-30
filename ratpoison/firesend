@@ -1,0 +1,2 @@
+#!/bin/bash
+$HOME/.ratpoison/exec_to_workspace 2 firefox --new-tab $@
