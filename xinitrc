@@ -45,13 +45,18 @@ xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 # Start some programs
-#dropbox start
+dropboxd
 ~/bin/offline-run
 #~/bin/xflux -z 24531 -l 56 -g 13
 #sudo nm-applet &
 
 #Disable annoying point tap
-synclient VertEdgeScroll=0  RTCornerButton=0  RBCornerButton=0  LTCornerButton=0  LBCornerButton=0  PalmDetect=1  FingerHigh=37  FingerLow=35  FingerPress=100 
+synclient PalmDetect=1
+synclient TapButton1=1
+synclient TapButton2=3
+synclient TapButton3=2
+synclient TapAndDragGesture=0
+synclient VertEdgeScroll=0  RTCornerButton=0  RBCornerButton=0  LTCornerButton=0  LBCornerButton=0    FingerHigh=37  FingerLow=35  FingerPress=100 
 #Natural Scrolling 
 xmodmap -e "pointer = 1 2 3 5 4 7 6 8 9 10 11 12"
 
