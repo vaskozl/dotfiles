@@ -1,2 +1,4 @@
+application/*; mkdir -p /tmp/mutt \; cp %s /tmp/mutt \; rifle /tmp/mutt/$(basename %s) &
+image/*; mkdir -p /tmp/mutt \; cp %s /tmp/mutt \; rifle /tmp/mutt/$(basename %s) &
 text/html; ~/.ratpoison/firesend %s &; test=test -n "$DISPLAY"; needsterminal;
 text/html; w3m -I %{charset} -T text/html; copiousoutput;

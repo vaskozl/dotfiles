@@ -116,6 +116,7 @@ set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n
 
 # Render silly html
 set mailcap_path 	= ~/.mutt/mailcap
+folder-hook . `rm -f /tmp/mutt/*`                        # delete tmp files created by mailcap
 auto_view text/html                                      # view html automatically
 alternative_order text/plain text/enriched text/html     # save html for last
 
