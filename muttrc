@@ -58,6 +58,22 @@ hdr_order Date From To Cc
 alternative_order text/plain text/html *
 auto_view text/html
 
+# Hide crap
+
+ignore lines precedence status message-id x-lines x-loop x-sender
+ignore nntp-posting-host old-return-path received references
+ignore content- errors-to mime-version resent- return-path xref
+ignore conversion original-encoded-information-types x400 x-vm-
+ignore x-sun x-status x-vm- illegal-object x-authentication-warning
+ignore originator x-received x-listprocessor x-mailinglist
+ignore old-priority priority x-msmail-priority old-x-envelope-to
+ignore x-envelope-to x-gateway x-z-charset x-forward-loop x-comment
+ignore comments x-pmrqc x-face x-envelope-sender from_ x-mailing-list
+ignore x-copyright x-cid-url sender x-ixthys-url x-priority
+ignore x-no-junk-mail x-server-date x-phone x-mime-autoconverted
+ignore x-alt-email x-orcpt company division x-warning
+
+
 # Gmail-style keyboard shortcuts
 macro index,pager gi "<change-folder>=Gmail/INBOX<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=Gmail/archive<tab><enter>" "Go to all mail"
@@ -98,7 +114,9 @@ set display_filter='$HOME/.mutt/alias.sh'
 # Mutt LED notification 
 set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
 
-#click link
-macro pager \cb 'urlview' 'Follow links with urlview'
-
+# Render silly html
+set mailcap_path 	= ~/.mutt/mailcap
+folder-hook . `rm -f /tmp/mutt/*`                        # delete tmp files created by mailcap
+auto_view text/html                                      # view html automatically
+alternative_order text/plain text/enriched text/html     # save html for last
 
