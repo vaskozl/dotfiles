@@ -1,3 +1,3 @@
 #!/bin/sh
-find ~/ | sed 's/ /\\ /g' | dmenu -i -l 20 -nb '#eee8d5' -nf '#657b83' | xargs urxvt -e rifle -p0
+find ~/ | sed 's/ /\\ /g' | dmenu -i -l 20 -nb '#eee8d5' -nf '#657b83' | xargs urxvt -e rifle 
 exit 0
