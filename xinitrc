@@ -26,6 +26,9 @@ function number_and_title() {
 # Background
 nitrogen --restore
 
+# Autolock
+xss-lock -- i3lock -n -i ~/Pictures/1440.png &
+
 #Keyboard Bindings
 setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
@@ -39,13 +42,13 @@ pmount sda5 &
 pmount sda6 &
 
 # Launch locking program
-xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
+#xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 # Start some programs
-dropboxd
+#dropbox start
 ~/bin/offline-run
 #~/bin/xflux -z 24531 -l 56 -g 13
 #sudo nm-applet &
