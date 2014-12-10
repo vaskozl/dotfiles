@@ -1,0 +1,50 @@
+"3.8.2 (created: 2014/02/13 23:52:43)
+
+highlight Bell border: none; background-color: #586E75;
+highlight Boolean color: #DC322F;
+highlight CmdLine background: #EEE8D5; color: #586E75; transition: all 0.25s;
+highlight CompDesc width: 500px; max-width: 500px; color: #859900; overflow: hidden;
+highlight CompItem[selected] background: #EEE8D5; box-shadow: 0px 0px 1px #B58900;
+highlight CompTitle font-weight: bold; background-color: #EEE8D5;
+highlight CompTitle>* color: #657B83; border-top: 1px solid #657B83; border-bottom: 1px solid #657B83; padding: 1px 0.5ex; text-shadow: 1px 1px 0px #FDF6E3;
+highlight ContentSeparator border-top: 1px dotted #93A1A1; display: -moz-box;
+highlight Disabled color: #DC322F;
+highlight Enabled color: #859900;
+highlight ErrorMsg color: #FDF6E3; background: #DC322F; font-weight: bold;
+highlight Filter color: #CB4B16; font-weight: bold;
+highlight FrameIndicator background-color: #DC322F; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
+highlight Function color: 268BD2;
+highlight Hint font-family: monospace; font-size: medium; font-weight: bold; text-transform: uppercase; color: #FDF6E3; background-color: #DC322F; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 1px; z-index: 9999;
+highlight HintActive background-color: #859900; color: #002B36;
+highlight HintElem background-color: #B58900; color: #002B36;
+highlight HintImage opacity: 0.5;
+highlight Indicator color: #268BD2;
+highlight InfoMsg color: #D33682; background: #FDF6E3;
+highlight Keyword color: #DC322F;
+highlight LineNr color: #CB4B16; background: #FDF6E3;
+highlight Mapping color: #D33682;
+highlight ModeMsg color: #FDF6E3; background: #859900; border-radius: 1px; padding: 0px 5px;
+highlight MoreMsg color: #859900; background: #FDF6E3;
+highlight NonText color: #268BD2; min-height: 16px; padding-left: 2px;
+highlight Normal color: #586E75; background: #FDF6E3;
+highlight Null color: #268BD2;
+highlight Number color: #268BD2;
+highlight Object color: #B58900;
+highlight Preview color: #93A1A1;
+highlight PromptText color: #FDF6E3; background: #6C71C4;
+highlight Question color: #859900; background: #FDF6E3; font-weight: bold;
+highlight StatusLine color: #657B83; background: transparent; font-weight: normal;
+highlight String color: #859900;
+highlight Tag color: #268BD2;
+highlight Title color: #D33682; background: #FDF6E3; font-weight: bold; font-size: 120%;
+highlight URL text-decoration: none; color: #268BD2;
+highlight WarningMsg color: #DC322F; background: #FDF6E3;
+noremap l gt
+noremap h gT
+noremap s C-d<Space>
+noremap e C-u
+noremap w :open wikipedia 
+source! /home/vasko/.vimperatorrc.local
+set focuscontent
+
+" vim: set ft=vimperator:
