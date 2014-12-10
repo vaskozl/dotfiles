@@ -39,11 +39,12 @@ highlight Tag color: #268BD2;
 highlight Title color: #D33682; background: #FDF6E3; font-weight: bold; font-size: 120%;
 highlight URL text-decoration: none; color: #268BD2;
 highlight WarningMsg color: #DC322F; background: #FDF6E3;
-noremap l gt
-noremap h gT
-noremap s C-d<Space>
-noremap e C-u
-noremap w :open wikipedia 
+nnoremap l gt
+nnoremap h gT
+nnoremap s <C-d>
+nnoremap e <C-u>
+nnoremap w :open wikipedia 
+nnoremap x d
 source! /home/vasko/.vimperatorrc.local
 set focuscontent
 
