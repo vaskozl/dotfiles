@@ -47,5 +47,6 @@ nnoremap w :open wikipedia
 nnoremap x d
 source! /home/vasko/.vimperatorrc.local
 set focuscontent
+set gui=nonavigation
 
 " vim: set ft=vimperator:
