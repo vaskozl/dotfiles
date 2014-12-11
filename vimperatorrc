@@ -43,10 +43,11 @@ nnoremap l gt
 nnoremap h gT
 nnoremap s <C-d>
 nnoremap e <C-u>
-nnoremap w :open wikipedia 
+nnoremap w :open<Space>wikipedia<Space>
 nnoremap x d
-source! /home/vasko/.vimperatorrc.local
+nnoremap ( H
+nnoremap ) L
 set focuscontent
-set gui=nonavigation
+source! /home/vasko/.vimperatorrc.local
 
 " vim: set ft=vimperator:
