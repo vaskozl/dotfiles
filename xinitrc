@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 # Inspiration:
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
@@ -39,16 +39,11 @@ nitrogen --restore
 setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
-xset r rate 200 30
+xset r rate 180 40
 xset m 0 0 
 
-#Mount some stuff
-pmount sda1 &
-pmount sda5 &
-pmount sda6 &
-
 # Launch locking program
-#xautolock -detectsleep -locker i3lock -time 11 -corners 0-00 &
+xautolock -detectsleep -locker 'i3lock -i ~/Pictures/1440.png' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
