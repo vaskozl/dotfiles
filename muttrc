@@ -108,6 +108,10 @@ bind index G        last-entry
 bind pager G        bottom
 bind index R        group-reply
 
+# Automatically save read files after exiting pager
+macro pager q "<exit><sync-mailbox>" 
+macro pager i "<exit><sync-mailbox>" 
+
 # Write in Aliases when opening email
 set display_filter='$HOME/.mutt/alias.sh'
 
