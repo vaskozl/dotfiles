@@ -44,6 +44,7 @@ xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyp
 xset r 64
 xset r rate 180 40
 xset m 0 0 
+xset -b
 
 # Launch locking program
 xautolock -detectsleep -locker 'i3lock -i ~/Pictures/1440.png' -time 11 -corners 0-00 &
