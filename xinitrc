@@ -31,6 +31,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+# Fix annoying blank java bug
+wmname LG3D
 
 # Background
 nitrogen --restore
