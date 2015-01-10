@@ -73,5 +73,4 @@ xterm*metaSendsEscape: true
 xterm*eightBitInput: false
 xterm*allowSendEvents: true
 
-URxvt.url-select.launcher: /home/vasko/.ratpoison/exec_to_workspace 2 firefox --new-tab
 
