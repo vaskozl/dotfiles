@@ -1,5 +1,5 @@
 #lsblk to list all  partitions
-# to get bumblebee working ' MODULES="i915 bbswitch"  ' in mkinitcpio.conf and rcutree.rcu_idle_gp_delay=1 in grub.conf
+#module for mouse is bcm5974
 # pacat /dev/urandom > padsp
 # to enable disable services sudo update-rc.d apache2 disable
 # for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)

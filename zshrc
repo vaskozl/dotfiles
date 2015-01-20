@@ -32,4 +32,5 @@ PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
+#fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
 archey3
