@@ -16,7 +16,7 @@ Xft.hintstyle: hintslight
 !-------------------------------------------------------------------------------
  
 URxvt.geometry: 90x30
-URxvt.transparent: true
+URxvt.transparent: false
 URxvt.fading: 0
 ! URxvt.urgentOnBell: true
 ! URxvt.visualBell: true
@@ -37,7 +37,7 @@ URxvt.scrollBar: false
 ! Perl extensions
 !URxvt.perl-ext-common: default,matcher
 URxvt.matcher.button: 1
-URxvt.urlLauncher: firefox
+URxvt.urlLauncher: uzbl-browser
  
 ! Cursor
 URxvt.cursorBlink: true
@@ -55,5 +55,5 @@ URxvt.keysym.M-s: perl:keyboard-select:search
 ! M-u to select open copy links
 !URxvt.perl-ext-common: ...,url-select
 URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /home/vasko/.ratpoison/exec_to_workspace 2 firefox --new-tab
+URxvt.url-select.launcher: /home/vasko/.ratpoison/exec_to_workspace 2 uzbl-browser --uri 
 

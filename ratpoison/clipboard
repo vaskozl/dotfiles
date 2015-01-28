@@ -18,6 +18,7 @@
 #
 command=$1
 option=$2
+source ~/.colors
 
 function entries() {
     # title entry
@@ -42,7 +43,7 @@ function entries() {
 
 function menu() {
     echo ~/.ratpoison/ratmenu -label "\"clipboard $command\"" \
-        -style dreary -fg \'#657b83\' -bg \'#eee8d5\' -io 2 $(entries) | sh
+        -style dreary -fg \"$COLOR11\" -bg \"$COLOR0\" -io 2 $(entries) | sh
 }
 
 function get_stack_depth() {

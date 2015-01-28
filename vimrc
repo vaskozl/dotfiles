@@ -56,7 +56,7 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-set number
+"set number
 "set spell
 set ruler
 
@@ -64,7 +64,7 @@ set ruler
 "Solarized settings
 set background=light
 set t_Co=256
-colorscheme solarized
+"colorscheme solarized
 "setlocal fo+=aw
 
 "Autosave and Autoread
@@ -79,6 +79,11 @@ filetype plugin on
 let g:tex_flavor='latex -interaction=nonstopmode'
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction nonstopmode $*'
+
+
+let Tex_FoldedSections=""
+let Tex_FoldedEnvironments=""
+let Tex_FoldedMisc=""
 
 "For god sake make line numbers usefull
 "set relativenumber

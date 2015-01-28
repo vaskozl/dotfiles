@@ -2,7 +2,7 @@
 #source "gpg2 -dq $HOME/.mutt/pass.gpg |"
 
 # Source 
-source ~/.mutt/sol.muttrc
+#source ~/.mutt/sol.muttrc
 source ~/.mutt/crypto.rc
 
 #Load aliases
@@ -87,7 +87,7 @@ macro index,pager gd "<change-folder>=Gmail/drafts<enter>" "Go to drafts"
 set delete 
 #set edit_headers
 set fast_reply
-set help
+unset help
 set pager_stop
 
 # Bindings 

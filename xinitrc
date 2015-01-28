@@ -35,7 +35,7 @@ fi
 wmname LG3D
 
 # Background
-nitrogen --restore
+~/.ratpoison/wp change &
 
 #Run dropbox
 dropboxd &
@@ -49,7 +49,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker 'i3lock -i ~/Pictures/1440.png' -time 11 -corners 0-00 &
+xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
@@ -197,7 +197,7 @@ fi
 #     window 1: wicd 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 11
-    $xtoolwait $term  wicd-curses
+    $xtoolwait $term sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf
     number_and_title 0 "wicd"
 fi
 
@@ -219,19 +219,17 @@ if [ $run_everything = true -o $run_workspace = 2 ]; then
     number_and_title 0 "volume"
 fi
 
-# workspace 2 : Firefox workspace
-#     window 1+: firefox
+# workspace 2 : Uzbl workspace
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 2
-    firefox &
-    number_and_title 0 "firefox"
+    uzbl-browser &
 fi
 
 # Default workspace: 1(ranger)
 #	$workspace 1
 
-xfce4-panel --disable-wm-check &
-sleep 2 && rpbar
+#xfce4-panel --disable-wm-check &
+#sleep 2 && rpbar
 
 #######################################################################
 sleep 1

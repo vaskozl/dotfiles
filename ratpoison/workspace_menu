@@ -9,7 +9,7 @@
 workspace_command="/usr/bin/rpws"
 ratmenu="~/.ratpoison/ratmenu"
 
-( printf "$ratmenu -style dreary -fg '#657b83' -bg '#eee8d5' -io $[ $($workspace_command current) + 1 ]";
+( printf "$ratmenu -style dreary -fg \"$COLOR11\" -bg \"$COLOR0\" -io $[ $($workspace_command current) + 1 ]";
   ratpoison -c "groups" | while read s; do
     n=$(echo $s | sed 's/\([0-9]\+\).*/\1/');
 #    w=$(echo $s | sed 's/[0-9]\+.\(.*\)/\1/');
