@@ -144,7 +144,7 @@ function change {
 
   #:: Set the background
   feh --bg-fill $background
-  cp $background ~/.wallpaper
+  convert $background ~/.wallpaper.png &
 
   #:: Record the current background
   set_current $background

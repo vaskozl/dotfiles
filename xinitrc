@@ -49,7 +49,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper' -time 11 -corners 0-00 &
+xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper.png' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
