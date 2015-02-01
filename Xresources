@@ -5,8 +5,8 @@ Xcursor.theme: XcursorHuman
 *fading: 40
 *fadeColor: #eee8d5
 *cursorColor: #fdf6e3
-#*pointerColorBackground:S_base1
-#*pointerColorForeground:S_base01
+!*pointerColorBackground:S_base1
+!*pointerColorForeground:S_base01
 
 !urxvt.font :xft:inconsolata-dz-powerline:size=14
 urxvt.scrollBar :false
