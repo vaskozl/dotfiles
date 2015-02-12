@@ -162,25 +162,25 @@ super + space
 	mpc -h 127.0.0.1 toggle 
 
 super + Right 
-	mpc -h 127.0.0.1 next  && echo "p`mpc current`" | cut --bytes 1-40> "$PANEL_FIFO"
+	mpc -h 127.0.0.1 next  && echo "p`mpc current`" | cut --bytes 1-40> /tmp/panel-fifo
 
 super + Left  
-	mpc -h 127.0.0.1 prev  && echo "p`mpc current`" | cut --bytes 1-40 > "$PANEL_FIFO"
+	mpc -h 127.0.0.1 prev  && echo "p`mpc current`" | cut --bytes 1-40 > /tmp/panel-fifo
 
 super + Up    
-	mpc -h 127.0.0.1 volume +5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /M/' > "$PANEL_FIFO" 
+	mpc -h 127.0.0.1 volume +5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /K/' > /tmp/panel-fifo 
 
 super + Down  
-	mpc -h 127.0.0.1 volume -5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /M/' > "$PANEL_FIFO" 
+	mpc -h 127.0.0.1 volume -5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /K/' > /tmp/panel-fifo 
 
 XF86AudioRaiseVolume
-	amixer -q set Master 5+ && volume -f 'V%i' > "$PANEL_FIFO" 
+	amixer -q set Master 5+ && volume -f 'V%i' > /tmp/panel-fifo 
 
 XF86AudioLowerVolume 
-	amixer -q set Master 5- && volume -f 'V%i' > "$PANEL_FIFO"
+	amixer -q set Master 5- && volume -f 'V%i' > /tmp/panel-fifo
 
 super + Prior
-	amixer -q set Master 5+ && volume -f 'V%i' > "$PANEL_FIFO" 
+	amixer -q set Master 5+ && volume -f 'V%i' > /tmp/panel-fifo 
 
 super + Next 
 	amixer -q set Master 5- && volume -f 'V%i' > "$PANEL_FIFO"
