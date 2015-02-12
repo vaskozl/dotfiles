@@ -1,13 +1,20 @@
-!/usr/bin/bash
+!/usr/bin/env bash
 # Inspiration:
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
 ratpoison=/usr/bin/ratpoison
-xtoolwait="timeout --signal=KILL 5 $ratpoison_dir/xtoolwait -noprop"
-workspace="bspc desktop -f"
+xtoolwait="timeout --signal=KILL 5 /usr/bin/xtoolwait -timeout 10"
+workspace="/usr/bin/rpws"
 screen_run="$ratpoison_dir/screen_run"
 term="/usr/bin/urxvt -e"
 
+# Set the current window's number and title
+# $1 = number
+# $2 = title (remember to quote if title has spaces)
+function number_and_title() {
+	$ratpoison -c "number $1"
+	$ratpoison -c "title $2"
+}
 
 #######################################################################
 #
@@ -23,9 +30,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   done
   unset f
 fi
-
-# give cursor
-xsetroot -cursor_name left_ptr 
 
 # Fix annoying blank java bug
 wmname LG3D
@@ -45,7 +49,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper.png -z' -time 11 -corners 0-00 &
+xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper.png' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
@@ -85,9 +89,9 @@ fi
 
 #
 # Startup the ratpoison window manager first
-sxhkd &
+
 if [ $run_everything = true ]; then
-    bspwm 2>&1 &
+    $ratpoison 2>&1 &
     wmpid=$!
     sleep 1 &
 fi
@@ -110,104 +114,122 @@ fi
 # workspace 1 : Ranger workspace
 #     window 1+: Ranger
 if [ $run_everything = true -o $run_workspace = 1 ]; then
-    $workspace ^1
+    $workspace 1
     $xtoolwait $term  ranger 
+    number_and_title 0 "ranger"
 fi
 
 # workspace 2 is at the end (pentadactyl) slowing down
 
 # workspace 3 : newsbeuter
 if [ $run_everything = true -o $run_workspace = 3 ]; then
-    $workspace ^3
+    $workspace 3
     $xtoolwait $term newsbeuter
+    number_and_title 0 "newsbeuter"
 fi
 
 # workspace 4 : admin workspace
 #     window 1: screen (see screenrc.admin for the screen config)
 if [ $run_everything = true -o $run_workspace = 4 ]; then
-    $workspace ^4
+    $workspace 4
 #    $xtoolwait $term $screen_run admin
+    number_and_title 0 "admin screen"
 fi
 
 # workspace 5 : School
 #     windows 1: screen notebok
 if [ $run_everything = true -o $run_workspace = 5 ]; then
-    $workspace ^5
+    $workspace 5
     cd $HOME/Dropbox/notes
 #    $xtoolwait $term $screen_run school
+    number_and_title 0 "notebook"
+fi
+
+## workspace 6 : projects workspace
+if [ $run_everything = true -o $run_workspace = 6 ]; then
+    $workspace 6
+#    $xtoolwait $term $screen_run projects
+    number_and_title 0 "projects screen"
 fi
 #
 ## workspace 7 : kde workspace (VNC session)
 #if [ $run_everything = true -o $run_workspace = 7 ]; then
-#    $workspace ^7
+#    $workspace 7
 #    $xtoolwait vncviewer nerd:1
 #    number_and_title 0 "kde"
 #fi
 
 # workspace 7 : skype workspace 
 if [ $run_everything = true -o $run_workspace = 7 ]; then
-    $workspace ^7
+    $workspace 7
 #    skype &
 #    number_and_title 0 "skype"
     sleep 6
 fi
 
-#
-## workspace 8 : windows workspace (VMware session)
-#if [ $run_everything = true -o $run_workspace = 8 ]; then
-#    $workspace ^8
-#    #$xtoolwait gnomesu -c /stor/vmware/bin/vmware
-#    #number_and_title 0 "windows xp"
-#fi
-#
+
+# workspace 8 : windows workspace (VMware session)
+if [ $run_everything = true -o $run_workspace = 8 ]; then
+    $workspace 8
+    $xtoolwait $term rtorrent
+    number_and_title 0 "torrents"
+fi
+
 
 # workspace 9 : email workspace
 #     window 1: mutt 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^9
+    $workspace 9
     $xtoolwait $term mutt
+    number_and_title 0 "email"
 fi
 
 # workspace 10 : irc workspace
 #     window 1: irc 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^10
+    $workspace 10
     $xtoolwait $term $screen_run irssi
 #    $xtoolwait $term irssi
+    number_and_title 0 "irc"
 fi
 
 # workspace 11 : wifi workspace
 #     window 1: wicd 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^11
+    $workspace 11
     $xtoolwait $term sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf
+    number_and_title 0 "wicd"
 fi
 
 # workspace 12 : music workspace
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^12
+    $workspace 12
     cd $HOME/Music	
-    $xtoolwait $term cmus
+    $xtoolwait $term mopidy
+    $xtoolwait $term ncmpcpp
+    $ratpoison -c "meta 2"
+    number_and_title 0 "spotify"
 fi
 
 # workspace 13 : volume workspace
 #     window 1: volume 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^13
+    $workspace 13
     $xtoolwait $term alsamixer
+    number_and_title 0 "volume"
 fi
 
 # workspace 2 : Uzbl workspace
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^2
+    $workspace 2
     uzbl-browser &
 fi
 
 # Default workspace: 1(ranger)
-#	$workspace ^1
+#	$workspace 1
 
-#~/.ratpoison/panel/panel &
+#xfce4-panel --disable-wm-check &
 #sleep 2 && rpbar
 
 #######################################################################
