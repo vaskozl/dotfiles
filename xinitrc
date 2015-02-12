@@ -167,14 +167,14 @@ if [ $run_everything = true -o $run_workspace = 7 ]; then
     sleep 6
 fi
 
-#
-## workspace 8 : windows workspace (VMware session)
-#if [ $run_everything = true -o $run_workspace = 8 ]; then
-#    $workspace 8
-#    #$xtoolwait gnomesu -c /stor/vmware/bin/vmware
-#    #number_and_title 0 "windows xp"
-#fi
-#
+
+# workspace 8 : windows workspace (VMware session)
+if [ $run_everything = true -o $run_workspace = 8 ]; then
+    $workspace 8
+    $xtoolwait $term rtorrent
+    number_and_title 0 "torrents"
+fi
+
 
 # workspace 9 : email workspace
 #     window 1: mutt 
@@ -206,9 +206,10 @@ fi
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 12
     cd $HOME/Music	
-    $xtoolwait $term cmus
+    $xtoolwait $term mopidy
+    $xtoolwait $term ncmpcpp
     $ratpoison -c "meta 2"
-    number_and_title 0 "music"
+    number_and_title 0 "spotify"
 fi
 
 # workspace 13 : volume workspace

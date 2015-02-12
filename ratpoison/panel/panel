@@ -1,0 +1,31 @@
+#! /bin/sh
+cd ~/.ratpoison/panel
+source ./profile
+source ~/.colors
+if [ $(pgrep -cx panel) -gt 1 ] ; then
+	printf "%s\n" "The panel is already running." >&2
+	exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+bspc config top_padding $PANEL_HEIGHT
+bspc control --subscribe > "$PANEL_FIFO" &
+xtitle -sf 'T%s' > "$PANEL_FIFO" &
+essid -sf 'E%s' -i 3 -w wlp2s0 > "$PANEL_FIFO" &
+volume -i 10 -sf 'V%i' > "$PANEL_FIFO" &
+battery -i 5 -sf 'B%i' > "$PANEL_FIFO" &
+clock -sf 'S%a %H:%M' > "$PANEL_FIFO" &
+./music > "$PANEL_FIFO" &
+./cpu > "$PANEL_FIFO" &
+
+
+source ./panel_colors
+
+cat "$PANEL_FIFO" | ./panel_bar | bar -g x$PANEL_HEIGHT -f "$PANEL_FONT_FAMILY" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+
+stalonetray --geometry 4x1-1+1 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 18 
+wait

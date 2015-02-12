@@ -3,11 +3,11 @@
 # pacat /dev/urandom > padsp
 # to enable disable services sudo update-rc.d apache2 disable
 # for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)
-alias volume='pactl set-sink-volume 0'
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
-# I am stupid sometimes
-#alias sudo vim='sudo -e'
+# Disable mouse
+alias remouse='sudo modprobe -r bcm5974'
+alias enmouse='sudo modprobe bcm5974'
 
 # Notes
 alias physics='vim ~/Dropbox/Notes/Physics/physics.txt'
@@ -51,7 +51,7 @@ alias o='less'
 alias g='wget'
 alias x='tar -xvzf'
 alias a='tar -cvzf'
-alias i='sudo pacman -S'
+alias i='yaourt -S'
 alias p='sudo pacman -Rs'
 alias t='optirun'
 alias ts='optirun -b none nvidia-settings -c :8'
@@ -89,6 +89,8 @@ alias vimrc='vi ~/.vimrc'
 alias aliases='vi ~/.bash_aliases'
 alias solarize='~/.solarized/solarize'
 alias rat='vim ~/.ratpoison/ratpoisonrc.conf'
+alias sx='vim ~/.config/sxhkd/sxhkdrc'
+alias bs='vim ~/.config/bspwm/bspwmrc'
 alias screenrc='vim ~/.ratpoison/screenrc'
 alias xkb='sudo vim /usr/share/X11/xkb/symbols/us'
 alias pdf='apvlv'

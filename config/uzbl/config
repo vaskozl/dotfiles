@@ -3,11 +3,32 @@
 
 # === Core settings ==========================================================
 
+# Polipo proxy for caching
+set proxy_url = http://127.0.0.1:8123
+
 # common directory locations
 set prefix      = @(echo $PREFIX)@
 set data_home   = @(echo $XDG_DATA_HOME)@
 set cache_home  = @(echo $XDG_CACHE_HOME)@
 set config_home = @(echo $XDG_CONFIG_HOME)@
+
+
+# colors
+set color1      = @(source ~/.colors; echo $COLOR1)@
+set color2      = @(source ~/.colors; echo $COLOR2)@
+set color3      = @(source ~/.colors; echo $COLOR3)@
+set color4      = @(source ~/.colors; echo $COLOR4)@
+set color5      = @(source ~/.colors; echo $COLOR5)@
+set color6      = @(source ~/.colors; echo $COLOR6)@
+set color7      = @(source ~/.colors; echo $COLOR7)@
+set color8      = @(source ~/.colors; echo $COLOR8)@
+set color9      = @(source ~/.colors; echo $COLOR9)@
+set color10      = @(source ~/.colors; echo $COLOR10)@
+set color11      = @(source ~/.colors; echo $COLOR11)@
+set color12      = @(source ~/.colors; echo $COLOR12)@
+set color13      = @(source ~/.colors; echo $COLOR13)@
+set color14      = @(source ~/.colors; echo $COLOR14)@
+set color15      = @(source ~/.colors; echo $COLOR15)@
 
 # Interface paths.
 set fifo_dir   = /tmp
@@ -35,7 +56,7 @@ set set_mode        = set mode =
 set set_status      = set status_message =
 
 # Spawn path shortcuts. In spawn the first dir+path match is used in "dir1:dir2:dir3:executable"
-set scripts_dir      = @data_home/uzbl:@prefix/share/uzbl/examples/data:scripts
+set scripts_dir      = @data_home/uzbl/scripts:@prefix/share/uzbl/examples/data:scripts
 
 # === Hardcoded handlers =====================================================
 
@@ -44,7 +65,7 @@ set scripts_dir      = @data_home/uzbl:@prefix/share/uzbl/examples/data:scripts
 set scheme_handler      = sync_spawn @scripts_dir/scheme.py
 #set request_handler     = sync_spawn @scripts_dir/request.py
 set authentication_handler = sync_spawn @scripts_dir/auth.py
-set download_handler    = sync_spawn @scripts_dir/download.sh
+set download_handler    = sync_spawn /home/vasko/.config/uzbl/scripts/download.sh
 
 # === Dynamic event handlers =================================================
 
@@ -67,7 +88,7 @@ set download_handler    = sync_spawn @scripts_dir/download.sh
 @on_event   LOAD_START     @set_mode
 
 # Load commit handlers
-@on_event   LOAD_COMMIT    @set_status <span foreground="green">recv</span>
+@on_event   LOAD_COMMIT    @set_status <span foreground="@color2">recv</span>
 
   # add some javascript to the page for other 'js' and 'script' commands to access later.
 @on_event   LOAD_COMMIT    js uzbl = {};
@@ -101,21 +122,21 @@ set show_status       = 0
 set status_top        = 0
 set status_background = #1c1c1c
 
-set modcmd_style      = weight="bold" foreground="red"
-set keycmd_style      = weight="light" foreground="red"
-set prompt_style      = foreground="grey"
+set modcmd_style      = weight="bold" foreground="@color13"
+set keycmd_style      = weight="light" foreground="@color13"
+set prompt_style      = foreground="@color2"
 set cursor_style      = underline="single"
-set completion_style  = foreground="green"
+set completion_style  = foreground="@color2"
 set hint_style        = weight="bold"
 
 set mode_section      = <span background="khaki" foreground="black">[\@[\@mode_indicator]\@]</span>
 set keycmd_section    = [<span \@prompt_style>\@[\@keycmd_prompt]\@</span><span \@modcmd_style>\@modcmd</span><span \@keycmd_style>\@keycmd</span><span \@completion_style>\@completion_list</span>]
-set progress_section  = <span foreground="#606060">\@[\@progress.output]\@</span>
-set scroll_section    = <span foreground="#606060">\@[\@scroll_message]\@</span>
-set uri_section       = <span foreground="#99FF66">\@[\@uri]\@</span>
-set name_section      = <span foreground="khaki">\@[\@NAME]\@</span>
-set status_section    = <span foreground="orange">\@status_message</span>
-set selected_section  = <span foreground="#606060">\@[\@SELECTED_URI]\@</span>
+set progress_section  = <span foreground="@color6">\@[\@progress.output]\@</span>
+set scroll_section    = <span foreground="@color7">\@[\@scroll_message]\@</span>
+set uri_section       = <span foreground="@color5">\@[\@uri]\@</span>
+set name_section      = <span foreground="@color8">\@[\@NAME]\@</span>
+set status_section    = <span foreground="@color4">\@status_message</span>
+set selected_section  = <span foreground="@color3">\@[\@SELECTED_URI]\@</span>
 
 set download_section  = <span foreground="white">\@downloads</span>
 
@@ -134,7 +155,8 @@ set progress.pending    =
 
 # === Useragent setup ========================================================
 
-set useragent         = Uzbl (Webkit @{WEBKIT_MAJOR}.@{WEBKIT_MINOR}) (@(+uname -sm)@ [@ARCH_UZBL])
+#set useragent         = Uzbl (Webkit @{WEBKIT_MAJOR}.@{WEBKIT_MINOR}) (@(+uname -sm)@ [@ARCH_UZBL])
+set useragent         = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
 # === Configure cookie blacklist ========================================================
 
 # Accept 'session cookies' from uzbl.org (when you have a whitelist all other cookies are dropped)
@@ -232,13 +254,15 @@ set ebind     = @mode_bind global,-insert
 @cbind    :_        = %s
 
 # open a new window or a new tab (see the on_event NEW_WINDOW settings above)
-@cbind  w            = event REQ_NEW_WINDOW
+#@cbind  w            = event REQ_NEW_WINDOW
+@cbind  w<wiki:>_      = spawn /home/vasko/.config/uzbl/scripts/gowiki.pl %s
+@cbind  W<wiki:>_      = spawn /home/vasko/.config/uzbl/scripts/gowikio.pl %s
 
 # Page movement binds
 @cbind  j            = scroll vertical 20
 @cbind  k            = scroll vertical -20
-@cbind  h            = scroll horizontal -20
-@cbind  l            = scroll horizontal 20
+@cbind  H            = scroll horizontal -20
+@cbind  L            = scroll horizontal 20
 @cbind  <Page_Up>    = scroll vertical -100%
 @cbind  <Page_Down>  = scroll vertical 100%
 @cbind  <Ctrl>f      = scroll vertical 100%
@@ -271,7 +295,8 @@ set ebind     = @mode_bind global,-insert
 
 # Appearance binds
 #@cbind  t   = toggle show_status
-@cbind  t<uri:>_       = spawn /usr/bin/uzbl-browser --uri %s
+@cbind  t<tab:>_      = spawn /home/vasko/.config/uzbl/scripts/gonew.pl %s
+
 
 # Page searching binds
 @cbind  /*  = search %s
@@ -294,7 +319,7 @@ set ebind     = @mode_bind global,-insert
 #@cbind  s<var:>_<value:>_  = set %1 = %2
 # Exit binding
 @cbind  ZZ                 = exit
-@cbind  x                 = exit
+@cbind  :wq                 = exit
 # Dump config to stdout
 @cbind  !dump              = sh 'echo dump_config > "$UZBL_FIFO"'
 # Reload all variables in the config
@@ -306,7 +331,9 @@ set ebind     = @mode_bind global,-insert
 #@cbind  <Ctrl><Mod1>t  = sh 'urxvt -e socat unix-connect:"$UZBL_SOCKET" -'
 
 # Uri opening prompts
-@cbind  o<uri:>_       = uri %s
+#@cbind  o<uri:>_       = uri %s
+@cbind  o<goto:>_      = spawn /home/vasko/.config/uzbl/scripts/goto.pl %s
+#@cbind  o _ = spawn /home/vasko/.config/uzbl/scripts/goto.js '%s' 
 # Or have it load the current uri into the keycmd for editing
 @cbind  O<uri:\@uri>_  = uri %s
 
@@ -400,14 +427,14 @@ set formfiller = spawn @scripts_dir/formfiller.sh
 @cbind  gO<uri:>_       = event NEW_TAB_NEXT %s
 
 # Closing / resting
-@cbind  gC              = exit
+@cbind  x               = exit
 @cbind  gQ              = event CLEAN_TABS
 
 # Tab navigating
 @cbind  g<              = event FIRST_TAB
 @cbind  g>              = event LAST_TAB
-@cbind  gt              = event NEXT_TAB
-@cbind  gT              = event PREV_TAB
+@cbind  l              = event NEXT_TAB
+@cbind  h              = event PREV_TAB
 @cbind  gi<index:>_     = event GOTO_TAB %s
 
 # Preset loading
@@ -437,23 +464,23 @@ set insert   = @mode_config insert
 set stack    = @mode_config stack
 
 # Command mode config.
-@command  keycmd_style        = foreground="red"
-@command  status_background   = #202020
+@command  keycmd_style        = foreground="@color13"
+@command  status_background   = #1c1c1c
 @command  mode_indicator      = Cmd
 @command  keycmd_events       = 1
 @command  forward_keys        = 0
 @command  modcmd_updates      = 1
 
 # Insert mode config.
-@insert   status_background   = #303030
+@insert   status_background   = #1c1c1c
 @insert   mode_indicator      = Ins
 @insert   forward_keys        = 1
 @insert   keycmd_events       = 0
 @insert   modcmd_updates      = 0
 
 # Multi-stage-binding mode config.
-@stack    keycmd_style        = foreground="red"
-@stack    status_background   = #202020
+@stack    keycmd_style        = foreground="@color13"
+@stack    status_background   = #1c1c1c
 @stack    mode_indicator      = Bnd
 @stack    prompt_style        = foreground="#888" weight="light"
 @stack    keycmd_events       = 1

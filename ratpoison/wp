@@ -249,4 +249,7 @@ Actions
 
 #:: End function declaration, begin executing
 main $*
-~/.ratpoison/ratcolor
+~/.config/bspwm/colors
+pkill panel
+pkill stalone
+~/bin/panel & disown 

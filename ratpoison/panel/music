@@ -1,0 +1,11 @@
+while true;do
+if mpc | grep -q playing; then  
+echo "p`mpc current`" | cut --bytes 1-40
+echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
+else
+echo "P`mpc current`" | cut --bytes 1-40
+sleep 1;
+echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
+fi
+sleep 5;
+done

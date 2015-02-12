@@ -8,6 +8,5 @@
 
 wg=$1; shift
 cmd="$@"
-eval $cmd &
-rpws $wg
-
+bspc desktop -f $wg &
+eval $cmd 
