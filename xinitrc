@@ -1,4 +1,4 @@
-!/usr/bin/bash
+#!/usr/bin/bash
 # Inspiration:
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
@@ -31,7 +31,7 @@ xsetroot -cursor_name left_ptr
 wmname LG3D
 
 # Background
-~/.ratpoison/wp change &
+~/.ratpoison/wp change
 
 #Run dropbox
 dropboxd &

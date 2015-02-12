@@ -159,7 +159,7 @@ grave ; shift + p
 #
 
 super + space 
-	mpc -h 127.0.0.1 toggle  && ~/.ratpoison/panel/music > "$PANEL_FIFO"
+	mpc -h 127.0.0.1 toggle 
 
 super + Right 
 	mpc -h 127.0.0.1 next  && echo "p`mpc current`" | cut --bytes 1-40> "$PANEL_FIFO"
