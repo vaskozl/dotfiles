@@ -178,6 +178,13 @@ XF86AudioRaiseVolume
 
 XF86AudioLowerVolume 
 	amixer -q set Master 5- && volume -f 'V%i' > "$PANEL_FIFO"
+
+super + Prior
+	amixer -q set Master 5+ && volume -f 'V%i' > "$PANEL_FIFO" 
+
+super + Next 
+	amixer -q set Master 5- && volume -f 'V%i' > "$PANEL_FIFO"
+#
 #
 # brightness controls
 #
