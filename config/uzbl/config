@@ -295,7 +295,7 @@ set ebind     = @mode_bind global,-insert
 
 # Appearance binds
 #@cbind  t   = toggle show_status
-@cbind  t<tab:>_      = spawn /home/vasko/.config/uzbl/scripts/gonew.pl %s
+@cbind  t<new:>_      = spawn /home/vasko/.config/uzbl/scripts/gonew.pl %s
 
 
 # Page searching binds
@@ -311,7 +311,7 @@ set ebind     = @mode_bind global,-insert
 # Web searching binds
 @cbind  d<Search:>_         = uri http://www.google.com/search?q=\@<encodeURIComponent(%r)>\@
 #@cbind  dg<DuckDuckGo:>_    = uri http://duckduckgo.com/?q=%s
-@cbind  \\awiki<Archwiki:>_  = uri http://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
+@cbind  a<Archwiki:>_  = uri http://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
 @cbind  \\wiki<Wikipedia:>_  = uri http://en.wikipedia.org/w/index.php?title=Special:Search&search=\@<encodeURIComponent(%r)>\@&go=Go
 
 # Handy binds
@@ -320,6 +320,7 @@ set ebind     = @mode_bind global,-insert
 # Exit binding
 @cbind  ZZ                 = exit
 @cbind  :wq                 = exit
+@cbind  :_      = %s
 # Dump config to stdout
 @cbind  !dump              = sh 'echo dump_config > "$UZBL_FIFO"'
 # Reload all variables in the config
@@ -423,8 +424,20 @@ set formfiller = spawn @scripts_dir/formfiller.sh
 # Tab opening
 @cbind  gn              = event NEW_TAB
 @cbind  gN              = event NEW_TAB_NEXT
-@cbind  go<uri:>_       = event NEW_TAB %s
-@cbind  gO<uri:>_       = event NEW_TAB_NEXT %s
+#@cbind  go<uri:>_       = event NEW_TAB %s
+#@cbind  gO<uri:>_       = event NEW_TAB_NEXT %s
+@cbind  gop       = uri https://sites.google.com/a/skola.malmo.se/ib12-physics-hl/
+@cbind  gob       = uri https://sites.google.com/a/skola.malmo.se/ib12slbio/
+@cbind  goc       = uri https://sites.google.com/a/skola.malmo.se/hl-chemistry-ib12/
+@cbind  goe       = uri https://sites.google.com/a/skola.malmo.se/langlit-ib12/
+@cbind  gos       = uri https://sites.google.com/a/skola.malmo.se/swedish-b-ib12/
+@cbind  got       = uri https://sites.google.com/a/skola.malmo.se/wrtok/
+@cbind  gom       = uri https://sites.google.com/a/skola.malmo.se/ib-maths-hl/
+@cbind  goo       = uri http://organizer.eu5.org/
+@cbind  goh       = uri https://vaskozl.no-ip.biz/
+@cbind  gog       = uri https://www.gmail.com/
+@cbind  gof       = uri https://www.facebook.com/
+@cbind  go9       = uri https://www.9gag.com/
 
 # Closing / resting
 @cbind  x               = exit

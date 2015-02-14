@@ -8,9 +8,9 @@ my $fifo = $ENV{'UZBL_FIFO'};
 if (index(@cmd[0], '.') == -1 || scalar @cmd > 1)
 {
         # Replace this with your search engine
-	qx(echo "event new_tab http://www.google.com/search?q=@ARGV" > $fifo);
+	qx(uzbl-browser --uri "http://www.google.com/search?q=@ARGV");
 }
 else
 {
-	qx(echo "event new_tab @cmd" > $fifo);
+	qx(uzbl-browser --uri @cmd");
 }
