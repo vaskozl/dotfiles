@@ -261,8 +261,8 @@ set ebind     = @mode_bind global,-insert
 # Page movement binds
 @cbind  j            = scroll vertical 20
 @cbind  k            = scroll vertical -20
-@cbind  H            = scroll horizontal -20
-@cbind  L            = scroll horizontal 20
+@cbind  h            = scroll horizontal -20
+@cbind  l            = scroll horizontal 20
 @cbind  <Page_Up>    = scroll vertical -100%
 @cbind  <Page_Down>  = scroll vertical 100%
 @cbind  <Ctrl>f      = scroll vertical 100%
@@ -446,8 +446,8 @@ set formfiller = spawn @scripts_dir/formfiller.sh
 # Tab navigating
 @cbind  g<              = event FIRST_TAB
 @cbind  g>              = event LAST_TAB
-@cbind  l              = event NEXT_TAB
-@cbind  h              = event PREV_TAB
+@cbind  gt              = event NEXT_TAB
+@cbind  gT              = event PREV_TAB
 @cbind  gi<index:>_     = event GOTO_TAB %s
 
 # Preset loading
