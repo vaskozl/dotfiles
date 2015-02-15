@@ -22,4 +22,3 @@ bspc rule -a Inkscape desktop=^7 floating=on
 
 bspc monitor -d I II III IV V VI VII VIII IX X XI XII XIII
 
-compton & 

@@ -88,6 +88,7 @@ fi
 sxhkd &
 if [ $run_everything = true ]; then
     bspwm 2>&1 &
+    compton & 
     wmpid=$!
     sleep 1 &
 fi
