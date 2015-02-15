@@ -77,8 +77,13 @@ grave ; {1-9}
 grave ; ctrl + {1-9}
 	bspc window -r 0.{1-9}
 
-{_,alt + }{F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12}
-	bspc {desktop -f,window -d} ^{1-9,10,11,12}
+{_,alt + }{F1,F2,F3,F4,F5,F6,F7,F8,F9,F11,F12}
+	bspc {desktop -f,window -d} ^{1-9,11,12}
+
+{_,alt + } F10
+	bspc {desktop -f,window -d} ^10 && xset -led named "Scroll Lock"
+
+
 {_,alt + } shift + F12
 	bspc {desktop -f,window -d} ^13
 
