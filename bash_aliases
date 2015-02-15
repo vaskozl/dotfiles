@@ -5,6 +5,8 @@
 # for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
+# SDR
+alias sdr='gqrx-alsa'
 # Disable mouse
 alias remouse='sudo modprobe -r bcm5974'
 alias enmouse='sudo modprobe bcm5974'

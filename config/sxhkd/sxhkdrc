@@ -112,7 +112,7 @@ grave ; @button{1-3}
 #
 
 grave ; i
-	xdotool key shift+Insert
+	~/bin/paste
 
 grave ; space
 	urxvt
