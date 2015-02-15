@@ -121,7 +121,7 @@ grave ; slash
 	~/.ratpoison/create_frame
 
 super + u
-	uzbl-tabbed
+	uzbl-browser
 
 super + f
 	firefox
