@@ -1,4 +1,4 @@
-!/usr/bin/bash
+#!/usr/bin/bash
 # Inspiration:
 #  http://www.desertsol.com/~kevin/ratpoison/
 ratpoison_dir=$HOME/.ratpoison
