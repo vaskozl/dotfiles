@@ -94,6 +94,7 @@ set download_handler    = sync_spawn /home/vasko/.config/uzbl/scripts/download.s
 @on_event   LOAD_COMMIT    js uzbl = {};
 @on_event   LOAD_COMMIT    script @scripts_dir/formfiller.js
 @on_event   LOAD_COMMIT    script @scripts_dir/follow.js
+#@on_event   LOAD_COMMIT    script /home/vasko/.config/uzbl/scripts/privacy.js
 
 # Userscripts/per-site-settings. See the script and the example configuration for details
 #@on_event   LOAD_COMMIT    spawn @scripts_dir/per-site-settings.py @data_home/uzbl/per-site-settings
@@ -156,7 +157,9 @@ set progress.pending    =
 # === Useragent setup ========================================================
 
 #set useragent         = Uzbl (Webkit @{WEBKIT_MAJOR}.@{WEBKIT_MINOR}) (@(+uname -sm)@ [@ARCH_UZBL])
-set useragent         = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+set useragent         = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5
+#set useragent         = Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0
+
 # === Configure cookie blacklist ========================================================
 
 # Accept 'session cookies' from uzbl.org (when you have a whitelist all other cookies are dropped)
@@ -309,10 +312,10 @@ set ebind     = @mode_bind global,-insert
 @cbind  <Ctrl>p = hardcopy
 
 # Web searching binds
-@cbind  d<Search:>_         = uri http://www.google.com/search?q=\@<encodeURIComponent(%r)>\@
+@cbind  d<Search:>_         = uri https://encrypted.google.com/search?q=\@<encodeURIComponent(%r)>\@&hl=en
 #@cbind  dg<DuckDuckGo:>_    = uri http://duckduckgo.com/?q=%s
-@cbind  a<Archwiki:>_  = uri http://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
-@cbind  \\wiki<Wikipedia:>_  = uri http://en.wikipedia.org/w/index.php?title=Special:Search&search=\@<encodeURIComponent(%r)>\@&go=Go
+@cbind  a<Archwiki:>_  = uri https://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
+@cbind  \\wiki<Wikipedia:>_  = uri https://en.wikipedia.org/w/index.php?title=Special:Search&search=\@<encodeURIComponent(%r)>\@&go=Go
 
 # Handy binds
 # Set function shortcut
@@ -436,7 +439,7 @@ set formfiller = spawn @scripts_dir/formfiller.sh
 @cbind  goo       = uri http://organizer.eu5.org/
 @cbind  goh       = uri https://vaskozl.no-ip.biz/
 @cbind  gog       = uri https://www.gmail.com/
-@cbind  gof       = uri https://www.facebook.com/
+@cbind  gof       = uri https://m.facebook.com/
 @cbind  go9       = uri https://www.9gag.com/
 
 # Closing / resting

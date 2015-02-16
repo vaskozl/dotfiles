@@ -1,5 +1,3 @@
 while true; do
-echo -n 'C'
-ps -eo pcpu |grep -vE '^\s*(0.0|%CPU)' |sed -n '1h;$!H;$g;s/\n/ +/gp' | bc
-sleep 2;
+mpstat -P ALL 2 1 | grep "Average.*all" | awk '{print "C"$3+$5}' 
 done
