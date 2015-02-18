@@ -16,9 +16,5 @@ bspc config apply_floating_atom    true
 bspc config history_aware_focus    true
 bspc config ignore_ewmh_focus      true
 
-bspc rule -a Gimp desktop=^8 floating=on follow=on
-bspc rule -a Inkscape desktop=^7 floating=on
-
-
 bspc monitor -d I II III IV V VI VII VIII IX X XI XII XIII
 
