@@ -158,7 +158,16 @@ grave ; y ; y
 grave ; shift + p
 	xclip -o | curl -F 'sprunge=<-' http://sprunge.us | xclip 
 
+#
+# Sprunge and Imgur hotkeys
+#
 
+grave ; P
+	xclip -o | curl -F 'sprunge=<-' http://sprunge.us | xclip 
+
+
+grave;  g 
+	exec ~/bin/imgur
 #
 # music control
 #
