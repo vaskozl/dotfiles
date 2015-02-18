@@ -439,7 +439,7 @@ set formfiller = spawn @scripts_dir/formfiller.sh
 @cbind  goo       = uri http://organizer.eu5.org/
 @cbind  goh       = uri https://vaskozl.no-ip.biz/
 @cbind  gog       = uri https://www.gmail.com/
-@cbind  gof       = uri https://m.facebook.com/
+@cbind  gof       = uri https://www.facebook.com/
 @cbind  go9       = uri https://www.9gag.com/
 
 # Closing / resting
