@@ -9,4 +9,4 @@
 wg=$1; shift
 cmd="$@"
 bspc desktop -f $wg &
-eval $cmd 
+eval $cmd &

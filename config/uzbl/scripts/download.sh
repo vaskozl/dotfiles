@@ -47,9 +47,9 @@ esac
 
 source ~/.colors;
 
-if ! /home/vasko/.ratpoison/ratmenu -style dreary -fg \"$COLOR11\" -bg \"$COLOR0\" -io 2 "Download \"$suggested_filename\"?" false Yes true No false;then
-path='';
-fi
+#if ! /home/vasko/.ratpoison/ratmenu -style dreary -fg \"$COLOR11\" -bg \"$COLOR0\" -io 2 "Download \"$suggested_filename\"?" false Yes true No false;then
+#path='';
+#fi
 
 # Do nothing if we don't want to save the file
 [ -z "$path" ] && exit 0
