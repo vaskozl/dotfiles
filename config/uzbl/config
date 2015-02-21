@@ -293,7 +293,7 @@ set ebind     = @mode_bind global,-insert
 # Zoom binds
 @cbind  =   = zoom_in
 @cbind  -   = zoom_out
-@cbind  T   = toggle zoom_type
+#3@cbind  T   = toggle zoom_type
 @cbind  1   = set zoom_level = 1.0
 @cbind  2   = set zoom_level = 2.0
 
@@ -316,6 +316,7 @@ set ebind     = @mode_bind global,-insert
 @cbind  d<Search:>_         = uri https://encrypted.google.com/search?q=\@<encodeURIComponent(%r)>\@&hl=en
 #@cbind  dg<DuckDuckGo:>_    = uri http://duckduckgo.com/?q=%s
 @cbind  a<Archwiki:>_  = uri https://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
+@cbind  T<TSH:>_       = uri http://torrentshack.me/torrents.php?searchstr=\@<encodeURIComponent(%r)>\@&go=Go
 @cbind  \\wiki<Wikipedia:>_  = uri https://en.wikipedia.org/w/index.php?title=Special:Search&search=\@<encodeURIComponent(%r)>\@&go=Go
 
 # Handy binds
