@@ -158,7 +158,7 @@ set progress.pending    =
 # === Useragent setup ========================================================
 
 #set useragent         = Uzbl (Webkit @{WEBKIT_MAJOR}.@{WEBKIT_MINOR}) (@(+uname -sm)@ [@ARCH_UZBL])
-set useragent         = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5
+set useragent          = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5
 #set useragent         = Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0
 
 # === Configure cookie blacklist ========================================================
@@ -342,6 +342,9 @@ set ebind     = @mode_bind global,-insert
 #@cbind  o _ = spawn /home/vasko/.config/uzbl/scripts/goto.js '%s' 
 # Or have it load the current uri into the keycmd for editing
 @cbind  O<uri:\@uri>_  = uri %s
+
+# Open youtube with mpv
+@cbind  Y      = spawn /home/vasko/.config/uzbl/scripts/youtube.pl
 
 # Mode setting binds
 @cbind  i        = @set_mode insert

@@ -23,6 +23,10 @@ grave ; t
 grave ; b
 	bspc desktop -B
 
+# banish mouse
+grave ; B
+	xdotool mousemove 10000 100000
+
 grave ; {u,U,o}
 	bspc window -t {floating,pseudo_tiled,fullscreen}
 
