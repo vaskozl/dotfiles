@@ -122,7 +122,7 @@ set download_handler       spawn_sync @scripts_dir/download.sh
 # === Behaviour and appearance ===============================================
 
 # Custom CSS can be defined here, including link follower hint styles
-set stylesheet_uri file://@config_home/style.css
+css add file://@config_home/style.css
 
 # If WebKits builtin authentication dialog should be used, if enabling remember
 # to disable external authentication handlers
@@ -166,7 +166,7 @@ set progress.pending
 # === Useragent setup ========================================================
 
 #set useragent         Uzbl (Webkit @{WEBKIT_MAJOR}.@{WEBKIT_MINOR}) (@(+uname -sm)@ [@ARCH_UZBL])
-set useragent          = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5
+set useragent          = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18
 
 # === Configure cookie blacklist =============================================
 
@@ -268,8 +268,8 @@ set ebind     @mode_bind global,-insert
 
 # open a new window or a new tab (see the on_event NEW_WINDOW settings above)
 #@cbind  w            = event REQ_NEW_WINDOW
-@cbind  w<wiki:>_      = spawn /home/vasko/.config/uzbl/scripts/gowiki.pl %s
-@cbind  W<wiki:>_      = spawn /home/vasko/.config/uzbl/scripts/gowikio.pl %s
+@cbind  w<wiki:>_      = spawn @config_home/scripts/gowiki.pl %s
+@cbind  W<wiki:>_      = spawn @config_home/scripts/gowikio.pl %s
 @cbind  a<Archwiki:>_  = uri http://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
 
 
@@ -285,14 +285,14 @@ set ebind     @mode_bind global,-insert
 @cbind  <Ctrl>b      = scroll vertical -100%
 @cbind  e            = scroll vertical -50%
 @cbind  s            = scroll vertical 50%
-@cbind  <<           = scroll vertical begin
-@cbind  >>           = scroll vertical end
+@cbind  gg           = scroll vertical begin
+@cbind  G            = scroll vertical end
 @cbind  <Home>       = scroll vertical begin
 @cbind  <End>        = scroll vertical end
 @cbind  ^            = scroll horizontal begin
 @cbind  $            = scroll horizontal end
 @cbind  <Space>      = scroll vertical end
-@cbind  G<Go To:>_   = scroll vertical %r!
+#@cbind  G<Go To:>_   = scroll vertical %r!
 # The first '_' is literal, so type '_G' to trigger this binding.
 @cbind  _G<Go To:>_  = scroll horizontal %r!
 
@@ -322,14 +322,13 @@ set ebind     @mode_bind global,-insert
 @cbind  /*  = search find %s
 @cbind  ?*  = search rfind %s
 # Jump to next and previous items
-@cbind  n   = search find
-@cbind  N   = search rfind
+@cbind  n   = search next
+@cbind  N   = search prev
 
 # Print pages to a printer
 @cbind  <Ctrl>p = hardcopy page
 
 # Web searching binds
-@cbind  gg<Google:>_         = uri http://www.google.com/search?q=\@<encodeURIComponent(%r)>\@
 #@cbind  ddg<DuckDuckGo:>_    = uri http://duckduckgo.com/?q=%s
 @cbind  \\awiki<Archwiki:>_  = uri http://wiki.archlinux.org/index.php/Special:Search?search=\@<encodeURIComponent(%r)>\@&go=Go
 @cbind  \\wiki<Wikipedia:>_  = uri http://en.wikipedia.org/w/index.php?title=Special:Search&search=\@<encodeURIComponent(%r)>\@&go=Go
@@ -351,14 +350,14 @@ set ebind     @mode_bind global,-insert
 
 # Uri opening prompts
 #@cbind  o<uri:>_       = uri %s
-@cbind  o<goto:>_      = spawn /home/vasko/.config/uzbl/scripts/goto.pl %s
-@cbind  t<tab:>_      = spawn /home/vasko/.config/uzbl/scripts/gonew.pl %s
+@cbind  o<goto:>_      = spawn @config_home/scripts/goto.pl %s
+@cbind  t<tab:>_      = spawn @config_home/scripts/gonew.pl %s
 
 # Or have it load the current uri into the keycmd for editing
 @cbind  O<uri:\@uri>_  = uri %s
 
 # Open youtube with mpv
-@cbind  Y      = spawn /home/vasko/.config/uzbl/scripts/youtube.pl
+@cbind  Y      = spawn @config_home/scripts/youtube.pl
 
 # Mode setting binds
 @cbind  i        = @set_mode insert
