@@ -18,6 +18,7 @@ e=$(expr $f + $d)
 if [ $e -gt ${#new} ];then
 e=${#new}
 f=$(expr $e - $d)
+if [ $f -lt 1 ];then f=1;fi
 fi
 
 if mpc | grep -q playing; then  
@@ -26,6 +27,9 @@ else
 symbol='P'
 fi
 
+echo $f
+echo $e
+echo ${#new}
 echo "$symbol`echo $new | cut --bytes $f-$e`"
 echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
 
