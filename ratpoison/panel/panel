@@ -12,9 +12,10 @@ xtitle -sf 'T%s' > "$PANEL_FIFO" &
 essid -sf 'E%s' -i 3 -w wlp2s0 > "$PANEL_FIFO" &
 volume -i 10 -sf 'V%i' > "$PANEL_FIFO" &
 battery -i 5 -sf 'B%i' > "$PANEL_FIFO" &
-clock -sf 'S%d %a %H:%M' > "$PANEL_FIFO" &
+clock -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
 ./music > "$PANEL_FIFO" &
-./cpu > "$PANEL_FIFO" &
+./load > "$PANEL_FIFO" &
+./signal > "$PANEL_FIFO" &
 
 
 source ./panel_colors

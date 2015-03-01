@@ -1,3 +1,0 @@
-while true; do
-mpstat -P ALL 2 1 | grep "Average.*all" | awk '{print "C"$3+$5}' 
-done

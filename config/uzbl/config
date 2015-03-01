@@ -377,7 +377,7 @@ set ebind     @mode_bind global,-insert
 @cbind  yu  = spawn_sh 'echo -n "$UZBL_URI" | xclip'
 @cbind  yU  = spawn_sh 'echo -n "$0" | xclip' '\@SELECTED_URI'
 @cbind  yy  = spawn_sh 'echo -n "$UZBL_TITLE" | xclip'
-@cbind  ys  = spawn @scripts_dir/follow.sh \@< uzbl.follow.followSelection('returnuri') >\@ clipboard
+@cbind  ys  = spawn @config_home/scripts/follow.sh \@< uzbl.follow.followSelection('returnuri') >\@ clipboard
 
 # Selection bindings
 @cbind <Ctrl>a = js (function () { var r = document.createRange(), s = window.getSelection(); r.selectNodeContents(document); s.removeAllRanges(); s.addRange(r); })();
@@ -431,8 +431,8 @@ set follow_hint_keys 0123456789
 #   Fl -> open in a new window
 #   fL -> take the url and navigate directly to it
 #   FL -> copy the url to the clipboard
-@cbind  f*  = spawn @scripts_dir/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'click') >\@
-@cbind  F*  = spawn @scripts_dir/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'newwindow') >\@
+@cbind  f*  = spawn @config_home/scripts/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'click') >\@
+@cbind  F*  = spawn @config_home/scrpts/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'newwindow') >\@
 #@cbind  fL*  = spawn @scripts_dir/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'returnuri') >\@ set
 #@cbind  FL*  = spawn @scripts_dir/follow.sh \@< uzbl.follow.followLinks("\@follow_hint_keys", "%s", 'returnuri') >\@ clipboard
 @cbind  gi   = spawn @scripts_dir/go_input.sh

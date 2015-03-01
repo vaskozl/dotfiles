@@ -12,6 +12,15 @@ source ./panel_colors
 			# playing mpc 
 			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"
 			;;
+		R*)
+			# playing mpc 
+			ram="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} R:${line#?} %{B-}%{F-}"
+			;;
+	
+		S*)
+			# playing mpc 
+			signal="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} S:${line#?} %{B-}%{F-}"
+			;;
 	
 		p*)
 			# playing mpc 
@@ -50,7 +59,7 @@ source ./panel_colors
                         fi
 			;;
 	
-		S*)
+		Z*)
 			# clock output
 			time_infos="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${line#?} %{B-}%{F-}"
 			;;
@@ -112,5 +121,5 @@ source ./panel_colors
 			done
 			;;
 	esac
-	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${essid}${volume}${musicvol}${battery}${time_infos}             "
+	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
 done
