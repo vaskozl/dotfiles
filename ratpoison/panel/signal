@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 while true;do
-signal=`iwconfig wlp2s0 | grep Signal| perl -pe 's/.*level=//; s/ dBm.*//'`
+signal=`iwconfig $INTERFACE | grep Signal| perl -pe 's/.*level=//; s/ dBm.*//'`
 #convert to Quality
 
     if [ $signal -le -100 ];then
