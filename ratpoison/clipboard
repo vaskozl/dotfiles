@@ -74,7 +74,7 @@ elif [ $command = menu_paste -o $command = menu_set ]; then
     menu
 elif [ $command = paste ]; then
     xcb -p $option | xclip
-    xdotool key shift+Insert
+    ~/bin/paste
 
 elif [ $command = set ]; then
     xclip -o | xcb -n 10 -s $option
