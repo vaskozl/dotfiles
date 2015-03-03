@@ -141,6 +141,11 @@ super + shift + L
 # Clipboard hotkeys
 #
 
+# Open youtube video in mpv
+grave ; Y
+	sleep 0.2 && xdotool key y && mpv "$(xclip -o)"
+
+
 grave ; p ; {1-9}
 	~/.ratpoison/clipboard paste {1-9}
 
