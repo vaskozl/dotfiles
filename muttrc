@@ -15,31 +15,23 @@ set mbox_type   = Maildir
 set sendmail    = /usr/bin/msmtp
 
 set folder      = ~/.mail/
-set spoolfile   = "+Gmail/INBOX"
-set mbox        = "+Gmail/archive"
-set postponed   = "+Gmail/drafts"
-unset record
+
+set spoolfile = "+Swiss/INBOX"
+#set mbox = "+Swiss/archive"
+set postponed = "+Swiss/INBOX.Drafts"
+set record = "+Swiss/INBOX.Sent"
+set copy=yes
 
 mailboxes +INBOX
 
-macro index D \
-    "<save-message>+Gmail/trash<enter>" \
-    "move message to the trash"
-
-macro index S \
-    "<save-message>+Gmail/spam<enter>" \
-    "mark message as spam"
-
-
-# Gmail conf
-set from = "vasil.zlatanov@gmail.com"
+# Bitmessage conf
+set from = "vasco@bitmessage.ch"
 set realname = "Vasil Zlatanov"
 
 # Change the following line to a different editor you prefer.
 set editor = "vim"
 
 # Basic config, you can leave this as is
-#set hostname = gmail.com
 set mail_check = 1
 set timeout = 1
 unset imap_passive
@@ -75,13 +67,12 @@ ignore x-alt-email x-orcpt company division x-warning
 
 
 # Gmail-style keyboard shortcuts
-macro index,pager gi "<change-folder>=Gmail/INBOX<enter>" "Go to inbox"
-macro index,pager ga "<change-folder>=Gmail/archive<tab><enter>" "Go to all mail"
-macro index,pager gs "<change-folder>=Gmail/sent<tab><enter>" "Go to sent mail"
-macro index,pager gr "<change-folder>=Gmail/flagged<enter>" "Go to starred messages"
-macro index,pager gj "<change-folder>=Gmail/spam<enter>" "Go to spam"
-macro index,pager gt "<change-folder>=Gmail/trash<enter>" "Go to trash"
-macro index,pager gd "<change-folder>=Gmail/drafts<enter>" "Go to drafts"
+macro index,pager gi "<change-folder>=Swiss/INBOX<enter>" "Go to inbox"
+macro index,pager gs "<change-folder>=Swiss/INBOX.Sent<tab><enter>" "Go to sent mail"
+macro index,pager gt "<change-folder>=Swiss/INBOX.Trash<enter>" "Go to trash"
+macro index,pager gd "<change-folder>=Swiss/INBOX.Drafts<enter>" "Go to drafts"
+
+
 
 # Other config
 set delete 
@@ -91,16 +82,17 @@ unset help
 set pager_stop
 
 # Bindings 
+macro index,pager d "<delete-message>"
 bind index,pager "n" next-unread
 bind index,pager "N" search-next
 
-bind browser d half-down
-bind index d half-down
-bind pager d half-down
+bind browser s half-down
+bind index s half-down
+bind pager s half-down
 
-bind browser u half-up
-bind index u half-up
-bind pager u half-up
+bind browser e half-up
+bind index e half-up
+bind pager e half-up
 
 bind index gg       first-entry
 bind pager gg       top

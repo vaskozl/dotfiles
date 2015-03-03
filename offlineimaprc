@@ -1,6 +1,6 @@
 [general]
 ui = ttyui
-accounts = Gmail
+accounts = BitMessage
 # This will suppress anything but errors
 ui = quiet
 
