@@ -123,7 +123,7 @@ map -count -modes=n,v ( <count>H
 map -count -modes=n,v ) <count>L
 set autocomplete=
 "set defsearch=startpage-https
-set defsearch=google
+set defsearch=startpage
 set editor='rxvt -e sh -c "vim +<line> +\"sil! call cursor(0, <column>)\" <file>"'
 set strictfocus=*:despotic
 

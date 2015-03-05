@@ -134,7 +134,7 @@ super + s
 	skype
 
 super + shift + L
-	i3lock -n -i ~/.wallpaper.png -z
+	~/.ratpoison/lock
 
 
 #

@@ -49,9 +49,11 @@ nnoremap x d
 nnoremap ( H
 nnoremap ) L
 nnoremap gi gi<End>
+nnoremap a :open<Space>archwiki<Space>
+nnoremap A :open<Space>aur<Space>
 set focuscontent
 set gui=nonavigation
 source! /home/vasko/.vimperatorrc.local
 
 " vim: set ft=vimperator:
-set defsearch=crypted
+set defsearch=startpage
