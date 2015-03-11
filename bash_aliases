@@ -65,6 +65,8 @@ alias iso='dd if=/dev/cdrom of=~/cdrom_image.iso'
 alias tglxspheres='vblank_mode=0 optirun -vv /opt/VirtualGL/bin/glxspheres64'
 alias pglxspheres='vblank_mode=0 primusrun /opt/VirtualGL/bin/glxspheres64'
 alias httpserve='python -m SimpleHTTPServer'
+alias pi='ping google.com'
+alias pl='ping 8.8.8.8'
 
 
 # Screen
