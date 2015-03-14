@@ -121,7 +121,7 @@ alias starbound='~/games/starbound/linux64/launch_starbound.sh'
 # Network tools
 
 #scan available networks
-alias wifi='sudo nmcli dev wifi'
+alias wifi='sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf'
 
 alias ipscan='nmap -sP'
 alias localscan='sudo nmap -PR -sP 192.168.0.1/24'

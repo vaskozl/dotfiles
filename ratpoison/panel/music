@@ -1,25 +1,8 @@
 #!/bin/sh
 
-
-f=1
-d=30 # width
-
 while true;do
 
 new=`mpc current` 
-if [ "$old" != "$new" ];then 
-f=1;
-old="$new"
-fi
-
-
-e=$(expr $f + $d)
-
-if [ $e -gt ${#new} ];then
-e=${#new}
-f=$(expr $e - $d)
-if [ $f -lt 1 ];then f=1;fi
-fi
 
 if mpc | grep -q playing; then  
 symbol='p'
@@ -27,17 +10,7 @@ else
 symbol='P'
 fi
 
-echo $f
-echo $e
-echo ${#new}
-echo "$symbol`echo $new | cut --bytes $f-$e`"
+echo "$symbol`echo $new | cut --bytes 1-30`"
 echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
-
-f=$(expr $d / 2 + $f)
-
-if [ $e == ${#new} ];then
-f=1;
-fi
-
-sleep 2;
+mpc idle > /dev/null
 done

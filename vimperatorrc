@@ -56,4 +56,4 @@ set gui=nonavigation
 source! /home/vasko/.vimperatorrc.local
 
 " vim: set ft=vimperator:
-set defsearch=duckduckgo
+set defsearch=crypted
