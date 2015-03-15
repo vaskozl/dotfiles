@@ -38,6 +38,7 @@ wmname LG3D
 
 #Run dropbox
 dropboxd &
+~/bin/mountsecure
 
 #Keyboard Bindings
 setxkbmap us -variant colemak

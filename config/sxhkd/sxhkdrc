@@ -18,7 +18,7 @@ grave ; x
 grave ; X
 	bspc window -k
 
-grave ; t
+grave ; o
 	bspc desktop -l next
 
 grave ; b
@@ -28,7 +28,7 @@ grave ; b
 grave ; B
 	xdotool mousemove 10000 100000
 
-grave ; {u,U,o}
+grave ; {u,U,O}
 	bspc window -t {floating,pseudo_tiled,fullscreen}
 
 grave ; {grave,Tab}
@@ -234,6 +234,12 @@ super + q
 super + c 
 	setxkbmap us -variant colemak
 
+# Password
+grave ; t
+	~/bin/passenter
+
+grave ; T
+	~/bin/passmake
 
 # make sxhkd reload its configuration files:
 grave ; Escape
