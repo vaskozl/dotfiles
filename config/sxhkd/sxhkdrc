@@ -135,7 +135,7 @@ super + s
 	skype
 
 super + shift + L
-	i3lock -n -i ~/.wallpaper.png -z
+	~/.ratpoison/lock
 
 
 #
@@ -183,19 +183,19 @@ grave;  g
 #
 
 super + space 
-	mpc -h 127.0.0.1 toggle  && ~/.ratpoison/panel/monce > /tmp/panel-fifo
+	mpc -h 127.0.0.1 toggle 
 
 super + Right 
-	mpc -h 127.0.0.1 next  && echo "p`mpc current`" | cut --bytes 1-32 > /tmp/panel-fifo
+	mpc -h 127.0.0.1 next 
 
 super + Left  
-	mpc -h 127.0.0.1 prev  && echo "p`mpc current`" | cut --bytes 1-32 > /tmp/panel-fifo
+	mpc -h 127.0.0.1 prev
 
 super + Up    
-	mpc -h 127.0.0.1 volume +5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /K/' > /tmp/panel-fifo 
+	mpc -h 127.0.0.1 volume +5
 
 super + Down  
-	mpc -h 127.0.0.1 volume -5 && mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ /K/' > /tmp/panel-fifo 
+	mpc -h 127.0.0.1 volume -5
 
 XF86AudioRaiseVolume
 	amixer -q set Master 5+ && volume -f 'V%i' > /tmp/panel-fifo 

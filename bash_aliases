@@ -65,6 +65,8 @@ alias iso='dd if=/dev/cdrom of=~/cdrom_image.iso'
 alias tglxspheres='vblank_mode=0 optirun -vv /opt/VirtualGL/bin/glxspheres64'
 alias pglxspheres='vblank_mode=0 primusrun /opt/VirtualGL/bin/glxspheres64'
 alias httpserve='python -m SimpleHTTPServer'
+alias pi='ping google.com'
+alias pl='ping 8.8.8.8'
 
 
 # Screen
@@ -120,7 +122,7 @@ alias starbound="~/games/starbound/linux64/launch_starbound.sh"
 # Network tools
 
 #scan available networks
-alias wifi='sudo nmcli dev wifi'
+alias wifi='sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf'
 
 alias ipscan='nmap -sP'
 alias localscan='sudo nmap -PR -sP 192.168.0.1/24'

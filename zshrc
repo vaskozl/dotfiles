@@ -27,6 +27,7 @@ export EDITOR="vim"
 export BROWSER="~/.ratposon/firesend"
 export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
 export LD_LIBRARY_PATH=/usr/local/lib
+export wiki_browser='firefox'
 
 PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"

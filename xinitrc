@@ -48,7 +48,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker 'i3lock -i ~/.wallpaper.png -z' -time 11 -corners 0-00 &
+#xautolock -detectsleep -locker '~/.ratpoison/lock' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
@@ -91,7 +91,7 @@ fi
 sxhkd &
 if [ $run_everything = true ]; then
     bspwm 2>&1 &
-    compton & 
+#    compton & 
     wmpid=$!
     sleep 1 &
 fi
@@ -191,8 +191,8 @@ fi
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace ^12
-    cd $HOME/Music	
-    $xtoolwait $term cmus
+    mpd
+    $xtoolwait $term ncmpcpp
 fi
 
 # workspace 13 : volume workspace
@@ -205,7 +205,7 @@ fi
 # workspace 2 : Uzbl workspace
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace ^2
-    uzbl-browser &
+    firefox &
 fi
 
 # Default workspace: 1(ranger)

@@ -1,4 +1,4 @@
-# This is an example resource file for rTorrent. Copy to
+# This is an example rerource file for rTorrent. Copy to
 # ~/.rtorrent.rc and enable/modify the options as needed. Remember to
 # uncomment the options you wish to enable.
 
@@ -20,7 +20,7 @@ ratio.max.set=200
 #upload_rate = 0
 
 # Default directory to save the downloaded torrents.
-directory = ~/Downloads
+directory = ~/Torrents
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
@@ -29,7 +29,7 @@ session = ~/.rtorrent.session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
-schedule = watch_directory,5,5,load_start=~/Torrents/*.torrent
+schedule = watch_directory,5,5,load_start=~/Downloads/*.torrent
 schedule = untied_directory,5,5,stop_untied=
 
 # Prevent low disk space shit
