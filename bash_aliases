@@ -113,8 +113,9 @@ alias nethackterm='rxvt -bg black -fg green +tr &'
 alias cfgpanel=' fgpanel --fg-root=/usr/share/games/flightgear --panel=Aircraft/c172p/Panels/FGPanel_c172p.xml'
 alias cfgfs='optirun fgfs --generic=socket,out,20,127.0.0.1,34200,udp,../Aircraft/c172p/Panels/FGPanel_Protocol_c172p'
 #alias xonotic='cd ~/.Xonotic && optirun ~/.Xonotic/xonotic-linux64-glx -sessionid vaskozl'
-alias starcraft='PULSE_LATENCY_MSEC=60 optirun /usr/share/playonlinux/playonlinux --run "StarCraft II"'
-alias starbound='~/games/starbound/linux64/launch_starbound.sh'
+alias blizzard='wine /mnt/sdb6/Games/StarCraft\ II/StarCraft\ II.exe'
+alias starcraft='primusrun wine /mnt/sdb6/Games/StarCraft\ II/Support/SC2Switcher.exe'
+alias starbound="~/games/starbound/linux64/launch_starbound.sh"
 
 # Network tools
 

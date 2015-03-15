@@ -2,6 +2,7 @@
 # bspwm hotkeys
 #
 
+
 grave ; shift + c
 	~/.ratpoison/wp change
 
@@ -225,6 +226,17 @@ XF86KbdBrightnessUp
 XF86KbdBrightnessDown	
 	kbdlight down 1
 
+
+# Keyboard layouts
+super + q 
+	setxkbmap us 
+
+super + c 
+	setxkbmap us -variant colemak
+
+
 # make sxhkd reload its configuration files:
 grave ; Escape
 	pkill -USR1 -x sxhkd
+
+
