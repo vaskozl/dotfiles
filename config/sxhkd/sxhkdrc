@@ -207,7 +207,7 @@ super + Prior
 	amixer -q set Master 5+ && volume -f 'V%i' > /tmp/panel-fifo 
 
 super + Next 
-	amixer -q set Master 5- && volume -f 'V%i' > "$PANEL_FIFO"
+	amixer -q set Master 5- && volume -f 'V%i' > /tmp/panel-fifo
 #
 #
 # brightness controls
