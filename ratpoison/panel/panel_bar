@@ -8,13 +8,13 @@ num_mon=$(bspc query -M | wc -l)
 while read -r line ; do
 source ./panel_colors
 	case $line in
-#		C*)
-#			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"
-#			;;
-#		R*)
-#			ram="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} R:${line#?} %{B-}%{F-}"
-#			;;
-#	
+		C*)
+			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"
+			;;
+		R*)
+			ram="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} R:${line#?} %{B-}%{F-}"
+			;;
+	
 #		S*)
 #			signal="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} S:${line#?} %{B-}%{F-}"
 #			;;
@@ -47,14 +47,14 @@ source ./panel_colors
 			volume="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} V:${line#?} %{B-}%{F-}"
 			;;
 	
-#		E*)
-#			# essid output
-#                        if [ -z ${line#?} ];then 
-#			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:No WiFi  %{B-}%{F-}"
-#                        else
-#			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:${line#?} %{B-}%{F-}"
-#                        fi
-#			;;
+		E*)
+			# essid output
+                        if [ -z ${line#?} ];then 
+			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:No WiFi  %{B-}%{F-}"
+                        else
+			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:${line#?} %{B-}%{F-}"
+                        fi
+			;;
 	
 		Z*)
 			# clock output
@@ -119,5 +119,5 @@ source ./panel_colors
 			;;
 	esac
 #	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
-	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${volume}${musicvol}${battery}${time_infos}             "
+	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}             "
 done
