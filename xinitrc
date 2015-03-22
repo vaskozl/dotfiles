@@ -71,10 +71,10 @@ synclient VertEdgeScroll=0  RTCornerButton=0  RBCornerButton=0  LTCornerButton=0
 xmodmap -e "pointer = 1 2 3 5 4 7 6 8 9 10 11 12"
 
 # Detect secondary monitor and automatically adjust
-if [ `xrandr| grep -c VGA1` -gt 0 ]; then
-     xrandr --output VGA1 --mode `xrandr | awk 'NR==9 {print $1}'` --right-of LVDS1
-     xrandr --output VGA1 --mode 1920x1080 --right-of LVDS1 
-fi
+#if [ `xrandr| grep -c HDMI1` -gt 0 ]; then
+#     xrandr --output HDMI1 --mode `xrandr | awk 'NR==9 {print $1}'` --right-of LVDS1
+#     xrandr --output HDMI1 --mode 1920x1080 --right-of LVDS1 
+#fi
 
 
 if [ $# -lt 1 ]; then
