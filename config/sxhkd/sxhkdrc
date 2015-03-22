@@ -2,6 +2,8 @@
 # bspwm hotkeys
 #
 
+grave ; a
+	~/.ratpoison/menu/main
 
 grave ; shift + c
 	~/.ratpoison/wp change
@@ -65,6 +67,7 @@ grave ; bracket{left,right}
 
 grave ; s ; {h,j,k,l}
 	bspc window -p {left,down,up,right}
+
 
 grave ; ctrl + {_,shift + }space
 	bspc {window -p cancel,desktop -c}

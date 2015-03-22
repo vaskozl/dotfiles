@@ -1,4 +1,5 @@
 Xcursor.theme: XcursorHuman
+XTerm*locale: true
 
 *background: #1c1c1c 
 *foreground: #fdf6e3
@@ -12,7 +13,7 @@ urxvt.scrollBar :false
 xterm.scrollBar :false
 
 xterm*faceName: DejaVu Sans Mono Book
-xterm*faceSize: 12
+xterm*faceSize: 11
 
 ! Enable copy paste
 xterm*metaSendsEscape: true

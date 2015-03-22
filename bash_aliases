@@ -12,10 +12,10 @@ alias remouse='sudo modprobe -r bcm5974'
 alias enmouse='sudo modprobe bcm5974'
 
 # Notes
-alias physics='vim ~/Dropbox/Notes/Physics/physics.txt'
-alias chemistry='vim ~/Dropbox/Notes/Chemistry/chemistry.txt'
-alias english='vim ~/Dropbox/Notes/English/english.txt'
-alias swedish='vim ~/Dropbox/Notes/Swedish/swedish.txt'
+alias physics='vim ~/Secure/Notes/Physics/physics.txt'
+alias chemistry='vim ~/Secure/Notes/Chemistry/chemistry.txt'
+alias english='vim ~/Secure/Notes/English/english.txt'
+alias swedish='vim ~/Secure/Notes/Swedish/swedish.txt'
 
 #zombify
 alias zombify='sudo -u dork /home/vasko/dorknet/dork zombify'
@@ -68,6 +68,9 @@ alias httpserve='python -m SimpleHTTPServer'
 alias pi='ping google.com'
 alias pl='ping 8.8.8.8'
 
+
+#msf
+alias msfconsole="msfconsole --quiet -x \"db_connect ${USER}@msf\""
 
 # Screen
 alias scradmin='$HOME/.ratpoison/screen_run admin'

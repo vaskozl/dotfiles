@@ -44,7 +44,7 @@ dropboxd &
 setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
-xset r rate 180 40
+xset r rate 150 100
 xset m 0 0 
 xset -b
 
