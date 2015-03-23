@@ -5,7 +5,7 @@
 # === Core settings ==========================================================
 
 # Polipo proxy for caching
-set proxy_url = http://127.0.0.1:8123
+#set proxy_url = http://127.0.0.1:8123
 
 # common directory locations
 set prefix      @(echo $UZBL_PREFIX)@
