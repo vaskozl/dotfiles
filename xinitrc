@@ -40,6 +40,9 @@ wmname LG3D
 dropboxd &
 ~/bin/mountsecure
 
+# Custom
+~/.custom
+
 #Keyboard Bindings
 setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
@@ -92,6 +95,7 @@ fi
 sxhkd &
 if [ $run_everything = true ]; then
     bspwm 2>&1 &
+    ~/.config/bspwmrc
 #    compton & 
     wmpid=$!
     sleep 1 &
