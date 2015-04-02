@@ -8,7 +8,7 @@ ui = quiet
 [Account Gmail]
 localrepository = Gmail-Local
 remoterepository = Gmail-Remote
-autorefresh = 15
+#autorefresh = 15
 
 [Repository Gmail-Local]
 type = Maildir
@@ -24,7 +24,7 @@ nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
 
 [Repository Gmail-Remote]
 type = Gmail
-idlefolders = ['INBOX']
+#idlefolders = ['INBOX']
 remoteuser = vasil.zlatanov@gmail.com
 #remotepass = youwish
 realdelete = yes

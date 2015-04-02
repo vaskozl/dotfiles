@@ -5,8 +5,8 @@
 
 num_mon=$(bspc query -M | wc -l)
 
-while read -r line ; do
 source ./panel_colors
+while read -r line ; do
 	case $line in
 		C*)
 			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"

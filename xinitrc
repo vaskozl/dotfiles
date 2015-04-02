@@ -31,7 +31,7 @@ xsetroot -cursor_name left_ptr
 wmname LG3D
 
 # Background
-~/.ratpoison/wp change &
+#~/.ratpoison/wp change &
 
 # Init clipboard
 ~/.ratpoison/clipboard init
