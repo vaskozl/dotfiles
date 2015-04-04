@@ -127,7 +127,7 @@ fi
 
 # workspace 3 : newsbeuter
 if [ $run_everything = true -o $run_workspace = 3 ]; then
-    $workspace ^3
+    $workspace ^2
     $xtoolwait $term newsbeuter
 fi
 
@@ -141,7 +141,7 @@ fi
 # workspace 5 : School
 #     windows 1: screen notebok
 if [ $run_everything = true -o $run_workspace = 5 ]; then
-    $workspace ^5
+    $workspace ^4
     cd $HOME/Dropbox/notes
 #    $xtoolwait $term $screen_run school
 fi
@@ -155,7 +155,7 @@ fi
 
 # workspace 7 : skype workspace 
 if [ $run_everything = true -o $run_workspace = 7 ]; then
-    $workspace ^7
+    $workspace ^6
 #    skype &
 #    number_and_title 0 "skype"
     sleep 6
@@ -173,14 +173,14 @@ fi
 # workspace 9 : email workspace
 #     window 1: mutt 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^9
+    $workspace ^8
     $xtoolwait $term mutt
 fi
 
 # workspace 10 : irc workspace
 #     window 1: irc 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^10
+    $workspace ^9
     $xtoolwait $term $screen_run irssi
 #    $xtoolwait $term irssi
 fi
@@ -188,14 +188,14 @@ fi
 # workspace 11 : wifi workspace
 #     window 1: wicd 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^11
+    $workspace ^10
     $xtoolwait $term sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf
 fi
 
 # workspace 12 : music workspace
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^12
+    $workspace ^11
     mpd
     $xtoolwait $term ncmpcpp
 fi
@@ -203,7 +203,7 @@ fi
 # workspace 13 : volume workspace
 #     window 1: volume 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^13
+    $workspace ^12
     $xtoolwait $term alsamixer
 fi
 
