@@ -31,7 +31,7 @@ xsetroot -cursor_name left_ptr
 wmname LG3D
 
 # Background
-#~/.ratpoison/wp change &
+~/.ratpoison/wp change &
 
 # Init clipboard
 ~/.ratpoison/clipboard init
@@ -47,7 +47,7 @@ dropboxd &
 setxkbmap us -variant colemak
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
-xset r rate 150 100
+xset r rate 170 60
 xset m 0 0 
 xset -b
 
@@ -95,7 +95,7 @@ fi
 sxhkd &
 if [ $run_everything = true ]; then
     bspwm 2>&1 &
-    ~/.config/bspwmrc
+    ~/.config/bspwm/bspwmrc
 #    compton & 
     wmpid=$!
     sleep 1 &

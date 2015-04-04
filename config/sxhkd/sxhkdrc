@@ -218,10 +218,10 @@ super + Next
 
 
 XF86MonBrightnessUp
-	xbacklight -inc 10
+	~/bin/backlight up 10
 
 XF86MonBrightnessDown
-	xbacklight -dec 2
+	~/bin/backlight down 10
 
 XF86KbdBrightnessUp
 	kbdlight up 1
