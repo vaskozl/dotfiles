@@ -40,6 +40,9 @@ wmname LG3D
 dropboxd &
 ~/bin/mountsecure
 
+# Allow user to edit brightness
+sudo /usr/bin/brightchown
+
 # Custom
 ~/.custom
 
