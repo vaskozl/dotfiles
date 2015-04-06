@@ -4,6 +4,7 @@
 # to enable disable services sudo update-rc.d apache2 disable
 # for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
+# awesome perl echo 'one two three'| perl -lne 'print $1 if /one(.*)three/' 
 
 # SDR
 alias sdr='gqrx-alsa'

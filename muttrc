@@ -1,8 +1,4 @@
-# Load passwords
-#source "gpg2 -dq $HOME/.mutt/pass.gpg |"
-
-# Source 
-#source ~/.mutt/sol.muttrc
+# GPG config 
 source ~/.mutt/crypto.rc
 
 #Load aliases
@@ -12,34 +8,32 @@ source $alias_file
 
 #Offline Imap config
 set mbox_type   = Maildir
-set sendmail    = /usr/bin/msmtp
+set sendmail    = ~/bin/mail
 
 set folder      = ~/.mail/
-set spoolfile   = "+Gmail/INBOX"
-set mbox        = "+Gmail/archive"
-set postponed   = "+Gmail/drafts"
-unset record
+set spoolfile   = "+dove/INBOX"
+set mbox        = "+dove/Archive"
+set postponed   = "+dove/Drafts"
+set record      = "+dove/Sent"
 
 mailboxes +INBOX
 
 macro index D \
-    "<save-message>+Gmail/trash<enter>" \
+    "<save-message>+dove/Trash<enter>" \
     "move message to the trash"
 
 macro index S \
-    "<save-message>+Gmail/spam<enter>" \
+    "<save-message>+dove/Spam<enter>" \
     "mark message as spam"
 
-
-# Gmail conf
-set from = "vasil.zlatanov@gmail.com"
+# Dove conf
+set from = "vasko@wherewe.servebeer.com"
 set realname = "Vasil Zlatanov"
 
 # Change the following line to a different editor you prefer.
 set editor = "vim"
 
 # Basic config, you can leave this as is
-#set hostname = gmail.com
 set mail_check = 1
 set timeout = 1
 unset imap_passive
@@ -75,13 +69,12 @@ ignore x-alt-email x-orcpt company division x-warning
 
 
 # Gmail-style keyboard shortcuts
-macro index,pager gi "<change-folder>=Gmail/INBOX<enter>" "Go to inbox"
-macro index,pager ga "<change-folder>=Gmail/archive<tab><enter>" "Go to all mail"
-macro index,pager gs "<change-folder>=Gmail/sent<tab><enter>" "Go to sent mail"
-macro index,pager gr "<change-folder>=Gmail/flagged<enter>" "Go to starred messages"
-macro index,pager gj "<change-folder>=Gmail/spam<enter>" "Go to spam"
-macro index,pager gt "<change-folder>=Gmail/trash<enter>" "Go to trash"
-macro index,pager gd "<change-folder>=Gmail/drafts<enter>" "Go to drafts"
+macro index,pager gi "<change-folder>=dove/INBOX<enter>" "Go to inbox"
+macro index,pager ga "<change-folder>=dove/Archive<tab><enter>" "Go to all mail"
+macro index,pager gs "<change-folder>=dove/Sent<tab><enter>" "Go to sent mail"
+macro index,pager gj "<change-folder>=dove/Spam<enter>" "Go to spam"
+macro index,pager gt "<change-folder>=dove/Trash<enter>" "Go to trash"
+macro index,pager gd "<change-folder>=dove/Drafts<enter>" "Go to drafts"
 
 # Other config
 set delete 
