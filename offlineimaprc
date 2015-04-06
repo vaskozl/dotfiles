@@ -16,12 +16,11 @@ localfolders = ~/.mail/dove
 [Repository Dovecot-Remote]
 type = IMAP
 #idlefolders = ['INBOX']
-remotehost = wherewe.servebeer.com
-remoteuser = vasko@wherewe.servebeer.com
+remotehost = skozl.com
+remoteuser = v@skozl.com
 #remotepass = youwish
 ssl = yes
-cert_fingerprint = 6a6e2c0d47a9e57601a001faa908245787111b03
-#sslcacertfile = ~/.mutt/local.crt
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
 [Account Gmail]
 localrepository = Gmail-Local

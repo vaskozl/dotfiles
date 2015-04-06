@@ -22,6 +22,7 @@ alias swedish='vim ~/Secure/Notes/Swedish/swedish.txt'
 alias zombify='sudo -u dork /home/vasko/dorknet/dork zombify'
 
 alias irc='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 80 vasko@wherewe.servebeer.com'
+alias vps='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@108.61.173.91'
 alias sourcel='source ~/.bash_aliases'
 alias ,.='fc -e -'
 alias cd..='cd ..'
