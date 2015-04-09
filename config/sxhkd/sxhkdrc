@@ -168,19 +168,16 @@ grave ; y ; {1-9}
 grave ; y ; y
 	~/.ratpoison/clipboard menu_set 
 
-grave ; shift + p
-	xclip -o | curl -F 'sprunge=<-' http://sprunge.us | xclip 
-
 #
-# Sprunge and Imgur hotkeys
+# Paste and Image share hotkeys
 #
 
 grave ; P
-	xclip -o | curl -F 'sprunge=<-' http://sprunge.us | xclip 
+	exec ~/bin/safepaste
 
 
 grave;  g 
-	exec ~/bin/imgur
+	exec ~/bin/safeimg
 #
 # music control
 #
