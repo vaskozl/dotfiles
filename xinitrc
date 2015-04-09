@@ -37,8 +37,8 @@ wmname LG3D
 ~/.ratpoison/clipboard init
 
 #Run dropbox
-dropboxd &
-~/bin/mountsecure
+#dropboxd &
+#~/bin/mountsecure
 
 # Allow user to edit brightness
 sudo /usr/bin/brightchown
@@ -145,7 +145,7 @@ fi
 #     windows 1: screen notebok
 if [ $run_everything = true -o $run_workspace = 5 ]; then
     $workspace ^4
-    cd $HOME/Dropbox/notes
+    cd $HOME/Sync/notes
 #    $xtoolwait $term $screen_run school
 fi
 #

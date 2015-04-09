@@ -8,7 +8,7 @@ source $alias_file
 
 #Offline Imap config
 set mbox_type   = Maildir
-set sendmail    = ~/bin/mail
+set sendmail    = /usr/bin/msmtp
 
 set folder      = ~/.mail/
 set spoolfile   = "+dove/INBOX"
@@ -27,7 +27,7 @@ macro index S \
     "mark message as spam"
 
 # Dove conf
-set from = "vasko@wherewe.servebeer.com"
+set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
 
 # Change the following line to a different editor you prefer.
