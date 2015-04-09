@@ -116,7 +116,7 @@ fi
 shopt -s autocd
 shopt -s cdspell
 
-export GPGKEY="895134C5"
+export GPGKEY="B54608CC"
 export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
 export EDITOR="vim"
 export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
