@@ -24,6 +24,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+# Make C-v always insert selection
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+~
 # give cursor
 xsetroot -cursor_name left_ptr 
 
@@ -192,7 +196,7 @@ fi
 #     window 1: wicd 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace ^10
-    $xtoolwait $term sudo wpa_supplicant -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant-wlp2s0.conf
+    $xtoolwait $term sudo /usr/bin/safeconnect
 fi
 
 # workspace 12 : music workspace
