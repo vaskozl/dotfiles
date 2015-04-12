@@ -1,0 +1,56 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "crypto" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "aespipe" "urxvt -e bash -c 'aespipe -h && zsh'" \
+           "athena-ssl-scanner" "urxvt -e bash -c 'athena-ssl-scanner -h && zsh'" \
+           "auto_xor_decrypter" "urxvt -e bash -c 'auto_xor_decrypter -h && zsh'" \
+           "b2sum" "urxvt -e bash -c 'b2sum -h && zsh'" \
+           "bletchley-analyze" "urxvt -e bash -c 'bletchley-analyze && zsh'" \
+           "bletchley-decode" "urxvt -e bash -c 'bletchley-decode && zsh'" \
+           "bletchley-encode" "urxvt -e bash -c 'bletchley-encode && zsh'" \
+           "bletchley-http2py" "urxvt -e bash -c 'bletchley-http2py && zsh'" \
+           "bletchley-nextrand" "urxvt -e bash -c 'bletchley-nextrand && zsh'" \
+           "check-weak-dh-ssh" "urxvt -e bash -c 'check-weak-dh-ssh -h && zsh'" \
+           "ciphertest" "urxvt -e bash -c 'ciphertest && zsh'" \
+           "ciphr" "urxvt -e bash -c 'ciphr -h && zsh'" \
+           "codetective" "urxvt -e bash -c 'codetective -h && zsh'" \
+           "cnark" "urxvt -e bash -c 'cnark && zsh'" \
+           "dislocker" "urxvt -e bash -c 'dislocker -h && zsh'" \
+           "hash-identifer" "urxvt -e bash -c 'hash-identifer && zsh'" \
+           "hasher" "urxvt -e bash -c 'hasher -h && zsh'" \
+           "hashfind" "urxvt -e bash -c 'hashfind -h && zsh'" \
+           "hashid" "urxvt -e bash -c 'hashid && zsh'" \
+           "hashpump" "urxvt -e bash -c 'hashpump -h && zsh'" \
+           "hdcp-genkey" "urxvt -e bash -c 'hdcp-genkey && zsh'" \
+           "httpsscanner" "urxvt -e bash -c 'httpsscanner -h && zsh'" \
+           "kraken" "urxvt -e bash -c 'kraken -h && zsh'" \
+           "lbb.db" "urxvt -e bash -c 'lbb.db && zsh'" \
+           "littleblackbox" "urxvt -e bash -c 'littleblackbox -h && zsh'" \
+           "luksipc" "urxvt -e bash -c 'luksipc -h && zsh'" \
+           "morxcrack" "urxvt -e bash -c 'morxcrack -h && zsh'" \
+           "morxkeyfmt" "urxvt -e bash -c 'morxkeyfmt && zsh'" \
+           "nomorexor" "urxvt -e bash -c 'nomorexor && zsh'" \
+           "openstego" "urxvt -e bash -c 'openstego -h && zsh'" \
+           "outguess" "urxvt -e bash -c 'outguess && zsh'" \
+           "pip3line" "urxvt -e bash -c 'pip3line && zsh'" \
+           "pip3linecmd" "urxvt -e bash -c 'pip3linecmd && zsh'" \
+           "posttester" "urxvt -e bash -c 'posttester -h && zsh'" \
+           "pwd-hash" "urxvt -e bash -c 'pwd-hash -h && zsh'" \
+           "sandy" "urxvt -e bash -c 'sandy -h && zsh'" \
+           "sbd" "urxvt -e bash -c 'sbd -h && zsh'" \
+           "snapception" "urxvt -e bash -c 'snapception --help && zsh'" \
+           "snow" "urxvt -e bash -c 'snow -h && zsh'" \
+           "sslcaudit" "urxvt -e bash -c 'sslcaudit -h && zsh'" \
+           "sslmap" "urxvt -e bash -c 'sslmap -h && zsh'" \
+           "sslscan" "urxvt -e bash -c 'sslscan && zsh'" \
+           "sslstrip" "urxvt -e bash -c 'sslstrip -h && zsh'" \
+           "tlspretense" "urxvt -e bash -c 'tlspretense && zsh'" \
+           "makeder.sh" "urxvt -e bash -c 'makeder.sh && zsh'" \
+           "tlspretense" "urxvt -e bash -c 'tlspretense && zsh'" \
+           "view.sh" "urxvt -e bash -c 'view.sh && zsh'" \
+           "xorbruteforcer" "urxvt -e bash -c 'xorbruteforcer && zsh'" \
+           "xorsearch" "urxvt -e bash -c 'xorsearch && zsh'" \
+           "xortool" "urxvt -e bash -c 'xortool -h && zsh'" \
+           "xortool-xor" "urxvt -e bash -c 'xortool-xor && zsh'" \

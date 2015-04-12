@@ -1,0 +1,7 @@
+#!/bin/bash
+while true; do
+cpu=`mpstat -P ALL 2 1 | grep "Average.*all" | awk '{print $3+$5}'` 
+mem=`free | grep Mem | awk '{print $3/$2 * 100.0}'`
+printf "C%.*f\n" 1 $cpu
+printf "R%.*f\n" 0 $mem
+done

@@ -1,0 +1,4 @@
+#!/bin/sh
+source ~/.colors
+locate ~/ | dmenu -i -l 20 -sb $COLOR0 -nb $COLOR0 -nf $COLOR11 -sf $COLOR3 | xargs urxvt -e rifle -p0
+exit 0

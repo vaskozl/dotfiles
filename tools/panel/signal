@@ -1,0 +1,19 @@
+#!/bin/bash
+while true;do
+signal=`iwconfig $INTERFACE | grep Signal| perl -pe 's/.*level=//; s/ dBm.*//'`
+#convert to Quality
+
+    if [ $signal -le -100 ];then
+        quality=0;
+    elif [ $signal -ge -50 ];then
+        quality=100;
+    elif [ -z $signal  ];then
+    quality=0;
+    else
+        quality=$(( 2 * ( $signal + 100 )));
+    fi
+
+echo "S$quality";
+sleep 3;
+done
+

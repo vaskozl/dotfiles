@@ -1,0 +1,7 @@
+#!/bin/bash
+source ~/.colors
+ratpoison -c "set bgcolor $COLOR0"
+ratpoison -c "set bwcolor $COLOR0"
+ratpoison -c "set fgcolor $COLOR11"
+ratpoison -c "set fwcolor $COLOR11"
+

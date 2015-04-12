@@ -1,0 +1,87 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "reversing" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "apktool" "urxvt -e bash -c 'apktool && zsh'" \
+           "balbuzard" "urxvt -e bash -c 'balbuzard && zsh'" \
+           "bbcrack" "urxvt -e bash -c 'bbcrack && zsh'" \
+           "bbharvest" "urxvt -e bash -c 'bbharvest && zsh'" \
+           "bbtrans" "urxvt -e bash -c 'bbtrans && zsh'" \
+           "binwalk" "urxvt -e bash -c 'binwalk && zsh'" \
+           "bokken" "urxvt -e bash -c 'bokken -h && zsh'" \
+           "bsdiff" "urxvt -e bash -c 'bsdiff && zsh'" \
+           "bspatch" "urxvt -e bash -c 'bspatch && zsh'" \
+           "bsdiff" "urxvt -e bash -c 'bsdiff && zsh'" \
+           "bspatch" "urxvt -e bash -c 'bspatch && zsh'" \
+           "bytecode-viewer" "urxvt -e bash -c 'bytecode-viewer && zsh'" \
+           "damm" "urxvt -e bash -c 'damm -h && zsh'" \
+           "detect-it-easy" "urxvt -e bash -c 'detect-it-easy && zsh'" \
+           "d2j-apk-sign" "urxvt -e bash -c 'd2j-apk-sign && zsh'" \
+           "d2j-asm-verify" "urxvt -e bash -c 'd2j-asm-verify && zsh'" \
+           "d2j-decrpyt-string" "urxvt -e bash -c 'd2j-decrpyt-string && zsh'" \
+           "d2j-dex-asmifier" "urxvt -e bash -c 'd2j-dex-asmifier && zsh'" \
+           "d2j-dex-dump" "urxvt -e bash -c 'd2j-dex-dump && zsh'" \
+           "d2j-dex2jar" "urxvt -e bash -c 'd2j-dex2jar && zsh'" \
+           "d2j-init-deobf" "urxvt -e bash -c 'd2j-init-deobf && zsh'" \
+           "d2j-jar-access" "urxvt -e bash -c 'd2j-jar-access && zsh'" \
+           "d2j-jar-remap" "urxvt -e bash -c 'd2j-jar-remap && zsh'" \
+           "d2j-jar2dex" "urxvt -e bash -c 'd2j-jar2dex && zsh'" \
+           "d2j-jar2jasmin" "urxvt -e bash -c 'd2j-jar2jasmin && zsh'" \
+           "d2j-jasmin2jar" "urxvt -e bash -c 'd2j-jasmin2jar && zsh'" \
+           "dissy" "urxvt -e bash -c 'dissy -h && zsh'" \
+           "edb" "urxvt -e bash -c 'edb && zsh'" \
+           "flasm" "urxvt -e bash -c 'flasm -h && zsh'" \
+           "jad" "urxvt -e bash -c 'jad -h && zsh'" \
+           "jad" "urxvt -e bash -c 'jad -h && zsh'" \
+           "jadx" "urxvt -e bash -c 'jadx -h && zsh'" \
+           "jadx-gui" "urxvt -e bash -c 'jadx-gui && zsh'" \
+           "jadx" "urxvt -e bash -c 'jadx -h && zsh'" \
+           "jadx-gui" "urxvt -e bash -c 'jadx-gui && zsh'" \
+           "javasnoop" "urxvt -e bash -c 'javasnoop && zsh'" \
+           "jd-gui" "urxvt -e bash -c 'jd-gui && zsh'" \
+           "js-beautify" "urxvt -e bash -c 'js-beautify -h && zsh'" \
+           "jwscan" "urxvt -e bash -c 'jwscan -h && zsh'" \
+           "malwasm" "urxvt -e bash -c 'malwasm && zsh'" \
+           "marc4dasm" "urxvt -e bash -c 'marc4dasm -h && zsh'" \
+           "netzob" "urxvt -e bash -c 'netzob -h && zsh'" \
+           "packerid" "urxvt -e bash -c 'packerid -h && zsh'" \
+           "peframe" "urxvt -e bash -c 'peframe && zsh'" \
+           "ofs2rva" "urxvt -e bash -c 'ofs2rva && zsh'" \
+           "pedis" "urxvt -e bash -c 'pedis && zsh'" \
+           "pehash" "urxvt -e bash -c 'pehash && zsh'" \
+           "pepack" "urxvt -e bash -c 'pepack && zsh'" \
+           "pescan" "urxvt -e bash -c 'pescan && zsh'" \
+           "pesec" "urxvt -e bash -c 'pesec && zsh'" \
+           "pestr" "urxvt -e bash -c 'pestr && zsh'" \
+           "readpe" "urxvt -e bash -c 'readpe && zsh'" \
+           "rva2ofs" "urxvt -e bash -c 'rva2ofs && zsh'" \
+           "asm" "urxvt -e bash -c 'asm -h && zsh'" \
+           "constgrep" "urxvt -e bash -c 'constgrep -h && zsh'" \
+           "cyclic" "urxvt -e bash -c 'cyclic -h && zsh'" \
+           "disasm-pwntools" "urxvt -e bash -c 'disasm-pwntools -h && zsh'" \
+           "hex" "urxvt -e bash -c 'hex && zsh'" \
+           "shellcraft" "urxvt -e bash -c 'shellcraft -h && zsh'" \
+           "unhex" "urxvt -e bash -c 'unhex && zsh'" \
+           "r2" "urxvt -e bash -c 'r2 -h && zsh'" \
+           "r2agent" "urxvt -e bash -c 'r2agent -h && zsh'" \
+           "rabin2" "urxvt -e bash -c 'rabin2 -h && zsh'" \
+           "radare2" "urxvt -e bash -c 'radare2 -h && zsh'" \
+           "radiff2" "urxvt -e bash -c 'radiff2 -h && zsh'" \
+           "rafind2" "urxvt -e bash -c 'rafind2 -h && zsh'" \
+           "ragg2" "urxvt -e bash -c 'ragg2 -h && zsh'" \
+           "ragg2-cc" "urxvt -e bash -c 'ragg2-cc && zsh'" \
+           "rahash2" "urxvt -e bash -c 'rahash2 -h && zsh'" \
+           "rarun2" "urxvt -e bash -c 'rarun2 -h && zsh'" \
+           "rasm2" "urxvt -e bash -c 'rasm2 -h && zsh'" \
+           "rax2" "urxvt -e bash -c 'rax2 && zsh'" \
+           "recstudio" "urxvt -e bash -c 'recstudio && zsh'" \
+           "gameconqueror" "urxvt -e bash -c 'gameconqueror && zsh'" \
+           "scanmem" "urxvt -e bash -c 'scanmem -h && zsh'" \
+           "udcli" "urxvt -e bash -c 'udcli -h && zsh'" \
+           "vdbbin" "urxvt -e bash -c 'vdbbin -h && zsh'" \
+           "vivbin" "urxvt -e bash -c 'vivbin -h && zsh'" \
+           "dump_process.py" "urxvt -e bash -c 'dump_process.py && zsh'" \
+           "malware_launcher.sh" "urxvt -e bash -c 'malware_launcher.sh && zsh'" \
+           "start_zerowine.sh" "urxvt -e bash -c 'start_zerowine.sh && zsh'" \
+

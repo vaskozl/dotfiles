@@ -1,0 +1,122 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "mobile" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "androick" "urxvt -e bash -c 'androick && zsh'" \
+           "androidsniffer" "urxvt -e bash -c 'androidsniffer -h && zsh'" \
+           "gtp-scan" "urxvt -e bash -c 'gtp-scan -h && zsh'" \
+           "iosforensic" "urxvt -e bash -c 'iosforensic -h && zsh'" \
+           "iphoneanalyzer" "urxvt -e bash -c 'iphoneanalyzer -h && zsh'" \
+           "kal" "urxvt -e bash -c 'kal -h && zsh'" \
+           "kraken" "urxvt -e bash -c 'kraken -h && zsh'" \
+           "sandy" "urxvt -e bash -c 'sandy -h && zsh'" \
+           "smartphone-pentest-framework" "urxvt -e bash -c 'smartphone-pentest-framework -h && zsh'" \
+           "AndroidAgent-debug-unaligned.apk" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk && zsh'" \
+           "AndroidAgent-debug-unaligned.apk.d" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk.d && zsh'" \
+           "AndroidAgent-debug.apk" "urxvt -e bash -c 'AndroidAgent-debug.apk && zsh'" \
+           "AndroidAgent.ap_" "urxvt -e bash -c 'AndroidAgent.ap_ && zsh'" \
+           "AndroidAgent.ap_.d" "urxvt -e bash -c 'AndroidAgent.ap_.d && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidAgent.apk" "urxvt -e bash -c 'AndroidAgent.apk && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "androidagent.jar" "urxvt -e bash -c 'androidagent.jar && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.jar" "urxvt -e bash -c 'classes.jar && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk.d" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk.d && zsh'" \
+           "BlankFrontEnd-debug.apk" "urxvt -e bash -c 'BlankFrontEnd-debug.apk && zsh'" \
+           "BlankFrontEnd.ap_" "urxvt -e bash -c 'BlankFrontEnd.ap_ && zsh'" \
+           "BlankFrontEnd.ap_.d" "urxvt -e bash -c 'BlankFrontEnd.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "MapsDemo-debug-unaligned.apk" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk && zsh'" \
+           "MapsDemo-debug-unaligned.apk.d" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk.d && zsh'" \
+           "MapsDemo-debug.apk" "urxvt -e bash -c 'MapsDemo-debug.apk && zsh'" \
+           "MapsDemo.ap_" "urxvt -e bash -c 'MapsDemo.ap_ && zsh'" \
+           "MapsDemo.ap_.d" "urxvt -e bash -c 'MapsDemo.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidApp.apk" "urxvt -e bash -c 'FrameworkAndroidApp.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "ar" "urxvt -e bash -c 'ar && zsh'" \
+           "as" "urxvt -e bash -c 'as --help && zsh'" \
+           "c++" "urxvt -e bash -c 'c++ && zsh'" \
+           "g++" "urxvt -e bash -c 'g++ && zsh'" \
+           "gcc" "urxvt -e bash -c 'gcc && zsh'" \
+           "ld" "urxvt -e bash -c 'ld && zsh'" \
+           "ld.bfd" "urxvt -e bash -c 'ld.bfd && zsh'" \
+           "ld.gold" "urxvt -e bash -c 'ld.gold && zsh'" \
+           "ld.mcld" "urxvt -e bash -c 'ld.mcld && zsh'" \
+           "nm" "urxvt -e bash -c 'nm -h && zsh'" \
+           "objcopy" "urxvt -e bash -c 'objcopy && zsh'" \
+           "objdump" "urxvt -e bash -c 'objdump && zsh'" \
+           "ranlib" "urxvt -e bash -c 'ranlib && zsh'" \
+           "strip" "urxvt -e bash -c 'strip && zsh'" \
+           "a.out" "urxvt -e bash -c 'a.out && zsh'" \
+           "arm-linux-androideabi-addr2line" "urxvt -e bash -c 'arm-linux-androideabi-addr2line && zsh'" \
+           "arm-linux-androideabi-ar" "urxvt -e bash -c 'arm-linux-androideabi-ar && zsh'" \
+           "arm-linux-androideabi-as" "urxvt -e bash -c 'arm-linux-androideabi-as && zsh'" \
+           "arm-linux-androideabi-c++" "urxvt -e bash -c 'arm-linux-androideabi-c++ && zsh'" \
+           "arm-linux-androideabi-c++filt" "urxvt -e bash -c 'arm-linux-androideabi-c++filt && zsh'" \
+           "arm-linux-androideabi-cpp" "urxvt -e bash -c 'arm-linux-androideabi-cpp && zsh'" \
+           "arm-linux-androideabi-elfedit" "urxvt -e bash -c 'arm-linux-androideabi-elfedit && zsh'" \
+           "arm-linux-androideabi-g++" "urxvt -e bash -c 'arm-linux-androideabi-g++ && zsh'" \
+           "arm-linux-androideabi-gcc" "urxvt -e bash -c 'arm-linux-androideabi-gcc && zsh'" \
+           "arm-linux-androideabi-gcc-4.6" "urxvt -e bash -c 'arm-linux-androideabi-gcc-4.6 && zsh'" \
+           "arm-linux-androideabi-gcov" "urxvt -e bash -c 'arm-linux-androideabi-gcov && zsh'" \
+           "arm-linux-androideabi-gdb" "urxvt -e bash -c 'arm-linux-androideabi-gdb && zsh'" \
+           "arm-linux-androideabi-gdbtui" "urxvt -e bash -c 'arm-linux-androideabi-gdbtui && zsh'" \
+           "arm-linux-androideabi-gprof" "urxvt -e bash -c 'arm-linux-androideabi-gprof && zsh'" \
+           "arm-linux-androideabi-ld" "urxvt -e bash -c 'arm-linux-androideabi-ld && zsh'" \
+           "arm-linux-androideabi-ld.bfd" "urxvt -e bash -c 'arm-linux-androideabi-ld.bfd && zsh'" \
+           "arm-linux-androideabi-ld.gold" "urxvt -e bash -c 'arm-linux-androideabi-ld.gold && zsh'" \
+           "arm-linux-androideabi-ld.mcld" "urxvt -e bash -c 'arm-linux-androideabi-ld.mcld && zsh'" \
+           "arm-linux-androideabi-nm" "urxvt -e bash -c 'arm-linux-androideabi-nm && zsh'" \
+           "arm-linux-androideabi-objcopy" "urxvt -e bash -c 'arm-linux-androideabi-objcopy && zsh'" \
+           "arm-linux-androideabi-objdump" "urxvt -e bash -c 'arm-linux-androideabi-objdump && zsh'" \
+           "arm-linux-androideabi-ranlib" "urxvt -e bash -c 'arm-linux-androideabi-ranlib && zsh'" \
+           "arm-linux-androideabi-readelf" "urxvt -e bash -c 'arm-linux-androideabi-readelf && zsh'" \
+           "arm-linux-androideabi-run" "urxvt -e bash -c 'arm-linux-androideabi-run && zsh'" \
+           "arm-linux-androideabi-size" "urxvt -e bash -c 'arm-linux-androideabi-size && zsh'" \
+           "arm-linux-androideabi-strings" "urxvt -e bash -c 'arm-linux-androideabi-strings && zsh'" \
+           "arm-linux-androideabi-strip" "urxvt -e bash -c 'arm-linux-androideabi-strip && zsh'" \

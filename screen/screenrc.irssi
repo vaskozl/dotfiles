@@ -1,0 +1,6 @@
+# change to home directory and source screenrc from ratpoison directory
+chdir
+source .tools/screenrcnobar
+
+screen -t Irc 0
+exec irssi

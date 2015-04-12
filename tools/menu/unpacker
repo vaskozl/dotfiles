@@ -1,0 +1,6 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "unpacker" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "js-beautify" "urxvt -e bash -c 'js-beautify -h && zsh'" \

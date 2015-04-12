@@ -1,0 +1,26 @@
+#! /bin/sh
+cd ~/.tools/panel
+source ./profile
+source ~/.colors
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+bspc config top_padding $PANEL_HEIGHT
+bspc control --subscribe > "$PANEL_FIFO" &
+xtitle -sf 'T%s' > "$PANEL_FIFO" &
+volume -f 'V%i' > "$PANEL_FIFO" &
+battery -i 60 -sf 'B%i' > "$PANEL_FIFO" &
+clock -i 60 -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
+./music > "$PANEL_FIFO" &
+#./load > "$PANEL_FIFO" &
+#essid -sf 'E%s' -i 30 -w wlp2s0 > "$PANEL_FIFO" &
+# ./signal > "$PANEL_FIFO" &
+
+
+source ./panel_colors
+
+cat "$PANEL_FIFO" | ./panel_bar | bar -g x$PANEL_HEIGHT -f "$PANEL_FONT_FAMILY" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+
+sleep 1;
+stalonetray --geometry 4x1-1+1 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 18 &

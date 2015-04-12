@@ -1,0 +1,191 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "webapp" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "adminpagefinder" "urxvt -e bash -c 'adminpagefinder -h && zsh'" \
+           "allthevhosts" "urxvt -e bash -c 'allthevhosts && zsh'" \
+           "arachni" "urxvt -e bash -c 'arachni -h && zsh'" \
+           "arachni_console" "urxvt -e bash -c 'arachni_console -h && zsh'" \
+           "arachni_multi" "urxvt -e bash -c 'arachni_multi -h && zsh'" \
+           "arachni_rpc" "urxvt -e bash -c 'arachni_rpc -h && zsh'" \
+           "arachni_rpcd" "urxvt -e bash -c 'arachni_rpcd -h && zsh'" \
+           "arachni_rpcd_monitor" "urxvt -e bash -c 'arachni_rpcd_monitor -h && zsh'" \
+           "arachni_script" "urxvt -e bash -c 'arachni_script -h && zsh'" \
+           "arachni" "urxvt -e bash -c 'arachni -h && zsh'" \
+           "arachni_console" "urxvt -e bash -c 'arachni_console -h && zsh'" \
+           "arachni_multi" "urxvt -e bash -c 'arachni_multi -h && zsh'" \
+           "arachni_reporter" "urxvt -e bash -c 'arachni_reporter && zsh'" \
+           "arachni_restore" "urxvt -e bash -c 'arachni_restore && zsh'" \
+           "arachni_rpc" "urxvt -e bash -c 'arachni_rpc -h && zsh'" \
+           "arachni_rpcd" "urxvt -e bash -c 'arachni_rpcd -h && zsh'" \
+           "arachni_rpcd_monitor" "urxvt -e bash -c 'arachni_rpcd_monitor -h && zsh'" \
+           "arachni_script" "urxvt -e bash -c 'arachni_script -h && zsh'" \
+           "asp-audit" "urxvt -e bash -c 'asp-audit && zsh'" \
+           "backcookie" "urxvt -e bash -c 'backcookie -h && zsh'" \
+           "bbqsql" "urxvt -e bash -c 'bbqsql -h && zsh'" \
+           "bing-lfi-rfi" "urxvt -e bash -c 'bing-lfi-rfi -h && zsh'" \
+           "blindelephant" "urxvt -e bash -c 'blindelephant -h && zsh'" \
+           "bsqlbf.pl" "urxvt -e bash -c 'bsqlbf.pl && zsh'" \
+           "burpsuite" "urxvt -e bash -c 'burpsuite && zsh'" \
+           "cangibrina" "urxvt -e bash -c 'cangibrina -h && zsh'" \
+           "cansina" "urxvt -e bash -c 'cansina -h && zsh'" \
+           "cintruder" "urxvt -e bash -c 'cintruder -h && zsh'" \
+           "cms-explorer" "urxvt -e bash -c 'cms-explorer -h && zsh'" \
+           "cms-few" "urxvt -e bash -c 'cms-few -h && zsh'" \
+           "cmsmap" "urxvt -e bash -c 'cmsmap -h && zsh'" \
+           "conscan" "urxvt -e bash -c 'conscan -h && zsh'" \
+           "cpfinder" "urxvt -e bash -c 'cpfinder -h && zsh'" \
+           "csrftester" "urxvt -e bash -c 'csrftester && zsh'" \
+           "darkbing" "urxvt -e bash -c 'darkbing -h && zsh'" \
+           "darkd0rk3r" "urxvt -e bash -c 'darkd0rk3r ; rm -rf darkd0rk3r-*.txt && zsh'" \
+           "adminpath.py" "urxvt -e bash -c 'adminpath.py && zsh'" \
+           "clearlog.py" "urxvt -e bash -c 'clearlog.py && zsh'" \
+           "daemoninfo.pl" "urxvt -e bash -c 'daemoninfo.pl && zsh'" \
+           "darkcgi.pl" "urxvt -e bash -c 'darkcgi.pl && zsh'" \
+           "darkcgi.py" "urxvt -e bash -c 'darkcgi.py && zsh'" \
+           "darkjumper.py" "urxvt -e bash -c 'darkjumper.py -h && zsh'" \
+           "devilzc0de.py" "urxvt -e bash -c 'devilzc0de.py && zsh'" \
+           "ftpbrute.py" "urxvt -e bash -c 'ftpbrute.py && zsh'" \
+           "injector.py" "urxvt -e bash -c 'injector.py -h && zsh'" \
+           "subscan.py" "urxvt -e bash -c 'subscan.py && zsh'" \
+           "subscan2.py" "urxvt -e bash -c 'subscan2.py && zsh'" \
+           "tes.py" "urxvt -e bash -c 'tes.py && zsh'" \
+           "tes2.py" "urxvt -e bash -c 'tes2.py && zsh'" \
+           "var.py" "urxvt -e bash -c 'var.py && zsh'" \
+           "darkmysqli" "urxvt -e bash -c 'darkmysqli -h && zsh'" \
+           "dirb" "urxvt -e bash -c 'dirb && zsh'" \
+           "dirb-gendict" "urxvt -e bash -c 'dirb-gendict && zsh'" \
+           "html2dic" "urxvt -e bash -c 'html2dic && zsh'" \
+           "dirbuster" "urxvt -e bash -c 'dirbuster && zsh'" \
+           "dirs3arch" "urxvt -e bash -c 'dirs3arch -h && zsh'" \
+           "dirscanner" "urxvt -e bash -c 'dirscanner -h && zsh'" \
+           "dpscan" "urxvt -e bash -c 'dpscan && zsh'" \
+           "dumb0" "urxvt -e bash -c 'dumb0 -h && zsh'" \
+           "easyfuzzer" "urxvt -e bash -c 'easyfuzzer && zsh'" \
+           "easyfuzzer-proxy" "urxvt -e bash -c 'easyfuzzer-proxy && zsh'" \
+           "prepare4easyfuzzer" "urxvt -e bash -c 'prepare4easyfuzzer && zsh'" \
+           "wbxml2request" "urxvt -e bash -c 'wbxml2request && zsh'" \
+           "wsdl2request" "urxvt -e bash -c 'wsdl2request && zsh'" \
+           "eazy" "urxvt -e bash -c 'eazy -h && zsh'" \
+           "eyewitness" "urxvt -e bash -c 'eyewitness -h && zsh'" \
+           "facebot" "urxvt -e bash -c 'facebot -h && zsh'" \
+           "facebrute" "urxvt -e bash -c 'facebrute -h && zsh'" \
+           "fbht" "urxvt -e bash -c 'fbht && zsh'" \
+           "fhttp" "urxvt -e bash -c 'fhttp -h && zsh'" \
+           "flunym0us" "urxvt -e bash -c 'flunym0us && zsh'" \
+           "golismero" "urxvt -e bash -c 'golismero -h && zsh'" \
+           "daily_cleanup.py" "urxvt -e bash -c 'daily_cleanup.py && zsh'" \
+           "django-2to3.py" "urxvt -e bash -c 'django-2to3.py && zsh'" \
+           "django-admin.py" "urxvt -e bash -c 'django-admin.py -h && zsh'" \
+           "unique-messages.py" "urxvt -e bash -c 'unique-messages.py && zsh'" \
+           "grabber-scanner" "urxvt -e bash -c 'grabber-scanner -h && zsh'" \
+           "gwtenum" "urxvt -e bash -c 'gwtenum -h && zsh'" \
+           "gwtfuzzer" "urxvt -e bash -c 'gwtfuzzer -h && zsh'" \
+           "gwtparse" "urxvt -e bash -c 'gwtparse -h && zsh'" \
+           "halberd" "urxvt -e bash -c 'halberd -h && zsh'" \
+           "host-extract" "urxvt -e bash -c 'host-extract -h && zsh'" \
+           "httpextract" "urxvt -e bash -c 'httpextract -h && zsh'" \
+           "httpforge" "urxvt -e bash -c 'httpforge -h && zsh'" \
+           "httpsend" "urxvt -e bash -c 'httpsend -h && zsh'" \
+           "imagejs" "urxvt -e bash -c 'imagejs && zsh'" \
+           "inurlbr" "urxvt -e bash -c 'inurlbr -h && zsh'" \
+           "isr-form" "urxvt -e bash -c 'isr-form -h && zsh'" \
+           "unix-jboss-autopwn" "urxvt -e bash -c 'unix-jboss-autopwn && zsh'" \
+           "win-jboss-autopwn" "urxvt -e bash -c 'win-jboss-autopwn && zsh'" \
+           "jomplug" "urxvt -e bash -c 'jomplug -h && zsh'" \
+           "joomlascan" "urxvt -e bash -c 'joomlascan -h && zsh'" \
+           "joomscan" "urxvt -e bash -c 'joomscan -h && zsh'" \
+           "kolkata" "urxvt -e bash -c 'kolkata && zsh'" \
+           "laf" "urxvt -e bash -c 'laf -h && zsh'" \
+           "aprof" "urxvt -e bash -c 'aprof && zsh'" \
+           "lbmap" "urxvt -e bash -c 'lbmap -h && zsh'" \
+           "lfi-exploiter" "urxvt -e bash -c 'lfi-exploiter -h && zsh'" \
+           "lfi_fuzzploit" "urxvt -e bash -c 'lfi_fuzzploit && zsh'" \
+           "lfi-scanner" "urxvt -e bash -c 'lfi-scanner -h && zsh'" \
+           "lfi-sploiter" "urxvt -e bash -c 'lfi-sploiter -h && zsh'" \
+           "lfimap" "urxvt -e bash -c 'lfimap -h && zsh'" \
+           "liffy" "urxvt -e bash -c 'liffy -h && zsh'" \
+           "list-urls" "urxvt -e bash -c 'list-urls && zsh'" \
+           "metoscan" "urxvt -e bash -c 'metoscan && zsh'" \
+           "morxtraversal" "urxvt -e bash -c 'morxtraversal && zsh'" \
+           "MultiInjector" "urxvt -e bash -c 'MultiInjector && zsh'" \
+           "mwebfp" "urxvt -e bash -c 'mwebfp -h && zsh'" \
+           "nikto" "urxvt -e bash -c 'nikto -H && zsh'" \
+           "nsia" "urxvt -e bash -c 'nsia -h && zsh'" \
+           "nsia.jar" "urxvt -e bash -c 'nsia.jar && zsh'" \
+           "otori" "urxvt -e bash -c 'otori -h && zsh'" \
+           "owasp-bywaf" "urxvt -e bash -c 'owasp-bywaf -h && zsh'" \
+           "owtf" "urxvt -e bash -c 'owtf && zsh'" \
+           "paranoic" "urxvt -e bash -c 'paranoic -h && zsh'" \
+           "paros" "urxvt -e bash -c 'paros && zsh'" \
+           "pblind.py" "urxvt -e bash -c 'pblind.py && zsh'" \
+           "plecost" "urxvt -e bash -c 'plecost && zsh'" \
+           "plown" "urxvt -e bash -c 'plown -h && zsh'" \
+           "pyfiscan" "urxvt -e bash -c 'pyfiscan -h && zsh'" \
+           "ratproxy" "urxvt -e bash -c 'ratproxy -h && zsh'" \
+           "rawr" "urxvt -e bash -c 'rawr -h && zsh'" \
+           "rww-attack" "urxvt -e bash -c 'rww-attack && zsh'" \
+           "scrapy" "urxvt -e bash -c 'scrapy -h && zsh'" \
+           "secscan" "urxvt -e bash -c 'secscan -h && zsh'" \
+           "shortfuzzy" "urxvt -e bash -c 'shortfuzzy -h && zsh'" \
+           "sfscandiff" "urxvt -e bash -c 'sfscandiff -h && zsh'" \
+           "skipfish" "urxvt -e bash -c 'skipfish -h && zsh'" \
+           "sparty" "urxvt -e bash -c 'sparty -h && zsh'" \
+           "spiga" "urxvt -e bash -c 'spiga -h && zsh'" \
+           "spike-proxy" "urxvt -e bash -c 'spike-proxy -h && zsh'" \
+           "spipscan" "urxvt -e bash -c 'spipscan && zsh'" \
+           "sqid" "urxvt -e bash -c 'sqid -h && zsh'" \
+           "sqlbrute" "urxvt -e bash -c 'sqlbrute -h && zsh'" \
+           "sqlmap" "urxvt -e bash -c 'sqlmap -hh && zsh'" \
+           "sqlninja" "urxvt -e bash -c 'sqlninja -h && zsh'" \
+           "sqlsus" "urxvt -e bash -c 'sqlsus -h && zsh'" \
+           "themole" "urxvt -e bash -c 'themole -h && zsh'" \
+           "ua-tester" "urxvt -e bash -c 'ua-tester && zsh'" \
+           "ufonet" "urxvt -e bash -c 'ufonet -h && zsh'" \
+           "uniscan" "urxvt -e bash -c 'uniscan --help && zsh'" \
+           "urlcrazy" "urxvt -e bash -c 'urlcrazy -h && zsh'" \
+           "urldigger" "urxvt -e bash -c 'urldigger -h && zsh'" \
+           "vane" "urxvt -e bash -c 'vane -h && zsh'" \
+           "vanguard" "urxvt -e bash -c 'vanguard -h && zsh'" \
+           "vega" "urxvt -e bash -c 'vega && zsh'" \
+           "w3af" "urxvt -e bash -c 'w3af -h && zsh'" \
+           "w3af-gui" "urxvt -e bash -c 'w3af-gui && zsh'" \
+           "wafw00f" "urxvt -e bash -c 'wafw00f -h && zsh'" \
+           "wafp" "urxvt -e bash -c 'wafp -h && zsh'" \
+           "wapiti" "urxvt -e bash -c 'wapiti -h && zsh'" \
+           "wapiti-cookie" "urxvt -e bash -c 'wapiti-cookie -h && zsh'" \
+           "wapiti-getcookie" "urxvt -e bash -c 'wapiti-getcookie -h && zsh'" \
+           "web-soul" "urxvt -e bash -c 'web-soul -h && zsh'" \
+           "webacoo" "urxvt -e bash -c 'webacoo -h && zsh'" \
+           "webenum" "urxvt -e bash -c 'webenum -h && zsh'" \
+           "webhandler" "urxvt -e bash -c 'webhandler && zsh'" \
+           "webpwn3r" "urxvt -e bash -c 'webpwn3r -h && zsh'" \
+           "webrute" "urxvt -e bash -c 'webrute -help && zsh'" \
+           "webscarab" "urxvt -e bash -c 'webscarab && zsh'" \
+           "webshag_cli" "urxvt -e bash -c 'webshag_cli -h && zsh'" \
+           "webshag_gui" "urxvt -e bash -c 'webshag_gui && zsh'" \
+           "webslayer" "urxvt -e bash -c 'webslayer && zsh'" \
+           "webspa" "urxvt -e bash -c 'webspa -help && zsh'" \
+           "weevely" "urxvt -e bash -c 'weevely -h && zsh'" \
+           "wfuzz" "urxvt -e bash -c 'wfuzz && zsh'" \
+           "whatweb" "urxvt -e bash -c 'whatweb -h && zsh'" \
+           "wig" "urxvt -e bash -c 'wig -h && zsh'" \
+           "witchxtool" "urxvt -e bash -c 'witchxtool -h && zsh'" \
+           "wmat" "urxvt -e bash -c 'wmat && zsh'" \
+           "wordbrutepress" "urxvt -e bash -c 'wordbrutepress && zsh'" \
+           "wpbf" "urxvt -e bash -c 'wpbf -h && zsh'" \
+           "wpscan" "urxvt -e bash -c 'wpscan -h && zsh'" \
+           "ws-attacker" "urxvt -e bash -c 'ws-attacker && zsh'" \
+           "wsfuzzer" "urxvt -e bash -c 'wsfuzzer && zsh'" \
+           "xsser" "urxvt -e bash -c 'xsser -h && zsh'" \
+           "xssless" "urxvt -e bash -c 'xssless && zsh'" \
+           "xsss" "urxvt -e bash -c 'xsss && zsh'" \
+           "xssscan" "urxvt -e bash -c 'xssscan -h && zsh'" \
+           "xsssniper" "urxvt -e bash -c 'xsssniper -h && zsh'" \
+           "xssya" "urxvt -e bash -c 'xssya -h && zsh'" \
+           "yaaf" "urxvt -e bash -c 'yaaf -h && zsh'" \
+           "ycrawler" "urxvt -e bash -c 'ycrawler -h && zsh'" \
+           "yinjector" "urxvt -e bash -c 'yinjector -h && zsh'" \
+           "zaproxy" "urxvt -e bash -c 'zaproxy && zsh'" \
+

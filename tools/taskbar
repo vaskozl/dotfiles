@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "`rpws current`} | `ratpoison -c "windows" | awk '{printf "%s | ",$0} END {print ""}'`"

@@ -1,0 +1,28 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "voip" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "ace" "urxvt -e bash -c 'ace -h && zsh'" \
+           "bluebox" "urxvt -e bash -c 'bluebox && zsh'" \
+           "bluebox-ng" "urxvt -e bash -c 'bluebox-ng -h && zsh'" \
+           "erase_registrations" "urxvt -e bash -c 'erase_registrations && zsh'" \
+           "iaxflood" "urxvt -e bash -c 'iaxflood && zsh'" \
+           "ilty" "urxvt -e bash -c 'ilty -h && zsh'" \
+           "pcapsipdump" "urxvt -e bash -c 'pcapsipdump && zsh'" \
+           "protos-sip" "urxvt -e bash -c 'protos-sip && zsh'" \
+           "redirectpoison" "urxvt -e bash -c 'redirectpoison && zsh'" \
+           "rtpflood" "urxvt -e bash -c 'rtpflood -h && zsh'" \
+           "siparmyknife" "urxvt -e bash -c 'siparmyknife && zsh'" \
+           "sipcrack" "urxvt -e bash -c 'sipcrack -h && zsh'" \
+           "sipdump" "urxvt -e bash -c 'sipdump -h && zsh'" \
+           "sipp" "urxvt -e bash -c 'sipp && zsh'" \
+           "sipsak" "urxvt -e bash -c 'sipsak && zsh'" \
+           "sipshock" "urxvt -e bash -c 'sipshock -h && zsh'" \
+           "storm-ring" "urxvt -e bash -c 'storm-ring -h && zsh'" \
+           "teardown" "urxvt -e bash -c 'teardown && zsh'" \
+           "vnak" "urxvt -e bash -c 'vnak && zsh'" \
+           "voiphopper" "urxvt -e bash -c 'voiphopper -h && zsh'" \
+           "voipctl" "urxvt -e bash -c 'voipctl -h && zsh'" \
+           "voipong" "urxvt -e bash -c 'voipong -h && zsh'" \
+ 

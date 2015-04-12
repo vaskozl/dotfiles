@@ -1,0 +1,13 @@
+#!/bin/bash
+while true;do
+if [ `battery -f '%i'` -lt 5 ] && ! [ -z ~/.dontshut ]; then                                                       
+touch ~/.dontshut
+zenity  --question --title "Battery"  --text "Battery if pretty fucking low, go to sleep?"                                                
+if [ $? -ne 1 ];then
+pm-suspend
+fi
+else
+rm ~/.dontshut
+fi
+sleep 30;
+done

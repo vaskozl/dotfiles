@@ -1,0 +1,11 @@
+#!/bin/bash
+
+frames=`ratpoison -c fdump | tr -d -C '(' | wc -c`
+
+if [[ $frames == 1 ]];then
+ratpoison -c "hideborder"
+ratpoison -c "hidepadding"
+else
+ratpoison -c "showborder"
+ratpoison -c "showpadding"
+fi

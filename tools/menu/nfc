@@ -1,0 +1,6 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "nfc" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "lsnfc" "urxvt -e bash -c 'lsnfc && zsh'" \

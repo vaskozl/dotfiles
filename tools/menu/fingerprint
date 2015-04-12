@@ -1,0 +1,61 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "fingerprint" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "arp-fingerprint" "urxvt -e bash -c 'arp-fingerprint -h && zsh'" \
+           "arp-scan" "urxvt -e bash -c 'arp-scan -h && zsh'" \
+           "get-iab" "urxvt -e bash -c 'get-iab -h && zsh'" \
+           "get-oui" "urxvt -e bash -c 'get-oui -h && zsh'" \
+           "arp-fingerprint" "urxvt -e bash -c 'arp-fingerprint -h && zsh'" \
+           "arp-scan" "urxvt -e bash -c 'arp-scan -h && zsh'" \
+           "get-iab" "urxvt -e bash -c 'get-iab -h && zsh'" \
+           "get-oui" "urxvt -e bash -c 'get-oui -h && zsh'" \
+           "asp-audit" "urxvt -e bash -c 'asp-audit && zsh'" \
+           "blindelephant" "urxvt -e bash -c 'blindelephant -h && zsh'" \
+           "cisco-torch" "urxvt -e bash -c 'cisco-torch -h && zsh'" \
+           "cms-explorer" "urxvt -e bash -c 'cms-explorer -h && zsh'" \
+           "httsquash" "urxvt -e bash -c 'httsquash && zsh'" \
+           "letdown" "urxvt -e bash -c 'letdown && zsh'" \
+           "reverseraider" "urxvt -e bash -c 'reverseraider && zsh'" \
+           "dnsmap" "urxvt -e bash -c 'dnsmap && zsh'" \
+           "dnsmap-bulk" "urxvt -e bash -c 'dnsmap-bulk && zsh'" \
+           "faraday" "urxvt -e bash -c 'faraday && zsh'" \
+           "delAllHost.py" "urxvt -e bash -c 'delAllHost.py && zsh'" \
+           "delAllServiceClosed.py" "urxvt -e bash -c 'delAllServiceClosed.py && zsh'" \
+           "fplugin" "urxvt -e bash -c 'fplugin && zsh'" \
+           "getAllCreds.py" "urxvt -e bash -c 'getAllCreds.py && zsh'" \
+           "getAllHosts.py" "urxvt -e bash -c 'getAllHosts.py && zsh'" \
+           "getAllIps.py" "urxvt -e bash -c 'getAllIps.py && zsh'" \
+           "getAllIpsInterfaces.py" "urxvt -e bash -c 'getAllIpsInterfaces.py && zsh'" \
+           "getAllOs.py" "urxvt -e bash -c 'getAllOs.py && zsh'" \
+           "getAllTelnet.py" "urxvt -e bash -c 'getAllTelnet.py && zsh'" \
+           "getAllVnc.py" "urxvt -e bash -c 'getAllVnc.py && zsh'" \
+           "getAllVulnsCSV.py" "urxvt -e bash -c 'getAllVulnsCSV.py && zsh'" \
+           "getAllWebservers.py" "urxvt -e bash -c 'getAllWebservers.py && zsh'" \
+           "fhttp" "urxvt -e bash -c 'fhttp -h && zsh'" \
+           "fl0p" "urxvt -e bash -c 'fl0p -h && zsh'" \
+           "fpdns" "urxvt -e bash -c 'fpdns && zsh'" \
+           "ftpmap" "urxvt -e bash -c 'ftpmap -h && zsh'" \
+           "htrosbif" "urxvt -e bash -c 'htrosbif -h && zsh'" \
+           "httprint" "urxvt -e bash -c 'httprint -h && zsh'" \
+           "jomplug" "urxvt -e bash -c 'jomplug -h && zsh'" \
+           "kolkata" "urxvt -e bash -c 'kolkata && zsh'" \
+           "aprof" "urxvt -e bash -c 'aprof && zsh'" \
+           "lbmap" "urxvt -e bash -c 'lbmap -h && zsh'" \
+           "mwebfp" "urxvt -e bash -c 'mwebfp -h && zsh'" \
+           "nimbostratus" "urxvt -e bash -c 'nimbostratus -h && zsh'" \
+           "p0f" "urxvt -e bash -c 'p0f -h && zsh'" \
+           "p0f-client" "urxvt -e bash -c 'p0f-client -h && zsh'" \
+           "p0f-sendsyn" "urxvt -e bash -c 'p0f-sendsyn -h && zsh'" \
+           "p0f-sendsyn6" "urxvt -e bash -c 'p0f-sendsyn6 && zsh'" \
+           "plecost" "urxvt -e bash -c 'plecost && zsh'" \
+           "propecia" "urxvt -e bash -c 'propecia && zsh'" \
+           "sinfp" "urxvt -e bash -c 'sinfp -h && zsh'" \
+           "smtmap" "urxvt -e bash -c 'smtmap && zsh'" \
+           "smtpscan" "urxvt -e bash -c 'smtpscan -h && zsh'" \
+           "sn00p" "urxvt -e bash -c 'sn00p -h && zsh'" \
+           "sparta" "urxvt -e bash -c 'sparta && zsh'" \
+           "wafp" "urxvt -e bash -c 'wafp -h && zsh'" \
+           "xprobe2" "urxvt -e bash -c 'xprobe2 -h && zsh'" \
+ 

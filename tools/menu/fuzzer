@@ -1,0 +1,335 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "fuzzer" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "afl-clang" "urxvt -e bash -c 'afl-clang && zsh'" \
+           "afl-clang++" "urxvt -e bash -c 'afl-clang++ && zsh'" \
+           "afl-cmin" "urxvt -e bash -c 'afl-cmin && zsh'" \
+           "afl-fuzz" "urxvt -e bash -c 'afl-fuzz && zsh'" \
+           "afl-g++" "urxvt -e bash -c 'afl-g++ && zsh'" \
+           "afl-gcc" "urxvt -e bash -c 'afl-gcc && zsh'" \
+           "afl-gotcpu" "urxvt -e bash -c 'afl-gotcpu && zsh'" \
+           "afl-plot" "urxvt -e bash -c 'afl-plot && zsh'" \
+           "afl-showmap" "urxvt -e bash -c 'afl-showmap && zsh'" \
+           "afl-tmin" "urxvt -e bash -c 'afl-tmin && zsh'" \
+           "afl-whatsup" "urxvt -e bash -c 'afl-whatsup && zsh'" \
+           "backfuzz" "urxvt -e bash -c 'backfuzz -h && zsh'" \
+           "bing-lfi-rfi" "urxvt -e bash -c 'bing-lfi-rfi -h && zsh'" \
+           "birp" "urxvt -e bash -c 'birp -h && zsh'" \
+           "bluebox" "urxvt -e bash -c 'bluebox && zsh'" \
+           "bluebox-ng" "urxvt -e bash -c 'bluebox-ng -h && zsh'" \
+           "bf3" "urxvt -e bash -c 'bf3 && zsh'" \
+           "bss" "urxvt -e bash -c 'bss -h && zsh'" \
+           "psm_scan" "urxvt -e bash -c 'psm_scan -h && zsh'" \
+           "rfcomm_scan" "urxvt -e bash -c 'rfcomm_scan -h && zsh'" \
+           "bunny-flow" "urxvt -e bash -c 'bunny-flow && zsh'" \
+           "bunny-gcc" "urxvt -e bash -c 'bunny-gcc && zsh'" \
+           "bunny-main" "urxvt -e bash -c 'bunny-main && zsh'" \
+           "bunny-trace" "urxvt -e bash -c 'bunny-trace && zsh'" \
+           "burpsuite" "urxvt -e bash -c 'burpsuite && zsh'" \
+           "cecster" "urxvt -e bash -c 'cecster -h && zsh'" \
+           "cirt-fuzzer" "urxvt -e bash -c 'cirt-fuzzer -help && zsh'" \
+           "CAT" "urxvt -e bash -c 'CAT && zsh'" \
+           "cisco-auditing-tool" "urxvt -e bash -c 'cisco-auditing-tool && zsh'" \
+           "conscan" "urxvt -e bash -c 'conscan -h && zsh'" \
+           "cookie-cadger" "urxvt -e bash -c 'cookie-cadger && zsh'" \
+           "darkbing" "urxvt -e bash -c 'darkbing -h && zsh'" \
+           "dizzy" "urxvt -e bash -c 'dizzy -h && zsh'" \
+           "doona" "urxvt -e bash -c 'doona -h && zsh'" \
+           "dotdotpwn" "urxvt -e bash -c 'dotdotpwn -h && zsh'" \
+           "dpscan" "urxvt -e bash -c 'dpscan && zsh'" \
+           "easyfuzzer" "urxvt -e bash -c 'easyfuzzer && zsh'" \
+           "easyfuzzer-proxy" "urxvt -e bash -c 'easyfuzzer-proxy && zsh'" \
+           "prepare4easyfuzzer" "urxvt -e bash -c 'prepare4easyfuzzer && zsh'" \
+           "wbxml2request" "urxvt -e bash -c 'wbxml2request && zsh'" \
+           "wsdl2request" "urxvt -e bash -c 'wsdl2request && zsh'" \
+           "faraday" "urxvt -e bash -c 'faraday && zsh'" \
+           "delAllHost.py" "urxvt -e bash -c 'delAllHost.py && zsh'" \
+           "delAllServiceClosed.py" "urxvt -e bash -c 'delAllServiceClosed.py && zsh'" \
+           "fplugin" "urxvt -e bash -c 'fplugin && zsh'" \
+           "getAllCreds.py" "urxvt -e bash -c 'getAllCreds.py && zsh'" \
+           "getAllHosts.py" "urxvt -e bash -c 'getAllHosts.py && zsh'" \
+           "getAllIps.py" "urxvt -e bash -c 'getAllIps.py && zsh'" \
+           "getAllIpsInterfaces.py" "urxvt -e bash -c 'getAllIpsInterfaces.py && zsh'" \
+           "getAllOs.py" "urxvt -e bash -c 'getAllOs.py && zsh'" \
+           "getAllTelnet.py" "urxvt -e bash -c 'getAllTelnet.py && zsh'" \
+           "getAllVnc.py" "urxvt -e bash -c 'getAllVnc.py && zsh'" \
+           "getAllVulnsCSV.py" "urxvt -e bash -c 'getAllVulnsCSV.py && zsh'" \
+           "getAllWebservers.py" "urxvt -e bash -c 'getAllWebservers.py && zsh'" \
+           "fhttp" "urxvt -e bash -c 'fhttp -h && zsh'" \
+           "fimap" "urxvt -e bash -c 'fimap -h && zsh'" \
+           "firewalk" "urxvt -e bash -c 'firewalk -h && zsh'" \
+           "frisbeelite" "urxvt -e bash -c 'frisbeelite -h && zsh'" \
+           "freport" "urxvt -e bash -c 'freport && zsh'" \
+           "ftest" "urxvt -e bash -c 'ftest && zsh'" \
+           "ftestd" "urxvt -e bash -c 'ftestd && zsh'" \
+           "ftp-fuzz" "urxvt -e bash -c 'ftp-fuzz -h && zsh'" \
+           "fusil-clamav" "urxvt -e bash -c 'fusil-clamav && zsh'" \
+           "fusil-firefox" "urxvt -e bash -c 'fusil-firefox && zsh'" \
+           "fusil-gettext" "urxvt -e bash -c 'fusil-gettext && zsh'" \
+           "fusil-gimp" "urxvt -e bash -c 'fusil-gimp && zsh'" \
+           "fusil-gstreamer" "urxvt -e bash -c 'fusil-gstreamer && zsh'" \
+           "fusil-imagemagick" "urxvt -e bash -c 'fusil-imagemagick && zsh'" \
+           "fusil-libc-printf" "urxvt -e bash -c 'fusil-libc-printf && zsh'" \
+           "fusil-mplayer" "urxvt -e bash -c 'fusil-mplayer && zsh'" \
+           "fusil-ogg123" "urxvt -e bash -c 'fusil-ogg123 && zsh'" \
+           "fusil-php" "urxvt -e bash -c 'fusil-php && zsh'" \
+           "fusil-poppler" "urxvt -e bash -c 'fusil-poppler && zsh'" \
+           "fusil-python" "urxvt -e bash -c 'fusil-python && zsh'" \
+           "fusil-vlc" "urxvt -e bash -c 'fusil-vlc && zsh'" \
+           "fusil-wizzard" "urxvt -e bash -c 'fusil-wizzard && zsh'" \
+           "fusil-zzuf" "urxvt -e bash -c 'fusil-zzuf && zsh'" \
+           "fuzzball2" "urxvt -e bash -c 'fuzzball2 -h && zsh'" \
+           "fuzzdiff" "urxvt -e bash -c 'fuzzdiff && zsh'" \
+           "hexorbase" "urxvt -e bash -c 'hexorbase && zsh'" \
+           "http-fuzz" "urxvt -e bash -c 'http-fuzz && zsh'" \
+           "httpextract" "urxvt -e bash -c 'httpextract -h && zsh'" \
+           "httpforge" "urxvt -e bash -c 'httpforge -h && zsh'" \
+           "httpsend" "urxvt -e bash -c 'httpsend -h && zsh'" \
+           "hawk" "urxvt -e bash -c 'hawk --help && zsh'" \
+           "hwk-eagle" "urxvt -e bash -c 'hwk-eagle --help && zsh'" \
+           "ikeprober" "urxvt -e bash -c 'ikeprober && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "ingumagui" "urxvt -e bash -c 'ingumagui && zsh'" \
+           "jbrofuzz" "urxvt -e bash -c 'jbrofuzz && zsh'" \
+           "lfi-autopwn" "urxvt -e bash -c 'lfi-autopwn && zsh'" \
+           "lfi_fuzzploit" "urxvt -e bash -c 'lfi_fuzzploit && zsh'" \
+           "lfi-scanner" "urxvt -e bash -c 'lfi-scanner -h && zsh'" \
+           "lfi-sploiter" "urxvt -e bash -c 'lfi-sploiter -h && zsh'" \
+           "lfimap" "urxvt -e bash -c 'lfimap -h && zsh'" \
+           "liffy" "urxvt -e bash -c 'liffy -h && zsh'" \
+           "lbb.db" "urxvt -e bash -c 'lbb.db && zsh'" \
+           "littleblackbox" "urxvt -e bash -c 'littleblackbox -h && zsh'" \
+           "clientgen" "urxvt -e bash -c 'clientgen && zsh'" \
+           "maligno_srv" "urxvt -e bash -c 'maligno_srv && zsh'" \
+           "mdk3" "urxvt -e bash -c 'mdk3 --help && zsh'" \
+           "melkor" "urxvt -e bash -c 'melkor -h && zsh'" \
+           "msfbinscan" "urxvt -e bash -c 'msfbinscan -h && zsh'" \
+           "msfcli" "urxvt -e bash -c 'msfcli -h && zsh'" \
+           "msfconsole" "urxvt -e bash -c 'msfconsole -h && zsh'" \
+           "msfd" "urxvt -e bash -c 'msfd -h && zsh'" \
+           "msfelfscan" "urxvt -e bash -c 'msfelfscan -h && zsh'" \
+           "msfencode" "urxvt -e bash -c 'msfencode -h && zsh'" \
+           "msfmachscan" "urxvt -e bash -c 'msfmachscan -h && zsh'" \
+           "msfpayload" "urxvt -e bash -c 'msfpayload -h && zsh'" \
+           "msfpescan" "urxvt -e bash -c 'msfpescan -h && zsh'" \
+           "msfrop" "urxvt -e bash -c 'msfrop -h && zsh'" \
+           "msfrpc" "urxvt -e bash -c 'msfrpc -h && zsh'" \
+           "msfrpcd" "urxvt -e bash -c 'msfrpcd -h && zsh'" \
+           "msfupdate" "urxvt -e bash -c 'msfupdate -h && zsh'" \
+           "msfvenom" "urxvt -e bash -c 'msfvenom -h && zsh'" \
+           "stager_reverse_https.bin" "urxvt -e bash -c 'stager_reverse_https.bin && zsh'" \
+           "stty" "urxvt -e bash -c 'stty && zsh'" \
+           "nemesis" "urxvt -e bash -c 'nemesis -h && zsh'" \
+           "nemesis" "urxvt -e bash -c 'nemesis -h && zsh'" \
+           "netzob" "urxvt -e bash -c 'netzob -h && zsh'" \
+           "nikto" "urxvt -e bash -c 'nikto -H && zsh'" \
+           "nimbostratus" "urxvt -e bash -c 'nimbostratus -h && zsh'" \
+           "notspikefile" "urxvt -e bash -c 'notspikefile && zsh'" \
+           "nsoq" "urxvt -e bash -c 'nsoq && zsh'" \
+           "ohrwurm" "urxvt -e bash -c 'ohrwurm -h && zsh'" \
+           "oscanner" "urxvt -e bash -c 'oscanner -h && zsh'" \
+           "reportviewer" "urxvt -e bash -c 'reportviewer -h && zsh'" \
+           "owtf" "urxvt -e bash -c 'owtf && zsh'" \
+           "peach" "urxvt -e bash -c 'peach -h && zsh'" \
+           "xed" "urxvt -e bash -c 'xed && zsh'" \
+           "xed" "urxvt -e bash -c 'xed && zsh'" \
+           "pinbin" "urxvt -e bash -c 'pinbin && zsh'" \
+           "pindb" "urxvt -e bash -c 'pindb && zsh'" \
+           "pinbin" "urxvt -e bash -c 'pinbin && zsh'" \
+           "pindb" "urxvt -e bash -c 'pindb && zsh'" \
+           "pentbox" "urxvt -e bash -c 'pentbox && zsh'" \
+           "pmcma" "urxvt -e bash -c 'pmcma && zsh'" \
+           "powerfuzzer" "urxvt -e bash -c 'powerfuzzer && zsh'" \
+           "pytbull" "urxvt -e bash -c 'pytbull -h && zsh'" \
+           "radamsa" "urxvt -e bash -c 'radamsa -h && zsh'" \
+           "ratproxy" "urxvt -e bash -c 'ratproxy -h && zsh'" \
+           "dhcp-responder" "urxvt -e bash -c 'dhcp-responder -h && zsh'" \
+           "responder" "urxvt -e bash -c 'responder -h && zsh'" \
+           "sb0x" "urxvt -e bash -c 'sb0x -h && zsh'" \
+           "scout2" "urxvt -e bash -c 'scout2 -h && zsh'" \
+           "sfo" "urxvt -e bash -c 'sfo && zsh'" \
+           "sfuzz" "urxvt -e bash -c 'sfuzz -h && zsh'" \
+           "shortfuzzy" "urxvt -e bash -c 'shortfuzzy -h && zsh'" \
+           "sfscandiff" "urxvt -e bash -c 'sfscandiff -h && zsh'" \
+           "skipfish" "urxvt -e bash -c 'skipfish -h && zsh'" \
+           "smartphone-pentest-framework" "urxvt -e bash -c 'smartphone-pentest-framework -h && zsh'" \
+           "AndroidAgent-debug-unaligned.apk" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk && zsh'" \
+           "AndroidAgent-debug-unaligned.apk.d" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk.d && zsh'" \
+           "AndroidAgent-debug.apk" "urxvt -e bash -c 'AndroidAgent-debug.apk && zsh'" \
+           "AndroidAgent.ap_" "urxvt -e bash -c 'AndroidAgent.ap_ && zsh'" \
+           "AndroidAgent.ap_.d" "urxvt -e bash -c 'AndroidAgent.ap_.d && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidAgent.apk" "urxvt -e bash -c 'AndroidAgent.apk && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "androidagent.jar" "urxvt -e bash -c 'androidagent.jar && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.jar" "urxvt -e bash -c 'classes.jar && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk.d" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk.d && zsh'" \
+           "BlankFrontEnd-debug.apk" "urxvt -e bash -c 'BlankFrontEnd-debug.apk && zsh'" \
+           "BlankFrontEnd.ap_" "urxvt -e bash -c 'BlankFrontEnd.ap_ && zsh'" \
+           "BlankFrontEnd.ap_.d" "urxvt -e bash -c 'BlankFrontEnd.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "MapsDemo-debug-unaligned.apk" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk && zsh'" \
+           "MapsDemo-debug-unaligned.apk.d" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk.d && zsh'" \
+           "MapsDemo-debug.apk" "urxvt -e bash -c 'MapsDemo-debug.apk && zsh'" \
+           "MapsDemo.ap_" "urxvt -e bash -c 'MapsDemo.ap_ && zsh'" \
+           "MapsDemo.ap_.d" "urxvt -e bash -c 'MapsDemo.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidApp.apk" "urxvt -e bash -c 'FrameworkAndroidApp.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "ar" "urxvt -e bash -c 'ar && zsh'" \
+           "as" "urxvt -e bash -c 'as --help && zsh'" \
+           "c++" "urxvt -e bash -c 'c++ && zsh'" \
+           "g++" "urxvt -e bash -c 'g++ && zsh'" \
+           "gcc" "urxvt -e bash -c 'gcc && zsh'" \
+           "ld" "urxvt -e bash -c 'ld && zsh'" \
+           "ld.bfd" "urxvt -e bash -c 'ld.bfd && zsh'" \
+           "ld.gold" "urxvt -e bash -c 'ld.gold && zsh'" \
+           "ld.mcld" "urxvt -e bash -c 'ld.mcld && zsh'" \
+           "nm" "urxvt -e bash -c 'nm -h && zsh'" \
+           "objcopy" "urxvt -e bash -c 'objcopy && zsh'" \
+           "objdump" "urxvt -e bash -c 'objdump && zsh'" \
+           "ranlib" "urxvt -e bash -c 'ranlib && zsh'" \
+           "strip" "urxvt -e bash -c 'strip && zsh'" \
+           "a.out" "urxvt -e bash -c 'a.out && zsh'" \
+           "arm-linux-androideabi-addr2line" "urxvt -e bash -c 'arm-linux-androideabi-addr2line && zsh'" \
+           "arm-linux-androideabi-ar" "urxvt -e bash -c 'arm-linux-androideabi-ar && zsh'" \
+           "arm-linux-androideabi-as" "urxvt -e bash -c 'arm-linux-androideabi-as && zsh'" \
+           "arm-linux-androideabi-c++" "urxvt -e bash -c 'arm-linux-androideabi-c++ && zsh'" \
+           "arm-linux-androideabi-c++filt" "urxvt -e bash -c 'arm-linux-androideabi-c++filt && zsh'" \
+           "arm-linux-androideabi-cpp" "urxvt -e bash -c 'arm-linux-androideabi-cpp && zsh'" \
+           "arm-linux-androideabi-elfedit" "urxvt -e bash -c 'arm-linux-androideabi-elfedit && zsh'" \
+           "arm-linux-androideabi-g++" "urxvt -e bash -c 'arm-linux-androideabi-g++ && zsh'" \
+           "arm-linux-androideabi-gcc" "urxvt -e bash -c 'arm-linux-androideabi-gcc && zsh'" \
+           "arm-linux-androideabi-gcc-4.6" "urxvt -e bash -c 'arm-linux-androideabi-gcc-4.6 && zsh'" \
+           "arm-linux-androideabi-gcov" "urxvt -e bash -c 'arm-linux-androideabi-gcov && zsh'" \
+           "arm-linux-androideabi-gdb" "urxvt -e bash -c 'arm-linux-androideabi-gdb && zsh'" \
+           "arm-linux-androideabi-gdbtui" "urxvt -e bash -c 'arm-linux-androideabi-gdbtui && zsh'" \
+           "arm-linux-androideabi-gprof" "urxvt -e bash -c 'arm-linux-androideabi-gprof && zsh'" \
+           "arm-linux-androideabi-ld" "urxvt -e bash -c 'arm-linux-androideabi-ld && zsh'" \
+           "arm-linux-androideabi-ld.bfd" "urxvt -e bash -c 'arm-linux-androideabi-ld.bfd && zsh'" \
+           "arm-linux-androideabi-ld.gold" "urxvt -e bash -c 'arm-linux-androideabi-ld.gold && zsh'" \
+           "arm-linux-androideabi-ld.mcld" "urxvt -e bash -c 'arm-linux-androideabi-ld.mcld && zsh'" \
+           "arm-linux-androideabi-nm" "urxvt -e bash -c 'arm-linux-androideabi-nm && zsh'" \
+           "arm-linux-androideabi-objcopy" "urxvt -e bash -c 'arm-linux-androideabi-objcopy && zsh'" \
+           "arm-linux-androideabi-objdump" "urxvt -e bash -c 'arm-linux-androideabi-objdump && zsh'" \
+           "arm-linux-androideabi-ranlib" "urxvt -e bash -c 'arm-linux-androideabi-ranlib && zsh'" \
+           "arm-linux-androideabi-readelf" "urxvt -e bash -c 'arm-linux-androideabi-readelf && zsh'" \
+           "arm-linux-androideabi-run" "urxvt -e bash -c 'arm-linux-androideabi-run && zsh'" \
+           "arm-linux-androideabi-size" "urxvt -e bash -c 'arm-linux-androideabi-size && zsh'" \
+           "arm-linux-androideabi-strings" "urxvt -e bash -c 'arm-linux-androideabi-strings && zsh'" \
+           "arm-linux-androideabi-strip" "urxvt -e bash -c 'arm-linux-androideabi-strip && zsh'" \
+           "smtp-fuzz" "urxvt -e bash -c 'smtp-fuzz && zsh'" \
+           "smtptx" "urxvt -e bash -c 'smtptx -h && zsh'" \
+           "sn00p" "urxvt -e bash -c 'sn00p -h && zsh'" \
+           "snmpfuzz" "urxvt -e bash -c 'snmpfuzz && zsh'" \
+           "spiderpig-pdffuzzer" "urxvt -e bash -c 'spiderpig-pdffuzzer && zsh'" \
+           "spike-citrix" "urxvt -e bash -c 'spike-citrix && zsh'" \
+           "spike-closed-source_web_server_fuzz" "urxvt -e bash -c 'spike-closed-source_web_server_fuzz && zsh'" \
+           "spike-dceoversmb" "urxvt -e bash -c 'spike-dceoversmb && zsh'" \
+           "spike-dltest" "urxvt -e bash -c 'spike-dltest && zsh'" \
+           "spike-do-post" "urxvt -e bash -c 'spike-do-post && zsh'" \
+           "spike-generic-chunked" "urxvt -e bash -c 'spike-generic-chunked && zsh'" \
+           "spike-generic-listen_tcp" "urxvt -e bash -c 'spike-generic-listen_tcp && zsh'" \
+           "spike-generic-send_tcp" "urxvt -e bash -c 'spike-generic-send_tcp && zsh'" \
+           "spike-generic-send_udp" "urxvt -e bash -c 'spike-generic-send_udp && zsh'" \
+           "spike-generic-web_server_fuzz" "urxvt -e bash -c 'spike-generic-web_server_fuzz && zsh'" \
+           "spike-generic-web_server_fuzz2" "urxvt -e bash -c 'spike-generic-web_server_fuzz2 && zsh'" \
+           "spike-gopherd" "urxvt -e bash -c 'spike-gopherd && zsh'" \
+           "spike-halflife" "urxvt -e bash -c 'spike-halflife && zsh'" \
+           "spike-line-send_tcp" "urxvt -e bash -c 'spike-line-send_tcp && zsh'" \
+           "spike-msrpcfuzz" "urxvt -e bash -c 'spike-msrpcfuzz && zsh'" \
+           "spike-msrpcfuzz-udp" "urxvt -e bash -c 'spike-msrpcfuzz-udp && zsh'" \
+           "spike-ntlm-brute" "urxvt -e bash -c 'spike-ntlm-brute && zsh'" \
+           "spike-ntlm2" "urxvt -e bash -c 'spike-ntlm2 && zsh'" \
+           "spike-pmspike" "urxvt -e bash -c 'spike-pmspike && zsh'" \
+           "spike-post-fuzz" "urxvt -e bash -c 'spike-post-fuzz && zsh'" \
+           "spike-post-spike" "urxvt -e bash -c 'spike-post-spike && zsh'" \
+           "spike-quake" "urxvt -e bash -c 'spike-quake && zsh'" \
+           "spike-quakeserver" "urxvt -e bash -c 'spike-quakeserver && zsh'" \
+           "spike-sendmsrpc" "urxvt -e bash -c 'spike-sendmsrpc && zsh'" \
+           "spike-ss-spike" "urxvt -e bash -c 'spike-ss-spike && zsh'" \
+           "spike-statd-spike" "urxvt -e bash -c 'spike-statd-spike && zsh'" \
+           "spike-sunrpcfuzz" "urxvt -e bash -c 'spike-sunrpcfuzz && zsh'" \
+           "spike-webfuzz" "urxvt -e bash -c 'spike-webfuzz && zsh'" \
+           "spike-x11-spike" "urxvt -e bash -c 'spike-x11-spike && zsh'" \
+           "qtmsfconsole" "urxvt -e bash -c 'qtmsfconsole && zsh'" \
+           "sps" "urxvt -e bash -c 'sps -h && zsh'" \
+           "sqlbrute" "urxvt -e bash -c 'sqlbrute -h && zsh'" \
+           "sqlmap" "urxvt -e bash -c 'sqlmap -hh && zsh'" \
+           "sqlninja" "urxvt -e bash -c 'sqlninja -h && zsh'" \
+           "taof" "urxvt -e bash -c 'taof && zsh'" \
+           "tcpcontrol-fuzzer.pl" "urxvt -e bash -c 'tcpcontrol-fuzzer.pl && zsh'" \
+           "tcpjunk" "urxvt -e bash -c 'tcpjunk -h && zsh'" \
+           "termineter" "urxvt -e bash -c 'termineter -h && zsh'" \
+           "tftp-fuzz" "urxvt -e bash -c 'tftp-fuzz -h && zsh'" \
+           "trinity" "urxvt -e bash -c 'trinity -h && zsh'" \
+           "umap" "urxvt -e bash -c 'umap -h && zsh'" \
+           "uniofuzz" "urxvt -e bash -c 'uniofuzz -h && zsh'" \
+           "uniscan" "urxvt -e bash -c 'uniscan --help && zsh'" \
+           "vane" "urxvt -e bash -c 'vane -h && zsh'" \
+           "w3af" "urxvt -e bash -c 'w3af -h && zsh'" \
+           "w3af-gui" "urxvt -e bash -c 'w3af-gui && zsh'" \
+           "wapiti" "urxvt -e bash -c 'wapiti -h && zsh'" \
+           "wapiti-cookie" "urxvt -e bash -c 'wapiti-cookie -h && zsh'" \
+           "wapiti-getcookie" "urxvt -e bash -c 'wapiti-getcookie -h && zsh'" \
+           "webscarab" "urxvt -e bash -c 'webscarab && zsh'" \
+           "webshag_cli" "urxvt -e bash -c 'webshag_cli -h && zsh'" \
+           "webshag_gui" "urxvt -e bash -c 'webshag_gui && zsh'" \
+           "websploit" "urxvt -e bash -c 'websploit && zsh'" \
+           "wfuzz" "urxvt -e bash -c 'wfuzz && zsh'" \
+           "witchxtool" "urxvt -e bash -c 'witchxtool -h && zsh'" \
+           "wpscan" "urxvt -e bash -c 'wpscan -h && zsh'" \
+           "wsfuzzer" "urxvt -e bash -c 'wsfuzzer && zsh'" \
+           "xsser" "urxvt -e bash -c 'xsser -h && zsh'" \
+           "xsss" "urxvt -e bash -c 'xsss && zsh'" \
+           "xssscan" "urxvt -e bash -c 'xssscan -h && zsh'" \
+           "xsssniper" "urxvt -e bash -c 'xsssniper -h && zsh'" \
+           "zaproxy" "urxvt -e bash -c 'zaproxy && zsh'" \
+           "zzuf" "urxvt -e bash -c 'zzuf -h && zsh'" \
+           "zzuf-zzcat" "urxvt -e bash -c 'zzuf-zzcat && zsh'" \
