@@ -1,17 +1,16 @@
 #!/usr/bin/bash
 # Inspiration:
 #  http://www.desertsol.com/~kevin/ratpoison/
-ratpoison_dir=$HOME/.ratpoison
-ratpoison=/usr/bin/ratpoison
-xtoolwait="timeout --signal=KILL 5 $ratpoison_dir/xtoolwait -noprop"
+tools_dir=$HOME/.tools
+xtoolwait="timeout --signal=KILL 5 $tools_dir/xtoolwait -noprop"
 workspace="bspc desktop -f"
-screen_run="$ratpoison_dir/screen_run"
+screen_run="$tools_dir/screen_run"
 term="/usr/bin/urxvt -e"
 
 
 #######################################################################
 #
-# If this script is run with no arguments, ratpoison and all workspaces are loaded.
+# If this script is run with no arguments, tools and all workspaces are loaded.
 # If a workspace number is given as the argument, only that workspace is initialized.
 #
 #######################################################################
@@ -35,10 +34,10 @@ xsetroot -cursor_name left_ptr
 wmname LG3D
 
 # Background
-~/.ratpoison/wp change &
+~/.tools/wp change &
 
 # Init clipboard
-~/.ratpoison/clipboard init
+~/.tools/clipboard init
 
 #Run dropbox
 #dropboxd &
@@ -59,7 +58,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker '~/.ratpoison/lock' -time 11 -corners 0-00 &
+xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
@@ -98,7 +97,7 @@ else
 fi
 
 #
-# Startup the ratpoison window manager first
+# Startup the window manager
 sxhkd &
 if [ $run_everything = true ]; then
     bspwm 2>&1 &
@@ -110,7 +109,7 @@ fi
 #######################################################################
 #
 # I create a section for each workspace so that individual workspaces 
-# can be reloaded without reloading ratpoison, which doesn't work so well.
+# can be reloaded without reloading tools, which doesn't work so well.
 #
 #######################################################################
 
@@ -223,7 +222,7 @@ fi
 # Default workspace: 1(ranger)
 #	$workspace ^1
 
-#~/.ratpoison/panel/panel &
+#~/.tools/panel/panel &
 #sleep 2 && rpbar
 
 #######################################################################

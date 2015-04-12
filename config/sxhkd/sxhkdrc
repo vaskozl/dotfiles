@@ -3,13 +3,13 @@
 #
 
 grave ; a
-	~/.ratpoison/menu/main
+	~/.tools/menu/main
 
 grave ; shift + c
-	~/.ratpoison/wp change
+	~/.tools/wp change
 
 grave ; f
-	~/.ratpoison/spotlight
+	~/.tools/spotlight
 
 grave ; alt + Escape
 	bspc quit
@@ -126,7 +126,7 @@ grave ; space
 	urxvt
 
 grave ; slash
-	~/.ratpoison/create_frame
+	~/.tools/create_frame
 
 super + u
 	uzbl-browser
@@ -138,7 +138,7 @@ super + s
 	skype
 
 super + shift + L
-	~/.ratpoison/lock
+	~/.tools/lock
 
 
 #
@@ -151,22 +151,22 @@ grave ; Y
 
 
 grave ; p ; {1-9}
-	~/.ratpoison/clipboard paste {1-9}
+	~/.tools/clipboard paste {1-9}
 
 grave ; p ; p
-	~/.ratpoison/clipboard menu_paste 
+	~/.tools/clipboard menu_paste 
 
 grave ; p ; u
-	~/.ratpoison/clipboard push
+	~/.tools/clipboard push
 
 grave ; p ; o
-	~/.ratpoison/clipboard pop
+	~/.tools/clipboard pop
 
 grave ; y ; {1-9}
-	~/.ratpoison/clipboard set {1-9}
+	~/.tools/clipboard set {1-9}
 
 grave ; y ; y
-	~/.ratpoison/clipboard menu_set 
+	~/.tools/clipboard menu_set 
 
 #
 # Paste and Image share hotkeys
