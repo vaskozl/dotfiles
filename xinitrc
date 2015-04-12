@@ -24,6 +24,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+# Make C-v always insert selection
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+~
 # give cursor
 xsetroot -cursor_name left_ptr 
 
@@ -55,7 +59,7 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-#xautolock -detectsleep -locker '~/.ratpoison/lock' -time 11 -corners 0-00 &
+xautolock -detectsleep -locker '~/.ratpoison/lock' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
