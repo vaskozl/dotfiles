@@ -13,10 +13,10 @@ alias remouse='sudo modprobe -r bcm5974'
 alias enmouse='sudo modprobe bcm5974'
 
 # Notes
-alias physics='vim ~/Secure/Notes/Physics/physics.txt'
-alias chemistry='vim ~/Secure/Notes/Chemistry/chemistry.txt'
-alias english='vim ~/Secure/Notes/English/english.txt'
-alias swedish='vim ~/Secure/Notes/Swedish/swedish.txt'
+alias physics='vim ~/Sync/Notes/Physics/physics.txt'
+alias chemistry='vim ~/Sync/Notes/Chemistry/chemistry.txt'
+alias english='vim ~/Sync/Notes/English/english.txt'
+alias swedish='vim ~/Sync/Notes/Swedish/swedish.txt'
 
 #zombify
 alias zombify='sudo -u dork /home/vasko/dorknet/dork zombify'
