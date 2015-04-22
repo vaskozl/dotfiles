@@ -501,7 +501,7 @@ set formfiller spawn @scripts_dir/formfiller.sh
 @cbind  g>              = event LAST_TAB
 @cbind  l              = event NEXT_TAB
 @cbind  h              = event PREV_TAB
-@cbind  gi<index:>_     = event GOTO_TAB %s
+#@cbind  gi<index:>_     = event GOTO_TAB %s
 @cbind  <Ctrl><Left>    = event MOVE_CURRENT_TAB_LEFT
 @cbind  <Ctrl><Right>   = event MOVE_CURRENT_TAB_RIGHT
 @cbind  gm<index:>_     = event MOVE_CURRENT_TAB %s
