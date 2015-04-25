@@ -26,7 +26,7 @@ fi
 # Make C-v always insert selection
 autocutsel -fork &
 autocutsel -selection PRIMARY -fork &
-~
+
 # give cursor
 xsetroot -cursor_name left_ptr 
 

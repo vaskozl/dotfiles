@@ -18,13 +18,18 @@ set record      = "+dove/Sent"
 
 mailboxes +INBOX
 
+
+# View good/bad mails
+#    macro	index	S	"<limit>~h \"X-Spam-Flag: YES\"<enter><last-entry>"			"Show only SPAM"
+#    macro	index	s	"<limit>~h \"X-Spam-Status: No\"<enter><last-entry>"			"Hide SPAM"
+
 macro index D \
     "<save-message>+dove/Trash<enter>" \
     "move message to the trash"
 
-macro index S \
-    "<save-message>+dove/Spam<enter>" \
-    "mark message as spam"
+#macro index S \
+#    "<save-message>+dove/Spam<enter>" \
+#    "mark message as spam"
 
 # Dove conf
 set from = "v@skozl.com"

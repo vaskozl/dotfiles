@@ -15,7 +15,7 @@ localfolders = ~/.mail/dove
 
 [Repository Dovecot-Remote]
 type = IMAP
-#idlefolders = ['INBOX']
+idlefolders = ['INBOX']
 remotehost = skozl.com
 remoteuser = v@skozl.com
 #remotepass = youwish
