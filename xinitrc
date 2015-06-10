@@ -23,9 +23,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
-# Make C-v always insert selection
-autocutsel -fork &
-autocutsel -selection PRIMARY -fork &
+# Make C-v always insert selection (disabled due to too much cpu wakepus)
+#autocutsel -fork &
+#autocutsel -selection PRIMARY -fork &
 
 # give cursor
 xsetroot -cursor_name left_ptr 
@@ -134,7 +134,8 @@ fi
 # workspace 3 : newsbeuter
 if [ $run_everything = true -o $run_workspace = 3 ]; then
     $workspace ^2
-    $xtoolwait $term newsbeuter
+#    Memory leak in newsbeuter
+#    $xtoolwait $term newsbeuter
 fi
 
 # workspace 4 : admin workspace

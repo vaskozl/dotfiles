@@ -101,7 +101,7 @@ nnoremap j gj
 nnoremap k gk
 
 "set leader to comma
-let mapleader = ","
+let mapleader = "\<Space>"
 
 
 "Math with qalc
@@ -127,4 +127,7 @@ set clipboard^=unnamed
 set undodir=~/.vim/undodir//
 
 
+"Open new file
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
 

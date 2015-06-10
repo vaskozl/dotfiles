@@ -1,7 +1,7 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 setopt appendhistory autocd extendedglob correct
 unsetopt beep
 bindkey -v
@@ -19,13 +19,12 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
 
 source ~/.bash_aliases
 
-export PS1='%n@%m:%~%% ' 
+#export PS1='%n@%m:%~%% ' 
 
 export GPGKEY="895134C5"
-export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
+export PATH="$HOME/bin:$PATH"
 export EDITOR="vim"
 export BROWSER="~/.ratposon/firesend"
-export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
 export LD_LIBRARY_PATH=/usr/local/lib
 export wiki_browser='firefox'
 
@@ -33,5 +32,7 @@ PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
+
 #fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
 archey3
+

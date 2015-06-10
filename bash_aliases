@@ -1,7 +1,5 @@
-#lsblk to list all  partitions
 #module for mouse is bcm5974
 # pacat /dev/urandom > padsp
-# to enable disable services sudo update-rc.d apache2 disable
 # for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 # awesome perl echo 'one two three'| perl -lne 'print $1 if /one(.*)three/' 
@@ -82,7 +80,8 @@ alias scrschool='$HOME/.ratpoison/screen_run school'
 # Switch layouts
 alias qwerty='setxkbmap us'
 alias bgkey='setxkbmap bg'
-alias colemak='setxkbmap us -variant colemak'
+alias colemak='setxkbmap uc -variant colemak && xset r 64 && xset r rate 170 60'
+alias extmak='setxkbmap us4 -variant colemak && xset r 64 && xset r rate 170 60'
 alias svenmak='setxkbmap us2 -variant colemak'
 alias ansi='setxkbmap us3 -variant colemak'
 

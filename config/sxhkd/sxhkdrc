@@ -178,6 +178,10 @@ grave ; P
 
 grave;  g 
 	exec ~/bin/safeimg
+
+grave;  L 
+	exec ~/bin/safelink
+
 #
 # music control
 #
@@ -243,7 +247,7 @@ grave ; T
 
 # Mail reload
 super + m 
-	offlineimap -o
+	mbsync -a
 
 # make sxhkd reload its configuration files:
 grave ; Escape

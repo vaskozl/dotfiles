@@ -55,5 +55,5 @@ URxvt.keysym.M-s: perl:keyboard-select:search
 ! M-u to select open copy links
 !URxvt.perl-ext-common: ...,url-select
 URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /home/vasko/.ratpoison/firesend
+URxvt.url-select.launcher: /home/vasko/.tools/firesend
 

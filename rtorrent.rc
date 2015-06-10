@@ -81,8 +81,8 @@ encryption = require,allow_incoming,require_RC4
 # "auto" (start and stop DHT as needed), or "on" (start DHT immediately).
 # The default is "off". For DHT to work, a session directory must be defined.
 # 
-# dht = auto
-dht = off
+ dht = auto
+#dht = off
 
 # UDP port to use for DHT. 
 # 

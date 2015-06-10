@@ -11,7 +11,7 @@ set mbox_type   = Maildir
 set sendmail    = /usr/bin/msmtp
 
 set folder      = ~/.mail/
-set spoolfile   = "+dove/INBOX"
+set spoolfile   = "+dove/Inbox"
 set mbox        = "+dove/Archive"
 set postponed   = "+dove/Drafts"
 set record      = "+dove/Sent"
@@ -74,7 +74,7 @@ ignore x-alt-email x-orcpt company division x-warning
 
 
 # Gmail-style keyboard shortcuts
-macro index,pager gi "<change-folder>=dove/INBOX<enter>" "Go to inbox"
+macro index,pager gi "<change-folder>=dove/Inbox<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=dove/Archive<tab><enter>" "Go to all mail"
 macro index,pager gs "<change-folder>=dove/Sent<tab><enter>" "Go to sent mail"
 macro index,pager gj "<change-folder>=dove/Spam<enter>" "Go to spam"
@@ -109,6 +109,9 @@ bind index R        group-reply
 
 # Write in Aliases when opening email
 set display_filter='$HOME/.mutt/alias.sh'
+
+# Remove + on wraps
+unset markers
 
 # Mutt LED notification 
 set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
