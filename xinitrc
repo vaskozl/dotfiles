@@ -65,8 +65,8 @@ xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 # Start some programs
 #dropbox start
-~/bin/offline-run
-#~/bin/xflux -z 24531 -l 56 -g 13
+~/bin/offline-run &
+#xflux -z 24531 -l 56 -g 13
 #sudo nm-applet &
 
 #Disable annoying point tap
@@ -203,8 +203,8 @@ fi
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace ^11
-    mpd
-    $xtoolwait $term ncmpcpp
+    mopidy &
+    $xtoolwait $term ncmpc
 fi
 
 # workspace 13 : volume workspace

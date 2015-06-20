@@ -113,11 +113,11 @@ nnoremap <leader>v :!open '<cfile>'<CR>
 set isfname+=32
 
 "Make tab into another escape
-nnoremap <Tab> <Esc>
-vnoremap <Tab> <Esc>gV
-onoremap <Tab> <Esc>
-inoremap <Tab> <Esc>`^
-inoremap <S-Tab> <Tab>
+"nnoremap <Tab> <Esc>
+"vnoremap <Tab> <Esc>gV
+"onoremap <Tab> <Esc>
+"inoremap <Tab> <Esc>`^
+"inoremap <S-Tab> <Tab>
 set enc=utf-8
 
 "sync paste buffer and vims register
