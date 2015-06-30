@@ -23,7 +23,7 @@ source ~/.bash_aliases
 
 export GPGKEY="895134C5"
 export PATH="$HOME/bin:$PATH"
-export EDITOR="vim"
+export EDITOR="nvim"
 export BROWSER="~/.ratposon/firesend"
 export LD_LIBRARY_PATH=/usr/local/lib
 export wiki_browser='firefox'

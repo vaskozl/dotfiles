@@ -43,8 +43,8 @@ nnoremap l gt
 nnoremap h gT
 nnoremap s <C-d>
 nnoremap e <C-u>
-nnoremap w :open<Space>wikilocal<Space>
-nnoremap W :open<Space>wikipedia<Space>
+nnoremap W :open<Space>wikilocal<Space>
+nnoremap w :open<Space>wikipedia<Space>
 nnoremap x d
 nnoremap ( H
 nnoremap ) L

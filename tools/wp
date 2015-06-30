@@ -1,5 +1,4 @@
 #!/bin/bash
-
 function main {
 
   # Snippet from SO user Dave Dopson http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in

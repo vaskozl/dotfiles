@@ -67,7 +67,7 @@ xrdb -merge ~/.Xdefaults
 #dropbox start
 ~/bin/offline-run &
 #xflux -z 24531 -l 56 -g 13
-#sudo nm-applet &
+nm-applet &
 
 #Disable annoying point tap
 synclient PalmDetect=1
@@ -134,8 +134,7 @@ fi
 # workspace 3 : newsbeuter
 if [ $run_everything = true -o $run_workspace = 3 ]; then
     $workspace ^2
-#    Memory leak in newsbeuter
-#    $xtoolwait $term newsbeuter
+    $xtoolwait $term newsbeuter
 fi
 
 # workspace 4 : admin workspace
@@ -203,8 +202,8 @@ fi
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace ^11
-    mopidy &
-    $xtoolwait $term ncmpc
+    mpd &
+    $xtoolwait $term ncmpcpp
 fi
 
 # workspace 13 : volume workspace
