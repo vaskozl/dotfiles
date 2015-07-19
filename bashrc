@@ -118,6 +118,6 @@ shopt -s cdspell
 
 export GPGKEY="B54608CC"
 export PATH="$HOME/bin:$HOME/bin/perl6:$PATH"
-export EDITOR="nvim"
+export EDITOR="vim"
 export PENTADACTYL_RUNTIME="$HOME/.pentadactyl"
 export LD_LIBRARY_PATH=/usr/local/lib       

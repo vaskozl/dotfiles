@@ -16,7 +16,7 @@ set mbox        = "+dove/Archive"
 set postponed   = "+dove/Drafts"
 set record      = "+dove/Sent"
 
-mailboxes +INBOX
+mailboxes +Inbox
 
 
 # View good/bad mails

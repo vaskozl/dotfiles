@@ -67,7 +67,7 @@ xrdb -merge ~/.Xdefaults
 #dropbox start
 ~/bin/offline-run &
 #xflux -z 24531 -l 56 -g 13
-nm-applet &
+#nm-applet &
 
 #Disable annoying point tap
 synclient PalmDetect=1

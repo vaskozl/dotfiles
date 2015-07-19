@@ -14,9 +14,9 @@
  
 echo "$1"
 echo "$1" | grep -q "New" > /dev/null 2>&1
+status=$?
 
-if [ $? -eq 0 ];
-then
+if [ $status -eq 0 ];then
 	xset led 1
 	touch ~/.mutt/newmail
 else 

@@ -8,7 +8,7 @@
 alias sdr='gqrx-alsa'
 # Disable mouse
 alias remouse='sudo modprobe -r bcm5974'
-alias enmouse='sudo modprobe bcm5974'
+alias enmouse='sudo modprobe bcm5974 & ~/bin/mousefix'
 
 # Notes
 alias physics='vim ~/Sync/Notes/Physics/physics.txt'
@@ -77,7 +77,7 @@ alias aria2c='aria2c -c -x5 -s10 -m0'
 alias msfconsole="msfconsole --quiet -x \"db_connect ${USER}@msf\""
 
 # Screen
-alias scradmin='$HOME/.ratpoison/screen_run admin'
+alias scradmin='$HOME/.tools/screen_run admin'
 alias scrschool='$HOME/.ratpoison/screen_run school'
 
 
