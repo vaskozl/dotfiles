@@ -137,6 +137,9 @@ super + u
 super + f
 	firefox
 
+super + v
+        vimb	
+
 super + s
 	skype
 
@@ -235,10 +238,10 @@ XF86KbdBrightnessDown
 
 
 # Keyboard layouts
-super + q 
+super + Q 
 	setxkbmap us 
 
-super + c 
+super + C 
 	setxkbmap us -variant colemak
 
 # Password

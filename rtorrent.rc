@@ -81,13 +81,13 @@ encryption = require,allow_incoming,require_RC4
 # "auto" (start and stop DHT as needed), or "on" (start DHT immediately).
 # The default is "off". For DHT to work, a session directory must be defined.
 # 
- dht = auto
+dht = auto
 #dht = off
 
 # UDP port to use for DHT. 
 # 
- dht_port = 6881
+dht_port = 6881
 
 # Enable peer exchange (for torrents not marked private)
 #
- peer_exchange = no
+peer_exchange = yes

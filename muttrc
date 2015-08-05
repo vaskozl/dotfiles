@@ -2,8 +2,8 @@
 source ~/.mutt/crypto.rc
 
 #Load aliases
-set alias_file=$HOME/.mutt/aliases.txt
-source $alias_file
+#set alias_file=$HOME/.mutt/aliases.txt
+#source $alias_file
 
 
 #Offline Imap config
@@ -34,6 +34,14 @@ macro index D \
 # Dove conf
 set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
+
+# Save contact to CardDav
+macro index,pager A "<pipe-message>pycard-import<enter>" "add sender address to pycardsyncer"
+
+# Load from CardDav
+set query_command="pc_query -m '%s'"
+
+
 
 # Change the following line to a different editor you prefer.
 set editor = "vim"
