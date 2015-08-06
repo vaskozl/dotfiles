@@ -254,3 +254,5 @@ pkill stalone
 source ~/.colors
 #convert -font DejaVuSansB -pointsize 30 -stroke $COLOR0 -strokewidth 1 -fill $COLOR11 -draw 'text 70,60 "Vasil Zlatanov -> +46 723537981 vasil.zlatanov@gmail.com" ' $background ~/.wallpaper.png &
 convert $background ~/.wallpaper.png &
+~/.config/vimb/color-gen
+~/.tools/ratcolor

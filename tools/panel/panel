@@ -9,7 +9,8 @@ mkfifo -m 777 "$PANEL_FIFO"
 
 bspc config top_padding $PANEL_HEIGHT
 bspc control --subscribe > "$PANEL_FIFO" &
-xtitle -sf 'T%s' > "$PANEL_FIFO" &
+./windows > "$PANEL_FIFO" &
+echo "D`rpws current`" > "$PANEL_FIFO" &
 volume -f 'V%i' > "$PANEL_FIFO" &
 battery -i 60 -sf 'B%s %i' > "$PANEL_FIFO" &
 clock -i 60 -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
@@ -22,7 +23,7 @@ unbuffer alsactl monitor | grep --line-buffered 'Headphone Jack' | while read li
 
 source ./panel_colors
 
-cat "$PANEL_FIFO" | ./panel_bar | lemonbar -f "$FONT_FONT" -f "$ICON_FONT" -g x$PANEL_HEIGHT -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+cat "$PANEL_FIFO" | ./panel_bar | lemonbar -f "$FONT_FONT" -f "$ICON_FONT" -g x$PANEL_HEIGHT -F "$COLOR11" -B "$COLOR0" &
 
-sleep 1;
-stalonetray --geometry 1x1-415+2 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 18 &
+#sleep 1;
+#stalonetray --geometry 1x1-415+2 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 20 &

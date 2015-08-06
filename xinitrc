@@ -3,7 +3,7 @@
 #  http://www.desertsol.com/~kevin/ratpoison/
 tools_dir=$HOME/.tools
 xtoolwait="timeout --signal=KILL 5 $tools_dir/xtoolwait -noprop"
-workspace="bspc desktop -f"
+workspace="rpws"
 screen_run="$tools_dir/screen_run"
 term="/usr/bin/urxvt -e"
 
@@ -98,10 +98,9 @@ fi
 
 #
 # Startup the window manager
-sxhkd &
 if [ $run_everything = true ]; then
-    bspwm 2>&1 &
-    ~/.config/bspwm/bspwmrc
+    ratpoison 2>&1 &
+#    ~/.config/bspwm/bspwmrc
 #    compton & 
     wmpid=$!
     sleep 1 &
@@ -125,7 +124,7 @@ fi
 # workspace 1 : Ranger workspace
 #     window 1+: Ranger
 if [ $run_everything = true -o $run_workspace = 1 ]; then
-    $workspace ^1
+    $workspace 1
     $xtoolwait $term  ranger 
 fi
 
@@ -133,21 +132,21 @@ fi
 
 # workspace 3 : newsbeuter
 if [ $run_everything = true -o $run_workspace = 3 ]; then
-    $workspace ^2
+    $workspace 3
     $xtoolwait $term newsbeuter
 fi
 
 # workspace 4 : admin workspace
 #     window 1: screen (see screenrc.admin for the screen config)
 if [ $run_everything = true -o $run_workspace = 4 ]; then
-    $workspace ^4
+    $workspace 4
 #    $xtoolwait $term $screen_run admin
 fi
 
 # workspace 5 : School
 #     windows 1: screen notebok
 if [ $run_everything = true -o $run_workspace = 5 ]; then
-    $workspace ^4
+    $workspace 5
     cd $HOME/Sync/notes
 #    $xtoolwait $term $screen_run school
 fi
@@ -161,7 +160,7 @@ fi
 
 # workspace 7 : skype workspace 
 if [ $run_everything = true -o $run_workspace = 7 ]; then
-    $workspace ^6
+    $workspace 7
 #    skype &
 #    number_and_title 0 "skype"
     sleep 6
@@ -179,14 +178,14 @@ fi
 # workspace 9 : email workspace
 #     window 1: mutt 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^8
+    $workspace 8
     $xtoolwait $term mutt
 fi
 
 # workspace 10 : irc workspace
 #     window 1: irc 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^9
+    $workspace 10
     $xtoolwait $term $screen_run irssi
 #    $xtoolwait $term irssi
 fi
@@ -201,7 +200,7 @@ fi
 # workspace 12 : music workspace
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^11
+    $workspace 12
     mpd &
     $xtoolwait $term ncmpcpp
 fi
@@ -209,20 +208,20 @@ fi
 # workspace 13 : volume workspace
 #     window 1: volume 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^12
+    $workspace 13
     $xtoolwait $term alsamixer
 fi
 
-# workspace 2 : Uzbl workspace
+# workspace 2 : Vimb workspace
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^2
-    firefox &
+    $workspace 2
+    vimb &
 fi
 
 # Default workspace: 1(ranger)
 #	$workspace ^1
 
-#~/.tools/panel/panel &
+~/.tools/panel/panel &
 #sleep 2 && rpbar
 
 #######################################################################
