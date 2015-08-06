@@ -1,0 +1,39 @@
+bind s C-d
+map s C-d
+tabopen what
+open vimb config
+open dav.skozl.com
+tabopen skozl.com
+open https://dav.skozl.com
+open skozl.com
+open shit
+nnoremap d C-d
+nmap d C-d
+help
+down
+nmap s j
+nmap s ^d
+nmap s C-d
+nmap e 10 k
+nmap e 10k
+map s CTRL-D
+nmap s CTRL-D
+tabopen vimb control
+open !g vimb control
+nmap s 10j
+tabopen !g vimb/config
+open googlecom
+open google.com
+open test
+open !g vimb review
+open /tabbed
+open what
+open !g vimb grey bar
+tabopen wow
+tabopen test
+set editor-command
+set hintkeys
+open !g vimb duckduckgo
+tabopen urxvt perls
+tabopen sup
+tabopen duckduckgo.com

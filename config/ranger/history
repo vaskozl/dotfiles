@@ -1,0 +1,11 @@
+save
+cd /
+w
+search anti
+search mock
+open_with antiword
+open_with catdoc
+search john
+search mayer
+search promise
+open_with 
