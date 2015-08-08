@@ -117,20 +117,19 @@ while read -r line ; do
 			desktop="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${line#?}%{B-}%{F-}  "
           		;;
 		Wclear)
-			# focused occupied desktop
-			wm_infos=""
+			wm_infos=''
 			;;
 	
 		\**)
-			# focused occupied desktop
-			wm_infos="${wm_infos}%{F$COLOR_FOCUSED_FG}%{B$COLOR_FOCUSED_BG}%{U$COLOR_FOCUSED_UG} ${line#?} %{-u}%{B-}%{F-}"
+			# current focused window
+			wm_infos="${wm_infos}%{F$COLOR_FOCUSED_FG}%{B$COLOR_FOCUSED_BG}%{U$COLOR_FOCUSED_UG}%{+o} ${line#?} %{-o}%{B-}%{F-}%{U-}"
 			;;
 		+*)
-			# occupied desktop
+			# last focused window
 			wm_infos="${wm_infos}%{F$COLOR_OTHER_FG}%{B$COLOR_OTHER_BG} ${line#?} %{B-}%{F-}"
 			;;
         	-*)
-			# free desktop
+			# other windows
 			wm_infos="${wm_infos}%{F$COLOR_ELSE_FG}%{B$COLOR_ELSE_BG} ${line#?} %{B-}%{F-}"
 			;;
 #					u*)
@@ -143,5 +142,5 @@ while read -r line ; do
 #						;;
 	esac
 #	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
-	printf "%s\n" "%{l}${desktop}${wm_infos}${title}%{r}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
+	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
 done

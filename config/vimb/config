@@ -1,10 +1,10 @@
 nmap s 10j
 nmap e 10k
-set status-color-bg=#131020
-set status-color-fg=#abc8c0
-set status-ssl-color-bg=#131020
-set status-ssl-color-fg=#abc8c0
-set completion-bg-active=#131020
-set completion-bg-normal=#131020
-set completion-fg-active=#7280a0
-set completion-fg-normal=#abc8c0
+set status-color-bg=#200c0c
+set status-color-fg=#c8834f
+set status-ssl-color-bg=#200c0c
+set status-ssl-color-fg=#c8834f
+set completion-bg-active=#200c0c
+set completion-bg-normal=#200c0c
+set completion-fg-active=#a0614d
+set completion-fg-normal=#c8834f
