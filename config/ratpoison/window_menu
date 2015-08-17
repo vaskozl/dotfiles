@@ -6,7 +6,7 @@
 #   - If order=last, the windows are listed in the order that you last visited them in.
 #   - If order=sequential, the windows are listed in number order.
 order=sequential
-ratmenu="~/.tools/ratmenu"
+ratmenu="~/.config/ratpoison/ratmenu"
 
 source ~/.colors
 
@@ -15,7 +15,7 @@ source ~/.colors
 
 window_index_str=$(ratpoison -c "info" | sed 's/^.*\([0-9]\)(.*$/\1/')
 if [ "$window_index_str" = "No window." ]; then
-    group_index=$($HOME/.tools/workspace current)
+    group_index=$($HOME/.config/ratpoison/workspace current)
     $ratmenu -style dreary -fg \"$COLOR0\" -bg \"$COLOR0\" "No windows in group $group_index" 
 /bin/true
 else

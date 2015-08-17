@@ -1,7 +1,7 @@
 #! /bin/sh
 cd ~/.tools/panel
-source ./profile
-source ~/.colors
+. ./profile
+. ~/.colors
 
 [ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
 mkfifo -m 777 "$PANEL_FIFO"

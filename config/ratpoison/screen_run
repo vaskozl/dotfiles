@@ -2,7 +2,7 @@
 #
 # Connect to a named screen session if it exists, otherwise create it
 # If creating a new screen session, use the file screenrc.$session
-# in the .tools directory.
+# in the .config/ratpoison directory.
 #
 screen_dir=$HOME/.screen
 session=$1

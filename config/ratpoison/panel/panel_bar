@@ -2,8 +2,8 @@
 
 num_mon=$(bspc query -M | wc -l)
 
-source ./panel_colors
-source ./icons
+. ./panel_colors
+. ./icons
 while read -r line ; do
 	case $line in
 		Imail) 
@@ -74,15 +74,13 @@ while read -r line ; do
 			;;
 	
 	
-		B*)
-			# battery output
-			if [[ ${line#?} =~ Discharging ]];then
+		BDischarging*)
 			percent=`echo ${line#?} | cut -d' ' -f2`
 			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PWR} ${percent} %{B-}%{F-}";
-		        else
+			;;
+	        B*)
 			percent=`echo ${line#?} | cut -d' ' -f2`
 			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PLUG} ${percent} %{B-}%{F-}";
-		        fi
 			;;
 	
 	

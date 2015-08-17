@@ -42,7 +42,7 @@ function entries() {
 }
 
 function menu() {
-    echo ~/.tools/ratmenu -label "\"clipboard $command\"" \
+    echo ~/.config/ratpoison/ratmenu -label "\"clipboard $command\"" \
         -style dreary -fg \"$COLOR11\" -bg \"$COLOR0\" -io 2 $(entries) | sh
 }
 

@@ -1,3 +1,4 @@
+#!/bin/bash
 PANEL_FIFO=/tmp/panel-fifo
 PANEL_HEIGHT=24
 

@@ -1,4 +1,5 @@
-source ~/.colors
+#!/bin/bash
+. ~/.colors
 
 COLOR_FOCUSED_FG="#FF`echo $COLOR4 | cut -c 2-`"
 COLOR_FOCUSED_BG="#FF`echo $COLOR0 | cut -c 2-`"
