@@ -1,8 +1,6 @@
-dotfiles
+Vaskozl's dotfiles
 ========
-These are useful dotfiles for various programs including but not limited to:
 
-bspwm,
 ratpoison,
 vim,
 uzbl-browser,
