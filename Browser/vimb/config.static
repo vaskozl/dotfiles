@@ -1,0 +1,29 @@
+shortcut-add wiki=https://en.wikipedia.org/w/index.php?search=$0
+shortcut-add gl=https://encrypted.google.com/#q=$0
+shortcut-add dl=https://duckduckgo.com/lite/?q=$0
+shortcut-add map=https://maps.google.com/maps?saddr=$0&daddr=$1
+shortcut-add gh=https://github.com/$0/$1
+shortcut-add arrp=https://www.archlinux.org/packages/?q=$0
+shortcut-add arwk=https://wiki.archlinux.org/index.php?title=Special%3ASearch&search=$0&go=Go
+shortcut-add aur=https://aur.archlinux.org/packages/?K=$0
+shortcut-default gl
+
+set download-command=aria2c --seed-time=900 -d Downloads/ %s
+set download-use-external=true
+
+set cookie-accept=always
+set cookie-expire-time=0
+set cookie-timeout=0
+
+nmap s <C-D>
+nmap e <C-U>
+nmap w :open wiki 
+nmap W :open arwk 
+nmap d :open dl 
+nmap a :open arrp 
+nmap A :open aur 
+nmap ( <C-O>
+nmap ) <C-N>
+nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set scripts=true<CR>
+
+

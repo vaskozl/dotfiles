@@ -1,0 +1,1 @@
+echo `cmus-remote -Q | awk '/ artist/ {$1=$2=""; print $0}'` - `cmus-remote -Q 2>/dev/null | grep title | awk '{$1=$2=""; print $0}'`

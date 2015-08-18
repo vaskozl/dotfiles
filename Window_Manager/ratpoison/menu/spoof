@@ -1,0 +1,36 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "spoof" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "ADMdnsfuckr" "urxvt -e bash -c 'ADMdnsfuckr && zsh'" \
+           "ADMkillDNS" "urxvt -e bash -c 'ADMkillDNS && zsh'" \
+           "ADMnOg00d" "urxvt -e bash -c 'ADMnOg00d && zsh'" \
+           "ADMsnOOfID" "urxvt -e bash -c 'ADMsnOOfID && zsh'" \
+           "ADMsniffID" "urxvt -e bash -c 'ADMsniffID && zsh'" \
+           "arpoison" "urxvt -e bash -c 'arpoison -h && zsh'" \
+           "cisco-snmp-slap" "urxvt -e bash -c 'cisco-snmp-slap -h && zsh'" \
+           "dns-spoof" "urxvt -e bash -c 'dns-spoof -h && zsh'" \
+           "fakedns" "urxvt -e bash -c 'fakedns && zsh'" \
+           "fakenetbiosdgm" "urxvt -e bash -c 'fakenetbiosdgm -h && zsh'" \
+           "fakenetbiosns" "urxvt -e bash -c 'fakenetbiosns -h && zsh'" \
+           "fs-nyarl" "urxvt -e bash -c 'fs-nyarl -h && zsh'" \
+           "chaosreader0.94" "urxvt -e bash -c 'chaosreader0.94 && zsh'" \
+           "hharp" "urxvt -e bash -c 'hharp -h && zsh'" \
+           "inundator" "urxvt -e bash -c 'inundator && zsh'" \
+           "lans" "urxvt -e bash -c 'lans -h && zsh'" \
+           "lsrtunnel" "urxvt -e bash -c 'lsrtunnel && zsh'" \
+           "mitmf" "urxvt -e bash -c 'mitmf -h && zsh'" \
+           "multimac" "urxvt -e bash -c 'multimac -h && zsh'" \
+           "nbnspoof" "urxvt -e bash -c 'nbnspoof -h && zsh'" \
+           "nemesis" "urxvt -e bash -c 'nemesis -h && zsh'" \
+           "nemesis" "urxvt -e bash -c 'nemesis -h && zsh'" \
+           "netcmd" "urxvt -e bash -c 'netcmd -h && zsh'" \
+           "portspoof" "urxvt -e bash -c 'portspoof -h && zsh'" \
+           "pyminifakedns" "urxvt -e bash -c 'pyminifakedns && zsh'" \
+           "dhcp-responder" "urxvt -e bash -c 'dhcp-responder -h && zsh'" \
+           "responder" "urxvt -e bash -c 'responder -h && zsh'" \
+           "sergio-proxy" "urxvt -e bash -c 'sergio-proxy -h && zsh'" \
+           "synner" "urxvt -e bash -c 'synner -h && zsh'" \
+           "xcavator" "urxvt -e bash -c 'xcavator -h && zsh'" \
+

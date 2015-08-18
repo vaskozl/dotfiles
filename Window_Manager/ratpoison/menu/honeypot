@@ -1,0 +1,27 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "honeypot" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "artillery" "urxvt -e bash -c 'artillery && zsh'" \
+           "beeswarm" "urxvt -e bash -c 'beeswarm && zsh'" \
+           "bluepot" "urxvt -e bash -c 'bluepot && zsh'" \
+           "conpot" "urxvt -e bash -c 'conpot --help && zsh'" \
+           "fakeap" "urxvt -e bash -c 'fakeap && zsh'" \
+           "fakenetbiosdgm" "urxvt -e bash -c 'fakenetbiosdgm -h && zsh'" \
+           "fakenetbiosns" "urxvt -e bash -c 'fakenetbiosns -h && zsh'" \
+           "fiked" "urxvt -e bash -c 'fiked && zsh'" \
+           "heartbleed-honeypot" "urxvt -e bash -c 'heartbleed-honeypot -h && zsh'" \
+           "honeyd" "urxvt -e bash -c 'honeyd -h && zsh'" \
+           "honeydctl" "urxvt -e bash -c 'honeydctl -h && zsh'" \
+           "honeydstats" "urxvt -e bash -c 'honeydstats -h && zsh'" \
+           "hsniff" "urxvt -e bash -c 'hsniff -h && zsh'" \
+           "hpfeeds-client" "urxvt -e bash -c 'hpfeeds-client -h && zsh'" \
+           "inetsim" "urxvt -e bash -c 'inetsim --help && zsh'" \
+           "dmesg" "urxvt -e bash -c 'dmesg && zsh'" \
+           "mount" "urxvt -e bash -c 'mount && zsh'" \
+           "ifconfig" "urxvt -e bash -c 'ifconfig && zsh'" \
+           "vi" "urxvt -e bash -c 'vi && zsh'" \
+           "pshitt" "urxvt -e bash -c 'pshitt && zsh'" \
+           "wifi-honey" "urxvt -e bash -c 'wifi-honey -h && zsh'" \
+           "wordpot" "urxvt -e bash -c 'wordpot -h && zsh'" \

@@ -1,0 +1,53 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "disassembler" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "androapkinfo" "urxvt -e bash -c 'androapkinfo && zsh'" \
+           "androaxml" "urxvt -e bash -c 'androaxml && zsh'" \
+           "androcsign" "urxvt -e bash -c 'androcsign && zsh'" \
+           "androdd" "urxvt -e bash -c 'androdd && zsh'" \
+           "androdiff" "urxvt -e bash -c 'androdiff && zsh'" \
+           "androgexf" "urxvt -e bash -c 'androgexf && zsh'" \
+           "androlyze" "urxvt -e bash -c 'androlyze && zsh'" \
+           "andromercury" "urxvt -e bash -c 'andromercury && zsh'" \
+           "androrisk" "urxvt -e bash -c 'androrisk && zsh'" \
+           "androsign" "urxvt -e bash -c 'androsign && zsh'" \
+           "androsim" "urxvt -e bash -c 'androsim && zsh'" \
+           "androxgmml" "urxvt -e bash -c 'androxgmml && zsh'" \
+           "apkviewer" "urxvt -e bash -c 'apkviewer -h && zsh'" \
+           "apktool" "urxvt -e bash -c 'apktool && zsh'" \
+           "binwalk" "urxvt -e bash -c 'binwalk && zsh'" \
+           "bokken" "urxvt -e bash -c 'bokken -h && zsh'" \
+           "dissy" "urxvt -e bash -c 'dissy -h && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "ingumagui" "urxvt -e bash -c 'ingumagui && zsh'" \
+           "x86dis" "urxvt -e bash -c 'x86dis && zsh'" \
+           "maltrieve" "urxvt -e bash -c 'maltrieve -h && zsh'" \
+           "maltrievecategorizer" "urxvt -e bash -c 'maltrievecategorizer && zsh'" \
+           "marc4dasm" "urxvt -e bash -c 'marc4dasm -h && zsh'" \
+           "asm" "urxvt -e bash -c 'asm -h && zsh'" \
+           "constgrep" "urxvt -e bash -c 'constgrep -h && zsh'" \
+           "cyclic" "urxvt -e bash -c 'cyclic -h && zsh'" \
+           "disasm-pwntools" "urxvt -e bash -c 'disasm-pwntools -h && zsh'" \
+           "hex" "urxvt -e bash -c 'hex && zsh'" \
+           "shellcraft" "urxvt -e bash -c 'shellcraft -h && zsh'" \
+           "unhex" "urxvt -e bash -c 'unhex && zsh'" \
+           "r2" "urxvt -e bash -c 'r2 -h && zsh'" \
+           "r2agent" "urxvt -e bash -c 'r2agent -h && zsh'" \
+           "rabin2" "urxvt -e bash -c 'rabin2 -h && zsh'" \
+           "radare2" "urxvt -e bash -c 'radare2 -h && zsh'" \
+           "radiff2" "urxvt -e bash -c 'radiff2 -h && zsh'" \
+           "rafind2" "urxvt -e bash -c 'rafind2 -h && zsh'" \
+           "ragg2" "urxvt -e bash -c 'ragg2 -h && zsh'" \
+           "ragg2-cc" "urxvt -e bash -c 'ragg2-cc && zsh'" \
+           "rahash2" "urxvt -e bash -c 'rahash2 -h && zsh'" \
+           "rarun2" "urxvt -e bash -c 'rarun2 -h && zsh'" \
+           "rasm2" "urxvt -e bash -c 'rasm2 -h && zsh'" \
+           "rax2" "urxvt -e bash -c 'rax2 && zsh'" \
+           "baksmali" "urxvt -e bash -c 'baksmali -h && zsh'" \
+           "smali" "urxvt -e bash -c 'smali -h && zsh'" \
+           "viper" "urxvt -e bash -c 'viper -h && zsh'" \
+           "vdbbin" "urxvt -e bash -c 'vdbbin -h && zsh'" \
+           "vivbin" "urxvt -e bash -c 'vivbin -h && zsh'" \

@@ -1,6 +1,0 @@
-#!/bin/bash
-source ~/.colors
-
-~/.tools/ratmenu -label "threat-model" \
-        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
-           "magictree" "urxvt -e bash -c 'magictree && zsh'" \

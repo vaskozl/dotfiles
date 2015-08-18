@@ -1,0 +1,15 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "windows" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "3proxy.key" "urxvt -e bash -c '3proxy.key && zsh'" \
+           "3proxy.pem" "urxvt -e bash -c '3proxy.pem && zsh'" \
+           "rus-koi8-r.3ps" "urxvt -e bash -c 'rus-koi8-r.3ps && zsh'" \
+           "rus-win1251.3ps" "urxvt -e bash -c 'rus-win1251.3ps && zsh'" \
+           "server.key" "urxvt -e bash -c 'server.key && zsh'" \
+           "missidentify" "urxvt -e bash -c 'missidentify -h && zsh'" \
+           "msvpwn" "urxvt -e bash -c 'msvpwn -h && zsh'" \
+           "ollydbg" "urxvt -e bash -c 'ollydbg && zsh'" \
+           "tunna-proxy" "urxvt -e bash -c 'tunna-proxy && zsh'" \
+           "tunna-webserver" "urxvt -e bash -c 'tunna-webserver && zsh'" \

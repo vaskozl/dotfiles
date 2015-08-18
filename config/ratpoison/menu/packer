@@ -1,6 +1,0 @@
-#!/bin/bash
-source ~/.colors
-
-~/.tools/ratmenu -label "packer" \
-        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
-           "packerid" "urxvt -e bash -c 'packerid -h && zsh'" \

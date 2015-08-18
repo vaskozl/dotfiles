@@ -1,8 +1,0 @@
-#!/bin/bash
-PANEL_FIFO=/tmp/panel-fifo
-PANEL_HEIGHT=24
-
-FONT_FONT="fixed"
-ICON_FONT="FontAwesome-9"
-
-export PANEL_FIFO PANEL_HEIGHT PANEL_FONT_FAMILY FONT_FONT ICON_FONT 

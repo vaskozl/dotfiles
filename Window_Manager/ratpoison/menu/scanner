@@ -1,0 +1,574 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "scanner" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "0trace" "urxvt -e bash -c '0trace && zsh'" \
+           "adminpagefinder" "urxvt -e bash -c 'adminpagefinder -h && zsh'" \
+           "admsnmp" "urxvt -e bash -c 'admsnmp && zsh'" \
+           "allthevhosts" "urxvt -e bash -c 'allthevhosts && zsh'" \
+           "androidsniffer" "urxvt -e bash -c 'androidsniffer -h && zsh'" \
+           "apnbf" "urxvt -e bash -c 'apnbf -h && zsh'" \
+           "arp-fingerprint" "urxvt -e bash -c 'arp-fingerprint -h && zsh'" \
+           "arp-scan" "urxvt -e bash -c 'arp-scan -h && zsh'" \
+           "get-iab" "urxvt -e bash -c 'get-iab -h && zsh'" \
+           "get-oui" "urxvt -e bash -c 'get-oui -h && zsh'" \
+           "arp-fingerprint" "urxvt -e bash -c 'arp-fingerprint -h && zsh'" \
+           "arp-scan" "urxvt -e bash -c 'arp-scan -h && zsh'" \
+           "get-iab" "urxvt -e bash -c 'get-iab -h && zsh'" \
+           "get-oui" "urxvt -e bash -c 'get-oui -h && zsh'" \
+           "asp-audit" "urxvt -e bash -c 'asp-audit && zsh'" \
+           "athena-ssl-scanner" "urxvt -e bash -c 'athena-ssl-scanner -h && zsh'" \
+           "basedomainname" "urxvt -e bash -c 'basedomainname -h && zsh'" \
+           "bing-lfi-rfi" "urxvt -e bash -c 'bing-lfi-rfi -h && zsh'" \
+           "birp" "urxvt -e bash -c 'birp -h && zsh'" \
+           "bluebox" "urxvt -e bash -c 'bluebox && zsh'" \
+           "bluebox-ng" "urxvt -e bash -c 'bluebox-ng -h && zsh'" \
+           "bluelog" "urxvt -e bash -c 'bluelog -h && zsh'" \
+           "bluescan" "urxvt -e bash -c 'bluescan && zsh'" \
+           "braa" "urxvt -e bash -c 'braa -h && zsh'" \
+           "bss" "urxvt -e bash -c 'bss -h && zsh'" \
+           "btscanner" "urxvt -e bash -c 'btscanner --help && zsh'" \
+           "burpsuite" "urxvt -e bash -c 'burpsuite && zsh'" \
+           "canari" "urxvt -e bash -c 'canari -h && zsh'" \
+           "dispatcher" "urxvt -e bash -c 'dispatcher -h && zsh'" \
+           "pysudo" "urxvt -e bash -c 'pysudo -h && zsh'" \
+           "cangibrina" "urxvt -e bash -c 'cangibrina -h && zsh'" \
+           "cansina" "urxvt -e bash -c 'cansina -h && zsh'" \
+           "casefile" "urxvt -e bash -c 'casefile --help && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego.ico" "urxvt -e bash -c 'maltego.ico && zsh'" \
+           "cecster" "urxvt -e bash -c 'cecster -h && zsh'" \
+           "chaosmap" "urxvt -e bash -c 'chaosmap && zsh'" \
+           "check-weak-dh-ssh" "urxvt -e bash -c 'check-weak-dh-ssh -h && zsh'" \
+           "checksec" "urxvt -e bash -c 'checksec --help && zsh'" \
+           "checksec" "urxvt -e bash -c 'checksec --help && zsh'" \
+           "chiron-combinations" "urxvt -e bash -c 'chiron-combinations && zsh'" \
+           "chiron-nd" "urxvt -e bash -c 'chiron-nd && zsh'" \
+           "chiron-proxy" "urxvt -e bash -c 'chiron-proxy && zsh'" \
+           "chiron-scanner" "urxvt -e bash -c 'chiron-scanner && zsh'" \
+           "chiron_combinations.py" "urxvt -e bash -c 'chiron_combinations.py && zsh'" \
+           "chiron_local_link.py" "urxvt -e bash -c 'chiron_local_link.py && zsh'" \
+           "chiron_proxy.py" "urxvt -e bash -c 'chiron_proxy.py && zsh'" \
+           "chiron_scanner.py" "urxvt -e bash -c 'chiron_scanner.py && zsh'" \
+           "CAT" "urxvt -e bash -c 'CAT && zsh'" \
+           "cisco-auditing-tool" "urxvt -e bash -c 'cisco-auditing-tool && zsh'" \
+           "cisco-scanner" "urxvt -e bash -c 'cisco-scanner -h && zsh'" \
+           "cisco-torch" "urxvt -e bash -c 'cisco-torch -h && zsh'" \
+           "ciscos" "urxvt -e bash -c 'ciscos && zsh'" \
+           "climber" "urxvt -e bash -c 'climber -h && zsh'" \
+           "cms-few" "urxvt -e bash -c 'cms-few -h && zsh'" \
+           "cmsmap" "urxvt -e bash -c 'cmsmap -h && zsh'" \
+           "httsquash" "urxvt -e bash -c 'httsquash && zsh'" \
+           "letdown" "urxvt -e bash -c 'letdown && zsh'" \
+           "reverseraider" "urxvt -e bash -c 'reverseraider && zsh'" \
+           "configpush" "urxvt -e bash -c 'configpush && zsh'" \
+           "conscan" "urxvt -e bash -c 'conscan -h && zsh'" \
+           "cookie-cadger" "urxvt -e bash -c 'cookie-cadger && zsh'" \
+           "cpfinder" "urxvt -e bash -c 'cpfinder -h && zsh'" \
+           "creepy" "urxvt -e bash -c 'creepy && zsh'" \
+           "cvechecker" "urxvt -e bash -c 'cvechecker -h && zsh'" \
+           "cvegenversdat" "urxvt -e bash -c 'cvegenversdat && zsh'" \
+           "cvereport" "urxvt -e bash -c 'cvereport && zsh'" \
+           "cverules" "urxvt -e bash -c 'cverules && zsh'" \
+           "pullcves" "urxvt -e bash -c 'pullcves && zsh'" \
+           "darkbing" "urxvt -e bash -c 'darkbing -h && zsh'" \
+           "davtest" "urxvt -e bash -c 'davtest && zsh'" \
+           "deblaze" "urxvt -e bash -c 'deblaze && zsh'" \
+           "delldrac" "urxvt -e bash -c 'delldrac -h && zsh'" \
+           "dhcpig" "urxvt -e bash -c 'dhcpig -h && zsh'" \
+           "dirb" "urxvt -e bash -c 'dirb && zsh'" \
+           "dirb-gendict" "urxvt -e bash -c 'dirb-gendict && zsh'" \
+           "html2dic" "urxvt -e bash -c 'html2dic && zsh'" \
+           "dirbuster" "urxvt -e bash -c 'dirbuster && zsh'" \
+           "dirs3arch" "urxvt -e bash -c 'dirs3arch -h && zsh'" \
+           "dirscanner" "urxvt -e bash -c 'dirscanner -h && zsh'" \
+           "dmitry" "urxvt -e bash -c 'dmitry && zsh'" \
+           "dnmap_client" "urxvt -e bash -c 'dnmap_client -h && zsh'" \
+           "dnmap_server" "urxvt -e bash -c 'dnmap_server -h && zsh'" \
+           "dns2geoip" "urxvt -e bash -c 'dns2geoip -h && zsh'" \
+           "dnsa" "urxvt -e bash -c 'dnsa && zsh'" \
+           "dnsbf" "urxvt -e bash -c 'dnsbf && zsh'" \
+           "dnsbrute" "urxvt -e bash -c 'dnsbrute -h && zsh'" \
+           "dnsenum" "urxvt -e bash -c 'dnsenum && zsh'" \
+           "dnsgoblin" "urxvt -e bash -c 'dnsgoblin && zsh'" \
+           "dnspredict" "urxvt -e bash -c 'dnspredict --help && zsh'" \
+           "dnsspider" "urxvt -e bash -c 'dnsspider -h && zsh'" \
+           "dnswalk" "urxvt -e bash -c 'dnswalk --help && zsh'" \
+           "dpscan" "urxvt -e bash -c 'dpscan && zsh'" \
+           "driftnet" "urxvt -e bash -c 'driftnet -h && zsh'" \
+           "dripper" "urxvt -e bash -c 'dripper -h && zsh'" \
+           "rip-cvs" "urxvt -e bash -c 'rip-cvs -h && zsh'" \
+           "rip-git" "urxvt -e bash -c 'rip-git -h && zsh'" \
+           "rip-svn" "urxvt -e bash -c 'rip-svn -h && zsh'" \
+           "easyda" "urxvt -e bash -c 'easyda && zsh'" \
+           "eazy" "urxvt -e bash -c 'eazy -h && zsh'" \
+           "enum-shares" "urxvt -e bash -c 'enum-shares -h && zsh'" \
+           "enum4linux" "urxvt -e bash -c 'enum4linux && zsh'" \
+           "enumiax" "urxvt -e bash -c 'enumiax && zsh'" \
+           "faraday" "urxvt -e bash -c 'faraday && zsh'" \
+           "delAllHost.py" "urxvt -e bash -c 'delAllHost.py && zsh'" \
+           "delAllServiceClosed.py" "urxvt -e bash -c 'delAllServiceClosed.py && zsh'" \
+           "fplugin" "urxvt -e bash -c 'fplugin && zsh'" \
+           "getAllCreds.py" "urxvt -e bash -c 'getAllCreds.py && zsh'" \
+           "getAllHosts.py" "urxvt -e bash -c 'getAllHosts.py && zsh'" \
+           "getAllIps.py" "urxvt -e bash -c 'getAllIps.py && zsh'" \
+           "getAllIpsInterfaces.py" "urxvt -e bash -c 'getAllIpsInterfaces.py && zsh'" \
+           "getAllOs.py" "urxvt -e bash -c 'getAllOs.py && zsh'" \
+           "getAllTelnet.py" "urxvt -e bash -c 'getAllTelnet.py && zsh'" \
+           "getAllVnc.py" "urxvt -e bash -c 'getAllVnc.py && zsh'" \
+           "getAllVulnsCSV.py" "urxvt -e bash -c 'getAllVulnsCSV.py && zsh'" \
+           "getAllWebservers.py" "urxvt -e bash -c 'getAllWebservers.py && zsh'" \
+           "fernmelder" "urxvt -e bash -c 'fernmelder -h && zsh'" \
+           "fgscan" "urxvt -e bash -c 'fgscan --help && zsh'" \
+           "fhttp" "urxvt -e bash -c 'fhttp -h && zsh'" \
+           "fierce.pl" "urxvt -e bash -c 'fierce.pl -h && zsh'" \
+           "firewalk" "urxvt -e bash -c 'firewalk -h && zsh'" \
+           "flawfinder" "urxvt -e bash -c 'flawfinder -h && zsh'" \
+           "flunym0us" "urxvt -e bash -c 'flunym0us && zsh'" \
+           "forkingportscanner" "urxvt -e bash -c 'forkingportscanner && zsh'" \
+           "fping" "urxvt -e bash -c 'fping -h && zsh'" \
+           "fping6" "urxvt -e bash -c 'fping6 -h && zsh'" \
+           "fping" "urxvt -e bash -c 'fping -h && zsh'" \
+           "fping6" "urxvt -e bash -c 'fping6 -h && zsh'" \
+           "fs-nyarl" "urxvt -e bash -c 'fs-nyarl -h && zsh'" \
+           "chaosreader0.94" "urxvt -e bash -c 'chaosreader0.94 && zsh'" \
+           "fsnoop" "urxvt -e bash -c 'fsnoop -h && zsh'" \
+           "ftp-scanner" "urxvt -e bash -c 'ftp-scanner -h && zsh'" \
+           "ftp-spider" "urxvt -e bash -c 'ftp-spider -h && zsh'" \
+           "ftpmap" "urxvt -e bash -c 'ftpmap -h && zsh'" \
+           "gggooglescan" "urxvt -e bash -c 'gggooglescan -h && zsh'" \
+           "ghostphisher" "urxvt -e bash -c 'ghostphisher && zsh'" \
+           "googlesub" "urxvt -e bash -c 'googlesub --help && zsh'" \
+           "gpredict" "urxvt -e bash -c 'gpredict -h && zsh'" \
+           "grepforrfi" "urxvt -e bash -c 'grepforrfi && zsh'" \
+           "gtp-scan" "urxvt -e bash -c 'gtp-scan -h && zsh'" \
+           "gwcheck" "urxvt -e bash -c 'gwcheck -h && zsh'" \
+           "halberd" "urxvt -e bash -c 'halberd -h && zsh'" \
+           "hasere" "urxvt -e bash -c 'hasere -h && zsh'" \
+           "hbad" "urxvt -e bash -c 'hbad -h && zsh'" \
+           "hexorbase" "urxvt -e bash -c 'hexorbase && zsh'" \
+           "host-extract" "urxvt -e bash -c 'host-extract -h && zsh'" \
+           "hostbox-ssh" "urxvt -e bash -c 'hostbox-ssh -h && zsh'" \
+           "http-enum" "urxvt -e bash -c 'http-enum -h && zsh'" \
+           "httpextract" "urxvt -e bash -c 'httpextract -h && zsh'" \
+           "httpforge" "urxvt -e bash -c 'httpforge -h && zsh'" \
+           "httpsend" "urxvt -e bash -c 'httpsend -h && zsh'" \
+           "httpsscanner" "urxvt -e bash -c 'httpsscanner -h && zsh'" \
+           "hawk" "urxvt -e bash -c 'hawk --help && zsh'" \
+           "hwk-eagle" "urxvt -e bash -c 'hwk-eagle --help && zsh'" \
+           "iax-scan-hosts" "urxvt -e bash -c 'iax-scan-hosts -h && zsh'" \
+           "iax-scan-users" "urxvt -e bash -c 'iax-scan-users -h && zsh'" \
+           "icmpquery" "urxvt -e bash -c 'icmpquery && zsh'" \
+           "idswakeup" "urxvt -e bash -c 'idswakeup -h && zsh'" \
+           "ike-scan" "urxvt -e bash -c 'ike-scan -h && zsh'" \
+           "psk-crack" "urxvt -e bash -c 'psk-crack -h && zsh'" \
+           "infip" "urxvt -e bash -c 'infip -h && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "inguma" "urxvt -e bash -c 'inguma -h && zsh'" \
+           "ingumagui" "urxvt -e bash -c 'ingumagui && zsh'" \
+           "inurlbr" "urxvt -e bash -c 'inurlbr -h && zsh'" \
+           "ipscan" "urxvt -e bash -c 'ipscan && zsh'" \
+           "addr6" "urxvt -e bash -c 'addr6 && zsh'" \
+           "blackhole6" "urxvt -e bash -c 'blackhole6 && zsh'" \
+           "flow6" "urxvt -e bash -c 'flow6 && zsh'" \
+           "frag6" "urxvt -e bash -c 'frag6 && zsh'" \
+           "icmp6" "urxvt -e bash -c 'icmp6 && zsh'" \
+           "jumbo6" "urxvt -e bash -c 'jumbo6 && zsh'" \
+           "na6" "urxvt -e bash -c 'na6 && zsh'" \
+           "ni6" "urxvt -e bash -c 'ni6 && zsh'" \
+           "ns6" "urxvt -e bash -c 'ns6 && zsh'" \
+           "path6" "urxvt -e bash -c 'path6 -h && zsh'" \
+           "ra6" "urxvt -e bash -c 'ra6 && zsh'" \
+           "rd6" "urxvt -e bash -c 'rd6 && zsh'" \
+           "rs6" "urxvt -e bash -c 'rs6 && zsh'" \
+           "scan6" "urxvt -e bash -c 'scan6 && zsh'" \
+           "script6" "urxvt -e bash -c 'script6 && zsh'" \
+           "tcp6" "urxvt -e bash -c 'tcp6 && zsh'" \
+           "ircsnapshot" "urxvt -e bash -c 'ircsnapshot && zsh'" \
+           "jigsaw" "urxvt -e bash -c 'jigsaw -h && zsh'" \
+           "joomlascan" "urxvt -e bash -c 'joomlascan -h && zsh'" \
+           "jsql" "urxvt -e bash -c 'jsql && zsh'" \
+           "kal" "urxvt -e bash -c 'kal -h && zsh'" \
+           "knock" "urxvt -e bash -c 'knock && zsh'" \
+           "laf" "urxvt -e bash -c 'laf -h && zsh'" \
+           "ldapenum.pl" "urxvt -e bash -c 'ldapenum.pl && zsh'" \
+           "lfi-scanner" "urxvt -e bash -c 'lfi-scanner -h && zsh'" \
+           "linenum" "urxvt -e bash -c 'linenum -h && zsh'" \
+           "lbb.db" "urxvt -e bash -c 'lbb.db && zsh'" \
+           "littleblackbox" "urxvt -e bash -c 'littleblackbox -h && zsh'" \
+           "lotophagi" "urxvt -e bash -c 'lotophagi -h && zsh'" \
+           "lynis" "urxvt -e bash -c 'lynis -h && zsh'" \
+           "clientgen" "urxvt -e bash -c 'clientgen && zsh'" \
+           "maligno_srv" "urxvt -e bash -c 'maligno_srv && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego.ico" "urxvt -e bash -c 'maltego.ico && zsh'" \
+           "ant" "urxvt -e bash -c 'ant && zsh'" \
+           "ant.bat" "urxvt -e bash -c 'ant.bat && zsh'" \
+           "ant.cmd" "urxvt -e bash -c 'ant.cmd && zsh'" \
+           "antRun" "urxvt -e bash -c 'antRun && zsh'" \
+           "antRun.bat" "urxvt -e bash -c 'antRun.bat && zsh'" \
+           "antRun.pl" "urxvt -e bash -c 'antRun.pl && zsh'" \
+           "antenv.cmd" "urxvt -e bash -c 'antenv.cmd && zsh'" \
+           "complete-ant-cmd.pl" "urxvt -e bash -c 'complete-ant-cmd.pl && zsh'" \
+           "envset.cmd" "urxvt -e bash -c 'envset.cmd && zsh'" \
+           "lcp.bat" "urxvt -e bash -c 'lcp.bat && zsh'" \
+           "runant.pl" "urxvt -e bash -c 'runant.pl && zsh'" \
+           "runant.py" "urxvt -e bash -c 'runant.py && zsh'" \
+           "runrc.cmd" "urxvt -e bash -c 'runrc.cmd && zsh'" \
+           "masscan" "urxvt -e bash -c 'masscan --help && zsh'" \
+           "msfbinscan" "urxvt -e bash -c 'msfbinscan -h && zsh'" \
+           "msfcli" "urxvt -e bash -c 'msfcli -h && zsh'" \
+           "msfconsole" "urxvt -e bash -c 'msfconsole -h && zsh'" \
+           "msfd" "urxvt -e bash -c 'msfd -h && zsh'" \
+           "msfelfscan" "urxvt -e bash -c 'msfelfscan -h && zsh'" \
+           "msfencode" "urxvt -e bash -c 'msfencode -h && zsh'" \
+           "msfmachscan" "urxvt -e bash -c 'msfmachscan -h && zsh'" \
+           "msfpayload" "urxvt -e bash -c 'msfpayload -h && zsh'" \
+           "msfpescan" "urxvt -e bash -c 'msfpescan -h && zsh'" \
+           "msfrop" "urxvt -e bash -c 'msfrop -h && zsh'" \
+           "msfrpc" "urxvt -e bash -c 'msfrpc -h && zsh'" \
+           "msfrpcd" "urxvt -e bash -c 'msfrpcd -h && zsh'" \
+           "msfupdate" "urxvt -e bash -c 'msfupdate -h && zsh'" \
+           "msfvenom" "urxvt -e bash -c 'msfvenom -h && zsh'" \
+           "stager_reverse_https.bin" "urxvt -e bash -c 'stager_reverse_https.bin && zsh'" \
+           "stty" "urxvt -e bash -c 'stty && zsh'" \
+           "miranda" "urxvt -e bash -c 'miranda && zsh'" \
+           "miranda-upnp-portmapper" "urxvt -e bash -c 'miranda-upnp-portmapper -h && zsh'" \
+           "modscan" "urxvt -e bash -c 'modscan -h && zsh'" \
+           "morxtraversal" "urxvt -e bash -c 'morxtraversal && zsh'" \
+           "mptcp-fragmenter" "urxvt -e bash -c 'mptcp-fragmenter && zsh'" \
+           "mptcp-scanner" "urxvt -e bash -c 'mptcp-scanner && zsh'" \
+           "mssqlscan" "urxvt -e bash -c 'mssqlscan -h && zsh'" \
+           "MSSQLScan.jar" "urxvt -e bash -c 'MSSQLScan.jar && zsh'" \
+           "mwebfp" "urxvt -e bash -c 'mwebfp -h && zsh'" \
+           "dnscat" "urxvt -e bash -c 'dnscat -h && zsh'" \
+           "dnslogger" "urxvt -e bash -c 'dnslogger -h && zsh'" \
+           "dnstest" "urxvt -e bash -c 'dnstest -h && zsh'" \
+           "dnsxss" "urxvt -e bash -c 'dnsxss -h && zsh'" \
+           "nbquery" "urxvt -e bash -c 'nbquery -h && zsh'" \
+           "nbsniff" "urxvt -e bash -c 'nbsniff -h && zsh'" \
+           "nbtscan" "urxvt -e bash -c 'nbtscan -h && zsh'" \
+           "nbtscan" "urxvt -e bash -c 'nbtscan -h && zsh'" \
+           "netbios-share-scanner" "urxvt -e bash -c 'netbios-share-scanner -h && zsh'" \
+           "ndecode" "urxvt -e bash -c 'ndecode && zsh'" \
+           "nlist" "urxvt -e bash -c 'nlist && zsh'" \
+           "nstrobe" "urxvt -e bash -c 'nstrobe && zsh'" \
+           "ntrace" "urxvt -e bash -c 'ntrace && zsh'" \
+           "ntraf" "urxvt -e bash -c 'ntraf -h && zsh'" \
+           "netscan" "urxvt -e bash -c 'netscan -h && zsh'" \
+           "nikto" "urxvt -e bash -c 'nikto -H && zsh'" \
+           "ncat" "urxvt -e bash -c 'ncat -h && zsh'" \
+           "ndiff" "urxvt -e bash -c 'ndiff -h && zsh'" \
+           "nmap" "urxvt -e bash -c 'nmap -h && zsh'" \
+           "nmapfe" "urxvt -e bash -c 'nmapfe && zsh'" \
+           "nping" "urxvt -e bash -c 'nping -h && zsh'" \
+           "xnmap" "urxvt -e bash -c 'xnmap && zsh'" \
+           "zenmap" "urxvt -e bash -c 'zenmap && zsh'" \
+           "ncat" "urxvt -e bash -c 'ncat -h && zsh'" \
+           "ndiff" "urxvt -e bash -c 'ndiff -h && zsh'" \
+           "nmap" "urxvt -e bash -c 'nmap -h && zsh'" \
+           "nmapfe" "urxvt -e bash -c 'nmapfe && zsh'" \
+           "nping" "urxvt -e bash -c 'nping -h && zsh'" \
+           "xnmap" "urxvt -e bash -c 'xnmap && zsh'" \
+           "zenmap" "urxvt -e bash -c 'zenmap && zsh'" \
+           "nmbscan" "urxvt -e bash -c 'nmbscan && zsh'" \
+           "nsdtool" "urxvt -e bash -c 'nsdtool && zsh'" \
+           "nsia" "urxvt -e bash -c 'nsia -h && zsh'" \
+           "nsia.jar" "urxvt -e bash -c 'nsia.jar && zsh'" \
+           "nsoq" "urxvt -e bash -c 'nsoq && zsh'" \
+           "o-saft" "urxvt -e bash -c 'o-saft -h && zsh'" \
+           "OCS" "urxvt -e bash -c 'OCS && zsh'" \
+           "onesixtyone" "urxvt -e bash -c 'onesixtyone && zsh'" \
+           "owasp-bywaf" "urxvt -e bash -c 'owasp-bywaf -h && zsh'" \
+           "owtf" "urxvt -e bash -c 'owtf && zsh'" \
+           "minewt" "urxvt -e bash -c 'minewt -h; bash && zsh'" \
+           "paketto-lc" "urxvt -e bash -c 'paketto-lc -h && zsh'" \
+           "paratrace" "urxvt -e bash -c 'paratrace -h && zsh'" \
+           "phentropy" "urxvt -e bash -c 'phentropy -h && zsh'" \
+           "scanrand" "urxvt -e bash -c 'scanrand -h && zsh'" \
+           "panhunt" "urxvt -e bash -c 'panhunt -h && zsh'" \
+           "paranoic" "urxvt -e bash -c 'paranoic -h && zsh'" \
+           "passhunt" "urxvt -e bash -c 'passhunt -h && zsh'" \
+           "pcredz" "urxvt -e bash -c 'pcredz -h && zsh'" \
+           "pentbox" "urxvt -e bash -c 'pentbox && zsh'" \
+           "plcscan" "urxvt -e bash -c 'plcscan -h && zsh'" \
+           "ipsort" "urxvt -e bash -c 'ipsort --help && zsh'" \
+           "pnscan" "urxvt -e bash -c 'pnscan -h && zsh'" \
+           "praeda" "urxvt -e bash -c 'praeda -h && zsh'" \
+           "propecia" "urxvt -e bash -c 'propecia && zsh'" \
+           "proxycheck" "urxvt -e bash -c 'proxycheck -h && zsh'" \
+           "proxyp" "urxvt -e bash -c 'proxyp -h && zsh'" \
+           "proxyscan" "urxvt -e bash -c 'proxyscan -h && zsh'" \
+           "pyfiscan" "urxvt -e bash -c 'pyfiscan -h && zsh'" \
+           "pytbull" "urxvt -e bash -c 'pytbull -h && zsh'" \
+           "quickrecon" "urxvt -e bash -c 'quickrecon -h && zsh'" \
+           "ratproxy" "urxvt -e bash -c 'ratproxy -h && zsh'" \
+           "rawr" "urxvt -e bash -c 'rawr -h && zsh'" \
+           "redfang" "urxvt -e bash -c 'redfang --help && zsh'" \
+           "regeorg" "urxvt -e bash -c 'regeorg -h && zsh'" \
+           "relayscanner" "urxvt -e bash -c 'relayscanner -h && zsh'" \
+           "dhcp-responder" "urxvt -e bash -c 'dhcp-responder -h && zsh'" \
+           "responder" "urxvt -e bash -c 'responder -h && zsh'" \
+           "ripdc" "urxvt -e bash -c 'ripdc -H && zsh'" \
+           "rlogin-scanner" "urxvt -e bash -c 'rlogin-scanner -h && zsh'" \
+           "rpdscan" "urxvt -e bash -c 'rpdscan -h && zsh'" \
+           "rtlizer" "urxvt -e bash -c 'rtlizer -h && zsh'" \
+           "rtlsdr-scanner" "urxvt -e bash -c 'rtlsdr-scanner -h && zsh'" \
+           "sambascan" "urxvt -e bash -c 'sambascan -h && zsh'" \
+           "sandy" "urxvt -e bash -c 'sandy -h && zsh'" \
+           "sb0x" "urxvt -e bash -c 'sb0x -h && zsh'" \
+           "scanssh" "urxvt -e bash -c 'scanssh -h && zsh'" \
+           "scout2" "urxvt -e bash -c 'scout2 -h && zsh'" \
+           "scrape-dns" "urxvt -e bash -c 'scrape-dns && zsh'" \
+           "scrapy" "urxvt -e bash -c 'scrapy -h && zsh'" \
+           "sctpscan" "urxvt -e bash -c 'sctpscan -h && zsh'" \
+           "seat" "urxvt -e bash -c 'seat -h && zsh'" \
+           "secscan" "urxvt -e bash -c 'secscan -h && zsh'" \
+           "shocker" "urxvt -e bash -c 'shocker -h && zsh'" \
+           "shortfuzzy" "urxvt -e bash -c 'shortfuzzy -h && zsh'" \
+           "flowcap" "urxvt -e bash -c 'flowcap && zsh'" \
+           "mapsid" "urxvt -e bash -c 'mapsid && zsh'" \
+           "num2dot" "urxvt -e bash -c 'num2dot && zsh'" \
+           "rwaddrcount" "urxvt -e bash -c 'rwaddrcount && zsh'" \
+           "rwallformats" "urxvt -e bash -c 'rwallformats && zsh'" \
+           "rwappend" "urxvt -e bash -c 'rwappend && zsh'" \
+           "rwbag" "urxvt -e bash -c 'rwbag && zsh'" \
+           "rwbagbuild" "urxvt -e bash -c 'rwbagbuild && zsh'" \
+           "rwbagcat" "urxvt -e bash -c 'rwbagcat && zsh'" \
+           "rwbagtool" "urxvt -e bash -c 'rwbagtool && zsh'" \
+           "rwcat" "urxvt -e bash -c 'rwcat && zsh'" \
+           "rwcombine" "urxvt -e bash -c 'rwcombine && zsh'" \
+           "rwcompare" "urxvt -e bash -c 'rwcompare && zsh'" \
+           "rwcount" "urxvt -e bash -c 'rwcount && zsh'" \
+           "rwcut" "urxvt -e bash -c 'rwcut && zsh'" \
+           "rwdedupe" "urxvt -e bash -c 'rwdedupe && zsh'" \
+           "rwfglob" "urxvt -e bash -c 'rwfglob && zsh'" \
+           "rwfileinfo" "urxvt -e bash -c 'rwfileinfo && zsh'" \
+           "rwfilter" "urxvt -e bash -c 'rwfilter && zsh'" \
+           "rwflowappend" "urxvt -e bash -c 'rwflowappend && zsh'" \
+           "rwflowpack" "urxvt -e bash -c 'rwflowpack && zsh'" \
+           "rwgeoip2ccmap" "urxvt -e bash -c 'rwgeoip2ccmap && zsh'" \
+           "rwgroup" "urxvt -e bash -c 'rwgroup && zsh'" \
+           "rwguess" "urxvt -e bash -c 'rwguess && zsh'" \
+           "rwip2cc" "urxvt -e bash -c 'rwip2cc && zsh'" \
+           "rwmatch" "urxvt -e bash -c 'rwmatch && zsh'" \
+           "rwnetmask" "urxvt -e bash -c 'rwnetmask && zsh'" \
+           "rwpackchecker" "urxvt -e bash -c 'rwpackchecker && zsh'" \
+           "rwpdu2silk" "urxvt -e bash -c 'rwpdu2silk && zsh'" \
+           "rwpmapbuild" "urxvt -e bash -c 'rwpmapbuild && zsh'" \
+           "rwpmapcat" "urxvt -e bash -c 'rwpmapcat && zsh'" \
+           "rwpmaplookup" "urxvt -e bash -c 'rwpmaplookup && zsh'" \
+           "rwrandomizeip" "urxvt -e bash -c 'rwrandomizeip && zsh'" \
+           "rwreceiver" "urxvt -e bash -c 'rwreceiver && zsh'" \
+           "rwrecgenerator" "urxvt -e bash -c 'rwrecgenerator && zsh'" \
+           "rwresolve" "urxvt -e bash -c 'rwresolve && zsh'" \
+           "rwrtd2split" "urxvt -e bash -c 'rwrtd2split && zsh'" \
+           "rwscan" "urxvt -e bash -c 'rwscan && zsh'" \
+           "rwscanquery" "urxvt -e bash -c 'rwscanquery && zsh'" \
+           "rwsender" "urxvt -e bash -c 'rwsender && zsh'" \
+           "rwset" "urxvt -e bash -c 'rwset && zsh'" \
+           "rwsetbuild" "urxvt -e bash -c 'rwsetbuild && zsh'" \
+           "rwsetcat" "urxvt -e bash -c 'rwsetcat && zsh'" \
+           "rwsetmember" "urxvt -e bash -c 'rwsetmember && zsh'" \
+           "rwsettool" "urxvt -e bash -c 'rwsettool && zsh'" \
+           "rwsiteinfo" "urxvt -e bash -c 'rwsiteinfo && zsh'" \
+           "rwsort" "urxvt -e bash -c 'rwsort && zsh'" \
+           "rwsplit" "urxvt -e bash -c 'rwsplit && zsh'" \
+           "rwstats" "urxvt -e bash -c 'rwstats && zsh'" \
+           "rwswapbytes" "urxvt -e bash -c 'rwswapbytes && zsh'" \
+           "rwtotal" "urxvt -e bash -c 'rwtotal && zsh'" \
+           "rwtuc" "urxvt -e bash -c 'rwtuc && zsh'" \
+           "rwuniq" "urxvt -e bash -c 'rwuniq && zsh'" \
+           "silk_config" "urxvt -e bash -c 'silk_config && zsh'" \
+           "simple-lan-scan" "urxvt -e bash -c 'simple-lan-scan -h && zsh'" \
+           "sipshock" "urxvt -e bash -c 'sipshock -h && zsh'" \
+           "sfscandiff" "urxvt -e bash -c 'sfscandiff -h && zsh'" \
+           "skipfish" "urxvt -e bash -c 'skipfish -h && zsh'" \
+           "smartphone-pentest-framework" "urxvt -e bash -c 'smartphone-pentest-framework -h && zsh'" \
+           "AndroidAgent-debug-unaligned.apk" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk && zsh'" \
+           "AndroidAgent-debug-unaligned.apk.d" "urxvt -e bash -c 'AndroidAgent-debug-unaligned.apk.d && zsh'" \
+           "AndroidAgent-debug.apk" "urxvt -e bash -c 'AndroidAgent-debug.apk && zsh'" \
+           "AndroidAgent.ap_" "urxvt -e bash -c 'AndroidAgent.ap_ && zsh'" \
+           "AndroidAgent.ap_.d" "urxvt -e bash -c 'AndroidAgent.ap_.d && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidAgent.apk" "urxvt -e bash -c 'AndroidAgent.apk && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "androidagent.jar" "urxvt -e bash -c 'androidagent.jar && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.jar" "urxvt -e bash -c 'classes.jar && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk && zsh'" \
+           "BlankFrontEnd-debug-unaligned.apk.d" "urxvt -e bash -c 'BlankFrontEnd-debug-unaligned.apk.d && zsh'" \
+           "BlankFrontEnd-debug.apk" "urxvt -e bash -c 'BlankFrontEnd-debug.apk && zsh'" \
+           "BlankFrontEnd.ap_" "urxvt -e bash -c 'BlankFrontEnd.ap_ && zsh'" \
+           "BlankFrontEnd.ap_.d" "urxvt -e bash -c 'BlankFrontEnd.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "MapsDemo-debug-unaligned.apk" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk && zsh'" \
+           "MapsDemo-debug-unaligned.apk.d" "urxvt -e bash -c 'MapsDemo-debug-unaligned.apk.d && zsh'" \
+           "MapsDemo-debug.apk" "urxvt -e bash -c 'MapsDemo-debug.apk && zsh'" \
+           "MapsDemo.ap_" "urxvt -e bash -c 'MapsDemo.ap_ && zsh'" \
+           "MapsDemo.ap_.d" "urxvt -e bash -c 'MapsDemo.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidApp.apk" "urxvt -e bash -c 'FrameworkAndroidApp.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "resources.ap_" "urxvt -e bash -c 'resources.ap_ && zsh'" \
+           "AndroidManifest.xml" "urxvt -e bash -c 'AndroidManifest.xml && zsh'" \
+           "AndroidManifest.xml.d" "urxvt -e bash -c 'AndroidManifest.xml.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk && zsh'" \
+           "FrameworkAndroidAppActivity-debug-unaligned.apk.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug-unaligned.apk.d && zsh'" \
+           "FrameworkAndroidAppActivity-debug.apk" "urxvt -e bash -c 'FrameworkAndroidAppActivity-debug.apk && zsh'" \
+           "FrameworkAndroidAppActivity.ap_" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_ && zsh'" \
+           "FrameworkAndroidAppActivity.ap_.d" "urxvt -e bash -c 'FrameworkAndroidAppActivity.ap_.d && zsh'" \
+           "build.prop" "urxvt -e bash -c 'build.prop && zsh'" \
+           "classes.dex" "urxvt -e bash -c 'classes.dex && zsh'" \
+           "classes.dex.d" "urxvt -e bash -c 'classes.dex.d && zsh'" \
+           "jarlist.cache" "urxvt -e bash -c 'jarlist.cache && zsh'" \
+           "ar" "urxvt -e bash -c 'ar && zsh'" \
+           "as" "urxvt -e bash -c 'as --help && zsh'" \
+           "c++" "urxvt -e bash -c 'c++ && zsh'" \
+           "g++" "urxvt -e bash -c 'g++ && zsh'" \
+           "gcc" "urxvt -e bash -c 'gcc && zsh'" \
+           "ld" "urxvt -e bash -c 'ld && zsh'" \
+           "ld.bfd" "urxvt -e bash -c 'ld.bfd && zsh'" \
+           "ld.gold" "urxvt -e bash -c 'ld.gold && zsh'" \
+           "ld.mcld" "urxvt -e bash -c 'ld.mcld && zsh'" \
+           "nm" "urxvt -e bash -c 'nm -h && zsh'" \
+           "objcopy" "urxvt -e bash -c 'objcopy && zsh'" \
+           "objdump" "urxvt -e bash -c 'objdump && zsh'" \
+           "ranlib" "urxvt -e bash -c 'ranlib && zsh'" \
+           "strip" "urxvt -e bash -c 'strip && zsh'" \
+           "a.out" "urxvt -e bash -c 'a.out && zsh'" \
+           "arm-linux-androideabi-addr2line" "urxvt -e bash -c 'arm-linux-androideabi-addr2line && zsh'" \
+           "arm-linux-androideabi-ar" "urxvt -e bash -c 'arm-linux-androideabi-ar && zsh'" \
+           "arm-linux-androideabi-as" "urxvt -e bash -c 'arm-linux-androideabi-as && zsh'" \
+           "arm-linux-androideabi-c++" "urxvt -e bash -c 'arm-linux-androideabi-c++ && zsh'" \
+           "arm-linux-androideabi-c++filt" "urxvt -e bash -c 'arm-linux-androideabi-c++filt && zsh'" \
+           "arm-linux-androideabi-cpp" "urxvt -e bash -c 'arm-linux-androideabi-cpp && zsh'" \
+           "arm-linux-androideabi-elfedit" "urxvt -e bash -c 'arm-linux-androideabi-elfedit && zsh'" \
+           "arm-linux-androideabi-g++" "urxvt -e bash -c 'arm-linux-androideabi-g++ && zsh'" \
+           "arm-linux-androideabi-gcc" "urxvt -e bash -c 'arm-linux-androideabi-gcc && zsh'" \
+           "arm-linux-androideabi-gcc-4.6" "urxvt -e bash -c 'arm-linux-androideabi-gcc-4.6 && zsh'" \
+           "arm-linux-androideabi-gcov" "urxvt -e bash -c 'arm-linux-androideabi-gcov && zsh'" \
+           "arm-linux-androideabi-gdb" "urxvt -e bash -c 'arm-linux-androideabi-gdb && zsh'" \
+           "arm-linux-androideabi-gdbtui" "urxvt -e bash -c 'arm-linux-androideabi-gdbtui && zsh'" \
+           "arm-linux-androideabi-gprof" "urxvt -e bash -c 'arm-linux-androideabi-gprof && zsh'" \
+           "arm-linux-androideabi-ld" "urxvt -e bash -c 'arm-linux-androideabi-ld && zsh'" \
+           "arm-linux-androideabi-ld.bfd" "urxvt -e bash -c 'arm-linux-androideabi-ld.bfd && zsh'" \
+           "arm-linux-androideabi-ld.gold" "urxvt -e bash -c 'arm-linux-androideabi-ld.gold && zsh'" \
+           "arm-linux-androideabi-ld.mcld" "urxvt -e bash -c 'arm-linux-androideabi-ld.mcld && zsh'" \
+           "arm-linux-androideabi-nm" "urxvt -e bash -c 'arm-linux-androideabi-nm && zsh'" \
+           "arm-linux-androideabi-objcopy" "urxvt -e bash -c 'arm-linux-androideabi-objcopy && zsh'" \
+           "arm-linux-androideabi-objdump" "urxvt -e bash -c 'arm-linux-androideabi-objdump && zsh'" \
+           "arm-linux-androideabi-ranlib" "urxvt -e bash -c 'arm-linux-androideabi-ranlib && zsh'" \
+           "arm-linux-androideabi-readelf" "urxvt -e bash -c 'arm-linux-androideabi-readelf && zsh'" \
+           "arm-linux-androideabi-run" "urxvt -e bash -c 'arm-linux-androideabi-run && zsh'" \
+           "arm-linux-androideabi-size" "urxvt -e bash -c 'arm-linux-androideabi-size && zsh'" \
+           "arm-linux-androideabi-strings" "urxvt -e bash -c 'arm-linux-androideabi-strings && zsh'" \
+           "arm-linux-androideabi-strip" "urxvt -e bash -c 'arm-linux-androideabi-strip && zsh'" \
+           "smtp-user-enum" "urxvt -e bash -c 'smtp-user-enum -h && zsh'" \
+           "smtp-vrfy" "urxvt -e bash -c 'smtp-vrfy && zsh'" \
+           "smtptx" "urxvt -e bash -c 'smtptx -h && zsh'" \
+           "sn00p" "urxvt -e bash -c 'sn00p -h && zsh'" \
+           "snmpattack" "urxvt -e bash -c 'snmpattack -h && zsh'" \
+           "snmpenum" "urxvt -e bash -c 'snmpenum && zsh'" \
+           "snmpscan" "urxvt -e bash -c 'snmpscan -h && zsh'" \
+           "sparta" "urxvt -e bash -c 'sparta && zsh'" \
+           "spiga" "urxvt -e bash -c 'spiga -h && zsh'" \
+           "spipscan" "urxvt -e bash -c 'spipscan && zsh'" \
+           "qtmsfconsole" "urxvt -e bash -c 'qtmsfconsole && zsh'" \
+           "ssdp-scanner" "urxvt -e bash -c 'ssdp-scanner && zsh'" \
+           "ssh-user-enum" "urxvt -e bash -c 'ssh-user-enum -h && zsh'" \
+           "sshscan" "urxvt -e bash -c 'sshscan -h && zsh'" \
+           "ssl-hostname-resolver" "urxvt -e bash -c 'ssl-hostname-resolver -h && zsh'" \
+           "sslcaudit" "urxvt -e bash -c 'sslcaudit -h && zsh'" \
+           "sslmap" "urxvt -e bash -c 'sslmap -h && zsh'" \
+           "sslscan" "urxvt -e bash -c 'sslscan && zsh'" \
+           "storm-ring" "urxvt -e bash -c 'storm-ring -h && zsh'" \
+           "subbrute" "urxvt -e bash -c 'subbrute -h && zsh'" \
+           "subdomainer.py" "urxvt -e bash -c 'subdomainer.py -h && zsh'" \
+           "svn-extractor" "urxvt -e bash -c 'svn-extractor -h && zsh'" \
+           "sslog" "urxvt -e bash -c 'sslog -h && zsh'" \
+           "synscan" "urxvt -e bash -c 'synscan -h && zsh'" \
+           "thc-smartbrute" "urxvt -e bash -c 'thc-smartbrute -h && zsh'" \
+           "tiger" "urxvt -e bash -c 'tiger -h && zsh'" \
+           "tlsenum" "urxvt -e bash -c 'tlsenum -h && zsh'" \
+           "tlspretense" "urxvt -e bash -c 'tlspretense && zsh'" \
+           "makeder.sh" "urxvt -e bash -c 'makeder.sh && zsh'" \
+           "tlspretense" "urxvt -e bash -c 'tlspretense && zsh'" \
+           "view.sh" "urxvt -e bash -c 'view.sh && zsh'" \
+           "tlssled" "urxvt -e bash -c 'tlssled -h && zsh'" \
+           "topera" "urxvt -e bash -c 'topera -h && zsh'" \
+           "umap" "urxvt -e bash -c 'umap -h && zsh'" \
+           "fantaip" "urxvt -e bash -c 'fantaip && zsh'" \
+           "unibrow" "urxvt -e bash -c 'unibrow -h && zsh'" \
+           "unicfgtst" "urxvt -e bash -c 'unicfgtst && zsh'" \
+           "unicornscan" "urxvt -e bash -c 'unicornscan -h && zsh'" \
+           "us" "urxvt -e bash -c 'us -h && zsh'" \
+           "uniscan" "urxvt -e bash -c 'uniscan --help && zsh'" \
+           "unix-privsc-check" "urxvt -e bash -c 'unix-privsc-check && zsh'" \
+           "upnpscan" "urxvt -e bash -c 'upnpscan -h && zsh'" \
+           "urldigger" "urxvt -e bash -c 'urldigger -h && zsh'" \
+           "uw-loveimap" "urxvt -e bash -c 'uw-loveimap -h && zsh'" \
+           "uw-udpscan" "urxvt -e bash -c 'uw-udpscan -h && zsh'" \
+           "uw-zone" "urxvt -e bash -c 'uw-zone -h && zsh'" \
+           "vane" "urxvt -e bash -c 'vane -h && zsh'" \
+           "vanguard" "urxvt -e bash -c 'vanguard -h && zsh'" \
+           "vbrute" "urxvt -e bash -c 'vbrute -h && zsh'" \
+           "videosnarf" "urxvt -e bash -c 'videosnarf && zsh'" \
+           "w3af" "urxvt -e bash -c 'w3af -h && zsh'" \
+           "w3af-gui" "urxvt -e bash -c 'w3af-gui && zsh'" \
+           "wafw00f" "urxvt -e bash -c 'wafw00f -h && zsh'" \
+           "wapiti" "urxvt -e bash -c 'wapiti -h && zsh'" \
+           "wapiti-cookie" "urxvt -e bash -c 'wapiti-cookie -h && zsh'" \
+           "wapiti-getcookie" "urxvt -e bash -c 'wapiti-getcookie -h && zsh'" \
+           "webenum" "urxvt -e bash -c 'webenum -h && zsh'" \
+           "webpwn3r" "urxvt -e bash -c 'webpwn3r -h && zsh'" \
+           "webrute" "urxvt -e bash -c 'webrute -help && zsh'" \
+           "webscarab" "urxvt -e bash -c 'webscarab && zsh'" \
+           "webshag_cli" "urxvt -e bash -c 'webshag_cli -h && zsh'" \
+           "webshag_gui" "urxvt -e bash -c 'webshag_gui && zsh'" \
+           "websploit" "urxvt -e bash -c 'websploit && zsh'" \
+           "wig" "urxvt -e bash -c 'wig -h && zsh'" \
+           "witchxtool" "urxvt -e bash -c 'witchxtool -h && zsh'" \
+           "wnmap" "urxvt -e bash -c 'wnmap -h && zsh'" \
+           "wpscan" "urxvt -e bash -c 'wpscan -h && zsh'" \
+           "xsss" "urxvt -e bash -c 'xsss && zsh'" \
+           "xssscan" "urxvt -e bash -c 'xssscan -h && zsh'" \
+           "xssya" "urxvt -e bash -c 'xssya -h && zsh'" \
+           "yaaf" "urxvt -e bash -c 'yaaf -h && zsh'" \
+           "ycrawler" "urxvt -e bash -c 'ycrawler -h && zsh'" \
+           "yersinia" "urxvt -e bash -c 'yersinia --help && zsh'" \
+           "zackattack" "urxvt -e bash -c 'zackattack -h && zsh'" \
+           "zmap" "urxvt -e bash -c 'zmap -h && zsh'" \
+
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "decompiler" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "flasm" "urxvt -e bash -c 'flasm -h && zsh'" \
+           "jadx" "urxvt -e bash -c 'jadx -h && zsh'" \
+           "jadx-gui" "urxvt -e bash -c 'jadx-gui && zsh'" \
+           "jadx" "urxvt -e bash -c 'jadx -h && zsh'" \
+           "jadx-gui" "urxvt -e bash -c 'jadx-gui && zsh'" \
+           "jd-gui" "urxvt -e bash -c 'jd-gui && zsh'" \
+           "luyten" "urxvt -e bash -c 'luyten && zsh'" \
+           "procyon" "urxvt -e bash -c 'procyon && zsh'" \
+           "recstudio" "urxvt -e bash -c 'recstudio && zsh'" \

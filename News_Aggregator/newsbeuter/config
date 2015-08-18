@@ -1,0 +1,16 @@
+always-display-description	true
+auto-reload			yes
+browser				/home/vasko/.tools/firesend
+cleanup-on-quit			yes
+download-retries		10
+download-timeout		20
+refresh-on-startup		yes
+reload-time			10
+download-path			~/Downloads
+max-downloads			2
+mark-as-read-on-hover           yes
+
+# Theme
+color listfocus    color0 color3
+color listfocus_unread    color0 color3
+color info         color10 color0 bold

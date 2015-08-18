@@ -1,0 +1,155 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "misc" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "afp_client" "urxvt -e bash -c 'afp_client && zsh'" \
+           "afpcmd" "urxvt -e bash -c 'afpcmd -h && zsh'" \
+           "afpfs" "urxvt -e bash -c 'afpfs && zsh'" \
+           "afpfsd" "urxvt -e bash -c 'afpfsd -h && zsh'" \
+           "afpgetstatus" "urxvt -e bash -c 'afpgetstatus && zsh'" \
+           "mount_afp" "urxvt -e bash -c 'mount_afp && zsh'" \
+           "afp_client" "urxvt -e bash -c 'afp_client && zsh'" \
+           "afpcmd" "urxvt -e bash -c 'afpcmd -h && zsh'" \
+           "afpfs" "urxvt -e bash -c 'afpfs && zsh'" \
+           "afpfsd" "urxvt -e bash -c 'afpfsd -h && zsh'" \
+           "afpgetstatus" "urxvt -e bash -c 'afpgetstatus && zsh'" \
+           "mount_afp" "urxvt -e bash -c 'mount_afp && zsh'" \
+           "airgraph-ng" "urxvt -e bash -c 'airgraph-ng -h && zsh'" \
+           "dump-join" "urxvt -e bash -c 'dump-join && zsh'" \
+           "bokken" "urxvt -e bash -c 'bokken -h && zsh'" \
+           "BEViewer" "urxvt -e bash -c 'BEViewer -h && zsh'" \
+           "BEViewer.jar" "urxvt -e bash -c 'BEViewer.jar && zsh'" \
+           "bulk_extractor" "urxvt -e bash -c 'bulk_extractor && zsh'" \
+           "plugin_test" "urxvt -e bash -c 'plugin_test && zsh'" \
+           "bmore" "urxvt -e bash -c 'bmore && zsh'" \
+           "bvedit" "urxvt -e bash -c 'bvedit -h && zsh'" \
+           "bvi" "urxvt -e bash -c 'bvi -h && zsh'" \
+           "bview" "urxvt -e bash -c 'bview -h && zsh'" \
+           "centry" "urxvt -e bash -c 'centry -h && zsh'" \
+           "checkiban" "urxvt -e bash -c 'checkiban -h && zsh'" \
+           "copy-router-config.pl" "urxvt -e bash -c 'copy-router-config.pl && zsh'" \
+           "merge-router-config.pl" "urxvt -e bash -c 'merge-router-config.pl && zsh'" \
+           "dbd" "urxvt -e bash -c 'dbd -h && zsh'" \
+           "dhcdrop" "urxvt -e bash -c 'dhcdrop -h && zsh'" \
+           "dradis-configure" "urxvt -e bash -c 'dradis-configure && zsh'" \
+           "dradis-start" "urxvt -e bash -c 'dradis-start && zsh'" \
+           "bj" "urxvt -e bash -c 'bj && zsh'" \
+           "dsd" "urxvt -e bash -c 'dsd -h && zsh'" \
+           "dump1090" "urxvt -e bash -c 'dump1090 -h && zsh'" \
+           "elettra" "urxvt -e bash -c 'elettra && zsh'" \
+           "elettra_gui" "urxvt -e bash -c 'elettra_gui && zsh'" \
+           "ent" "urxvt -e bash -c 'ent && zsh'" \
+           "evilgrade" "urxvt -e bash -c 'evilgrade && zsh'" \
+           "eh" "urxvt -e bash -c 'eh -h && zsh'" \
+           "eyewitness" "urxvt -e bash -c 'eyewitness -h && zsh'" \
+           "fakemail" "urxvt -e bash -c 'fakemail -h && zsh'" \
+           "faraday" "urxvt -e bash -c 'faraday && zsh'" \
+           "delAllHost.py" "urxvt -e bash -c 'delAllHost.py && zsh'" \
+           "delAllServiceClosed.py" "urxvt -e bash -c 'delAllServiceClosed.py && zsh'" \
+           "fplugin" "urxvt -e bash -c 'fplugin && zsh'" \
+           "getAllCreds.py" "urxvt -e bash -c 'getAllCreds.py && zsh'" \
+           "getAllHosts.py" "urxvt -e bash -c 'getAllHosts.py && zsh'" \
+           "getAllIps.py" "urxvt -e bash -c 'getAllIps.py && zsh'" \
+           "getAllIpsInterfaces.py" "urxvt -e bash -c 'getAllIpsInterfaces.py && zsh'" \
+           "getAllOs.py" "urxvt -e bash -c 'getAllOs.py && zsh'" \
+           "getAllTelnet.py" "urxvt -e bash -c 'getAllTelnet.py && zsh'" \
+           "getAllVnc.py" "urxvt -e bash -c 'getAllVnc.py && zsh'" \
+           "getAllVulnsCSV.py" "urxvt -e bash -c 'getAllVulnsCSV.py && zsh'" \
+           "getAllWebservers.py" "urxvt -e bash -c 'getAllWebservers.py && zsh'" \
+           "flare" "urxvt -e bash -c 'flare -h && zsh'" \
+           "bmc-config" "urxvt -e bash -c 'bmc-config && zsh'" \
+           "bmc-device" "urxvt -e bash -c 'bmc-device && zsh'" \
+           "bmc-info" "urxvt -e bash -c 'bmc-info && zsh'" \
+           "bmc-watchdog" "urxvt -e bash -c 'bmc-watchdog && zsh'" \
+           "ipmi-chassis" "urxvt -e bash -c 'ipmi-chassis && zsh'" \
+           "ipmi-chassis-config" "urxvt -e bash -c 'ipmi-chassis-config && zsh'" \
+           "ipmi-config" "urxvt -e bash -c 'ipmi-config && zsh'" \
+           "ipmi-console" "urxvt -e bash -c 'ipmi-console && zsh'" \
+           "ipmi-dcmi" "urxvt -e bash -c 'ipmi-dcmi && zsh'" \
+           "ipmi-detect" "urxvt -e bash -c 'ipmi-detect && zsh'" \
+           "ipmi-fru" "urxvt -e bash -c 'ipmi-fru && zsh'" \
+           "ipmi-locate" "urxvt -e bash -c 'ipmi-locate && zsh'" \
+           "ipmi-oem" "urxvt -e bash -c 'ipmi-oem && zsh'" \
+           "ipmi-pef-config" "urxvt -e bash -c 'ipmi-pef-config && zsh'" \
+           "ipmi-pet" "urxvt -e bash -c 'ipmi-pet && zsh'" \
+           "ipmi-ping" "urxvt -e bash -c 'ipmi-ping && zsh'" \
+           "ipmi-power" "urxvt -e bash -c 'ipmi-power && zsh'" \
+           "ipmi-raw" "urxvt -e bash -c 'ipmi-raw && zsh'" \
+           "ipmi-sel" "urxvt -e bash -c 'ipmi-sel && zsh'" \
+           "ipmi-sensors" "urxvt -e bash -c 'ipmi-sensors && zsh'" \
+           "ipmi-sensors-config" "urxvt -e bash -c 'ipmi-sensors-config && zsh'" \
+           "ipmiconsole" "urxvt -e bash -c 'ipmiconsole && zsh'" \
+           "ipmidetect" "urxvt -e bash -c 'ipmidetect && zsh'" \
+           "ipmidetectd" "urxvt -e bash -c 'ipmidetectd && zsh'" \
+           "ipmimonitoring" "urxvt -e bash -c 'ipmimonitoring && zsh'" \
+           "ipmiping" "urxvt -e bash -c 'ipmiping && zsh'" \
+           "ipmipower" "urxvt -e bash -c 'ipmipower && zsh'" \
+           "ipmiseld" "urxvt -e bash -c 'ipmiseld && zsh'" \
+           "pef-config" "urxvt -e bash -c 'pef-config && zsh'" \
+           "rmcp-ping" "urxvt -e bash -c 'rmcp-ping && zsh'" \
+           "rmcpping" "urxvt -e bash -c 'rmcpping && zsh'" \
+           "fstealer" "urxvt -e bash -c 'fstealer -h && zsh'" \
+           "genlist" "urxvt -e bash -c 'genlist && zsh'" \
+           "geoipgen" "urxvt -e bash -c 'geoipgen -h && zsh'" \
+           "hackersh" "urxvt -e bash -c 'hackersh -h && zsh'" \
+           "http-put" "urxvt -e bash -c 'http-put -h && zsh'" \
+           "infip" "urxvt -e bash -c 'infip -h && zsh'" \
+           "inundator" "urxvt -e bash -c 'inundator && zsh'" \
+           "latcp" "urxvt -e bash -c 'latcp && zsh'" \
+           "latd" "urxvt -e bash -c 'latd -h && zsh'" \
+           "llogin" "urxvt -e bash -c 'llogin -h && zsh'" \
+           "moprc" "urxvt -e bash -c 'moprc && zsh'" \
+           "leo" "urxvt -e bash -c 'leo -h && zsh'" \
+           "leo-install.py" "urxvt -e bash -c 'leo-install.py && zsh'" \
+           "leoc" "urxvt -e bash -c 'leoc -h && zsh'" \
+           "lspst" "urxvt -e bash -c 'lspst && zsh'" \
+           "nick2ldif" "urxvt -e bash -c 'nick2ldif && zsh'" \
+           "pst2ldif" "urxvt -e bash -c 'pst2ldif && zsh'" \
+           "readpst" "urxvt -e bash -c 'readpst && zsh'" \
+           "lspst" "urxvt -e bash -c 'lspst && zsh'" \
+           "nick2ldif" "urxvt -e bash -c 'nick2ldif && zsh'" \
+           "pst2ldif" "urxvt -e bash -c 'pst2ldif && zsh'" \
+           "readpst" "urxvt -e bash -c 'readpst && zsh'" \
+           "list-urls" "urxvt -e bash -c 'list-urls && zsh'" \
+           "luyten" "urxvt -e bash -c 'luyten && zsh'" \
+           "macchanger" "urxvt -e bash -c 'macchanger --help && zsh'" \
+           "macchanger" "urxvt -e bash -c 'macchanger --help && zsh'" \
+           "makepasswd" "urxvt -e bash -c 'makepasswd -h && zsh'" \
+           "makepasswd" "urxvt -e bash -c 'makepasswd -h && zsh'" \
+           "maskprocessor" "urxvt -e bash -c 'maskprocessor -h && zsh'" \
+           "mp64" "urxvt -e bash -c 'mp64 --help && zsh'" \
+           "mat" "urxvt -e bash -c 'mat -h && zsh'" \
+           "mat-gui" "urxvt -e bash -c 'mat-gui && zsh'" \
+           "MibbleBrowser" "urxvt -e bash -c 'MibbleBrowser && zsh'" \
+           "MibblePrinter" "urxvt -e bash -c 'MibblePrinter && zsh'" \
+           "MibbleValidator" "urxvt -e bash -c 'MibbleValidator && zsh'" \
+           "mutator" "urxvt -e bash -c 'mutator -h && zsh'" \
+           "mysql2sqlite" "urxvt -e bash -c 'mysql2sqlite -h && zsh'" \
+           "netactview" "urxvt -e bash -c 'netactview && zsh'" \
+           "onionshare" "urxvt -e bash -c 'onionshare -h && zsh'" \
+           "onionshare-gui" "urxvt -e bash -c 'onionshare-gui && zsh'" \
+           "openstego" "urxvt -e bash -c 'openstego -h && zsh'" \
+           "outguess" "urxvt -e bash -c 'outguess && zsh'" \
+           "pcapfix" "urxvt -e bash -c 'pcapfix && zsh'" \
+           "pyinstaller" "urxvt -e bash -c 'pyinstaller && zsh'" \
+           "sakis3g" "urxvt -e bash -c 'sakis3g --help && zsh'" \
+           "fasm" "urxvt -e bash -c 'fasm && zsh'" \
+           "listing" "urxvt -e bash -c 'listing && zsh'" \
+           "sasm" "urxvt -e bash -c 'sasm && zsh'" \
+           "schnappi-dhcp" "urxvt -e bash -c 'schnappi-dhcp --help && zsh'" \
+           "snow" "urxvt -e bash -c 'snow -h && zsh'" \
+           "sslcat" "urxvt -e bash -c 'sslcat && zsh'" \
+           "sslyze" "urxvt -e bash -c 'sslyze -h && zsh'" \
+           "stompy" "urxvt -e bash -c 'stompy && zsh'" \
+           "tcpxtract" "urxvt -e bash -c 'tcpxtract -h && zsh'" \
+           "tnscmd" "urxvt -e bash -c 'tnscmd && zsh'" \
+           "tpcat" "urxvt -e bash -c 'tpcat && zsh'" \
+           "ua-tester" "urxvt -e bash -c 'ua-tester && zsh'" \
+           "upx" "urxvt -e bash -c 'upx -h && zsh'" \
+           "upx" "urxvt -e bash -c 'upx -h && zsh'" \
+           "usernamer" "urxvt -e bash -c 'usernamer -h && zsh'" \
+           "vfeed" "urxvt -e bash -c 'vfeed && zsh'" \
+           "wikigen" "urxvt -e bash -c 'wikigen && zsh'" \
+           "wol-e" "urxvt -e bash -c 'wol-e -h && zsh'" \
+ 

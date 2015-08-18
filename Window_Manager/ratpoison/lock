@@ -1,0 +1,6 @@
+#!/bin/bash
+source ~/.colors
+COLOR0=${COLOR0:1:7}
+COLOR11=${COLOR11:1:7}
+i3lock -n -i ~/.wallpaper.png -z --ringcolor="${COLOR0}ff" --keyhlcolor="${COLOR11}ff" &
+

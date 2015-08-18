@@ -1,9 +1,0 @@
-#!/bin/bash
-source ~/.colors
-
-~/.tools/ratmenu -label "firmware" \
-        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
-           "binwalk" "urxvt -e bash -c 'binwalk && zsh'" \
-           "binwalk" "urxvt -e bash -c 'binwalk && zsh'" \
-           "binwalk-script" "urxvt -e bash -c 'binwalk-script && zsh'" \
- 

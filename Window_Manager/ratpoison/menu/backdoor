@@ -1,0 +1,26 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "backdoor" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+          "backcookie" "urxvt -e bash -c 'backcookie -h && zsh'" \
+           "backdoor-factory" "urxvt -e bash -c 'backdoor-factory -h && zsh'" \
+           "bgrep" "urxvt -e bash -c 'bgrep && zsh'" \
+           "udp_server" "urxvt -e bash -c 'udp_server && zsh'" \
+           "hotpatcher" "urxvt -e bash -c 'hotpatcher -h && zsh'" \
+           "meterssh-monitor" "urxvt -e bash -c 'meterssh-monitor && zsh'" \
+           "ms-sys" "urxvt -e bash -c 'ms-sys -h && zsh'" \
+           "msvpwn" "urxvt -e bash -c 'msvpwn -h && zsh'" \
+           "openstego" "urxvt -e bash -c 'openstego -h && zsh'" \
+           "pyrasite" "urxvt -e bash -c 'pyrasite -h && zsh'" \
+           "pyrasite-memory-viewer" "urxvt -e bash -c 'pyrasite-memory-viewer && zsh'" \
+           "pyrasite-shell" "urxvt -e bash -c 'pyrasite-shell && zsh'" \
+           "rrs" "urxvt -e bash -c 'rrs -h && zsh'" \
+           "sb0x" "urxvt -e bash -c 'sb0x -h && zsh'" \
+           "trixd00r" "urxvt -e bash -c 'trixd00r -H && zsh'" \
+           "u3-pwn" "urxvt -e bash -c 'u3-pwn && zsh'" \
+           "unicorn" "urxvt -e bash -c 'unicorn && zsh'" \
+           "webacoo" "urxvt -e bash -c 'webacoo -h && zsh'" \
+           "webspa" "urxvt -e bash -c 'webspa -help && zsh'" \
+           "weevely" "urxvt -e bash -c 'weevely -h && zsh'" \
+ 

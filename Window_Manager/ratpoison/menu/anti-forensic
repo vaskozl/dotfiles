@@ -1,0 +1,15 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "anti-forensic" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+          "ropeadope" "urxvt -e bash -c 'ropeadope && zsh'" \
+           "sdel" "urxvt -e bash -c 'sdel -h && zsh'" \
+           "sfill" "urxvt -e bash -c 'sfill -h && zsh'" \
+           "smem-secure-delete" "urxvt -e bash -c 'smem-secure-delete -h && zsh'" \
+           "srm" "urxvt -e bash -c 'srm -h && zsh'" \
+           "sswap" "urxvt -e bash -c 'sswap -h && zsh'" \
+           "the_cleaner.sh" "urxvt -e bash -c 'the_cleaner.sh -h && zsh'" \
+           "steghide" "urxvt -e bash -c 'steghide --help && zsh'" \
+           "steghide" "urxvt -e bash -c 'steghide --help && zsh'" \
+ 

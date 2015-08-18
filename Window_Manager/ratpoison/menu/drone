@@ -1,0 +1,11 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "drone" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "missionplanner" "urxvt -e bash -c 'missionplanner -h && zsh'" \
+           "skyjack" "urxvt -e bash -c 'skyjack --help && zsh'" \
+           "snoopy" "urxvt -e bash -c 'snoopy && zsh'" \
+           "snoopy-auth" "urxvt -e bash -c 'snoopy-auth && zsh'" \
+           "sslstrip-snoopy" "urxvt -e bash -c 'sslstrip-snoopy && zsh'" \
+ 

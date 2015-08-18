@@ -1,0 +1,170 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "recon" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "basedomainname" "urxvt -e bash -c 'basedomainname -h && zsh'" \
+           "bing-ip2hosts" "urxvt -e bash -c 'bing-ip2hosts && zsh'" \
+           "birp" "urxvt -e bash -c 'birp -h && zsh'" \
+           "canari" "urxvt -e bash -c 'canari -h && zsh'" \
+           "dispatcher" "urxvt -e bash -c 'dispatcher -h && zsh'" \
+           "pysudo" "urxvt -e bash -c 'pysudo -h && zsh'" \
+           "casefile" "urxvt -e bash -c 'casefile --help && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego.ico" "urxvt -e bash -c 'maltego.ico && zsh'" \
+           "chaosmap" "urxvt -e bash -c 'chaosmap && zsh'" \
+           "creepy" "urxvt -e bash -c 'creepy && zsh'" \
+           "CutyCapt" "urxvt -e bash -c 'CutyCapt && zsh'" \
+           "dns2geoip" "urxvt -e bash -c 'dns2geoip -h && zsh'" \
+           "dnsbrute" "urxvt -e bash -c 'dnsbrute -h && zsh'" \
+           "dnsenum" "urxvt -e bash -c 'dnsenum && zsh'" \
+           "dnsrecon" "urxvt -e bash -c 'dnsrecon -h && zsh'" \
+           "dnsspider" "urxvt -e bash -c 'dnsspider -h && zsh'" \
+           "dnstracer" "urxvt -e bash -c 'dnstracer && zsh'" \
+           "dnstracer" "urxvt -e bash -c 'dnstracer && zsh'" \
+           "dig" "urxvt -e bash -c 'dig -h && zsh'" \
+           "host" "urxvt -e bash -c 'host && zsh'" \
+           "nslookup" "urxvt -e bash -c 'nslookup && zsh'" \
+           "dig" "urxvt -e bash -c 'dig -h && zsh'" \
+           "host" "urxvt -e bash -c 'host && zsh'" \
+           "nslookup" "urxvt -e bash -c 'nslookup && zsh'" \
+           "dnswalk" "urxvt -e bash -c 'dnswalk --help && zsh'" \
+           "ansistrm.py" "urxvt -e bash -c 'ansistrm.py && zsh'" \
+           "domain-analyzer" "urxvt -e bash -c 'domain-analyzer -h && zsh'" \
+           "domain-analyzer-crawler" "urxvt -e bash -c 'domain-analyzer-crawler -h && zsh'" \
+           "domain-analyzer-pytext2pdf" "urxvt -e bash -c 'domain-analyzer-pytext2pdf && zsh'" \
+           "dradis-configure" "urxvt -e bash -c 'dradis-configure && zsh'" \
+           "dradis-start" "urxvt -e bash -c 'dradis-start && zsh'" \
+           "bj" "urxvt -e bash -c 'bj && zsh'" \
+           "easyda" "urxvt -e bash -c 'easyda && zsh'" \
+           "enum4linux" "urxvt -e bash -c 'enum4linux && zsh'" \
+           "eyewitness" "urxvt -e bash -c 'eyewitness -h && zsh'" \
+           "facebot" "urxvt -e bash -c 'facebot -h && zsh'" \
+           "fbid" "urxvt -e bash -c 'fbid && zsh'" \
+           "fernmelder" "urxvt -e bash -c 'fernmelder -h && zsh'" \
+           "fping" "urxvt -e bash -c 'fping -h && zsh'" \
+           "fping6" "urxvt -e bash -c 'fping6 -h && zsh'" \
+           "fping" "urxvt -e bash -c 'fping -h && zsh'" \
+           "fping6" "urxvt -e bash -c 'fping6 -h && zsh'" \
+           "geoedge" "urxvt -e bash -c 'geoedge && zsh'" \
+           "geoiplookup" "urxvt -e bash -c 'geoiplookup && zsh'" \
+           "geoiplookup6" "urxvt -e bash -c 'geoiplookup6 && zsh'" \
+           "geoiplookup" "urxvt -e bash -c 'geoiplookup && zsh'" \
+           "geoiplookup6" "urxvt -e bash -c 'geoiplookup6 && zsh'" \
+           "goodork" "urxvt -e bash -c 'goodork && zsh'" \
+           "goofile" "urxvt -e bash -c 'goofile && zsh'" \
+           "goog-mail" "urxvt -e bash -c 'goog-mail && zsh'" \
+           "gwtenum" "urxvt -e bash -c 'gwtenum -h && zsh'" \
+           "gwtfuzzer" "urxvt -e bash -c 'gwtfuzzer -h && zsh'" \
+           "gwtparse" "urxvt -e bash -c 'gwtparse -h && zsh'" \
+           "halcyon" "urxvt -e bash -c 'halcyon -h && zsh'" \
+           "hasere" "urxvt -e bash -c 'hasere -h && zsh'" \
+           "htrosbif" "urxvt -e bash -c 'htrosbif -h && zsh'" \
+           "http-traceroute" "urxvt -e bash -c 'http-traceroute -h && zsh'" \
+           "httpextract" "urxvt -e bash -c 'httpextract -h && zsh'" \
+           "httpforge" "urxvt -e bash -c 'httpforge -h && zsh'" \
+           "httpsend" "urxvt -e bash -c 'httpsend -h && zsh'" \
+           "httping" "urxvt -e bash -c 'httping --help && zsh'" \
+           "idswakeup" "urxvt -e bash -c 'idswakeup -h && zsh'" \
+           "intrace" "urxvt -e bash -c 'intrace && zsh'" \
+           "ircsnapshot" "urxvt -e bash -c 'ircsnapshot && zsh'" \
+           "isr-form" "urxvt -e bash -c 'isr-form -h && zsh'" \
+           "knock" "urxvt -e bash -c 'knock && zsh'" \
+           "lanmap2-cap" "urxvt -e bash -c 'lanmap2-cap && zsh'" \
+           "lanmap2-graph" "urxvt -e bash -c 'lanmap2-graph && zsh'" \
+           "lbd" "urxvt -e bash -c 'lbd && zsh'" \
+           "ldapenum.pl" "urxvt -e bash -c 'ldapenum.pl && zsh'" \
+           "lft" "urxvt -e bash -c 'lft && zsh'" \
+           "whob" "urxvt -e bash -c 'whob && zsh'" \
+           "linenum" "urxvt -e bash -c 'linenum -h && zsh'" \
+           "linux-exploit-suggester" "urxvt -e bash -c 'linux-exploit-suggester -h && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego" "urxvt -e bash -c 'maltego -h && zsh'" \
+           "maltego.ico" "urxvt -e bash -c 'maltego.ico && zsh'" \
+           "ant" "urxvt -e bash -c 'ant && zsh'" \
+           "ant.bat" "urxvt -e bash -c 'ant.bat && zsh'" \
+           "ant.cmd" "urxvt -e bash -c 'ant.cmd && zsh'" \
+           "antRun" "urxvt -e bash -c 'antRun && zsh'" \
+           "antRun.bat" "urxvt -e bash -c 'antRun.bat && zsh'" \
+           "antRun.pl" "urxvt -e bash -c 'antRun.pl && zsh'" \
+           "antenv.cmd" "urxvt -e bash -c 'antenv.cmd && zsh'" \
+           "complete-ant-cmd.pl" "urxvt -e bash -c 'complete-ant-cmd.pl && zsh'" \
+           "envset.cmd" "urxvt -e bash -c 'envset.cmd && zsh'" \
+           "lcp.bat" "urxvt -e bash -c 'lcp.bat && zsh'" \
+           "runant.pl" "urxvt -e bash -c 'runant.pl && zsh'" \
+           "runant.py" "urxvt -e bash -c 'runant.py && zsh'" \
+           "runrc.cmd" "urxvt -e bash -c 'runrc.cmd && zsh'" \
+           "metagoofil" "urxvt -e bash -c 'metagoofil && zsh'" \
+           "msfbinscan" "urxvt -e bash -c 'msfbinscan -h && zsh'" \
+           "msfcli" "urxvt -e bash -c 'msfcli -h && zsh'" \
+           "msfconsole" "urxvt -e bash -c 'msfconsole -h && zsh'" \
+           "msfd" "urxvt -e bash -c 'msfd -h && zsh'" \
+           "msfelfscan" "urxvt -e bash -c 'msfelfscan -h && zsh'" \
+           "msfencode" "urxvt -e bash -c 'msfencode -h && zsh'" \
+           "msfmachscan" "urxvt -e bash -c 'msfmachscan -h && zsh'" \
+           "msfpayload" "urxvt -e bash -c 'msfpayload -h && zsh'" \
+           "msfpescan" "urxvt -e bash -c 'msfpescan -h && zsh'" \
+           "msfrop" "urxvt -e bash -c 'msfrop -h && zsh'" \
+           "msfrpc" "urxvt -e bash -c 'msfrpc -h && zsh'" \
+           "msfrpcd" "urxvt -e bash -c 'msfrpcd -h && zsh'" \
+           "msfupdate" "urxvt -e bash -c 'msfupdate -h && zsh'" \
+           "msfvenom" "urxvt -e bash -c 'msfvenom -h && zsh'" \
+           "stager_reverse_https.bin" "urxvt -e bash -c 'stager_reverse_https.bin && zsh'" \
+           "stty" "urxvt -e bash -c 'stty && zsh'" \
+           "missidentify" "urxvt -e bash -c 'missidentify -h && zsh'" \
+           "modscan" "urxvt -e bash -c 'modscan -h && zsh'" \
+           "monocle" "urxvt -e bash -c 'monocle -h && zsh'" \
+           "mptcp-fragmenter" "urxvt -e bash -c 'mptcp-fragmenter && zsh'" \
+           "mptcp-scanner" "urxvt -e bash -c 'mptcp-scanner && zsh'" \
+           "dnscat" "urxvt -e bash -c 'dnscat -h && zsh'" \
+           "dnslogger" "urxvt -e bash -c 'dnslogger -h && zsh'" \
+           "dnstest" "urxvt -e bash -c 'dnstest -h && zsh'" \
+           "dnsxss" "urxvt -e bash -c 'dnsxss -h && zsh'" \
+           "nbquery" "urxvt -e bash -c 'nbquery -h && zsh'" \
+           "nbsniff" "urxvt -e bash -c 'nbsniff -h && zsh'" \
+           "nbtscan" "urxvt -e bash -c 'nbtscan -h && zsh'" \
+           "nbtscan" "urxvt -e bash -c 'nbtscan -h && zsh'" \
+           "netdiscover" "urxvt -e bash -c 'netdiscover -h && zsh'" \
+           "netmask" "urxvt -e bash -c 'netmask --help && zsh'" \
+           "ndecode" "urxvt -e bash -c 'ndecode && zsh'" \
+           "nlist" "urxvt -e bash -c 'nlist && zsh'" \
+           "nstrobe" "urxvt -e bash -c 'nstrobe && zsh'" \
+           "ntrace" "urxvt -e bash -c 'ntrace && zsh'" \
+           "ntraf" "urxvt -e bash -c 'ntraf -h && zsh'" \
+           "nipper" "urxvt -e bash -c 'nipper --help && zsh'" \
+           "nsec3walker-collect" "urxvt -e bash -c 'nsec3walker-collect && zsh'" \
+           "nsec3walker-dicthashes" "urxvt -e bash -c 'nsec3walker-dicthashes && zsh'" \
+           "nsec3walker-query" "urxvt -e bash -c 'nsec3walker-query && zsh'" \
+           "nsec3walker-randomhashes" "urxvt -e bash -c 'nsec3walker-randomhashes && zsh'" \
+           "nsec3walker-unhash" "urxvt -e bash -c 'nsec3walker-unhash && zsh'" \
+           "o-saft" "urxvt -e bash -c 'o-saft -h && zsh'" \
+           "parsero" "urxvt -e bash -c 'parsero -h && zsh'" \
+           "pastenum" "urxvt -e bash -c 'pastenum -h && zsh'" \
+           "quickrecon" "urxvt -e bash -c 'quickrecon -h && zsh'" \
+           "recon-cli" "urxvt -e bash -c 'recon-cli && zsh'" \
+           "recon-ng" "urxvt -e bash -c 'recon-ng cd /usr/share/recon-ng ; ./recon-ng -h && zsh'" \
+           "recon-rpc" "urxvt -e bash -c 'recon-rpc && zsh'" \
+           "rifiuti" "urxvt -e bash -c 'rifiuti --help-all && zsh'" \
+           "rifiuti-vista" "urxvt -e bash -c 'rifiuti-vista -h && zsh'" \
+           "ripdc" "urxvt -e bash -c 'ripdc -H && zsh'" \
+           "sb0x" "urxvt -e bash -c 'sb0x -h && zsh'" \
+           "sctpscan" "urxvt -e bash -c 'sctpscan -h && zsh'" \
+           "seat" "urxvt -e bash -c 'seat -h && zsh'" \
+           "simple-lan-scan" "urxvt -e bash -c 'simple-lan-scan -h && zsh'" \
+           "smtp-user-enum" "urxvt -e bash -c 'smtp-user-enum -h && zsh'" \
+           "sn00p" "urxvt -e bash -c 'sn00p -h && zsh'" \
+           "snmpcheck-nothink" "urxvt -e bash -c 'snmpcheck-nothink -h && zsh'" \
+           "spiderfoot" "urxvt -e bash -c 'spiderfoot && zsh'" \
+           "ssl-hostname-resolver" "urxvt -e bash -c 'ssl-hostname-resolver -h && zsh'" \
+           "subdomainer.py" "urxvt -e bash -c 'subdomainer.py -h && zsh'" \
+           "sysdig" "urxvt -e bash -c 'sysdig -h && zsh'" \
+           "theharvester" "urxvt -e bash -c 'theharvester && zsh'" \
+           "tilt.py" "urxvt -e bash -c 'tilt.py && zsh'" \
+           "traceroute" "urxvt -e bash -c 'traceroute --help && zsh'" \
+           "traceroute" "urxvt -e bash -c 'traceroute --help && zsh'" \
+           "twofi" "urxvt -e bash -c 'twofi --help && zsh'" \
+           "vbrute" "urxvt -e bash -c 'vbrute -h && zsh'" \
+           "vlan-hopping" "urxvt -e bash -c 'vlan-hopping && zsh'" \
+           "whatweb" "urxvt -e bash -c 'whatweb -h && zsh'" \
+           "wig" "urxvt -e bash -c 'wig -h && zsh'" \
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "social" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "anontwi" "urxvt -e bash -c 'anontwi -h && zsh'" \
+           "creepy" "urxvt -e bash -c 'creepy && zsh'" \
+           "fbid" "urxvt -e bash -c 'fbid && zsh'" \
+           "jigsaw" "urxvt -e bash -c 'jigsaw -h && zsh'" \
+           "phemail" "urxvt -e bash -c 'phemail -h && zsh'" \
+           "sees" "urxvt -e bash -c 'sees -h && zsh'" \
+           "seautomate" "urxvt -e bash -c 'seautomate && zsh'" \
+           "seproxy" "urxvt -e bash -c 'seproxy && zsh'" \
+           "setoolkit" "urxvt -e bash -c 'setoolkit && zsh'" \
+           "seupdate" "urxvt -e bash -c 'seupdate && zsh'" \
+           "websploit" "urxvt -e bash -c 'websploit && zsh'" \
+           "wifiphisher" "urxvt -e bash -c 'wifiphisher -h && zsh'" \
+ 

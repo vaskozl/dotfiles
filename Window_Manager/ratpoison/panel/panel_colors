@@ -1,0 +1,15 @@
+#!/bin/bash
+. ~/.colors
+
+COLOR_FOCUSED_FG="#FF`echo $COLOR4 | cut -c 2-`"
+COLOR_FOCUSED_BG="#FF`echo $COLOR0 | cut -c 2-`"
+COLOR_FOCUSED_UG="#FF`echo $COLOR1 | cut -c 2-`"
+
+COLOR_OTHER_FG="#FF`echo $COLOR10 | cut -c 2-`"
+COLOR_OTHER_BG="#FF`echo $COLOR0 | cut -c 2-`"
+
+COLOR_STATUS_FG="#FF`echo $COLOR12 | cut -c 2-`"
+COLOR_STATUS_BG="#FF`echo $COLOR0 | cut -c 2-`"
+
+COLOR_ELSE_FG="#FF`echo $COLOR11 | cut -c 2-`"
+COLOR_ELSE_BG="#FF`echo $COLOR0 | cut -c 2-`"

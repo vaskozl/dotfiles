@@ -1,0 +1,230 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "wireless" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+           "airflood" "urxvt -e bash -c 'airflood -h && zsh'" \
+           "airopdate" "urxvt -e bash -c 'airopdate && zsh'" \
+           "airoscript-ng" "urxvt -e bash -c 'airoscript-ng && zsh'" \
+           "airoscwordlist" "urxvt -e bash -c 'airoscwordlist && zsh'" \
+           "airpwn" "urxvt -e bash -c 'airpwn -h && zsh'" \
+           "wep_keygen" "urxvt -e bash -c 'wep_keygen && zsh'" \
+           "aphopper" "urxvt -e bash -c 'aphopper && zsh'" \
+           "apnbf" "urxvt -e bash -c 'apnbf -h && zsh'" \
+           "beholder" "urxvt -e bash -c 'beholder -h && zsh'" \
+           "bully" "urxvt -e bash -c 'bully -h && zsh'" \
+           "cowpatty" "urxvt -e bash -c 'cowpatty -h && zsh'" \
+           "genpmk" "urxvt -e bash -c 'genpmk -h && zsh'" \
+           "create-ap" "urxvt -e bash -c 'create-ap -h && zsh'" \
+           "eapmd5pass" "urxvt -e bash -c 'eapmd5pass && zsh'" \
+           "eyepwn" "urxvt -e bash -c 'eyepwn && zsh'" \
+           "fern" "urxvt -e bash -c 'fern && zsh'" \
+           "checkrad" "urxvt -e bash -c 'checkrad -h && zsh'" \
+           "dhcpclient" "urxvt -e bash -c 'dhcpclient -h && zsh'" \
+           "rad_counter" "urxvt -e bash -c 'rad_counter && zsh'" \
+           "radattr" "urxvt -e bash -c 'radattr -h && zsh'" \
+           "radclient" "urxvt -e bash -c 'radclient -h && zsh'" \
+           "radcrypt" "urxvt -e bash -c 'radcrypt -h && zsh'" \
+           "raddebug" "urxvt -e bash -c 'raddebug -h && zsh'" \
+           "radeapclient" "urxvt -e bash -c 'radeapclient && zsh'" \
+           "radiusd" "urxvt -e bash -c 'radiusd -h && zsh'" \
+           "radlast" "urxvt -e bash -c 'radlast -h && zsh'" \
+           "radmin" "urxvt -e bash -c 'radmin -h && zsh'" \
+           "radsniff" "urxvt -e bash -c 'radsniff -h && zsh'" \
+           "radsqlrelay" "urxvt -e bash -c 'radsqlrelay && zsh'" \
+           "radtest" "urxvt -e bash -c 'radtest && zsh'" \
+           "radwho" "urxvt -e bash -c 'radwho -h && zsh'" \
+           "radzap" "urxvt -e bash -c 'radzap -h && zsh'" \
+           "rbmonkey" "urxvt -e bash -c 'rbmonkey && zsh'" \
+           "rc.radiusd" "urxvt -e bash -c 'rc.radiusd && zsh'" \
+           "rlm_ippool_tool" "urxvt -e bash -c 'rlm_ippool_tool && zsh'" \
+           "smbencrypt" "urxvt -e bash -c 'smbencrypt && zsh'" \
+           "checkrad" "urxvt -e bash -c 'checkrad -h && zsh'" \
+           "dhcpclient" "urxvt -e bash -c 'dhcpclient -h && zsh'" \
+           "rad_counter" "urxvt -e bash -c 'rad_counter && zsh'" \
+           "radattr" "urxvt -e bash -c 'radattr -h && zsh'" \
+           "radclient" "urxvt -e bash -c 'radclient -h && zsh'" \
+           "radcrypt" "urxvt -e bash -c 'radcrypt -h && zsh'" \
+           "raddebug" "urxvt -e bash -c 'raddebug -h && zsh'" \
+           "radeapclient" "urxvt -e bash -c 'radeapclient && zsh'" \
+           "radiusd" "urxvt -e bash -c 'radiusd -h && zsh'" \
+           "radlast" "urxvt -e bash -c 'radlast -h && zsh'" \
+           "radmin" "urxvt -e bash -c 'radmin -h && zsh'" \
+           "radsniff" "urxvt -e bash -c 'radsniff -h && zsh'" \
+           "radsqlrelay" "urxvt -e bash -c 'radsqlrelay && zsh'" \
+           "radtest" "urxvt -e bash -c 'radtest && zsh'" \
+           "radwho" "urxvt -e bash -c 'radwho -h && zsh'" \
+           "radzap" "urxvt -e bash -c 'radzap -h && zsh'" \
+           "rbmonkey" "urxvt -e bash -c 'rbmonkey && zsh'" \
+           "rc.radiusd" "urxvt -e bash -c 'rc.radiusd && zsh'" \
+           "rlm_ippool_tool" "urxvt -e bash -c 'rlm_ippool_tool && zsh'" \
+           "smbencrypt" "urxvt -e bash -c 'smbencrypt && zsh'" \
+           "fuzzap" "urxvt -e bash -c 'fuzzap -h && zsh'" \
+           "decode-g72x" "urxvt -e bash -c 'decode-g72x -h && zsh'" \
+           "giskismet" "urxvt -e bash -c 'giskismet && zsh'" \
+           "gnuradio-companion" "urxvt -e bash -c 'gnuradio-companion -h && zsh'" \
+           "gnuradio-config-info" "urxvt -e bash -c 'gnuradio-config-info -h && zsh'" \
+           "gr_filter_design" "urxvt -e bash -c 'gr_filter_design && zsh'" \
+           "gr_modtool" "urxvt -e bash -c 'gr_modtool && zsh'" \
+           "gr_plot_char" "urxvt -e bash -c 'gr_plot_char && zsh'" \
+           "gr_plot_const" "urxvt -e bash -c 'gr_plot_const && zsh'" \
+           "gr_plot_fft" "urxvt -e bash -c 'gr_plot_fft && zsh'" \
+           "gr_plot_fft_c" "urxvt -e bash -c 'gr_plot_fft_c && zsh'" \
+           "gr_plot_fft_f" "urxvt -e bash -c 'gr_plot_fft_f && zsh'" \
+           "gr_plot_float" "urxvt -e bash -c 'gr_plot_float && zsh'" \
+           "gr_plot_int" "urxvt -e bash -c 'gr_plot_int && zsh'" \
+           "gr_plot_iq" "urxvt -e bash -c 'gr_plot_iq && zsh'" \
+           "gr_plot_psd" "urxvt -e bash -c 'gr_plot_psd && zsh'" \
+           "gr_plot_psd_c" "urxvt -e bash -c 'gr_plot_psd_c && zsh'" \
+           "gr_plot_psd_f" "urxvt -e bash -c 'gr_plot_psd_f && zsh'" \
+           "gr_plot_qt" "urxvt -e bash -c 'gr_plot_qt && zsh'" \
+           "gr_plot_short" "urxvt -e bash -c 'gr_plot_short && zsh'" \
+           "gr_read_file_metadata" "urxvt -e bash -c 'gr_read_file_metadata && zsh'" \
+           "grcc" "urxvt -e bash -c 'grcc && zsh'" \
+           "uhd_fft" "urxvt -e bash -c 'uhd_fft && zsh'" \
+           "uhd_rx_cfile" "urxvt -e bash -c 'uhd_rx_cfile && zsh'" \
+           "uhd_rx_nogui" "urxvt -e bash -c 'uhd_rx_nogui && zsh'" \
+           "uhd_siggen" "urxvt -e bash -c 'uhd_siggen && zsh'" \
+           "uhd_siggen_gui" "urxvt -e bash -c 'uhd_siggen_gui && zsh'" \
+           "usrp_flex" "urxvt -e bash -c 'usrp_flex && zsh'" \
+           "usrp_flex_all" "urxvt -e bash -c 'usrp_flex_all && zsh'" \
+           "usrp_flex_band" "urxvt -e bash -c 'usrp_flex_band && zsh'" \
+           "volk-config-info" "urxvt -e bash -c 'volk-config-info && zsh'" \
+           "volk_modtool" "urxvt -e bash -c 'volk_modtool && zsh'" \
+           "volk_profile" "urxvt -e bash -c 'volk_profile && zsh'" \
+           "gnuradio-companion" "urxvt -e bash -c 'gnuradio-companion -h && zsh'" \
+           "gnuradio-config-info" "urxvt -e bash -c 'gnuradio-config-info -h && zsh'" \
+           "gr_filter_design" "urxvt -e bash -c 'gr_filter_design && zsh'" \
+           "gr_modtool" "urxvt -e bash -c 'gr_modtool && zsh'" \
+           "gr_plot_char" "urxvt -e bash -c 'gr_plot_char && zsh'" \
+           "gr_plot_const" "urxvt -e bash -c 'gr_plot_const && zsh'" \
+           "gr_plot_fft" "urxvt -e bash -c 'gr_plot_fft && zsh'" \
+           "gr_plot_fft_c" "urxvt -e bash -c 'gr_plot_fft_c && zsh'" \
+           "gr_plot_fft_f" "urxvt -e bash -c 'gr_plot_fft_f && zsh'" \
+           "gr_plot_float" "urxvt -e bash -c 'gr_plot_float && zsh'" \
+           "gr_plot_int" "urxvt -e bash -c 'gr_plot_int && zsh'" \
+           "gr_plot_iq" "urxvt -e bash -c 'gr_plot_iq && zsh'" \
+           "gr_plot_psd" "urxvt -e bash -c 'gr_plot_psd && zsh'" \
+           "gr_plot_psd_c" "urxvt -e bash -c 'gr_plot_psd_c && zsh'" \
+           "gr_plot_psd_f" "urxvt -e bash -c 'gr_plot_psd_f && zsh'" \
+           "gr_plot_qt" "urxvt -e bash -c 'gr_plot_qt && zsh'" \
+           "gr_plot_short" "urxvt -e bash -c 'gr_plot_short && zsh'" \
+           "gr_read_file_metadata" "urxvt -e bash -c 'gr_read_file_metadata && zsh'" \
+           "grcc" "urxvt -e bash -c 'grcc && zsh'" \
+           "uhd_fft" "urxvt -e bash -c 'uhd_fft && zsh'" \
+           "uhd_rx_cfile" "urxvt -e bash -c 'uhd_rx_cfile && zsh'" \
+           "uhd_rx_nogui" "urxvt -e bash -c 'uhd_rx_nogui && zsh'" \
+           "uhd_siggen" "urxvt -e bash -c 'uhd_siggen && zsh'" \
+           "uhd_siggen_gui" "urxvt -e bash -c 'uhd_siggen_gui && zsh'" \
+           "usrp_flex" "urxvt -e bash -c 'usrp_flex && zsh'" \
+           "usrp_flex_all" "urxvt -e bash -c 'usrp_flex_all && zsh'" \
+           "usrp_flex_band" "urxvt -e bash -c 'usrp_flex_band && zsh'" \
+           "volk-config-info" "urxvt -e bash -c 'volk-config-info && zsh'" \
+           "volk_modtool" "urxvt -e bash -c 'volk_modtool && zsh'" \
+           "volk_profile" "urxvt -e bash -c 'volk_profile && zsh'" \
+           "gqrx" "urxvt -e bash -c 'gqrx -h && zsh'" \
+           "gqrx-alsa" "urxvt -e bash -c 'gqrx-alsa && zsh'" \
+           "gqrx-alsa" "urxvt -e bash -c 'gqrx-alsa && zsh'" \
+           "hotspotter" "urxvt -e bash -c 'hotspotter && zsh'" \
+           "hawk" "urxvt -e bash -c 'hawk --help && zsh'" \
+           "hwk-eagle" "urxvt -e bash -c 'hwk-eagle --help && zsh'" \
+           "zbassocflood" "urxvt -e bash -c 'zbassocflood && zsh'" \
+           "zbconvert" "urxvt -e bash -c 'zbconvert && zsh'" \
+           "zbdsniff" "urxvt -e bash -c 'zbdsniff && zsh'" \
+           "zbdump" "urxvt -e bash -c 'zbdump && zsh'" \
+           "zbfind" "urxvt -e bash -c 'zbfind && zsh'" \
+           "zbgoodfind" "urxvt -e bash -c 'zbgoodfind && zsh'" \
+           "zbid" "urxvt -e bash -c 'zbid && zsh'" \
+           "zbkey" "urxvt -e bash -c 'zbkey && zsh'" \
+           "zbopenear" "urxvt -e bash -c 'zbopenear -h && zsh'" \
+           "zbreplay" "urxvt -e bash -c 'zbreplay && zsh'" \
+           "zbscapy" "urxvt -e bash -c 'zbscapy && zsh'" \
+           "zbstumbler" "urxvt -e bash -c 'zbstumbler -h && zsh'" \
+           "zbwardrive" "urxvt -e bash -c 'zbwardrive && zsh'" \
+           "zbwireshark" "urxvt -e bash -c 'zbwireshark && zsh'" \
+           "kismet" "urxvt -e bash -c 'kismet -h && zsh'" \
+           "kismet_capture" "urxvt -e bash -c 'kismet_capture && zsh'" \
+           "kismet_client" "urxvt -e bash -c 'kismet_client -h && zsh'" \
+           "kismet_drone" "urxvt -e bash -c 'kismet_drone -h && zsh'" \
+           "kismet_server" "urxvt -e bash -c 'kismet_server -h && zsh'" \
+           "kismet" "urxvt -e bash -c 'kismet -h && zsh'" \
+           "kismet_capture" "urxvt -e bash -c 'kismet_capture && zsh'" \
+           "kismet_client" "urxvt -e bash -c 'kismet_client -h && zsh'" \
+           "kismet_drone" "urxvt -e bash -c 'kismet_drone -h && zsh'" \
+           "kismet_server" "urxvt -e bash -c 'kismet_server -h && zsh'" \
+           "db2ge" "urxvt -e bash -c 'db2ge -h && zsh'" \
+           "k2db" "urxvt -e bash -c 'k2db -h && zsh'" \
+           "linset" "urxvt -e bash -c 'linset && zsh'" \
+           "mdk3" "urxvt -e bash -c 'mdk3 --help && zsh'" \
+           "mfcuk" "urxvt -e bash -c 'mfcuk && zsh'" \
+           "mfoc" "urxvt -e bash -c 'mfoc -h && zsh'" \
+           "netdiscover" "urxvt -e bash -c 'netdiscover -h && zsh'" \
+           "pyrit" "urxvt -e bash -c 'pyrit -h && zsh'" \
+           "reaver" "urxvt -e bash -c 'reaver && zsh'" \
+           "wash" "urxvt -e bash -c 'wash && zsh'" \
+           "rfdump" "urxvt -e bash -c 'rfdump && zsh'" \
+           "rfidiot-ChAP" "urxvt -e bash -c 'rfidiot-ChAP -h && zsh'" \
+           "rfidiot-cardselect" "urxvt -e bash -c 'rfidiot-cardselect -h && zsh'" \
+           "rfidiot-copytag" "urxvt -e bash -c 'rfidiot-copytag -h && zsh'" \
+           "rfidiot-demotag" "urxvt -e bash -c 'rfidiot-demotag -h && zsh'" \
+           "rfidiot-eeprom" "urxvt -e bash -c 'rfidiot-eeprom -h && zsh'" \
+           "rfidiot-fdxbnum" "urxvt -e bash -c 'rfidiot-fdxbnum -h && zsh'" \
+           "rfidiot-formatmifare1kvalue" "urxvt -e bash -c 'rfidiot-formatmifare1kvalue -h && zsh'" \
+           "rfidiot-froschtest" "urxvt -e bash -c 'rfidiot-froschtest -h && zsh'" \
+           "rfidiot-hidprox" "urxvt -e bash -c 'rfidiot-hidprox -h && zsh'" \
+           "rfidiot-hitag2brute" "urxvt -e bash -c 'rfidiot-hitag2brute -h && zsh'" \
+           "rfidiot-hitag2reset" "urxvt -e bash -c 'rfidiot-hitag2reset -h && zsh'" \
+           "rfidiot-isotype" "urxvt -e bash -c 'rfidiot-isotype -h && zsh'" \
+           "rfidiot-jcopmifare" "urxvt -e bash -c 'rfidiot-jcopmifare -h; bash && zsh'" \
+           "rfidiot-jcopsetatrhist" "urxvt -e bash -c 'rfidiot-jcopsetatrhist -h && zsh'" \
+           "rfidiot-jcoptool" "urxvt -e bash -c 'rfidiot-jcoptool -h && zsh'" \
+           "rfidiot-lfxtype" "urxvt -e bash -c 'rfidiot-lfxtype -h && zsh'" \
+           "rfidiot-loginall" "urxvt -e bash -c 'rfidiot-loginall -h && zsh'" \
+           "rfidiot-mifarekeys" "urxvt -e bash -c 'rfidiot-mifarekeys -h && zsh'" \
+           "rfidiot-mrpkey" "urxvt -e bash -c 'rfidiot-mrpkey -h && zsh'" \
+           "rfidiot-multiselect" "urxvt -e bash -c 'rfidiot-multiselect -h && zsh'" \
+           "rfidiot-pn532emulate" "urxvt -e bash -c 'rfidiot-pn532emulate -h; bash && zsh'" \
+           "rfidiot-pn532mitm" "urxvt -e bash -c 'rfidiot-pn532mitm -h && zsh'" \
+           "rfidiot-q5reset" "urxvt -e bash -c 'rfidiot-q5reset -h && zsh'" \
+           "rfidiot-readlfx" "urxvt -e bash -c 'rfidiot-readlfx -h && zsh'" \
+           "rfidiot-readmifare1k" "urxvt -e bash -c 'rfidiot-readmifare1k -h && zsh'" \
+           "rfidiot-readmifaresimple" "urxvt -e bash -c 'rfidiot-readmifaresimple -h && zsh'" \
+           "rfidiot-readmifareultra" "urxvt -e bash -c 'rfidiot-readmifareultra -h && zsh'" \
+           "rfidiot-readtag" "urxvt -e bash -c 'rfidiot-readtag -h && zsh'" \
+           "rfidiot-rfidiot-cli" "urxvt -e bash -c 'rfidiot-rfidiot-cli -h && zsh'" \
+           "rfidiot-send-apdu" "urxvt -e bash -c 'rfidiot-send-apdu -h && zsh'" \
+           "rfidiot-sod" "urxvt -e bash -c 'rfidiot-sod && zsh'" \
+           "rfidiot-transit" "urxvt -e bash -c 'rfidiot-transit -h && zsh'" \
+           "rfidiot-unique" "urxvt -e bash -c 'rfidiot-unique -h && zsh'" \
+           "rfidiot-writelfx" "urxvt -e bash -c 'rfidiot-writelfx -h && zsh'" \
+           "rfidiot-writemifare1k" "urxvt -e bash -c 'rfidiot-writemifare1k -h && zsh'" \
+           "rfidtool" "urxvt -e bash -c 'rfidtool && zsh'" \
+           "spectool_curses" "urxvt -e bash -c 'spectool_curses -h && zsh'" \
+           "spectool_gtk" "urxvt -e bash -c 'spectool_gtk && zsh'" \
+           "spectool_net" "urxvt -e bash -c 'spectool_net -h && zsh'" \
+           "spectool_raw" "urxvt -e bash -c 'spectool_raw -h && zsh'" \
+           "speedport-arcadyan" "urxvt -e bash -c 'speedport-arcadyan && zsh'" \
+           "speedpwn" "urxvt -e bash -c 'speedpwn -h && zsh'" \
+           "timegen" "urxvt -e bash -c 'timegen -h && zsh'" \
+           "ubitack" "urxvt -e bash -c 'ubitack -h && zsh'" \
+           "ufo-wardriving" "urxvt -e bash -c 'ufo-wardriving && zsh'" \
+           "wavemon" "urxvt -e bash -c 'wavemon -h && zsh'" \
+           "wepbuster" "urxvt -e bash -c 'wepbuster --help && zsh'" \
+           "wi-feye" "urxvt -e bash -c 'wi-feye -h && zsh'" \
+           "dhcpd.conf" "urxvt -e bash -c 'dhcpd.conf && zsh'" \
+           "evilgrade.sh" "urxvt -e bash -c 'evilgrade.sh && zsh'" \
+           "wifi-honey" "urxvt -e bash -c 'wifi-honey -h && zsh'" \
+           "wificurse" "urxvt -e bash -c 'wificurse -h && zsh'" \
+           "wifijammer" "urxvt -e bash -c 'wifijammer -h && zsh'" \
+           "wifiphisher" "urxvt -e bash -c 'wifiphisher -h && zsh'" \
+           "wifiarp" "urxvt -e bash -c 'wifiarp -h && zsh'" \
+           "wifidns" "urxvt -e bash -c 'wifidns && zsh'" \
+           "wifiping" "urxvt -e bash -c 'wifiping && zsh'" \
+           "wifitap" "urxvt -e bash -c 'wifitap && zsh'" \
+           "wifite" "urxvt -e bash -c 'wifite && zsh'" \
+           "wireless-ids" "urxvt -e bash -c 'wireless-ids -h && zsh'" \
+           "wirouterkeyrec" "urxvt -e bash -c 'wirouterkeyrec && zsh'" \
+           "wr_iwlist.sh" "urxvt -e bash -c 'wr_iwlist.sh && zsh'" \
+           "wlan2eth" "urxvt -e bash -c 'wlan2eth -h && zsh'" \
+           "zulu" "urxvt -e bash -c 'zulu && zsh'" \
+           "zykeys" "urxvt -e bash -c 'zykeys && zsh'" \

@@ -1,0 +1,51 @@
+#!/bin/bash
+source ~/.colors
+
+~/.tools/ratmenu -label "nfc" \
+        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
+"anti-forensic" "~/.tools/menu/anti-forensic" \
+"automation" "~/.tools/menu/automation" \
+"backdoor" "~/.tools/menu/backdoor" \
+"binary" "~/.tools/menu/binary" \
+"bluetooth" "~/.tools/menu/bluetooth" \
+"code-audit" "~/.tools/menu/code-audit" \
+"cracker" "~/.tools/menu/cracker" \
+"crypto" "~/.tools/menu/crypto" \
+"cryptography" "~/.tools/menu/cryptography" \
+"database" "~/.tools/menu/database" \
+"debugger" "~/.tools/menu/debugger" \
+"decompiler" "~/.tools/menu/decompiler" \
+"defensive" "~/.tools/menu/defensive" \
+"disassembler" "~/.tools/menu/disassembler" \
+"dos" "~/.tools/menu/dos" \
+"drone" "~/.tools/menu/drone" \
+"exploitation" "~/.tools/menu/exploitation" \
+"fingerprint" "~/.tools/menu/fingerprint" \
+"firmware" "~/.tools/menu/firmware" \
+"forensic" "~/.tools/menu/forensic" \
+"fuzzer" "~/.tools/menu/fuzzer" \
+"hardware" "~/.tools/menu/hardware" \
+"honeypot" "~/.tools/menu/honeypot" \
+"keylogger" "~/.tools/menu/keylogger" \
+"main" "~/.tools/menu/main" \
+"malware" "~/.tools/menu/malware" \
+"misc" "~/.tools/menu/misc" \
+"mobile" "~/.tools/menu/mobile" \
+"networking" "~/.tools/menu/networking" \
+"nfc" "~/.tools/menu/nfc" \
+"packer" "~/.tools/menu/packer" \
+"proxy" "~/.tools/menu/proxy" \
+"radio" "~/.tools/menu/radio" \
+"recon" "~/.tools/menu/recon" \
+"reversing" "~/.tools/menu/reversing" \
+"scanner" "~/.tools/menu/scanner" \
+"sniffer" "~/.tools/menu/sniffer" \
+"social" "~/.tools/menu/social" \
+"spoof" "~/.tools/menu/spoof" \
+"threat-model" "~/.tools/menu/threat-model" \
+"tunnel" "~/.tools/menu/tunnel" \
+"unpacker" "~/.tools/menu/unpacker" \
+"voip" "~/.tools/menu/voip" \
+"webapp" "~/.tools/menu/webapp" \
+"windows" "~/.tools/menu/windows" \
+"wireless" "~/.tools/menu/wireless" \

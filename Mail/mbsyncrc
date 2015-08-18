@@ -1,0 +1,25 @@
+IMAPAccount dove
+Host skozl.com
+User v@skozl.com
+Pass youwish
+UseIMAPS yes
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+
+IMAPStore dove-remote
+Account dove
+
+MaildirStore dove-local
+# The trailing "/" is important
+Path ~/.mail/dove/
+Inbox ~/.mail/dove/Inbox
+
+Channel gmail
+Master :dove-remote:
+Slave :dove-local:
+Patterns *
+# Automatically create missing mailboxes, both locally and on the server
+Create Both
+# Save the synchronization state files in the relevant directory
+SyncState *
+

@@ -1,0 +1,73 @@
+[general]
+ui = ttyui
+accounts = Dovecot
+# This will suppress anything but errors
+ui = quiet
+
+[Account Dovecot]
+localrepository = Dovecot-Local
+remoterepository = Dovecot-Remote
+autorefresh = 15
+
+[Repository Dovecot-Local]
+type = Maildir
+localfolders = ~/.mail/dove
+
+[Repository Dovecot-Remote]
+type = IMAP
+idlefolders = ['INBOX']
+remotehost = skozl.com
+remoteuser = v@skozl.com
+#remotepass = youwish
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Account Gmail]
+localrepository = Gmail-Local
+remoterepository = Gmail-Remote
+
+[Repository Gmail-Local]
+type = Maildir
+localfolders = ~/.mail/Gmail
+nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
+                            'sent':    '[Gmail]/Sent Mail',
+                            'flagged': '[Gmail]/Starred',
+                            'trash':   '[Gmail]/Trash',
+                            'spam':    '[Gmail]/Spam',
+                            'archive': '[Gmail]/All Mail',
+                            }.get(folder, folder)
+
+
+[Repository Gmail-Remote]
+type = Gmail
+#idlefolders = ['INBOX']
+remoteuser = vasil.zlatanov@gmail.com
+#remotepass = youwish
+realdelete = yes
+maxconnections = 2
+sslcacertfile = ~/.mutt/ca-certificates.crt
+nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
+                            '[Gmail]/Sent Mail': 'sent',
+                            '[Gmail]/Starred':   'flagged',
+                            '[Gmail]/Trash':     'trash',
+                            '[Gmail]/Spam':      'spam',
+                            '[Gmail]/All Mail':  'archive',
+                            }.get(folder, folder)
+
+[Account BitMessage]
+localrepository = BitMessage-Local
+remoterepository = BitMessage-Remote
+autorefresh = 15
+
+[Repository BitMessage-Local]
+type = Maildir
+localfolders = ~/.mail/Swiss
+
+[Repository BitMessage-Remote]
+type = IMAP
+idlefolders = ['INBOX']
+remotehost = mail.bitmessage.ch
+remoteuser = BM-2cT677uioXaWcyyGPoLeS1t7fSoYbmFscj@bitmessage.ch
+#remotepass = youwish
+ssl = yes
+cert_fingerprint = f7dbaf99a66bdcc4fcf0cc7ca76b812d5e4bbb59

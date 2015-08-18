@@ -1,0 +1,4 @@
+exec rpws init 24 -a
+alias config source /home/vasko/.tools/ratpoisonrc.conf
+config
+bind C-r config

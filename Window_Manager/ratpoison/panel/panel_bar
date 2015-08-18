@@ -1,0 +1,144 @@
+#! /bin/sh
+
+num_mon=$(bspc query -M | wc -l)
+
+. ./panel_colors
+. ./icons
+while read -r line ; do
+	case $line in
+		Imail) 
+			mbsync -a > /dev/null
+			if bspc control --get-status | grep OIX > /dev/null;then
+			mail=''
+			else
+			mail="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MAIL} %{B-}%{F-}"
+			fi
+			;;
+	
+		Iface)
+			if bspc control --get-status | grep OX > /dev/null;then
+				face=''
+			else
+				face="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_FACE} %{B-}%{F-}"
+			fi
+			;;
+	
+		Ipub)
+			if bspc control --get-status | grep OX > /dev/null;then
+				pub=''
+			else
+				pub="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PUB} %{B-}%{F-}"
+			fi
+			;;
+
+		Ipriv)
+			if bspc control --get-status | grep OX > /dev/null;then
+				priv=''
+			else
+				priv="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PRIV} %{B-}%{F-}"
+			fi
+			;;
+		Iclear)
+			priv=""
+			pub=""
+			face=""
+			;;
+		Ixlear)
+                       mail=''
+	               ;;
+#		C*)
+#			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"
+#			;;
+#		R*)
+#			ram="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} R:${line#?} %{B-}%{F-}"
+#			;;
+	
+#		S*)
+#			signal="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} S:${line#?} %{B-}%{F-}"
+#			;;
+	
+		p*)
+			# playing mpc 
+			paused=''
+			playing="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PLAY} ${line#?} %{B-}%{F-}"
+			;;
+	
+		P*)
+			# paused mpc
+			playing=''
+			paused="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PAUSE} ${line#?} %{B-}%{F-}"
+			;;
+		K*)
+			# volume output
+			musicvol="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MUSIC} ${line#?} %{B-}%{F-}"
+			;;
+	
+	
+		BDischarging*)
+			percent=`echo ${line#?} | cut -d' ' -f2`
+			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PWR} ${percent} %{B-}%{F-}";
+			;;
+	        B*)
+			percent=`echo ${line#?} | cut -d' ' -f2`
+			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PLUG} ${percent} %{B-}%{F-}";
+			;;
+	
+	
+		V*)
+			# volume output
+			if amixer contents | head -12 | tail -1 | grep on > /dev/null;then
+			volume="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_HPHONES} ${line#?} %{B-}%{F-}"
+		        else
+			volume="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_VOLUME_UP} ${line#?} %{B-}%{F-}";
+			fi
+			;;
+	
+		E*)
+			# essid output
+                        if [ -z ${line#?} ];then 
+			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:No WiFi  %{B-}%{F-}"
+                        else
+			essid="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} E:${line#?} %{B-}%{F-}"
+                        fi
+			;;
+	
+		Z*)
+			# clock output
+			time_infos="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${line#?} %{B-}%{F-}"
+			;;
+#		T*)
+#			# xtitle output
+#			title="%{F$COLOR_TITLE_FG}%{B$COLOR_TITLE_BG} ${line#?} %{B-}%{F-}"
+#			;;
+		D*)
+			# active desktop
+			desktop="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${line#?}%{B-}%{F-}  "
+          		;;
+		Wclear)
+			wm_infos=''
+			;;
+	
+		\**)
+			# current focused window
+			wm_infos="${wm_infos}%{F$COLOR_FOCUSED_FG}%{B$COLOR_FOCUSED_BG}%{U$COLOR_FOCUSED_UG}%{+o} ${line#?} %{-o}%{B-}%{F-}%{U-}"
+			;;
+		+*)
+			# last focused window
+			wm_infos="${wm_infos}%{F$COLOR_OTHER_FG}%{B$COLOR_OTHER_BG} ${line#?} %{B-}%{F-}"
+			;;
+        	-*)
+			# other windows
+			wm_infos="${wm_infos}%{F$COLOR_ELSE_FG}%{B$COLOR_ELSE_BG} ${line#?} %{B-}%{F-}"
+			;;
+#					u*)
+#						# urgent desktop
+#						wm_infos="${wm_infos}%{F$COLOR_URGENT_FG}%{B$COLOR_URGENT_BG} ${name} %{B-}%{F-}"
+#						;;
+#					L*)
+#						# layout
+#						wm_infos="$wm_infos  %{F$COLOR_LAYOUT_FG}%{B$COLOR_LAYOUT_BG} ${name} %{B-}%{F-}"
+#						;;
+	esac
+#	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
+	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
+done

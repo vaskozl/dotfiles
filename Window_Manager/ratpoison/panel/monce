@@ -1,0 +1,25 @@
+#!/bin/sh
+
+
+f=1
+d=30 # width
+
+new=`mpc current` 
+if [ "$old" != "$new" ];then 
+f=1;
+old="$new"
+fi
+
+
+e=$(expr $f + $d)
+
+if mpc | grep -q playing; then  
+symbol='p'
+else
+symbol='P'
+fi
+
+echo "$symbol`echo $new | cut --bytes $f-$e`"
+echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
+
+

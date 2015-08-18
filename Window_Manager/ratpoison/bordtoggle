@@ -1,0 +1,12 @@
+#!/bin/sh
+# This shell script is PUBLIC DOMAIN. You may do whatever you want with it.
+
+TOGGLE=$HOME/.toggle
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    ratpoison -c "hideborder"
+else
+    rm $TOGGLE
+    ratpoison -c "showborder"
+fi

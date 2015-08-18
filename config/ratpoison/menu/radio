@@ -1,8 +1,0 @@
-#!/bin/bash
-source ~/.colors
-
-~/.tools/ratmenu -label "radio" \
-        -style dreary -fg "$COLOR11" -bg "$COLOR0"  \
-           "gpredict" "urxvt -e bash -c 'gpredict -h && zsh'" \
-           "rtlizer" "urxvt -e bash -c 'rtlizer -h && zsh'" \
- 

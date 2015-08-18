@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in {1..5}
+do
+	ratpoison -c "echo `ratpoison -c "time"`"
+	sleep 1
+done
+ratpoison -c "echo ` `"
