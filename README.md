@@ -1,15 +1,11 @@
-Vaskozl's dotfiles
+Vaskozl's keyboard-only dotfiles
 ========
-
-ratpoison,
-vim,
-uzbl-browser,
-vimperator,
-pentadactyl,
-mutt.
-newbeuter.
-GNU screen.
-X11.
-
-And other useful scripts utilising them.
-
+```
+System: archlinux
+Browser: vimb
+Editor: vim
+Mail: mutt & mbsync
+File_Manager: ranger 
+News_Aggregator: newsbeuter
+Shell: zsh
+```
