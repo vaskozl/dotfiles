@@ -27,11 +27,11 @@ nmap ) <C-N>
 nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set scripts=true<CR>
 
 
-set status-color-bg=#202020
-set status-color-fg=#c8c8c8
-set status-ssl-color-bg=#202020
-set status-ssl-color-fg=#c8c8c8
-set completion-bg-active=#202020
-set completion-bg-normal=#202020
-set completion-fg-active=#a0a0a0
-set completion-fg-normal=#c8c8c8
+set status-color-bg=#201020
+set status-color-fg=#c8af9d
+set status-ssl-color-bg=#201020
+set status-ssl-color-fg=#c8af9d
+set completion-bg-active=#201020
+set completion-bg-normal=#201020
+set completion-fg-active=#6071a0
+set completion-fg-normal=#c8af9d
