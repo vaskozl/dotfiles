@@ -2,6 +2,7 @@ Vaskozl's keyboard-only dotfiles
 ========
 ```
 System: archlinux
+Window_Manager: ratpoison
 Browser: vimb
 Editor: vim
 Mail: mutt & mbsync

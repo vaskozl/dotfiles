@@ -186,14 +186,14 @@ fi
 #     window 1: irc 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 10
-    $xtoolwait $term $screen_run irssi
+    $xtoolwait $term vps
 #    $xtoolwait $term irssi
 fi
 
 # workspace 11 : wifi workspace
 #     window 1: wicd 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace ^10
+    $workspace 11
     $xtoolwait $term sudo /usr/bin/safeconnect
 fi
 
