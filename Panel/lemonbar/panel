@@ -25,5 +25,5 @@ source ./panel_colors
 
 cat "$PANEL_FIFO" | ./panel_bar | lemonbar -f "$FONT_FONT" -f "$ICON_FONT" -g x$PANEL_HEIGHT -F "$COLOR11" -B "$COLOR0" -u 3 &
 
-#sleep 1;
-#stalonetray --geometry 1x1-415+2 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 20 &
+sleep 1;
+stalonetray --geometry 1x1-415+2 --icon-gravity E --grow-gravity E  -bg $COLOR0 -i 20 &

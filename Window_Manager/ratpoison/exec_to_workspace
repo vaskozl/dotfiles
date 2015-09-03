@@ -11,3 +11,4 @@ cmd="$@"
 rpws $wg
 eval $cmd &
 ratpoison -c 'barsend'
+echo "D$wg" > /tmp/panel-fifo

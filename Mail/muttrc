@@ -35,6 +35,9 @@ macro index D \
 set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
 
+# CardDav completion
+bind editor <Tab> complete-query
+
 # Save contact to CardDav
 macro index,pager A "<pipe-message>pycard-import<enter>" "add sender address to pycardsyncer"
 

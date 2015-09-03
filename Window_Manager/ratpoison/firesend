@@ -1,2 +1,2 @@
 #!/bin/bash
-$HOME/.config/ratpoison/exec_to_workspace II vimb $@ > /dev/null 2>&1
+$HOME/.config/ratpoison/exec_to_workspace 2 vimb $@ > /dev/null 2>&1

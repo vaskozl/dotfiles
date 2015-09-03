@@ -8,8 +8,7 @@ shortcut-add arwk=https://wiki.archlinux.org/index.php?title=Special%3ASearch&se
 shortcut-add aur=https://aur.archlinux.org/packages/?K=$0
 shortcut-default gl
 
-set download-command=aria2c --seed-time=900 -d Downloads/ %s
-set download-use-external=true
+set download-path=~/Downloads
 
 set cookie-accept=always
 set cookie-expire-time=0

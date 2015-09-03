@@ -1,5 +1,5 @@
 #!/bin/sh
-source ~/.colors
+. ~/.colors
 cp ~/.config/vimb/config.static ~/.config/vimb/config
 echo "set status-color-bg=$COLOR0" >> ~/.config/vimb/config
 echo "set status-color-fg=$COLOR11" >> ~/.config/vimb/config

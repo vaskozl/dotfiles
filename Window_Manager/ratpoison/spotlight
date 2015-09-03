@@ -1,4 +1,4 @@
 #!/bin/sh
-source ~/.colors
+. ~/.colors
 bullet=`locate ~/ | dmenu -i -l 20 -sb $COLOR0 -nb $COLOR0 -nf $COLOR11 -sf $COLOR3` 
 urxvt -e rifle -p0 "$bullet"
