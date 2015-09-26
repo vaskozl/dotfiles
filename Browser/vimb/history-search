@@ -1,0 +1,3 @@
+#!/bin/sh
+. ~/.colors
+vimb `tac $HOME/.config/vimb/history | dmenu -i -l 20 -sb $COLOR0 -nb $COLOR0 -nf $COLOR11 -sf $COLOR3 | awk '{print $1;}'` 
