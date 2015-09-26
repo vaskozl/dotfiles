@@ -24,7 +24,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 
 # Autodisable rodent
-sudo modprobe -r bcm5974
+#sudo modprobe -r bcm5974
 
 # Make C-v always insert selection (disabled due to too much cpu wakepus)
 ### Disabled for use of too many cpu cycles
@@ -54,7 +54,7 @@ sudo /usr/bin/brightchown
 ~/.custom
 
 #Keyboard Bindings
-setxkbmap us -variant colemak
+setxkbmap us -variant vaskozl
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
 xset r rate 170 60

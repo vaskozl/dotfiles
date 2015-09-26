@@ -8,7 +8,7 @@
 alias sdr='gqrx-alsa'
 # Disable mouse
 alias remouse='sudo modprobe -r bcm5974'
-alias enmouse='sudo modprobe bcm5974 & ~/bin/mousefix'
+alias enmouse='sudo modprobe bcm5974 && ~/bin/mousefix'
 
 # Notes
 alias physics='vim ~/Sync/Notes/Physics/physics.txt'
@@ -19,6 +19,7 @@ alias swedish='vim ~/Sync/Notes/Swedish/swedish.txt'
 #zombify
 alias zombify='sudo -u dork /home/vasko/dorknet/dork zombify'
 
+alias radio="unbuffer mpv 'http://relay.181.fm:8028' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias irc='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 55022 vasko@skozl.com'
 alias vps='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@108.61.173.91'
 alias sourcel='source ~/.bash_aliases'
@@ -106,7 +107,7 @@ alias rat='vim ~/.tools/ratpoisonrc.conf'
 alias sx='vim ~/.config/sxhkd/sxhkdrc'
 alias bs='vim ~/.config/bspwm/bspwmrc'
 alias screenrc='vim ~/.ratpoison/screenrc'
-alias xkb='sudo vim /usr/share/X11/xkb/symbols/uc'
+alias xkb='sudo vim /usr/share/X11/xkb/symbols/vaskozl'
 alias pdf='apvlv'
 alias kpaint='kolourpaint'
 alias gnu='vrms'

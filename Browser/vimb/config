@@ -1,3 +1,7 @@
+set useragent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+
+set spacial-navigation=true
+
 shortcut-add wiki=https://en.wikipedia.org/w/index.php?search=$0
 shortcut-add gl=https://encrypted.google.com/#q=$0
 shortcut-add dl=https://duckduckgo.com/lite/?q=$0
@@ -26,11 +30,11 @@ nmap ) <C-N>
 nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set scripts=true<CR>
 
 
-set status-color-bg=#0c1520
-set status-color-fg=#70b6e0
-set status-ssl-color-bg=#0c1520
-set status-ssl-color-fg=#70b6e0
-set completion-bg-active=#0c1520
-set completion-bg-normal=#0c1520
-set completion-fg-active=#3966a6
-set completion-fg-normal=#70b6e0
+set status-color-bg=#0D0F20
+set status-color-fg=#D10F2F
+set status-ssl-color-bg=#0D0F20
+set status-ssl-color-fg=#D10F2F
+set completion-bg-active=#0D0F20
+set completion-bg-normal=#0D0F20
+set completion-fg-active=#A02896
+set completion-fg-normal=#D10F2F
