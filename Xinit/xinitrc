@@ -57,6 +57,7 @@ sudo /usr/bin/brightchown
 setxkbmap us -variant vaskozl
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
+xset r 133
 xset r rate 170 60
 xset m 0 0 
 xset -b
@@ -205,7 +206,7 @@ fi
 #     window 1: music 
 if [ $run_everything = true -o $run_workspace = 2 ]; then
     $workspace 12
-    mpd &
+    mopidy &
     $xtoolwait $term ncmpcpp
 fi
 

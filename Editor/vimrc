@@ -85,7 +85,6 @@ nnoremap k gk
 "set leader to comma
 let mapleader = ","
 
-
 "Math with qalc
 nnoremap <leader>m :.!~/bin/calc<Enter>
 nnoremap <leader>i :read !latestimage<Enter>
@@ -93,6 +92,15 @@ nnoremap <leader>v :!open '<cfile>'<CR>
 
 "read spaces in path's
 set isfname+=32
+
+"Set tab to two spaces
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+
+let g:ycm_confirm_extra_conf = 1
+
 
 "Make tab into another escape
 "nnoremap <Tab> <Esc>
@@ -107,6 +115,9 @@ set clipboard^=unnamed
 
 " don't clobber up the directory with dot undo file
 set undodir=~/.vim/undodir//
+
+"disable mouse
+set mouse=
 
 
 "Open new file
