@@ -99,7 +99,8 @@ set shiftwidth=2
 set softtabstop=2
 
 
-let g:ycm_confirm_extra_conf = 1
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_global_ycm_extra_conf = '/usr/share/vim/vimfiles/third_party/ycmd/ycmd/tests/testdata/.ycm_extra_conf.py'
 
 
 "Make tab into another escape

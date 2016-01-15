@@ -75,6 +75,9 @@ xrdb -merge ~/.Xdefaults
 #xflux -z 24531 -l 56 -g 13
 #nm-applet &
 
+# Automount
+udiskie -N &
+
 #Disable annoying point tap
 synclient PalmDetect=1
 synclient TapButton1=1
