@@ -1,5 +1,3 @@
-set useragent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10104; rv:37.0) AppleWebKit/600.6.2 (KHTML like Gecko) Version/7.1.4 Safari/600.6.2 Firefox/37.0
-
 set spacial-navigation=true
 
 shortcut-add wiki=https://en.wikipedia.org/w/index.php?search=$0
@@ -30,11 +28,11 @@ nmap ) <C-N>
 nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set scripts=true<CR>
 
 
-set status-color-bg=#170f20
-set status-color-fg=#37c4c8
-set status-ssl-color-bg=#170f20
-set status-ssl-color-fg=#37c4c8
-set completion-bg-active=#170f20
-set completion-bg-normal=#170f20
-set completion-fg-active=#416ca0
-set completion-fg-normal=#37c4c8
+set status-color-bg=#201405
+set status-color-fg=#b3d184
+set status-ssl-color-bg=#201405
+set status-ssl-color-fg=#b3d184
+set completion-bg-active=#201405
+set completion-bg-normal=#201405
+set completion-fg-active=#6faf63
+set completion-fg-normal=#b3d184
