@@ -65,7 +65,7 @@ function iso; dd if=/dev/cdrom of=~/cdrom_image.iso; end
 function tglxspheres; vblank_mode=0 optirun -vv /opt/VirtualGL/bin/glxspheres64; end
 function pglxspheres; vblank_mode=0 primusrun /opt/VirtualGL/bin/glxspheres64; end
 function httpserve; python -m SimpleHTTPServer; end
-function pi; ping google.com; end
+function pi; ping -4 google.com; end
 function pl; ping 8.8.8.8; end
 function def; sdcv; end
 
@@ -95,7 +95,7 @@ function ftpumount; umount /home/vasko/ftp; end
 
 function vimrc; vim ~/.vimrc; end
 function uzblrc; vim ~/.config/uzbl/config; end
-function aliases; vim ~/.bash_aliases; end
+function aliases; vim ~/.config/fish/aliases; end
 function solarize; ~/.solarized/solarize; end
 function rat; vim ~/.tools/ratpoisonrc.conf; end
 function sx; vim ~/.config/sxhkd/sxhkdrc; end

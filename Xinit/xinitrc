@@ -34,6 +34,9 @@ fi
 # give cursor
 xsetroot -cursor_name left_ptr 
 
+# Fix mouse
+~/bin/mousefix
+
 # Fix annoying blank java bug
 wmname LG3D
 
