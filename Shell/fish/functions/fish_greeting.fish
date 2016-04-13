@@ -1,3 +1,3 @@
 function fish_greeting
-	archey3;
+#	archey3;
 end

@@ -4,7 +4,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory autocd extendedglob correct
 unsetopt beep
-bindkey -v
+#bindkey -v
 zstyle ':completion:*' menu select
 #zstyle ':completion:*' format '%BCompleting %d%b'
 # End of lines configured by zsh-newuser-install
@@ -32,7 +32,11 @@ PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
+#Enable highlightling like fish
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 #fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
-archey3
+#archey3
 

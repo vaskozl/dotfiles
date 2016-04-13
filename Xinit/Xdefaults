@@ -8,13 +8,6 @@ Xft.rgba: rgb
 Xft.hinting: true
 Xft.hintstyle: hintslight
  
-!-------------------------------------------------------------------------------
-! URxvt settings
-! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
-! More info at:
-! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
-!-------------------------------------------------------------------------------
- 
 URxvt.geometry: 90x30
 URxvt.transparent: false
 URxvt.fading: 0
@@ -37,7 +30,7 @@ URxvt.scrollBar: false
 ! Perl extensions
 !URxvt.perl-ext-common: default,matcher
 URxvt.matcher.button: 1
-URxvt.urlLauncher: uzbl-browser
+URxvt.urlLauncher: vimb
  
 ! Cursor
 URxvt.cursorBlink: true
@@ -48,7 +41,7 @@ URxvt.cursorUnderline: false
 URxvt*saveLines: 12000
 
 ! M-t for text select M-s for search
-URxvt.perl-ext-common: default,matcher,keyboard-select,url-select
+URxvt.perl-ext-common: default,keyboard-select,url-select
 URxvt.keysym.M-t: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
 

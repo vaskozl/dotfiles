@@ -4,6 +4,9 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 # awesome perl echo 'one two three'| perl -lne 'print $1 if /one(.*)three/' 
 
+
+function yt; mpsyt;end
+
 # SDR
 function sdr; gqrx-alsa; end
 # Disable mouse
@@ -20,7 +23,7 @@ function swedish; vim ~/Sync/Notes/Swedish/swedish.txt; end
 function zombify; sudo -u dork /home/vasko/dorknet/dork zombify; end
 
 function irc; autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 55022 vasko@skozl.com; end
-function vps; autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@108.61.173.91; end
+function vps; autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@skozl.com; end
 function sourcel; source ~/.bash_aliases; end
 function ,.; fc -e -; end
 function cd..; cd ..; end

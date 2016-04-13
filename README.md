@@ -8,7 +8,7 @@ Editor: vim
 Mail: mutt & mbsync
 File_Manager: ranger 
 News_Aggregator: newsbeuter
-Shell: fish
+Shell: zsh
 ```
 ![alt tag](https://skozl.com/2p2g)
 ![alt tag](https://skozl.com/nxVg)

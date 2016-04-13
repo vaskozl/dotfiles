@@ -122,7 +122,8 @@ bind index R        group-reply
 set display_filter='$HOME/.mutt/alias.sh'
 
 # Remove + on wraps
-unset markers
+set markers=no
+set smart_wrap
 
 # Mutt LED notification 
 set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
