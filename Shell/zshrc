@@ -4,7 +4,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory autocd extendedglob correct
 unsetopt beep
-#bindkey -v
+bindkey -e
 zstyle ':completion:*' menu select
 #zstyle ':completion:*' format '%BCompleting %d%b'
 # End of lines configured by zsh-newuser-install
@@ -32,9 +32,27 @@ PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
-#Enable highlightling like fish
+#Enable highlightling and completion like fish
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+      test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+      alias ls='ls --color=auto'
+      alias dir='dir --color=auto'
+      #alias vdir='vdir --color=auto'
+
+      alias grep='grep --color=auto'
+      alias fgrep='fgrep --color=auto'
+      alias egrep='egrep --color=auto'
+fi
 
 
 #fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
