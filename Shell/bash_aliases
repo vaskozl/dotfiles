@@ -1,8 +1,11 @@
-#module for mouse is bcm5974
-# pacat /dev/urandom > padsp
-# for volume over 150: pactl set-sink-volume 0 150%  (or volume 150%)
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
-# awesome perl echo 'one two three'| perl -lne 'print $1 if /one(.*)three/' 
+# awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
+
+
+#Micrcontroller 
+alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
+
+alias yt='mpsyt'
 
 # SDR
 alias sdr='gqrx-alsa'
@@ -23,7 +26,7 @@ alias radiorock="unbuffer mpv 'http://relay.181.fm:8028' |grep --line-buffered i
 alias radio40="unbuffer mpv 'http://relay.181.fm:8070' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias radiolounge="unbuffer mpv 'http://sc-tcl.1.fm:8010/' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias irc='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 55022 vasko@skozl.com'
-alias vps='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@108.61.173.91'
+alias vps='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 22 vasko@skozl.com'
 alias sourcel='source ~/.bash_aliases'
 alias ,.='fc -e -'
 alias cd..='cd ..'
@@ -34,7 +37,7 @@ alias tuner='lingot'
 alias efbterm='export TERM=fbterm'
 alias listd='ls -al /dev/disk/by-uuid/*'
 alias py='python3'
-alias scan='iwlist wlan0 scan'
+alias scan='iwlist wlp2s0 scan'
 alias connect='sudo iwconfig wlan0 essid'
 alias home='cd /home/vasko'
 alias l='ls -F'
@@ -68,7 +71,7 @@ alias iso='dd if=/dev/cdrom of=~/cdrom_image.iso'
 alias tglxspheres='vblank_mode=0 optirun -vv /opt/VirtualGL/bin/glxspheres64'
 alias pglxspheres='vblank_mode=0 primusrun /opt/VirtualGL/bin/glxspheres64'
 alias httpserve='python -m SimpleHTTPServer'
-alias pi='ping google.com'
+alias pi='ping -4 google.com'
 alias pl='ping 8.8.8.8'
 alias def='sdcv'
 

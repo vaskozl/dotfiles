@@ -21,7 +21,7 @@ clock -i 60 -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
 unbuffer alsactl monitor | grep --line-buffered 'Headphone Jack' | while read line; do volume -f 'V%i' > $PANEL_FIFO;done &                                                                    
 
 
-source ./panel_colors
+. ./panel_colors
 
 cat "$PANEL_FIFO" | ./panel_bar | lemonbar -f "$FONT_FONT" -f "$ICON_FONT" -g x$PANEL_HEIGHT -F "$COLOR11" -B "$COLOR0" -u 3 &
 

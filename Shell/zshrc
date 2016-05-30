@@ -56,5 +56,6 @@ fi
 
 
 #fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
-#archey3
+#fortune -s 
+#~/archey
 
