@@ -5,16 +5,19 @@ set scripts=false
 set spacial-navigation=true
 
 shortcut-add wiki=https://en.wikipedia.org/w/index.php?search=$0
-shortcut-add gl=https://encrypted.google.com/#q=$0
+shortcut-add gl=https://encrypted.google.com/search?hl=en&source=hp&biw=&bih=&q=$0&btnG=Google+Search&gbv=1
 shortcut-add dl=https://duckduckgo.com/lite/?q=$0
 shortcut-add map=https://maps.google.com/maps?saddr=$0&daddr=$1
 shortcut-add gh=https://github.com/$0/$1
 shortcut-add arrp=https://www.archlinux.org/packages/?q=$0
 shortcut-add arwk=https://wiki.archlinux.org/index.php?title=Special%3ASearch&search=$0&go=Go
 shortcut-add aur=https://aur.archlinux.org/packages/?K=$0
-shortcut-default dl
+shortcut-default gl
 
 set download-path=~/Downloads
+
+set download-use-external=true
+set download-command=/usr/bin/bash -c 'ratpoison -c "echo Starting download" && cd / && aria2c "%s" --referer="$VIMB_URI" --out="$VIMB_FILE" --user-agent="$VIMB_USER_AGENT" --load-cookies="$VIMB_COOKIES" && if [ ${VIMB_FILE: -4} == ".pdf" ]; then mupdf "$VIMB_FILE";else ratpoison -c "echo Complete `basename $VIMB_FILE`";fi'
 
 set cookie-accept=always
 set cookie-expire-time=0
