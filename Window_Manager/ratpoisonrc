@@ -1,4 +1,5 @@
-exec rpws init 24 -a
+set virtuals 24
+vinit
 alias config source /home/vasko/.tools/ratpoisonrc.conf
 config
 bind C-r config
