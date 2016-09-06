@@ -23,6 +23,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+#get wifi
+sudo safeconnect
+
 # Autodisable rodent
 #sudo modprobe -r bcm5974
 
@@ -57,7 +60,7 @@ sudo /usr/bin/brightchown
 ~/.custom
 
 #Keyboard Bindings
-setxkbmap us -variant vaskozl
+setxkbmap uc -variant colemak
 #xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;' &
 xset r 64
@@ -133,102 +136,102 @@ fi
 #fi
 
 
-# workspace 1 : Ranger workspace
-#     window 1+: Ranger
-if [ $run_everything = true -o $run_workspace = 1 ]; then
-    $workspace 1
-    $xtoolwait $term  ranger 
-fi
-
-# workspace 2 is at the end (pentadactyl) slowing down
-
-# workspace 3 : newsbeuter
-if [ $run_everything = true -o $run_workspace = 3 ]; then
-    $workspace 3
-    $xtoolwait $term newsbeuter
-fi
-
-# workspace 4 : admin workspace
-#     window 1: screen (see screenrc.admin for the screen config)
-if [ $run_everything = true -o $run_workspace = 4 ]; then
-    $workspace 4
-#    $xtoolwait $term $screen_run admin
-fi
-
-# workspace 5 : School
-#     windows 1: screen notebok
-if [ $run_everything = true -o $run_workspace = 5 ]; then
-    $workspace 5
-    cd $HOME/Sync/notes
-#    $xtoolwait $term $screen_run school
-fi
+## workspace 1 : Ranger workspace
+##     window 1+: Ranger
+#if [ $run_everything = true -o $run_workspace = 1 ]; then
+#    $workspace 1
+#    $xtoolwait $term  ranger 
+#fi
 #
-## workspace 7 : kde workspace (VNC session)
+## workspace 2 is at the end (pentadactyl) slowing down
+#
+## workspace 3 : newsbeuter
+#if [ $run_everything = true -o $run_workspace = 3 ]; then
+#    $workspace 3
+#    $xtoolwait $term newsbeuter
+#fi
+#
+## workspace 4 : admin workspace
+##     window 1: screen (see screenrc.admin for the screen config)
+#if [ $run_everything = true -o $run_workspace = 4 ]; then
+#    $workspace 4
+##    $xtoolwait $term $screen_run admin
+#fi
+#
+## workspace 5 : School
+##     windows 1: screen notebok
+#if [ $run_everything = true -o $run_workspace = 5 ]; then
+#    $workspace 5
+#    cd $HOME/Sync/notes
+##    $xtoolwait $term $screen_run school
+#fi
+##
+### workspace 7 : kde workspace (VNC session)
+##if [ $run_everything = true -o $run_workspace = 7 ]; then
+##    $workspace ^7
+##    $xtoolwait vncviewer nerd:1
+##    number_and_title 0 "kde"
+##fi
+#
+## workspace 7 : skype workspace 
 #if [ $run_everything = true -o $run_workspace = 7 ]; then
-#    $workspace ^7
-#    $xtoolwait vncviewer nerd:1
-#    number_and_title 0 "kde"
-#fi
-
-# workspace 7 : skype workspace 
-if [ $run_everything = true -o $run_workspace = 7 ]; then
-    $workspace 7
-#    skype &
-#    number_and_title 0 "skype"
-    sleep 6
-fi
-
-#
-## workspace 8 : windows workspace (VMware session)
-#if [ $run_everything = true -o $run_workspace = 8 ]; then
-#    $workspace ^8
-#    #$xtoolwait gnomesu -c /stor/vmware/bin/vmware
-#    #number_and_title 0 "windows xp"
+#    $workspace 7
+##    skype &
+##    number_and_title 0 "skype"
+#    sleep 6
 #fi
 #
-
-# workspace 9 : email workspace
-#     window 1: mutt 
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 8
-    $xtoolwait $term mutt
-fi
-
-# workspace 10 : irc workspace
-#     window 1: irc 
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 10
-    $xtoolwait $term vps
-#    $xtoolwait $term irssi
-fi
-
-# workspace 11 : wifi workspace
-#     window 1: wicd 
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 11
-    $xtoolwait $term sudo /usr/bin/safeconnect
-fi
-
-# workspace 12 : music workspace
-#     window 1: music 
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 12
-    mopidy &
-    $xtoolwait $term ncmpcpp
-fi
-
-# workspace 13 : volume workspace
-#     window 1: volume 
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 13
-    $xtoolwait $term alsamixer
-fi
-
-# workspace 2 : Vimb workspace
-if [ $run_everything = true -o $run_workspace = 2 ]; then
-    $workspace 2
-    vimb &
-fi
+##
+### workspace 8 : windows workspace (VMware session)
+##if [ $run_everything = true -o $run_workspace = 8 ]; then
+##    $workspace ^8
+##    #$xtoolwait gnomesu -c /stor/vmware/bin/vmware
+##    #number_and_title 0 "windows xp"
+##fi
+##
+#
+## workspace 9 : email workspace
+##     window 1: mutt 
+#if [ $run_everything = true -o $run_workspace = 2 ]; then
+#    $workspace 8
+#    $xtoolwait $term mutt
+#fi
+#
+## workspace 10 : irc workspace
+##     window 1: irc 
+#if [ $run_everything = true -o $run_workspace = 2 ]; then
+#    $workspace 10
+#    $xtoolwait $term vps
+##    $xtoolwait $term irssi
+#fi
+#
+## workspace 11 : wifi workspace
+##     window 1: wicd 
+#if [ $run_everything = true -o $run_workspace = 2 ]; then
+#    $workspace 11
+#    $xtoolwait $term sudo /usr/bin/safeconnect
+#fi
+#
+## workspace 12 : music workspace
+##     window 1: music 
+#if [ $run_everything = true -o $run_workspace = 2 ]; then
+#    $workspace 12
+#    mopidy &
+#    $xtoolwait $term ncmpcpp
+#fi
+#
+## workspace 13 : volume workspace
+##     window 1: volume 
+##if [ $run_everything = true -o $run_workspace = 2 ]; then
+##    $workspace 13
+##    $xtoolwait $term alsamixer
+##fi
+#
+## workspace 2 : Vimb workspace
+#if [ $run_everything = true -o $run_workspace = 2 ]; then
+#    $workspace 2
+#    vimb &
+#fi
 
 # Default workspace: 1(ranger)
 #	$workspace ^1
