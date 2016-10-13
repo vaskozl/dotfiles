@@ -23,7 +23,7 @@ source ~/.bash_aliases
 
 export GPGKEY="895134C5"
 export PATH="$HOME/bin:$PATH"
-export EDITOR="vim"
+export EDITOR="nvim"
 export BROWSER="~/.ratposon/firesend"
 export LD_LIBRARY_PATH=/usr/local/lib
 export wiki_browser='firefox'
@@ -55,7 +55,29 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 
-#fortune -s | cowsay -f $(ls /usr/share/cows/ | shuf -n1)
-#fortune -s 
-#~/archey
+~/bin/sysinfo
 
+case $TERM in
+  (*xterm* | *rxvt*)
+
+    # Write some info to terminal title.
+    # This is seen when the shell prompts for input.
+    function precmd {
+if pgrep "panel" > /dev/null
+then
+      print -Pn "\e]0;%(1j,%j job%(2j|s|); ,)%1~\a"
+      ~/dotfiles/Panel/lemonbar/windows
+fi
+    }
+    # Write command and args to terminal title.
+    # This is seen while the shell waits for a command to complete.
+    function preexec {
+if pgrep "panel" > /dev/null
+then
+      printf "\033]0;%s\a" "$1"
+      ~/dotfiles/Panel/lemonbar/windows
+fi
+    }
+
+  ;;
+esac
