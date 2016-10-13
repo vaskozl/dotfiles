@@ -10,13 +10,9 @@ File_Manager: ranger
 News_Aggregator: newsbeuter
 Shell: zsh
 ```
-![alt tag](https://skozl.com/2p2g)
-![alt tag](https://skozl.com/nxVg)
-![alt tag](https://skozl.com/xJPg)
-![alt tag](https://skozl.com/98mg)
-![alt tag](https://skozl.com/c22g)
-![alt tag](https://skozl.com/Prtg)
-![alt tag](https://skozl.com/oXqg)
-![alt tag](https://skozl.com/TnVg)
-![alt tag](https://skozl.com/XMfg)
-![alt tag](https://skozl.com/xQWg)
+![alt tag](https://skozl.com/scrot0.png)
+![alt tag](https://skozl.com/scrot1.png)
+![alt tag](https://skozl.com/scrot2.png)
+![alt tag](https://skozl.com/scrot3.png)
+![alt tag](https://skozl.com/scrot4.png)
+![alt tag](https://skozl.com/scrot5.png)

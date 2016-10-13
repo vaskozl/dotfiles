@@ -65,7 +65,7 @@ ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"
 hdr_order Date From To Cc
-alternative_order text/plain text/html *
+alternative_order text/plain text/enriched text/html *
 auto_view text/html
 
 # Hide crap

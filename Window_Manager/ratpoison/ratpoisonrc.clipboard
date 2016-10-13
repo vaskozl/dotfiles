@@ -33,7 +33,7 @@ definekey clipboard_set C exec ~/.config/ratpoison/clipboard init
 definekey clipboard_paste a exec ~/.config/ratpoison/clipboard pop
 definekey clipboard_set a exec ~/.config/ratpoison/clipboard push
 # pop queue
-definekey clipboard_paste q exec ~/.config/ratpoison/clipboard pop_queue
+definekey clipboard_paste A exec ~/.config/ratpoison/clipboard pop_queue
 
 definekey clipboard_paste 1 exec ~/.config/ratpoison/clipboard paste 1
 definekey clipboard_paste 2 exec ~/.config/ratpoison/clipboard paste 2

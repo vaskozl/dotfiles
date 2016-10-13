@@ -1,5 +1,6 @@
-set virtuals 13
+set virtuals 24
 vinit
-alias config source /home/vsz/.tools/ratpoisonrc.conf
+chdir
+alias config source dotfiles/Windows_Manager/ratpoison/ratpoisonrc.conf
 config
 bind C-r config

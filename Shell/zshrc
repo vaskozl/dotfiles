@@ -54,6 +54,8 @@ if [ -x /usr/bin/dircolors ]; then
       alias egrep='egrep --color=auto'
 fi
 
+export ANDROID_HOME=/opt/android-sdk
+
 
 ~/bin/sysinfo
 
