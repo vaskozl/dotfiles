@@ -1,6 +1,9 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 # awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
 
+# mpv 
+alias mpvl='mpv --ytdl-format=43'
+
 
 #Micrcontroller 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
@@ -18,6 +21,9 @@ alias physics='vim ~/Sync/Notes/Physics/physics.txt'
 alias chemistry='vim ~/Sync/Notes/Chemistry/chemistry.txt'
 alias english='vim ~/Sync/Notes/English/english.txt'
 alias swedish='vim ~/Sync/Notes/Swedish/swedish.txt'
+
+#quiet
+alias quiet='sudo hdparm -y /dev/sda'
 
 #zombify
 alias zombify='sudo -u dork /home/vasko/dorknet/dork zombify'
@@ -130,7 +136,7 @@ alias cfgpanel=' fgpanel --fg-root=/usr/share/games/flightgear --panel=Aircraft/
 alias cfgfs='optirun fgfs --generic=socket,out,20,127.0.0.1,34200,udp,../Aircraft/c172p/Panels/FGPanel_Protocol_c172p'
 #alias xonotic='cd ~/.Xonotic && optirun ~/.Xonotic/xonotic-linux64-glx -sessionid vaskozl'
 alias blizz='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Battle.net/Battle.net.exe'
-alias starcraft='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/StarCraft\ II/Support/SC2Switcher.exe'
+alias starcraft='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/StarCraft\ II/Support64/SC2Switcher_x64.exe'
 alias lotv='wine "/home/vasko/.wine/drive_c/Program Files (x86)/StarCraft II - Legacy of the Void Beta/Support/SC2Switcher.exe"'
 
 # Network tools
