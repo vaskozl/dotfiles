@@ -4,7 +4,6 @@
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
 
-
 #Micrcontroller 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
 
