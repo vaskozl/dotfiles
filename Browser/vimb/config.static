@@ -1,6 +1,6 @@
 set useragent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4
 
-set scripts=false
+set scripts=true
 
 set spacial-navigation=true
 
