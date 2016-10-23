@@ -5,11 +5,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'scrooloose/syntastic'
-
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
-
 Plugin 'tpope/vim-surround'
+Plugin 'takac/vim-hardtime'
 
 
 
@@ -158,5 +157,7 @@ nnoremap <Leader>w :w<CR>
 autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
 
-let g:hardtime_default_on = 1
 let g:hardtime_maxcount = 2
+let g:hardtime_default_on = 1
+let g:hardtime_showmsg = 0 
+let g:hardtime_allow_different_key = 1
