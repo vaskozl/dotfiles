@@ -1,6 +1,13 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 # awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
 
+
+#exit
+alias e='disown; exit'
+
+
+alias ,.='!!'
+
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
 
@@ -49,8 +56,6 @@ alias home='cd /home/vasko'
 alias l='ls'
 alias d='ls'
 alias dm='ls | more'
-alias e='cd'
-alias en='cd ..'
 alias n='clear'
 alias s='sudo'
 alias m='mv'
