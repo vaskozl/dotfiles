@@ -113,7 +113,6 @@ alias mount='mount -o gid=users,fmask=113,dmask=002'
 alias ftpmount='curlftpfs eu5.org ~/ftp/' 
 alias ftpumount='umount /home/vasko/ftp'
 
-alias desk='cd ~/Desktop' 
 alias cbb='cat /proc/acpi/bbswitch' 
 alias vimrc='vim ~/.vimrc'
 alias uzblrc='vim ~/.config/uzbl/config'
