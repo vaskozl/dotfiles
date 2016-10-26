@@ -29,7 +29,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 export wiki_browser='firefox'
 
 PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
-RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
+#RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
 #Enable highlightling and completion like fish
