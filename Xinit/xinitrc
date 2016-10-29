@@ -11,9 +11,6 @@ fi
 # Load system specific things
 ~/.custom
 
-# Get internet
-sudo safeconnect
-
 # give cursor
 xsetroot -cursor_name left_ptr 
 
@@ -38,9 +35,6 @@ xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
 # Load xterm colors
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
-
-# Start some programs
-~/bin/offline-run &
 
 # Automount
 udiskie -N &
