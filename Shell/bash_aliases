@@ -38,10 +38,8 @@ alias radiorock="unbuffer mpv 'http://relay.181.fm:8028' |grep --line-buffered i
 alias radio40="unbuffer mpv 'http://relay.181.fm:8070' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias radiolounge="unbuffer mpv 'http://sc-tcl.1.fm:8010/' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias irc='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 55022 vasko@skozl.com'
-alias vps='mosh -p 61111 vasko@108.61.173.91'
-alias vps2='mosh -p 61112 vasko@108.61.173.91'
-alias desk='mosh -p 55777 --ssh="ssh -p 55022" vsz@108.61.173.91'
-alias desk2='mosh -p 55877 --ssh="ssh -p 55022" vsz@108.61.173.91'
+alias vps='mosh vasko@108.61.173.91'
+alias desk='mosh -p 55101:55999 --ssh="ssh -p 55022" vsz@108.61.173.91'
 alias sourcel='source ~/.bash_aliases'
 alias ,.='fc -e -'
 alias cd..='cd ..'
