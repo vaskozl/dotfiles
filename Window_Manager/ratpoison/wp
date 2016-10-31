@@ -142,7 +142,7 @@ function change {
   dirname=$(dirname $background)
 
   #:: Set the background
-  feh --bg-fill $background
+  feh --bg-fill --xinerama-index 1 $background
 
   #:: Record the current background
   set_current $background
