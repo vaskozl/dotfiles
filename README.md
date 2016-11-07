@@ -4,7 +4,7 @@ Vaskozl's keyboard-only dotfiles
 System: archlinux
 Window_Manager: ratpoison
 Browser: vimb
-Editor: vim
+Editor: neovim
 Mail: mutt & mbsync
 File_Manager: ranger 
 News_Aggregator: newsbeuter
