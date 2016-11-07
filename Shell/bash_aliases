@@ -157,4 +157,20 @@ alias mspaint='/usr/share/playonlinux/playonlinux --run "Microsoft paint"'
 alias msexcel='/usr/share/playonlinux/playonlinux --run "Microsoft Excel 2010"'
 alias msword='/usr/share/playonlinux/playonlinux --run "Microsoft Word 2010"'
 
+# Aliases 
+
+alias alc='vim ~/Sync/Notes/EE2/Algorithms-and-Complexity.md            '
+alias ald='vim ~/Sync/Notes/EE2/Algorithms-and-Data-Structures.md       '
+alias ana='vim ~/Sync/Notes/EE2/Analogue-Electronics-2.md               '
+alias com='vim ~/Sync/Notes/EE2/Communication-Systems.md                '
+alias con='vim ~/Sync/Notes/EE2/Control-Engineering.md                  '
+alias dev='vim ~/Sync/Notes/EE2/Devices.md                              '
+alias dig='vim ~/Sync/Notes/EE2/Digital-Electronics-2.md                '
+alias fie='vim ~/Sync/Notes/EE2/Fields.md                               '
+alias arc='vim ~/Sync/Notes/EE2/Introduction-to-Computer-Architecture.md'
+alias mata='vim ~/Sync/Notes/EE2Mathematics-2a.md                       '
+alias matb='vim ~/Sync/Notes/EE2Mathematics-2b.md                       '
+alias matc='vim ~/Sync/Notes/EE2Mathematics-2c.md                       '
+alias pow='vim ~/Sync/Notes/EE2/Power-Engineering.md                    '
+alias sig='vim ~/Sync/Notes/EE2/Signals-and-Linear-Systems.md           '
 
