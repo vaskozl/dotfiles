@@ -33,5 +33,7 @@ nmap A :open aur
 nmap ( <C-O>
 nmap ) <C-N>
 nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set scripts=true<CR>
+nmap J :set scripts=true
+nmap D :set scripts=false
 
 
