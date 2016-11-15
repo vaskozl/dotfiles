@@ -27,7 +27,7 @@ set incsearch		" Incremental search
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
 
-set number
+set relativenumber
 "set spell
 set ruler
 
@@ -89,10 +89,6 @@ set mouse=
 "Open new file
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
-
-"relative number in normal but just number in insert
-autocmd InsertEnter * :set norelativenumber
-autocmd InsertLeave * :set relativenumber
 
 " Hard time options
 let g:hardtime_maxcount = 2
