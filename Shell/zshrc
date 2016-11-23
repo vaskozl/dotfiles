@@ -19,14 +19,13 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
 
 source ~/.bash_aliases
 
-#export PS1='%n@%m:%~%% ' 
+# Minimise the ESC timeout
+KEYTIMEOUT=2
 
 export GPGKEY="895134C5"
 export PATH="$HOME/bin:$PATH"
 export EDITOR="vim"
-export BROWSER="~/.ratposon/firesend"
 export LD_LIBRARY_PATH=/usr/local/lib
-export wiki_browser='firefox'
 
 PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
 #RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
@@ -57,7 +56,7 @@ fi
 export ANDROID_HOME=/opt/android-sdk
 
 
-~/bin/sysinfo
+#~/bin/sysinfo
 
 #case $TERM in
 #  (*rxvt*)
