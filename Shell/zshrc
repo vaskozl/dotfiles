@@ -70,7 +70,6 @@ case $TERM in
     # This is seen while the shell waits for a command to complete.
     function preexec {
     printf "\033]0;%s\a" "$1"
-    timeout --signal=KILL 1s ~/dotfiles/Panel/lemonbar/windows
     }
 
   ;;
