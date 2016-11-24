@@ -56,7 +56,6 @@ fi
 export ANDROID_HOME=/opt/android-sdk
 
 
-#~/bin/sysinfo
 
 case $TERM in
   (*rxvt*)
@@ -82,3 +81,6 @@ fi
 
   ;;
 esac
+
+## Fancy sysinfo
+~/bin/sysinfo
