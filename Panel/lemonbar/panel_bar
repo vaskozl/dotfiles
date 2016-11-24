@@ -6,15 +6,11 @@ num_mon=$(bspc query -M | wc -l)
 . ./icons
 while read -r line ; do
 	case $line in
-#		Imail) 
-#			mbsync -a > /dev/null
-#                        if [ `rpws current` -eq 9 ];then
-#			mail=''
-#			else
-#			mail="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MAIL} %{B-}%{F-}"
-#			fi
-#			;;
-#	
+		Imail) 
+			mbsync -a > /dev/null
+			mail="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MAIL} %{B-}%{F-}"
+			;;
+	
 #		Iface)
 #                        if [ `rpws current` -eq 10 ];then
 #				face=''
