@@ -1,4 +1,5 @@
-exec rpws init 12 -k
+set virtuals 24
+vinit
 chdir
 alias config source .tools/ratpoisonrc.conf
 config

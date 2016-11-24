@@ -36,4 +36,4 @@ nmap S :set scripts=false<CR> r :shellcmd mpv --no-terminal "%s"<CR> :set script
 nmap J :set scripts=true
 nmap D :set scripts=false
 
-
+au LoadFinished * sh! '~/dotfiles/Panel/lemonbar/windows'
