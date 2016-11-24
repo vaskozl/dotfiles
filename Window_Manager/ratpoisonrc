@@ -1,4 +1,4 @@
-set virtuals 24
+set virtuals 12
 vinit
 chdir
 alias config source .tools/ratpoisonrc.conf
