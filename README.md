@@ -4,9 +4,11 @@ Vaskozl's keyboard-only dotfiles
 System: archlinux
 Window_Manager: ratpoison
 Browser: vimb
-Editor: neovim
+Editor: vim
 Mail: mutt & mbsync
 File_Manager: ranger 
+Calendar: khal & vdirsyncer
+Contacts: khard & vdirsyncer
 News_Aggregator: newsbeuter
 Shell: zsh
 ```
