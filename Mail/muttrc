@@ -39,10 +39,12 @@ set realname = "Vasil Zlatanov"
 bind editor <Tab> complete-query
 
 # Save contact to CardDav
-macro index,pager A "<pipe-message>pycard-import<enter>" "add sender address to pycardsyncer"
+macro index,pager A \
+    "<pipe-message>khard add-email<return>" \
+    "add the sender email address to khard"
 
 # Load from CardDav
-set query_command="pc_query -m '%s'"
+set query_command="khard email --parsable --search-in-source-files %s"
 
 
 
@@ -119,7 +121,7 @@ bind index R        group-reply
 
 
 # Write in Aliases when opening email
-set display_filter='$HOME/.mutt/alias.sh'
+#set display_filter='$HOME/.mutt/alias.sh'
 
 # Remove + on wraps
 set markers=no
