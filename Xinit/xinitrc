@@ -16,7 +16,6 @@ xsetroot -cursor_name left_ptr
 
 # Background
 ~/.tools/wp change &
-~/bin/panel
 
 # Init clipboard
 ~/.tools/clipboard init
@@ -37,6 +36,6 @@ xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 
 # Automount
-udiskie -N &
+#udiskie -N &
 
 ratpoison
