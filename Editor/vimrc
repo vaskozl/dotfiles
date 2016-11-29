@@ -32,6 +32,7 @@ set hlsearch
 "set mouse=a		" Enable mouse usage (all modes)
 
 set relativenumber
+set number
 "set spell
 set ruler
 
