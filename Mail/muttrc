@@ -16,7 +16,18 @@ set mbox        = "+dove/Archive"
 set postponed   = "+dove/Drafts"
 set record      = "+dove/Sent"
 
-mailboxes +Inbox
+# Set maailboxes
+mailboxes =dove/Inbox =dove/Sent =dove/Drafts =dove/Trash =dove/Archive
+
+# Enable sidepanel
+set sidebar_visible=yes
+set sidebar_short_path=yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats = yes
+
+# Set search to notmuch
+
+bind index,pager / vfolder-from-query
 
 
 # View good/bad mails

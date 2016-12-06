@@ -76,4 +76,4 @@ case $TERM in
 esac
 
 ## Fancy sysinfo
-~/bin/sysinfo
+#~/bin/sysinfo
