@@ -5,7 +5,7 @@ System: archlinux
 Window_Manager: ratpoison
 Browser: vimb
 Editor: neovim
-Mail: neomutt & mbsync
+Mail: neomutt & mbsync & notmuch
 File_Manager: ranger 
 Calendar: khal & vdirsyncer
 Contacts: khard & vdirsyncer
