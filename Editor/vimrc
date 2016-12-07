@@ -10,9 +10,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'takac/vim-hardtime'
 
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'SirVer/ultisnips'
-"Plugin 'honza/vim-snippets'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
