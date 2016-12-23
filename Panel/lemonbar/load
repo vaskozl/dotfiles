@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 while true; do
 cpu=`mpstat -P ALL 2 1 | grep "Average.*all" | awk '{print $3+$5}'` 
 mem=`free | grep Mem | awk '{print $3/$2 * 100.0}'`

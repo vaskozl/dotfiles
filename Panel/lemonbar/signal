@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 while true;do
 signal=`iwconfig $INTERFACE | grep Signal| perl -pe 's/.*level=//; s/ dBm.*//'`
 #convert to Quality

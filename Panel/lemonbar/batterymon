@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 while true;do
 if [ `battery -f '%i'` -lt 4 ] && ! [ -z ~/.dontshut ]; then                                                       
 touch ~/.dontshut
