@@ -8,7 +8,7 @@
 
 wg=$1; shift
 cmd="$@"
-rpws $wg
+ratpoison -c "vselect $wg"
 eval $cmd &
 ratpoison -c 'barsend'
 echo "D$wg" > /tmp/panel-fifo
