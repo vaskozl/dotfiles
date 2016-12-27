@@ -20,10 +20,10 @@ set record      = "+dove/Sent"
 mailboxes =dove/Inbox =dove/Sent =dove/Drafts =dove/Trash =dove/Archive
 
 # Enable sidepanel
-set sidebar_visible=yes
-set sidebar_short_path=yes
-set sidebar_format = "%B %?N?(%N)?%* %S"
-set mail_check_stats = yes
+#set sidebar_visible=yes
+#set sidebar_short_path=yes
+#set sidebar_format = "%B %?N?(%N)?%* %S"
+#set mail_check_stats = yes
 
 # Set search to notmuch
 
