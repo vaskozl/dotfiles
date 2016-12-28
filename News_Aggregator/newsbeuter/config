@@ -10,7 +10,7 @@ download-path			~/Downloads
 max-downloads			2
 mark-as-read-on-hover           yes
 
-max-items                       300
+max-items                       256
 
 # Theme
 color listfocus    color0 color3

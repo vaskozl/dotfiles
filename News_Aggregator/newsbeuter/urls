@@ -1,6 +1,16 @@
 https://en.wikinews.org/w/index.php?title=Special:NewsFeed&feed=atom&categories=Published "~Wiki News"
 http://xkcd.com/rss.xml                 "~XKCD"
-http://www.reddit.com/r/technology/.rss "~Reddit Technology"
+
 http://www.reddit.com/r/linux/.rss      "~Reddit Linux"
 https://news.ycombinator.com/rss        "~Hackers News"
 https://feeds.feedburner.com/Torrentfreak "~Torrent Freak"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ "~Level1Techs"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w "~Level1Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd6EFsVsqGhASiz6g1KifUQ "~Level1Enterprise"
+
+http://sietch.net/RSS.aspx
+
+https://www.archlinux.org/feeds/news/
+
+https://hobo.house/feed/
