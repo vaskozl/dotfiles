@@ -2,17 +2,17 @@
 
 while true;do
 
-new=`mpc current` 
+new=`mpc -h 127.0.0.1 current` 
 
-if mpc | grep -q playing; then  
+if mpc -h 127.0.0.1 | grep -q playing; then  
 symbol='p'
 else
 symbol='P'
 fi
 
 echo "$symbol`echo $new | cut --bytes 1-30`"
-echo "K`mpc -h 127.0.0.1 volume | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
-mpc idle > /dev/null
+echo "K`mpc volume -h 127.0.0.1 | perl -pe 's/^volume://' | perl -pe 's/%$//' | perl -pe 's/^ //'`"
+mpc -h 127.0.0.1 idle > /dev/null
 if [ $? -ne 0 ];then
 echo 'mpd not alive';
 sleep 30;
