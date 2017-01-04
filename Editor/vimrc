@@ -6,13 +6,11 @@ call vundle#begin()
 
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/DrawIt'
+Plugin 'takac/vim-hardtime'
+" tpope goodness
+Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
-Plugin 'takac/vim-hardtime'
-
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -125,3 +123,13 @@ let g:UltiSnipsEditSplit='vertical'
 let g:UltiSnipsExpandTrigger           = '<tab>'
 let g:UltiSnipsJumpForwardTrigger      = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+
+"""""""""""""""""""""""
+" CUSTOM TEXT-OBJECTS "
+"""""""""""""""""""""""
+for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%', '-', '#' ]
+    execute 'xnoremap i' . char . ' :<C-u>normal! T' . char . 'vt' . char . '<CR>'
+    execute 'onoremap i' . char . ' :normal vi' . char . '<CR>'
+    execute 'xnoremap a' . char . ' :<C-u>normal! F' . char . 'vf' . char . '<CR>'
+    execute 'onoremap a' . char . ' :normal va' . char . '<CR>'
+endfor

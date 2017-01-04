@@ -10,38 +10,17 @@ while read -r line ; do
 			mbsync -a > /dev/null
 			mail="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MAIL} %{B-}%{F-}"
 			;;
-	
-#		Iface)
-#                        if [ `rpws current` -eq 10 ];then
-#				face=''
-#			else
-#				face="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_FACE} %{B-}%{F-}"
-#			fi
-#			;;
-#	
-#		Ipub)
-#                        if [ `rpws current` -eq 10 ];then
-#				pub=''
-#			else
-#				pub="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PUB} %{B-}%{F-}"
-#			fi
-#			;;
-#
-#		Ipriv)
-#                        if [ `rpws current` -eq 10 ];then
-#				priv=''
-#			else
-#				priv="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PRIV} %{B-}%{F-}"
-#			fi
-#			;;
 		Iclear)
 			priv=""
 			pub=""
 			face=""
 			;;
 		Ixlear)
-                       mail=''
-	               ;;
+			mail=''
+		;;
+		M*)
+			notification="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${line#?} %{B-}%{F-}"
+			;;
 #		C*)
 #			cpu="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} C:${line#?} %{B-}%{F-}"
 #			;;
@@ -136,5 +115,5 @@ while read -r line ; do
 #						;;
 	esac
 #	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
-	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
+	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${notification}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
 done

@@ -1,5 +1,5 @@
 #! /bin/sh
-cd ~/.tools/panel
+cd ~/dotfiles/Panel/lemonbar
 . ./profile
 . ~/.colors
 
