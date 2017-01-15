@@ -64,7 +64,7 @@ case $TERM in
     # This is seen when the shell prompts for input.
     function precmd {
     print -Pn "\e]0;%(1j,%j job%(2j|s|); ,)%1~\a"
-    timeout --signal=KILL 1s ~/dotfiles/Panel/lemonbar/windows 
+    #timeout --signal=KILL 1s ~/dotfiles/Panel/lemonbar/windows 
     }
     # Write command and args to terminal title.
     # This is seen while the shell waits for a command to complete.

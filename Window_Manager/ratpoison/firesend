@@ -1,2 +1,2 @@
 #!/bin/bash
-vimb $@ > /dev/null 2>&1
+vimb $@ > /dev/null 2>&1 &

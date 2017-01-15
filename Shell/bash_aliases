@@ -2,6 +2,9 @@
 # awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
 
 
+#ip
+alias ip='ip -c'
+
 #exit
 alias e='disown; exit'
 
