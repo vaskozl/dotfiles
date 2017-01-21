@@ -29,6 +29,7 @@ set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 set hlsearch
+set background=dark     " Fix hilight colours
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
@@ -108,7 +109,7 @@ let g:hardtime_allow_different_key = 1
 
 
 " YouCompleteMe
-let g:ycm_global_ycm_extra_conf = "~/.ycm_global_ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
 let g:ycm_dont_warn_on_startup = 0
 let g:ycm_complete_in_comments = 1
 let g:ycm_complete_in_strings = 1
