@@ -42,6 +42,9 @@ set ruler
 "Remove annoying ESC delay
 set ttimeout ttimeoutlen=20 
 
+"Change cursor to | when in insert
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 1
+
 "Autosave and Autoread
 set autoread
 set autowriteall
