@@ -1,6 +1,4 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
-# awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
-
 
 #ip
 alias ip='ip -c'
@@ -26,10 +24,7 @@ alias remouse='sudo modprobe -r bcm5974'
 alias enmouse='sudo modprobe bcm5974 && ~/bin/mousefix'
 
 # Notes
-alias physics='vim ~/Sync/Notes/Physics/physics.txt'
-alias chemistry='vim ~/Sync/Notes/Chemistry/chemistry.txt'
-alias english='vim ~/Sync/Notes/English/english.txt'
-alias swedish='vim ~/Sync/Notes/Swedish/swedish.txt'
+alias notes='cd ~/Sync/Notes/EE2'
 
 #quiet
 alias quiet='sudo hdparm -y /dev/sda'
@@ -56,7 +51,9 @@ alias py='python3'
 alias scan='iwlist wlp2s0 scan'
 alias connect='sudo iwconfig wlan0 essid'
 alias home='cd /home/vasko'
-alias l='ls'
+alias l='ls --color=auto'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 alias d='ls'
 alias dm='ls | more'
 alias n='clear'
@@ -176,4 +173,3 @@ alias matb='vim ~/Sync/Notes/EE2/Mathematics-2b.md                       '
 alias matc='vim ~/Sync/Notes/EE2/Mathematics-2c.md                       '
 alias pow='vim ~/Sync/Notes/EE2/Power-Engineering.md                    '
 alias sig='vim ~/Sync/Notes/EE2/Signals-and-Linear-Systems.md           '
-
