@@ -15,7 +15,7 @@ fi
 xsetroot -cursor_name left_ptr 
 
 # An2linux
-~/bin/an2linux.py &
+#~/bin/an2linux.py &
 statnot ~/dotfiles/Panel/statnot/config &
 
 # Background
