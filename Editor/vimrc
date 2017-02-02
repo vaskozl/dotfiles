@@ -15,6 +15,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+" make it look good
+Plugin 'junegunn/goyo.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -33,6 +35,7 @@ set background=dark     " Fix hilight colours
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
+set laststatus=0        " Hide the useless statusbar
 
 set relativenumber
 set number
