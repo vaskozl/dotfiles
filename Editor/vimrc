@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set background=light
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -12,11 +14,15 @@ Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 " fancy ass ide stuff
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'zchee/deoplete-clang'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 " make it look good
 Plugin 'junegunn/goyo.vim'
+" dissaprove indented code to far
+"Plugin 'dodie/vim-disapprove-deep-indentation'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -31,7 +37,6 @@ set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 set hlsearch
-set background=dark     " Fix hilight colours
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
@@ -113,16 +118,10 @@ let g:hardtime_default_on = 1
 let g:hardtime_showmsg = 0 
 let g:hardtime_allow_different_key = 1
 
-
-" YouCompleteMe
-let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
-let g:ycm_dont_warn_on_startup = 0
-let g:ycm_complete_in_comments = 1
-let g:ycm_complete_in_strings = 1
-let g:ycm_collect_identifiers_from_comments_and_strings = 1
-let g:ycm_filetype_blacklist = {}
-let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+"Deoplete enable
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/clang/'
 
 " supertab
 let g:SuperTabDefaultCompletionType    = '<C-n>'
