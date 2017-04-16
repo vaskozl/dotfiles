@@ -94,16 +94,6 @@ bind index,pager "N" search-next
 bind index,pager \CN search-opposite
 
 
-# Threads
-bind pager,index                dT  delete-thread
-bind pager,index                dt  delete-subthread
-bind pager,index                gt  next-thread
-bind pager,index                gT  previous-thread
-bind index                      za  collapse-thread
-bind index                      zA  collapse-all # Missing :folddisable/foldenable
-
-
-
 # Gmail-style keyboard shortcuts
 macro index,pager gi "<change-folder>=dove/Inbox<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=dove/Archive<tab><enter>" "Go to all mail"
