@@ -1,5 +1,11 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
+alias sp='chromium --app=https://play.spotify.com'
+alias wa='chromium --app=https://web.whatsapp.com'
+alias serial='screen /dev/$(basename $(ls /dev/ttyAC*|tail -1)) 9600n'
+
+# bauerbill
+alias bb='bb-wrapper'
 #ip
 alias ip='ip -c'
 
@@ -11,8 +17,8 @@ alias ,.='!!'
 
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
+alias mpv="mpv --ytdl-format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 
-#Micrcontroller 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
 
 alias yt='mpsyt'
@@ -70,7 +76,8 @@ alias o='less'
 alias g='wget'
 alias x='tar -xvzf'
 alias a='tar -cvzf'
-alias i='yaourt -S'
+alias i='bb -S'
+alias ia='bb -S --aur'
 alias p='sudo pacman -Rs'
 alias clean='sudo pacman -Rsn $(pacman -Qdtq)'
 alias t='optirun'

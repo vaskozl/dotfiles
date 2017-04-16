@@ -2,7 +2,7 @@
 ! Xft settings
 !-------------------------------------------------------------------------------
  
-Xft.dpi: 96
+Xft.dpi: 186
 Xft.antialias: true
 Xft.rgba: rgb
 Xft.hinting: true
@@ -18,7 +18,7 @@ URxvt.lineSpace: 0
  
 ! Fonts
 URxvt.allow_bold: true
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=11
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=26
  
 ! Fix font space
 URxvt*letterSpace: -1
@@ -48,5 +48,4 @@ URxvt.keysym.M-s: perl:keyboard-select:search
 ! M-u to select open copy links
 !URxvt.perl-ext-common: ...,url-select
 URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /home/vasko/.tools/firesend
-
+URxvt.url-select.launcher: chromium

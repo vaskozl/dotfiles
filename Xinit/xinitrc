@@ -42,4 +42,5 @@ xrdb -merge ~/.Xdefaults
 # Automount
 #udiskie -N &
 
+xrandr --dpi 186
 ratpoison
