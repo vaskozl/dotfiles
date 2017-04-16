@@ -86,7 +86,7 @@ macro index dd \
     "move message to the trash"
 
 # Mail & Reply
-bind index                      \Cm list-reply # Doesn't work currently
+bind index R        group-reply
 
 # Search
 bind index,pager "n" next-unread
@@ -103,7 +103,6 @@ macro index,pager gt "<change-folder>=dove/Trash<enter>" "Go to trash"
 macro index,pager gd "<change-folder>=dove/Drafts<enter>" "Go to drafts"
 
 
-bind index R        group-reply
 
 
 # Other config
