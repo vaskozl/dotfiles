@@ -1,7 +1,5 @@
 #! /bin/sh
 
-num_mon=$(bspc query -M | wc -l)
-
 . ./panel_colors
 . ./icons
 while read -r line ; do

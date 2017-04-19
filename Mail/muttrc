@@ -3,7 +3,7 @@ source ~/.mutt/crypto.rc
 
 #LocalMail config
 set mbox_type   = Maildir
-set sendmail    = /usr/bin/msmtp
+set sendmail    = /usr/local/bin/msmtpq
 
 set folder      = ~/.mail/
 set spoolfile   = "+dove/Inbox"
@@ -33,8 +33,8 @@ set message_cachedir=~/.muttlocal/cache/bodies
 set certificate_file=~/.muttlocal/certificates
 set move = no
 set include
-set sort = 'reverse-date-received'
-#set sort_aux = 'reverse-last-date-received'
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
 set auto_tag = yes
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"

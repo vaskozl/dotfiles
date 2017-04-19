@@ -24,8 +24,11 @@ statnot ~/dotfiles/Panel/statnot/config &
 # Init clipboard
 ~/.tools/clipboard init
 
+# Toutchpad config
+xinput --set-prop 12 "libinput Natural Scrolling Enabled" 1
+xinput --set-prop 12 "libinput Tapping Enabled" 1
+
 # Keyboard bindings
-xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
 xset r 133
 xset r rate 170 60
@@ -33,14 +36,14 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
+#xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 
 # Automount
-#udiskie -N &
+udiskie -N  -T -q --no-appindicator -a &
 
-xrandr --dpi 186
+xrandr --dpi 161
 ratpoison

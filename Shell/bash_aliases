@@ -17,6 +17,7 @@ alias ,.='!!'
 
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
+alias mpvh='mpv --ytdl-format=137+251'
 alias mpv="mpv --ytdl-format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'

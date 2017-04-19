@@ -1,6 +1,6 @@
 #!/bin/sh
 PANEL_FIFO=/tmp/panel-fifo
-PANEL_HEIGHT=48
+PANEL_HEIGHT=40
 
 FONT_FONT="DejaVuSans-10"
 ICON_FONT="FontAwesome-10"

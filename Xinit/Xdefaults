@@ -2,7 +2,7 @@
 ! Xft settings
 !-------------------------------------------------------------------------------
  
-Xft.dpi: 186
+Xft.dpi: 161
 Xft.antialias: true
 Xft.rgba: rgb
 Xft.hinting: true
@@ -18,10 +18,10 @@ URxvt.lineSpace: 0
  
 ! Fonts
 URxvt.allow_bold: true
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=26
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=22
  
 ! Fix font space
-URxvt*letterSpace: -1
+URxvt*letterSpace: -2
  
 ! Scrollbar
 URxvt.scrollStyle: rxvt
@@ -33,7 +33,7 @@ URxvt.matcher.button: 1
 URxvt.urlLauncher: vimb
  
 ! Cursor
-URxvt.cursorBlink: true
+URxvt.cursorBlink: false
 URxvt.cursorColor: #657b83
 URxvt.cursorUnderline: false
 
