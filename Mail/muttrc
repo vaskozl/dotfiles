@@ -64,6 +64,7 @@ ignore x-alt-email x-orcpt company division x-warning
 #----------------------------------------
 
 # Moving around
+bind attach,browser,index,pager 	g noop
 bind attach,browser,index       gg  first-entry
 bind attach,browser,index       G   last-entry
 bind pager                      gg  top
@@ -81,6 +82,7 @@ bind browser,pager              \Cy previous-line
 bind index                      \Ce next-line
 bind index                      \Cy previous-line
 
+bind index d noop
 macro index dd \
     "<save-message>+dove/Trash<enter>" \
     "move message to the trash"
