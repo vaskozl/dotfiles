@@ -21,6 +21,7 @@ if [ $status -eq 0 ];then
 	touch ~/.mutt/newmail
 else 
 	xset -led 1
+	echo 'Ixlear' > /tmp/panel-fifo
 if [ -e ~/.mutt/newmail ];then 
 	rm ~/.mutt/newmail
 fi
