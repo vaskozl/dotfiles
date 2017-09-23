@@ -1,6 +1,6 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
-alias sp='chromium --app=https://play.spotify.com'
+alias sp='spotify --force-device-scale-factor=2 &! exit'
 alias wa='chromium --app=https://web.whatsapp.com'
 alias serial='screen /dev/$(basename $(ls /dev/ttyAC*|tail -1)) 9600n'
 
