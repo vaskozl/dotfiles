@@ -3,7 +3,7 @@ source ~/.mutt/crypto.rc
 
 #LocalMail config
 set mbox_type   = Maildir
-set sendmail    = /usr/local/bin/msmtpq
+set sendmail    = msmtp
 
 set folder      = ~/.mail/
 set spoolfile   = "+dove/Inbox"
@@ -81,6 +81,16 @@ bind browser,pager              \Ce next-line
 bind browser,pager              \Cy previous-line
 bind index                      \Ce next-line
 bind index                      \Cy previous-line
+
+# Change from address
+bind index F noop
+macro index Fi \
+	":set sendmail='msmtp -a imperial'; set from='vasil.zlatanov15@imperial.ac.uk<enter>" \
+	":set from to vasil.zlatanov15@imperial.ac.uk"
+
+macro index Fd \
+	"set sendmail='msmtp'; set sendmail='v@skozl.com'<enter>" \
+	"set from to v@skozl.com'
 
 bind index d noop
 macro index dd \
