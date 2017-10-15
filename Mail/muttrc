@@ -1,6 +1,8 @@
 # GPG config 
 source ~/.mutt/crypto.rc
 
+set attribution="On %[!%a, %b %d, %G at %H:%M ], %n <%a> wrote:"
+
 #LocalMail config
 set mbox_type   = Maildir
 set sendmail    = msmtp
@@ -89,7 +91,7 @@ macro index Fi \
 	":set from to vasil.zlatanov15@imperial.ac.uk"
 
 macro index Fd \
-	"set sendmail='msmtp'; set sendmail='v@skozl.com'<enter>" \
+	":set sendmail='msmtp'; set from='v@skozl.com<enter>" \
 	"set from to v@skozl.com'
 
 bind index d noop
