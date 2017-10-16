@@ -19,6 +19,14 @@ mailboxes =dove/Inbox =dove/Sent =dove/Drafts =dove/Trash =dove/Archive
 # Set search to notmuch
 bind index,pager / vfolder-from-query
 
+set query_command= "khard email --parsable %s"
+bind editor <Tab> complete-query
+bind editor ^T    complete
+
+macro index,pager A \
+    "<pipe-message>khard add-email<return>" \
+    "add the sender email address to khard"
+
 # Dove conf
 set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
