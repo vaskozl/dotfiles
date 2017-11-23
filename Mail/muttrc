@@ -32,7 +32,7 @@ set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
 
 # Change the following line to a different editor you prefer.
-set editor = "vim"
+set editor = "nvim"
 
 # Basic config, you can leave this as is
 set mail_check = 1
