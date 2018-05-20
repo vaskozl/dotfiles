@@ -14,7 +14,7 @@ set postponed   = "+dove/Drafts"
 set record      = "+dove/Sent"
 
 # Set mailboxes
-mailboxes =dove/Inbox =dove/Sent =dove/Drafts =dove/Trash =dove/Archive
+mailboxes =dove/Inbox =dove/Spam =dove/Sent =dove/Drafts =dove/Trash =dove/Archive =dove/Ratpoison =dove/Arch
 
 # Set search to notmuch
 bind index,pager / vfolder-from-query
@@ -149,4 +149,30 @@ folder-hook . `rm -f /tmp/mutt/*`                        # delete tmp files crea
 auto_view text/html                                      # view html automatically
 alternative_order text/plain text/enriched text/html     # save html for last
 
+alias ice-hockeylex Ice Hockey <ice-hockey@imperial.ac.uk>
 
+set sidebar_visible = yes
+set mail_check_stats
+
+set sidebar_format = '%B%?F? [%F]?%* %?N?%N/?%S'
+set sidebar_width = 25
+set sidebar_short_path = no
+
+# Move the highlight to the previous mailbox
+bind index,pager \Cp sidebar-prev
+
+# Move the highlight to the next mailbox
+bind index,pager \Cn sidebar-next
+
+# Open the highlighted mailbox
+bind index,pager \Co sidebar-open
+
+
+# Move the highlight to the previous mailbox
+bind index,pager \Cp sidebar-prev
+
+# Move the highlight to the next mailbox
+bind index,pager \Cn sidebar-next
+
+# Open the highlighted mailbox
+bind index,pager \Co sidebar-open
