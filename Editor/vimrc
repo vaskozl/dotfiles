@@ -76,10 +76,10 @@ nnoremap <leader>v :!open '<cfile>'<CR>
 "read spaces in path's
 set isfname+=32
 
-""Set tab to two spaces
-"set expandtab
-"set shiftwidth=2
-"set softtabstop=2
+"Set tab to two spaces
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 
 "Make tab into another escape
