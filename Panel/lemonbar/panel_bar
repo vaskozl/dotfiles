@@ -1,7 +1,5 @@
 #! /bin/sh
 
-num_mon=$(bspc query -M | wc -l)
-
 . ./panel_colors
 . ./icons
 while read -r line ; do
@@ -45,7 +43,7 @@ while read -r line ; do
 			;;
 		K*)
 			# volume output
-			musicvol="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MUSIC} ${line#?} %{B-}%{F-}"
+			#musicvol="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MUSIC} ${line#?} %{B-}%{F-}"
 			;;
 	
 	
@@ -115,5 +113,5 @@ while read -r line ; do
 #						;;
 	esac
 #	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
-	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${notification}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${musicvol}${battery}${time_infos}"
+	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${notification}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${battery}${time_infos}"
 done

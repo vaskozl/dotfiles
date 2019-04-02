@@ -3,16 +3,17 @@ set useragent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.
 set scripts=true
 
 set spacial-navigation=true
+set default-zoom=150
 
 shortcut-add wiki=https://en.wikipedia.org/w/index.php?search=$0
 shortcut-add gl=https://encrypted.google.com/search?hl=en&source=hp&biw=&bih=&q=$0&btnG=Google+Search&gbv=1
-shortcut-add dl=https://duckduckgo.com/lite/?q=$0
+shortcut-add dl=https://duckduckgo.com/?q=$0
 shortcut-add map=https://maps.google.com/maps?saddr=$0&daddr=$1
 shortcut-add gh=https://github.com/$0/$1
 shortcut-add arrp=https://www.archlinux.org/packages/?q=$0
 shortcut-add arwk=https://wiki.archlinux.org/index.php?title=Special%3ASearch&search=$0&go=Go
 shortcut-add aur=https://aur.archlinux.org/packages/?K=$0
-shortcut-default gl
+shortcut-default dl
 
 set download-path=~/Downloads
 

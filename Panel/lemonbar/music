@@ -15,6 +15,6 @@ echo "K`mpc volume -h 127.0.0.1 | perl -pe 's/^volume://' | perl -pe 's/%$//' | 
 mpc -h 127.0.0.1 idle > /dev/null
 if [ $? -ne 0 ];then
 echo 'mpd not alive';
-sleep 30;
+sleep 300;
 fi
 done

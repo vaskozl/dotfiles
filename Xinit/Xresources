@@ -13,7 +13,7 @@ urxvt.scrollBar :false
 xterm.scrollBar :false
 
 xterm*faceName: DejaVu Sans Mono Book
-xterm*faceSize: 11
+xterm*faceSize: 16
 
 ! Enable copy paste
 xterm*metaSendsEscape: true

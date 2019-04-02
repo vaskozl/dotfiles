@@ -15,7 +15,7 @@ fi
 xsetroot -cursor_name left_ptr 
 
 # An2linux
-~/bin/an2linux.py &
+#~/bin/an2linux.py &
 statnot ~/dotfiles/Panel/statnot/config &
 
 # Background
@@ -23,6 +23,10 @@ statnot ~/dotfiles/Panel/statnot/config &
 
 # Init clipboard
 ~/.tools/clipboard init
+
+# Toutchpad config
+xinput --set-prop 12 "libinput Natural Scrolling Enabled" 1
+xinput --set-prop 12 "libinput Tapping Enabled" 1
 
 # Keyboard bindings
 xset r 64
@@ -32,13 +36,15 @@ xset m 0 0
 xset -b
 
 # Launch locking program
-xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
+#xautolock -detectsleep -locker '~/.tools/lock' -time 11 -corners 0-00 &
 
 # Load xterm colors
 xrdb -merge ~/.Xresources
 xrdb -merge ~/.Xdefaults
 
 # Automount
-#udiskie -N &
+udiskie -N  -T -q --no-appindicator -a &
 
+xrandr --dpi 161
+compton --no-fading-openclose --daemon
 ratpoison

@@ -1,14 +1,11 @@
 # GPG config 
 source ~/.mutt/crypto.rc
 
-#Load aliases
-#set alias_file=$HOME/.mutt/aliases.txt
-#source $alias_file
+set attribution="On %[!%a, %b %d, %G at %H:%M ], %n <%a> wrote:"
 
-
-#Offline Imap config
+#LocalMail config
 set mbox_type   = Maildir
-set sendmail    = /usr/bin/msmtp
+set sendmail    = msmtp
 
 set folder      = ~/.mail/
 set spoolfile   = "+dove/Inbox"
@@ -16,51 +13,26 @@ set mbox        = "+dove/Archive"
 set postponed   = "+dove/Drafts"
 set record      = "+dove/Sent"
 
-# Set maailboxes
+# Set mailboxes
 mailboxes =dove/Inbox =dove/Sent =dove/Drafts =dove/Trash =dove/Archive
 
-# Enable sidepanel
-#set sidebar_visible=yes
-#set sidebar_short_path=yes
-#set sidebar_format = "%B %?N?(%N)?%* %S"
-#set mail_check_stats = yes
-
 # Set search to notmuch
-
 bind index,pager / vfolder-from-query
 
+set query_command= "khard email --parsable %s"
+bind editor <Tab> complete-query
+bind editor ^T    complete
 
-# View good/bad mails
-#    macro	index	S	"<limit>~h \"X-Spam-Flag: YES\"<enter><last-entry>"			"Show only SPAM"
-#    macro	index	s	"<limit>~h \"X-Spam-Status: No\"<enter><last-entry>"			"Hide SPAM"
-
-macro index D \
-    "<save-message>+dove/Trash<enter>" \
-    "move message to the trash"
-
-#macro index S \
-#    "<save-message>+dove/Spam<enter>" \
-#    "mark message as spam"
+macro index,pager A \
+    "<pipe-message>khard add-email<return>" \
+    "add the sender email address to khard"
 
 # Dove conf
 set from = "v@skozl.com"
 set realname = "Vasil Zlatanov"
 
-# CardDav completion
-bind editor <Tab> complete-query
-
-# Save contact to CardDav
-macro index,pager A \
-    "<pipe-message>khard add-email<return>" \
-    "add the sender email address to khard"
-
-# Load from CardDav
-set query_command="khard email --parsable --search-in-source-files %s"
-
-
-
 # Change the following line to a different editor you prefer.
-set editor = "vim"
+set editor = "nvim"
 
 # Basic config, you can leave this as is
 set mail_check = 1
@@ -71,8 +43,8 @@ set message_cachedir=~/.muttlocal/cache/bodies
 set certificate_file=~/.muttlocal/certificates
 set move = no
 set include
-set sort = 'reverse-date-received'
-#set sort_aux = 'reverse-last-date-received'
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
 set auto_tag = yes
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
@@ -97,6 +69,53 @@ ignore x-no-junk-mail x-server-date x-phone x-mime-autoconverted
 ignore x-alt-email x-orcpt company division x-warning
 
 
+#----------------------------------------
+# Vi Keys
+#----------------------------------------
+
+# Moving around
+bind attach,browser,index,pager 	g noop
+bind attach,browser,index       gg  first-entry
+bind attach,browser,index       G   last-entry
+bind pager                      gg  top
+bind pager                      G   bottom
+bind pager                      k   previous-line
+bind pager                      j   next-line
+
+# Scrolling
+bind attach,browser,pager,index \CF next-page
+bind attach,browser,pager,index \CB previous-page
+bind attach,browser,pager,index \Cu half-up
+bind attach,browser,pager,index \Cd half-down
+bind browser,pager              \Ce next-line
+bind browser,pager              \Cy previous-line
+bind index                      \Ce next-line
+bind index                      \Cy previous-line
+
+# Change from address
+bind index F noop
+macro index Fi \
+	":set sendmail='msmtp -a imperial'; set from='vasil.zlatanov15@imperial.ac.uk<enter>" \
+	":set from to vasil.zlatanov15@imperial.ac.uk"
+
+macro index Fd \
+	":set sendmail='msmtp'; set from='v@skozl.com<enter>" \
+	"set from to v@skozl.com'
+
+bind index d noop
+macro index dd \
+    "<save-message>+dove/Trash<enter>" \
+    "move message to the trash"
+
+# Mail & Reply
+bind index R        group-reply
+
+# Search
+bind index,pager "n" next-unread
+bind index,pager "N" search-next
+bind index,pager \CN search-opposite
+
+
 # Gmail-style keyboard shortcuts
 macro index,pager gi "<change-folder>=dove/Inbox<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=dove/Archive<tab><enter>" "Go to all mail"
@@ -105,6 +124,11 @@ macro index,pager gj "<change-folder>=dove/Spam<enter>" "Go to spam"
 macro index,pager gt "<change-folder>=dove/Trash<enter>" "Go to trash"
 macro index,pager gd "<change-folder>=dove/Drafts<enter>" "Go to drafts"
 
+
+# Clear new email notification
+set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
+
+
 # Other config
 set delete 
 #set edit_headers
@@ -112,38 +136,17 @@ set fast_reply
 unset help
 set pager_stop
 
-# Bindings 
-bind index,pager "n" next-unread
-bind index,pager "N" search-next
-
-bind browser d half-down
-bind index d half-down
-bind pager d half-down
-
-bind browser u half-up
-bind index u half-up
-bind pager u half-up
-
-bind index gg       first-entry
-bind pager gg       top
-bind index G        last-entry
-bind pager G        bottom
-bind index R        group-reply
-
-
-# Write in Aliases when opening email
-#set display_filter='$HOME/.mutt/alias.sh'
+# Make hard wrap not so hard
+set text_flowed=yes
 
 # Remove + on wraps
 set markers=no
 set smart_wrap
-
-# Mutt LED notification 
-set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
 
 # Render silly html
 set mailcap_path 	= ~/.mutt/mailcap
 folder-hook . `rm -f /tmp/mutt/*`                        # delete tmp files created by mailcap
 auto_view text/html                                      # view html automatically
 alternative_order text/plain text/enriched text/html     # save html for last
+
 

@@ -1,11 +1,16 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
-# awesome perl echo 'one two three'| perl -lne 'print $2 if /one(.*)three/' 
 
-alias sp='spotify &e'
 
 #bauerbill
 alias bb='baurebill'
 
+alias mutt='neomutt'
+alias sp='spotify --force-device-scale-factor=2 &! exit'
+alias wa='chromium --app=https://web.whatsapp.com'
+alias serial='screen /dev/$(basename $(ls /dev/ttyAC*|tail -1)) 9600n'
+
+# bauerbill
+alias bb='bb-wrapper'
 #ip
 alias ip='ip -c'
 
@@ -17,8 +22,9 @@ alias ,.='!!'
 
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
+alias mpvh='mpv --ytdl-format=137+251'
+alias mpv="mpv --ytdl-format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 
-#Micrcontroller 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
 
 alias yt='mpsyt'
@@ -30,10 +36,7 @@ alias remouse='sudo modprobe -r bcm5974'
 alias enmouse='sudo modprobe bcm5974 && ~/bin/mousefix'
 
 # Notes
-alias physics='vim ~/Sync/Notes/Physics/physics.txt'
-alias chemistry='vim ~/Sync/Notes/Chemistry/chemistry.txt'
-alias english='vim ~/Sync/Notes/English/english.txt'
-alias swedish='vim ~/Sync/Notes/Swedish/swedish.txt'
+alias notes='cd ~/Sync/Notes/EE2'
 
 #quiet
 alias quiet='sudo hdparm -y /dev/sda'
@@ -60,7 +63,9 @@ alias py='python3'
 alias scan='iwlist wlp2s0 scan'
 alias connect='sudo iwconfig wlan0 essid'
 alias home='cd /home/vasko'
-alias l='ls'
+alias l='ls --color=auto'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 alias d='ls'
 alias dm='ls | more'
 alias n='clear'
@@ -77,7 +82,8 @@ alias o='less'
 alias g='wget'
 alias x='tar -xvzf'
 alias a='tar -cvzf'
-alias i='yaourt -S'
+alias i='bb -S'
+alias ia='bb -S --aur'
 alias p='sudo pacman -Rs'
 alias clean='sudo pacman -Rsn $(pacman -Qdtq)'
 alias t='optirun'
@@ -89,7 +95,7 @@ alias iso='dd if=/dev/cdrom of=~/cdrom_image.iso'
 alias tglxspheres='vblank_mode=0 optirun -vv /opt/VirtualGL/bin/glxspheres64'
 alias pglxspheres='vblank_mode=0 primusrun /opt/VirtualGL/bin/glxspheres64'
 alias httpserve='python -m SimpleHTTPServer'
-alias pi='ping -4 google.com'
+alias pi='ping -4 skozl.com'
 alias pl='ping 8.8.8.8'
 alias def='sdcv'
 
@@ -180,4 +186,3 @@ alias matb='vim ~/Sync/Notes/EE2/Mathematics-2b.md                       '
 alias matc='vim ~/Sync/Notes/EE2/Mathematics-2c.md                       '
 alias pow='vim ~/Sync/Notes/EE2/Power-Engineering.md                    '
 alias sig='vim ~/Sync/Notes/EE2/Signals-and-Linear-Systems.md           '
-

@@ -1,15 +1,15 @@
 #!/bin/sh
 . ~/.colors
 cp ~/.config/vimb/config.static ~/.config/vimb/config
-echo "set status-color-bg=$COLOR0" >> ~/.config/vimb/config
-echo "set status-color-fg=$COLOR11" >> ~/.config/vimb/config
-
-echo "set status-ssl-color-bg=$COLOR0" >> ~/.config/vimb/config
-echo "set status-ssl-color-fg=$COLOR11" >> ~/.config/vimb/config
-
-echo "set completion-bg-active=$COLOR0" >> ~/.config/vimb/config
-echo "set completion-bg-normal=$COLOR0" >> ~/.config/vimb/config
-echo "set completion-fg-active=$COLOR3" >> ~/.config/vimb/config
-echo "set completion-fg-normal=$COLOR11" >> ~/.config/vimb/config
-
+# echo "set status-color-bg=$COLOR0" >> ~/.config/vimb/config
+# echo "set status-color-fg=$COLOR11" >> ~/.config/vimb/config
+# 
+# echo "set status-ssl-color-bg=$COLOR0" >> ~/.config/vimb/config
+# echo "set status-ssl-color-fg=$COLOR11" >> ~/.config/vimb/config
+# 
+# echo "set completion-bg-active=$COLOR0" >> ~/.config/vimb/config
+# echo "set completion-bg-normal=$COLOR0" >> ~/.config/vimb/config
+# echo "set completion-fg-active=$COLOR3" >> ~/.config/vimb/config
+# echo "set completion-fg-normal=$COLOR11" >> ~/.config/vimb/config
+# 
 

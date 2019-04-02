@@ -9,7 +9,7 @@ zstyle ':completion:*' menu select
 #zstyle ':completion:*' format '%BCompleting %d%b'
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/vasko/.zshrc'
+zstyle :compinstall filename '/home/vsz/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -27,7 +27,7 @@ export PATH="$HOME/bin:$PATH"
 export EDITOR="vim"
 export LD_LIBRARY_PATH=/usr/local/lib
 
-PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}☢ "
+PROMPT="%{$fg_no_bold[yellow]%}%1~ %{$reset_color%}▶ "
 #RPROMPT="[%{$fg_no_bold[yellow]%}%?%{$reset_color%}]"
 
 
@@ -57,23 +57,23 @@ export ANDROID_HOME=/opt/android-sdk
 
 
 
-case $TERM in
-  (*rxvt*)
-
-    # Write some info to terminal title.
-    # This is seen when the shell prompts for input.
-    function precmd {
-    print -Pn "\e]0;%(1j,%j job%(2j|s|); ,)%1~\a"
-    #timeout --signal=KILL 1s ~/dotfiles/Panel/lemonbar/windows 
-    }
-    # Write command and args to terminal title.
-    # This is seen while the shell waits for a command to complete.
-    function preexec {
-    printf "\033]0;%s\a" "$1"
-    }
-
-  ;;
-esac
+#case $TERM in
+#  (*rxvt*)
+#
+#    # Write some info to terminal title.
+#    # This is seen when the shell prompts for input.
+#    function precmd {
+#    print -Pn "\e]0;%(1j,%j job%(2j|s|); ,)%1~\a"
+#    #timeout --signal=KILL 1s ~/dotfiles/Panel/lemonbar/windows 
+#    }
+#    # Write command and args to terminal title.
+#    # This is seen while the shell waits for a command to complete.
+#    function preexec {
+#    printf "\033]0;%s\a" "$1"
+#    }
+#
+#  ;;
+#esac
 
 ## Fancy sysinfo
 #~/bin/sysinfo
