@@ -25,7 +25,6 @@ statnot ~/dotfiles/Panel/statnot/config &
 ~/.tools/clipboard init
 
 # Keyboard bindings
-xcape -t 300 -e 'Shift_L=parenleft;Shift_R=parenright;Hyper_L=Shift_L|exclam;Hyper_R=Shift_L|question' &
 xset r 64
 xset r 133
 xset r rate 170 60
