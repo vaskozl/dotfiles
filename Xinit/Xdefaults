@@ -18,7 +18,7 @@ URxvt.lineSpace: 0
  
 ! Fonts
 URxvt.allow_bold: true
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=22
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=26
  
 ! Fix font space
 URxvt*letterSpace: -2
