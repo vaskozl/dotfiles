@@ -1,3 +1,4 @@
+exec wmname LG3D
 chdir
 alias config source .tools/ratpoisonrc.conf
 config
