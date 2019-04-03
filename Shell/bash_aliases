@@ -1,5 +1,9 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
+
+#bauerbill
+alias bb='baurebill'
+
 alias mutt='neomutt'
 alias sp='spotify --force-device-scale-factor=2 &! exit'
 alias wa='chromium --app=https://web.whatsapp.com'
@@ -44,7 +48,7 @@ alias radiorock="unbuffer mpv 'http://relay.181.fm:8028' |grep --line-buffered i
 alias radio40="unbuffer mpv 'http://relay.181.fm:8070' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias radiolounge="unbuffer mpv 'http://sc-tcl.1.fm:8010/' |grep --line-buffered icy-title | sed -u 's/.*icy-title: /p/' > /tmp/panel-fifo"
 alias irc='autossh -M 0 -o "ServerAliveInterval 45" -o "ServerAliveCountMax 2" -p 55022 vasko@skozl.com'
-alias vps='mosh vasko@108.61.173.91 -- screen -rd'
+alias vps='mosh vasko@108.61.173.91 -- TERM=xterm-xfree86  screen -rd'
 alias desk='mosh -p 55101:55999 --ssh="ssh -p 55022" vsz@108.61.173.91 -- screen -rd'
 alias sourcel='source ~/.bash_aliases'
 alias ,.='fc -e -'

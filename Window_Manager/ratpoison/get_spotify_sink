@@ -1,0 +1,4 @@
+#!/bin/sh
+pacmd list-sink-inputs |
+tr '\n' '\r' |
+perl -ne 's/ *index: ([0-9]+).+?application\.name = "([^\r]+)"\r.+?(?=index:|$)/\2:\1\r/g; print $1 if $2=="Spotify"'
