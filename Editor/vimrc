@@ -14,7 +14,8 @@ Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 "" fancy ass ide stuff
-"Plugin 'Shougo/deoplete.nvim'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'bling/vim-airline'
 "Plugin 'zchee/deoplete-clang'
 ""Plugin 'Valloric/YouCompleteMe'
 "Plugin 'SirVer/ultisnips'
@@ -121,14 +122,14 @@ let g:hardtime_showmsg = 0
 let g:hardtime_allow_different_key = 1
 
 ""Deoplete enable
-"let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 1
 "let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
 "let g:deoplete#sources#clang#clang_header = '/usr/lib/clang/'
 "
 "" supertab
-"let g:SuperTabDefaultCompletionType    = '<C-n>'
-"let g:SuperTabCrMapping                = 0
-"
+let g:SuperTabDefaultCompletionType    = '<C-n>'
+let g:SuperTabCrMapping                = 0
+
 "" ultisnips
 "let g:UltiSnipsSnippetsDir='~/.vim/snippets'
 "let g:UltiSnipsEditSplit='vertical'
@@ -152,3 +153,6 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$\| \+\ze\t/
 autocmd InsertEnter * match ExtraWhitespace /\s\+$%#\@<!$\| \+\ze\t/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$\| \+\ze\t/
 autocmd BufWinLeave * call clearmatches()
+
+"Airline symbols
+let g:airline_powerline_fonts = 1
