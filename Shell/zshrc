@@ -77,3 +77,9 @@ export ANDROID_HOME=/opt/android-sdk
 
 ## Fancy sysinfo
 #~/bin/sysinfo
+
+bindkey "e[1~" beginning-of-line
+bindkey "e[4~" end-of-line
+# Control arrow keys
+bindkey '^[[1;5C' emacs-forward-word
+bindkey '^[[1;5D' emacs-backward-word
