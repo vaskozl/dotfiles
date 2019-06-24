@@ -1,82 +1,68 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-set background=dark
-
+set nocompatible                        " be iMproved, required
+filetype off                            " required
+set enc=utf-8                           " use uft-8
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
+Plugin 'takac/vim-hardtime'             " Do not allow hjkl abuse
+Plugin 'tpope/vim-surround'             " ys cs ds commands
+Plugin 'tpope/vim-repeat'               " surround repeat
+Plugin 'tpope/vim-fugitive'             " git support in airline
 
-Plugin 'junegunn/goyo.vim'
-Plugin 'ervandew/supertab'
-Plugin 'vim-scripts/DrawIt'
-Plugin 'takac/vim-hardtime'
-" tpope goodness
-Plugin 'tpope/vim-abolish'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-repeat'
-"" fancy ass ide stuff
-Plugin 'Shougo/deoplete.nvim'
-Plugin 'zchee/deoplete-clang'
-Plugin 'deoplete-plugins/deoplete-jedi'
-Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline-themes'
-""Plugin 'Valloric/YouCompleteMe'
-"Plugin 'SirVer/ultisnips'
-"Plugin 'honza/vim-snippets'
-"" make it look good
-"" neomutt support
-Plugin 'neomutt/neomutt.vim'
-"" dissaprove indented code to far
-""Plugin 'dodie/vim-disapprove-deep-indentation'
-" Syntax hilighting for base16 style themes
-"Plugin 'plasticboy/vim-markdown'
-Plugin 'rhysd/vim-grammarous'
-Plugin 'chriskempson/base16-vim'
-Plugin 'benizi/vim-automkdir'
-Plugin 'w0rp/ale'
-Plugin 'vim-perl/vim-perl'
+Plugin 'ervandew/supertab'              " Smart <Tab> => <C-n>
+Plugin 'Shougo/deoplete.nvim'           " Code completion
+Plugin 'zchee/deoplete-clang'           " C copletion
+Plugin 'deoplete-plugins/deoplete-jedi' " Python Completion
 
-call vundle#end()            " required
-filetype plugin indent on    " required
+Plugin 'bling/vim-airline'              " Airline (Powerline)
+Plugin 'vim-airline/vim-airline-themes' " Airline theme
+
+Plugin 'neomutt/neomutt.vim'            " Support for neomutt filetypes
+
+Plugin 'chriskempson/base16-vim'        " Base16 themes
+
+Plugin 'w0rp/ale'                       " Linting Engine
+
+" Quality of Life
+Plugin 'benizi/vim-automkdir'           " Create subdirectiries 
+Plugin 'junegunn/goyo.vim'              " Distraction Free editing
+Plugin 'vim-scripts/DrawIt'             " Draw boxes/lines
+Plugin 'rhysd/vim-grammarous'           " Grammer checking
+
+call vundle#end()                       " required
+filetype plugin indent on               " required
 filetype plugin on
 
-"General
-syntax on
-set showcmd		" Show (partial) command in status line.
-"set showmatch		" Show matching brackets.
-"set gdefault
-set ignorecase		" Do case insensitive matching
-set smartcase		" Do smart case matching
-set incsearch		" Incremental search
-set hlsearch
-"set autowrite		" Automatically save before commands like :next and :make
-"set hidden             " Hide buffers when they are abandoned
-"set mouse=a		" Enable mouse usage (all modes)
-set laststatus=0        " Hide the useless statusbar
+syntax on                               " Enable syntax hilighting
+set showcmd		                " Show (partial) command in status line.
 
-set relativenumber
-set number
-"set spell
-set ruler
+set ignorecase		                " Do case insensitive matching
+set smartcase		                " Do smart case matching
+set incsearch		                " Incremental search
+set hlsearch                            " Hilight matching searched
 
-"Remove annoying ESC delay
-set ttimeout ttimeoutlen=20 
+set relativenumber                      " Show number relative to line
+set number                              " Shows current line instead of 0
 
-"Change cursor to | when in insert
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 1
+set isfname+=32                         " Read spaces in path's
+
+
+set clipboard^=unnamed                  " sync paste buffer and vims register
+set mouse=                              " disable mouse
+
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 1   " Change cursor to | when in insert
 
 "Autosave and Autoread
-set autoread
+set autoread                            " Reread file on external Commands
 set autowriteall
-set noswapfile
-set nobackup
-au CursorHold,CursorHoldI * checktime
-au CursorHold,CursorHoldI * silent! wa
-set updatetime=2000
+au FocusGained,BufEnter * :silent! !
+au FocusLost,WinLeave * :silent! w
 
-"Persisten-undo magic
-set undofile
+set undofile                            " Persisent undo accross saves
+set undodir=~/.vim/undodir/             " Don't clobber dir with undo files
+
+set noswapfile                          " Disable silly .swp file
+set nobackup                            " No backup file
 
 "Disable the super annoying autocomment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -90,100 +76,51 @@ let mapleader = ","
 
 "Math with qalc
 nnoremap <leader>m :.!~/bin/calc<Enter>
-nnoremap <leader>i :read !latestimage<Enter>
-nnoremap <leader>v :!open '<cfile>'<CR>
 
-noremap! <C-BS> <C-w>
+" Ctrl+Backspace should delete words
+noremap! <C-BS> <C-w>      
 noremap! <C-h> <C-w>
 
-"read spaces in path's
-set isfname+=32
-
-"Set tab to two spaces
+"Set Tab to two spaces
 set expandtab
 set shiftwidth=2
 set softtabstop=2
-
-
-"Make tab into another escape
-"nnoremap <Tab> <Esc>
-"vnoremap <Tab> <Esc>gV
-"onoremap <Tab> <Esc>
-"inoremap <Tab> <Esc>`^
-"inoremap <S-Tab> <Tab>
-set enc=utf-8
-
-"sync paste buffer and vims register
-set clipboard^=unnamed
-
-" don't clobber up the directory with dot undo file
-set undodir=~/.vim/undodir/
-
-"disable mouse
-set mouse=
-
-
 "Open new file
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 
 " Hard time options
-let g:hardtime_maxcount = 2
 let g:hardtime_default_on = 1
-let g:hardtime_showmsg = 0 
-let g:hardtime_allow_different_key = 1
+let g:hardtime_maxcount = 2            " Allow to consecutive hjkl
+let g:hardtime_showmsg = 0             " Don't even tell us why
+let g:hardtime_allow_different_key = 1 " Allows some spamming
 
-""Deoplete enable
+" Deoplete enable
 let g:deoplete#enable_at_startup = 1
-"let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
-"let g:deoplete#sources#clang#clang_header = '/usr/lib/clang/'
-"
-"" supertab
+
+" Supertab
 let g:SuperTabDefaultCompletionType    = '<C-n>'
 let g:SuperTabCrMapping                = 0
 
-"" ultisnips
-"let g:UltiSnipsSnippetsDir='~/.vim/snippets'
-"let g:UltiSnipsEditSplit='vertical'
-"let g:UltiSnipsExpandTrigger           = '<tab>'
-"let g:UltiSnipsJumpForwardTrigger      = '<tab>'
-"let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
-"
-""""""""""""""""""""""""
-"" CUSTOM TEXT-OBJECTS "
-""""""""""""""""""""""""
-"for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%', '-', '#' ]
-"    execute 'xnoremap i' . char . ' :<C-u>normal! T' . char . 'vt' . char . '<CR>'
-"    execute 'onoremap i' . char . ' :normal vi' . char . '<CR>'
-"    execute 'xnoremap a' . char . ' :<C-u>normal! F' . char . 'vf' . char . '<CR>'
-"    execute 'onoremap a' . char . ' :normal va' . char . '<CR>'
-"endfor
-
-highlight ExtraWhitespace guibg=purple
-match ExtraWhitespace /\s\+$\| \+\ze\t/
-autocmd BufWinEnter * match ExtraWhitespace /\s\+$\| \+\ze\t/
-autocmd InsertEnter * match ExtraWhitespace /\s\+$%#\@<!$\| \+\ze\t/
-autocmd InsertLeave * match ExtraWhitespace /\s\+$\| \+\ze\t/
-autocmd BufWinLeave * call clearmatches()
-
-"Airline symbols
+" Airline symbols
 let g:airline_powerline_fonts = 1
 let g:vim_markdown_folding_disabled = 1
 let g:airline_theme='base16'
 let g:airline#extensions#ale#enabled = 1
 
-let g:ale_set_loclist          = 0
-let g:ale_set_quickfix         = 1
-let g:ale_linters              = { 'perl': ['perl', 'perlcritic'] }
-let g:ale_perl_perl_options    = '-cW -Ilib -I./'
-let g:ale_perl_perlcritic_options    = '--stern'
-let g:ale_lint_on_text_changed = 'normal'
-let g:ale_lint_on_insert_leave = 1
+
+" Ale Linter Config
+let g:ale_set_loclist             = 0
+let g:ale_set_quickfix            = 1
+let g:ale_linters                 = { 'perl': ['perl', 'perlcritic'] }
+let g:ale_perl_perl_options       = '-cW -Ilib -I./'
+let g:ale_perl_perlcritic_options = '--stern'
+let g:ale_lint_on_text_changed    = 'normal'
+let g:ale_lint_on_insert_leave    = 1
 
 " Modify The ColorScheme to show Italic and Bold in Markdown.
 " Italicise comments and Type's
-" And make Line numbers same as background
-
+" And make Line numbers same as background in Base16 themes
 function! s:base16_customize() abort
     call Base16hi("htmlBold",    g:base16_gui0A, "", g:base16_cterm06, "", "bold", "") 
     call Base16hi("markdownBold",    g:base16_gui0A, "", g:base16_cterm06, "", "bold", "") 
@@ -206,6 +143,7 @@ augroup on_change_colorschema
     autocmd ColorScheme * call s:base16_customize()
 augroup END
 
+" Load base16_theme from ~/.vimrc_background
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
