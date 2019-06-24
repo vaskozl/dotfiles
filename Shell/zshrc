@@ -83,3 +83,5 @@ bindkey "e[4~" end-of-line
 # Control arrow keys
 bindkey '^[[1;5C' emacs-forward-word
 bindkey '^[[1;5D' emacs-backward-word
+
+archey4
