@@ -1,9 +1,9 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
-
 #bauerbill
 alias bb='baurebill'
 
+alias mpv-low-latency='mpv --no-cache --untimed --no-correct-pts --fps=30 --speed=100 --profile=low-latency --opengl-glfinish=yes --opengl-swapinterval=0'
 alias mutt='neomutt'
 alias sp='spotify --force-device-scale-factor=2 &! exit'
 alias wa='chromium --app=https://web.whatsapp.com'
