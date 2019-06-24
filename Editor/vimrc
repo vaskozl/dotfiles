@@ -6,6 +6,7 @@ set background=dark
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'junegunn/goyo.vim'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/DrawIt'
 Plugin 'takac/vim-hardtime'
@@ -16,6 +17,7 @@ Plugin 'tpope/vim-repeat'
 "" fancy ass ide stuff
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
 "Plugin 'zchee/deoplete-clang'
 ""Plugin 'Valloric/YouCompleteMe'
 "Plugin 'SirVer/ultisnips'
