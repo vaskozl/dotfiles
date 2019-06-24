@@ -1,9 +1,13 @@
 
-# Icons
+# Icons ICON_CLOCK=''
 ICON_CLOCK=''
 ICON_CAL=''
 ICON_WIFI=''
-ICON_PWR=''
+ICON_BAT100=''
+ICON_BAT75=''
+ICON_BAT50=''
+ICON_BAT25=''
+ICON_BAT0=''
 ICON_DB=''
 ICON_SQUARE=''
 ICON_PREV=''

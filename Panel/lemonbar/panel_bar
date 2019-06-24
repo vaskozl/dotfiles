@@ -43,17 +43,29 @@ while read -r line ; do
 			;;
 		K*)
 			# volume output
-			#musicvol="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MUSIC} ${line#?} %{B-}%{F-}"
+			musicvol="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_MUSIC} ${line#?} %{B-}%{F-}"
 			;;
 	
 	
 		BDischarging*)
-			percent=`echo ${line#?} | cut -d' ' -f2`
-			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PWR} ${percent} %{B-}%{F-}";
+			level=`echo ${line#?} | cut -d' ' -f2`
+                        if [ $level -gt 90 ];then
+                          ICON_PWR=$ICON_BAT100
+                        elif [ $level -gt 65 ];then
+                          ICON_PWR=$ICON_BAT75
+                        elif [ $level -gt 35 ];then
+                          ICON_PWR=$ICON_BAT50
+                        elif [ $level -gt 15 ];then
+                          ICON_PWR=$ICON_BAT25
+                        else
+                          ICON_PWR=$ICON_BAT0
+                        fi
+			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PWR} ${level} %{B-}%{F-}";
 			;;
 	        B*)
-			percent=`echo ${line#?} | cut -d' ' -f2`
-			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PLUG} ${percent} %{B-}%{F-}";
+			level=`echo ${line#?} | cut -d' ' -f2`
+			battery="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG} ${ICON_PLUG} ${level} %{B-}%{F-}";
+
 			;;
 	
 	
@@ -112,6 +124,6 @@ while read -r line ; do
 #						wm_infos="$wm_infos  %{F$COLOR_LAYOUT_FG}%{B$COLOR_LAYOUT_BG} ${name} %{B-}%{F-}"
 #						;;
 	esac
-#	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
-	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${notification}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${battery}${time_infos}"
+	printf "%s\n" "%{l}${wm_infos}${title}%{r}${playing}${paused}${cpu}${ram}${essid}${signal}${volume}${musicvol}${battery}${time_infos}             "
+#	printf "%s\n" "%{l}${desktop}${wm_infos}%{r}${notification}${face}${priv}${pub}${mail}${playing}${paused}${cpu}${ram}${volume}${battery}${time_infos}"
 done
