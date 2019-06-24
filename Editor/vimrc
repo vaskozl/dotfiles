@@ -18,16 +18,20 @@ Plugin 'tpope/vim-repeat'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'zchee/deoplete-clang'
 ""Plugin 'Valloric/YouCompleteMe'
 "Plugin 'SirVer/ultisnips'
 "Plugin 'honza/vim-snippets'
 "" make it look good
-"Plugin 'junegunn/goyo.vim'
 "" neomutt support
 Plugin 'neomutt/neomutt.vim'
 "" dissaprove indented code to far
 ""Plugin 'dodie/vim-disapprove-deep-indentation'
+" Syntax hilighting for base16 style themes
+"Plugin 'plasticboy/vim-markdown'
+Plugin 'rhysd/vim-grammarous'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,7 +39,6 @@ filetype plugin on
 
 "General
 syntax on
-
 set showcmd		" Show (partial) command in status line.
 "set showmatch		" Show matching brackets.
 "set gdefault
@@ -85,6 +88,9 @@ let mapleader = ","
 nnoremap <leader>m :.!~/bin/calc<Enter>
 nnoremap <leader>i :read !latestimage<Enter>
 nnoremap <leader>v :!open '<cfile>'<CR>
+
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
 
 "read spaces in path's
 set isfname+=32
@@ -158,3 +164,39 @@ autocmd BufWinLeave * call clearmatches()
 
 "Airline symbols
 let g:airline_powerline_fonts = 1
+
+let g:vim_markdown_folding_disabled = 1
+
+let g:airline_theme='base16'
+
+
+" Modify The ColorScheme to show Italic and Bold in Markdown.
+" Italicise comments and Type's
+" And make Line numbers same as background
+
+function! s:base16_customize() abort
+    call Base16hi("htmlBold",    g:base16_gui0A, "", g:base16_cterm06, "", "bold", "") 
+    call Base16hi("markdownBold",    g:base16_gui0A, "", g:base16_cterm06, "", "bold", "") 
+    call Base16hi("markdownHeadingDelimiter",    g:base16_gui0A, "", g:base16_cterm08, "", "bold", "") 
+    call Base16hi("markdownH1",    g:base16_gui0A, "", g:base16_cterm08, "", "bold", "") 
+    call Base16hi("markdownH2",    g:base16_gui0A, "", g:base16_cterm08, "", "bold", "") 
+    call Base16hi("htmlItalic",  g:base16_gui0E, "", g:base16_cterm06, "", "italic", "")
+    call Base16hi("markdownItalic",  g:base16_gui0E, "", g:base16_cterm06, "", "italic", "")
+    call Base16hi("htmlUnderline",  g:base16_gui0E, "", g:base16_cterm06, "", "underline", "")
+    call Base16hi("Italic",        "", "", "", "", "italic", "")
+    call Base16hi("Comment",      g:base16_gui04, "", g:base16_cterm04, "", "italic", "")
+
+    call Base16hi("Type",         g:base16_gui0A, "", g:base16_cterm0A, "", "italic", "")
+    call Base16hi("htmlArg",         "", "", "", "", "italic", "")
+    call Base16hi("LineNr",        g:base16_gui03, g:base16_cterm00, g:base16_cterm03, g:base16_cterm00, "", "")
+    call Base16hi("CursorLineNr",  g:base16_gui04, g:base16_gui00, g:base16_cterm04, g:base16_cterm00, "", "")
+endfunction
+augroup on_change_colorschema
+    autocmd!
+    autocmd ColorScheme * call s:base16_customize()
+augroup END
+
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
