@@ -12,9 +12,6 @@ Contacts: khard & vdirsyncer
 News_Aggregator: newsbeuter
 Shell: zsh
 ```
-![alt tag](https://skozl.com/scrot0.png)
-![alt tag](https://skozl.com/scrot1.png)
-![alt tag](https://skozl.com/scrot2.png)
-![alt tag](https://skozl.com/scrot3.png)
-![alt tag](https://skozl.com/scrot4.png)
-![alt tag](https://skozl.com/scrot5.png)
+![Scrot 6](https://skozl.com/scrot6.png)
+![Scrot 7](https://skozl.com/scrot7.png)
+![Scrot 8](https://skozl.com/scrot8.png)
