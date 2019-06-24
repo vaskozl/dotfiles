@@ -16,10 +16,11 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 "" fancy ass ide stuff
 Plugin 'Shougo/deoplete.nvim'
+Plugin 'zchee/deoplete-clang'
+Plugin 'deoplete-plugins/deoplete-jedi'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'zchee/deoplete-clang'
 ""Plugin 'Valloric/YouCompleteMe'
 "Plugin 'SirVer/ultisnips'
 "Plugin 'honza/vim-snippets'
@@ -32,6 +33,9 @@ Plugin 'neomutt/neomutt.vim'
 "Plugin 'plasticboy/vim-markdown'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'chriskempson/base16-vim'
+Plugin 'benizi/vim-automkdir'
+Plugin 'w0rp/ale'
+Plugin 'vim-perl/vim-perl'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -164,11 +168,17 @@ autocmd BufWinLeave * call clearmatches()
 
 "Airline symbols
 let g:airline_powerline_fonts = 1
-
 let g:vim_markdown_folding_disabled = 1
-
 let g:airline_theme='base16'
+let g:airline#extensions#ale#enabled = 1
 
+let g:ale_set_loclist          = 0
+let g:ale_set_quickfix         = 1
+let g:ale_linters              = { 'perl': ['perl', 'perlcritic'] }
+let g:ale_perl_perl_options    = '-cW -Ilib -I./'
+let g:ale_perl_perlcritic_options    = '--stern'
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_lint_on_insert_leave = 1
 
 " Modify The ColorScheme to show Italic and Bold in Markdown.
 " Italicise comments and Type's
