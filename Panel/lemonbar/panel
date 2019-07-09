@@ -15,6 +15,7 @@ volume -f 'V%i' > "$PANEL_FIFO" &
 battery -i 60 -sf 'B%s %i' > "$PANEL_FIFO" &
 clock -i 60 -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
 ./music > "$PANEL_FIFO" &
+./temp > "$PANEL_FIFO" &
 #./load > "$PANEL_FIFO" &
 #essid -sf 'E%s' -i 30 -w wlp2s0 > "$PANEL_FIFO" &
 # ./signal > "$PANEL_FIFO" &
