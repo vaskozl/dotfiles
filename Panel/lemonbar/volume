@@ -1,0 +1,7 @@
+#!/bin/sh
+SINK_ID=9
+while true;do
+  volume=$(pamixer --sink $SINK_ID --get-volume)
+  echo "V$volume"
+  sleep 70
+done
