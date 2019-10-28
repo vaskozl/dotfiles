@@ -11,7 +11,7 @@ mkfifo -m 777 "$PANEL_FIFO"
 #bspc control --subscribe > "$PANEL_FIFO" &
 ./windows > "$PANEL_FIFO" &
 #echo "D`rpws current`" > "$PANEL_FIFO" &
-volume -f 'V%i' > "$PANEL_FIFO" &
+./volume > "$PANEL_FIFO" &
 battery -i 60 -sf 'B%s %i' > "$PANEL_FIFO" &
 clock -i 60 -sf 'Z%d %a %H:%M' > "$PANEL_FIFO" &
 ./music > "$PANEL_FIFO" &
