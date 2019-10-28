@@ -2,7 +2,7 @@
 PANEL_FIFO=/tmp/panel-fifo
 PANEL_HEIGHT=40
 
-FONT_FONT="OperatorMonoSSmLigBook-12"
+FONT_FONT="OperatorMonoLigBook-12"
 #ICON_FONT="FontAwesome-10"
 
 export PANEL_FIFO PANEL_HEIGHT PANEL_FONT_FAMILY FONT_FONT ICON_FONT 
