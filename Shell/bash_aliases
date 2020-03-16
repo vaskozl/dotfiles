@@ -1,5 +1,6 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
+alias ssh='kitty +kitten ssh'
 #bauerbill
 alias bb='baurebill'
 
@@ -23,7 +24,6 @@ alias ,.='!!'
 # mpv 
 alias mpvl='mpv --ytdl-format=43'
 alias mpvh='mpv --ytdl-format=137+251'
-alias mpv="mpv --ytdl-format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 
 alias serial='micronucleus --run ~/Sync/Programming/serial.hex'
 
@@ -66,7 +66,7 @@ alias home='cd /home/vasko'
 alias l='ls --color=auto'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias d='ls'
+alias d="kitty +kitten diff"
 alias dm='ls | more'
 alias n='clear'
 alias s='sudo'
