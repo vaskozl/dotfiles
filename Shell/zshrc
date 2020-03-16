@@ -86,5 +86,3 @@ bindkey '^[[1;5D' emacs-backward-word
 
 source /usr/share/fzf/key-bindings.zsh
 source ~/dotfiles/Shell/forgit.plugin.zsh
-
-archey4
