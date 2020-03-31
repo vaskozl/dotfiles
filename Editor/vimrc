@@ -10,16 +10,10 @@ Plugin 'tpope/vim-repeat'               " surround repeat
 Plugin 'tpope/vim-fugitive'             " git support in airline
 
 Plugin 'ervandew/supertab'              " Smart <Tab> => <C-n>
-Plugin 'Shougo/deoplete.nvim'           " Code completion
-Plugin 'zchee/deoplete-clang'           " C copletion
-Plugin 'deoplete-plugins/deoplete-jedi' " Python Completion
-
-Plugin 'bling/vim-airline'              " Airline (Powerline)
-Plugin 'vim-airline/vim-airline-themes' " Airline theme
-
 Plugin 'neomutt/neomutt.vim'            " Support for neomutt filetypes
 
 Plugin 'chriskempson/base16-vim'        " Base16 themes
+Plugin 'Yggdroot/indentLine'            " Indent guides
 
 Plugin 'w0rp/ale'                       " Linting Engine
 
@@ -45,7 +39,6 @@ set relativenumber                      " Show number relative to line
 set number                              " Shows current line instead of 0
 
 set isfname+=32                         " Read spaces in path's
-
 
 set clipboard^=unnamed                  " sync paste buffer and vims register
 set mouse=                              " disable mouse
@@ -110,6 +103,10 @@ let g:airline#extensions#ale#enabled = 1
 
 
 " Ale Linter Config
+hi link ALEWarning Debug
+hi link ALEError Error
+let g:ale_completion_enabled = 1
+" Ale Perl
 let g:ale_set_loclist             = 0
 let g:ale_set_quickfix            = 1
 let g:ale_linters                 = { 'perl': ['perl', 'perlcritic'] }
@@ -117,6 +114,12 @@ let g:ale_perl_perl_options       = '-cW -Ilib -I./'
 let g:ale_perl_perlcritic_options = '--stern'
 let g:ale_lint_on_text_changed    = 'normal'
 let g:ale_lint_on_insert_leave    = 1
+
+" Ale Rust
+let g:ale_rust_rls_toolchain = ''
+let g:ale_rust_rls_executable = 'rust-analyzer'
+let g:ale_linters = { 'rust': ['rls'] }
+let g:ale_fixers = { 'rust': ['rustfmt'] }
 
 " Modify The ColorScheme to show Italic and Bold in Markdown.
 " Italicise comments and Type's
