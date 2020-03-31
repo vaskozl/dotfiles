@@ -1,6 +1,7 @@
 #if you wanna change timezone just copy one of /usr/share/zoneinfo/place to /etc/localtime
 
-alias ssh='kitty +kitten ssh'
+alias ssh='kitty +kitten ssh -Y'
+alias vim='nvim'
 #bauerbill
 alias bb='baurebill'
 
