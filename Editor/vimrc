@@ -4,6 +4,7 @@ set enc=utf-8                           " use uft-8
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
+Plugin 'embear/vim-localvimrc'          " Read .lvmrc
 Plugin 'takac/vim-hardtime'             " Do not allow hjkl abuse
 Plugin 'tpope/vim-surround'             " ys cs ds commands
 Plugin 'tpope/vim-repeat'               " surround repeat
@@ -13,9 +14,10 @@ Plugin 'ervandew/supertab'              " Smart <Tab> => <C-n>
 Plugin 'neomutt/neomutt.vim'            " Support for neomutt filetypes
 
 Plugin 'chriskempson/base16-vim'        " Base16 themes
-Plugin 'Yggdroot/indentLine'            " Indent guides
+"Plugin 'Yggdroot/indentLine'            " Indent guides
 
 Plugin 'w0rp/ale'                       " Linting Engine
+Plugin 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 
 " Quality of Life
 Plugin 'benizi/vim-automkdir'           " Create subdirectiries 
@@ -23,7 +25,9 @@ Plugin 'junegunn/goyo.vim'              " Distraction Free editing
 Plugin 'vim-scripts/DrawIt'             " Draw boxes/lines
 Plugin 'rhysd/vim-grammarous'           " Grammer checking
 
+
 call vundle#end()                       " required
+
 filetype plugin indent on               " required
 filetype plugin on
 
@@ -40,7 +44,7 @@ set number                              " Shows current line instead of 0
 
 set isfname+=32                         " Read spaces in path's
 
-set clipboard^=unnamed                  " sync paste buffer and vims register
+set clipboard^=unnamedplus              " sync paste buffer and vims register
 set mouse=                              " disable mouse
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 1   " Change cursor to | when in insert
@@ -95,21 +99,18 @@ let g:deoplete#enable_at_startup = 1
 let g:SuperTabDefaultCompletionType    = '<C-n>'
 let g:SuperTabCrMapping                = 0
 
-" Airline symbols
-let g:airline_powerline_fonts = 1
-let g:vim_markdown_folding_disabled = 1
-let g:airline_theme='base16'
-let g:airline#extensions#ale#enabled = 1
-
-
 " Ale Linter Config
-hi link ALEWarning Debug
+map <leader>a :ALENext<CR>
+map <leader>g :ALEGoToDefinition<CR>
+map <leader>r :ALEFindReferences<CR>
+map <leader>h :ALEHover<CR>
 hi link ALEError Error
+hi link ALEWarning Debug
 let g:ale_completion_enabled = 1
 " Ale Perl
 let g:ale_set_loclist             = 0
 let g:ale_set_quickfix            = 1
-let g:ale_linters                 = { 'perl': ['perl', 'perlcritic'] }
+let g:ale_linters                 = {'perl': ['perl', 'perlcritic'], 'python': ['flake8', 'pylint']}
 let g:ale_perl_perl_options       = '-cW -Ilib -I./'
 let g:ale_perl_perlcritic_options = '--stern'
 let g:ale_lint_on_text_changed    = 'normal'
@@ -151,3 +152,6 @@ if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
+
+
+let g:localvimrc_whitelist='/home/vsz/convolutional-screenshot-classifier'
