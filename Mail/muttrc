@@ -94,12 +94,12 @@ bind index                      \Cy previous-line
 
 # Change from address
 bind index F noop
-macro index Fi \
-	":set sendmail='msmtp -a imperial'; set from='vasil.zlatanov15@imperial.ac.uk<enter>" \
-	":set from to vasil.zlatanov15@imperial.ac.uk"
+macro index Fa \
+	"set from='v@sko.ai<enter>" \
+	"set from to v@sko.ai'
 
 macro index Fd \
-	":set sendmail='msmtp'; set from='v@skozl.com<enter>" \
+	"set from='v@skozl.com<enter>" \
 	"set from to v@skozl.com'
 
 bind index d noop
@@ -124,9 +124,8 @@ macro index,pager gj "<change-folder>=dove/Spam<enter>" "Go to spam"
 macro index,pager gt "<change-folder>=dove/Trash<enter>" "Go to trash"
 macro index,pager gd "<change-folder>=dove/Drafts<enter>" "Go to drafts"
 
-
-# Clear new email notification
-#set status_format="$HOME/.mutt/notify.sh '%r %f (%L) [Msgs:%?M?%M/?%m%?n? New:%n?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?]'|"
+set new_mail_command="notify-send --icon='/usr/share/icons/hicolor/48x48/apps/xfce-newmail.png' \
+  'New Mail: %v' '%n new messages, %u unread.' &
 
 
 # Other config
@@ -176,3 +175,7 @@ bind index,pager \Cn sidebar-next
 
 # Open the highlighted mailbox
 bind index,pager \Co sidebar-open
+alias root Léane Dufis-Simon <root@leane.dev>
+
+# Forward messages as rfc822 instead of inline
+set mime_forward=yes
