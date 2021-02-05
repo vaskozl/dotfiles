@@ -1,32 +1,27 @@
 set nocompatible                        " be iMproved, required
 filetype off                            " required
-set enc=utf-8                           " use uft-8
-set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin()
-Plugin 'embear/vim-localvimrc'          " Read .lvmrc
-Plugin 'takac/vim-hardtime'             " Do not allow hjkl abuse
-Plugin 'tpope/vim-surround'             " ys cs ds commands
-Plugin 'tpope/vim-repeat'               " surround repeat
-Plugin 'tpope/vim-fugitive'             " git support in airline
+call plug#begin('~/.vim/plugged')
+Plug 'embear/vim-localvimrc'          " Read .lvmrc
+Plug 'takac/vim-hardtime'             " Do not allow hjkl abuse
+Plug 'tpope/vim-surround'             " ys cs ds commands
+Plug 'tpope/vim-repeat'               " surround repeat
+Plug 'tpope/vim-fugitive'             " git support in airline
 
-Plugin 'ervandew/supertab'              " Smart <Tab> => <C-n>
-Plugin 'neomutt/neomutt.vim'            " Support for neomutt filetypes
+Plug 'ervandew/supertab'              " Smart <Tab> => <C-n>
+Plug 'neomutt/neomutt.vim'            " Support for neomutt filetypes
 
-Plugin 'chriskempson/base16-vim'        " Base16 themes
-"Plugin 'Yggdroot/indentLine'            " Indent guides
+Plug 'chriskempson/base16-vim'        " Base16 themes
+Plug 'Yggdroot/indentLine'            " Indent guides
 
-Plugin 'w0rp/ale'                       " Linting Engine
-Plugin 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
+Plug 'w0rp/ale'                       " Linting Engine
 
 " Quality of Life
-Plugin 'benizi/vim-automkdir'           " Create subdirectiries 
-Plugin 'junegunn/goyo.vim'              " Distraction Free editing
-Plugin 'vim-scripts/DrawIt'             " Draw boxes/lines
-Plugin 'rhysd/vim-grammarous'           " Grammer checking
-
-
-call vundle#end()                       " required
+Plug 'benizi/vim-automkdir'           " Create subdirectiries 
+Plug 'junegunn/goyo.vim'              " Distraction Free editing
+Plug 'vim-scripts/DrawIt'             " Draw boxes/lines
+Plug 'rhysd/vim-grammarous'           " Grammer checking
+call plug#end()
 
 filetype plugin indent on               " required
 filetype plugin on
@@ -142,16 +137,17 @@ function! s:base16_customize() abort
     call Base16hi("LineNr",        g:base16_gui03, g:base16_cterm00, g:base16_cterm03, g:base16_cterm00, "", "")
     call Base16hi("CursorLineNr",  g:base16_gui04, g:base16_gui00, g:base16_cterm04, g:base16_cterm00, "", "")
 endfunction
-augroup on_change_colorschema
-    autocmd!
-    autocmd ColorScheme * call s:base16_customize()
-augroup END
+"augroup on_change_colorschema
+"    autocmd!
+"    autocmd ColorScheme * call s:base16_customize()
+"augroup END
 
 " Load base16_theme from ~/.vimrc_background
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
+
 
 
 let g:localvimrc_whitelist='/home/vsz/convolutional-screenshot-classifier'
