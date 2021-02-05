@@ -4,21 +4,18 @@ forgit::warn() { printf "%b[Warn]%b %s\n" '\e[0;33m' '\e[0m' "$@" >&2; }
 forgit::info() { printf "%b[Info]%b %s\n" '\e[0;32m' '\e[0m' "$@" >&2; }
 forgit::inside_work_tree() { git rev-parse --is-inside-work-tree >/dev/null; }
 
-# https://github.com/so-fancy/diff-so-fancy
-hash diff-so-fancy &>/dev/null && forgit_fancy='|diff-so-fancy'
-# https://github.com/wfxr/emoji-cli
-hash emojify &>/dev/null && forgit_emojify='|emojify'
+forgit_fancy='|delta --theme="base16"'
 
 # git commit viewer
 forgit::log() {
     forgit::inside_work_tree || return 1
     local cmd opts
-    cmd="echo {} |grep -Eo '[a-f0-9]+' |head -1 |xargs -I% git show --color=always % $* $forgit_fancy"
+    cmd="echo {} | perl -ne 'print \$1 if /([a-f0-9]+)/;'|xargs -I% git show --color=always % $* $forgit_fancy"
     opts="
         $FORGIT_FZF_DEFAULT_OPTS
         +s +m --tiebreak=index --exact --preview=\"$cmd\"
         --bind=\"enter:execute($cmd |LESS='-R' less)\"
-        --bind=\"ctrl-y:execute-silent(echo {} |grep -Eo '[a-f0-9]+' | head -1 | tr -d '\n' |${FORGIT_COPY_CMD:-pbcopy})\"
+        --bind=\"ctrl-y:execute-silent(echo {} |perl -ne 'print \$1 if /([a-f0-9]+)/;' | xclip -selection clipboard)\"
         $FORGIT_LOG_FZF_OPTS
     "
     eval "git log --graph --color=always --format='%C(auto)%h%d %s %C(black)%C(bold)%cr' $* $forgit_emojify" |
